@@ -119,8 +119,8 @@ table.sortable th.sort-desc::after { content: ' \25BC'; font-size: 10px; }
 .velocity-chart { display: inline-block; width: 80px; height: 30px; }
 
 /* Detail pages */
-.detail-header { margin-bottom: 24px; }
-.detail-header h1 { font-size: 24px; }
+.detail-header { margin-bottom: 24px; padding-top: 16px; }
+.detail-header h1 { font-size: 24px; margin-bottom: 8px; }
 .detail-header .meta { color: var(--subtext0); font-size: 14px; margin-top: 4px; }
 .detail-header .meta a { color: var(--blue); text-decoration: none; }
 .chart-container { background: var(--mantle); border-radius: 8px; padding: 16px; margin-bottom: 24px; border: 1px solid var(--surface0); }
