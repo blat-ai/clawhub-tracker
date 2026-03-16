@@ -1,0 +1,98 @@
+{% extends "base.html" %}
+{% block title %}Dashboard — ClawHub Tracker{% endblock %}
+
+{% block content %}
+<div class="page-header">
+    <h1>Platform Dashboard</h1>
+    <p class="subtitle">ClawHub skill marketplace health at a glance</p>
+</div>
+
+<div class="kpi-grid">
+    <div class="kpi-card">
+        <div class="label">Total Downloads</div>
+        <div class="value">{{ "{:,}".format(data.total_downloads) }}</div>
+        {% if data.weekly_growth|length >= 2 %}
+        {% set wow = data.weekly_growth[-1].wow_pct %}
+        <div class="change {% if wow and wow > 0 %}up{% elif wow and wow < 0 %}down{% else %}flat{% endif %}">
+            {% if wow is not none %}{{ "%+.1f"|format(wow) }}% WoW{% else %}&mdash;{% endif %}
+        </div>
+        {% endif %}
+        <div class="sparkline-container"><canvas id="sparkDl"></canvas></div>
+    </div>
+    <div class="kpi-card">
+        <div class="label">New Skills / Week</div>
+        <div class="value">{{ data.weekly_growth[-1].new_count if data.weekly_growth else 0 }}</div>
+        {% if data.weekly_growth|length >= 2 %}
+        {% set wow = data.weekly_growth[-1].wow_pct %}
+        <div class="change {% if wow and wow > 0 %}up{% elif wow and wow < 0 %}down{% else %}flat{% endif %}">
+            {% if wow is not none %}{{ "%+.1f"|format(wow) }}% WoW{% else %}&mdash;{% endif %}
+        </div>
+        {% endif %}
+    </div>
+    <div class="kpi-card">
+        <div class="label">Total Owners</div>
+        <div class="value">{{ "{:,}".format(data.total_owners) }}</div>
+    </div>
+    <div class="kpi-card">
+        <div class="label">Median DL/day (new skills)</div>
+        <div class="value">{{ data.median_dl_per_day if data.median_dl_per_day is not none else "N/A" }}</div>
+        {% if data.median_dl_per_day is not none and data.median_dl_per_day_prev is not none and data.median_dl_per_day_prev > 0 %}
+        {% set mom = ((data.median_dl_per_day - data.median_dl_per_day_prev) / data.median_dl_per_day_prev * 100) %}
+        <div class="change {% if mom > 0 %}up{% elif mom < 0 %}down{% else %}flat{% endif %}">
+            {{ "%+.1f"|format(mom) }}% MoM
+        </div>
+        {% endif %}
+    </div>
+</div>
+
+{% if data.weekly_growth %}
+<h2>Growth Timeline</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Week</th>
+            <th class="number">New Skills</th>
+            <th class="number">Cumulative</th>
+            <th class="number">WoW %</th>
+            <th>Trend</th>
+        </tr>
+    </thead>
+    <tbody>
+    {% for w in data.weekly_growth|reverse %}
+        <tr>
+            <td>{{ w.week_start[:10] }}</td>
+            <td class="number">{{ w.new_count }}</td>
+            <td class="number">{{ "{:,}".format(w.cumulative) }}</td>
+            <td class="number {% if w.wow_pct and w.wow_pct > 0 %}trend-up{% elif w.wow_pct and w.wow_pct < 0 %}trend-down{% endif %}">
+                {% if w.wow_pct is not none %}{{ "%+.1f"|format(w.wow_pct) }}%{% else %}&mdash;{% endif %}
+            </td>
+            <td>
+                {% if data.weekly_growth|length > 0 %}
+                {% set max_new = data.weekly_growth|map(attribute='new_count')|max %}
+                {% if max_new > 0 %}
+                <div class="bar" style="width:{{ (w.new_count / max_new * 100)|int }}%"></div>
+                {% endif %}
+                {% endif %}
+            </td>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
+{% endif %}
+{% endblock %}
+
+{% block scripts %}
+<script>
+{% if data.download_sparkline %}
+new Chart(document.getElementById('sparkDl'), {
+    type: 'line',
+    data: { labels: {{ data.download_sparkline|map('string')|list|tojson }}, datasets: [{
+        data: {{ data.download_sparkline|tojson }},
+        borderColor: '#89b4fa', borderWidth: 2, fill: false, pointRadius: 0, tension: 0.3
+    }]},
+    options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false }},
+        scales: { x: { display: false }, y: { display: false }}}
+});
+{% endif %}
+</script>
+{% endblock %}

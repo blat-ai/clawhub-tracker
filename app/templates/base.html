@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}ClawHub Tracker{% endblock %}</title>
+    <link rel="stylesheet" href="{{ static_prefix }}static/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+    {% block head_extra %}{% endblock %}
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <a href="{{ static_prefix }}index.html" class="logo">ClawHub Tracker</a>
+            <a href="{{ static_prefix }}index.html" {% if active_page == 'dashboard' %}class="active"{% endif %}>Dashboard</a>
+            <a href="{{ static_prefix }}rising.html" {% if active_page == 'rising' %}class="active"{% endif %}>Rising</a>
+            <a href="{{ static_prefix }}leaderboard.html" {% if active_page == 'leaderboard' %}class="active"{% endif %}>Leaderboard</a>
+            <a href="{{ static_prefix }}cohorts.html" {% if active_page == 'cohorts' %}class="active"{% endif %}>Cohorts</a>
+        </div>
+    </nav>
+
+    <main class="container">
+        {% block content %}{% endblock %}
+    </main>
+
+    <footer>
+        <div class="container">
+            Last updated: {{ generated_at }} &middot;
+            <a href="{{ static_prefix }}api/index.json">JSON API</a>
+        </div>
+    </footer>
+
+    {% block scripts %}{% endblock %}
+</body>
+</html>

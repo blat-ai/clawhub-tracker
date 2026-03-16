@@ -1,0 +1,91 @@
+{% extends "base.html" %}
+{% block title %}{{ data.display_name }} — ClawHub Tracker{% endblock %}
+
+{% block content %}
+<div class="detail-header">
+    <h1>{{ data.display_name }}</h1>
+    <p class="meta">
+        by <a href="{{ static_prefix }}owners/{{ data.owner_handle }}.html">{{ data.owner_handle }}</a>
+        &middot; {{ data.stat_downloads|default(0) }} downloads
+        &middot; {{ data.stat_stars|default(0) }} stars
+        {% if data.velocity %}&middot; {{ data.velocity }} DL/day{% endif %}
+    </p>
+    {% if data.summary %}<p class="meta">{{ data.summary }}</p>{% endif %}
+</div>
+
+<div class="stat-grid">
+    <div class="stat-item">
+        <div class="label">Downloads</div>
+        <div class="value">{{ "{:,}".format(data.stat_downloads|default(0)) }}</div>
+    </div>
+    <div class="stat-item">
+        <div class="label">Stars</div>
+        <div class="value">{{ "{:,}".format(data.stat_stars|default(0)) }}</div>
+    </div>
+    <div class="stat-item">
+        <div class="label">DL/day</div>
+        <div class="value">{{ data.velocity if data.velocity else "N/A" }}</div>
+    </div>
+    <div class="stat-item">
+        <div class="label">Versions</div>
+        <div class="value">{{ data.version_releases|length + 1 }}</div>
+    </div>
+</div>
+
+{% if data.history %}
+<div class="chart-container">
+    <h3>Downloads Over Time</h3>
+    <canvas id="dlChart" height="250"></canvas>
+</div>
+<div class="chart-container">
+    <h3>Stars Over Time</h3>
+    <canvas id="starsChart" height="200"></canvas>
+</div>
+{% endif %}
+
+{% if data.version_releases %}
+<h3>Version Releases</h3>
+<table>
+    <thead><tr><th>Version</th><th>Date</th><th>Changelog</th></tr></thead>
+    <tbody>
+    {% for v in data.version_releases|reverse %}
+        <tr>
+            <td>{{ v.version_number }}</td>
+            <td>{{ v.run_date[:10] if v.run_date else "?" }}</td>
+            <td>{{ v.changelog or "—" }}</td>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
+{% endif %}
+{% endblock %}
+
+{% block scripts %}
+{% if data.history %}
+<script>
+const history = {{ data.history|tojson }};
+const labels = history.map(h => h.run_date ? h.run_date.substring(0, 10) : '');
+const dlData = history.map(h => h.downloads);
+const starData = history.map(h => h.stars);
+
+const chartOpts = (color) => ({
+    responsive: true, plugins: { legend: { display: false }},
+    scales: {
+        x: { ticks: { color: '#a6adc8', maxRotation: 45 }, grid: { color: '#313244' }},
+        y: { ticks: { color: '#a6adc8' }, grid: { color: '#313244' }}
+    }
+});
+
+new Chart(document.getElementById('dlChart'), {
+    type: 'line',
+    data: { labels, datasets: [{ data: dlData, borderColor: '#89b4fa', borderWidth: 2, fill: false, tension: 0.3, pointRadius: 2 }]},
+    options: chartOpts('#89b4fa')
+});
+new Chart(document.getElementById('starsChart'), {
+    type: 'line',
+    data: { labels, datasets: [{ data: starData, borderColor: '#f9e2af', borderWidth: 2, fill: false, tension: 0.3, pointRadius: 2 }]},
+    options: chartOpts('#f9e2af')
+});
+</script>
+{% endif %}
+{% endblock %}

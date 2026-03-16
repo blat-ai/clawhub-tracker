@@ -1,0 +1,87 @@
+{% extends "base.html" %}
+{% block title %}Leaderboard — ClawHub Tracker{% endblock %}
+
+{% block content %}
+<div class="page-header">
+    <h1>Leaderboard</h1>
+    <p class="subtitle">Top skills by downloads and acceleration</p>
+</div>
+
+<div class="tabs">
+    <button class="tab-btn active" onclick="showTab('alltime', this)">All Time</button>
+    <button class="tab-btn" onclick="showTab('fastest', this)">Fastest Growing</button>
+</div>
+
+<div id="tab-alltime" class="tab-content active">
+<table>
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Skill</th>
+            <th>Owner</th>
+            <th class="number">Downloads</th>
+            <th class="number">Velocity</th>
+            <th>Trend</th>
+        </tr>
+    </thead>
+    <tbody>
+    {% for s in data.all_time %}
+        <tr>
+            <td>{{ loop.index }}</td>
+            <td><a href="skills/{{ s.slug }}.html">{{ s.display_name }}</a></td>
+            <td>{{ s.owner_handle }}</td>
+            <td class="number">{{ "{:,}".format(s.stat_downloads) }}</td>
+            <td class="number">{{ s.velocity if s.velocity is not none else "N/A" }}</td>
+            <td class="trend-{{ s.trend }}">
+                {% if s.trend == 'up' %}&#9650;{% elif s.trend == 'down' %}&#9660;{% else %}&#9644;{% endif %}
+            </td>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
+</div>
+
+<div id="tab-fastest" class="tab-content">
+{% if data.fastest_growing %}
+<table>
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Skill</th>
+            <th>Owner</th>
+            <th class="number">Downloads</th>
+            <th class="number">Accel %</th>
+            <th>Trend</th>
+        </tr>
+    </thead>
+    <tbody>
+    {% for s in data.fastest_growing %}
+        <tr>
+            <td>{{ loop.index }}</td>
+            <td><a href="skills/{{ s.slug }}.html">{{ s.display_name }}</a></td>
+            <td>{{ s.owner_handle }}</td>
+            <td class="number">{{ "{:,}".format(s.stat_downloads) }}</td>
+            <td class="number trend-up">{{ "%+.1f"|format(s.acceleration_pct) }}%</td>
+            <td class="trend-{{ s.trend }}">
+                {% if s.trend == 'up' %}&#9650;{% elif s.trend == 'down' %}&#9660;{% else %}&#9644;{% endif %}
+            </td>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
+{% else %}
+<div class="empty-state">Needs at least 4 scrape runs to compute acceleration</div>
+{% endif %}
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+function showTab(id, btn) {
+    document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
+    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+    document.getElementById('tab-' + id).classList.add('active');
+    btn.classList.add('active');
+}
+</script>
+{% endblock %}

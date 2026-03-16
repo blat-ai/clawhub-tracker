@@ -1,0 +1,89 @@
+{% extends "base.html" %}
+{% block title %}Cohorts — ClawHub Tracker{% endblock %}
+{% block head_extra %}
+<script src="https://cdn.jsdelivr.net/npm/@sgratzl/chartjs-chart-boxplot@4"></script>
+{% endblock %}
+
+{% block content %}
+<div class="page-header">
+    <h1>Cohort Analysis</h1>
+    <p class="subtitle">Download velocity distribution by creation month (DL/day, normalized for age)</p>
+</div>
+
+{% if data.cohorts %}
+<div class="chart-container">
+    <h3>Distribution by Cohort</h3>
+    <canvas id="boxplot" height="300"></canvas>
+</div>
+
+<table>
+    <thead>
+        <tr>
+            <th>Cohort</th>
+            <th class="number">Skills</th>
+            <th class="number">P25</th>
+            <th class="number">P50</th>
+            <th class="number">P75</th>
+            <th class="number">P90</th>
+            <th class="number">P99</th>
+            <th class="number">Avg DL/day</th>
+            <th class="number">Star/DL</th>
+        </tr>
+    </thead>
+    <tbody>
+    {% for c in data.cohorts %}
+        <tr>
+            <td>{{ c.month }}</td>
+            <td class="number">{{ "{:,}".format(c.skill_count) }}</td>
+            <td class="number">{{ c.p25 }}</td>
+            <td class="number">{{ c.p50 }}</td>
+            <td class="number">{{ c.p75 }}</td>
+            <td class="number">{{ c.p90 }}</td>
+            <td class="number">{{ c.p99 }}</td>
+            <td class="number">{{ c.avg_dl_per_day }}</td>
+            <td class="number">{{ "%.4f"|format(c.star_dl_ratio) }}</td>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
+{% else %}
+<div class="empty-state">No cohort data available</div>
+{% endif %}
+{% endblock %}
+
+{% block scripts %}
+{% if data.cohorts %}
+<script>
+const cohorts = {{ data.cohorts|tojson }};
+new Chart(document.getElementById('boxplot'), {
+    type: 'boxplot',
+    data: {
+        labels: cohorts.map(c => c.month),
+        datasets: [{
+            label: 'DL/day',
+            backgroundColor: 'rgba(137, 180, 250, 0.2)',
+            borderColor: '#89b4fa',
+            borderWidth: 1,
+            outlierColor: '#cba6f7',
+            data: cohorts.map(c => ({
+                min: c.p25,
+                q1: c.p25,
+                median: c.p50,
+                q3: c.p75,
+                max: c.p90,
+                outliers: [c.p99]
+            }))
+        }]
+    },
+    options: {
+        responsive: true,
+        plugins: { legend: { display: false }},
+        scales: {
+            x: { ticks: { color: '#a6adc8' }, grid: { color: '#313244' }},
+            y: { ticks: { color: '#a6adc8' }, grid: { color: '#313244' }}
+        }
+    }
+});
+</script>
+{% endif %}
+{% endblock %}

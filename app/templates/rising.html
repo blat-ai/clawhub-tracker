@@ -1,0 +1,78 @@
+{% extends "base.html" %}
+{% block title %}Rising Skills — ClawHub Tracker{% endblock %}
+
+{% block content %}
+<div class="page-header">
+    <h1>Rising Skills</h1>
+    <p class="subtitle">Skills gaining the most momentum right now</p>
+</div>
+
+{% if data.skills %}
+<div class="filters">
+    <button class="filter-btn active" onclick="filterAge(30, this)">30 days</button>
+    <button class="filter-btn" onclick="filterAge(14, this)">14 days</button>
+    <button class="filter-btn" onclick="filterAge(7, this)">7 days</button>
+</div>
+
+<table id="rising-table">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Skill</th>
+            <th>Owner</th>
+            <th class="number">DL/day</th>
+            <th class="number">Delta</th>
+            <th class="number">Downloads</th>
+            <th>Velocity</th>
+            <th>Age</th>
+        </tr>
+    </thead>
+    <tbody>
+    {% for s in data.skills %}
+        <tr data-created="{{ s.created_at }}">
+            <td>{{ loop.index }}</td>
+            <td><a href="skills/{{ s.slug }}.html">{{ s.display_name }}</a></td>
+            <td>{{ s.owner_handle }}</td>
+            <td class="number">{{ s.dl_per_day }}</td>
+            <td class="number trend-up">+{{ "{:,}".format(s.delta) }}</td>
+            <td class="number">{{ "{:,}".format(s.stat_downloads) }}</td>
+            <td><canvas class="velocity-chart" id="vc-{{ loop.index0 }}"></canvas></td>
+            <td>{{ s.created_at[:10] if s.created_at else "?" }}</td>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
+{% else %}
+<div class="empty-state">Needs at least 2 scrape runs to compute velocity</div>
+{% endif %}
+{% endblock %}
+
+{% block scripts %}
+<script>
+const velocityData = {{ data.skills|map(attribute='velocity_chart')|list|tojson }};
+velocityData.forEach((vd, i) => {
+    const el = document.getElementById('vc-' + i);
+    if (el && vd.length > 1) {
+        new Chart(el, {
+            type: 'line',
+            data: { labels: vd.map((_, j) => j), datasets: [{
+                data: vd, borderColor: '#a6e3a1', borderWidth: 1.5, fill: false, pointRadius: 0, tension: 0.3
+            }]},
+            options: { responsive: false, maintainAspectRatio: false, plugins: { legend: { display: false }},
+                scales: { x: { display: false }, y: { display: false }}}
+        });
+    }
+});
+
+function filterAge(days, btn) {
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    const cutoff = new Date();
+    cutoff.setDate(cutoff.getDate() - days);
+    document.querySelectorAll('#rising-table tbody tr').forEach(tr => {
+        const created = new Date(tr.dataset.created);
+        tr.style.display = created >= cutoff ? '' : 'none';
+    });
+}
+</script>
+{% endblock %}

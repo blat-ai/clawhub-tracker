@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+{% block title %}{{ data.handle }} — ClawHub Tracker{% endblock %}
+
+{% block content %}
+<div class="detail-header">
+    <h1>{{ data.handle }}</h1>
+    <p class="meta">{{ data.skill_count }} skills &middot; {{ "{:,}".format(data.total_downloads) }} total downloads &middot; {{ data.avg_dl_per_day }} avg DL/day</p>
+</div>
+
+<div class="stat-grid">
+    <div class="stat-item">
+        <div class="label">Total Downloads</div>
+        <div class="value">{{ "{:,}".format(data.total_downloads) }}</div>
+    </div>
+    <div class="stat-item">
+        <div class="label">Skills</div>
+        <div class="value">{{ data.skill_count }}</div>
+    </div>
+    <div class="stat-item">
+        <div class="label">Avg DL/day</div>
+        <div class="value">{{ data.avg_dl_per_day }}</div>
+    </div>
+</div>
+
+{% if data.download_trajectory|length > 1 %}
+<div class="chart-container">
+    <h3>Combined Download Trajectory</h3>
+    <canvas id="trajChart" height="250"></canvas>
+</div>
+{% endif %}
+
+<h3>Skills</h3>
+<ul class="skill-list">
+{% for s in data.skills %}
+    <li>
+        <a href="{{ static_prefix }}skills/{{ s.slug }}.html">{{ s.display_name }}</a>
+        <span class="stats">{{ "{:,}".format(s.stat_downloads) }} DL &middot; {{ s.stat_stars }} &#9733;</span>
+    </li>
+{% endfor %}
+</ul>
+{% endblock %}
+
+{% block scripts %}
+{% if data.download_trajectory|length > 1 %}
+<script>
+const traj = {{ data.download_trajectory|tojson }};
+new Chart(document.getElementById('trajChart'), {
+    type: 'line',
+    data: { labels: traj.map((_, i) => 'Run ' + (i + 1)), datasets: [{
+        data: traj, borderColor: '#a6e3a1', borderWidth: 2, fill: false, tension: 0.3, pointRadius: 2
+    }]},
+    options: {
+        responsive: true, plugins: { legend: { display: false }},
+        scales: {
+            x: { ticks: { color: '#a6adc8' }, grid: { color: '#313244' }},
+            y: { ticks: { color: '#a6adc8' }, grid: { color: '#313244' }}
+        }
+    }
+});
+</script>
+{% endif %}
+{% endblock %}
