@@ -644,6 +644,8 @@ def owner_detail_data(
         """
         SELECT
             SUM(stat_downloads) as total_downloads,
+            SUM(stat_stars) as total_stars,
+            SUM(stat_installs_all_time) as total_installs,
             COUNT(*) as skill_count,
             AVG(stat_downloads / GREATEST(DATE_DIFF('day', created_at, ?), 1))
                 as avg_dl_per_day
@@ -671,18 +673,21 @@ def owner_detail_data(
             "stat_downloads": r[2],
             "stat_stars": r[3],
             "created_at": r[4].isoformat() if r[4] else None,
+            "days_old": (now.date() - r[4].date()).days if r[4] else None,
         }
         for r in skills_rows
     ]
 
-    # Download trajectory across runs
+    # Download + star trajectory across runs
     traj_rows = conn.execute(
         """
-        SELECT r.id, SUM(s.stat_downloads) as total_dl
+        SELECT r.id, r.started_at,
+               SUM(s.stat_downloads) as total_dl,
+               SUM(s.stat_stars) as total_stars
         FROM skill_snapshots s
         JOIN scrape_runs r ON s.scrape_run_id = r.id
         WHERE s.owner_handle = ? AND r.status = 'completed'
-        GROUP BY r.id
+        GROUP BY r.id, r.started_at
         ORDER BY r.id
     """,
         [handle],
@@ -691,10 +696,20 @@ def owner_detail_data(
     return {
         "handle": handle,
         "total_downloads": summary[0] or 0,
-        "skill_count": summary[1],
-        "avg_dl_per_day": round(float(summary[2]), 1) if summary[2] else 0.0,
+        "total_stars": summary[1] or 0,
+        "total_installs": summary[2] or 0,
+        "skill_count": summary[3],
+        "avg_dl_per_day": round(float(summary[4]), 1) if summary[4] else 0.0,
         "skills": skills,
-        "download_trajectory": [r[1] for r in traj_rows],
+        "trajectory": [
+            {
+                "run_date": r[1].isoformat() if r[1] else None,
+                "downloads": r[2],
+                "stars": r[3],
+            }
+            for r in traj_rows
+        ],
+        "download_trajectory": [r[2] for r in traj_rows],
     }
 
 

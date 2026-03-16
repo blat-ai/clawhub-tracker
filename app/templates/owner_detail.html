@@ -4,7 +4,12 @@
 {% block content %}
 <div class="detail-header">
     <h1>{{ data.handle }}</h1>
-    <p class="meta">{{ data.skill_count }} skills &middot; {{ "{:,}".format(data.total_downloads) }} total downloads &middot; {{ data.avg_dl_per_day }} avg DL/day</p>
+    <p class="meta">
+        <span class="meta-item"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg> {{ data.skill_count }} skills</span>
+        <span class="meta-item"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg> {{ "{:,}".format(data.total_downloads) }}</span>
+        <span class="meta-item"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> {{ "{:,}".format(data.total_stars) }}</span>
+        <span class="meta-item"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg> {{ data.avg_dl_per_day }} avg DL/day</span>
+    </p>
 </div>
 
 <div class="stat-grid">
@@ -13,8 +18,16 @@
         <div class="value">{{ "{:,}".format(data.total_downloads) }}</div>
     </div>
     <div class="stat-item">
+        <div class="label">Total Stars</div>
+        <div class="value">{{ "{:,}".format(data.total_stars) }}</div>
+    </div>
+    <div class="stat-item">
         <div class="label">Skills</div>
         <div class="value">{{ data.skill_count }}</div>
+    </div>
+    <div class="stat-item">
+        <div class="label">Installs</div>
+        <div class="value">{{ "{:,}".format(data.total_installs) }}</div>
     </div>
     <div class="stat-item">
         <div class="label">Avg DL/day</div>
@@ -22,21 +35,21 @@
     </div>
 </div>
 
-{% if data.download_trajectory|length > 1 %}
+{% if data.trajectory|length > 1 %}
 <div class="chart-container">
-    <h3>Combined Download Trajectory</h3>
-    <canvas id="trajChart" height="250"></canvas>
+    <h3>Growth Trajectory</h3>
+    <canvas id="trajChart" height="200"></canvas>
 </div>
 {% endif %}
 
-<h3>Skills</h3>
+<h3 style="margin-bottom:12px;">Skills</h3>
 <table class="sortable">
     <thead>
         <tr>
             <th>Skill</th>
             <th class="number">Downloads</th>
             <th class="number">Stars</th>
-            <th>Created</th>
+            <th class="number">Age</th>
         </tr>
     </thead>
     <tbody>
@@ -45,7 +58,7 @@
             <td><a href="{{ static_prefix }}skills/{{ s.slug }}.html">{{ s.display_name }}</a></td>
             <td class="number">{{ "{:,}".format(s.stat_downloads) }}</td>
             <td class="number">{{ s.stat_stars }}</td>
-            <td>{{ s.created_at[:10] if s.created_at else "?" }}</td>
+            <td class="number">{{ s.days_old if s.days_old is not none else "?" }}d</td>
         </tr>
     {% endfor %}
     </tbody>
@@ -53,19 +66,96 @@
 {% endblock %}
 
 {% block scripts %}
-{% if data.download_trajectory|length > 1 %}
+{% if data.trajectory|length > 1 %}
 <script>
-const traj = {{ data.download_trajectory|tojson }};
-new Chart(document.getElementById('trajChart'), {
+const traj = {{ data.trajectory|tojson }};
+const labels = traj.map(t => t.run_date ? t.run_date.substring(0, 10) : '');
+const dlData = traj.map(t => t.downloads);
+const starData = traj.map(t => t.stars);
+
+const ctx = document.getElementById('trajChart').getContext('2d');
+
+const dlGrad = ctx.createLinearGradient(0, 0, 0, 350);
+dlGrad.addColorStop(0, 'rgba(137, 180, 250, 0.25)');
+dlGrad.addColorStop(1, 'rgba(137, 180, 250, 0.02)');
+
+const starGrad = ctx.createLinearGradient(0, 0, 0, 350);
+starGrad.addColorStop(0, 'rgba(249, 226, 175, 0.20)');
+starGrad.addColorStop(1, 'rgba(249, 226, 175, 0.02)');
+
+new Chart(ctx, {
     type: 'line',
-    data: { labels: traj.map((_, i) => 'Run ' + (i + 1)), datasets: [{
-        data: traj, borderColor: '#a6e3a1', borderWidth: 2, fill: false, tension: 0.3, pointRadius: 2
-    }]},
+    data: {
+        labels,
+        datasets: [
+            {
+                label: 'Downloads',
+                data: dlData,
+                borderColor: '#89b4fa',
+                backgroundColor: dlGrad,
+                borderWidth: 2.5,
+                fill: true,
+                tension: 0.4,
+                pointRadius: 4,
+                pointBackgroundColor: '#89b4fa',
+                pointBorderColor: '#1e1e2e',
+                pointBorderWidth: 2,
+                pointHoverRadius: 6,
+                yAxisID: 'y'
+            },
+            {
+                label: 'Stars',
+                data: starData,
+                borderColor: '#f9e2af',
+                backgroundColor: starGrad,
+                borderWidth: 2.5,
+                fill: true,
+                tension: 0.4,
+                pointRadius: 4,
+                pointBackgroundColor: '#f9e2af',
+                pointBorderColor: '#1e1e2e',
+                pointBorderWidth: 2,
+                pointHoverRadius: 6,
+                yAxisID: 'y1'
+            }
+        ]
+    },
     options: {
-        responsive: true, plugins: { legend: { display: false }},
+        responsive: true,
+        interaction: { mode: 'index', intersect: false },
+        plugins: {
+            legend: {
+                labels: { color: '#a6adc8', usePointStyle: true, pointStyle: 'circle', padding: 16, font: { size: 13 } }
+            },
+            tooltip: {
+                backgroundColor: '#313244',
+                titleColor: '#cdd6f4',
+                bodyColor: '#a6adc8',
+                borderColor: '#45475a',
+                borderWidth: 1,
+                cornerRadius: 8,
+                padding: 10,
+                displayColors: true,
+                usePointStyle: true
+            }
+        },
         scales: {
-            x: { ticks: { color: '#a6adc8' }, grid: { color: '#313244' }},
-            y: { ticks: { color: '#a6adc8' }, grid: { color: '#313244' }}
+            x: {
+                ticks: { color: '#585b70', maxRotation: 45, font: { size: 13 } },
+                grid: { color: 'rgba(49, 50, 68, 0.5)', lineWidth: 0.5 }
+            },
+            y: {
+                position: 'left',
+                ticks: { color: '#89b4fa', font: { size: 13 } },
+                grid: { color: 'rgba(49, 50, 68, 0.5)', lineWidth: 0.5 },
+                title: { display: true, text: 'Downloads', color: '#89b4fa', font: { size: 14 } }
+            },
+            y1: {
+                position: 'right',
+                ticks: { color: '#f9e2af', font: { size: 13 } },
+                grid: { drawOnChartArea: false },
+                title: { display: true, text: 'Stars', color: '#f9e2af', font: { size: 14 } }
+            }
         }
     }
 });
