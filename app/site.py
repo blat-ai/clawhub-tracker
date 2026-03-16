@@ -72,10 +72,15 @@ def generate(db_path: str | Path | None = None, build_dir: Path | None = None) -
         conn.close()
         return
 
-    # Wipe and recreate build directory
+    # Wipe build directory contents (keep dir itself for Docker volume mounts)
     if build_dir.exists():
-        shutil.rmtree(build_dir)
-    build_dir.mkdir(parents=True)
+        for child in build_dir.iterdir():
+            if child.is_dir():
+                shutil.rmtree(child)
+            else:
+                child.unlink()
+    else:
+        build_dir.mkdir(parents=True)
 
     # Copy static assets
     static_dest = build_dir / "static"
