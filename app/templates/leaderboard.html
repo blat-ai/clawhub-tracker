@@ -29,7 +29,7 @@
         <tr>
             <td>{{ loop.index }}</td>
             <td><a href="skills/{{ s.slug }}.html">{{ s.display_name }}</a></td>
-            <td>{{ s.owner_handle }}</td>
+            <td><a href="owners/{{ s.owner_handle|lower|replace(' ', '-') }}.html">{{ s.owner_handle }}</a></td>
             <td class="number">{{ "{:,}".format(s.stat_downloads) }}</td>
             <td class="number">{{ s.velocity if s.velocity is not none else "N/A" }}</td>
             <td class="trend-{{ s.trend }}">
@@ -59,7 +59,7 @@
         <tr>
             <td>{{ loop.index }}</td>
             <td><a href="skills/{{ s.slug }}.html">{{ s.display_name }}</a></td>
-            <td>{{ s.owner_handle }}</td>
+            <td><a href="owners/{{ s.owner_handle|lower|replace(' ', '-') }}.html">{{ s.owner_handle }}</a></td>
             <td class="number">{{ "{:,}".format(s.stat_downloads) }}</td>
             <td class="number trend-up">{{ "%+.1f"|format(s.acceleration_pct) }}%</td>
             <td class="trend-{{ s.trend }}">

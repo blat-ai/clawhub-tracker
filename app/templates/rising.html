@@ -32,7 +32,7 @@
         <tr data-created="{{ s.created_at }}">
             <td>{{ loop.index }}</td>
             <td><a href="skills/{{ s.slug }}.html">{{ s.display_name }}</a></td>
-            <td>{{ s.owner_handle }}</td>
+            <td><a href="owners/{{ s.owner_handle|lower|replace(' ', '-') }}.html">{{ s.owner_handle }}</a></td>
             <td class="number">{{ s.dl_per_day }}</td>
             <td class="number trend-up">+{{ "{:,}".format(s.delta) }}</td>
             <td class="number">{{ "{:,}".format(s.stat_downloads) }}</td>
