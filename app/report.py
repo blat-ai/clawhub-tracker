@@ -110,8 +110,15 @@ def growth_timeline(conn: duckdb.DuckDBPyConnection) -> str:
 # ---------------------------------------------------------------------------
 
 
-def cohort_quality(conn: duckdb.DuckDBPyConnection) -> str:
-    rows = conn.execute("""
+def cohort_quality(
+    conn: duckdb.DuckDBPyConnection,
+    now: datetime | None = None,
+) -> str:
+    if now is None:
+        now = datetime.now(timezone.utc)
+
+    rows = conn.execute(
+        """
         SELECT
             DATE_TRUNC('month', created_at) AS month,
             COUNT(*) AS skills,
@@ -119,27 +126,45 @@ def cohort_quality(conn: duckdb.DuckDBPyConnection) -> str:
             ROUND(AVG(stat_stars), 1) AS avg_stars,
             ROUND(
                 CASE WHEN SUM(stat_downloads) > 0
-                     THEN SUM(stat_installs_all_time) * 100.0 / SUM(stat_downloads)
+                     THEN SUM(stat_installs_all_time) * 100.0
+                          / SUM(stat_downloads)
                      ELSE 0 END, 1
-            ) AS install_pct
+            ) AS install_pct,
+            ROUND(AVG(
+                CASE WHEN GREATEST(
+                    DATE_DIFF('day', created_at, ?::TIMESTAMP), 1
+                ) > 0
+                THEN stat_downloads * 1.0
+                     / GREATEST(
+                         DATE_DIFF('day', created_at, ?::TIMESTAMP), 1
+                     )
+                ELSE 0 END
+            ), 1) AS avg_dl_per_day
         FROM current_skills
         WHERE created_at IS NOT NULL
         GROUP BY month
         ORDER BY month
-    """).fetchall()
+    """,
+        [now, now],
+    ).fetchall()
 
     if not rows:
-        return _header("COHORT QUALITY ANALYSIS") + "\n  No created_at data available."
+        return (
+            _header("COHORT QUALITY ANALYSIS")
+            + "\n  No created_at data available."
+        )
 
     lines = [_header("COHORT QUALITY ANALYSIS")]
     lines.append(
-        f"  {'Cohort':<12} {'Skills':>6} {'Avg DL':>10} {'Avg Stars':>10} {'Install%':>9}"
+        f"  {'Cohort':<10} {'Skills':>6} {'Avg DL':>8}"
+        f" {'DL/day':>7} {'Stars':>6} {'Inst%':>6}"
     )
-    lines.append("  " + "-" * 51)
-    for month, skills, avg_dl, avg_stars, install_pct in rows:
+    lines.append("  " + "-" * 47)
+    for month, skills, avg_dl, avg_stars, install_pct, dl_day in rows:
         label = month.strftime("%Y-%m")
         lines.append(
-            f"  {label:<12} {skills:>6,} {avg_dl:>10,.0f} {avg_stars:>10.1f} {install_pct:>8.1f}%"
+            f"  {label:<10} {skills:>6,} {avg_dl:>8,.0f}"
+            f" {dl_day:>7.1f} {avg_stars:>6.1f} {install_pct:>5.1f}%"
         )
     return "\n".join(lines)
 

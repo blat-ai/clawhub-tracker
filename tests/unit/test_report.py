@@ -130,13 +130,41 @@ class TestCohortQuality:
                 ),
             ],
         )
-        out = cohort_quality(db)
+        now = _ts(2026, 3, 16)
+        out = cohort_quality(db, now=now)
         assert "COHORT QUALITY ANALYSIS" in out
         assert "2026-01" in out
         assert "2026-02" in out
         assert "2026-03" in out
         # Jan avg_dl should be 4000 = (5000+3000)/2
         assert "4,000" in out
+        # DL/day column should be present
+        assert "DL/day" in out
+
+    def test_dl_per_day_normalizes_age(self, db):
+        """Newer cohort with fewer raw downloads can have higher DL/day."""
+        _seed(
+            db,
+            lambda rid: [
+                # Old skill: 600 downloads over 60 days = 10 dl/day
+                _make(
+                    rid, "old", created_at=_ts(2026, 1, 15),
+                    stat_downloads=600,
+                ),
+                # New skill: 150 downloads over 15 days = 10 dl/day
+                _make(
+                    rid, "new", created_at=_ts(2026, 3, 1),
+                    stat_downloads=150,
+                ),
+            ],
+        )
+        now = _ts(2026, 3, 16)
+        out = cohort_quality(db, now=now)
+        # Both should show similar dl/day despite 4x raw difference
+        assert "DL/day" in out
+        # Raw avg_dl: Jan=600, Mar=150 (very different)
+        # DL/day: Jan=10.0, Mar=10.0 (same velocity)
+        assert "10.0" in out
 
     def test_no_data(self, db):
         _seed(db, lambda rid: [_make(rid, "x", created_at=None)])
