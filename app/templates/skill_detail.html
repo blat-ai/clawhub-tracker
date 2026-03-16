@@ -5,12 +5,18 @@
 <div class="detail-header">
     <h1>{{ data.display_name }}</h1>
     <p class="meta">
-        by <a href="{{ static_prefix }}owners/{{ data.owner_handle }}.html">{{ data.owner_handle }}</a>
-        &middot; {{ data.stat_downloads|default(0) }} downloads
-        &middot; {{ data.stat_stars|default(0) }} stars
-        {% if data.velocity %}&middot; {{ data.velocity }} DL/day{% endif %}
+        <span class="meta-item"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg> <a href="{{ static_prefix }}owners/{{ data.owner_handle }}.html">{{ data.owner_handle }}</a></span>
+        <span class="meta-item"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg> {{ "{:,}".format(data.stat_downloads|default(0)) }}</span>
+        <span class="meta-item"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> {{ "{:,}".format(data.stat_stars|default(0)) }}</span>
+        {% if data.velocity %}<span class="meta-item"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg> {{ data.velocity }} DL/day</span>{% endif %}
+        {% if data.days_old is not none %}<span class="meta-item"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> {{ data.days_old }}d old</span>{% endif %}
     </p>
-    {% if data.summary %}<p class="meta">{{ data.summary }}</p>{% endif %}
+    {% if data.summary %}<p class="summary">{{ data.summary }}</p>{% endif %}
+    {% if data.tags %}
+    <div class="tag-list">
+        {% for tag in data.tags %}<span class="tag">{{ tag }}</span>{% endfor %}
+    </div>
+    {% endif %}
 </div>
 
 <div class="stat-grid">
@@ -27,25 +33,31 @@
         <div class="value">{{ data.velocity if data.velocity else "N/A" }}</div>
     </div>
     <div class="stat-item">
+        <div class="label">Installs</div>
+        <div class="value">{{ "{:,}".format(data.stat_installs) }}</div>
+    </div>
+    <div class="stat-item">
         <div class="label">Versions</div>
         <div class="value">{{ data.version_releases|length + 1 }}</div>
     </div>
+    {% if data.acceleration_pct is not none %}
+    <div class="stat-item">
+        <div class="label">Acceleration</div>
+        <div class="value {% if data.acceleration_pct > 0 %}trend-up{% elif data.acceleration_pct < 0 %}trend-down{% endif %}">{{ "%+.1f"|format(data.acceleration_pct) }}%</div>
+    </div>
+    {% endif %}
 </div>
 
 {% if data.history %}
 <div class="chart-container">
-    <h3>Downloads Over Time</h3>
-    <canvas id="dlChart" height="250"></canvas>
-</div>
-<div class="chart-container">
-    <h3>Stars Over Time</h3>
-    <canvas id="starsChart" height="200"></canvas>
+    <h3>Growth Trajectory</h3>
+    <canvas id="growthChart" height="200"></canvas>
 </div>
 {% endif %}
 
 {% if data.version_releases %}
 <h3>Version Releases</h3>
-<table>
+<table class="sortable">
     <thead><tr><th>Version</th><th>Date</th><th>Changelog</th></tr></thead>
     <tbody>
     {% for v in data.version_releases|reverse %}
@@ -68,23 +80,91 @@ const labels = history.map(h => h.run_date ? h.run_date.substring(0, 10) : '');
 const dlData = history.map(h => h.downloads);
 const starData = history.map(h => h.stars);
 
-const chartOpts = (color) => ({
-    responsive: true, plugins: { legend: { display: false }},
-    scales: {
-        x: { ticks: { color: '#a6adc8', maxRotation: 45 }, grid: { color: '#313244' }},
-        y: { ticks: { color: '#a6adc8' }, grid: { color: '#313244' }}
-    }
-});
+const ctx = document.getElementById('growthChart').getContext('2d');
 
-new Chart(document.getElementById('dlChart'), {
+const dlGrad = ctx.createLinearGradient(0, 0, 0, 350);
+dlGrad.addColorStop(0, 'rgba(137, 180, 250, 0.25)');
+dlGrad.addColorStop(1, 'rgba(137, 180, 250, 0.02)');
+
+const starGrad = ctx.createLinearGradient(0, 0, 0, 350);
+starGrad.addColorStop(0, 'rgba(249, 226, 175, 0.20)');
+starGrad.addColorStop(1, 'rgba(249, 226, 175, 0.02)');
+
+new Chart(ctx, {
     type: 'line',
-    data: { labels, datasets: [{ data: dlData, borderColor: '#89b4fa', borderWidth: 2, fill: false, tension: 0.3, pointRadius: 2 }]},
-    options: chartOpts('#89b4fa')
-});
-new Chart(document.getElementById('starsChart'), {
-    type: 'line',
-    data: { labels, datasets: [{ data: starData, borderColor: '#f9e2af', borderWidth: 2, fill: false, tension: 0.3, pointRadius: 2 }]},
-    options: chartOpts('#f9e2af')
+    data: {
+        labels,
+        datasets: [
+            {
+                label: 'Downloads',
+                data: dlData,
+                borderColor: '#89b4fa',
+                backgroundColor: dlGrad,
+                borderWidth: 2.5,
+                fill: true,
+                tension: 0.4,
+                pointRadius: 4,
+                pointBackgroundColor: '#89b4fa',
+                pointBorderColor: '#1e1e2e',
+                pointBorderWidth: 2,
+                pointHoverRadius: 6,
+                yAxisID: 'y'
+            },
+            {
+                label: 'Stars',
+                data: starData,
+                borderColor: '#f9e2af',
+                backgroundColor: starGrad,
+                borderWidth: 2.5,
+                fill: true,
+                tension: 0.4,
+                pointRadius: 4,
+                pointBackgroundColor: '#f9e2af',
+                pointBorderColor: '#1e1e2e',
+                pointBorderWidth: 2,
+                pointHoverRadius: 6,
+                yAxisID: 'y1'
+            }
+        ]
+    },
+    options: {
+        responsive: true,
+        interaction: { mode: 'index', intersect: false },
+        plugins: {
+            legend: {
+                labels: { color: '#a6adc8', usePointStyle: true, pointStyle: 'circle', padding: 16, font: { size: 13 } }
+            },
+            tooltip: {
+                backgroundColor: '#313244',
+                titleColor: '#cdd6f4',
+                bodyColor: '#a6adc8',
+                borderColor: '#45475a',
+                borderWidth: 1,
+                cornerRadius: 8,
+                padding: 10,
+                displayColors: true,
+                usePointStyle: true
+            }
+        },
+        scales: {
+            x: {
+                ticks: { color: '#585b70', maxRotation: 45, font: { size: 13 } },
+                grid: { color: 'rgba(49, 50, 68, 0.5)', lineWidth: 0.5 }
+            },
+            y: {
+                position: 'left',
+                ticks: { color: '#89b4fa', font: { size: 13 } },
+                grid: { color: 'rgba(49, 50, 68, 0.5)', lineWidth: 0.5 },
+                title: { display: true, text: 'Downloads', color: '#89b4fa', font: { size: 14 } }
+            },
+            y1: {
+                position: 'right',
+                ticks: { color: '#f9e2af', font: { size: 13 } },
+                grid: { drawOnChartArea: false },
+                title: { display: true, text: 'Stars', color: '#f9e2af', font: { size: 14 } }
+            }
+        }
+    }
 });
 </script>
 {% endif %}

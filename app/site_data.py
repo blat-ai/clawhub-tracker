@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import json
 from datetime import datetime, timedelta, timezone
 
 import duckdb
@@ -516,7 +517,9 @@ def skill_detail_data(
     meta = conn.execute(
         """
         SELECT display_name, summary, owner_handle, created_at,
-               stat_downloads, stat_stars, tags
+               stat_downloads, stat_stars, tags, badges,
+               stat_installs_all_time, stat_comments,
+               version_number
         FROM current_skills WHERE skill_id = ?
     """,
         [skill_id],
@@ -565,11 +568,13 @@ def skill_detail_data(
     # Compute velocity and acceleration
     created_at = meta[3]
     velocity = None
+    days_old = None
     if created_at:
         # Ensure created_at is timezone-aware
         if created_at.tzinfo is None:
             created_at = created_at.replace(tzinfo=timezone.utc)
         age_days = max((now - created_at).days, 1)
+        days_old = age_days
         velocity = round(meta[4] / age_days, 1)
 
     # Acceleration (same formula as leaderboard)
@@ -586,6 +591,15 @@ def skill_detail_data(
         if vel_prior and vel_prior > 0 and vel_recent is not None:
             acceleration_pct = round((vel_recent - vel_prior) / vel_prior * 100, 1)
 
+    # Parse tags JSON
+    tags_raw = meta[6]
+    tags_list = []
+    if tags_raw:
+        try:
+            tags_list = json.loads(tags_raw)
+        except (json.JSONDecodeError, TypeError):
+            pass
+
     return {
         "skill_id": skill_id,
         "slug": slug,
@@ -593,9 +607,14 @@ def skill_detail_data(
         "summary": meta[1],
         "owner_handle": meta[2],
         "created_at": meta[3].isoformat() if meta[3] else None,
+        "days_old": days_old,
         "stat_downloads": meta[4],
         "stat_stars": meta[5],
-        "tags": meta[6],
+        "tags": tags_list,
+        "badges": meta[7],
+        "stat_installs": meta[8] or 0,
+        "stat_comments": meta[9] or 0,
+        "current_version": meta[10],
         "velocity": velocity,
         "acceleration_pct": acceleration_pct,
         "history": history,

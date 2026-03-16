@@ -197,6 +197,28 @@ footer a { color: var(--blue); text-decoration: none; }
     background: rgba(250, 179, 135, 0.05);
 }
 
+/* Meta items with icons */
+.meta-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    margin-right: 12px;
+}
+.meta-item svg { opacity: 0.6; }
+.summary { color: var(--subtext0); margin-top: 8px; }
+
+/* Tags */
+.tag-list { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+.tag {
+    display: inline-block;
+    background: var(--surface0);
+    color: var(--subtext0);
+    font-size: 12px;
+    padding: 3px 10px;
+    border-radius: 12px;
+    border: 1px solid var(--surface1);
+}
+
 /* Empty state */
 .empty-state {
     text-align: center;
