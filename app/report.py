@@ -2,6 +2,8 @@
 
 from __future__ import annotations
 
+from datetime import datetime, timedelta, timezone
+
 import duckdb
 from loguru import logger
 
@@ -12,25 +14,177 @@ def _header(title: str) -> str:
     return f"\n{'=' * 60}\n  {title}\n{'=' * 60}"
 
 
-def platform_totals(conn: duckdb.DuckDBPyConnection) -> str:
-    r = conn.execute("""
-        SELECT COUNT(*) as skills, SUM(stat_downloads), SUM(stat_stars),
-               SUM(stat_comments), SUM(stat_installs_all_time),
+# ---------------------------------------------------------------------------
+# 1. Platform Snapshot
+# ---------------------------------------------------------------------------
+
+
+def platform_snapshot(conn: duckdb.DuckDBPyConnection) -> str:
+    totals = conn.execute("""
+        SELECT COUNT(*) as skills,
+               COALESCE(SUM(stat_downloads), 0),
+               COALESCE(SUM(stat_stars), 0),
+               COALESCE(SUM(stat_installs_all_time), 0),
                COUNT(DISTINCT owner_handle)
         FROM current_skills
     """).fetchone()
-    return (
-        _header("PLATFORM TOTALS")
-        + f"\n  Skills:      {r[0]:>10,}"
-        + f"\n  Downloads:   {r[1]:>10,}"
-        + f"\n  Stars:       {r[2]:>10,}"
-        + f"\n  Comments:    {r[3]:>10,}"
-        + f"\n  Installs:    {r[4]:>10,}"
-        + f"\n  Owners:      {r[5]:>10,}"
+
+    total_dl = totals[1]
+    top1 = conn.execute("""
+        WITH ranked AS (
+            SELECT stat_downloads,
+                   NTILE(100) OVER (ORDER BY stat_downloads DESC) AS pct
+            FROM current_skills
+        )
+        SELECT SUM(stat_downloads) FROM ranked WHERE pct = 1
+    """).fetchone()[0] or 0
+
+    top10 = conn.execute("""
+        WITH ranked AS (
+            SELECT stat_downloads,
+                   NTILE(10) OVER (ORDER BY stat_downloads DESC) AS pct
+            FROM current_skills
+        )
+        SELECT SUM(stat_downloads) FROM ranked WHERE pct = 1
+    """).fetchone()[0] or 0
+
+    pct1 = (top1 / total_dl * 100) if total_dl else 0
+    pct10 = (top10 / total_dl * 100) if total_dl else 0
+
+    lines = [_header("PLATFORM SNAPSHOT")]
+    lines.append(f"  Skills:      {totals[0]:>10,}")
+    lines.append(f"  Downloads:   {totals[1]:>10,}")
+    lines.append(f"  Stars:       {totals[2]:>10,}")
+    lines.append(f"  Installs:    {totals[3]:>10,}")
+    lines.append(f"  Owners:      {totals[4]:>10,}")
+    lines.append("")
+    lines.append(f"  Top 1% captures {pct1:.0f}% of downloads")
+    lines.append(f"  Top 10% captures {pct10:.0f}% of downloads")
+    return "\n".join(lines)
+
+
+# ---------------------------------------------------------------------------
+# 2. Platform Growth Timeline
+# ---------------------------------------------------------------------------
+
+
+def growth_timeline(conn: duckdb.DuckDBPyConnection) -> str:
+    rows = conn.execute("""
+        SELECT
+            DATE_TRUNC('week', created_at) AS week_start,
+            COUNT(*) AS new_skills
+        FROM current_skills
+        WHERE created_at IS NOT NULL
+        GROUP BY week_start
+        ORDER BY week_start
+    """).fetchall()
+
+    if not rows:
+        return _header("PLATFORM GROWTH TIMELINE") + "\n  No created_at data available."
+
+    max_new = max(r[1] for r in rows)
+    bar_scale = 50 / max_new if max_new else 1
+
+    lines = [_header("PLATFORM GROWTH TIMELINE")]
+    cumulative = 0
+    for week_start, new_count in rows:
+        cumulative += new_count
+        iso_week = week_start.strftime("%Y-W%W")
+        bar = "\u2588" * max(1, int(new_count * bar_scale))
+        lines.append(
+            f"  {iso_week}  {new_count:>5} new   cum: {cumulative:>6,}  {bar}"
+        )
+    return "\n".join(lines)
+
+
+# ---------------------------------------------------------------------------
+# 3. Cohort Quality Analysis
+# ---------------------------------------------------------------------------
+
+
+def cohort_quality(conn: duckdb.DuckDBPyConnection) -> str:
+    rows = conn.execute("""
+        SELECT
+            DATE_TRUNC('month', created_at) AS month,
+            COUNT(*) AS skills,
+            ROUND(AVG(stat_downloads), 0) AS avg_dl,
+            ROUND(AVG(stat_stars), 1) AS avg_stars,
+            ROUND(
+                CASE WHEN SUM(stat_downloads) > 0
+                     THEN SUM(stat_installs_all_time) * 100.0 / SUM(stat_downloads)
+                     ELSE 0 END, 1
+            ) AS install_pct
+        FROM current_skills
+        WHERE created_at IS NOT NULL
+        GROUP BY month
+        ORDER BY month
+    """).fetchall()
+
+    if not rows:
+        return _header("COHORT QUALITY ANALYSIS") + "\n  No created_at data available."
+
+    lines = [_header("COHORT QUALITY ANALYSIS")]
+    lines.append(
+        f"  {'Cohort':<12} {'Skills':>6} {'Avg DL':>10} {'Avg Stars':>10} {'Install%':>9}"
     )
+    lines.append("  " + "-" * 51)
+    for month, skills, avg_dl, avg_stars, install_pct in rows:
+        label = month.strftime("%Y-%m")
+        lines.append(
+            f"  {label:<12} {skills:>6,} {avg_dl:>10,.0f} {avg_stars:>10.1f} {install_pct:>8.1f}%"
+        )
+    return "\n".join(lines)
 
 
-def top_by_downloads(conn: duckdb.DuckDBPyConnection, limit: int = 15) -> str:
+# ---------------------------------------------------------------------------
+# 4. Hot New Skills (last 30 days)
+# ---------------------------------------------------------------------------
+
+
+def hot_new_skills(
+    conn: duckdb.DuckDBPyConnection,
+    limit: int = 10,
+    now: datetime | None = None,
+) -> str:
+    if now is None:
+        now = datetime.now(timezone.utc)
+    cutoff = now - timedelta(days=30)
+
+    rows = conn.execute(
+        """
+        SELECT display_name, owner_handle, stat_downloads, stat_stars,
+               stat_installs_all_time, created_at
+        FROM current_skills
+        WHERE created_at IS NOT NULL AND created_at >= ?
+        ORDER BY stat_downloads DESC
+        LIMIT ?
+    """,
+        [cutoff, limit],
+    ).fetchall()
+
+    lines = [_header("HOT NEW SKILLS (last 30 days)")]
+    if not rows:
+        lines.append("  No skills created in the last 30 days.")
+        return "\n".join(lines)
+
+    lines.append(
+        f"  {'Skill':<30} {'Owner':<16} {'Downloads':>10} {'Stars':>6} {'Created':>12}"
+    )
+    lines.append("  " + "-" * 78)
+    for r in rows:
+        created = r[5].strftime("%Y-%m-%d") if r[5] else "?"
+        lines.append(
+            f"  {(r[0] or '?'):<30} {(r[1] or '?'):<16} {r[2]:>10,} {r[3]:>6,} {created:>12}"
+        )
+    return "\n".join(lines)
+
+
+# ---------------------------------------------------------------------------
+# 5. Top 10 Skills
+# ---------------------------------------------------------------------------
+
+
+def top_skills(conn: duckdb.DuckDBPyConnection, limit: int = 10) -> str:
     rows = conn.execute(
         """
         SELECT display_name, owner_handle, stat_downloads, stat_stars,
@@ -39,173 +193,119 @@ def top_by_downloads(conn: duckdb.DuckDBPyConnection, limit: int = 15) -> str:
     """,
         [limit],
     ).fetchall()
-    lines = [_header(f"TOP {limit} SKILLS BY DOWNLOADS")]
+    lines = [_header(f"TOP {limit} SKILLS")]
     lines.append(
-        f"  {'Skill':<32} {'Owner':<18} {'Downloads':>10} {'Stars':>6} {'Installs':>8} {'Ver':>4}"
+        f"  {'Skill':<30} {'Owner':<16} {'Downloads':>10} {'Stars':>6} {'Installs':>8} {'Ver':>4}"
     )
-    lines.append("  " + "-" * 84)
+    lines.append("  " + "-" * 78)
     for r in rows:
         lines.append(
-            f"  {(r[0] or '?'):<32} {(r[1] or '?'):<18} {r[2]:>10,} {r[3]:>6,} {r[4]:>8,} {r[5]:>4}"
+            f"  {(r[0] or '?'):<30} {(r[1] or '?'):<16} {r[2]:>10,} {r[3]:>6,} {r[4]:>8,} {r[5]:>4}"
         )
     return "\n".join(lines)
 
 
-def top_by_stars(conn: duckdb.DuckDBPyConnection, limit: int = 15) -> str:
-    rows = conn.execute(
-        """
-        SELECT display_name, owner_handle, stat_stars, stat_downloads
-        FROM current_skills ORDER BY stat_stars DESC LIMIT ?
-    """,
-        [limit],
-    ).fetchall()
-    lines = [_header(f"TOP {limit} SKILLS BY STARS")]
-    lines.append(f"  {'Skill':<35} {'Owner':<20} {'Stars':>6} {'Downloads':>10}")
-    lines.append("  " + "-" * 75)
-    for r in rows:
-        lines.append(f"  {(r[0] or '?'):<35} {(r[1] or '?'):<20} {r[2]:>6,} {r[3]:>10,}")
-    return "\n".join(lines)
+# ---------------------------------------------------------------------------
+# 6. Quality Signals
+# ---------------------------------------------------------------------------
 
 
-def owner_leaderboard(conn: duckdb.DuckDBPyConnection, limit: int = 15) -> str:
-    rows = conn.execute(
-        """
-        SELECT owner_handle, COUNT(*) as skills,
-               SUM(stat_downloads), SUM(stat_stars), SUM(stat_installs_all_time)
-        FROM current_skills WHERE owner_handle IS NOT NULL
-        GROUP BY owner_handle ORDER BY SUM(stat_downloads) DESC LIMIT ?
-    """,
-        [limit],
-    ).fetchall()
-    lines = [_header(f"TOP {limit} OWNERS BY DOWNLOADS")]
-    lines.append(f"  {'Owner':<25} {'Skills':>6} {'Downloads':>12} {'Stars':>7} {'Installs':>9}")
-    lines.append("  " + "-" * 63)
-    for r in rows:
-        lines.append(f"  {r[0]:<25} {r[1]:>6} {r[2]:>12,} {r[3]:>7,} {r[4]:>9,}")
-    return "\n".join(lines)
-
-
-def prolific_owners(conn: duckdb.DuckDBPyConnection, limit: int = 10) -> str:
-    rows = conn.execute(
-        """
-        SELECT owner_handle, COUNT(*) as skills, SUM(stat_downloads)
-        FROM current_skills WHERE owner_handle IS NOT NULL
-        GROUP BY owner_handle ORDER BY skills DESC LIMIT ?
-    """,
-        [limit],
-    ).fetchall()
-    lines = [_header("MOST PROLIFIC OWNERS (by skill count)")]
-    lines.append(f"  {'Owner':<25} {'Skills':>6} {'Total Downloads':>15}")
-    lines.append("  " + "-" * 50)
-    for r in rows:
-        lines.append(f"  {r[0]:<25} {r[1]:>6} {r[2]:>15,}")
-    return "\n".join(lines)
-
-
-def download_distribution(conn: duckdb.DuckDBPyConnection) -> str:
-    rows = conn.execute("""
-        SELECT
-            CASE
-                WHEN stat_downloads = 0 THEN '0'
-                WHEN stat_downloads BETWEEN 1 AND 10 THEN '1-10'
-                WHEN stat_downloads BETWEEN 11 AND 100 THEN '11-100'
-                WHEN stat_downloads BETWEEN 101 AND 1000 THEN '101-1K'
-                WHEN stat_downloads BETWEEN 1001 AND 10000 THEN '1K-10K'
-                WHEN stat_downloads BETWEEN 10001 AND 100000 THEN '10K-100K'
-                ELSE '100K+'
-            END as bucket,
-            COUNT(*) as count,
-            ROUND(COUNT(*) * 100.0 / (SELECT COUNT(*) FROM current_skills), 1)
-        FROM current_skills
-        GROUP BY bucket
-        ORDER BY MIN(stat_downloads)
-    """).fetchall()
-    lines = [_header("DOWNLOAD DISTRIBUTION")]
-    for r in rows:
-        bar = "#" * int(r[2])
-        lines.append(f"  {r[0]:<10} {r[1]:>6} ({r[2]:>5.1f}%) {bar}")
-    return "\n".join(lines)
-
-
-def star_distribution(conn: duckdb.DuckDBPyConnection) -> str:
-    rows = conn.execute("""
-        SELECT
-            CASE
-                WHEN stat_stars = 0 THEN '0'
-                WHEN stat_stars BETWEEN 1 AND 5 THEN '1-5'
-                WHEN stat_stars BETWEEN 6 AND 20 THEN '6-20'
-                WHEN stat_stars BETWEEN 21 AND 100 THEN '21-100'
-                WHEN stat_stars BETWEEN 101 AND 500 THEN '101-500'
-                ELSE '500+'
-            END as bucket,
-            COUNT(*) as count,
-            ROUND(COUNT(*) * 100.0 / (SELECT COUNT(*) FROM current_skills), 1)
-        FROM current_skills
-        GROUP BY bucket
-        ORDER BY MIN(stat_stars)
-    """).fetchall()
-    lines = [_header("STAR DISTRIBUTION")]
-    for r in rows:
-        bar = "#" * int(r[2])
-        lines.append(f"  {r[0]:<10} {r[1]:>6} ({r[2]:>5.1f}%) {bar}")
-    return "\n".join(lines)
-
-
-def best_star_ratio(conn: duckdb.DuckDBPyConnection, limit: int = 10) -> str:
-    rows = conn.execute(
+def quality_signals(conn: duckdb.DuckDBPyConnection, limit: int = 10) -> str:
+    # Best star-to-download ratio (min 100 downloads)
+    star_rows = conn.execute(
         """
         SELECT display_name, owner_handle, stat_downloads, stat_stars,
-               ROUND(stat_stars * 100.0 / stat_downloads, 2)
+               ROUND(stat_stars * 100.0 / stat_downloads, 2) AS rate
         FROM current_skills
         WHERE stat_downloads >= 100
         ORDER BY stat_stars * 1.0 / stat_downloads DESC LIMIT ?
     """,
         [limit],
     ).fetchall()
-    lines = [_header("BEST STAR-TO-DOWNLOAD RATIO (min 100 downloads)")]
-    lines.append(f"  {'Skill':<30} {'Owner':<18} {'Downloads':>9} {'Stars':>6} {'Rate%':>7}")
-    lines.append("  " + "-" * 74)
-    for r in rows:
-        lines.append(
-            f"  {(r[0] or '?'):<30} {(r[1] or '?'):<18} {r[2]:>9,} {r[3]:>6,} {r[4]:>7.2f}"
-        )
-    return "\n".join(lines)
 
-
-def install_conversion(conn: duckdb.DuckDBPyConnection, limit: int = 15) -> str:
-    rows = conn.execute(
+    # Most actively maintained (by version count)
+    version_rows = conn.execute(
         """
-        SELECT display_name, stat_downloads, stat_installs_all_time,
-               ROUND(stat_installs_all_time * 100.0 / stat_downloads, 2)
-        FROM current_skills
-        WHERE stat_downloads > 0
-        ORDER BY stat_downloads DESC LIMIT ?
-    """,
-        [limit],
-    ).fetchall()
-    lines = [_header(f"INSTALL CONVERSION (top {limit} by downloads)")]
-    lines.append(f"  {'Skill':<35} {'Downloads':>10} {'Installs':>9} {'Conv%':>7}")
-    lines.append("  " + "-" * 65)
-    for r in rows:
-        lines.append(f"  {(r[0] or '?'):<35} {r[1]:>10,} {r[2]:>9,} {r[3]:>7.2f}")
-    return "\n".join(lines)
-
-
-def most_versions(conn: duckdb.DuckDBPyConnection, limit: int = 10) -> str:
-    rows = conn.execute(
-        """
-        SELECT display_name, owner_handle, stat_versions, stat_downloads, stat_stars
+        SELECT display_name, owner_handle, stat_versions, stat_downloads
         FROM current_skills
         ORDER BY stat_versions DESC LIMIT ?
     """,
         [limit],
     ).fetchall()
-    lines = [_header("MOST ACTIVELY MAINTAINED (by version count)")]
-    lines.append(f"  {'Skill':<30} {'Owner':<18} {'Versions':>8} {'Downloads':>10} {'Stars':>6}")
-    lines.append("  " + "-" * 76)
-    for r in rows:
-        lines.append(f"  {(r[0] or '?'):<30} {(r[1] or '?'):<18} {r[2]:>8} {r[3]:>10,} {r[4]:>6,}")
+
+    lines = [_header("QUALITY SIGNALS")]
+
+    lines.append("\n  Best star-to-download ratio (min 100 downloads):")
+    lines.append(
+        f"  {'Skill':<30} {'Owner':<16} {'Downloads':>9} {'Stars':>6} {'Rate%':>7}"
+    )
+    lines.append("  " + "-" * 72)
+    for r in star_rows:
+        lines.append(
+            f"  {(r[0] or '?'):<30} {(r[1] or '?'):<16} {r[2]:>9,} {r[3]:>6,} {r[4]:>7.2f}"
+        )
+
+    lines.append("\n  Most actively maintained (by version count):")
+    lines.append(
+        f"  {'Skill':<30} {'Owner':<16} {'Versions':>8} {'Downloads':>10}"
+    )
+    lines.append("  " + "-" * 68)
+    for r in version_rows:
+        lines.append(
+            f"  {(r[0] or '?'):<30} {(r[1] or '?'):<16} {r[2]:>8} {r[3]:>10,}"
+        )
     return "\n".join(lines)
+
+
+# ---------------------------------------------------------------------------
+# 7. Owner Ecosystem
+# ---------------------------------------------------------------------------
+
+
+def owner_ecosystem(conn: duckdb.DuckDBPyConnection, limit: int = 10) -> str:
+    # Top owners by downloads
+    top_owners = conn.execute(
+        """
+        SELECT owner_handle, COUNT(*) as skills,
+               SUM(stat_downloads) as total_dl
+        FROM current_skills WHERE owner_handle IS NOT NULL
+        GROUP BY owner_handle ORDER BY total_dl DESC LIMIT ?
+    """,
+        [limit],
+    ).fetchall()
+
+    # Suspected spam: >50 skills but <50 avg downloads
+    spam = conn.execute("""
+        SELECT owner_handle, COUNT(*) as skills,
+               ROUND(AVG(stat_downloads), 0) as avg_dl
+        FROM current_skills WHERE owner_handle IS NOT NULL
+        GROUP BY owner_handle
+        HAVING COUNT(*) > 50 AND AVG(stat_downloads) < 50
+        ORDER BY skills DESC
+    """).fetchall()
+
+    lines = [_header("OWNER ECOSYSTEM")]
+
+    lines.append(f"\n  {'Owner':<25} {'Skills':>6} {'Total Downloads':>15}")
+    lines.append("  " + "-" * 50)
+    for r in top_owners:
+        lines.append(f"  {r[0]:<25} {r[1]:>6} {r[2]:>15,}")
+
+    if spam:
+        lines.append("\n  Suspected spam (>50 skills, <50 avg downloads):")
+        lines.append(f"  {'Owner':<25} {'Skills':>6} {'Avg DL':>8}")
+        lines.append("  " + "-" * 43)
+        for r in spam:
+            lines.append(f"  {r[0]:<25} {r[1]:>6} {r[2]:>8,.0f}")
+    else:
+        lines.append("\n  No suspected spam owners detected.")
+
+    return "\n".join(lines)
+
+
+# ---------------------------------------------------------------------------
+# 8. Diff (unchanged logic)
+# ---------------------------------------------------------------------------
 
 
 def diff_summary(conn: duckdb.DuckDBPyConnection) -> str | None:
@@ -251,22 +351,24 @@ def diff_summary(conn: duckdb.DuckDBPyConnection) -> str | None:
     return "\n".join(lines)
 
 
+# ---------------------------------------------------------------------------
+# Full report
+# ---------------------------------------------------------------------------
+
+
 def generate_report(db_path: str | None = None) -> str:
     """Generate full analytics report."""
     conn = get_connection(db_path or DEFAULT_DB_PATH)
     init_schema(conn)
 
     sections = [
-        platform_totals(conn),
-        top_by_downloads(conn),
-        top_by_stars(conn),
-        owner_leaderboard(conn),
-        prolific_owners(conn),
-        download_distribution(conn),
-        star_distribution(conn),
-        best_star_ratio(conn),
-        install_conversion(conn),
-        most_versions(conn),
+        platform_snapshot(conn),
+        growth_timeline(conn),
+        cohort_quality(conn),
+        hot_new_skills(conn),
+        top_skills(conn),
+        quality_signals(conn),
+        owner_ecosystem(conn),
     ]
 
     diff = diff_summary(conn)
