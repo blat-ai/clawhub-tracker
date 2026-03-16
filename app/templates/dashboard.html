@@ -11,10 +11,9 @@
     <div class="kpi-card">
         <div class="label">Total Downloads</div>
         <div class="value">{{ "{:,}".format(data.total_downloads) }}</div>
-        {% if data.weekly_growth|length >= 2 %}
-        {% set wow = data.weekly_growth[-1].wow_pct %}
-        <div class="change {% if wow and wow > 0 %}up{% elif wow and wow < 0 %}down{% else %}flat{% endif %}">
-            {% if wow is not none %}{{ "%+.1f"|format(wow) }}% WoW{% else %}&mdash;{% endif %}
+        {% if data.download_wow_pct is not none %}
+        <div class="change {% if data.download_wow_pct > 0 %}up{% elif data.download_wow_pct < 0 %}down{% else %}flat{% endif %}">
+            {{ "%+.1f"|format(data.download_wow_pct) }}% WoW
         </div>
         {% endif %}
         <div class="sparkline-container"><canvas id="sparkDl"></canvas></div>
@@ -40,7 +39,7 @@
         {% endif %}
     </div>
     <div class="kpi-card">
-        <div class="label">Avg WoW %</div>
+        <div class="label">Avg WoW % (new skills)</div>
         <div class="value {% if data.avg_wow_pct and data.avg_wow_pct > 0 %}trend-up{% elif data.avg_wow_pct and data.avg_wow_pct < 0 %}trend-down{% endif %}">
             {% if data.avg_wow_pct is not none %}{{ "%+.1f"|format(data.avg_wow_pct) }}%{% else %}N/A{% endif %}
         </div>
@@ -49,16 +48,6 @@
     <div class="kpi-card">
         <div class="label">Total Owners</div>
         <div class="value">{{ "{:,}".format(data.total_owners) }}</div>
-    </div>
-    <div class="kpi-card">
-        <div class="label">Median DL/day (new skills)</div>
-        <div class="value">{{ data.median_dl_per_day if data.median_dl_per_day is not none else "N/A" }}</div>
-        {% if data.median_dl_per_day is not none and data.median_dl_per_day_prev is not none and data.median_dl_per_day_prev > 0 %}
-        {% set mom = ((data.median_dl_per_day - data.median_dl_per_day_prev) / data.median_dl_per_day_prev * 100) %}
-        <div class="change {% if mom > 0 %}up{% elif mom < 0 %}down{% else %}flat{% endif %}">
-            {{ "%+.1f"|format(mom) }}% MoM
-        </div>
-        {% endif %}
     </div>
 </div>
 

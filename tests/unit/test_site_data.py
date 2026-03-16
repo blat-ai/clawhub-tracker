@@ -123,19 +123,19 @@ class TestDashboardData:
         assert data["download_sparkline"] == []
         assert data["download_percentiles"] == []
 
-    def test_median_dl_per_day(self, db):
-        _seed(
-            db,
-            lambda rid: [
-                # 30 day old skill: 300 DL / 30 days = 10 DL/day
-                _make(rid, "a", created_at=_ts(2026, 2, 14), stat_downloads=300),
-                # 15 day old skill: 300 DL / 15 days = 20 DL/day
-                _make(rid, "b", created_at=_ts(2026, 3, 1), stat_downloads=300),
-            ],
-        )
-        data = dashboard_data(db, now=_ts(2026, 3, 16))
-        # Median of [10.0, 20.0] = 15.0
-        assert data["median_dl_per_day"] == 15.0
+    def test_download_wow_pct(self, db):
+        """Download WoW% compares latest run total to ~7 runs ago."""
+        run1 = start_run(db)
+        insert_snapshots(db, [_make(run1.id, "a", stat_downloads=1000)])
+        complete_run(db, run1.id, total_skills=1)
+
+        run2 = start_run(db)
+        insert_snapshots(db, [_make(run2.id, "a", stat_downloads=1100)])
+        complete_run(db, run2.id, total_skills=1)
+
+        data = dashboard_data(db)
+        # (1100 - 1000) / 1000 * 100 = 10.0%
+        assert data["download_wow_pct"] == 10.0
 
     def test_forecast_current_week(self, db):
         """Current incomplete week should be forecasted by extrapolation."""
@@ -190,9 +190,10 @@ class TestDashboardData:
             assert w["is_forecast"] is False
             assert w["forecast_count"] is None
 
-    def test_empty_db_has_avg_wow(self, db):
+    def test_empty_db_has_new_fields(self, db):
         data = dashboard_data(db)
         assert data["avg_wow_pct"] is None
+        assert data["download_wow_pct"] is None
 
 
 class TestRisingData:

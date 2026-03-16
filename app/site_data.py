@@ -43,8 +43,7 @@ def dashboard_data(conn: duckdb.DuckDBPyConnection, now: datetime | None = None)
             "weekly_growth": [],
             "download_sparkline": [],
             "download_percentiles": [],
-            "median_dl_per_day": None,
-            "median_dl_per_day_prev": None,
+            "download_wow_pct": None,
             "avg_wow_pct": None,
             "generated_at": now.isoformat(),
         }
@@ -130,35 +129,15 @@ def dashboard_data(conn: duckdb.DuckDBPyConnection, now: datetime | None = None)
     """).fetchall()
     download_sparkline = [row[0] for row in sparkline_rows]
 
-    # Median DL/day for skills created in last 30 days
-    median_dl = conn.execute(
-        """
-        SELECT MEDIAN(
-            stat_downloads / GREATEST(DATE_DIFF('day', created_at, ?), 1)
-        )
-        FROM current_skills
-        WHERE created_at IS NOT NULL
-          AND created_at >= ? - INTERVAL 30 DAY
-    """,
-        [now, now],
-    ).fetchone()[0]
-
-    # Median DL/day for skills created 30-60 days ago (for MoM comparison)
-    median_dl_prev = conn.execute(
-        """
-        SELECT MEDIAN(
-            stat_downloads / GREATEST(DATE_DIFF('day', created_at, ?), 1)
-        )
-        FROM current_skills
-        WHERE created_at IS NOT NULL
-          AND created_at >= ? - INTERVAL 60 DAY
-          AND created_at < ? - INTERVAL 30 DAY
-    """,
-        [now, now, now],
-    ).fetchone()[0]
-
-    median_dl_rounded = round(float(median_dl), 1) if median_dl is not None else None
-    median_dl_prev_rounded = round(float(median_dl_prev), 1) if median_dl_prev is not None else None
+    # Download WoW%: compare latest run total to ~7 runs ago
+    download_wow_pct = None
+    if len(download_sparkline) >= 2:
+        latest_dl = download_sparkline[-1]
+        # Use 7 runs back if available (daily scrapes = ~1 week), else earliest
+        prev_idx = max(0, len(download_sparkline) - 8)
+        prev_dl = download_sparkline[prev_idx]
+        if prev_dl and prev_dl > 0:
+            download_wow_pct = round((latest_dl - prev_dl) / prev_dl * 100, 1)
 
     # Download percentiles per completed run (P50, P90, P95, P99)
     pct_rows = conn.execute("""
@@ -198,8 +177,7 @@ def dashboard_data(conn: duckdb.DuckDBPyConnection, now: datetime | None = None)
         "weekly_growth": weekly_growth,
         "download_sparkline": download_sparkline,
         "download_percentiles": download_percentiles,
-        "median_dl_per_day": median_dl_rounded,
-        "median_dl_per_day_prev": median_dl_prev_rounded,
+        "download_wow_pct": download_wow_pct,
         "avg_wow_pct": avg_wow_pct,
         "generated_at": now.isoformat(),
     }
