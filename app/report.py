@@ -402,7 +402,80 @@ def platform_velocity(conn: duckdb.DuckDBPyConnection) -> str | None:
 
 
 # ---------------------------------------------------------------------------
-# 9. Diff (unchanged logic)
+# 9. Rising Skills (momentum between runs)
+# ---------------------------------------------------------------------------
+
+
+def rising_skills(
+    conn: duckdb.DuckDBPyConnection,
+    limit: int = 15,
+    max_age_days: int = 14,
+) -> str | None:
+    """Skills created recently that gained the most downloads between runs.
+
+    Requires 2+ completed runs. Compares the same skill across the two
+    latest snapshots to get actual download delta, not lifetime average.
+    """
+    runs = conn.execute("""
+        SELECT id, started_at FROM scrape_runs
+        WHERE status = 'completed'
+        ORDER BY id DESC LIMIT 2
+    """).fetchall()
+    if len(runs) < 2:
+        return None
+
+    curr_id, curr_at = runs[0]
+    prev_id, prev_at = runs[1]
+    hours = max(
+        (curr_at - prev_at).total_seconds() / 3600, 0.01
+    )
+    cutoff = curr_at - timedelta(days=max_age_days)
+
+    rows = conn.execute(
+        """
+        SELECT
+            c.display_name,
+            c.owner_handle,
+            c.stat_downloads AS curr_dl,
+            COALESCE(p.stat_downloads, 0) AS prev_dl,
+            c.stat_downloads - COALESCE(p.stat_downloads, 0) AS dl_delta,
+            c.stat_stars,
+            c.created_at
+        FROM skill_snapshots c
+        LEFT JOIN skill_snapshots p
+            ON c.skill_id = p.skill_id AND p.scrape_run_id = ?
+        WHERE c.scrape_run_id = ?
+            AND c.created_at IS NOT NULL
+            AND c.created_at >= ?
+        ORDER BY dl_delta DESC
+        LIMIT ?
+        """,
+        [prev_id, curr_id, cutoff, limit],
+    ).fetchall()
+
+    if not rows or all(r[4] == 0 for r in rows):
+        return None
+
+    lines = [_header(f"RISING SKILLS (last {max_age_days}d, delta between runs)")]
+    lines.append(
+        f"  Measured over {hours:.1f}h"
+        f" (run {prev_id} -> {curr_id})"
+    )
+    lines.append(
+        f"\n  {'Skill':<30} {'Owner':<16}"
+        f" {'Total DL':>9} {'Delta':>7} {'Stars':>5}"
+    )
+    lines.append("  " + "-" * 71)
+    for name, owner, curr_dl, _, delta, stars, created in rows:
+        lines.append(
+            f"  {(name or '?'):<30} {(owner or '?'):<16}"
+            f" {curr_dl:>9,} {delta:>+7,} {stars:>5,}"
+        )
+    return "\n".join(lines)
+
+
+# ---------------------------------------------------------------------------
+# 10. Diff (unchanged logic)
 # ---------------------------------------------------------------------------
 
 
@@ -472,6 +545,10 @@ def generate_report(db_path: str | None = None) -> str:
     velocity = platform_velocity(conn)
     if velocity:
         sections.append(velocity)
+
+    rising = rising_skills(conn)
+    if rising:
+        sections.append(rising)
 
     diff = diff_summary(conn)
     if diff:

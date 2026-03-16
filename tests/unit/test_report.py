@@ -11,6 +11,7 @@ from app.report import (
     platform_snapshot,
     platform_velocity,
     quality_signals,
+    rising_skills,
     top_skills,
 )
 from app.storage import complete_run, insert_snapshots, start_run
@@ -334,3 +335,102 @@ class TestPlatformVelocity:
         out = platform_velocity(db)
         assert out is not None
         assert "Avg download velocity" in out
+
+
+class TestRisingSkills:
+    def test_returns_none_with_single_run(self, db):
+        _seed(
+            db,
+            lambda rid: [
+                _make(rid, "a", created_at=_ts(2026, 3, 10)),
+            ],
+        )
+        assert rising_skills(db) is None
+
+    def test_shows_delta_between_runs(self, db):
+        # Run 1: skill with 100 downloads
+        run1 = start_run(db)
+        insert_snapshots(db, [
+            _make(
+                run1.id, "rising",
+                created_at=_ts(2026, 3, 10),
+                stat_downloads=100,
+            ),
+        ])
+        complete_run(db, run1.id, total_skills=1)
+
+        # Run 2: same skill now at 500 downloads
+        run2 = start_run(db)
+        insert_snapshots(db, [
+            _make(
+                run2.id, "rising",
+                created_at=_ts(2026, 3, 10),
+                stat_downloads=500,
+            ),
+        ])
+        complete_run(db, run2.id, total_skills=1)
+
+        out = rising_skills(db)
+        assert out is not None
+        assert "RISING SKILLS" in out
+        assert "+400" in out
+
+    def test_shows_new_skill_with_no_previous(self, db):
+        # Run 1: only skill A
+        run1 = start_run(db)
+        insert_snapshots(db, [
+            _make(
+                run1.id, "old",
+                created_at=_ts(2026, 3, 1),
+                stat_downloads=1000,
+            ),
+        ])
+        complete_run(db, run1.id, total_skills=1)
+
+        # Run 2: skill A + brand new skill B
+        run2 = start_run(db)
+        insert_snapshots(db, [
+            _make(
+                run2.id, "old",
+                created_at=_ts(2026, 3, 1),
+                stat_downloads=1100,
+            ),
+            _make(
+                run2.id, "brand_new",
+                created_at=_ts(2026, 3, 14),
+                stat_downloads=300,
+            ),
+        ])
+        complete_run(db, run2.id, total_skills=2)
+
+        out = rising_skills(db)
+        assert out is not None
+        # brand_new has delta of +300 (no previous snapshot)
+        assert "+300" in out
+
+    def test_excludes_old_skills(self, db):
+        # Run 1
+        run1 = start_run(db)
+        insert_snapshots(db, [
+            _make(
+                run1.id, "ancient",
+                created_at=_ts(2026, 1, 1),
+                stat_downloads=100,
+            ),
+        ])
+        complete_run(db, run1.id, total_skills=1)
+
+        # Run 2
+        run2 = start_run(db)
+        insert_snapshots(db, [
+            _make(
+                run2.id, "ancient",
+                created_at=_ts(2026, 1, 1),
+                stat_downloads=9999,
+            ),
+        ])
+        complete_run(db, run2.id, total_skills=1)
+
+        # ancient is >14 days old, should return None
+        out = rising_skills(db)
+        assert out is None
