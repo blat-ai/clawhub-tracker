@@ -97,12 +97,31 @@ class TestDashboardData:
         assert sparkline[0] == 100
         assert sparkline[1] == 300
 
+    def test_download_percentiles(self, db):
+        _seed(
+            db,
+            lambda rid: [
+                _make(rid, "a", stat_downloads=10),
+                _make(rid, "b", stat_downloads=100),
+                _make(rid, "c", stat_downloads=1000),
+                _make(rid, "d", stat_downloads=10000),
+            ],
+        )
+        data = dashboard_data(db)
+        pcts = data["download_percentiles"]
+        assert len(pcts) == 1
+        entry = pcts[0]
+        assert "run_date" in entry
+        assert entry["skill_count"] == 4
+        assert entry["p50"] <= entry["p90"] <= entry["p95"] <= entry["p99"]
+
     def test_empty_db(self, db):
         data = dashboard_data(db)
         assert data["total_skills"] == 0
         assert data["total_downloads"] == 0
         assert data["weekly_growth"] == []
         assert data["download_sparkline"] == []
+        assert data["download_percentiles"] == []
 
     def test_median_dl_per_day(self, db):
         _seed(

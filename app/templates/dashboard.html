@@ -46,6 +46,20 @@
 </div>
 
 {% if data.weekly_growth %}
+<div class="chart-container" style="margin-bottom:24px;">
+    <h3>Skills Evolution</h3>
+    <canvas id="skillsEvolution" height="300"></canvas>
+</div>
+{% endif %}
+
+{% if data.download_percentiles %}
+<div class="chart-container" style="margin-bottom:24px;">
+    <h3>Download Distribution Over Time (P50, P90, P95, P99)</h3>
+    <canvas id="dlPercentiles" height="300"></canvas>
+</div>
+{% endif %}
+
+{% if data.weekly_growth %}
 <h2>Growth Timeline</h2>
 <table>
     <thead>
@@ -92,6 +106,74 @@ new Chart(document.getElementById('sparkDl'), {
     }]},
     options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false }},
         scales: { x: { display: false }, y: { display: false }}}
+});
+{% endif %}
+
+{% if data.weekly_growth %}
+const weeklyGrowth = {{ data.weekly_growth|tojson }};
+new Chart(document.getElementById('skillsEvolution'), {
+    type: 'line',
+    data: {
+        labels: weeklyGrowth.map(w => w.week_start.substring(0, 10)),
+        datasets: [
+            {
+                label: 'Cumulative Skills',
+                data: weeklyGrowth.map(w => w.cumulative),
+                borderColor: '#89b4fa',
+                backgroundColor: 'rgba(137, 180, 250, 0.1)',
+                borderWidth: 2,
+                fill: true,
+                tension: 0.3,
+                pointRadius: 3,
+                yAxisID: 'y'
+            },
+            {
+                label: 'New Skills / Week',
+                data: weeklyGrowth.map(w => w.new_count),
+                borderColor: '#a6e3a1',
+                borderWidth: 2,
+                fill: false,
+                tension: 0.3,
+                pointRadius: 3,
+                yAxisID: 'y1'
+            }
+        ]
+    },
+    options: {
+        responsive: true,
+        interaction: { mode: 'index', intersect: false },
+        plugins: { legend: { labels: { color: '#a6adc8' } } },
+        scales: {
+            x: { ticks: { color: '#a6adc8', maxRotation: 45 }, grid: { color: '#313244' } },
+            y: { position: 'left', ticks: { color: '#89b4fa' }, grid: { color: '#313244' }, title: { display: true, text: 'Cumulative', color: '#89b4fa' } },
+            y1: { position: 'right', ticks: { color: '#a6e3a1' }, grid: { drawOnChartArea: false }, title: { display: true, text: 'New / Week', color: '#a6e3a1' } }
+        }
+    }
+});
+{% endif %}
+
+{% if data.download_percentiles %}
+const pctData = {{ data.download_percentiles|tojson }};
+new Chart(document.getElementById('dlPercentiles'), {
+    type: 'line',
+    data: {
+        labels: pctData.map(p => p.run_date),
+        datasets: [
+            { label: 'P50', data: pctData.map(p => p.p50), borderColor: '#89b4fa', borderWidth: 2, tension: 0.3, pointRadius: 3 },
+            { label: 'P90', data: pctData.map(p => p.p90), borderColor: '#a6e3a1', borderWidth: 2, tension: 0.3, pointRadius: 3 },
+            { label: 'P95', data: pctData.map(p => p.p95), borderColor: '#f9e2af', borderWidth: 2, tension: 0.3, pointRadius: 3 },
+            { label: 'P99', data: pctData.map(p => p.p99), borderColor: '#f38ba8', borderWidth: 2, tension: 0.3, pointRadius: 3 }
+        ]
+    },
+    options: {
+        responsive: true,
+        interaction: { mode: 'index', intersect: false },
+        plugins: { legend: { labels: { color: '#a6adc8' } } },
+        scales: {
+            x: { ticks: { color: '#a6adc8' }, grid: { color: '#313244' } },
+            y: { ticks: { color: '#a6adc8' }, grid: { color: '#313244' }, title: { display: true, text: 'Downloads', color: '#a6adc8' } }
+        }
+    }
 });
 {% endif %}
 </script>

@@ -42,6 +42,7 @@ def dashboard_data(conn: duckdb.DuckDBPyConnection, now: datetime | None = None)
             "total_owners": 0,
             "weekly_growth": [],
             "download_sparkline": [],
+            "download_percentiles": [],
             "median_dl_per_day": None,
             "median_dl_per_day_prev": None,
             "generated_at": now.isoformat(),
@@ -133,6 +134,36 @@ def dashboard_data(conn: duckdb.DuckDBPyConnection, now: datetime | None = None)
     median_dl_rounded = round(float(median_dl), 1) if median_dl is not None else None
     median_dl_prev_rounded = round(float(median_dl_prev), 1) if median_dl_prev is not None else None
 
+    # Download percentiles per completed run (P50, P90, P95, P99)
+    pct_rows = conn.execute("""
+        SELECT
+            r.id,
+            r.started_at,
+            COUNT(*) as skill_count,
+            PERCENTILE_CONT(0.50) WITHIN GROUP (ORDER BY s.stat_downloads) as p50,
+            PERCENTILE_CONT(0.90) WITHIN GROUP (ORDER BY s.stat_downloads) as p90,
+            PERCENTILE_CONT(0.95) WITHIN GROUP (ORDER BY s.stat_downloads) as p95,
+            PERCENTILE_CONT(0.99) WITHIN GROUP (ORDER BY s.stat_downloads) as p99
+        FROM skill_snapshots s
+        JOIN scrape_runs r ON s.scrape_run_id = r.id
+        WHERE r.status = 'completed'
+        GROUP BY r.id, r.started_at
+        ORDER BY r.id
+    """).fetchall()
+    download_percentiles = []
+    for row in pct_rows:
+        run_date = row[1].isoformat()[:10] if row[1] else str(row[0])
+        download_percentiles.append(
+            {
+                "run_date": run_date,
+                "skill_count": row[2],
+                "p50": round(float(row[3]), 0) if row[3] is not None else 0,
+                "p90": round(float(row[4]), 0) if row[4] is not None else 0,
+                "p95": round(float(row[5]), 0) if row[5] is not None else 0,
+                "p99": round(float(row[6]), 0) if row[6] is not None else 0,
+            }
+        )
+
     return {
         "total_skills": totals[0],
         "total_downloads": totals[1],
@@ -140,6 +171,7 @@ def dashboard_data(conn: duckdb.DuckDBPyConnection, now: datetime | None = None)
         "total_owners": totals[3],
         "weekly_growth": weekly_growth,
         "download_sparkline": download_sparkline,
+        "download_percentiles": download_percentiles,
         "median_dl_per_day": median_dl_rounded,
         "median_dl_per_day_prev": median_dl_prev_rounded,
         "generated_at": now.isoformat(),
