@@ -9,6 +9,7 @@
 
 <div class="tabs">
     <button class="tab-btn active" onclick="showTab('downloads', this)">By Downloads</button>
+    <button class="tab-btn" onclick="showTab('stars', this)">By Stars</button>
     <button class="tab-btn" onclick="showTab('skills', this)">By Skill Count</button>
 </div>
 
@@ -37,6 +38,41 @@
             <td class="number">{{ "%.1f"|format(o.dl_pct) }}%</td>
             <td class="number">{{ "{:,}".format(o.total_stars) }}</td>
             <td class="number">{{ "%.1f"|format(o.star_pct) }}%</td>
+            <td class="number">{{ o.avg_dl_per_day }}</td>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
+{% else %}
+<div class="empty-state">No owner data available</div>
+{% endif %}
+</div>
+
+<div id="tab-stars" class="tab-content">
+{% if data.by_stars %}
+<table>
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Owner</th>
+            <th class="number">Stars</th>
+            <th class="number">Star %</th>
+            <th class="number">Skills</th>
+            <th class="number">Downloads</th>
+            <th class="number">DL %</th>
+            <th class="number">Avg DL/day</th>
+        </tr>
+    </thead>
+    <tbody>
+    {% for o in data.by_stars %}
+        <tr>
+            <td>{{ loop.index }}</td>
+            <td><a href="owners/{{ o.handle|lower|replace(' ', '-') }}.html">{{ o.handle }}</a></td>
+            <td class="number">{{ "{:,}".format(o.total_stars) }}</td>
+            <td class="number">{{ "%.1f"|format(o.star_pct) }}%</td>
+            <td class="number">{{ o.skill_count }}</td>
+            <td class="number">{{ "{:,}".format(o.total_downloads) }}</td>
+            <td class="number">{{ "%.1f"|format(o.dl_pct) }}%</td>
             <td class="number">{{ o.avg_dl_per_day }}</td>
         </tr>
     {% endfor %}

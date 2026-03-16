@@ -426,6 +426,7 @@ def owners_data(conn: duckdb.DuckDBPyConnection, now: datetime | None = None) ->
     if run_row is None:
         return {
             "by_downloads": [],
+            "by_stars": [],
             "by_skill_count": [],
             "generated_at": now.isoformat(),
         }
@@ -469,10 +470,14 @@ def owners_data(conn: duckdb.DuckDBPyConnection, now: datetime | None = None) ->
 
     all_owners = [_owner_dict(r) for r in rows]
     by_downloads = all_owners[:50]
-    by_skill_count = sorted(all_owners, key=lambda o: o["skill_count"], reverse=True)[:50]
+    by_stars = sorted(all_owners, key=lambda o: o["total_stars"], reverse=True)[:50]
+    by_skill_count = sorted(
+        all_owners, key=lambda o: o["skill_count"], reverse=True
+    )[:50]
 
     return {
         "by_downloads": by_downloads,
+        "by_stars": by_stars,
         "by_skill_count": by_skill_count,
         "generated_at": now.isoformat(),
     }

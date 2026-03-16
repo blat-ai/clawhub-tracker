@@ -436,6 +436,7 @@ class TestOwnersData:
     def test_empty_db(self, db):
         data = owners_data(db)
         assert data["by_downloads"] == []
+        assert data["by_stars"] == []
         assert data["by_skill_count"] == []
 
 
