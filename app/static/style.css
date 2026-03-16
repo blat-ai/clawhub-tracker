@@ -89,6 +89,12 @@ tbody tr:hover { background: var(--mantle); }
 td.number { text-align: right; font-variant-numeric: tabular-nums; }
 td .bar { height: 14px; background: var(--blue); opacity: 0.4; border-radius: 2px; }
 
+/* Sortable columns */
+table.sortable th { cursor: pointer; user-select: none; }
+table.sortable th::after { content: ''; margin-left: 4px; }
+table.sortable th.sort-asc::after { content: ' \25B2'; font-size: 10px; }
+table.sortable th.sort-desc::after { content: ' \25BC'; font-size: 10px; }
+
 /* Trend arrows */
 .trend-up { color: var(--green); }
 .trend-down { color: var(--red); }

@@ -31,5 +31,30 @@
     </footer>
 
     {% block scripts %}{% endblock %}
+    <script>
+    document.querySelectorAll('table.sortable').forEach(table => {
+        const headers = table.querySelectorAll('th');
+        headers.forEach((th, colIdx) => {
+            th.style.cursor = 'pointer';
+            th.addEventListener('click', () => {
+                const tbody = table.querySelector('tbody');
+                const rows = Array.from(tbody.querySelectorAll('tr'));
+                const asc = th.dataset.sort !== 'asc';
+                headers.forEach(h => { h.dataset.sort = ''; h.classList.remove('sort-asc','sort-desc'); });
+                th.dataset.sort = asc ? 'asc' : 'desc';
+                th.classList.add(asc ? 'sort-asc' : 'sort-desc');
+                rows.sort((a, b) => {
+                    const at = a.cells[colIdx].textContent.trim();
+                    const bt = b.cells[colIdx].textContent.trim();
+                    const an = parseFloat(at.replace(/[,%+]/g, ''));
+                    const bn = parseFloat(bt.replace(/[,%+]/g, ''));
+                    if (!isNaN(an) && !isNaN(bn)) return asc ? an - bn : bn - an;
+                    return asc ? at.localeCompare(bt) : bt.localeCompare(at);
+                });
+                rows.forEach(r => tbody.appendChild(r));
+            });
+        });
+    });
+    </script>
 </body>
 </html>

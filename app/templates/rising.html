@@ -14,7 +14,7 @@
     <button class="filter-btn" onclick="filterAge(7, this)">7 days</button>
 </div>
 
-<table id="rising-table">
+<table id="rising-table" class="sortable">
     <thead>
         <tr>
             <th>#</th>
@@ -32,7 +32,7 @@
         <tr data-created="{{ s.created_at }}">
             <td>{{ loop.index }}</td>
             <td><a href="skills/{{ s.slug }}.html">{{ s.display_name }}</a></td>
-            <td><a href="owners/{{ s.owner_handle|lower|replace(' ', '-') }}.html">{{ s.owner_handle }}</a></td>
+            <td>{{ s.owner_handle }}</td>
             <td class="number">{{ s.dl_per_day }}</td>
             <td class="number trend-up">+{{ "{:,}".format(s.delta) }}</td>
             <td class="number">{{ "{:,}".format(s.stat_downloads) }}</td>
