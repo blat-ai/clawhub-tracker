@@ -253,6 +253,8 @@ def rising_data(
         ).fetchall()
         velocity_chart = [r[1] for r in chart_rows]
 
+        created = row[5]
+        days_old = (now.date() - created.date()).days if created else None
         skills.append(
             {
                 "skill_id": row[0],
@@ -260,7 +262,8 @@ def rising_data(
                 "display_name": row[2],
                 "owner_handle": row[3],
                 "summary": row[4],
-                "created_at": row[5].isoformat() if row[5] else None,
+                "created_at": created.isoformat() if created else None,
+                "days_old": days_old,
                 "stat_downloads": row[6],
                 "dl_per_day": round(float(row[7]), 1),
                 "delta": row[8],
@@ -300,7 +303,7 @@ def leaderboard_data(
     all_time_rows = conn.execute(
         """
         SELECT skill_id, slug, display_name, owner_handle,
-               stat_downloads, created_at
+               stat_downloads, stat_stars, created_at
         FROM skill_snapshots
         WHERE scrape_run_id = ?
         ORDER BY stat_downloads DESC
@@ -315,6 +318,8 @@ def leaderboard_data(
         vel_recent = _avg_velocity(conn, skill_id, recent_ids) if len(recent_ids) >= 2 else None
         vel_prior = _avg_velocity(conn, skill_id, prior_ids) if len(prior_ids) >= 2 else None
         trend = _compute_trend(vel_recent, vel_prior)
+        created = row[6]
+        days_old = (now.date() - created.date()).days if created else None
         all_time.append(
             {
                 "skill_id": skill_id,
@@ -322,7 +327,9 @@ def leaderboard_data(
                 "display_name": row[2],
                 "owner_handle": row[3],
                 "stat_downloads": row[4],
-                "created_at": row[5].isoformat() if row[5] else None,
+                "stat_stars": row[5] or 0,
+                "created_at": created.isoformat() if created else None,
+                "days_old": days_old,
                 "velocity": round(vel_recent, 1) if vel_recent is not None else None,
                 "trend": trend,
             }
@@ -335,7 +342,7 @@ def leaderboard_data(
         candidates = conn.execute(
             """
             SELECT skill_id, slug, display_name, owner_handle,
-                   stat_downloads, created_at
+                   stat_downloads, stat_stars, created_at
             FROM skill_snapshots
             WHERE scrape_run_id = ? AND stat_downloads >= ?
             ORDER BY stat_downloads DESC
@@ -353,6 +360,8 @@ def leaderboard_data(
             else:
                 accel = None
             if accel is not None:
+                created = row[6]
+                days_old = (now.date() - created.date()).days if created else None
                 accel_list.append(
                     {
                         "skill_id": skill_id,
@@ -360,7 +369,9 @@ def leaderboard_data(
                         "display_name": row[2],
                         "owner_handle": row[3],
                         "stat_downloads": row[4],
-                        "created_at": row[5].isoformat() if row[5] else None,
+                        "stat_stars": row[5] or 0,
+                        "created_at": created.isoformat() if created else None,
+                        "days_old": days_old,
                         "velocity": round(vel_recent, 1) if vel_recent else None,
                         "acceleration_pct": round(accel, 1),
                         "trend": _compute_trend(vel_recent, vel_prior),

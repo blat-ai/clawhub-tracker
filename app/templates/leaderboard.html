@@ -20,8 +20,10 @@
             <th>Skill</th>
             <th>Owner</th>
             <th class="number">Downloads</th>
+            <th class="number">Stars</th>
             <th class="number">Velocity</th>
             <th>Trend</th>
+            <th class="number">Age</th>
         </tr>
     </thead>
     <tbody>
@@ -31,10 +33,12 @@
             <td><a href="skills/{{ s.slug }}.html">{{ s.display_name }}</a></td>
             <td>{{ s.owner_handle }}</td>
             <td class="number">{{ "{:,}".format(s.stat_downloads) }}</td>
+            <td class="number">{{ "{:,}".format(s.stat_stars) }}</td>
             <td class="number">{{ s.velocity if s.velocity is not none else "N/A" }}</td>
             <td class="trend-{{ s.trend }}">
                 {% if s.trend == 'up' %}&#9650;{% elif s.trend == 'down' %}&#9660;{% else %}&#9644;{% endif %}
             </td>
+            <td class="number">{{ s.days_old if s.days_old is not none else "?" }}d</td>
         </tr>
     {% endfor %}
     </tbody>
@@ -50,8 +54,10 @@
             <th>Skill</th>
             <th>Owner</th>
             <th class="number">Downloads</th>
+            <th class="number">Stars</th>
             <th class="number">Accel %</th>
             <th>Trend</th>
+            <th class="number">Age</th>
         </tr>
     </thead>
     <tbody>
@@ -61,10 +67,12 @@
             <td><a href="skills/{{ s.slug }}.html">{{ s.display_name }}</a></td>
             <td>{{ s.owner_handle }}</td>
             <td class="number">{{ "{:,}".format(s.stat_downloads) }}</td>
+            <td class="number">{{ "{:,}".format(s.stat_stars) }}</td>
             <td class="number trend-up">{{ "%+.1f"|format(s.acceleration_pct) }}%</td>
             <td class="trend-{{ s.trend }}">
                 {% if s.trend == 'up' %}&#9650;{% elif s.trend == 'down' %}&#9660;{% else %}&#9644;{% endif %}
             </td>
+            <td class="number">{{ s.days_old if s.days_old is not none else "?" }}d</td>
         </tr>
     {% endfor %}
     </tbody>

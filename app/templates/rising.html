@@ -24,7 +24,7 @@
             <th class="number">Delta</th>
             <th class="number">Downloads</th>
             <th>Velocity</th>
-            <th>Age</th>
+            <th class="number">Age</th>
         </tr>
     </thead>
     <tbody>
@@ -37,7 +37,7 @@
             <td class="number trend-up">+{{ "{:,}".format(s.delta) }}</td>
             <td class="number">{{ "{:,}".format(s.stat_downloads) }}</td>
             <td><canvas class="velocity-chart" id="vc-{{ loop.index0 }}"></canvas></td>
-            <td>{{ s.created_at[:10] if s.created_at else "?" }}</td>
+            <td class="number">{{ s.days_old if s.days_old is not none else "?" }}d</td>
         </tr>
     {% endfor %}
     </tbody>
