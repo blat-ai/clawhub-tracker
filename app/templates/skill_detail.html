@@ -3,7 +3,7 @@
 
 {% block content %}
 <div class="detail-header">
-    <h1>{{ data.display_name }}</h1>
+    <h1>{{ data.display_name }} <a href="https://clawhub.ai/{{ data.owner_handle }}/{{ data.slug }}" target="_blank" rel="noopener" class="external-link" title="View on ClawHub"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a></h1>
     <p class="meta">
         <span class="meta-item"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg> <a href="{{ static_prefix }}owners/{{ data.owner_handle }}.html">{{ data.owner_handle }}</a></span>
         <span class="meta-item"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg> {{ "{:,}".format(data.stat_downloads|default(0)) }}</span>
