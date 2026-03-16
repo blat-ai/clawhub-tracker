@@ -21,8 +21,7 @@ services:
         WORKDIR /app
         RUN pip install uv
         RUN apt-get update && apt-get install -y --no-install-recommends curl \
-            && SUPERCRONIC_URL="https://github.com/aptible/supercronic/releases/download/v0.2.33/supercronic-linux-amd64" \
-            && curl -fsSL "$SUPERCRONIC_URL" -o /usr/local/bin/supercronic \
+            && curl -fsSL "https://github.com/aptible/supercronic/releases/download/v0.2.33/supercronic-linux-amd64" -o /usr/local/bin/supercronic \
             && chmod +x /usr/local/bin/supercronic \
             && apt-get purge -y curl && apt-get autoremove -y && rm -rf /var/lib/apt/lists/*
         COPY pyproject.toml .
@@ -30,6 +29,7 @@ services:
         COPY . .
         COPY crontab /app/crontab
         CMD ["supercronic", "/app/crontab"]
+    init: true
     volumes:
       - ./data:/app/data
     restart: unless-stopped
