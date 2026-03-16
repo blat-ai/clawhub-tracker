@@ -9,6 +9,7 @@ from app.report import (
     hot_new_skills,
     owner_ecosystem,
     platform_snapshot,
+    platform_velocity,
     quality_signals,
     top_skills,
 )
@@ -70,7 +71,7 @@ class TestPlatformSnapshot:
 
 
 class TestGrowthTimeline:
-    def test_weekly_bars(self, db):
+    def test_weekly_bars_with_wow(self, db):
         _seed(
             db,
             lambda rid: [
@@ -85,6 +86,8 @@ class TestGrowthTimeline:
         assert "cum:" in out
         # Should have multiple week rows
         assert out.count("new") >= 3
+        # WoW% should appear (at least for 2nd week onward)
+        assert "%" in out
 
     def test_no_created_at(self, db):
         _seed(db, lambda rid: [_make(rid, "x", created_at=None)])
@@ -256,3 +259,50 @@ class TestOwnerEcosystem:
         )
         out = owner_ecosystem(db)
         assert "No suspected spam" in out
+
+
+class TestPlatformVelocity:
+    def test_returns_none_with_single_run(self, db):
+        _seed(
+            db,
+            lambda rid: [_make(rid, "a", stat_downloads=100)],
+        )
+        assert platform_velocity(db) is None
+
+    def test_shows_delta_with_two_runs(self, db):
+        # Run 1
+        run1 = start_run(db)
+        insert_snapshots(db, [
+            _make(run1.id, "a", stat_downloads=100),
+        ])
+        complete_run(db, run1.id, total_skills=1)
+
+        # Run 2 - downloads grew
+        run2 = start_run(db)
+        insert_snapshots(db, [
+            _make(run2.id, "a", stat_downloads=300),
+            _make(run2.id, "b", stat_downloads=50),
+        ])
+        complete_run(db, run2.id, total_skills=2)
+
+        out = platform_velocity(db)
+        assert out is not None
+        assert "PLATFORM VELOCITY" in out
+        assert "DL Delta" in out
+        # Run 2 total is 350, run 1 total is 100, delta is +250
+        assert "+250" in out
+
+    def test_shows_avg_velocity_with_three_runs(self, db):
+        for i in range(3):
+            run = start_run(db)
+            insert_snapshots(db, [
+                _make(
+                    run.id, f"s{i}",
+                    stat_downloads=(i + 1) * 1000,
+                ),
+            ])
+            complete_run(db, run.id, total_skills=1)
+
+        out = platform_velocity(db)
+        assert out is not None
+        assert "Avg download velocity" in out

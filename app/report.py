@@ -87,13 +87,21 @@ def growth_timeline(conn: duckdb.DuckDBPyConnection) -> str:
 
     lines = [_header("PLATFORM GROWTH TIMELINE")]
     cumulative = 0
+    prev_count = None
     for week_start, new_count in rows:
         cumulative += new_count
         iso_week = week_start.strftime("%Y-W%W")
         bar = "\u2588" * max(1, int(new_count * bar_scale))
+        if prev_count and prev_count > 0:
+            wow = (new_count - prev_count) / prev_count * 100
+            wow_str = f"{wow:>+6.0f}%"
+        else:
+            wow_str = "      "
         lines.append(
-            f"  {iso_week}  {new_count:>5} new   cum: {cumulative:>6,}  {bar}"
+            f"  {iso_week}  {new_count:>5} new  {wow_str}"
+            f"  cum: {cumulative:>6,}  {bar}"
         )
+        prev_count = new_count
     return "\n".join(lines)
 
 
@@ -304,7 +312,72 @@ def owner_ecosystem(conn: duckdb.DuckDBPyConnection, limit: int = 10) -> str:
 
 
 # ---------------------------------------------------------------------------
-# 8. Diff (unchanged logic)
+# 8. Platform Velocity (across scrape runs)
+# ---------------------------------------------------------------------------
+
+
+def platform_velocity(conn: duckdb.DuckDBPyConnection) -> str | None:
+    """Show download/skill totals across completed runs to reveal acceleration."""
+    rows = conn.execute("""
+        SELECT
+            r.id,
+            r.started_at,
+            r.total_skills,
+            COALESCE(SUM(s.stat_downloads), 0) AS total_dl,
+            COALESCE(SUM(s.stat_stars), 0) AS total_stars
+        FROM scrape_runs r
+        JOIN skill_snapshots s ON s.scrape_run_id = r.id
+        WHERE r.status = 'completed'
+        GROUP BY r.id, r.started_at, r.total_skills
+        ORDER BY r.id
+    """).fetchall()
+
+    if len(rows) < 2:
+        return None
+
+    lines = [_header("PLATFORM VELOCITY (across scrape runs)")]
+    lines.append(
+        f"  {'Run':>4} {'Date':<17} {'Skills':>7} {'Downloads':>12}"
+        f" {'DL Delta':>10} {'DL/day':>10}"
+    )
+    lines.append("  " + "-" * 64)
+
+    prev = None
+    for run_id, started_at, total_skills, total_dl, _ in rows:
+        date_str = started_at.strftime("%Y-%m-%d %H:%M")
+        if prev is not None:
+            dl_delta = total_dl - prev[1]
+            days = max(
+                (started_at - prev[0]).total_seconds() / 86400, 0.01
+            )
+            dl_per_day = dl_delta / days
+            lines.append(
+                f"  {run_id:>4} {date_str:<17} {total_skills:>7,}"
+                f" {total_dl:>12,} {dl_delta:>+10,}"
+                f" {dl_per_day:>+10,.0f}"
+            )
+        else:
+            lines.append(
+                f"  {run_id:>4} {date_str:<17} {total_skills:>7,}"
+                f" {total_dl:>12,}{'':>10}{'':>10}"
+            )
+        prev = (started_at, total_dl)
+
+    if len(rows) >= 3:
+        first_dl = rows[0][3]
+        last_dl = rows[-1][3]
+        total_days = max(
+            (rows[-1][1] - rows[0][1]).total_seconds() / 86400, 0.01
+        )
+        avg_dl_day = (last_dl - first_dl) / total_days
+        lines.append(f"\n  Avg download velocity: {avg_dl_day:,.0f}/day"
+                     f" over {total_days:.1f} days")
+
+    return "\n".join(lines)
+
+
+# ---------------------------------------------------------------------------
+# 9. Diff (unchanged logic)
 # ---------------------------------------------------------------------------
 
 
@@ -370,6 +443,10 @@ def generate_report(db_path: str | None = None) -> str:
         quality_signals(conn),
         owner_ecosystem(conn),
     ]
+
+    velocity = platform_velocity(conn)
+    if velocity:
+        sections.append(velocity)
 
     diff = diff_summary(conn)
     if diff:
