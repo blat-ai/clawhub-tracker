@@ -52,51 +52,57 @@
 </div>
 
 {% if data.weekly_growth %}
-<div class="chart-container" style="margin-bottom:24px;">
-    <h3>Skills Evolution</h3>
-    <canvas id="skillsEvolution" height="160"></canvas>
+<div style="margin-bottom:24px;">
+    <div style="display:flex; align-items:center; gap:12px; margin-bottom:12px;">
+        <h3 style="margin:0;">Skills Evolution</h3>
+        <button class="tab-btn active" id="btn-chart" onclick="toggleView('chart')">Chart</button>
+        <button class="tab-btn" id="btn-table" onclick="toggleView('table')">Table</button>
+    </div>
+    <div id="view-chart">
+        <div class="chart-container">
+            <canvas id="skillsEvolution" height="160"></canvas>
+        </div>
+    </div>
+    <div id="view-table" style="display:none;">
+        <table class="sortable">
+            <thead>
+                <tr>
+                    <th>Week</th>
+                    <th class="number">New Skills</th>
+                    <th class="number">Cumulative</th>
+                    <th class="number">WoW %</th>
+                    <th>Trend</th>
+                </tr>
+            </thead>
+            <tbody>
+            {% for w in data.weekly_growth|reverse %}
+                <tr{% if w.is_forecast %} class="forecast-row"{% endif %}>
+                    <td>{{ w.week_start[:10] }}{% if w.is_forecast %} <span class="forecast-badge">forecast</span>{% endif %}</td>
+                    <td class="number">
+                        {% if w.is_forecast and w.forecast_count is not none %}
+                        {{ w.forecast_count }} <span class="forecast-hint">({{ w.new_count }} actual)</span>
+                        {% else %}
+                        {{ w.new_count }}
+                        {% endif %}
+                    </td>
+                    <td class="number">{{ "{:,}".format(w.cumulative) }}</td>
+                    <td class="number {% if w.wow_pct and w.wow_pct > 0 %}trend-up{% elif w.wow_pct and w.wow_pct < 0 %}trend-down{% endif %}">
+                        {% if w.wow_pct is not none %}{{ "%+.1f"|format(w.wow_pct) }}%{% else %}&mdash;{% endif %}
+                    </td>
+                    <td>
+                        {% if data.weekly_growth|length > 0 %}
+                        {% set max_new = data.weekly_growth|map(attribute='new_count')|max %}
+                        {% if max_new > 0 %}
+                        <div class="bar" style="width:{{ (w.new_count / max_new * 100)|int }}%"></div>
+                        {% endif %}
+                        {% endif %}
+                    </td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
 </div>
-{% endif %}
-
-{% if data.weekly_growth %}
-<h2>Growth Timeline</h2>
-<table>
-    <thead>
-        <tr>
-            <th>Week</th>
-            <th class="number">New Skills</th>
-            <th class="number">Cumulative</th>
-            <th class="number">WoW %</th>
-            <th>Trend</th>
-        </tr>
-    </thead>
-    <tbody>
-    {% for w in data.weekly_growth|reverse %}
-        <tr{% if w.is_forecast %} class="forecast-row"{% endif %}>
-            <td>{{ w.week_start[:10] }}{% if w.is_forecast %} <span class="forecast-badge">forecast</span>{% endif %}</td>
-            <td class="number">
-                {% if w.is_forecast and w.forecast_count is not none %}
-                {{ w.forecast_count }} <span class="forecast-hint">({{ w.new_count }} actual)</span>
-                {% else %}
-                {{ w.new_count }}
-                {% endif %}
-            </td>
-            <td class="number">{{ "{:,}".format(w.cumulative) }}</td>
-            <td class="number {% if w.wow_pct and w.wow_pct > 0 %}trend-up{% elif w.wow_pct and w.wow_pct < 0 %}trend-down{% endif %}">
-                {% if w.wow_pct is not none %}{{ "%+.1f"|format(w.wow_pct) }}%{% else %}&mdash;{% endif %}
-            </td>
-            <td>
-                {% if data.weekly_growth|length > 0 %}
-                {% set max_new = data.weekly_growth|map(attribute='new_count')|max %}
-                {% if max_new > 0 %}
-                <div class="bar" style="width:{{ (w.new_count / max_new * 100)|int }}%"></div>
-                {% endif %}
-                {% endif %}
-            </td>
-        </tr>
-    {% endfor %}
-    </tbody>
-</table>
 {% endif %}
 {% endblock %}
 
@@ -157,5 +163,11 @@ new Chart(document.getElementById('skillsEvolution'), {
 });
 {% endif %}
 
+function toggleView(view) {
+    document.getElementById('view-chart').style.display = view === 'chart' ? '' : 'none';
+    document.getElementById('view-table').style.display = view === 'table' ? '' : 'none';
+    document.getElementById('btn-chart').classList.toggle('active', view === 'chart');
+    document.getElementById('btn-table').classList.toggle('active', view === 'table');
+}
 </script>
 {% endblock %}
