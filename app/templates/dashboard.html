@@ -122,7 +122,17 @@ new Chart(document.getElementById('sparkDl'), {
 
 {% if data.weekly_growth %}
 const weeklyGrowth = {{ data.weekly_growth|tojson }};
-new Chart(document.getElementById('skillsEvolution'), {
+const evoCtx = document.getElementById('skillsEvolution').getContext('2d');
+
+const cumGrad = evoCtx.createLinearGradient(0, 0, 0, 300);
+cumGrad.addColorStop(0, 'rgba(137, 180, 250, 0.25)');
+cumGrad.addColorStop(1, 'rgba(137, 180, 250, 0.02)');
+
+const newGrad = evoCtx.createLinearGradient(0, 0, 0, 300);
+newGrad.addColorStop(0, 'rgba(166, 227, 161, 0.20)');
+newGrad.addColorStop(1, 'rgba(166, 227, 161, 0.02)');
+
+new Chart(evoCtx, {
     type: 'line',
     data: {
         labels: weeklyGrowth.map(w => w.week_start.substring(0, 10)),
@@ -131,21 +141,30 @@ new Chart(document.getElementById('skillsEvolution'), {
                 label: 'Cumulative Skills',
                 data: weeklyGrowth.map(w => w.cumulative),
                 borderColor: '#89b4fa',
-                backgroundColor: 'rgba(137, 180, 250, 0.1)',
-                borderWidth: 2,
+                backgroundColor: cumGrad,
+                borderWidth: 2.5,
                 fill: true,
-                tension: 0.3,
-                pointRadius: 3,
+                tension: 0.4,
+                pointRadius: 4,
+                pointBackgroundColor: '#89b4fa',
+                pointBorderColor: '#1e1e2e',
+                pointBorderWidth: 2,
+                pointHoverRadius: 6,
                 yAxisID: 'y'
             },
             {
                 label: 'New Skills / Week',
                 data: weeklyGrowth.map(w => w.new_count),
                 borderColor: '#a6e3a1',
-                borderWidth: 2,
-                fill: false,
-                tension: 0.3,
-                pointRadius: 3,
+                backgroundColor: newGrad,
+                borderWidth: 2.5,
+                fill: true,
+                tension: 0.4,
+                pointRadius: 4,
+                pointBackgroundColor: '#a6e3a1',
+                pointBorderColor: '#1e1e2e',
+                pointBorderWidth: 2,
+                pointHoverRadius: 6,
                 yAxisID: 'y1'
             }
         ]
@@ -153,11 +172,39 @@ new Chart(document.getElementById('skillsEvolution'), {
     options: {
         responsive: true,
         interaction: { mode: 'index', intersect: false },
-        plugins: { legend: { labels: { color: '#a6adc8' } } },
+        plugins: {
+            legend: {
+                labels: { color: '#a6adc8', usePointStyle: true, pointStyle: 'circle', padding: 16, font: { size: 12 } }
+            },
+            tooltip: {
+                backgroundColor: '#313244',
+                titleColor: '#cdd6f4',
+                bodyColor: '#a6adc8',
+                borderColor: '#45475a',
+                borderWidth: 1,
+                cornerRadius: 8,
+                padding: 10,
+                displayColors: true,
+                usePointStyle: true
+            }
+        },
         scales: {
-            x: { ticks: { color: '#a6adc8', maxRotation: 45 }, grid: { color: '#313244' } },
-            y: { position: 'left', ticks: { color: '#89b4fa' }, grid: { color: '#313244' }, title: { display: true, text: 'Cumulative', color: '#89b4fa' } },
-            y1: { position: 'right', ticks: { color: '#a6e3a1' }, grid: { drawOnChartArea: false }, title: { display: true, text: 'New / Week', color: '#a6e3a1' } }
+            x: {
+                ticks: { color: '#585b70', maxRotation: 45, font: { size: 11 } },
+                grid: { color: 'rgba(49, 50, 68, 0.5)', lineWidth: 0.5 }
+            },
+            y: {
+                position: 'left',
+                ticks: { color: '#89b4fa', font: { size: 11 } },
+                grid: { color: 'rgba(49, 50, 68, 0.5)', lineWidth: 0.5 },
+                title: { display: true, text: 'Cumulative', color: '#89b4fa', font: { size: 12 } }
+            },
+            y1: {
+                position: 'right',
+                ticks: { color: '#a6e3a1', font: { size: 11 } },
+                grid: { drawOnChartArea: false },
+                title: { display: true, text: 'New / Week', color: '#a6e3a1', font: { size: 12 } }
+            }
         }
     }
 });

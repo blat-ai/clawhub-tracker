@@ -30,14 +30,26 @@
 {% endif %}
 
 <h3>Skills</h3>
-<ul class="skill-list">
-{% for s in data.skills %}
-    <li>
-        <a href="{{ static_prefix }}skills/{{ s.slug }}.html">{{ s.display_name }}</a>
-        <span class="stats">{{ "{:,}".format(s.stat_downloads) }} DL &middot; {{ s.stat_stars }} &#9733;</span>
-    </li>
-{% endfor %}
-</ul>
+<table class="sortable">
+    <thead>
+        <tr>
+            <th>Skill</th>
+            <th class="number">Downloads</th>
+            <th class="number">Stars</th>
+            <th>Created</th>
+        </tr>
+    </thead>
+    <tbody>
+    {% for s in data.skills %}
+        <tr>
+            <td><a href="{{ static_prefix }}skills/{{ s.slug }}.html">{{ s.display_name }}</a></td>
+            <td class="number">{{ "{:,}".format(s.stat_downloads) }}</td>
+            <td class="number">{{ s.stat_stars }}</td>
+            <td>{{ s.created_at[:10] if s.created_at else "?" }}</td>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
 {% endblock %}
 
 {% block scripts %}
