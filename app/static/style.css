@@ -14,6 +14,8 @@
     --peach: #fab387;
     --red: #f38ba8;
     --mauve: #cba6f7;
+    --pink: #f5c2e7;
+    --lavender: #b4befe;
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -43,12 +45,15 @@ nav {
 }
 nav .container { display: flex; align-items: center; gap: 28px; }
 nav .logo {
-    color: var(--blue);
     font-weight: 700;
     font-size: 20px;
     text-decoration: none;
     letter-spacing: -0.03em;
     margin-right: 8px;
+    background: linear-gradient(90deg, var(--blue), var(--mauve), var(--pink));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 nav a {
     color: var(--subtext0);
