@@ -20,7 +20,7 @@ services:
         FROM python:3.13-slim
         WORKDIR /app
         RUN pip install uv
-        RUN apt-get update && apt-get install -y --no-install-recommends curl \
+        RUN apt-get update && apt-get install -y --no-install-recommends curl git \
             && curl -fsSL "https://github.com/aptible/supercronic/releases/download/v0.2.33/supercronic-linux-amd64" -o /usr/local/bin/supercronic \
             && chmod +x /usr/local/bin/supercronic \
             && apt-get purge -y curl && apt-get autoremove -y && rm -rf /var/lib/apt/lists/*
@@ -30,6 +30,8 @@ services:
         COPY crontab /app/crontab
         CMD ["supercronic", "/app/crontab"]
     init: true
+    environment:
+      - GH_TOKEN=${GH_TOKEN:-}
     volumes:
       - ./data:/app/data
       - ./build:/app/build

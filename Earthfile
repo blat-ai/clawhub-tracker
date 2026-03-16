@@ -13,6 +13,7 @@ src:
     COPY app/ app/
     COPY tests/ tests/
     COPY crontab crontab
+    COPY deploy-ghpages.sh deploy-ghpages.sh
 
 lint:
     FROM +src

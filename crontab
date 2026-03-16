@@ -2,3 +2,5 @@
 0 3 * * * /app/.venv/bin/python -m app.scraper
 # Generate static site at 03:15 UTC
 15 3 * * * /app/.venv/bin/python -m app.site
+# Deploy to GitHub Pages at 03:20 UTC
+20 3 * * * /app/deploy-ghpages.sh
