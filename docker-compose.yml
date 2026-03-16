@@ -1,0 +1,14 @@
+services:
+  scraper:
+    build:
+      context: .
+      dockerfile_inline: |
+        FROM python:3.13-slim
+        WORKDIR /app
+        RUN pip install uv
+        COPY pyproject.toml .
+        RUN uv venv && uv pip install -e ".[dev]"
+        COPY . .
+        CMD [".venv/bin/python", "-m", "app.scraper"]
+    volumes:
+      - ./data:/app/data
