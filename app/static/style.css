@@ -65,7 +65,12 @@ nav a {
     transition: color 0.2s, background 0.2s;
 }
 nav a:hover, nav a.active { color: var(--text); background: var(--surface0); }
-nav a.logo:hover { background: none; -webkit-text-fill-color: transparent; }
+nav a.logo:hover, nav a.logo:active {
+    background: linear-gradient(90deg, var(--blue), var(--mauve), var(--pink));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
 
 /* Page header */
 .page-header { margin: 32px 0 24px; }
