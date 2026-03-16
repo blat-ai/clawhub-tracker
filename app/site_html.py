@@ -46,12 +46,12 @@ def render_leaderboard(data: dict) -> str:
     )
 
 
-def render_cohorts(data: dict) -> str:
+def render_owners(data: dict) -> str:
     env = _get_env()
-    tmpl = env.get_template("cohorts.html")
+    tmpl = env.get_template("owners.html")
     return tmpl.render(
         data=data,
-        active_page="cohorts",
+        active_page="owners",
         static_prefix="",
         generated_at=data.get("generated_at", ""),
     )

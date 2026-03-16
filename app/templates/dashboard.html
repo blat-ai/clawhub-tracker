@@ -58,13 +58,6 @@
 </div>
 {% endif %}
 
-{% if data.download_percentiles %}
-<div class="chart-container" style="margin-bottom:24px;">
-    <h3>Download Distribution Over Time (P50, P90, P95, P99)</h3>
-    <canvas id="dlPercentiles" height="300"></canvas>
-</div>
-{% endif %}
-
 {% if data.weekly_growth %}
 <h2>Growth Timeline</h2>
 <table>
@@ -164,29 +157,5 @@ new Chart(document.getElementById('skillsEvolution'), {
 });
 {% endif %}
 
-{% if data.download_percentiles %}
-const pctData = {{ data.download_percentiles|tojson }};
-new Chart(document.getElementById('dlPercentiles'), {
-    type: 'line',
-    data: {
-        labels: pctData.map(p => p.run_date),
-        datasets: [
-            { label: 'P50', data: pctData.map(p => p.p50), borderColor: '#89b4fa', borderWidth: 2, tension: 0.3, pointRadius: 3 },
-            { label: 'P90', data: pctData.map(p => p.p90), borderColor: '#a6e3a1', borderWidth: 2, tension: 0.3, pointRadius: 3 },
-            { label: 'P95', data: pctData.map(p => p.p95), borderColor: '#f9e2af', borderWidth: 2, tension: 0.3, pointRadius: 3 },
-            { label: 'P99', data: pctData.map(p => p.p99), borderColor: '#f38ba8', borderWidth: 2, tension: 0.3, pointRadius: 3 }
-        ]
-    },
-    options: {
-        responsive: true,
-        interaction: { mode: 'index', intersect: false },
-        plugins: { legend: { labels: { color: '#a6adc8' } } },
-        scales: {
-            x: { ticks: { color: '#a6adc8' }, grid: { color: '#313244' } },
-            y: { ticks: { color: '#a6adc8' }, grid: { color: '#313244' }, title: { display: true, text: 'Downloads', color: '#a6adc8' } }
-        }
-    }
-});
-{% endif %}
 </script>
 {% endblock %}

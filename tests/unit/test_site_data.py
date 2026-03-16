@@ -5,10 +5,10 @@ from datetime import datetime, timezone
 from app.models import SkillSnapshot
 from app.site_data import (
     api_index,
-    cohorts_data,
     dashboard_data,
     leaderboard_data,
     owner_detail_data,
+    owners_data,
     rising_data,
     skill_detail_data,
     top_owners_for_detail,
@@ -354,46 +354,89 @@ class TestLeaderboardData:
         assert data["fastest_growing"] == []
 
 
-class TestCohortsData:
-    def test_monthly_cohorts_with_percentiles(self, db):
+class TestOwnersData:
+    def test_by_downloads(self, db):
         _seed(
             db,
             lambda rid: [
-                _make(rid, "jan1", created_at=_ts(2026, 1, 15), stat_downloads=5000, stat_stars=50),
-                _make(rid, "jan2", created_at=_ts(2026, 1, 20), stat_downloads=3000, stat_stars=30),
-                _make(rid, "feb1", created_at=_ts(2026, 2, 10), stat_downloads=800, stat_stars=8),
-                _make(rid, "mar1", created_at=_ts(2026, 3, 1), stat_downloads=50, stat_stars=1),
+                _make(
+                    rid,
+                    "a",
+                    owner_handle="alice",
+                    stat_downloads=5000,
+                    stat_stars=50,
+                    created_at=_ts(2026, 1, 15),
+                ),
+                _make(
+                    rid,
+                    "b",
+                    owner_handle="alice",
+                    stat_downloads=3000,
+                    stat_stars=30,
+                    created_at=_ts(2026, 1, 20),
+                ),
+                _make(
+                    rid,
+                    "c",
+                    owner_handle="bob",
+                    stat_downloads=1000,
+                    stat_stars=10,
+                    created_at=_ts(2026, 2, 1),
+                ),
             ],
         )
-        data = cohorts_data(db, now=_ts(2026, 3, 16))
-        cohorts = data["cohorts"]
-        assert len(cohorts) == 3
-        jan = cohorts[0]
-        assert jan["month"] == "2026-01"
-        assert jan["skill_count"] == 2
-        assert "p50" in jan
-        assert "p25" in jan
-        assert "p75" in jan
-        assert "p90" in jan
-        assert "p99" in jan
-        assert "avg_dl_per_day" in jan
+        data = owners_data(db, now=_ts(2026, 3, 16))
+        by_dl = data["by_downloads"]
+        assert len(by_dl) == 2
+        assert by_dl[0]["handle"] == "alice"
+        assert by_dl[0]["total_downloads"] == 8000
+        assert by_dl[0]["skill_count"] == 2
+        assert by_dl[0]["dl_pct"] > 0
+        assert by_dl[0]["star_pct"] > 0
 
-    def test_star_to_download_ratio(self, db):
+    def test_by_skill_count(self, db):
         _seed(
             db,
             lambda rid: [
-                _make(rid, "a", created_at=_ts(2026, 1, 15), stat_downloads=1000, stat_stars=100),
-                _make(rid, "b", created_at=_ts(2026, 1, 20), stat_downloads=1000, stat_stars=50),
+                _make(
+                    rid,
+                    "a",
+                    owner_handle="prolific",
+                    stat_downloads=10,
+                    created_at=_ts(2026, 1, 1),
+                ),
+                _make(
+                    rid,
+                    "b",
+                    owner_handle="prolific",
+                    stat_downloads=10,
+                    created_at=_ts(2026, 1, 2),
+                ),
+                _make(
+                    rid,
+                    "c",
+                    owner_handle="prolific",
+                    stat_downloads=10,
+                    created_at=_ts(2026, 1, 3),
+                ),
+                _make(
+                    rid,
+                    "d",
+                    owner_handle="whale",
+                    stat_downloads=9000,
+                    created_at=_ts(2026, 1, 1),
+                ),
             ],
         )
-        data = cohorts_data(db, now=_ts(2026, 3, 16))
-        jan = data["cohorts"][0]
-        # 150 stars / 2000 downloads = 0.075
-        assert jan["star_dl_ratio"] == 0.075
+        data = owners_data(db, now=_ts(2026, 3, 16))
+        by_sc = data["by_skill_count"]
+        assert by_sc[0]["handle"] == "prolific"
+        assert by_sc[0]["skill_count"] == 3
 
     def test_empty_db(self, db):
-        data = cohorts_data(db)
-        assert data["cohorts"] == []
+        data = owners_data(db)
+        assert data["by_downloads"] == []
+        assert data["by_skill_count"] == []
 
 
 class TestSkillDetailData:

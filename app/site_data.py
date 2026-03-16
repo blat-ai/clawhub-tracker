@@ -413,70 +413,69 @@ def _compute_trend(vel_recent: float | None, vel_prior: float | None) -> str:
 
 
 # ---------------------------------------------------------------------------
-# Cohorts
+# Owners
 # ---------------------------------------------------------------------------
-def cohorts_data(conn: duckdb.DuckDBPyConnection, now: datetime | None = None) -> dict:
-    """Monthly cohort percentiles for DL/day distribution."""
+def owners_data(conn: duckdb.DuckDBPyConnection, now: datetime | None = None) -> dict:
+    """Owner leaderboard: by downloads and by skill count."""
     now = now or _now()
-    logger.info("[SITE_DATA] Computing cohort data")
+    logger.info("[SITE_DATA] Computing owners data")
 
     run_row = conn.execute(
         "SELECT id FROM scrape_runs WHERE status = 'completed' ORDER BY id DESC LIMIT 1"
     ).fetchone()
     if run_row is None:
-        return {"cohorts": [], "generated_at": now.isoformat()}
+        return {
+            "by_downloads": [],
+            "by_skill_count": [],
+            "generated_at": now.isoformat(),
+        }
 
     rows = conn.execute(
         """
         SELECT
-            DATE_TRUNC('month', created_at) as cohort_month,
+            owner_handle,
             COUNT(*) as skill_count,
-            PERCENTILE_CONT(0.25) WITHIN GROUP (
-                ORDER BY stat_downloads / GREATEST(DATE_DIFF('day', created_at, ?), 1)
-            ) as p25,
-            PERCENTILE_CONT(0.50) WITHIN GROUP (
-                ORDER BY stat_downloads / GREATEST(DATE_DIFF('day', created_at, ?), 1)
-            ) as p50,
-            PERCENTILE_CONT(0.75) WITHIN GROUP (
-                ORDER BY stat_downloads / GREATEST(DATE_DIFF('day', created_at, ?), 1)
-            ) as p75,
-            PERCENTILE_CONT(0.90) WITHIN GROUP (
-                ORDER BY stat_downloads / GREATEST(DATE_DIFF('day', created_at, ?), 1)
-            ) as p90,
-            PERCENTILE_CONT(0.99) WITHIN GROUP (
-                ORDER BY stat_downloads / GREATEST(DATE_DIFF('day', created_at, ?), 1)
-            ) as p99,
-            AVG(stat_downloads / GREATEST(DATE_DIFF('day', created_at, ?), 1)) as avg_dl_per_day,
+            SUM(stat_downloads) as total_downloads,
             SUM(stat_stars) as total_stars,
-            SUM(stat_downloads) as total_downloads
+            AVG(
+                stat_downloads / GREATEST(DATE_DIFF('day', created_at, ?), 1)
+            ) as avg_dl_per_day,
+            MIN(created_at) as first_skill_at
         FROM current_skills
-        WHERE created_at IS NOT NULL
-        GROUP BY 1
-        ORDER BY 1
+        WHERE owner_handle IS NOT NULL AND created_at IS NOT NULL
+        GROUP BY owner_handle
+        ORDER BY total_downloads DESC
     """,
-        [now, now, now, now, now, now],
+        [now],
     ).fetchall()
 
-    cohorts = []
-    for row in rows:
-        month_str = row[0].strftime("%Y-%m") if hasattr(row[0], "strftime") else str(row[0])[:7]
-        total_dl = row[9] or 0
-        star_dl_ratio = round(row[8] / total_dl, 4) if total_dl > 0 else 0.0
-        cohorts.append(
-            {
-                "month": month_str,
-                "skill_count": row[1],
-                "p25": round(float(row[2]), 1),
-                "p50": round(float(row[3]), 1),
-                "p75": round(float(row[4]), 1),
-                "p90": round(float(row[5]), 1),
-                "p99": round(float(row[6]), 1),
-                "avg_dl_per_day": round(float(row[7]), 1),
-                "star_dl_ratio": star_dl_ratio,
-            }
-        )
+    # Totals for percentage calculation
+    platform_dl = sum(r[2] or 0 for r in rows)
+    platform_stars = sum(r[3] or 0 for r in rows)
 
-    return {"cohorts": cohorts, "generated_at": now.isoformat()}
+    def _owner_dict(r):
+        dl = r[2] or 0
+        stars = r[3] or 0
+        return {
+            "handle": r[0],
+            "skill_count": r[1],
+            "total_downloads": dl,
+            "total_stars": stars,
+            "dl_pct": round(dl / platform_dl * 100, 2) if platform_dl > 0 else 0.0,
+            "star_pct": round(stars / platform_stars * 100, 2) if platform_stars > 0 else 0.0,
+            "avg_dl_per_day": round(float(r[4]), 1) if r[4] else 0.0,
+            "first_skill_at": r[5].isoformat() if r[5] else None,
+        }
+
+    all_owners = [_owner_dict(r) for r in rows]
+    by_downloads = all_owners[:50]
+    by_skill_count = sorted(all_owners, key=lambda o: o["skill_count"], reverse=True)[:50]
+
+    return {
+        "by_downloads": by_downloads,
+        "by_skill_count": by_skill_count,
+        "generated_at": now.isoformat(),
+    }
 
 
 # ---------------------------------------------------------------------------

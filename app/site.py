@@ -15,20 +15,20 @@ from loguru import logger
 
 from app.site_data import (
     api_index,
-    cohorts_data,
     dashboard_data,
     leaderboard_data,
     owner_detail_data,
+    owners_data,
     rising_data,
     skill_detail_data,
     top_owners_for_detail,
     top_skills_for_detail,
 )
 from app.site_html import (
-    render_cohorts,
     render_dashboard,
     render_leaderboard,
     render_owner_detail,
+    render_owners,
     render_rising,
     render_skill_detail,
 )
@@ -101,11 +101,11 @@ def generate(db_path: str | Path | None = None, build_dir: Path | None = None) -
     _write(build_dir / "leaderboard.html", render_leaderboard(lb))
     _write_json(build_dir / "api" / "leaderboard.json", lb)
 
-    # Cohorts
-    logger.info("[SITE] Generating cohorts")
-    cohorts = cohorts_data(conn)
-    _write(build_dir / "cohorts.html", render_cohorts(cohorts))
-    _write_json(build_dir / "api" / "cohorts.json", cohorts)
+    # Owners
+    logger.info("[SITE] Generating owners")
+    owners = owners_data(conn)
+    _write(build_dir / "owners.html", render_owners(owners))
+    _write_json(build_dir / "api" / "owners.json", owners)
 
     # Skill detail pages
     skill_slugs = top_skills_for_detail(conn)
