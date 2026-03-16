@@ -1,2 +1,4 @@
 # Run scraper daily at 03:00 UTC
 0 3 * * * /app/.venv/bin/python -m app.scraper
+# Generate static site at 03:15 UTC
+15 3 * * * /app/.venv/bin/python -m app.site

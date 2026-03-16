@@ -32,4 +32,5 @@ services:
     init: true
     volumes:
       - ./data:/app/data
+      - ./build:/app/build
     restart: unless-stopped

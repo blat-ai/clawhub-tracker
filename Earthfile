@@ -30,6 +30,12 @@ scrape:
     SAVE ARTIFACT data/skills.json AS LOCAL data/skills.json
     SAVE ARTIFACT data/clawhub.duckdb AS LOCAL data/clawhub.duckdb
 
+site:
+    FROM +src
+    COPY data/clawhub.duckdb data/clawhub.duckdb
+    RUN .venv/bin/python -m app.site
+    SAVE ARTIFACT build/ AS LOCAL build/
+
 all:
     BUILD +lint
     BUILD +test
