@@ -13,7 +13,7 @@
 </div>
 
 <div id="tab-alltime" class="tab-content active">
-<table class="sortable">
+<div class="table-wrap"><table class="sortable">
     <thead>
         <tr>
             <th>#</th>
@@ -42,12 +42,12 @@
         </tr>
     {% endfor %}
     </tbody>
-</table>
+</table></div>
 </div>
 
 <div id="tab-fastest" class="tab-content">
 {% if data.fastest_growing %}
-<table class="sortable">
+<div class="table-wrap"><table class="sortable">
     <thead>
         <tr>
             <th>#</th>
@@ -76,7 +76,7 @@
         </tr>
     {% endfor %}
     </tbody>
-</table>
+</table></div>
 {% else %}
 <div class="empty-state">Needs at least 4 scrape runs to compute acceleration</div>
 {% endif %}

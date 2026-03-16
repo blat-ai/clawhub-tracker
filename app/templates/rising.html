@@ -14,7 +14,7 @@
     <button class="filter-btn" onclick="filterAge(7, this)">7 days</button>
 </div>
 
-<table id="rising-table" class="sortable">
+<div class="table-wrap"><table id="rising-table" class="sortable">
     <thead>
         <tr>
             <th>#</th>
@@ -41,7 +41,7 @@
         </tr>
     {% endfor %}
     </tbody>
-</table>
+</table></div>
 {% else %}
 <div class="empty-state">Needs at least 2 scrape runs to compute velocity</div>
 {% endif %}

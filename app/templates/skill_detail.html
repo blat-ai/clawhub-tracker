@@ -57,7 +57,7 @@
 
 {% if data.version_releases %}
 <h3>Version Releases</h3>
-<table class="sortable">
+<div class="table-wrap"><table class="sortable">
     <thead><tr><th>Version</th><th>Date</th><th>Changelog</th></tr></thead>
     <tbody>
     {% for v in data.version_releases|reverse %}
@@ -68,7 +68,7 @@
         </tr>
     {% endfor %}
     </tbody>
-</table>
+</table></div>
 {% endif %}
 {% endblock %}
 
