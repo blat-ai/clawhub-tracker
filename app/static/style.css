@@ -175,7 +175,7 @@ footer a { color: var(--blue); text-decoration: none; }
     thead th { padding: 8px 8px; font-size: 11px; }
     tbody td { padding: 8px 8px; }
     nav .container { flex-wrap: wrap; gap: 6px; }
-    nav .logo { font-size: 18px; margin-right: 4px; }
+    nav .logo { font-size: 18px; margin-right: 4px; width: 100%; }
     nav a { font-size: 13px; padding: 5px 8px; }
     .page-header h1 { font-size: 24px; }
     .page-header .subtitle { font-size: 13px; }
