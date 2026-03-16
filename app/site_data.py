@@ -45,6 +45,7 @@ def dashboard_data(conn: duckdb.DuckDBPyConnection, now: datetime | None = None)
             "download_percentiles": [],
             "median_dl_per_day": None,
             "median_dl_per_day_prev": None,
+            "avg_wow_pct": None,
             "generated_at": now.isoformat(),
         }
 
@@ -72,11 +73,28 @@ def dashboard_data(conn: duckdb.DuckDBPyConnection, now: datetime | None = None)
     weekly_growth = []
     cumulative = 0
     prev_count = None
+    current_week_start = now.replace(hour=0, minute=0, second=0, microsecond=0)
+    # DuckDB DATE_TRUNC('week') uses Monday as week start
+    current_week_start = current_week_start - timedelta(days=current_week_start.weekday())
+
     for week_start, new_count in weeks_raw:
         cumulative += new_count
         wow_pct = None
+        is_forecast = False
+        forecast_count = None
+
+        # Detect current (incomplete) week and forecast
+        ws = week_start if hasattr(week_start, "date") else None
+        if ws and ws.date() >= current_week_start.date():
+            days_elapsed = (now.date() - ws.date()).days + 1  # include today
+            if days_elapsed < 7 and days_elapsed > 0:
+                forecast_count = round(new_count / days_elapsed * 7)
+                is_forecast = True
+
+        effective_count = forecast_count if is_forecast else new_count
         if prev_count is not None and prev_count > 0:
-            wow_pct = round((new_count - prev_count) / prev_count * 100, 1)
+            wow_pct = round((effective_count - prev_count) / prev_count * 100, 1)
+
         week_start_str = (
             week_start.isoformat() if hasattr(week_start, "isoformat") else str(week_start)
         )
@@ -86,12 +104,20 @@ def dashboard_data(conn: duckdb.DuckDBPyConnection, now: datetime | None = None)
                 "new_count": new_count,
                 "cumulative": cumulative,
                 "wow_pct": wow_pct,
+                "is_forecast": is_forecast,
+                "forecast_count": forecast_count,
             }
         )
-        prev_count = new_count
+        prev_count = effective_count
 
     # Keep last 12 weeks
     weekly_growth = weekly_growth[-12:]
+
+    # Average WoW % (complete weeks only, excluding forecasted)
+    complete_wow = [
+        w["wow_pct"] for w in weekly_growth if w["wow_pct"] is not None and not w["is_forecast"]
+    ]
+    avg_wow_pct = round(sum(complete_wow) / len(complete_wow), 1) if complete_wow else None
 
     # Download sparkline: total downloads per completed run
     sparkline_rows = conn.execute("""
@@ -174,6 +200,7 @@ def dashboard_data(conn: duckdb.DuckDBPyConnection, now: datetime | None = None)
         "download_percentiles": download_percentiles,
         "median_dl_per_day": median_dl_rounded,
         "median_dl_per_day_prev": median_dl_prev_rounded,
+        "avg_wow_pct": avg_wow_pct,
         "generated_at": now.isoformat(),
     }
 

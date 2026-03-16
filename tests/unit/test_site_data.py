@@ -137,6 +137,63 @@ class TestDashboardData:
         # Median of [10.0, 20.0] = 15.0
         assert data["median_dl_per_day"] == 15.0
 
+    def test_forecast_current_week(self, db):
+        """Current incomplete week should be forecasted by extrapolation."""
+        _seed(
+            db,
+            lambda rid: [
+                # Week of Mon 2026-03-09: 10 skills (complete week)
+                *[_make(rid, f"prev-{i}", created_at=_ts(2026, 3, 9)) for i in range(10)],
+                # Week of Mon 2026-03-16: 3 skills so far (incomplete - only Monday)
+                *[_make(rid, f"cur-{i}", created_at=_ts(2026, 3, 16)) for i in range(3)],
+            ],
+        )
+        # now=Monday March 16 => 1 day elapsed => forecast = 3/1*7 = 21
+        data = dashboard_data(db, now=_ts(2026, 3, 16))
+        weeks = data["weekly_growth"]
+        current = weeks[-1]
+        assert current["is_forecast"] is True
+        assert current["new_count"] == 3
+        assert current["forecast_count"] == 21  # 3 / 1 day * 7
+        # WoW% should use forecasted count vs previous week
+        assert current["wow_pct"] is not None
+
+    def test_avg_wow_pct_excludes_forecast(self, db):
+        """avg_wow_pct should only include complete weeks."""
+        _seed(
+            db,
+            lambda rid: [
+                *[_make(rid, f"w1-{i}", created_at=_ts(2026, 3, 2)) for i in range(10)],
+                *[_make(rid, f"w2-{i}", created_at=_ts(2026, 3, 9)) for i in range(20)],
+                *[_make(rid, f"w3-{i}", created_at=_ts(2026, 3, 16)) for i in range(5)],
+            ],
+        )
+        data = dashboard_data(db, now=_ts(2026, 3, 16))
+        # avg_wow_pct should come from complete weeks only
+        assert data["avg_wow_pct"] is not None
+        # Week 2 vs week 1: (20-10)/10*100 = +100.0%
+        # Current week is forecast, excluded from avg
+        assert data["avg_wow_pct"] == 100.0
+
+    def test_complete_week_not_forecast(self, db):
+        """Past weeks should not be marked as forecast."""
+        _seed(
+            db,
+            lambda rid: [
+                _make(rid, "a", created_at=_ts(2026, 3, 2)),
+                _make(rid, "b", created_at=_ts(2026, 3, 9)),
+            ],
+        )
+        # now is well past both weeks
+        data = dashboard_data(db, now=_ts(2026, 3, 23))
+        for w in data["weekly_growth"]:
+            assert w["is_forecast"] is False
+            assert w["forecast_count"] is None
+
+    def test_empty_db_has_avg_wow(self, db):
+        data = dashboard_data(db)
+        assert data["avg_wow_pct"] is None
+
 
 class TestRisingData:
     def test_returns_empty_with_single_run(self, db):

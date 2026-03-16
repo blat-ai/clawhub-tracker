@@ -21,13 +21,30 @@
     </div>
     <div class="kpi-card">
         <div class="label">New Skills / Week</div>
-        <div class="value">{{ data.weekly_growth[-1].new_count if data.weekly_growth else 0 }}</div>
+        {% if data.weekly_growth %}
+        {% set latest = data.weekly_growth[-1] %}
+        {% if latest.is_forecast and latest.forecast_count is not none %}
+        <div class="value">{{ latest.forecast_count }} <span class="forecast-badge">forecast</span></div>
+        <div class="change flat">{{ latest.new_count }} actual so far</div>
+        {% else %}
+        <div class="value">{{ latest.new_count }}</div>
+        {% endif %}
         {% if data.weekly_growth|length >= 2 %}
-        {% set wow = data.weekly_growth[-1].wow_pct %}
+        {% set wow = latest.wow_pct %}
         <div class="change {% if wow and wow > 0 %}up{% elif wow and wow < 0 %}down{% else %}flat{% endif %}">
-            {% if wow is not none %}{{ "%+.1f"|format(wow) }}% WoW{% else %}&mdash;{% endif %}
+            {% if wow is not none %}{{ "%+.1f"|format(wow) }}% WoW{% if latest.is_forecast %} (forecast){% endif %}{% else %}&mdash;{% endif %}
         </div>
         {% endif %}
+        {% else %}
+        <div class="value">0</div>
+        {% endif %}
+    </div>
+    <div class="kpi-card">
+        <div class="label">Avg WoW %</div>
+        <div class="value {% if data.avg_wow_pct and data.avg_wow_pct > 0 %}trend-up{% elif data.avg_wow_pct and data.avg_wow_pct < 0 %}trend-down{% endif %}">
+            {% if data.avg_wow_pct is not none %}{{ "%+.1f"|format(data.avg_wow_pct) }}%{% else %}N/A{% endif %}
+        </div>
+        <div class="change flat">complete weeks only</div>
     </div>
     <div class="kpi-card">
         <div class="label">Total Owners</div>
@@ -73,9 +90,15 @@
     </thead>
     <tbody>
     {% for w in data.weekly_growth|reverse %}
-        <tr>
-            <td>{{ w.week_start[:10] }}</td>
-            <td class="number">{{ w.new_count }}</td>
+        <tr{% if w.is_forecast %} class="forecast-row"{% endif %}>
+            <td>{{ w.week_start[:10] }}{% if w.is_forecast %} <span class="forecast-badge">forecast</span>{% endif %}</td>
+            <td class="number">
+                {% if w.is_forecast and w.forecast_count is not none %}
+                {{ w.forecast_count }} <span class="forecast-hint">({{ w.new_count }} actual)</span>
+                {% else %}
+                {{ w.new_count }}
+                {% endif %}
+            </td>
             <td class="number">{{ "{:,}".format(w.cumulative) }}</td>
             <td class="number {% if w.wow_pct and w.wow_pct > 0 %}trend-up{% elif w.wow_pct and w.wow_pct < 0 %}trend-down{% endif %}">
                 {% if w.wow_pct is not none %}{{ "%+.1f"|format(w.wow_pct) }}%{% else %}&mdash;{% endif %}

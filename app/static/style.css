@@ -168,6 +168,26 @@ footer a { color: var(--blue); text-decoration: none; }
 .skill-list li a { color: var(--blue); text-decoration: none; }
 .skill-list li .stats { color: var(--subtext0); font-size: 13px; }
 
+/* Forecast indicators */
+.forecast-badge {
+    display: inline-block;
+    background: var(--peach);
+    color: var(--base);
+    font-size: 10px;
+    font-weight: 700;
+    padding: 1px 6px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+.forecast-hint {
+    color: var(--subtext0);
+    font-size: 12px;
+}
+.forecast-row {
+    background: rgba(250, 179, 135, 0.05);
+}
+
 /* Empty state */
 .empty-state {
     text-align: center;
