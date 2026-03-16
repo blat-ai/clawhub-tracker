@@ -8,3 +8,5 @@ build/
 .ruff_cache/
 data/clawhub.duckdb
 data/clawhub.duckdb.wal
+data/skills.json
+.superpowers/
