@@ -12,6 +12,7 @@ src:
     FROM +deps
     COPY app/ app/
     COPY tests/ tests/
+    COPY crontab crontab
 
 lint:
     FROM +src

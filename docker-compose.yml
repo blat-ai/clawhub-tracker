@@ -12,3 +12,24 @@ services:
         CMD [".venv/bin/python", "-m", "app.scraper"]
     volumes:
       - ./data:/app/data
+
+  scheduler:
+    build:
+      context: .
+      dockerfile_inline: |
+        FROM python:3.13-slim
+        WORKDIR /app
+        RUN pip install uv
+        RUN apt-get update && apt-get install -y --no-install-recommends curl \
+            && SUPERCRONIC_URL="https://github.com/aptible/supercronic/releases/download/v0.2.33/supercronic-linux-amd64" \
+            && curl -fsSL "$SUPERCRONIC_URL" -o /usr/local/bin/supercronic \
+            && chmod +x /usr/local/bin/supercronic \
+            && apt-get purge -y curl && apt-get autoremove -y && rm -rf /var/lib/apt/lists/*
+        COPY pyproject.toml .
+        RUN uv venv && uv pip install -e ".[dev]"
+        COPY . .
+        COPY crontab /app/crontab
+        CMD ["supercronic", "/app/crontab"]
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped
