@@ -23,20 +23,20 @@ HEADERS = {
 
 def build_payload(cursor: str | None, num_items: int = ITEMS_PER_REQUEST) -> dict:
     """Build the request payload with pagination options."""
-    pagination_opts: dict = {"cursor": cursor, "numItems": num_items}
+    args: dict = {
+        "dir": "desc",
+        "highlightedOnly": False,
+        "nonSuspiciousOnly": False,
+        "numItems": num_items,
+        "sort": "downloads",
+    }
+    if cursor is not None:
+        args["cursor"] = cursor
 
     return {
-        "path": "skills:listPublicPageV2",
+        "path": "skills:listPublicPageV4",
         "format": "convex_encoded_json",
-        "args": [
-            {
-                "dir": "desc",
-                "highlightedOnly": False,
-                "nonSuspiciousOnly": False,
-                "paginationOpts": pagination_opts,
-                "sort": "downloads",
-            }
-        ],
+        "args": [args],
     }
 
 
@@ -112,8 +112,8 @@ def fetch_all_skills() -> list[dict]:
 
             value = data["value"]
             page_items = value.get("page", [])
-            is_done = value.get("isDone", True)
-            cursor = value.get("continueCursor")
+            has_more = value.get("hasMore", False)
+            cursor = value.get("nextCursor")
 
             skills = [extract_skill_data(item) for item in page_items]
             all_skills.extend(skills)
@@ -125,8 +125,8 @@ def fetch_all_skills() -> list[dict]:
                 total=len(all_skills),
             )
 
-            if is_done or not cursor:
-                logger.info("[SCRAPER] Pagination complete (isDone={done})", done=is_done)
+            if not has_more or not cursor:
+                logger.info("[SCRAPER] Pagination complete (hasMore={more})", more=has_more)
                 break
 
             time.sleep(0.5)
@@ -168,6 +168,11 @@ def main():
     try:
         raw_skills = fetch_all_skills()
         save_skills(raw_skills)
+
+        if not raw_skills:
+            logger.error("[SCRAPER] API returned 0 skills — aborting to protect data")
+            fail_run(conn, run.id)
+            return
 
         snapshots = [SkillSnapshot.from_scraper_dict(s, run.id) for s in raw_skills]
         insert_snapshots(conn, snapshots)
