@@ -3,7 +3,11 @@
 
 {% block content %}
 <div class="detail-header">
-    <h1>{{ data.display_name }}</h1>
+    <h1>
+        {{ data.display_name }}
+        {% if data.is_highlighted %}<span class="badge badge-highlighted" title="Highlighted">&#9733;</span>{% endif %}
+        {% if data.is_suspicious %}<span class="badge badge-suspicious" title="Suspicious">&#9888;</span>{% endif %}
+    </h1>
     <p class="meta">by <a href="{{ static_prefix }}owners/{{ data.owner_handle }}.html">{{ data.owner_handle }}</a></p>
     <p class="meta profile-links">
         <a href="https://clawhub.ai/{{ data.owner_handle }}/{{ data.slug }}" target="_blank" rel="noopener" class="profile-link" title="View on ClawHub"><img src="https://clawhub.ai/clawd-logo.png" alt="ClawHub" width="18" height="18" style="vertical-align:-3px;border-radius:3px"> ClawHub</a>

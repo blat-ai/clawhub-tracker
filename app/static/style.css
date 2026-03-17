@@ -279,6 +279,16 @@ footer a { color: var(--blue); text-decoration: none; }
     border: 1px solid var(--surface1);
 }
 
+/* Highlighted / Suspicious badges */
+.badge {
+    display: inline-block;
+    font-size: 13px;
+    vertical-align: middle;
+    margin-left: 4px;
+}
+.badge-highlighted { color: var(--yellow); }
+.badge-suspicious { color: var(--red); }
+
 /* Empty state */
 .empty-state {
     text-align: center;

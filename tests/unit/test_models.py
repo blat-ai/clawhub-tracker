@@ -3,7 +3,7 @@
 import json
 from datetime import datetime, timezone
 
-from app.models import SkillSnapshot, _epoch_ms_to_dt
+from app.models import Skill, SkillMetric, _epoch_ms_to_dt
 
 SAMPLE_SCRAPER_DICT = {
     "skill_id": "kd7car3k6zj36bgjmcsxmyb01x805ydd",
@@ -54,48 +54,57 @@ class TestEpochMsToDatetime:
         assert result == datetime(1970, 1, 1, tzinfo=timezone.utc)
 
 
-class TestSkillSnapshotFromScraperDict:
+class TestSkillFromScraperDict:
     def test_basic_fields(self):
-        snap = SkillSnapshot.from_scraper_dict(SAMPLE_SCRAPER_DICT, scrape_run_id=1)
-        assert snap.scrape_run_id == 1
-        assert snap.skill_id == "kd7car3k6zj36bgjmcsxmyb01x805ydd"
-        assert snap.slug == "web-search"
-        assert snap.display_name == "Web Search"
-
-    def test_stats_flattened(self):
-        snap = SkillSnapshot.from_scraper_dict(SAMPLE_SCRAPER_DICT, scrape_run_id=1)
-        assert snap.stat_downloads == 18523
-        assert snap.stat_stars == 23
-        assert snap.stat_comments == 1
-        assert snap.stat_installs_all_time == 340
-        assert snap.stat_installs_current == 326
-        assert snap.stat_versions == 1
+        skill = Skill.from_scraper_dict(SAMPLE_SCRAPER_DICT, scrape_run_id=1)
+        assert skill.skill_id == "kd7car3k6zj36bgjmcsxmyb01x805ydd"
+        assert skill.slug == "web-search"
+        assert skill.display_name == "Web Search"
+        assert skill.first_seen_run_id == 1
+        assert skill.last_seen_run_id == 1
 
     def test_owner_flattened(self):
-        snap = SkillSnapshot.from_scraper_dict(SAMPLE_SCRAPER_DICT, scrape_run_id=1)
-        assert snap.owner_handle == "billyutw"
-        assert snap.owner_user_id == "kn7cz85m29bj398zc6mnggkv19805nzz"
-        assert snap.owner_handle_top == "billyutw"
-
-    def test_version_flattened(self):
-        snap = SkillSnapshot.from_scraper_dict(SAMPLE_SCRAPER_DICT, scrape_run_id=1)
-        assert snap.version_number == "1.0.0"
-        assert snap.version_changelog_source == "auto"
-        assert snap.version_created_at is not None
+        skill = Skill.from_scraper_dict(SAMPLE_SCRAPER_DICT, scrape_run_id=1)
+        assert skill.owner_handle == "billyutw"
+        assert skill.owner_user_id == "kn7cz85m29bj398zc6mnggkv19805nzz"
+        assert skill.owner_handle_top == "billyutw"
 
     def test_timestamps_converted(self):
-        snap = SkillSnapshot.from_scraper_dict(SAMPLE_SCRAPER_DICT, scrape_run_id=1)
-        assert isinstance(snap.created_at, datetime)
-        assert snap.created_at.tzinfo == timezone.utc
+        skill = Skill.from_scraper_dict(SAMPLE_SCRAPER_DICT, scrape_run_id=1)
+        assert isinstance(skill.created_at, datetime)
+        assert skill.created_at.tzinfo == timezone.utc
 
     def test_badges_tags_serialized(self):
-        snap = SkillSnapshot.from_scraper_dict(SAMPLE_SCRAPER_DICT, scrape_run_id=1)
-        assert snap.badges is None or json.loads(snap.badges) == {}
-        tags = json.loads(snap.tags)
+        skill = Skill.from_scraper_dict(SAMPLE_SCRAPER_DICT, scrape_run_id=1)
+        assert skill.badges is None or json.loads(skill.badges) == {}
+        tags = json.loads(skill.tags)
         assert "latest" in tags
 
     def test_empty_dict(self):
-        snap = SkillSnapshot.from_scraper_dict({}, scrape_run_id=1)
-        assert snap.skill_id == ""
-        assert snap.stat_downloads == 0
-        assert snap.slug is None
+        skill = Skill.from_scraper_dict({}, scrape_run_id=1)
+        assert skill.skill_id == ""
+        assert skill.slug is None
+
+
+class TestSkillMetricFromScraperDict:
+    def test_stats_flattened(self):
+        metric = SkillMetric.from_scraper_dict(SAMPLE_SCRAPER_DICT, scrape_run_id=1)
+        assert metric.scrape_run_id == 1
+        assert metric.skill_id == "kd7car3k6zj36bgjmcsxmyb01x805ydd"
+        assert metric.stat_downloads == 18523
+        assert metric.stat_stars == 23
+        assert metric.stat_comments == 1
+        assert metric.stat_installs_all_time == 340
+        assert metric.stat_installs_current == 326
+        assert metric.stat_versions == 1
+
+    def test_version_flattened(self):
+        metric = SkillMetric.from_scraper_dict(SAMPLE_SCRAPER_DICT, scrape_run_id=1)
+        assert metric.version_number == "1.0.0"
+        assert metric.version_changelog_source == "auto"
+        assert metric.version_created_at is not None
+
+    def test_empty_dict(self):
+        metric = SkillMetric.from_scraper_dict({}, scrape_run_id=1)
+        assert metric.skill_id == ""
+        assert metric.stat_downloads == 0

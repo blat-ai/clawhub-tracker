@@ -31,7 +31,11 @@
     {% for s in data.skills %}
         <tr data-delta="{{ s.delta }}" data-pct="{{ s.delta_pct if s.delta_pct is not none else 0 }}">
             <td class="row-rank">{{ loop.index }}</td>
-            <td><a href="skills/{{ s.slug }}.html">{{ s.display_name }}</a></td>
+            <td>
+                <a href="skills/{{ s.slug }}.html">{{ s.display_name }}</a>
+                {% if s.is_highlighted %}<span class="badge badge-highlighted" title="Highlighted">&#9733;</span>{% endif %}
+                {% if s.is_suspicious %}<span class="badge badge-suspicious" title="Suspicious">&#9888;</span>{% endif %}
+            </td>
             <td>{{ s.owner_handle }}</td>
             <td class="number trend-up">+{{ "{:,}".format(s.delta) }}</td>
             <td class="number {% if s.delta_pct is not none and s.delta_pct > 0 %}trend-up{% endif %}">{{ "%+.1f%%"|format(s.delta_pct) if s.delta_pct is not none else "new" }}</td>

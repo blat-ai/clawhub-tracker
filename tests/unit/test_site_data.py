@@ -2,7 +2,7 @@
 
 from datetime import datetime, timezone
 
-from app.models import SkillSnapshot
+from app.models import Skill, SkillMetric
 from app.site_data import (
     api_index,
     dashboard_data,
@@ -14,17 +14,61 @@ from app.site_data import (
     top_owners_for_detail,
     top_skills_for_detail,
 )
-from app.storage import complete_run, insert_snapshots, start_run
+from app.storage import complete_run, insert_skill_metrics, start_run, upsert_skills
 
 
 def _ts(year: int, month: int, day: int) -> datetime:
     return datetime(year, month, day, tzinfo=timezone.utc)
 
 
-def _make(run_id: int, skill_id: str, **kwargs) -> SkillSnapshot:
-    defaults = {
-        "scrape_run_id": run_id,
-        "skill_id": skill_id,
+# ---------------------------------------------------------------------------
+# Fields that belong to each model
+# ---------------------------------------------------------------------------
+_SKILL_FIELDS = {
+    "skill_id",
+    "slug",
+    "display_name",
+    "summary",
+    "created_at",
+    "updated_at",
+    "badges",
+    "tags",
+    "owner_user_id",
+    "owner_handle",
+    "owner_display_name",
+    "owner_name",
+    "owner_image",
+    "owner_handle_top",
+    "first_seen_run_id",
+    "last_seen_run_id",
+}
+
+_METRIC_FIELDS = {
+    "scrape_run_id",
+    "skill_id",
+    "stat_downloads",
+    "stat_stars",
+    "stat_comments",
+    "stat_installs_all_time",
+    "stat_installs_current",
+    "stat_versions",
+    "version_id",
+    "version_number",
+    "version_changelog",
+    "version_changelog_source",
+    "version_created_at",
+    "is_highlighted",
+    "is_suspicious",
+}
+
+
+def _make(run_id: int, skill_id: str, **kwargs) -> tuple[Skill, SkillMetric]:
+    """Build a ``(Skill, SkillMetric)`` pair from merged *kwargs*.
+
+    Static fields are routed to :class:`Skill`, metric fields to
+    :class:`SkillMetric`.  Shared key ``skill_id`` goes to both.
+    """
+    defaults: dict = {
         "slug": f"slug-{skill_id}",
         "display_name": f"Skill {skill_id}",
         "owner_handle": "owner1",
@@ -36,14 +80,34 @@ def _make(run_id: int, skill_id: str, **kwargs) -> SkillSnapshot:
         "version_number": "1.0.0",
     }
     defaults.update(kwargs)
-    return SkillSnapshot(**defaults)
+
+    skill_kwargs: dict = {"skill_id": skill_id}
+    metric_kwargs: dict = {"scrape_run_id": run_id, "skill_id": skill_id}
+
+    for key, value in defaults.items():
+        if key == "scrape_run_id":
+            continue
+        if key in _SKILL_FIELDS:
+            skill_kwargs[key] = value
+        if key in _METRIC_FIELDS:
+            metric_kwargs[key] = value
+
+    return Skill(**skill_kwargs), SkillMetric(**metric_kwargs)
+
+
+def _insert(db, pairs: list[tuple[Skill, SkillMetric]]) -> None:
+    """Upsert skills and insert metrics from a list of ``(Skill, SkillMetric)`` pairs."""
+    skills = [s for s, _ in pairs]
+    metrics = [m for _, m in pairs]
+    upsert_skills(db, skills)
+    insert_skill_metrics(db, metrics)
 
 
 def _seed(db, skills_fn):
     run = start_run(db)
-    skills = skills_fn(run.id)
-    insert_snapshots(db, skills)
-    complete_run(db, run.id, total_skills=len(skills))
+    pairs = skills_fn(run.id)
+    _insert(db, pairs)
+    complete_run(db, run.id, total_skills=len(pairs))
     return run.id
 
 
@@ -75,22 +139,18 @@ class TestDashboardData:
         data = dashboard_data(db)
         weeks = data["weekly_growth"]
         assert len(weeks) >= 2
-        # Each week has: week_start, new_count, cumulative, wow_pct
         first = weeks[0]
         assert "week_start" in first
         assert "new_count" in first
         assert "cumulative" in first
 
     def test_sparkline_downloads(self, db):
-        # Two runs to get sparkline data
         run1 = start_run(db)
-        insert_snapshots(db, [_make(run1.id, "a", stat_downloads=100)])
+        _insert(db, [_make(run1.id, "a", stat_downloads=100)])
         complete_run(db, run1.id, total_skills=1)
-
         run2 = start_run(db)
-        insert_snapshots(db, [_make(run2.id, "a", stat_downloads=300)])
+        _insert(db, [_make(run2.id, "a", stat_downloads=300)])
         complete_run(db, run2.id, total_skills=1)
-
         data = dashboard_data(db)
         sparkline = data["download_sparkline"]
         assert len(sparkline) == 2
@@ -124,42 +184,32 @@ class TestDashboardData:
         assert data["download_percentiles"] == []
 
     def test_download_wow_pct(self, db):
-        """Download WoW% compares latest run total to ~7 runs ago."""
         run1 = start_run(db)
-        insert_snapshots(db, [_make(run1.id, "a", stat_downloads=1000)])
+        _insert(db, [_make(run1.id, "a", stat_downloads=1000)])
         complete_run(db, run1.id, total_skills=1)
-
         run2 = start_run(db)
-        insert_snapshots(db, [_make(run2.id, "a", stat_downloads=1100)])
+        _insert(db, [_make(run2.id, "a", stat_downloads=1100)])
         complete_run(db, run2.id, total_skills=1)
-
         data = dashboard_data(db)
-        # (1100 - 1000) / 1000 * 100 = 10.0%
         assert data["download_wow_pct"] == 10.0
 
     def test_forecast_current_week(self, db):
-        """Current incomplete week should be forecasted by extrapolation."""
         _seed(
             db,
             lambda rid: [
-                # Week of Mon 2026-03-09: 10 skills (complete week)
                 *[_make(rid, f"prev-{i}", created_at=_ts(2026, 3, 9)) for i in range(10)],
-                # Week of Mon 2026-03-16: 3 skills so far (incomplete - only Monday)
                 *[_make(rid, f"cur-{i}", created_at=_ts(2026, 3, 16)) for i in range(3)],
             ],
         )
-        # now=Monday March 16 => 1 day elapsed => forecast = 3/1*7 = 21
         data = dashboard_data(db, now=_ts(2026, 3, 16))
         weeks = data["weekly_growth"]
         current = weeks[-1]
         assert current["is_forecast"] is True
         assert current["new_count"] == 3
-        assert current["forecast_count"] == 21  # 3 / 1 day * 7
-        # WoW% should use forecasted count vs previous week
+        assert current["forecast_count"] == 21
         assert current["wow_pct"] is not None
 
     def test_avg_wow_pct_excludes_forecast(self, db):
-        """avg_wow_pct should only include complete weeks."""
         _seed(
             db,
             lambda rid: [
@@ -169,14 +219,10 @@ class TestDashboardData:
             ],
         )
         data = dashboard_data(db, now=_ts(2026, 3, 16))
-        # avg_wow_pct should come from complete weeks only
         assert data["avg_wow_pct"] is not None
-        # Week 2 vs week 1: (20-10)/10*100 = +100.0%
-        # Current week is forecast, excluded from avg
         assert data["avg_wow_pct"] == 100.0
 
     def test_complete_week_not_forecast(self, db):
-        """Past weeks should not be marked as forecast."""
         _seed(
             db,
             lambda rid: [
@@ -184,7 +230,6 @@ class TestDashboardData:
                 _make(rid, "b", created_at=_ts(2026, 3, 9)),
             ],
         )
-        # now is well past both weeks
         data = dashboard_data(db, now=_ts(2026, 3, 23))
         for w in data["weekly_growth"]:
             assert w["is_forecast"] is False
@@ -198,18 +243,13 @@ class TestDashboardData:
 
 class TestRisingData:
     def test_returns_empty_with_single_run(self, db):
-        _seed(
-            db,
-            lambda rid: [
-                _make(rid, "a", created_at=_ts(2026, 3, 10), stat_downloads=100),
-            ],
-        )
+        _seed(db, lambda rid: [_make(rid, "a", created_at=_ts(2026, 3, 10), stat_downloads=100)])
         data = rising_data(db, now=_ts(2026, 3, 16))
         assert data["skills"] == []
 
     def test_ranks_by_dl_per_day(self, db):
         run1 = start_run(db)
-        insert_snapshots(
+        _insert(
             db,
             [
                 _make(run1.id, "slow", created_at=_ts(2026, 3, 1), stat_downloads=100),
@@ -217,9 +257,8 @@ class TestRisingData:
             ],
         )
         complete_run(db, run1.id, total_skills=2)
-
         run2 = start_run(db)
-        insert_snapshots(
+        _insert(
             db,
             [
                 _make(run2.id, "slow", created_at=_ts(2026, 3, 1), stat_downloads=200),
@@ -227,66 +266,37 @@ class TestRisingData:
             ],
         )
         complete_run(db, run2.id, total_skills=2)
-
         data = rising_data(db, now=_ts(2026, 3, 16))
         slugs = [s["slug"] for s in data["skills"]]
-        assert slugs[0] == "slug-fast"  # higher DL/day
+        assert slugs[0] == "slug-fast"
 
     def test_includes_delta(self, db):
         run1 = start_run(db)
-        insert_snapshots(
-            db,
-            [
-                _make(run1.id, "a", created_at=_ts(2026, 3, 10), stat_downloads=100),
-            ],
-        )
+        _insert(db, [_make(run1.id, "a", created_at=_ts(2026, 3, 10), stat_downloads=100)])
         complete_run(db, run1.id, total_skills=1)
-
         run2 = start_run(db)
-        insert_snapshots(
-            db,
-            [
-                _make(run2.id, "a", created_at=_ts(2026, 3, 10), stat_downloads=500),
-            ],
-        )
+        _insert(db, [_make(run2.id, "a", created_at=_ts(2026, 3, 10), stat_downloads=500)])
         complete_run(db, run2.id, total_skills=1)
-
         data = rising_data(db, now=_ts(2026, 3, 16))
         assert data["skills"][0]["delta"] == 400
 
     def test_includes_velocity_array(self, db):
         for i in range(3):
             run = start_run(db)
-            insert_snapshots(
-                db,
-                [
-                    _make(run.id, "a", created_at=_ts(2026, 3, 10), stat_downloads=(i + 1) * 100),
-                ],
+            _insert(
+                db, [_make(run.id, "a", created_at=_ts(2026, 3, 10), stat_downloads=(i + 1) * 100)]
             )
             complete_run(db, run.id, total_skills=1)
-
         data = rising_data(db, now=_ts(2026, 3, 16))
         assert data["skills"][0]["velocity_chart"] == [100, 200, 300]
 
     def test_excludes_old_skills(self, db):
         run1 = start_run(db)
-        insert_snapshots(
-            db,
-            [
-                _make(run1.id, "old", created_at=_ts(2026, 1, 1), stat_downloads=100),
-            ],
-        )
+        _insert(db, [_make(run1.id, "old", created_at=_ts(2026, 1, 1), stat_downloads=100)])
         complete_run(db, run1.id, total_skills=1)
-
         run2 = start_run(db)
-        insert_snapshots(
-            db,
-            [
-                _make(run2.id, "old", created_at=_ts(2026, 1, 1), stat_downloads=9999),
-            ],
-        )
+        _insert(db, [_make(run2.id, "old", created_at=_ts(2026, 1, 1), stat_downloads=9999)])
         complete_run(db, run2.id, total_skills=1)
-
         data = rising_data(db, now=_ts(2026, 3, 16))
         assert data["skills"] == []
 
@@ -306,18 +316,14 @@ class TestLeaderboardData:
         assert slugs == ["slug-high", "slug-mid", "slug-low"]
 
     def test_fastest_growing_requires_two_runs(self, db):
-        _seed(
-            db,
-            lambda rid: [_make(rid, "a", stat_downloads=100)],
-        )
+        _seed(db, lambda rid: [_make(rid, "a", stat_downloads=100)])
         data = leaderboard_data(db)
         assert data["fastest_growing"] == []
 
     def test_fastest_growing_with_acceleration(self, db):
-        # 3 runs to compute velocity_recent and velocity_prior
         for i in range(4):
             run = start_run(db)
-            insert_snapshots(
+            _insert(
                 db,
                 [
                     _make(
@@ -327,7 +333,6 @@ class TestLeaderboardData:
                 ],
             )
             complete_run(db, run.id, total_skills=2)
-
         data = leaderboard_data(db)
         if data["fastest_growing"]:
             assert data["fastest_growing"][0]["slug"] == "slug-accel"
@@ -335,16 +340,11 @@ class TestLeaderboardData:
     def test_trend_arrow(self, db):
         for i in range(4):
             run = start_run(db)
-            insert_snapshots(
-                db,
-                [
-                    _make(run.id, "up", stat_downloads=100 * (2**i), created_at=_ts(2026, 1, 1)),
-                ],
+            _insert(
+                db, [_make(run.id, "up", stat_downloads=100 * (2**i), created_at=_ts(2026, 1, 1))]
             )
             complete_run(db, run.id, total_skills=1)
-
         data = leaderboard_data(db)
-        # All-time entry should have a trend
         entry = data["all_time"][0]
         assert entry["trend"] in ("up", "down", "flat")
 
@@ -399,32 +399,16 @@ class TestOwnersData:
             db,
             lambda rid: [
                 _make(
-                    rid,
-                    "a",
-                    owner_handle="prolific",
-                    stat_downloads=10,
-                    created_at=_ts(2026, 1, 1),
+                    rid, "a", owner_handle="prolific", stat_downloads=10, created_at=_ts(2026, 1, 1)
                 ),
                 _make(
-                    rid,
-                    "b",
-                    owner_handle="prolific",
-                    stat_downloads=10,
-                    created_at=_ts(2026, 1, 2),
+                    rid, "b", owner_handle="prolific", stat_downloads=10, created_at=_ts(2026, 1, 2)
                 ),
                 _make(
-                    rid,
-                    "c",
-                    owner_handle="prolific",
-                    stat_downloads=10,
-                    created_at=_ts(2026, 1, 3),
+                    rid, "c", owner_handle="prolific", stat_downloads=10, created_at=_ts(2026, 1, 3)
                 ),
                 _make(
-                    rid,
-                    "d",
-                    owner_handle="whale",
-                    stat_downloads=9000,
-                    created_at=_ts(2026, 1, 1),
+                    rid, "d", owner_handle="whale", stat_downloads=9000, created_at=_ts(2026, 1, 1)
                 ),
             ],
         )
@@ -444,7 +428,7 @@ class TestSkillDetailData:
     def test_history_across_runs(self, db):
         for i in range(3):
             run = start_run(db)
-            insert_snapshots(
+            _insert(
                 db,
                 [
                     _make(
@@ -453,11 +437,10 @@ class TestSkillDetailData:
                         stat_downloads=(i + 1) * 100,
                         stat_stars=(i + 1) * 10,
                         created_at=_ts(2026, 1, 1),
-                    ),
+                    )
                 ],
             )
             complete_run(db, run.id, total_skills=1)
-
         data = skill_detail_data(db, "slug-a")
         assert len(data["history"]) == 3
         assert data["history"][0]["downloads"] == 100
@@ -465,16 +448,10 @@ class TestSkillDetailData:
 
     def test_version_releases_detected(self, db):
         run1 = start_run(db)
-        insert_snapshots(
-            db,
-            [
-                _make(run1.id, "a", version_number="1.0.0", created_at=_ts(2026, 1, 1)),
-            ],
-        )
+        _insert(db, [_make(run1.id, "a", version_number="1.0.0", created_at=_ts(2026, 1, 1))])
         complete_run(db, run1.id, total_skills=1)
-
         run2 = start_run(db)
-        insert_snapshots(
+        _insert(
             db,
             [
                 _make(
@@ -483,11 +460,10 @@ class TestSkillDetailData:
                     version_number="1.1.0",
                     version_changelog="Bug fix",
                     created_at=_ts(2026, 1, 1),
-                ),
+                )
             ],
         )
         complete_run(db, run2.id, total_skills=1)
-
         data = skill_detail_data(db, "slug-a")
         assert len(data["version_releases"]) == 1
         assert data["version_releases"][0]["version_number"] == "1.1.0"
@@ -523,14 +499,8 @@ class TestOwnerDetailData:
     def test_download_trajectory(self, db):
         for i in range(3):
             run = start_run(db)
-            insert_snapshots(
-                db,
-                [
-                    _make(run.id, "s1", owner_handle="alice", stat_downloads=(i + 1) * 100),
-                ],
-            )
+            _insert(db, [_make(run.id, "s1", owner_handle="alice", stat_downloads=(i + 1) * 100)])
             complete_run(db, run.id, total_skills=1)
-
         data = owner_detail_data(db, "alice")
         assert len(data["download_trajectory"]) == 3
         assert data["download_trajectory"] == [100, 200, 300]
@@ -586,10 +556,7 @@ class TestApiIndex:
                 _make(rid, "a", slug="skill-a", owner_handle="alice", stat_downloads=5000),
             ],
         )
-        data = api_index(
-            skill_slugs=["skill-a"],
-            owner_handles=["alice"],
-        )
+        data = api_index(skill_slugs=["skill-a"], owner_handles=["alice"])
         assert "endpoints" in data
         assert "skills" in data
         assert data["skills"]["count"] == 1

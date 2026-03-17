@@ -30,7 +30,11 @@
     {% for s in data.all_time %}
         <tr>
             <td>{{ loop.index }}</td>
-            <td><a href="skills/{{ s.slug }}.html">{{ s.display_name }}</a></td>
+            <td>
+                <a href="skills/{{ s.slug }}.html">{{ s.display_name }}</a>
+                {% if s.is_highlighted %}<span class="badge badge-highlighted" title="Highlighted">&#9733;</span>{% endif %}
+                {% if s.is_suspicious %}<span class="badge badge-suspicious" title="Suspicious">&#9888;</span>{% endif %}
+            </td>
             <td>{{ s.owner_handle }}</td>
             <td class="number">{{ "{:,}".format(s.stat_downloads) }}</td>
             <td class="number">{{ "{:,}".format(s.stat_stars) }}</td>
@@ -64,7 +68,11 @@
     {% for s in data.fastest_growing %}
         <tr>
             <td>{{ loop.index }}</td>
-            <td><a href="skills/{{ s.slug }}.html">{{ s.display_name }}</a></td>
+            <td>
+                <a href="skills/{{ s.slug }}.html">{{ s.display_name }}</a>
+                {% if s.is_highlighted %}<span class="badge badge-highlighted" title="Highlighted">&#9733;</span>{% endif %}
+                {% if s.is_suspicious %}<span class="badge badge-suspicious" title="Suspicious">&#9888;</span>{% endif %}
+            </td>
             <td>{{ s.owner_handle }}</td>
             <td class="number">{{ "{:,}".format(s.stat_downloads) }}</td>
             <td class="number">{{ "{:,}".format(s.stat_stars) }}</td>

@@ -2,7 +2,7 @@
 
 from datetime import datetime, timezone
 
-from app.models import SkillSnapshot
+from app.models import Skill, SkillMetric
 from app.report import (
     cohort_quality,
     growth_timeline,
@@ -14,7 +14,29 @@ from app.report import (
     rising_skills,
     top_skills,
 )
-from app.storage import complete_run, insert_snapshots, start_run
+from app.storage import complete_run, insert_skill_metrics, start_run, upsert_skills
+
+# ---------------------------------------------------------------------------
+# Fields that belong to the Skill model (static / slowly-changing metadata)
+# ---------------------------------------------------------------------------
+_SKILL_FIELDS = {
+    "skill_id",
+    "slug",
+    "display_name",
+    "summary",
+    "created_at",
+    "updated_at",
+    "badges",
+    "tags",
+    "owner_user_id",
+    "owner_handle",
+    "owner_display_name",
+    "owner_name",
+    "owner_image",
+    "owner_handle_top",
+    "first_seen_run_id",
+    "last_seen_run_id",
+}
 
 
 def _ts(year: int, month: int, day: int) -> datetime:
@@ -22,9 +44,14 @@ def _ts(year: int, month: int, day: int) -> datetime:
     return datetime(year, month, day, tzinfo=timezone.utc)
 
 
-def _make(run_id: int, skill_id: str, **kwargs) -> SkillSnapshot:
-    defaults = {
-        "scrape_run_id": run_id,
+def _make(run_id: int, skill_id: str, **kwargs) -> tuple[Skill, SkillMetric]:
+    """Build a (Skill, SkillMetric) pair with sensible defaults.
+
+    Keyword arguments are routed to the correct dataclass automatically:
+    static / identity fields go to Skill, metric fields go to SkillMetric.
+    """
+    # Defaults that span both models
+    defaults: dict = {
         "skill_id": skill_id,
         "slug": f"slug-{skill_id}",
         "display_name": f"Skill {skill_id}",
@@ -35,15 +62,41 @@ def _make(run_id: int, skill_id: str, **kwargs) -> SkillSnapshot:
         "stat_versions": 1,
     }
     defaults.update(kwargs)
-    return SkillSnapshot(**defaults)
+
+    # Split into Skill kwargs vs SkillMetric kwargs
+    skill_kw: dict = {}
+    metric_kw: dict = {}
+    for key, val in defaults.items():
+        if key in _SKILL_FIELDS:
+            skill_kw[key] = val
+        else:
+            metric_kw[key] = val
+
+    skill = Skill(
+        first_seen_run_id=run_id,
+        last_seen_run_id=run_id,
+        **skill_kw,
+    )
+    metric = SkillMetric(
+        scrape_run_id=run_id,
+        skill_id=skill_id,
+        **metric_kw,
+    )
+    return skill, metric
+
+
+def _insert(db, pairs):
+    """Upsert skills then insert metrics from a list of (Skill, SkillMetric) pairs."""
+    upsert_skills(db, [p[0] for p in pairs])
+    insert_skill_metrics(db, [p[1] for p in pairs])
 
 
 def _seed(db, skills_fn):
     """Create one completed run with given skills and return run_id."""
     run = start_run(db)
-    skills = skills_fn(run.id)
-    insert_snapshots(db, skills)
-    complete_run(db, run.id, total_skills=len(skills))
+    pairs = skills_fn(run.id)
+    _insert(db, pairs)
+    complete_run(db, run.id, total_skills=len(pairs))
     return run.id
 
 
@@ -76,10 +129,10 @@ class TestGrowthTimeline:
         _seed(
             db,
             lambda rid: [
-                _make(rid, "a", created_at=_ts(2026, 1, 6)),   # W01
-                _make(rid, "b", created_at=_ts(2026, 1, 7)),   # W01
+                _make(rid, "a", created_at=_ts(2026, 1, 6)),  # W01
+                _make(rid, "b", created_at=_ts(2026, 1, 7)),  # W01
                 _make(rid, "c", created_at=_ts(2026, 1, 13)),  # W02
-                _make(rid, "d", created_at=_ts(2026, 2, 3)),   # W05
+                _make(rid, "d", created_at=_ts(2026, 2, 3)),  # W05
             ],
         )
         out = growth_timeline(db)
@@ -103,30 +156,45 @@ class TestCohortQuality:
             lambda rid: [
                 # Jan cohort: high quality
                 _make(
-                    rid, "jan1", created_at=_ts(2026, 1, 15),
-                    stat_downloads=5000, stat_stars=50,
+                    rid,
+                    "jan1",
+                    created_at=_ts(2026, 1, 15),
+                    stat_downloads=5000,
+                    stat_stars=50,
                     stat_installs_all_time=2000,
                 ),
                 _make(
-                    rid, "jan2", created_at=_ts(2026, 1, 20),
-                    stat_downloads=3000, stat_stars=30,
+                    rid,
+                    "jan2",
+                    created_at=_ts(2026, 1, 20),
+                    stat_downloads=3000,
+                    stat_stars=30,
                     stat_installs_all_time=1000,
                 ),
                 # Feb cohort: lower quality
                 _make(
-                    rid, "feb1", created_at=_ts(2026, 2, 10),
-                    stat_downloads=800, stat_stars=8,
+                    rid,
+                    "feb1",
+                    created_at=_ts(2026, 2, 10),
+                    stat_downloads=800,
+                    stat_stars=8,
                     stat_installs_all_time=200,
                 ),
                 _make(
-                    rid, "feb2", created_at=_ts(2026, 2, 15),
-                    stat_downloads=200, stat_stars=2,
+                    rid,
+                    "feb2",
+                    created_at=_ts(2026, 2, 15),
+                    stat_downloads=200,
+                    stat_stars=2,
                     stat_installs_all_time=40,
                 ),
                 # Mar cohort: lowest
                 _make(
-                    rid, "mar1", created_at=_ts(2026, 3, 1),
-                    stat_downloads=50, stat_stars=1,
+                    rid,
+                    "mar1",
+                    created_at=_ts(2026, 3, 1),
+                    stat_downloads=50,
+                    stat_stars=1,
                     stat_installs_all_time=5,
                 ),
             ],
@@ -149,12 +217,16 @@ class TestCohortQuality:
             lambda rid: [
                 # Old skill: 600 downloads over 60 days = 10 dl/day
                 _make(
-                    rid, "old", created_at=_ts(2026, 1, 15),
+                    rid,
+                    "old",
+                    created_at=_ts(2026, 1, 15),
                     stat_downloads=600,
                 ),
                 # New skill: 150 downloads over 15 days = 10 dl/day
                 _make(
-                    rid, "new", created_at=_ts(2026, 3, 1),
+                    rid,
+                    "new",
+                    created_at=_ts(2026, 3, 1),
                     stat_downloads=150,
                 ),
             ],
@@ -265,13 +337,9 @@ class TestOwnerEcosystem:
         def make_skills(rid):
             # Create 55 low-quality skills for a spammer
             for i in range(55):
-                skills.append(
-                    _make(rid, f"spam_{i}", owner_handle="spammer", stat_downloads=10)
-                )
+                skills.append(_make(rid, f"spam_{i}", owner_handle="spammer", stat_downloads=10))
             # And a legit owner
-            skills.append(
-                _make(rid, "legit", owner_handle="legit_owner", stat_downloads=5000)
-            )
+            skills.append(_make(rid, "legit", owner_handle="legit_owner", stat_downloads=5000))
             return skills
 
         _seed(db, make_skills)
@@ -301,17 +369,17 @@ class TestPlatformVelocity:
     def test_shows_delta_with_two_runs(self, db):
         # Run 1
         run1 = start_run(db)
-        insert_snapshots(db, [
-            _make(run1.id, "a", stat_downloads=100),
-        ])
+        pairs1 = [_make(run1.id, "a", stat_downloads=100)]
+        _insert(db, pairs1)
         complete_run(db, run1.id, total_skills=1)
 
         # Run 2 - downloads grew
         run2 = start_run(db)
-        insert_snapshots(db, [
+        pairs2 = [
             _make(run2.id, "a", stat_downloads=300),
             _make(run2.id, "b", stat_downloads=50),
-        ])
+        ]
+        _insert(db, pairs2)
         complete_run(db, run2.id, total_skills=2)
 
         out = platform_velocity(db)
@@ -324,12 +392,14 @@ class TestPlatformVelocity:
     def test_shows_avg_velocity_with_three_runs(self, db):
         for i in range(3):
             run = start_run(db)
-            insert_snapshots(db, [
+            pairs = [
                 _make(
-                    run.id, f"s{i}",
+                    run.id,
+                    f"s{i}",
                     stat_downloads=(i + 1) * 1000,
                 ),
-            ])
+            ]
+            _insert(db, pairs)
             complete_run(db, run.id, total_skills=1)
 
         out = platform_velocity(db)
@@ -350,24 +420,28 @@ class TestRisingSkills:
     def test_shows_delta_between_runs(self, db):
         # Run 1: skill with 100 downloads
         run1 = start_run(db)
-        insert_snapshots(db, [
+        pairs1 = [
             _make(
-                run1.id, "rising",
+                run1.id,
+                "rising",
                 created_at=_ts(2026, 3, 10),
                 stat_downloads=100,
             ),
-        ])
+        ]
+        _insert(db, pairs1)
         complete_run(db, run1.id, total_skills=1)
 
         # Run 2: same skill now at 500 downloads
         run2 = start_run(db)
-        insert_snapshots(db, [
+        pairs2 = [
             _make(
-                run2.id, "rising",
+                run2.id,
+                "rising",
                 created_at=_ts(2026, 3, 10),
                 stat_downloads=500,
             ),
-        ])
+        ]
+        _insert(db, pairs2)
         complete_run(db, run2.id, total_skills=1)
 
         out = rising_skills(db)
@@ -378,29 +452,34 @@ class TestRisingSkills:
     def test_shows_new_skill_with_no_previous(self, db):
         # Run 1: only skill A
         run1 = start_run(db)
-        insert_snapshots(db, [
+        pairs1 = [
             _make(
-                run1.id, "old",
+                run1.id,
+                "old",
                 created_at=_ts(2026, 3, 1),
                 stat_downloads=1000,
             ),
-        ])
+        ]
+        _insert(db, pairs1)
         complete_run(db, run1.id, total_skills=1)
 
         # Run 2: skill A + brand new skill B
         run2 = start_run(db)
-        insert_snapshots(db, [
+        pairs2 = [
             _make(
-                run2.id, "old",
+                run2.id,
+                "old",
                 created_at=_ts(2026, 3, 1),
                 stat_downloads=1100,
             ),
             _make(
-                run2.id, "brand_new",
+                run2.id,
+                "brand_new",
                 created_at=_ts(2026, 3, 14),
                 stat_downloads=300,
             ),
-        ])
+        ]
+        _insert(db, pairs2)
         complete_run(db, run2.id, total_skills=2)
 
         out = rising_skills(db)
@@ -411,24 +490,28 @@ class TestRisingSkills:
     def test_excludes_old_skills(self, db):
         # Run 1
         run1 = start_run(db)
-        insert_snapshots(db, [
+        pairs1 = [
             _make(
-                run1.id, "ancient",
+                run1.id,
+                "ancient",
                 created_at=_ts(2026, 1, 1),
                 stat_downloads=100,
             ),
-        ])
+        ]
+        _insert(db, pairs1)
         complete_run(db, run1.id, total_skills=1)
 
         # Run 2
         run2 = start_run(db)
-        insert_snapshots(db, [
+        pairs2 = [
             _make(
-                run2.id, "ancient",
+                run2.id,
+                "ancient",
                 created_at=_ts(2026, 1, 1),
                 stat_downloads=9999,
             ),
-        ])
+        ]
+        _insert(db, pairs2)
         complete_run(db, run2.id, total_skills=1)
 
         # ancient is >14 days old, should return None

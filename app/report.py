@@ -351,7 +351,7 @@ def platform_velocity(conn: duckdb.DuckDBPyConnection) -> str | None:
             COALESCE(SUM(s.stat_downloads), 0) AS total_dl,
             COALESCE(SUM(s.stat_stars), 0) AS total_stars
         FROM scrape_runs r
-        JOIN skill_snapshots s ON s.scrape_run_id = r.id
+        JOIN skill_metrics s ON s.scrape_run_id = r.id
         WHERE r.status = 'completed'
         GROUP BY r.id, r.started_at, r.total_skills
         ORDER BY r.id
@@ -434,19 +434,20 @@ def rising_skills(
     rows = conn.execute(
         """
         SELECT
-            c.display_name,
-            c.owner_handle,
+            sk.display_name,
+            sk.owner_handle,
             c.stat_downloads AS curr_dl,
             COALESCE(p.stat_downloads, 0) AS prev_dl,
             c.stat_downloads - COALESCE(p.stat_downloads, 0) AS dl_delta,
             c.stat_stars,
-            c.created_at
-        FROM skill_snapshots c
-        LEFT JOIN skill_snapshots p
+            sk.created_at
+        FROM skill_metrics c
+        JOIN skills sk ON c.skill_id = sk.skill_id
+        LEFT JOIN skill_metrics p
             ON c.skill_id = p.skill_id AND p.scrape_run_id = ?
         WHERE c.scrape_run_id = ?
-            AND c.created_at IS NOT NULL
-            AND c.created_at >= ?
+            AND sk.created_at IS NOT NULL
+            AND sk.created_at >= ?
         ORDER BY dl_delta DESC
         LIMIT ?
         """,

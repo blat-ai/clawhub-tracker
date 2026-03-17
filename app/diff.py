@@ -12,9 +12,6 @@ TRACKED_FIELDS = [
     "stat_installs_all_time",
     "stat_installs_current",
     "stat_versions",
-    "display_name",
-    "summary",
-    "owner_handle",
     "version_number",
     "version_id",
 ]
@@ -28,9 +25,10 @@ def new_skills(
     """Skills present in current run but not in previous."""
     rows = conn.execute(
         """
-        SELECT c.skill_id, c.slug, c.display_name, c.owner_handle, c.stat_downloads
-        FROM skill_snapshots c
-        LEFT JOIN skill_snapshots p
+        SELECT c.skill_id, sk.slug, sk.display_name, sk.owner_handle, c.stat_downloads
+        FROM skill_metrics c
+        JOIN skills sk ON c.skill_id = sk.skill_id
+        LEFT JOIN skill_metrics p
             ON c.skill_id = p.skill_id AND p.scrape_run_id = ?
         WHERE c.scrape_run_id = ? AND p.skill_id IS NULL
         ORDER BY c.stat_downloads DESC
@@ -58,9 +56,10 @@ def removed_skills(
     """Skills present in previous run but not in current."""
     rows = conn.execute(
         """
-        SELECT p.skill_id, p.slug, p.display_name, p.owner_handle, p.stat_downloads
-        FROM skill_snapshots p
-        LEFT JOIN skill_snapshots c
+        SELECT p.skill_id, sk.slug, sk.display_name, sk.owner_handle, p.stat_downloads
+        FROM skill_metrics p
+        JOIN skills sk ON p.skill_id = sk.skill_id
+        LEFT JOIN skill_metrics c
             ON p.skill_id = c.skill_id AND c.scrape_run_id = ?
         WHERE p.scrape_run_id = ? AND c.skill_id IS NULL
         ORDER BY p.stat_downloads DESC
@@ -92,13 +91,14 @@ def changed_skills(
         f"""
         SELECT
             c.skill_id,
-            c.slug,
-            c.display_name,
+            sk.slug,
+            sk.display_name,
             {", ".join(f"p.{f} AS prev_{f}, c.{f} AS curr_{f}" for f in TRACKED_FIELDS)}
-        FROM skill_snapshots c
-        JOIN skill_snapshots p
+        FROM skill_metrics c
+        JOIN skill_metrics p
             ON c.skill_id = p.skill_id
             AND p.scrape_run_id = ?
+        JOIN skills sk ON c.skill_id = sk.skill_id
         WHERE c.scrape_run_id = ?
             AND ({change_conditions})
         ORDER BY c.stat_downloads DESC

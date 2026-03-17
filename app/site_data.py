@@ -122,7 +122,7 @@ def dashboard_data(conn: duckdb.DuckDBPyConnection, now: datetime | None = None)
     # Download sparkline: total downloads per completed run
     sparkline_rows = conn.execute("""
         SELECT SUM(s.stat_downloads) as total_dl
-        FROM skill_snapshots s
+        FROM skill_metrics s
         JOIN scrape_runs r ON s.scrape_run_id = r.id
         WHERE r.status = 'completed'
         GROUP BY r.id
@@ -150,7 +150,7 @@ def dashboard_data(conn: duckdb.DuckDBPyConnection, now: datetime | None = None)
             PERCENTILE_CONT(0.90) WITHIN GROUP (ORDER BY s.stat_downloads) as p90,
             PERCENTILE_CONT(0.95) WITHIN GROUP (ORDER BY s.stat_downloads) as p95,
             PERCENTILE_CONT(0.99) WITHIN GROUP (ORDER BY s.stat_downloads) as p99
-        FROM skill_snapshots s
+        FROM skill_metrics s
         JOIN scrape_runs r ON s.scrape_run_id = r.id
         WHERE r.status = 'completed'
         GROUP BY r.id, r.started_at
@@ -210,19 +210,22 @@ def rising_data(
         """
         SELECT
             c.skill_id,
-            c.slug,
-            c.display_name,
-            c.owner_handle,
-            c.summary,
-            c.created_at,
+            sk.slug,
+            sk.display_name,
+            sk.owner_handle,
+            sk.summary,
+            sk.created_at,
             c.stat_downloads,
             c.stat_downloads - COALESCE(p.stat_downloads, 0) as delta,
             CASE WHEN COALESCE(p.stat_downloads, 0) > 0
                  THEN ROUND(100.0 * (c.stat_downloads - p.stat_downloads) / p.stat_downloads, 1)
                  ELSE NULL END as delta_pct,
-            c.stat_downloads / GREATEST(DATE_DIFF('day', c.created_at, ?), 1) as dl_per_day
-        FROM skill_snapshots c
-        LEFT JOIN skill_snapshots p
+            c.stat_downloads / GREATEST(DATE_DIFF('day', sk.created_at, ?), 1) as dl_per_day,
+            c.is_highlighted,
+            c.is_suspicious
+        FROM skill_metrics c
+        JOIN skills sk ON c.skill_id = sk.skill_id
+        LEFT JOIN skill_metrics p
             ON c.skill_id = p.skill_id AND p.scrape_run_id = ?
         WHERE c.scrape_run_id = ?
           AND (c.stat_downloads - COALESCE(p.stat_downloads, 0)) > 0
@@ -246,7 +249,7 @@ def rising_data(
         chart_rows = conn.execute(
             """
             SELECT scrape_run_id, stat_downloads
-            FROM skill_snapshots
+            FROM skill_metrics
             WHERE skill_id = ? AND scrape_run_id IN ({})
             ORDER BY scrape_run_id
         """.format(",".join("?" * len(run_ids))),
@@ -270,6 +273,8 @@ def rising_data(
                 "delta_pct": row[8],
                 "dl_per_day": round(float(row[9]), 1),
                 "velocity_chart": velocity_chart,
+                "is_highlighted": bool(row[10]),
+                "is_suspicious": bool(row[11]),
             }
         )
 
@@ -304,11 +309,13 @@ def leaderboard_data(
 
     all_time_rows = conn.execute(
         """
-        SELECT skill_id, slug, display_name, owner_handle,
-               stat_downloads, stat_stars, created_at
-        FROM skill_snapshots
-        WHERE scrape_run_id = ?
-        ORDER BY stat_downloads DESC
+        SELECT sm.skill_id, sk.slug, sk.display_name, sk.owner_handle,
+               sm.stat_downloads, sm.stat_stars, sk.created_at,
+               sm.is_highlighted, sm.is_suspicious
+        FROM skill_metrics sm
+        JOIN skills sk ON sm.skill_id = sk.skill_id
+        WHERE sm.scrape_run_id = ?
+        ORDER BY sm.stat_downloads DESC
         LIMIT ?
     """,
         [curr_id, limit],
@@ -334,6 +341,8 @@ def leaderboard_data(
                 "days_old": days_old,
                 "velocity": round(vel_recent, 1) if vel_recent is not None else None,
                 "trend": trend,
+                "is_highlighted": bool(row[7]),
+                "is_suspicious": bool(row[8]),
             }
         )
 
@@ -343,11 +352,13 @@ def leaderboard_data(
         # Get all skills with enough downloads
         candidates = conn.execute(
             """
-            SELECT skill_id, slug, display_name, owner_handle,
-                   stat_downloads, stat_stars, created_at
-            FROM skill_snapshots
-            WHERE scrape_run_id = ? AND stat_downloads >= ?
-            ORDER BY stat_downloads DESC
+            SELECT sm.skill_id, sk.slug, sk.display_name, sk.owner_handle,
+                   sm.stat_downloads, sm.stat_stars, sk.created_at,
+                   sm.is_highlighted, sm.is_suspicious
+            FROM skill_metrics sm
+            JOIN skills sk ON sm.skill_id = sk.skill_id
+            WHERE sm.scrape_run_id = ? AND sm.stat_downloads >= ?
+            ORDER BY sm.stat_downloads DESC
         """,
             [curr_id, ACCEL_MIN_DOWNLOADS],
         ).fetchall()
@@ -377,6 +388,8 @@ def leaderboard_data(
                         "velocity": round(vel_recent, 1) if vel_recent else None,
                         "acceleration_pct": round(accel, 1),
                         "trend": _compute_trend(vel_recent, vel_prior),
+                        "is_highlighted": bool(row[7]),
+                        "is_suspicious": bool(row[8]),
                     }
                 )
 
@@ -400,7 +413,7 @@ def _avg_velocity(
     rows = conn.execute(
         f"""
         SELECT stat_downloads
-        FROM skill_snapshots
+        FROM skill_metrics
         WHERE skill_id = ? AND scrape_run_id IN ({placeholders})
         ORDER BY scrape_run_id
     """,
@@ -520,7 +533,7 @@ def skill_detail_data(
         SELECT display_name, summary, owner_handle, created_at,
                stat_downloads, stat_stars, tags, badges,
                stat_installs_all_time, stat_comments,
-               version_number
+               version_number, is_highlighted, is_suspicious
         FROM current_skills WHERE skill_id = ?
     """,
         [skill_id],
@@ -532,7 +545,7 @@ def skill_detail_data(
         SELECT r.started_at, s.stat_downloads, s.stat_stars,
                s.stat_installs_all_time, s.stat_installs_current,
                s.version_number, s.version_changelog
-        FROM skill_snapshots s
+        FROM skill_metrics s
         JOIN scrape_runs r ON s.scrape_run_id = r.id
         WHERE s.skill_id = ? AND r.status = 'completed'
         ORDER BY r.id
@@ -616,6 +629,8 @@ def skill_detail_data(
         "stat_installs": meta[8] or 0,
         "stat_comments": meta[9] or 0,
         "current_version": meta[10],
+        "is_highlighted": bool(meta[11]),
+        "is_suspicious": bool(meta[12]),
         "velocity": velocity,
         "acceleration_pct": acceleration_pct,
         "history": history,
@@ -685,9 +700,10 @@ def owner_detail_data(
         SELECT r.id, r.started_at,
                SUM(s.stat_downloads) as total_dl,
                SUM(s.stat_stars) as total_stars
-        FROM skill_snapshots s
+        FROM skill_metrics s
+        JOIN skills sk ON s.skill_id = sk.skill_id
         JOIN scrape_runs r ON s.scrape_run_id = r.id
-        WHERE s.owner_handle = ? AND r.status = 'completed'
+        WHERE sk.owner_handle = ? AND r.status = 'completed'
         GROUP BY r.id, r.started_at
         ORDER BY r.id
     """,

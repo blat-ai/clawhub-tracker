@@ -21,12 +21,18 @@ HEADERS = {
 }
 
 
-def build_payload(cursor: str | None, num_items: int = ITEMS_PER_REQUEST) -> dict:
+def build_payload(
+    cursor: str | None,
+    num_items: int = ITEMS_PER_REQUEST,
+    *,
+    highlighted_only: bool = False,
+    non_suspicious_only: bool = False,
+) -> dict:
     """Build the request payload with pagination options."""
     args: dict = {
         "dir": "desc",
-        "highlightedOnly": False,
-        "nonSuspiciousOnly": False,
+        "highlightedOnly": highlighted_only,
+        "nonSuspiciousOnly": non_suspicious_only,
         "numItems": num_items,
         "sort": "downloads",
     }
@@ -134,6 +140,52 @@ def fetch_all_skills() -> list[dict]:
     return all_skills
 
 
+def fetch_skill_ids(
+    *,
+    highlighted_only: bool = False,
+    non_suspicious_only: bool = False,
+    label: str = "",
+) -> set[str]:
+    """Fetch only skill IDs with specific filters (lightweight tagging pass)."""
+    ids: set[str] = set()
+    cursor = None
+    page_num = 0
+
+    with httpx.Client(headers=HEADERS, timeout=30.0) as client:
+        while True:
+            page_num += 1
+            payload = build_payload(
+                cursor,
+                highlighted_only=highlighted_only,
+                non_suspicious_only=non_suspicious_only,
+            )
+
+            response = client.post(API_URL, json=payload)
+            response.raise_for_status()
+            data = response.json()
+
+            if data.get("status") != "success":
+                logger.error("[SCRAPER] {label} API error: {s}", label=label, s=data.get("status"))
+                break
+
+            value = data["value"]
+            for item in value.get("page", []):
+                skill = item.get("skill", {})
+                sid = skill.get("_id")
+                if sid:
+                    ids.add(sid)
+
+            has_more = value.get("hasMore", False)
+            cursor = value.get("nextCursor")
+
+            if not has_more or not cursor:
+                break
+            time.sleep(0.3)
+
+    logger.info("[SCRAPER] {label}: found {count} skill IDs", label=label, count=len(ids))
+    return ids
+
+
 def save_skills(skills: list[dict]) -> Path:
     """Save skills to JSON file."""
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
@@ -148,15 +200,16 @@ def save_skills(skills: list[dict]) -> Path:
 
 def main():
     from app.diff import compute_diff
-    from app.models import SkillSnapshot
+    from app.models import Skill, SkillMetric
     from app.storage import (
         complete_run,
         fail_run,
         get_connection,
         get_latest_completed_run_id,
         init_schema,
-        insert_snapshots,
+        insert_skill_metrics,
         start_run,
+        upsert_skills,
     )
 
     logger.info("[SCRAPER] Starting ClawHub skills scrape")
@@ -174,8 +227,33 @@ def main():
             fail_run(conn, run.id)
             return
 
-        snapshots = [SkillSnapshot.from_scraper_dict(s, run.id) for s in raw_skills]
-        insert_snapshots(conn, snapshots)
+        # Tagging passes: identify highlighted and non-suspicious skill IDs
+        highlighted_ids = fetch_skill_ids(
+            highlighted_only=True, label="Highlighted"
+        )
+        non_suspicious_ids = fetch_skill_ids(
+            non_suspicious_only=True, label="Non-suspicious"
+        )
+
+        skills = []
+        metrics = []
+        for s in raw_skills:
+            skill = Skill.from_scraper_dict(s, run.id)
+            metric = SkillMetric.from_scraper_dict(s, run.id)
+            metric.is_highlighted = metric.skill_id in highlighted_ids
+            metric.is_suspicious = metric.skill_id not in non_suspicious_ids
+            skills.append(skill)
+            metrics.append(metric)
+
+        logger.info(
+            "[SCRAPER] Tagged {hl} highlighted, {sus} suspicious out of {total}",
+            hl=sum(1 for m in metrics if m.is_highlighted),
+            sus=sum(1 for m in metrics if m.is_suspicious),
+            total=len(metrics),
+        )
+
+        upsert_skills(conn, skills)
+        insert_skill_metrics(conn, metrics)
 
         previous_run_id = get_latest_completed_run_id(conn)
         new_count = 0
@@ -200,13 +278,13 @@ def main():
         complete_run(
             conn,
             run.id,
-            total_skills=len(snapshots),
+            total_skills=len(skills),
             new_skills=new_count,
             removed_skills=removed_count,
             changed_skills=changed_count,
         )
 
-        logger.info("[SCRAPER] Done. Total skills scraped: {count}", count=len(snapshots))
+        logger.info("[SCRAPER] Done. Total skills scraped: {count}", count=len(skills))
 
     except Exception:
         fail_run(conn, run.id)
