@@ -190,10 +190,9 @@ def dashboard_data(conn: duckdb.DuckDBPyConnection, now: datetime | None = None)
 def rising_data(
     conn: duckdb.DuckDBPyConnection,
     limit: int = 50,
-    max_age_days: int = 30,
     now: datetime | None = None,
 ) -> dict:
-    """Top skills by download velocity with mini-chart arrays."""
+    """Top skills by download delta between last two runs."""
     now = now or _now()
     logger.info("[SITE_DATA] Computing rising skills data")
 
@@ -205,9 +204,8 @@ def rising_data(
         return {"skills": [], "generated_at": now.isoformat()}
 
     curr_id, prev_id = runs[0][0], runs[1][0]
-    cutoff = now - timedelta(days=max_age_days)
 
-    # Recent skills with DL/day and delta
+    # Skills with biggest absolute delta between runs
     rows = conn.execute(
         """
         SELECT
@@ -218,18 +216,20 @@ def rising_data(
             c.summary,
             c.created_at,
             c.stat_downloads,
-            c.stat_downloads / GREATEST(DATE_DIFF('day', c.created_at, ?), 1) as dl_per_day,
-            c.stat_downloads - COALESCE(p.stat_downloads, 0) as delta
+            c.stat_downloads - COALESCE(p.stat_downloads, 0) as delta,
+            CASE WHEN COALESCE(p.stat_downloads, 0) > 0
+                 THEN ROUND(100.0 * (c.stat_downloads - p.stat_downloads) / p.stat_downloads, 1)
+                 ELSE NULL END as delta_pct,
+            c.stat_downloads / GREATEST(DATE_DIFF('day', c.created_at, ?), 1) as dl_per_day
         FROM skill_snapshots c
         LEFT JOIN skill_snapshots p
             ON c.skill_id = p.skill_id AND p.scrape_run_id = ?
         WHERE c.scrape_run_id = ?
-          AND c.created_at IS NOT NULL
-          AND c.created_at >= ?
-        ORDER BY dl_per_day DESC
+          AND (c.stat_downloads - COALESCE(p.stat_downloads, 0)) > 0
+        ORDER BY delta DESC
         LIMIT ?
     """,
-        [now, prev_id, curr_id, cutoff, limit],
+        [now, prev_id, curr_id, limit],
     ).fetchall()
 
     # Build velocity arrays for each skill (last N runs)
@@ -266,8 +266,9 @@ def rising_data(
                 "created_at": created.isoformat() if created else None,
                 "days_old": days_old,
                 "stat_downloads": row[6],
-                "dl_per_day": round(float(row[7]), 1),
-                "delta": row[8],
+                "delta": row[7],
+                "delta_pct": row[8],
+                "dl_per_day": round(float(row[9]), 1),
                 "velocity_chart": velocity_chart,
             }
         )
