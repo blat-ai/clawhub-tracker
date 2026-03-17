@@ -183,16 +183,6 @@ class TestDashboardData:
         assert data["download_sparkline"] == []
         assert data["download_percentiles"] == []
 
-    def test_download_wow_pct(self, db):
-        run1 = start_run(db)
-        _insert(db, [_make(run1.id, "a", stat_downloads=1000)])
-        complete_run(db, run1.id, total_skills=1)
-        run2 = start_run(db)
-        _insert(db, [_make(run2.id, "a", stat_downloads=1100)])
-        complete_run(db, run2.id, total_skills=1)
-        data = dashboard_data(db)
-        assert data["download_wow_pct"] == 10.0
-
     def test_forecast_current_week(self, db):
         _seed(
             db,
@@ -209,19 +199,6 @@ class TestDashboardData:
         assert current["forecast_count"] == 21
         assert current["wow_pct"] is not None
 
-    def test_avg_wow_pct_excludes_forecast(self, db):
-        _seed(
-            db,
-            lambda rid: [
-                *[_make(rid, f"w1-{i}", created_at=_ts(2026, 3, 2)) for i in range(10)],
-                *[_make(rid, f"w2-{i}", created_at=_ts(2026, 3, 9)) for i in range(20)],
-                *[_make(rid, f"w3-{i}", created_at=_ts(2026, 3, 16)) for i in range(5)],
-            ],
-        )
-        data = dashboard_data(db, now=_ts(2026, 3, 16))
-        assert data["avg_wow_pct"] is not None
-        assert data["avg_wow_pct"] == 100.0
-
     def test_complete_week_not_forecast(self, db):
         _seed(
             db,
@@ -235,10 +212,38 @@ class TestDashboardData:
             assert w["is_forecast"] is False
             assert w["forecast_count"] is None
 
-    def test_empty_db_has_new_fields(self, db):
+    def test_empty_db_has_weekly_series(self, db):
         data = dashboard_data(db)
-        assert data["avg_wow_pct"] is None
-        assert data["download_wow_pct"] is None
+        assert data["weekly_downloads"] == []
+        assert data["weekly_owners"] == []
+
+    def test_weekly_owners(self, db):
+        _seed(
+            db,
+            lambda rid: [
+                _make(rid, "a", owner_handle="alice", created_at=_ts(2026, 3, 2)),
+                _make(rid, "b", owner_handle="bob", created_at=_ts(2026, 3, 2)),
+                _make(rid, "c", owner_handle="carol", created_at=_ts(2026, 3, 9)),
+            ],
+        )
+        data = dashboard_data(db, now=_ts(2026, 3, 23))
+        owners = data["weekly_owners"]
+        assert len(owners) >= 2
+        assert owners[0]["new_count"] == 2
+        assert owners[1]["new_count"] == 1
+
+    def test_weekly_downloads(self, db):
+        run1 = start_run(db)
+        _insert(db, [_make(run1.id, "a", stat_downloads=1000)])
+        complete_run(db, run1.id, total_skills=1)
+        run2 = start_run(db)
+        _insert(db, [_make(run2.id, "a", stat_downloads=1500)])
+        complete_run(db, run2.id, total_skills=1)
+        data = dashboard_data(db)
+        dl = data["weekly_downloads"]
+        # Both runs likely fall in the same week; delta should be 500
+        assert len(dl) >= 1
+        assert dl[0]["new_count"] == 500
 
 
 class TestRisingData:

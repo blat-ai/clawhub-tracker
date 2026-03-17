@@ -23,54 +23,15 @@ def _now() -> datetime:
     return datetime.now(timezone.utc)
 
 
-# ---------------------------------------------------------------------------
-# Dashboard
-# ---------------------------------------------------------------------------
-def dashboard_data(conn: duckdb.DuckDBPyConnection, now: datetime | None = None) -> dict:
-    """Platform health KPIs, weekly growth, and sparkline data."""
-    now = now or _now()
-    logger.info("[SITE_DATA] Computing dashboard data")
+def _build_weekly_series(
+    weeks_raw: list[tuple], now: datetime, *, track_cumulative: bool = False
+) -> list[dict]:
+    """Build a weekly series with forecast logic from raw (week_start, new_count) rows.
 
-    # Check for completed runs
-    run_row = conn.execute(
-        "SELECT id FROM scrape_runs WHERE status = 'completed' ORDER BY id DESC LIMIT 1"
-    ).fetchone()
-    if run_row is None:
-        return {
-            "total_skills": 0,
-            "total_downloads": 0,
-            "total_stars": 0,
-            "total_owners": 0,
-            "weekly_growth": [],
-            "download_sparkline": [],
-            "download_percentiles": [],
-            "download_wow_pct": None,
-            "avg_wow_pct": None,
-            "generated_at": now.isoformat(),
-        }
-
-    # Totals from current run
-    totals = conn.execute("""
-        SELECT
-            COUNT(*) as total_skills,
-            COALESCE(SUM(stat_downloads), 0) as total_downloads,
-            COALESCE(SUM(stat_stars), 0) as total_stars,
-            COUNT(DISTINCT owner_handle) as total_owners
-        FROM current_skills
-    """).fetchone()
-
-    # Weekly growth (last 12 weeks)
-    weeks_raw = conn.execute("""
-        SELECT
-            DATE_TRUNC('week', created_at) as week_start,
-            COUNT(*) as new_count
-        FROM current_skills
-        WHERE created_at IS NOT NULL
-        GROUP BY 1
-        ORDER BY 1
-    """).fetchall()
-
-    weekly_growth = []
+    Each entry contains: week_start, new_count, wow_pct, is_forecast, forecast_count.
+    When *track_cumulative* is True, a running ``cumulative`` field is also added.
+    """
+    series: list[dict] = []
     cumulative = 0
     prev_count = None
     current_week_start = now.replace(hour=0, minute=0, second=0, microsecond=0)
@@ -98,26 +59,101 @@ def dashboard_data(conn: duckdb.DuckDBPyConnection, now: datetime | None = None)
         week_start_str = (
             week_start.isoformat() if hasattr(week_start, "isoformat") else str(week_start)
         )
-        weekly_growth.append(
-            {
-                "week_start": week_start_str,
-                "new_count": new_count,
-                "cumulative": cumulative,
-                "wow_pct": wow_pct,
-                "is_forecast": is_forecast,
-                "forecast_count": forecast_count,
-            }
-        )
+        entry: dict = {
+            "week_start": week_start_str,
+            "new_count": new_count,
+            "wow_pct": wow_pct,
+            "is_forecast": is_forecast,
+            "forecast_count": forecast_count,
+        }
+        if track_cumulative:
+            entry["cumulative"] = cumulative
+        series.append(entry)
         prev_count = effective_count
 
     # Keep last 12 weeks
-    weekly_growth = weekly_growth[-12:]
+    return series[-12:]
 
-    # Average WoW % (complete weeks only, excluding forecasted)
-    complete_wow = [
-        w["wow_pct"] for w in weekly_growth if w["wow_pct"] is not None and not w["is_forecast"]
-    ]
-    avg_wow_pct = round(sum(complete_wow) / len(complete_wow), 1) if complete_wow else None
+
+# ---------------------------------------------------------------------------
+# Dashboard
+# ---------------------------------------------------------------------------
+def dashboard_data(conn: duckdb.DuckDBPyConnection, now: datetime | None = None) -> dict:
+    """Platform health KPIs, weekly growth, and sparkline data."""
+    now = now or _now()
+    logger.info("[SITE_DATA] Computing dashboard data")
+
+    # Check for completed runs
+    run_row = conn.execute(
+        "SELECT id FROM scrape_runs WHERE status = 'completed' ORDER BY id DESC LIMIT 1"
+    ).fetchone()
+    if run_row is None:
+        return {
+            "total_skills": 0,
+            "total_downloads": 0,
+            "total_stars": 0,
+            "total_owners": 0,
+            "weekly_growth": [],
+            "weekly_downloads": [],
+            "weekly_owners": [],
+            "download_sparkline": [],
+            "download_percentiles": [],
+            "generated_at": now.isoformat(),
+        }
+
+    # Totals from current run
+    totals = conn.execute("""
+        SELECT
+            COUNT(*) as total_skills,
+            COALESCE(SUM(stat_downloads), 0) as total_downloads,
+            COALESCE(SUM(stat_stars), 0) as total_stars,
+            COUNT(DISTINCT owner_handle) as total_owners
+        FROM current_skills
+    """).fetchone()
+
+    # Weekly new skills (last 12 weeks)
+    weeks_raw = conn.execute("""
+        SELECT
+            DATE_TRUNC('week', created_at) as week_start,
+            COUNT(*) as new_count
+        FROM current_skills
+        WHERE created_at IS NOT NULL
+        GROUP BY 1
+        ORDER BY 1
+    """).fetchall()
+    weekly_growth = _build_weekly_series(weeks_raw, now, track_cumulative=True)
+
+    # Weekly new downloads — net new downloads added each week
+    dl_weeks_raw = conn.execute("""
+        SELECT
+            DATE_TRUNC('week', r.started_at) AS week_start,
+            MAX(total_dl) - MIN(total_dl) AS new_downloads
+        FROM (
+            SELECT scrape_run_id, SUM(stat_downloads) AS total_dl
+            FROM skill_metrics
+            GROUP BY scrape_run_id
+        ) agg
+        JOIN scrape_runs r ON agg.scrape_run_id = r.id
+        WHERE r.status = 'completed'
+        GROUP BY 1
+        HAVING MAX(total_dl) - MIN(total_dl) > 0
+        ORDER BY 1
+    """).fetchall()
+    weekly_downloads = _build_weekly_series(dl_weeks_raw, now)
+
+    # Weekly new owners — first appearance of each owner, bucketed by week
+    owner_weeks_raw = conn.execute("""
+        SELECT DATE_TRUNC('week', min_created) AS week_start, COUNT(*) AS new_count
+        FROM (
+            SELECT owner_handle, MIN(created_at) AS min_created
+            FROM current_skills
+            WHERE created_at IS NOT NULL AND owner_handle IS NOT NULL
+            GROUP BY owner_handle
+        ) sub
+        GROUP BY 1
+        ORDER BY 1
+    """).fetchall()
+    weekly_owners = _build_weekly_series(owner_weeks_raw, now)
 
     # Download sparkline: total downloads per completed run
     sparkline_rows = conn.execute("""
@@ -129,16 +165,6 @@ def dashboard_data(conn: duckdb.DuckDBPyConnection, now: datetime | None = None)
         ORDER BY r.id
     """).fetchall()
     download_sparkline = [row[0] for row in sparkline_rows]
-
-    # Download WoW%: compare latest run total to ~7 runs ago
-    download_wow_pct = None
-    if len(download_sparkline) >= 2:
-        latest_dl = download_sparkline[-1]
-        # Use 7 runs back if available (daily scrapes = ~1 week), else earliest
-        prev_idx = max(0, len(download_sparkline) - 8)
-        prev_dl = download_sparkline[prev_idx]
-        if prev_dl and prev_dl > 0:
-            download_wow_pct = round((latest_dl - prev_dl) / prev_dl * 100, 1)
 
     # Download percentiles per completed run (P50, P90, P95, P99)
     pct_rows = conn.execute("""
@@ -176,10 +202,10 @@ def dashboard_data(conn: duckdb.DuckDBPyConnection, now: datetime | None = None)
         "total_stars": totals[2],
         "total_owners": totals[3],
         "weekly_growth": weekly_growth,
+        "weekly_downloads": weekly_downloads,
+        "weekly_owners": weekly_owners,
         "download_sparkline": download_sparkline,
         "download_percentiles": download_percentiles,
-        "download_wow_pct": download_wow_pct,
-        "avg_wow_pct": avg_wow_pct,
         "generated_at": now.isoformat(),
     }
 

@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% block title %}Dashboard — ClawHub Tracker{% endblock %}
+{% block title %}Dashboard — ClawHub Trends{% endblock %}
 
 {% block content %}
 <div class="page-header">
@@ -7,48 +7,34 @@
     <p class="subtitle">ClawHub skill marketplace health at a glance</p>
 </div>
 
+{% macro kpi_card(label, series, total) %}
+<div class="kpi-card">
+    <div class="label">{{ label }}</div>
+    {% if series %}
+    {% set latest = series[-1] %}
+    {% if latest.is_forecast and latest.forecast_count is not none %}
+    <div class="value">{{ "{:,}".format(latest.forecast_count) }} <span class="forecast-badge">forecast</span></div>
+    <div class="change flat">{{ "{:,}".format(latest.new_count) }} actual so far</div>
+    {% else %}
+    <div class="value">{{ "{:,}".format(latest.new_count) }}</div>
+    {% endif %}
+    {% if series|length >= 2 %}
+    {% set wow = latest.wow_pct %}
+    <div class="change {% if wow and wow > 0 %}up{% elif wow and wow < 0 %}down{% else %}flat{% endif %}">
+        {% if wow is not none %}{{ "%+.1f"|format(wow) }}% WoW{% if latest.is_forecast %} (forecast){% endif %}{% else %}&mdash;{% endif %}
+    </div>
+    {% endif %}
+    {% else %}
+    <div class="value">0</div>
+    {% endif %}
+    <div class="total">Total: {{ "{:,}".format(total) }}</div>
+</div>
+{% endmacro %}
+
 <div class="kpi-grid">
-    <div class="kpi-card">
-        <div class="label">Total Downloads</div>
-        <div class="value">{{ "{:,}".format(data.total_downloads) }}</div>
-        {% if data.download_wow_pct is not none %}
-        <div class="change {% if data.download_wow_pct > 0 %}up{% elif data.download_wow_pct < 0 %}down{% else %}flat{% endif %}">
-            {{ "%+.1f"|format(data.download_wow_pct) }}% WoW
-        </div>
-        {% endif %}
-        <div class="sparkline-container"><canvas id="sparkDl"></canvas></div>
-    </div>
-    <div class="kpi-card">
-        <div class="label">New Skills / Week</div>
-        {% if data.weekly_growth %}
-        {% set latest = data.weekly_growth[-1] %}
-        {% if latest.is_forecast and latest.forecast_count is not none %}
-        <div class="value">{{ latest.forecast_count }} <span class="forecast-badge">forecast</span></div>
-        <div class="change flat">{{ latest.new_count }} actual so far</div>
-        {% else %}
-        <div class="value">{{ latest.new_count }}</div>
-        {% endif %}
-        {% if data.weekly_growth|length >= 2 %}
-        {% set wow = latest.wow_pct %}
-        <div class="change {% if wow and wow > 0 %}up{% elif wow and wow < 0 %}down{% else %}flat{% endif %}">
-            {% if wow is not none %}{{ "%+.1f"|format(wow) }}% WoW{% if latest.is_forecast %} (forecast){% endif %}{% else %}&mdash;{% endif %}
-        </div>
-        {% endif %}
-        {% else %}
-        <div class="value">0</div>
-        {% endif %}
-    </div>
-    <div class="kpi-card">
-        <div class="label">Avg WoW % (new skills)</div>
-        <div class="value {% if data.avg_wow_pct and data.avg_wow_pct > 0 %}trend-up{% elif data.avg_wow_pct and data.avg_wow_pct < 0 %}trend-down{% endif %}">
-            {% if data.avg_wow_pct is not none %}{{ "%+.1f"|format(data.avg_wow_pct) }}%{% else %}N/A{% endif %}
-        </div>
-        <div class="change flat">complete weeks only</div>
-    </div>
-    <div class="kpi-card">
-        <div class="label">Total Owners</div>
-        <div class="value">{{ "{:,}".format(data.total_owners) }}</div>
-    </div>
+    {{ kpi_card("Downloads", data.weekly_downloads, data.total_downloads) }}
+    {{ kpi_card("Skills", data.weekly_growth, data.total_skills) }}
+    {{ kpi_card("Owners", data.weekly_owners, data.total_owners) }}
 </div>
 
 {% if data.weekly_growth %}
@@ -108,18 +94,6 @@
 
 {% block scripts %}
 <script>
-{% if data.download_sparkline %}
-new Chart(document.getElementById('sparkDl'), {
-    type: 'line',
-    data: { labels: {{ data.download_sparkline|map('string')|list|tojson }}, datasets: [{
-        data: {{ data.download_sparkline|tojson }},
-        borderColor: '#89b4fa', borderWidth: 2, fill: false, pointRadius: 0, tension: 0.3
-    }]},
-    options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false }},
-        scales: { x: { display: false }, y: { display: false }}}
-});
-{% endif %}
-
 {% if data.weekly_growth %}
 const weeklyGrowth = {{ data.weekly_growth|tojson }};
 const evoCtx = document.getElementById('skillsEvolution').getContext('2d');

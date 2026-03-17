@@ -92,6 +92,7 @@ nav a.logo:hover, nav a.logo:active {
 .kpi-card .change.down { color: var(--red); }
 .kpi-card .change.flat { color: var(--muted); }
 .kpi-card .sparkline-container { height: 50px; margin-top: 8px; }
+.kpi-card .total { font-size: 12px; color: var(--subtext0); margin-top: 4px; }
 
 /* Tables */
 table { width: 100%; border-collapse: collapse; font-size: 14px; }

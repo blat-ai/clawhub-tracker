@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title %}ClawHub Tracker{% endblock %}</title>
+    <title>{% block title %}ClawHub Trends{% endblock %}</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -14,7 +14,7 @@
 <body>
     <nav>
         <div class="container">
-            <a href="{{ static_prefix }}index.html" class="logo">ClawHub Tracker</a>
+            <a href="{{ static_prefix }}index.html" class="logo">ClawHub Trends</a>
             <a href="{{ static_prefix }}index.html" {% if active_page == 'dashboard' %}class="active"{% endif %}>Dashboard</a>
             <a href="{{ static_prefix }}rising.html" {% if active_page == 'rising' %}class="active"{% endif %}>Rising</a>
             <a href="{{ static_prefix }}leaderboard.html" {% if active_page == 'leaderboard' %}class="active"{% endif %}>Leaderboard</a>
