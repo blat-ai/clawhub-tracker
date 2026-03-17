@@ -115,17 +115,24 @@ def _migrate_from_snapshots(conn: duckdb.DuckDBPyConnection) -> None:
 
     logger.info("[STORAGE] Migrating skill_snapshots -> skills + skill_metrics")
 
+    # Idempotent: clear new tables in case of a previous partial migration
+    conn.execute("DELETE FROM skill_metrics")
+    conn.execute("DELETE FROM skills")
+
     # Populate skills from the latest snapshot per skill
     conn.execute("""
         INSERT INTO skills
-        SELECT DISTINCT ON (skill_id)
+        SELECT
             skill_id, slug, display_name, summary, created_at, updated_at,
             badges, tags, owner_user_id, owner_handle, owner_display_name,
             owner_name, owner_image, owner_handle_top,
             scrape_run_id AS first_seen_run_id,
             scrape_run_id AS last_seen_run_id
-        FROM skill_snapshots
-        ORDER BY skill_id, scrape_run_id DESC
+        FROM (
+            SELECT *, ROW_NUMBER() OVER (PARTITION BY skill_id ORDER BY scrape_run_id DESC) AS rn
+            FROM skill_snapshots
+        ) sub
+        WHERE rn = 1
     """)
 
     # Update first_seen_run_id to actual first run
@@ -149,7 +156,15 @@ def _migrate_from_snapshots(conn: duckdb.DuckDBPyConnection) -> None:
     """)
 
     # Populate skill_metrics from all snapshots
-    conn.execute("""
+    # Old table may lack is_highlighted/is_suspicious columns — check first
+    old_cols = {r[0] for r in conn.execute(
+        "SELECT column_name FROM information_schema.columns WHERE table_name='skill_snapshots'"
+    ).fetchall()}
+
+    hl_expr = "COALESCE(is_highlighted, FALSE)" if "is_highlighted" in old_cols else "FALSE"
+    sus_expr = "COALESCE(is_suspicious, FALSE)" if "is_suspicious" in old_cols else "FALSE"
+
+    conn.execute(f"""
         INSERT INTO skill_metrics
         SELECT
             scrape_run_id, skill_id,
@@ -157,8 +172,8 @@ def _migrate_from_snapshots(conn: duckdb.DuckDBPyConnection) -> None:
             stat_installs_all_time, stat_installs_current, stat_versions,
             version_id, version_number, version_changelog,
             version_changelog_source, version_created_at,
-            COALESCE(is_highlighted, FALSE),
-            COALESCE(is_suspicious, FALSE)
+            {hl_expr},
+            {sus_expr}
         FROM skill_snapshots
     """)
 
