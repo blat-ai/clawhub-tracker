@@ -290,6 +290,11 @@ footer a { color: var(--blue); text-decoration: none; }
 .badge-highlighted { color: var(--yellow); }
 .badge-suspicious { color: var(--red); }
 
+/* Trust indicator */
+.trust-indicator { font-variant-numeric: tabular-nums; }
+.trust-high { color: var(--green); }
+.trust-low { color: var(--red); }
+
 /* Empty state */
 .empty-state {
     text-align: center;

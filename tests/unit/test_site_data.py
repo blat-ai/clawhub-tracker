@@ -428,6 +428,33 @@ class TestOwnersData:
         assert data["by_stars"] == []
         assert data["by_skill_count"] == []
 
+    def test_trust_fields(self, db):
+        _seed(
+            db,
+            lambda rid: [
+                _make(
+                    rid, "a", owner_handle="alice", stat_downloads=100,
+                    created_at=_ts(2026, 1, 1), is_suspicious=True,
+                ),
+                _make(
+                    rid, "b", owner_handle="alice", stat_downloads=200,
+                    created_at=_ts(2026, 1, 2), is_highlighted=True,
+                ),
+                _make(
+                    rid, "c", owner_handle="bob", stat_downloads=50,
+                    created_at=_ts(2026, 1, 3),
+                ),
+            ],
+        )
+        data = owners_data(db, now=_ts(2026, 3, 16))
+        alice = next(o for o in data["by_downloads"] if o["handle"] == "alice")
+        assert alice["suspicious_count"] == 1
+        assert alice["highlighted_count"] == 1
+        assert alice["clean_pct"] == 50.0
+        bob = next(o for o in data["by_downloads"] if o["handle"] == "bob")
+        assert bob["suspicious_count"] == 0
+        assert bob["clean_pct"] == 100.0
+
 
 class TestSkillDetailData:
     def test_history_across_runs(self, db):
@@ -509,6 +536,30 @@ class TestOwnerDetailData:
         data = owner_detail_data(db, "alice")
         assert len(data["download_trajectory"]) == 3
         assert data["download_trajectory"] == [100, 200, 300]
+
+    def test_trust_fields(self, db):
+        _seed(
+            db,
+            lambda rid: [
+                _make(
+                    rid, "s1", owner_handle="alice", stat_downloads=5000,
+                    created_at=_ts(2026, 1, 1), is_suspicious=True,
+                ),
+                _make(
+                    rid, "s2", owner_handle="alice", stat_downloads=3000,
+                    created_at=_ts(2026, 2, 1), is_highlighted=True,
+                ),
+            ],
+        )
+        data = owner_detail_data(db, "alice")
+        assert data["suspicious_count"] == 1
+        assert data["highlighted_count"] == 1
+        assert data["clean_pct"] == 50.0
+        # Individual skills carry flags
+        suspicious_skills = [s for s in data["skills"] if s["is_suspicious"]]
+        highlighted_skills = [s for s in data["skills"] if s["is_highlighted"]]
+        assert len(suspicious_skills) == 1
+        assert len(highlighted_skills) == 1
 
     def test_returns_none_for_unknown_handle(self, db):
         _seed(db, lambda rid: [_make(rid, "a", owner_handle="alice")])

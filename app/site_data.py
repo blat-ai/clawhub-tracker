@@ -493,7 +493,9 @@ def owners_data(conn: duckdb.DuckDBPyConnection, now: datetime | None = None) ->
             AVG(
                 stat_downloads / GREATEST(DATE_DIFF('day', created_at, ?), 1)
             ) as avg_dl_per_day,
-            MIN(created_at) as first_skill_at
+            MIN(created_at) as first_skill_at,
+            SUM(CASE WHEN is_highlighted THEN 1 ELSE 0 END) as highlighted_count,
+            SUM(CASE WHEN is_suspicious THEN 1 ELSE 0 END) as suspicious_count
         FROM current_skills
         WHERE owner_handle IS NOT NULL AND created_at IS NOT NULL
         GROUP BY owner_handle
@@ -509,15 +511,24 @@ def owners_data(conn: duckdb.DuckDBPyConnection, now: datetime | None = None) ->
     def _owner_dict(r):
         dl = r[2] or 0
         stars = r[3] or 0
+        skill_count = r[1]
+        highlighted = int(r[6] or 0)
+        suspicious = int(r[7] or 0)
+        clean_pct = (
+            round((skill_count - suspicious) / skill_count * 100, 1) if skill_count > 0 else 100.0
+        )
         return {
             "handle": r[0],
-            "skill_count": r[1],
+            "skill_count": skill_count,
             "total_downloads": dl,
             "total_stars": stars,
             "dl_pct": round(dl / platform_dl * 100, 2) if platform_dl > 0 else 0.0,
             "star_pct": round(stars / platform_stars * 100, 2) if platform_stars > 0 else 0.0,
             "avg_dl_per_day": round(float(r[4]), 1) if r[4] else 0.0,
             "first_skill_at": r[5].isoformat() if r[5] else None,
+            "highlighted_count": highlighted,
+            "suspicious_count": suspicious,
+            "clean_pct": clean_pct,
         }
 
     all_owners = [_owner_dict(r) for r in rows]
@@ -700,7 +711,8 @@ def owner_detail_data(
     # Individual skills
     skills_rows = conn.execute(
         """
-        SELECT slug, display_name, stat_downloads, stat_stars, created_at
+        SELECT slug, display_name, stat_downloads, stat_stars, created_at,
+               is_highlighted, is_suspicious
         FROM current_skills
         WHERE owner_handle = ?
         ORDER BY stat_downloads DESC
@@ -716,6 +728,8 @@ def owner_detail_data(
             "stat_stars": r[3],
             "created_at": r[4].isoformat() if r[4] else None,
             "days_old": (now.date() - r[4].date()).days if r[4] else None,
+            "is_highlighted": bool(r[5]),
+            "is_suspicious": bool(r[6]),
         }
         for r in skills_rows
     ]
@@ -736,13 +750,23 @@ def owner_detail_data(
         [handle],
     ).fetchall()
 
+    highlighted_count = sum(1 for s in skills if s["is_highlighted"])
+    suspicious_count = sum(1 for s in skills if s["is_suspicious"])
+    skill_count = summary[3]
+    clean_pct = (
+        round((skill_count - suspicious_count) / skill_count * 100, 1) if skill_count > 0 else 100.0
+    )
+
     return {
         "handle": handle,
         "total_downloads": summary[0] or 0,
         "total_stars": summary[1] or 0,
         "total_installs": summary[2] or 0,
-        "skill_count": summary[3],
+        "skill_count": skill_count,
         "avg_dl_per_day": round(float(summary[4]), 1) if summary[4] else 0.0,
+        "highlighted_count": highlighted_count,
+        "suspicious_count": suspicious_count,
+        "clean_pct": clean_pct,
         "skills": skills,
         "trajectory": [
             {

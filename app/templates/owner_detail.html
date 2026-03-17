@@ -31,6 +31,10 @@
         <div class="label">Avg DL/day</div>
         <div class="value">{{ data.avg_dl_per_day }}</div>
     </div>
+    <div class="stat-item">
+        <div class="label">Clean Skills</div>
+        <div class="value"><span class="trust-indicator {{ 'trust-high' if data.suspicious_count == 0 else 'trust-low' }}">{{ "%.1f"|format(data.clean_pct) }}%</span></div>
+    </div>
 </div>
 
 {% if data.trajectory|length > 1 %}
@@ -53,7 +57,11 @@
     <tbody>
     {% for s in data.skills %}
         <tr>
-            <td><a href="{{ static_prefix }}skills/{{ s.slug }}.html">{{ s.display_name }}</a></td>
+            <td>
+                <a href="{{ static_prefix }}skills/{{ s.slug }}.html">{{ s.display_name }}</a>
+                {% if s.is_highlighted %}<span class="badge badge-highlighted" title="Highlighted">&#9733;</span>{% endif %}
+                {% if s.is_suspicious %}<span class="badge badge-suspicious" title="Suspicious">&#9888;</span>{% endif %}
+            </td>
             <td class="number">{{ "{:,}".format(s.stat_downloads) }}</td>
             <td class="number">{{ s.stat_stars }}</td>
             <td class="number">{{ s.days_old if s.days_old is not none else "?" }}d</td>
