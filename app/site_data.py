@@ -734,12 +734,13 @@ def owner_detail_data(
         for r in skills_rows
     ]
 
-    # Download + star trajectory across runs
+    # Download + star + installs trajectory across runs
     traj_rows = conn.execute(
         """
         SELECT r.id, r.started_at,
                SUM(s.stat_downloads) as total_dl,
-               SUM(s.stat_stars) as total_stars
+               SUM(s.stat_stars) as total_stars,
+               SUM(s.stat_installs_all_time) as total_installs
         FROM skill_metrics s
         JOIN skills sk ON s.skill_id = sk.skill_id
         JOIN scrape_runs r ON s.scrape_run_id = r.id
@@ -757,6 +758,29 @@ def owner_detail_data(
         round((skill_count - suspicious_count) / skill_count * 100, 1) if skill_count > 0 else 100.0
     )
 
+    # Compute deltas between latest and previous run
+    def _delta(curr, prev):
+        if curr is None or prev is None:
+            return 0
+        return (curr or 0) - (prev or 0)
+
+    def _wow_pct(curr, prev):
+        if curr is None or prev is None or not prev:
+            return None
+        d = (curr or 0) - (prev or 0)
+        return round(d / prev * 100, 1) if prev else None
+
+    dl_delta = star_delta = installs_delta = 0
+    dl_wow = star_wow = installs_wow = None
+    if len(traj_rows) >= 2:
+        curr, prev = traj_rows[-1], traj_rows[-2]
+        dl_delta = _delta(curr[2], prev[2])
+        star_delta = _delta(curr[3], prev[3])
+        installs_delta = _delta(curr[4], prev[4])
+        dl_wow = _wow_pct(curr[2], prev[2])
+        star_wow = _wow_pct(curr[3], prev[3])
+        installs_wow = _wow_pct(curr[4], prev[4])
+
     return {
         "handle": handle,
         "total_downloads": summary[0] or 0,
@@ -767,6 +791,12 @@ def owner_detail_data(
         "highlighted_count": highlighted_count,
         "suspicious_count": suspicious_count,
         "clean_pct": clean_pct,
+        "dl_delta": dl_delta,
+        "dl_wow": dl_wow,
+        "star_delta": star_delta,
+        "star_wow": star_wow,
+        "installs_delta": installs_delta,
+        "installs_wow": installs_wow,
         "skills": skills,
         "trajectory": [
             {

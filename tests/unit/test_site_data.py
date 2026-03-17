@@ -537,6 +537,29 @@ class TestOwnerDetailData:
         assert len(data["download_trajectory"]) == 3
         assert data["download_trajectory"] == [100, 200, 300]
 
+    def test_deltas_with_multiple_runs(self, db):
+        run1 = start_run(db)
+        _insert(db, [
+            _make(run1.id, "s1", owner_handle="alice", stat_downloads=1000, stat_stars=10),
+        ])
+        complete_run(db, run1.id, total_skills=1)
+        run2 = start_run(db)
+        _insert(db, [
+            _make(run2.id, "s1", owner_handle="alice", stat_downloads=1500, stat_stars=15),
+        ])
+        complete_run(db, run2.id, total_skills=1)
+        data = owner_detail_data(db, "alice")
+        assert data["dl_delta"] == 500
+        assert data["dl_wow"] == 50.0
+        assert data["star_delta"] == 5
+        assert data["star_wow"] == 50.0
+
+    def test_deltas_single_run(self, db):
+        _seed(db, lambda rid: [_make(rid, "s1", owner_handle="alice", stat_downloads=100)])
+        data = owner_detail_data(db, "alice")
+        assert data["dl_delta"] == 0
+        assert data["dl_wow"] is None
+
     def test_trust_fields(self, db):
         _seed(
             db,

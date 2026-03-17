@@ -161,6 +161,17 @@ table.sortable th.sort-desc::after { content: ' \25BC'; font-size: 10px; }
     transition: color 0.2s, border-color 0.2s;
 }
 .profile-link:hover { color: var(--text); border-color: var(--surface1); text-decoration: none; }
+.profile-icon {
+    display: inline-flex;
+    align-items: center;
+    color: var(--overlay0);
+    opacity: 0.5;
+    margin-left: 8px;
+    vertical-align: middle;
+    transition: opacity 0.2s;
+}
+.profile-icon:hover { opacity: 1; }
+.profile-icon img { border-radius: 3px; }
 .chart-container { background: var(--mantle); border-radius: 8px; padding: 16px; margin-bottom: 24px; border: 1px solid var(--surface0); }
 .chart-container h3 { font-size: 14px; color: var(--subtext0); margin-bottom: 12px; }
 .stat-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 12px; margin-bottom: 24px; }
