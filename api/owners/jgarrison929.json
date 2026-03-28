@@ -1,0 +1,166 @@
+{
+  "handle": "jgarrison929",
+  "total_downloads": 40856,
+  "total_stars": 50,
+  "total_installs": 421,
+  "skill_count": 5,
+  "avg_dl_per_day": 151.3,
+  "highlighted_count": 0,
+  "suspicious_count": 5,
+  "clean_pct": 0.0,
+  "dl_delta": 191,
+  "dl_wow": 0.5,
+  "dl_per_day": 191.0,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "star_per_day": 0,
+  "installs_delta": 4,
+  "installs_wow": 1.0,
+  "installs_per_day": 4.0,
+  "owner_display_name": "jgarrison929",
+  "owner_name": "jgarrison929",
+  "owner_image": "https://avatars.githubusercontent.com/u/21370704?v=4",
+  "bio": null,
+  "company": null,
+  "location": null,
+  "blog": null,
+  "public_repos": 11,
+  "followers": 7,
+  "following": 19,
+  "github_created_at": "2016-08-31T20:06:23",
+  "twitter_username": null,
+  "skills": [
+    {
+      "slug": "security-auditor",
+      "display_name": "Security Auditor",
+      "stat_downloads": 16408,
+      "stat_stars": 23,
+      "created_at": "2026-02-02T04:56:57.892000",
+      "days_old": 54,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "database-operations",
+      "display_name": "Database Operations",
+      "stat_downloads": 8678,
+      "stat_stars": 6,
+      "created_at": "2026-02-02T04:56:31.804000",
+      "days_old": 54,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "nextjs-expert",
+      "display_name": "Nextjs Expert",
+      "stat_downloads": 7793,
+      "stat_stars": 12,
+      "created_at": "2026-02-02T04:56:49.553000",
+      "days_old": 54,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "shadcn-ui",
+      "display_name": "Shadcn Ui",
+      "stat_downloads": 6306,
+      "stat_stars": 8,
+      "created_at": "2026-02-02T04:57:06.029000",
+      "days_old": 54,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "dotnet-expert",
+      "display_name": "Dotnet Expert",
+      "stat_downloads": 1671,
+      "stat_stars": 1,
+      "created_at": "2026-02-02T04:56:40.713000",
+      "days_old": 54,
+      "is_highlighted": false,
+      "is_suspicious": true
+    }
+  ],
+  "trajectory": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 35669,
+      "stars": 41
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 35997,
+      "stars": 41
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 36665,
+      "stars": 42
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 37163,
+      "stars": 44
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 37693,
+      "stars": 45
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 38243,
+      "stars": 47
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 39156,
+      "stars": 48
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 39216,
+      "stars": 48
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 39390,
+      "stars": 48
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 39894,
+      "stars": 50
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 40665,
+      "stars": 50
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 40665,
+      "stars": 50
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 40856,
+      "stars": 50
+    }
+  ],
+  "download_trajectory": [
+    35669,
+    35997,
+    36665,
+    37163,
+    37693,
+    38243,
+    39156,
+    39216,
+    39390,
+    39894,
+    40665,
+    40665,
+    40856
+  ]
+}

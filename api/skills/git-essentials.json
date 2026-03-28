@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd76me7b3qjhrt7bs2byvqk2hn804mn8",
+  "slug": "git-essentials",
+  "display_name": "Git Essentials",
+  "summary": "Essential Git commands and workflows for version control, branching, and collaboration.",
+  "owner_handle": "arnarsson",
+  "owner_image": "https://avatars.githubusercontent.com/u/96142966?v=4",
+  "created_at": "2026-01-29T13:07:25.864000",
+  "days_old": 57,
+  "stat_downloads": 20605,
+  "stat_stars": 29,
+  "tags": {
+    "latest": "k97bv3vwx3mphkf8xxyp8ggdmx805dn1"
+  },
+  "badges": null,
+  "stat_installs": 211,
+  "stat_comments": 1,
+  "current_version": "1.0.0",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 361.5,
+  "acceleration_pct": -74.6,
+  "dl_delta": 91,
+  "dl_wow": 0.4,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 1,
+  "installs_wow": 0.5,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 17843,
+      "stars": 23,
+      "installs_all_time": 163,
+      "installs_current": 158
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 18052,
+      "stars": 24,
+      "installs_all_time": 165,
+      "installs_current": 160
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 18411,
+      "stars": 25,
+      "installs_all_time": 173,
+      "installs_current": 168
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 18680,
+      "stars": 25,
+      "installs_all_time": 178,
+      "installs_current": 173
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 18954,
+      "stars": 27,
+      "installs_all_time": 183,
+      "installs_current": 177
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 19218,
+      "stars": 27,
+      "installs_all_time": 189,
+      "installs_current": 183
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 19699,
+      "stars": 28,
+      "installs_all_time": 199,
+      "installs_current": 193
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 19722,
+      "stars": 28,
+      "installs_all_time": 201,
+      "installs_current": 195
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 19808,
+      "stars": 28,
+      "installs_all_time": 201,
+      "installs_current": 195
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 20080,
+      "stars": 28,
+      "installs_all_time": 204,
+      "installs_current": 198
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 20514,
+      "stars": 29,
+      "installs_all_time": 210,
+      "installs_current": 205
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 20514,
+      "stars": 29,
+      "installs_all_time": 210,
+      "installs_current": 205
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 20605,
+      "stars": 29,
+      "installs_all_time": 211,
+      "installs_current": 206
+    }
+  ],
+  "version_releases": []
+}

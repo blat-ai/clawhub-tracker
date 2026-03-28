@@ -1,0 +1,1166 @@
+{
+  "handle": "edwardrodriguez703-design",
+  "total_downloads": 129857,
+  "total_stars": 67,
+  "total_installs": 11,
+  "skill_count": 105,
+  "avg_dl_per_day": 24.7,
+  "highlighted_count": 0,
+  "suspicious_count": 105,
+  "clean_pct": 0.0,
+  "dl_delta": 207,
+  "dl_wow": 0.2,
+  "dl_per_day": 207.0,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "star_per_day": 0,
+  "installs_delta": 0,
+  "installs_wow": 0.0,
+  "installs_per_day": 0,
+  "owner_display_name": "Lokuli",
+  "owner_name": "edwardrodriguez703-design",
+  "owner_image": "https://avatars.githubusercontent.com/u/224194606?v=4",
+  "bio": null,
+  "company": null,
+  "location": null,
+  "blog": null,
+  "public_repos": 2,
+  "followers": 0,
+  "following": 0,
+  "github_created_at": "2025-08-02T02:32:23",
+  "twitter_username": null,
+  "skills": [
+    {
+      "slug": "service-booking",
+      "display_name": "Service Booking",
+      "stat_downloads": 1401,
+      "stat_stars": 2,
+      "created_at": "2026-02-05T07:51:53.746000",
+      "days_old": 51,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-web-developer",
+      "display_name": "Book Web Developer",
+      "stat_downloads": 1367,
+      "stat_stars": 0,
+      "created_at": "2026-02-06T01:02:28.029000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-auto-body",
+      "display_name": "Book Auto Body",
+      "stat_downloads": 1315,
+      "stat_stars": 0,
+      "created_at": "2026-02-06T00:59:37.776000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-tutor",
+      "display_name": "Book Tutor",
+      "stat_downloads": 1315,
+      "stat_stars": 1,
+      "created_at": "2026-02-06T01:01:43.136000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-laundry",
+      "display_name": "Book Laundry",
+      "stat_downloads": 1311,
+      "stat_stars": 1,
+      "created_at": "2026-02-06T01:02:48.690000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-music-lessons",
+      "display_name": "Book Music Lessons",
+      "stat_downloads": 1308,
+      "stat_stars": 1,
+      "created_at": "2026-02-06T01:01:45.770000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-battery",
+      "display_name": "Book Battery",
+      "stat_downloads": 1307,
+      "stat_stars": 1,
+      "created_at": "2026-02-06T00:59:43.231000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-event-planner",
+      "display_name": "Book Event Planner",
+      "stat_downloads": 1303,
+      "stat_stars": 1,
+      "created_at": "2026-02-06T01:01:28.726000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-party",
+      "display_name": "Book Party",
+      "stat_downloads": 1302,
+      "stat_stars": 0,
+      "created_at": "2026-02-06T01:01:38.095000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-computer-repair",
+      "display_name": "Book Computer Repair",
+      "stat_downloads": 1300,
+      "stat_stars": 0,
+      "created_at": "2026-02-06T01:02:23.674000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-braids",
+      "display_name": "Book Braids",
+      "stat_downloads": 1296,
+      "stat_stars": 1,
+      "created_at": "2026-02-06T01:00:03.608000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-test-prep",
+      "display_name": "Book Test Prep",
+      "stat_downloads": 1295,
+      "stat_stars": 1,
+      "created_at": "2026-02-06T01:02:18.512000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-piano-lessons",
+      "display_name": "Book Piano Lessons",
+      "stat_downloads": 1286,
+      "stat_stars": 1,
+      "created_at": "2026-02-06T01:02:13.455000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-math-tutor",
+      "display_name": "Book Math Tutor",
+      "stat_downloads": 1284,
+      "stat_stars": 1,
+      "created_at": "2026-02-06T01:02:16.167000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-it-support",
+      "display_name": "Book IT Support",
+      "stat_downloads": 1283,
+      "stat_stars": 1,
+      "created_at": "2026-02-06T01:02:25.933000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-language-tutor",
+      "display_name": "Book Language Tutor",
+      "stat_downloads": 1277,
+      "stat_stars": 0,
+      "created_at": "2026-02-06T01:02:00.846000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-tires",
+      "display_name": "Book Tires",
+      "stat_downloads": 1269,
+      "stat_stars": 1,
+      "created_at": "2026-02-06T00:59:32.308000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-tailor",
+      "display_name": "Book Tailor",
+      "stat_downloads": 1268,
+      "stat_stars": 0,
+      "created_at": "2026-02-06T01:02:50.614000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-art-lessons",
+      "display_name": "Book Art Lessons",
+      "stat_downloads": 1267,
+      "stat_stars": 1,
+      "created_at": "2026-02-06T01:02:05.373000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-salon",
+      "display_name": "Book Salon",
+      "stat_downloads": 1267,
+      "stat_stars": 1,
+      "created_at": "2026-02-06T00:59:50.237000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-driving-lessons",
+      "display_name": "Book Driving Lessons",
+      "stat_downloads": 1267,
+      "stat_stars": 1,
+      "created_at": "2026-02-06T01:01:55.945000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-makeup",
+      "display_name": "Book Makeup",
+      "stat_downloads": 1264,
+      "stat_stars": 1,
+      "created_at": "2026-02-06T00:59:56.289000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-cleaning",
+      "display_name": "Book Cleaning",
+      "stat_downloads": 1264,
+      "stat_stars": 1,
+      "created_at": "2026-02-06T01:00:14.013000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-hvac",
+      "display_name": "Book HVAC",
+      "stat_downloads": 1263,
+      "stat_stars": 1,
+      "created_at": "2026-02-06T01:00:12.512000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-carpet-cleaning",
+      "display_name": "Book Carpet Cleaning",
+      "stat_downloads": 1262,
+      "stat_stars": 0,
+      "created_at": "2026-02-06T01:00:19.773000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-phone-repair",
+      "display_name": "Book Phone Repair",
+      "stat_downloads": 1262,
+      "stat_stars": 1,
+      "created_at": "2026-02-06T01:02:21.198000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-alignment",
+      "display_name": "Book Alignment",
+      "stat_downloads": 1260,
+      "stat_stars": 0,
+      "created_at": "2026-02-06T00:59:39.241000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-car-wash",
+      "display_name": "Book Car Wash",
+      "stat_downloads": 1259,
+      "stat_stars": 1,
+      "created_at": "2026-02-06T00:59:36.490000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-pet-grooming",
+      "display_name": "Book Pet Grooming",
+      "stat_downloads": 1258,
+      "stat_stars": 1,
+      "created_at": "2026-02-06T01:02:42.361000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-dance-lessons",
+      "display_name": "Book Dance Lessons",
+      "stat_downloads": 1258,
+      "stat_stars": 1,
+      "created_at": "2026-02-06T01:01:50.129000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-chiropractor",
+      "display_name": "Book Chiropractor",
+      "stat_downloads": 1258,
+      "stat_stars": 1,
+      "created_at": "2026-02-06T01:00:39.663000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-lawyer",
+      "display_name": "Book Lawyer",
+      "stat_downloads": 1257,
+      "stat_stars": 1,
+      "created_at": "2026-02-06T01:02:52.410000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-window-cleaning",
+      "display_name": "Book Window Cleaning",
+      "stat_downloads": 1257,
+      "stat_stars": 1,
+      "created_at": "2026-02-06T01:00:29.543000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-guitar-lessons",
+      "display_name": "Book Guitar Lessons",
+      "stat_downloads": 1255,
+      "stat_stars": 1,
+      "created_at": "2026-02-06T01:02:09.652000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-inspection",
+      "display_name": "Book Inspection",
+      "stat_downloads": 1255,
+      "stat_stars": 1,
+      "created_at": "2026-02-06T00:59:44.670000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-painter",
+      "display_name": "Book Painter",
+      "stat_downloads": 1253,
+      "stat_stars": 1,
+      "created_at": "2026-02-06T01:00:16.890000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-pilates",
+      "display_name": "Book Pilates",
+      "stat_downloads": 1252,
+      "stat_stars": 1,
+      "created_at": "2026-02-06T01:03:09.208000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-meditation",
+      "display_name": "Book Meditation",
+      "stat_downloads": 1252,
+      "stat_stars": 1,
+      "created_at": "2026-02-06T01:01:11.659000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-data-recovery",
+      "display_name": "Book Data Recovery",
+      "stat_downloads": 1251,
+      "stat_stars": 1,
+      "created_at": "2026-02-06T01:02:30.213000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-nutritionist",
+      "display_name": "Book Nutritionist",
+      "stat_downloads": 1250,
+      "stat_stars": 1,
+      "created_at": "2026-02-06T01:03:21.215000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-wedding",
+      "display_name": "Book Wedding",
+      "stat_downloads": 1249,
+      "stat_stars": 1,
+      "created_at": "2026-02-06T01:01:40.538000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-haircut",
+      "display_name": "Book Haircut",
+      "stat_downloads": 1245,
+      "stat_stars": 1,
+      "created_at": "2026-02-06T00:59:48.773000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-dog-trainer",
+      "display_name": "Book Dog Trainer",
+      "stat_downloads": 1244,
+      "stat_stars": 1,
+      "created_at": "2026-02-06T01:02:46.758000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-mechanic",
+      "display_name": "Book Mechanic",
+      "stat_downloads": 1244,
+      "stat_stars": 1,
+      "created_at": "2026-02-06T00:59:27.734000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-tree-service",
+      "display_name": "Book Tree Service",
+      "stat_downloads": 1243,
+      "stat_stars": 1,
+      "created_at": "2026-02-06T01:00:35.418000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-locksmith",
+      "display_name": "Book Locksmith",
+      "stat_downloads": 1242,
+      "stat_stars": 0,
+      "created_at": "2026-02-06T01:00:22.483000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-oil-change",
+      "display_name": "Book Oil Change",
+      "stat_downloads": 1240,
+      "stat_stars": 1,
+      "created_at": "2026-02-06T00:59:29.307000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-dog-walker",
+      "display_name": "Book Dog Walker",
+      "stat_downloads": 1239,
+      "stat_stars": 1,
+      "created_at": "2026-02-06T01:02:44.626000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-lashes",
+      "display_name": "Book Lashes",
+      "stat_downloads": 1238,
+      "stat_stars": 1,
+      "created_at": "2026-02-06T01:00:02.295000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-notary",
+      "display_name": "Book Notary",
+      "stat_downloads": 1234,
+      "stat_stars": 1,
+      "created_at": "2026-02-06T01:02:37.228000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-photographer",
+      "display_name": "Book Photographer",
+      "stat_downloads": 1234,
+      "stat_stars": 1,
+      "created_at": "2026-02-06T01:01:17.029000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-pool-service",
+      "display_name": "Book Pool Service",
+      "stat_downloads": 1233,
+      "stat_stars": 1,
+      "created_at": "2026-02-06T01:00:33.969000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-plumber",
+      "display_name": "Book Plumber",
+      "stat_downloads": 1232,
+      "stat_stars": 1,
+      "created_at": "2026-02-06T01:00:09.511000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-tattoo",
+      "display_name": "Book Tattoo",
+      "stat_downloads": 1231,
+      "stat_stars": 1,
+      "created_at": "2026-02-06T01:02:32.512000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-eyebrows",
+      "display_name": "Book Eyebrows",
+      "stat_downloads": 1229,
+      "stat_stars": 1,
+      "created_at": "2026-02-06T01:00:00.567000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-gutter-cleaning",
+      "display_name": "Book Gutter Cleaning",
+      "stat_downloads": 1229,
+      "stat_stars": 1,
+      "created_at": "2026-02-06T01:00:32.362000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-physical-therapy",
+      "display_name": "Book Physical Therapy",
+      "stat_downloads": 1229,
+      "stat_stars": 1,
+      "created_at": "2026-02-06T01:01:04.467000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-pest-control",
+      "display_name": "Book Pest Control",
+      "stat_downloads": 1228,
+      "stat_stars": 1,
+      "created_at": "2026-02-06T01:00:21.058000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-color",
+      "display_name": "Book Color",
+      "stat_downloads": 1228,
+      "stat_stars": 1,
+      "created_at": "2026-02-06T01:00:06.395000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-landscaper",
+      "display_name": "Book Landscaper",
+      "stat_downloads": 1227,
+      "stat_stars": 0,
+      "created_at": "2026-02-06T01:00:18.362000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-handyman",
+      "display_name": "Book Handyman",
+      "stat_downloads": 1227,
+      "stat_stars": 0,
+      "created_at": "2026-02-06T01:00:15.401000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-facial",
+      "display_name": "Book Facial",
+      "stat_downloads": 1227,
+      "stat_stars": 1,
+      "created_at": "2026-02-06T00:59:59.151000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-fitness",
+      "display_name": "Book Fitness",
+      "stat_downloads": 1227,
+      "stat_stars": 0,
+      "created_at": "2026-02-06T01:01:14.549000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-bartender",
+      "display_name": "Book Bartender",
+      "stat_downloads": 1226,
+      "stat_stars": 1,
+      "created_at": "2026-02-06T01:01:26.316000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-waxing",
+      "display_name": "Book Waxing",
+      "stat_downloads": 1226,
+      "stat_stars": 1,
+      "created_at": "2026-02-06T00:59:57.751000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-windshield",
+      "display_name": "Book Windshield",
+      "stat_downloads": 1225,
+      "stat_stars": 0,
+      "created_at": "2026-02-06T00:59:41.979000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-cake",
+      "display_name": "Book Cake",
+      "stat_downloads": 1225,
+      "stat_stars": 0,
+      "created_at": "2026-02-06T01:01:33.609000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-pressure-washing",
+      "display_name": "Book Pressure Washing",
+      "stat_downloads": 1225,
+      "stat_stars": 0,
+      "created_at": "2026-02-06T01:00:30.883000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-yoga",
+      "display_name": "Book Yoga",
+      "stat_downloads": 1223,
+      "stat_stars": 1,
+      "created_at": "2026-02-06T01:00:45.434000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "lokuli-booking",
+      "display_name": "Lokuli Booking",
+      "stat_downloads": 1221,
+      "stat_stars": 1,
+      "created_at": "2026-02-05T08:20:41.311000",
+      "days_old": 51,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-barber",
+      "display_name": "Book Barber",
+      "stat_downloads": 1220,
+      "stat_stars": 0,
+      "created_at": "2026-02-06T00:59:47.533000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-massage",
+      "display_name": "Book Massage",
+      "stat_downloads": 1219,
+      "stat_stars": 1,
+      "created_at": "2026-02-06T01:00:38.085000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-towing",
+      "display_name": "Book Towing",
+      "stat_downloads": 1218,
+      "stat_stars": 1,
+      "created_at": "2026-02-06T00:59:35.150000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-catering",
+      "display_name": "Book Catering",
+      "stat_downloads": 1218,
+      "stat_stars": 0,
+      "created_at": "2026-02-06T01:01:23.860000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-personal-trainer",
+      "display_name": "Book Personal Trainer",
+      "stat_downloads": 1217,
+      "stat_stars": 0,
+      "created_at": "2026-02-06T01:00:40.946000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-spa",
+      "display_name": "Book Spa",
+      "stat_downloads": 1216,
+      "stat_stars": 0,
+      "created_at": "2026-02-06T01:01:08.748000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-electrician",
+      "display_name": "Book Electrician",
+      "stat_downloads": 1214,
+      "stat_stars": 0,
+      "created_at": "2026-02-06T01:00:11.052000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-blowout",
+      "display_name": "Book Blowout",
+      "stat_downloads": 1214,
+      "stat_stars": 1,
+      "created_at": "2026-02-06T01:00:05.014000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-brake-service",
+      "display_name": "Book Brake Service",
+      "stat_downloads": 1214,
+      "stat_stars": 1,
+      "created_at": "2026-02-06T00:59:33.730000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-tune-up",
+      "display_name": "Book Tune Up",
+      "stat_downloads": 1213,
+      "stat_stars": 0,
+      "created_at": "2026-02-06T00:59:46.115000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-roofing",
+      "display_name": "Book Roofing",
+      "stat_downloads": 1213,
+      "stat_stars": 1,
+      "created_at": "2026-02-06T01:00:24.036000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-fence",
+      "display_name": "Book Fence",
+      "stat_downloads": 1209,
+      "stat_stars": 0,
+      "created_at": "2026-02-06T01:00:36.871000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-acupuncture",
+      "display_name": "Book Acupuncture",
+      "stat_downloads": 1209,
+      "stat_stars": 1,
+      "created_at": "2026-02-06T01:00:42.497000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-piercing",
+      "display_name": "Book Piercing",
+      "stat_downloads": 1208,
+      "stat_stars": 1,
+      "created_at": "2026-02-06T01:02:34.862000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-moving",
+      "display_name": "Book Moving",
+      "stat_downloads": 1204,
+      "stat_stars": 0,
+      "created_at": "2026-02-06T01:02:40.317000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-videographer",
+      "display_name": "Book Videographer",
+      "stat_downloads": 1203,
+      "stat_stars": 0,
+      "created_at": "2026-02-06T01:01:19.346000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-dj",
+      "display_name": "Book DJ",
+      "stat_downloads": 1198,
+      "stat_stars": 0,
+      "created_at": "2026-02-06T01:01:21.401000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-transmission",
+      "display_name": "Book Transmission",
+      "stat_downloads": 1197,
+      "stat_stars": 0,
+      "created_at": "2026-02-06T00:59:40.633000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-extensions",
+      "display_name": "Book Extensions",
+      "stat_downloads": 1196,
+      "stat_stars": 0,
+      "created_at": "2026-02-06T01:00:07.751000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-pedicure",
+      "display_name": "Book Pedicure",
+      "stat_downloads": 1196,
+      "stat_stars": 0,
+      "created_at": "2026-02-06T00:59:54.768000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-auto",
+      "display_name": "Book Auto",
+      "stat_downloads": 1194,
+      "stat_stars": 1,
+      "created_at": "2026-02-06T00:56:18.014000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "lokuli-service-booking",
+      "display_name": "Lokuli Service Booking",
+      "stat_downloads": 1193,
+      "stat_stars": 0,
+      "created_at": "2026-02-05T13:51:38.850000",
+      "days_old": 51,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-venue",
+      "display_name": "Book Venue",
+      "stat_downloads": 1192,
+      "stat_stars": 1,
+      "created_at": "2026-02-06T01:01:35.993000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-detailing",
+      "display_name": "Book Detailing",
+      "stat_downloads": 1192,
+      "stat_stars": 0,
+      "created_at": "2026-02-06T00:59:30.766000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-garage-door",
+      "display_name": "Book Garage Door",
+      "stat_downloads": 1189,
+      "stat_stars": 1,
+      "created_at": "2026-02-06T01:00:28.178000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-manicure",
+      "display_name": "Book Manicure",
+      "stat_downloads": 1189,
+      "stat_stars": 0,
+      "created_at": "2026-02-06T00:59:53.281000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-appliance-repair",
+      "display_name": "Book Appliance Repair",
+      "stat_downloads": 1186,
+      "stat_stars": 0,
+      "created_at": "2026-02-06T01:00:26.766000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-smog",
+      "display_name": "Book Smog",
+      "stat_downloads": 1184,
+      "stat_stars": 0,
+      "created_at": "2026-02-06T00:56:22.127000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-nails",
+      "display_name": "Book Nails",
+      "stat_downloads": 1178,
+      "stat_stars": 0,
+      "created_at": "2026-02-06T00:59:51.813000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-florist",
+      "display_name": "Book Florist",
+      "stat_downloads": 1172,
+      "stat_stars": 0,
+      "created_at": "2026-02-06T01:01:31.174000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-flooring",
+      "display_name": "Book Flooring",
+      "stat_downloads": 1164,
+      "stat_stars": 0,
+      "created_at": "2026-02-06T01:00:25.432000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "local-booking",
+      "display_name": "Local Booking",
+      "stat_downloads": 1160,
+      "stat_stars": 1,
+      "created_at": "2026-02-06T00:52:19.748000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-beauty",
+      "display_name": "Book Beauty",
+      "stat_downloads": 1159,
+      "stat_stars": 0,
+      "created_at": "2026-02-06T00:56:19.977000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "lokuli-skills",
+      "display_name": "Lokuli Booking",
+      "stat_downloads": 1103,
+      "stat_stars": 0,
+      "created_at": "2026-02-05T08:14:52.013000",
+      "days_old": 51,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-local",
+      "display_name": "Book local services",
+      "stat_downloads": 1058,
+      "stat_stars": 0,
+      "created_at": "2026-02-05T07:52:59.898000",
+      "days_old": 51,
+      "is_highlighted": false,
+      "is_suspicious": true
+    }
+  ],
+  "trajectory": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 123720,
+      "stars": 67
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 124122,
+      "stars": 67
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 125312,
+      "stars": 67
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 125674,
+      "stars": 67
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 126069,
+      "stars": 67
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 126415,
+      "stars": 67
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 127780,
+      "stars": 67
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 127821,
+      "stars": 67
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 127968,
+      "stars": 67
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 128579,
+      "stars": 67
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 129650,
+      "stars": 67
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 129650,
+      "stars": 67
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 129857,
+      "stars": 67
+    }
+  ],
+  "download_trajectory": [
+    123720,
+    124122,
+    125312,
+    125674,
+    126069,
+    126415,
+    127780,
+    127821,
+    127968,
+    128579,
+    129650,
+    129650,
+    129857
+  ]
+}

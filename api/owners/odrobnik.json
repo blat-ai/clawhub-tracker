@@ -1,0 +1,356 @@
+{
+  "handle": "odrobnik",
+  "total_downloads": 45110,
+  "total_stars": 32,
+  "total_installs": 103,
+  "skill_count": 24,
+  "avg_dl_per_day": 32.6,
+  "highlighted_count": 0,
+  "suspicious_count": 20,
+  "clean_pct": 16.7,
+  "dl_delta": 89,
+  "dl_wow": 0.2,
+  "dl_per_day": 89.0,
+  "star_delta": 1,
+  "star_wow": 3.2,
+  "star_per_day": 1.0,
+  "installs_delta": 0,
+  "installs_wow": 0.0,
+  "installs_per_day": 0,
+  "owner_display_name": "Oliver Drobnik",
+  "owner_name": "odrobnik",
+  "owner_image": "https://avatars.githubusercontent.com/u/333270?v=4",
+  "bio": "Independent Software Engineer since 2008, specialized on Apple platforms, Swift and AI",
+  "company": "Drobnik KG",
+  "location": "Vienna, Austria",
+  "blog": "http://www.cocoanetics.com",
+  "public_repos": 52,
+  "followers": 1049,
+  "following": 4,
+  "github_created_at": "2010-07-15T17:54:30",
+  "twitter_username": null,
+  "skills": [
+    {
+      "slug": "codex-quota",
+      "display_name": "Codex Quota",
+      "stat_downloads": 5466,
+      "stat_stars": 3,
+      "created_at": "2026-01-10T16:10:19.316000",
+      "days_old": 77,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "sudoku",
+      "display_name": "Sudoku",
+      "stat_downloads": 3439,
+      "stat_stars": 3,
+      "created_at": "2026-01-12T08:04:05.405000",
+      "days_old": 75,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "codexmonitor",
+      "display_name": "Codexmonitor",
+      "stat_downloads": 3395,
+      "stat_stars": 6,
+      "created_at": "2026-01-09T16:24:13.633000",
+      "days_old": 78,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "elevenlabs",
+      "display_name": "Elevenlabs",
+      "stat_downloads": 3369,
+      "stat_stars": 2,
+      "created_at": "2026-02-03T19:27:53.432000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "gemini-yt-video-transcript",
+      "display_name": "Gemini Yt Video Transcript",
+      "stat_downloads": 3085,
+      "stat_stars": 3,
+      "created_at": "2026-01-26T10:43:46.178000",
+      "days_old": 61,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "tesla-fleet-api",
+      "display_name": "Tesla Fleet Api",
+      "stat_downloads": 2859,
+      "stat_stars": 1,
+      "created_at": "2026-01-26T06:41:51.632000",
+      "days_old": 61,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "codex-account-switcher",
+      "display_name": "Codex Account Switcher",
+      "stat_downloads": 2741,
+      "stat_stars": 2,
+      "created_at": "2026-01-20T13:29:13.673000",
+      "days_old": 67,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "george",
+      "display_name": "George",
+      "stat_downloads": 2515,
+      "stat_stars": 1,
+      "created_at": "2026-01-26T09:58:48.977000",
+      "days_old": 61,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "bricklink",
+      "display_name": "Bricklink",
+      "stat_downloads": 2254,
+      "stat_stars": 1,
+      "created_at": "2026-02-03T20:49:37.934000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "who-growth-charts",
+      "display_name": "WHO Growth Charts",
+      "stat_downloads": 2053,
+      "stat_stars": 1,
+      "created_at": "2026-01-25T20:21:28.690000",
+      "days_old": 62,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "withings-family",
+      "display_name": "Withings Family",
+      "stat_downloads": 2014,
+      "stat_stars": 1,
+      "created_at": "2026-01-25T21:26:43.732000",
+      "days_old": 62,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "announcer",
+      "display_name": "Announcer",
+      "stat_downloads": 2008,
+      "stat_stars": 1,
+      "created_at": "2026-02-03T19:15:10.726000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "snapmaker-2",
+      "display_name": "Snapmaker",
+      "stat_downloads": 1684,
+      "stat_stars": 1,
+      "created_at": "2026-02-03T21:26:38.982000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "loxone",
+      "display_name": "Loxone",
+      "stat_downloads": 1198,
+      "stat_stars": 2,
+      "created_at": "2026-02-11T14:45:12.082000",
+      "days_old": 45,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "intranet",
+      "display_name": "Intranet",
+      "stat_downloads": 1144,
+      "stat_stars": 0,
+      "created_at": "2026-02-13T07:01:50.611000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "skill-review",
+      "display_name": "Skill Review",
+      "stat_downloads": 1057,
+      "stat_stars": 2,
+      "created_at": "2026-02-11T19:36:18.042000",
+      "days_old": 45,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "raiffeisen-elba",
+      "display_name": "raiffeisen-elba",
+      "stat_downloads": 1056,
+      "stat_stars": 0,
+      "created_at": "2026-02-12T08:59:46.038000",
+      "days_old": 44,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "unifi-site-manager",
+      "display_name": "Unifi",
+      "stat_downloads": 1024,
+      "stat_stars": 0,
+      "created_at": "2026-02-11T15:46:45.500000",
+      "days_old": 45,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "revolut",
+      "display_name": "Revolut",
+      "stat_downloads": 944,
+      "stat_stars": 2,
+      "created_at": "2026-02-12T10:01:44.118000",
+      "days_old": 44,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "klientenportal",
+      "display_name": "Klientenportal",
+      "stat_downloads": 781,
+      "stat_stars": 0,
+      "created_at": "2026-02-13T05:28:25.077000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "cups-printer",
+      "display_name": "Printer",
+      "stat_downloads": 609,
+      "stat_stars": 0,
+      "created_at": "2026-02-16T13:22:45.710000",
+      "days_old": 40,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "twitter-api-v2",
+      "display_name": "X",
+      "stat_downloads": 175,
+      "stat_stars": 0,
+      "created_at": "2026-03-07T22:27:36.814000",
+      "days_old": 21,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "x-api-v2",
+      "display_name": "X",
+      "stat_downloads": 166,
+      "stat_stars": 0,
+      "created_at": "2026-03-07T22:27:22.302000",
+      "days_old": 21,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "post",
+      "display_name": "Post",
+      "stat_downloads": 74,
+      "stat_stars": 0,
+      "created_at": "2026-03-17T15:42:41.577000",
+      "days_old": 11,
+      "is_highlighted": false,
+      "is_suspicious": false
+    }
+  ],
+  "trajectory": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 42624,
+      "stars": 29
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 42762,
+      "stars": 29
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 43175,
+      "stars": 29
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 43392,
+      "stars": 29
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 43532,
+      "stars": 31
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 43720,
+      "stars": 31
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 44166,
+      "stars": 31
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 44200,
+      "stars": 31
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 44304,
+      "stars": 31
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 44564,
+      "stars": 31
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 45021,
+      "stars": 31
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 45021,
+      "stars": 31
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 45110,
+      "stars": 32
+    }
+  ],
+  "download_trajectory": [
+    42624,
+    42762,
+    43175,
+    43392,
+    43532,
+    43720,
+    44166,
+    44200,
+    44304,
+    44564,
+    45021,
+    45021,
+    45110
+  ]
+}

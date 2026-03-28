@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd7bjxx6ac6abb6vxazv3r3ynh80p2dg",
+  "slug": "microsoft-excel",
+  "display_name": "Microsoft Excel",
+  "summary": "Microsoft Excel API integration with managed OAuth. Read and write Excel workbooks, worksheets, ranges, tables, and charts stored in OneDrive.\nUse this skill when users want to read or modify Excel spreadsheets, manage worksheet data, work with tables, or access cell values.\nFor other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
+  "owner_handle": "byungkyu",
+  "owner_image": "https://avatars.githubusercontent.com/u/16563684?v=4",
+  "created_at": "2026-02-07T02:40:08.685000",
+  "days_old": 49,
+  "stat_downloads": 17392,
+  "stat_stars": 37,
+  "tags": {
+    "latest": "k974ztdt2ky3mvxbc7fbjth3ys80w5re"
+  },
+  "badges": null,
+  "stat_installs": 145,
+  "stat_comments": 3,
+  "current_version": "1.0.3",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 354.9,
+  "acceleration_pct": -65.6,
+  "dl_delta": 22,
+  "dl_wow": 0.1,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 0,
+  "installs_wow": 0.0,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 16844,
+      "stars": 36,
+      "installs_all_time": 117,
+      "installs_current": 112
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 16871,
+      "stars": 36,
+      "installs_all_time": 119,
+      "installs_current": 113
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 16980,
+      "stars": 36,
+      "installs_all_time": 121,
+      "installs_current": 115
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 17034,
+      "stars": 37,
+      "installs_all_time": 125,
+      "installs_current": 119
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 17063,
+      "stars": 37,
+      "installs_all_time": 126,
+      "installs_current": 119
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 17113,
+      "stars": 37,
+      "installs_all_time": 128,
+      "installs_current": 120
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 17216,
+      "stars": 37,
+      "installs_all_time": 134,
+      "installs_current": 126
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 17218,
+      "stars": 37,
+      "installs_all_time": 135,
+      "installs_current": 127
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 17229,
+      "stars": 37,
+      "installs_all_time": 136,
+      "installs_current": 128
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 17282,
+      "stars": 37,
+      "installs_all_time": 139,
+      "installs_current": 131
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 17370,
+      "stars": 37,
+      "installs_all_time": 145,
+      "installs_current": 137
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 17370,
+      "stars": 37,
+      "installs_all_time": 145,
+      "installs_current": 137
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 17392,
+      "stars": 37,
+      "installs_all_time": 145,
+      "installs_current": 137
+    }
+  ],
+  "version_releases": []
+}

@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd7c0hewragasjg8szy9y3q8nh8001nh",
+  "slug": "clawdbot-filesystem",
+  "display_name": "Filesystem Management",
+  "summary": "Advanced filesystem operations - listing, searching, batch processing, and directory analysis for Clawdbot",
+  "owner_handle": "gtrusler",
+  "owner_image": "https://avatars.githubusercontent.com/u/63480023?v=4",
+  "created_at": "2026-01-27T02:33:35.958000",
+  "days_old": 60,
+  "stat_downloads": 18004,
+  "stat_stars": 69,
+  "tags": {
+    "latest": "k97b4wc4q9w2xjg271w7t15vrd801ept"
+  },
+  "badges": null,
+  "stat_installs": 252,
+  "stat_comments": 0,
+  "current_version": "1.0.2",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 300.1,
+  "acceleration_pct": -76.1,
+  "dl_delta": 52,
+  "dl_wow": 0.3,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 1,
+  "installs_wow": 0.4,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 16258,
+      "stars": 62,
+      "installs_all_time": 214,
+      "installs_current": 202
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 16380,
+      "stars": 62,
+      "installs_all_time": 219,
+      "installs_current": 207
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 16643,
+      "stars": 62,
+      "installs_all_time": 225,
+      "installs_current": 212
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 16824,
+      "stars": 64,
+      "installs_all_time": 228,
+      "installs_current": 214
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 16988,
+      "stars": 68,
+      "installs_all_time": 230,
+      "installs_current": 215
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 17154,
+      "stars": 68,
+      "installs_all_time": 235,
+      "installs_current": 220
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 17505,
+      "stars": 68,
+      "installs_all_time": 242,
+      "installs_current": 227
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 17522,
+      "stars": 69,
+      "installs_all_time": 242,
+      "installs_current": 227
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 17562,
+      "stars": 69,
+      "installs_all_time": 243,
+      "installs_current": 228
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 17740,
+      "stars": 68,
+      "installs_all_time": 244,
+      "installs_current": 229
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 17952,
+      "stars": 69,
+      "installs_all_time": 251,
+      "installs_current": 236
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 17952,
+      "stars": 69,
+      "installs_all_time": 251,
+      "installs_current": 236
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 18004,
+      "stars": 69,
+      "installs_all_time": 252,
+      "installs_current": 237
+    }
+  ],
+  "version_releases": []
+}

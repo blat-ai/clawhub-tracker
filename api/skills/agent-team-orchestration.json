@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd7eskmphe9cv9jbcehdm3prjd811k50",
+  "slug": "agent-team-orchestration",
+  "display_name": "Agent Team Orchestration",
+  "summary": "Orchestrate multi-agent teams with defined roles, task lifecycles, handoff protocols, and review workflows. Use when: (1) Setting up a team of 2+ agents with different specializations, (2) Defining task routing and lifecycle (inbox \u2192 spec \u2192 build \u2192 review \u2192 done), (3) Creating handoff protocols between agents, (4) Establishing review and quality gates, (5) Managing async communication and artifact sharing between agents.",
+  "owner_handle": "arminnaimi",
+  "owner_image": "https://avatars.githubusercontent.com/u/4364977?v=4",
+  "created_at": "2026-02-12T16:00:01.303000",
+  "days_old": 43,
+  "stat_downloads": 14511,
+  "stat_stars": 44,
+  "tags": {
+    "latest": "k973e9nvd3xtzn2m3tn5ert5cd811h1f"
+  },
+  "badges": null,
+  "stat_installs": 199,
+  "stat_comments": 3,
+  "current_version": "1.0.0",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 337.5,
+  "acceleration_pct": -69.6,
+  "dl_delta": 145,
+  "dl_wow": 1.0,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 1,
+  "installs_wow": 0.5,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 10564,
+      "stars": 36,
+      "installs_all_time": 140,
+      "installs_current": 132
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 10820,
+      "stars": 36,
+      "installs_all_time": 144,
+      "installs_current": 135
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 11394,
+      "stars": 38,
+      "installs_all_time": 150,
+      "installs_current": 140
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 11781,
+      "stars": 40,
+      "installs_all_time": 157,
+      "installs_current": 146
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 12269,
+      "stars": 41,
+      "installs_all_time": 168,
+      "installs_current": 155
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 12698,
+      "stars": 41,
+      "installs_all_time": 172,
+      "installs_current": 160
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 13315,
+      "stars": 43,
+      "installs_all_time": 186,
+      "installs_current": 174
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 13355,
+      "stars": 43,
+      "installs_all_time": 187,
+      "installs_current": 175
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 13463,
+      "stars": 43,
+      "installs_all_time": 188,
+      "installs_current": 176
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 13832,
+      "stars": 43,
+      "installs_all_time": 192,
+      "installs_current": 179
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 14366,
+      "stars": 44,
+      "installs_all_time": 198,
+      "installs_current": 184
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 14366,
+      "stars": 44,
+      "installs_all_time": 198,
+      "installs_current": 184
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 14511,
+      "stars": 44,
+      "installs_all_time": 199,
+      "installs_current": 185
+    }
+  ],
+  "version_releases": []
+}

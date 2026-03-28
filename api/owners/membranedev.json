@@ -1,0 +1,4766 @@
+{
+  "handle": "membranedev",
+  "total_downloads": 48339,
+  "total_stars": 5,
+  "total_installs": 72,
+  "skill_count": 465,
+  "avg_dl_per_day": 8.2,
+  "highlighted_count": 0,
+  "suspicious_count": 165,
+  "clean_pct": 64.5,
+  "dl_delta": 751,
+  "dl_wow": 1.6,
+  "dl_per_day": 751.0,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "star_per_day": 0,
+  "installs_delta": 0,
+  "installs_wow": 0.0,
+  "installs_per_day": 0,
+  "owner_display_name": "Membrane Dev",
+  "owner_name": "membranedev",
+  "owner_image": "https://avatars.githubusercontent.com/u/147116108?v=4",
+  "bio": null,
+  "company": null,
+  "location": null,
+  "blog": null,
+  "public_repos": 1,
+  "followers": 1,
+  "following": 1,
+  "github_created_at": "2023-10-06T00:58:31",
+  "twitter_username": null,
+  "skills": [
+    {
+      "slug": "zoom",
+      "display_name": "Zoom",
+      "stat_downloads": 386,
+      "stat_stars": 1,
+      "created_at": "2026-03-05T06:02:12.447000",
+      "days_old": 23,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "onedrive",
+      "display_name": "Onedrive",
+      "stat_downloads": 364,
+      "stat_stars": 0,
+      "created_at": "2026-03-04T05:55:49.247000",
+      "days_old": 24,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "github-integration",
+      "display_name": "Github",
+      "stat_downloads": 363,
+      "stat_stars": 0,
+      "created_at": "2026-03-04T00:45:35.857000",
+      "days_old": 24,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "gmail-integration",
+      "display_name": "Gmail",
+      "stat_downloads": 319,
+      "stat_stars": 0,
+      "created_at": "2026-03-03T22:59:39.383000",
+      "days_old": 25,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "slack-integration",
+      "display_name": "Slack",
+      "stat_downloads": 308,
+      "stat_stars": 0,
+      "created_at": "2026-03-03T23:20:24.568000",
+      "days_old": 25,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "nextcloud-integration",
+      "display_name": "Nextcloud",
+      "stat_downloads": 295,
+      "stat_stars": 0,
+      "created_at": "2026-03-16T03:02:32.595000",
+      "days_old": 12,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "zoho-crm-integration",
+      "display_name": "Zoho Crm",
+      "stat_downloads": 289,
+      "stat_stars": 0,
+      "created_at": "2026-03-04T05:56:02.907000",
+      "days_old": 24,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "google-drive-integration",
+      "display_name": "Google Drive",
+      "stat_downloads": 285,
+      "stat_stars": 0,
+      "created_at": "2026-03-03T23:39:44.070000",
+      "days_old": 25,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "bitbucket",
+      "display_name": "Bitbucket",
+      "stat_downloads": 280,
+      "stat_stars": 0,
+      "created_at": "2026-03-06T07:02:23.047000",
+      "days_old": 22,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "jira-integration",
+      "display_name": "Jira",
+      "stat_downloads": 279,
+      "stat_stars": 0,
+      "created_at": "2026-03-04T00:44:57.756000",
+      "days_old": 24,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "hubspot-integration",
+      "display_name": "Hubspot",
+      "stat_downloads": 262,
+      "stat_stars": 0,
+      "created_at": "2026-03-03T23:20:28.365000",
+      "days_old": 25,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "microsoft-sharepoint",
+      "display_name": "Microsoft Sharepoint",
+      "stat_downloads": 254,
+      "stat_stars": 0,
+      "created_at": "2026-03-04T05:55:37.345000",
+      "days_old": 24,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "salesforce-integration",
+      "display_name": "Salesforce",
+      "stat_downloads": 253,
+      "stat_stars": 0,
+      "created_at": "2026-03-03T23:20:32.157000",
+      "days_old": 25,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "heroku",
+      "display_name": "Heroku",
+      "stat_downloads": 253,
+      "stat_stars": 0,
+      "created_at": "2026-03-07T07:02:19.184000",
+      "days_old": 21,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "confluence-integration",
+      "display_name": "Confluence",
+      "stat_downloads": 248,
+      "stat_stars": 0,
+      "created_at": "2026-03-04T05:55:56.133000",
+      "days_old": 24,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "stripe-integration",
+      "display_name": "Stripe",
+      "stat_downloads": 240,
+      "stat_stars": 0,
+      "created_at": "2026-03-05T02:02:11.160000",
+      "days_old": 23,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "google-sheets-integration",
+      "display_name": "Google Sheets",
+      "stat_downloads": 239,
+      "stat_stars": 0,
+      "created_at": "2026-03-04T07:01:34.142000",
+      "days_old": 24,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "pipedrive-integration",
+      "display_name": "Pipedrive",
+      "stat_downloads": 233,
+      "stat_stars": 0,
+      "created_at": "2026-03-04T00:44:26.511000",
+      "days_old": 24,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "box-integration",
+      "display_name": "Box",
+      "stat_downloads": 229,
+      "stat_stars": 0,
+      "created_at": "2026-03-04T05:55:44.306000",
+      "days_old": 24,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "attio-integration",
+      "display_name": "Attio",
+      "stat_downloads": 226,
+      "stat_stars": 0,
+      "created_at": "2026-03-04T07:01:54.110000",
+      "days_old": 24,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "wix",
+      "display_name": "Wix",
+      "stat_downloads": 226,
+      "stat_stars": 0,
+      "created_at": "2026-03-07T07:02:30.928000",
+      "days_old": 21,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "agile-crm",
+      "display_name": "Agile Crm",
+      "stat_downloads": 226,
+      "stat_stars": 0,
+      "created_at": "2026-03-05T00:02:33.850000",
+      "days_old": 23,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "lever",
+      "display_name": "Lever",
+      "stat_downloads": 225,
+      "stat_stars": 0,
+      "created_at": "2026-03-06T01:02:23.389000",
+      "days_old": 22,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "membranedev-gmail",
+      "display_name": "DELETE IT",
+      "stat_downloads": 223,
+      "stat_stars": 0,
+      "created_at": "2026-03-03T22:38:59.075000",
+      "days_old": 25,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "integrate-dropbox",
+      "display_name": "Dropbox",
+      "stat_downloads": 221,
+      "stat_stars": 0,
+      "created_at": "2026-03-04T00:43:35.850000",
+      "days_old": 24,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "monday-integration",
+      "display_name": "Monday",
+      "stat_downloads": 218,
+      "stat_stars": 0,
+      "created_at": "2026-03-04T07:01:28.349000",
+      "days_old": 24,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "intercom-integration",
+      "display_name": "Intercom",
+      "stat_downloads": 214,
+      "stat_stars": 0,
+      "created_at": "2026-03-05T02:02:19.038000",
+      "days_old": 23,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "dynamics-crm",
+      "display_name": "Dynamics Crm",
+      "stat_downloads": 213,
+      "stat_stars": 0,
+      "created_at": "2026-03-04T07:01:14.338000",
+      "days_old": 24,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "zoho-books-integration",
+      "display_name": "Zoho Books",
+      "stat_downloads": 212,
+      "stat_stars": 0,
+      "created_at": "2026-03-05T00:02:07.903000",
+      "days_old": 23,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "square",
+      "display_name": "Square",
+      "stat_downloads": 211,
+      "stat_stars": 0,
+      "created_at": "2026-03-06T09:02:30.858000",
+      "days_old": 22,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "sage-hr",
+      "display_name": "Sage Hr",
+      "stat_downloads": 210,
+      "stat_stars": 0,
+      "created_at": "2026-03-06T01:02:18.041000",
+      "days_old": 22,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "twilio-integration",
+      "display_name": "Twilio",
+      "stat_downloads": 208,
+      "stat_stars": 0,
+      "created_at": "2026-03-07T03:02:35.858000",
+      "days_old": 21,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "quickbooks-integration",
+      "display_name": "Quickbooks",
+      "stat_downloads": 206,
+      "stat_stars": 1,
+      "created_at": "2026-03-04T07:01:43.821000",
+      "days_old": 24,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "0codekit",
+      "display_name": "0Codekit",
+      "stat_downloads": 203,
+      "stat_stars": 0,
+      "created_at": "2026-03-08T07:02:24.813000",
+      "days_old": 20,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "instagram-messenger",
+      "display_name": "Instagram Messenger",
+      "stat_downloads": 203,
+      "stat_stars": 1,
+      "created_at": "2026-03-08T02:02:07.759000",
+      "days_old": 20,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "close",
+      "display_name": "Close",
+      "stat_downloads": 202,
+      "stat_stars": 0,
+      "created_at": "2026-03-05T07:02:30.818000",
+      "days_old": 23,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "teamwork-integration",
+      "display_name": "Teamwork",
+      "stat_downloads": 201,
+      "stat_stars": 0,
+      "created_at": "2026-03-06T07:03:18.057000",
+      "days_old": 22,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "trello-integration",
+      "display_name": "Trello",
+      "stat_downloads": 200,
+      "stat_stars": 0,
+      "created_at": "2026-03-05T07:02:22.700000",
+      "days_old": 23,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "7shifts",
+      "display_name": "7Shifts",
+      "stat_downloads": 199,
+      "stat_stars": 0,
+      "created_at": "2026-03-08T11:02:18.792000",
+      "days_old": 20,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "sap-hana",
+      "display_name": "Sap Hana",
+      "stat_downloads": 197,
+      "stat_stars": 0,
+      "created_at": "2026-03-05T02:02:23.725000",
+      "days_old": 23,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "deepl",
+      "display_name": "Deepl",
+      "stat_downloads": 196,
+      "stat_stars": 0,
+      "created_at": "2026-03-10T20:02:39.638000",
+      "days_old": 18,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "insightly",
+      "display_name": "Insightly",
+      "stat_downloads": 195,
+      "stat_stars": 0,
+      "created_at": "2026-03-05T01:02:10.807000",
+      "days_old": 23,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "launchdarkly",
+      "display_name": "Launchdarkly",
+      "stat_downloads": 194,
+      "stat_stars": 0,
+      "created_at": "2026-03-08T07:02:47.587000",
+      "days_old": 20,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "servicenow-integration",
+      "display_name": "Servicenow",
+      "stat_downloads": 193,
+      "stat_stars": 0,
+      "created_at": "2026-03-06T06:02:13.552000",
+      "days_old": 22,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "affinity",
+      "display_name": "Affinity",
+      "stat_downloads": 193,
+      "stat_stars": 0,
+      "created_at": "2026-03-06T03:02:10.117000",
+      "days_old": 22,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "accelo",
+      "display_name": "Accelo",
+      "stat_downloads": 193,
+      "stat_stars": 0,
+      "created_at": "2026-03-05T07:02:37.264000",
+      "days_old": 23,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "calcom-integration",
+      "display_name": "Calcom",
+      "stat_downloads": 191,
+      "stat_stars": 0,
+      "created_at": "2026-03-08T02:02:30.604000",
+      "days_old": 20,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "pipeliner",
+      "display_name": "Pipeliner",
+      "stat_downloads": 190,
+      "stat_stars": 0,
+      "created_at": "2026-03-05T07:02:58.620000",
+      "days_old": 23,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "postman-integration",
+      "display_name": "Postman",
+      "stat_downloads": 189,
+      "stat_stars": 0,
+      "created_at": "2026-03-09T23:02:55.039000",
+      "days_old": 19,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "microsoft-to-do-integration",
+      "display_name": "Microsoft To Do",
+      "stat_downloads": 189,
+      "stat_stars": 0,
+      "created_at": "2026-03-07T03:02:25.641000",
+      "days_old": 21,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "todoist-integration",
+      "display_name": "Todoist",
+      "stat_downloads": 189,
+      "stat_stars": 0,
+      "created_at": "2026-03-06T07:02:13.702000",
+      "days_old": 22,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "teamleader",
+      "display_name": "Teamleader",
+      "stat_downloads": 189,
+      "stat_stars": 0,
+      "created_at": "2026-03-05T00:02:44.428000",
+      "days_old": 23,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "cohere",
+      "display_name": "Cohere",
+      "stat_downloads": 188,
+      "stat_stars": 0,
+      "created_at": "2026-03-11T01:02:22.856000",
+      "days_old": 17,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "n8nio",
+      "display_name": "N8Nio",
+      "stat_downloads": 188,
+      "stat_stars": 0,
+      "created_at": "2026-03-09T20:41:57.968000",
+      "days_old": 19,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "shopline",
+      "display_name": "Shopline",
+      "stat_downloads": 187,
+      "stat_stars": 0,
+      "created_at": "2026-03-06T03:02:23.995000",
+      "days_old": 22,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "gitlab-integration",
+      "display_name": "Gitlab",
+      "stat_downloads": 187,
+      "stat_stars": 0,
+      "created_at": "2026-03-06T01:02:32.482000",
+      "days_old": 22,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "meistertask",
+      "display_name": "Meistertask",
+      "stat_downloads": 185,
+      "stat_stars": 0,
+      "created_at": "2026-03-08T09:02:11.934000",
+      "days_old": 20,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "15five",
+      "display_name": "15Five",
+      "stat_downloads": 185,
+      "stat_stars": 0,
+      "created_at": "2026-03-08T11:02:33.623000",
+      "days_old": 20,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "apolloio",
+      "display_name": "Apolloio",
+      "stat_downloads": 185,
+      "stat_stars": 0,
+      "created_at": "2026-03-06T09:02:12.097000",
+      "days_old": 22,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "webhook-integration",
+      "display_name": "Webhook",
+      "stat_downloads": 184,
+      "stat_stars": 0,
+      "created_at": "2026-03-07T03:02:14.383000",
+      "days_old": 21,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "breezy",
+      "display_name": "Breezy",
+      "stat_downloads": 184,
+      "stat_stars": 0,
+      "created_at": "2026-03-06T00:02:12.594000",
+      "days_old": 22,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "greenhouse-harvest",
+      "display_name": "Greenhouse Harvest",
+      "stat_downloads": 184,
+      "stat_stars": 0,
+      "created_at": "2026-03-05T06:02:42.413000",
+      "days_old": 23,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "copper-integration",
+      "display_name": "Copper",
+      "stat_downloads": 184,
+      "stat_stars": 0,
+      "created_at": "2026-03-05T06:02:34.845000",
+      "days_old": 23,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "freshbooks",
+      "display_name": "Freshbooks",
+      "stat_downloads": 184,
+      "stat_stars": 0,
+      "created_at": "2026-03-05T06:02:29.308000",
+      "days_old": 23,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "sharpspring",
+      "display_name": "Sharpspring",
+      "stat_downloads": 183,
+      "stat_stars": 0,
+      "created_at": "2026-03-05T00:02:38.905000",
+      "days_old": 23,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "linkedin-ads",
+      "display_name": "Linkedin Ads",
+      "stat_downloads": 182,
+      "stat_stars": 0,
+      "created_at": "2026-03-07T10:02:11.989000",
+      "days_old": 21,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "google-analytics-integration",
+      "display_name": "Google Analytics",
+      "stat_downloads": 181,
+      "stat_stars": 0,
+      "created_at": "2026-03-07T01:02:19.491000",
+      "days_old": 21,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "calendly-integration",
+      "display_name": "Calendly",
+      "stat_downloads": 181,
+      "stat_stars": 0,
+      "created_at": "2026-03-05T06:02:21.393000",
+      "days_old": 23,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "safebase",
+      "display_name": "Safebase",
+      "stat_downloads": 180,
+      "stat_stars": 0,
+      "created_at": "2026-03-09T19:07:42.056000",
+      "days_old": 19,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "dialpad-integration",
+      "display_name": "Dialpad",
+      "stat_downloads": 180,
+      "stat_stars": 0,
+      "created_at": "2026-03-08T09:02:19.781000",
+      "days_old": 20,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "enerflo",
+      "display_name": "Enerflo",
+      "stat_downloads": 180,
+      "stat_stars": 0,
+      "created_at": "2026-03-08T11:02:12.516000",
+      "days_old": 20,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "gong-integration",
+      "display_name": "Gong",
+      "stat_downloads": 180,
+      "stat_stars": 0,
+      "created_at": "2026-03-05T07:02:51.084000",
+      "days_old": 23,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "hasura",
+      "display_name": "Hasura",
+      "stat_downloads": 178,
+      "stat_stars": 0,
+      "created_at": "2026-03-09T23:02:41.462000",
+      "days_old": 19,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "basecamp-integration",
+      "display_name": "Basecamp",
+      "stat_downloads": 177,
+      "stat_stars": 0,
+      "created_at": "2026-03-06T01:02:43.939000",
+      "days_old": 22,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "workable",
+      "display_name": "Workable",
+      "stat_downloads": 177,
+      "stat_stars": 0,
+      "created_at": "2026-03-06T01:02:12.660000",
+      "days_old": 22,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "gusto-integration",
+      "display_name": "Gusto",
+      "stat_downloads": 177,
+      "stat_stars": 0,
+      "created_at": "2026-03-05T02:02:30.518000",
+      "days_old": 23,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "salesforce-pardot",
+      "display_name": "Salesforce Pardot",
+      "stat_downloads": 177,
+      "stat_stars": 0,
+      "created_at": "2026-03-05T00:02:28.887000",
+      "days_old": 23,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "lexoffice",
+      "display_name": "Lexoffice",
+      "stat_downloads": 176,
+      "stat_stars": 0,
+      "created_at": "2026-03-09T22:02:25.049000",
+      "days_old": 19,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "sentry-integration",
+      "display_name": "Sentry",
+      "stat_downloads": 176,
+      "stat_stars": 0,
+      "created_at": "2026-03-08T07:02:18.567000",
+      "days_old": 20,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "creatio",
+      "display_name": "Creatio",
+      "stat_downloads": 176,
+      "stat_stars": 0,
+      "created_at": "2026-03-07T10:02:21.238000",
+      "days_old": 21,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "personio",
+      "display_name": "Personio",
+      "stat_downloads": 176,
+      "stat_stars": 0,
+      "created_at": "2026-03-06T07:03:03.252000",
+      "days_old": 22,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "azure-openai-service",
+      "display_name": "Azure Openai Service",
+      "stat_downloads": 175,
+      "stat_stars": 0,
+      "created_at": "2026-03-09T20:42:04.988000",
+      "days_old": 19,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "anthropic-integration",
+      "display_name": "Anthropic",
+      "stat_downloads": 175,
+      "stat_stars": 0,
+      "created_at": "2026-03-08T02:02:24.424000",
+      "days_old": 20,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "google-docs-integration",
+      "display_name": "Google Docs",
+      "stat_downloads": 175,
+      "stat_stars": 0,
+      "created_at": "2026-03-06T03:02:30.121000",
+      "days_old": 22,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "aweber",
+      "display_name": "Aweber",
+      "stat_downloads": 175,
+      "stat_stars": 0,
+      "created_at": "2026-03-06T03:02:15.921000",
+      "days_old": 22,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "hibob",
+      "display_name": "Hibob",
+      "stat_downloads": 174,
+      "stat_stars": 0,
+      "created_at": "2026-03-06T09:02:25.201000",
+      "days_old": 22,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "exact-online",
+      "display_name": "Exact Online",
+      "stat_downloads": 174,
+      "stat_stars": 0,
+      "created_at": "2026-03-06T09:02:19.103000",
+      "days_old": 22,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "eodhd-apis",
+      "display_name": "Eodhd Apis",
+      "stat_downloads": 173,
+      "stat_stars": 0,
+      "created_at": "2026-03-11T22:02:50.945000",
+      "days_old": 17,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "amplitude-integration",
+      "display_name": "Amplitude",
+      "stat_downloads": 172,
+      "stat_stars": 0,
+      "created_at": "2026-03-08T03:02:36.471000",
+      "days_old": 20,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "isolved",
+      "display_name": "Isolved",
+      "stat_downloads": 172,
+      "stat_stars": 0,
+      "created_at": "2026-03-07T10:02:26.027000",
+      "days_old": 21,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "mailgun-integration",
+      "display_name": "Mailgun",
+      "stat_downloads": 171,
+      "stat_stars": 1,
+      "created_at": "2026-03-09T20:42:11.198000",
+      "days_old": 19,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "brevo-integration",
+      "display_name": "Brevo",
+      "stat_downloads": 171,
+      "stat_stars": 0,
+      "created_at": "2026-03-07T08:02:21.187000",
+      "days_old": 21,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "ontraport",
+      "display_name": "Ontraport",
+      "stat_downloads": 171,
+      "stat_stars": 0,
+      "created_at": "2026-03-07T01:02:08.160000",
+      "days_old": 21,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "waylay",
+      "display_name": "Waylay",
+      "stat_downloads": 170,
+      "stat_stars": 0,
+      "created_at": "2026-03-09T19:08:02.486000",
+      "days_old": 19,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "nectar-crm",
+      "display_name": "Nectar Crm",
+      "stat_downloads": 170,
+      "stat_stars": 0,
+      "created_at": "2026-03-09T22:02:32.094000",
+      "days_old": 19,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "posthog-integration",
+      "display_name": "Posthog",
+      "stat_downloads": 170,
+      "stat_stars": 0,
+      "created_at": "2026-03-09T20:42:18.212000",
+      "days_old": 19,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "solar-nexus",
+      "display_name": "Solar Nexus",
+      "stat_downloads": 170,
+      "stat_stars": 0,
+      "created_at": "2026-03-08T11:02:28.106000",
+      "days_old": 20,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "clicksend-sms",
+      "display_name": "Clicksend Sms",
+      "stat_downloads": 169,
+      "stat_stars": 0,
+      "created_at": "2026-03-11T22:02:26.453000",
+      "days_old": 17,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "abra-flexibee",
+      "display_name": "Abra Flexibee",
+      "stat_downloads": 169,
+      "stat_stars": 0,
+      "created_at": "2026-03-09T19:07:54.719000",
+      "days_old": 19,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "jira-service-desk",
+      "display_name": "Jira Service Desk",
+      "stat_downloads": 169,
+      "stat_stars": 0,
+      "created_at": "2026-03-07T07:02:39.898000",
+      "days_old": 21,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "quickbase",
+      "display_name": "Quickbase",
+      "stat_downloads": 168,
+      "stat_stars": 1,
+      "created_at": "2026-03-08T07:02:36.082000",
+      "days_old": 20,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "callrail-integration",
+      "display_name": "Callrail",
+      "stat_downloads": 167,
+      "stat_stars": 0,
+      "created_at": "2026-03-09T23:02:36.668000",
+      "days_old": 19,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "apiflash",
+      "display_name": "Apiflash",
+      "stat_downloads": 167,
+      "stat_stars": 0,
+      "created_at": "2026-03-09T23:02:20.891000",
+      "days_old": 19,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "sendcloud",
+      "display_name": "Sendcloud",
+      "stat_downloads": 167,
+      "stat_stars": 0,
+      "created_at": "2026-03-09T22:02:39.487000",
+      "days_old": 19,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "woosender",
+      "display_name": "Woosender",
+      "stat_downloads": 167,
+      "stat_stars": 0,
+      "created_at": "2026-03-07T10:02:16.731000",
+      "days_old": 21,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "postmark",
+      "display_name": "Postmark",
+      "stat_downloads": 166,
+      "stat_stars": 0,
+      "created_at": "2026-03-11T00:02:32.716000",
+      "days_old": 17,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "clockify-integration",
+      "display_name": "Clockify",
+      "stat_downloads": 166,
+      "stat_stars": 0,
+      "created_at": "2026-03-08T02:02:38.880000",
+      "days_old": 20,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "canvas-integration",
+      "display_name": "Canvas",
+      "stat_downloads": 166,
+      "stat_stars": 0,
+      "created_at": "2026-03-08T02:02:16.094000",
+      "days_old": 20,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "zephyr-squad-legacy",
+      "display_name": "Zephyr Squad Legacy",
+      "stat_downloads": 166,
+      "stat_stars": 0,
+      "created_at": "2026-03-07T07:02:12.313000",
+      "days_old": 21,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "zoho-desk",
+      "display_name": "Zoho Desk",
+      "stat_downloads": 165,
+      "stat_stars": 0,
+      "created_at": "2026-03-07T02:02:10.744000",
+      "days_old": 21,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "teamwork-desk",
+      "display_name": "Teamwork Desk",
+      "stat_downloads": 165,
+      "stat_stars": 0,
+      "created_at": "2026-03-07T01:02:24.395000",
+      "days_old": 21,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "peopleforce",
+      "display_name": "Peopleforce",
+      "stat_downloads": 164,
+      "stat_stars": 0,
+      "created_at": "2026-03-09T19:08:16.892000",
+      "days_old": 19,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "agencyzoom",
+      "display_name": "Agencyzoom",
+      "stat_downloads": 164,
+      "stat_stars": 0,
+      "created_at": "2026-03-08T03:02:41.461000",
+      "days_old": 20,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "deel",
+      "display_name": "Deel",
+      "stat_downloads": 164,
+      "stat_stars": 0,
+      "created_at": "2026-03-06T07:02:37.276000",
+      "days_old": 22,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "ticket-tailor",
+      "display_name": "Ticket Tailor",
+      "stat_downloads": 163,
+      "stat_stars": 0,
+      "created_at": "2026-03-09T19:07:47.463000",
+      "days_old": 19,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "bluebeam",
+      "display_name": "Bluebeam",
+      "stat_downloads": 163,
+      "stat_stars": 0,
+      "created_at": "2026-03-07T08:02:13.110000",
+      "days_old": 21,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "lightspeed-r-series",
+      "display_name": "Lightspeed R Series",
+      "stat_downloads": 163,
+      "stat_stars": 0,
+      "created_at": "2026-03-07T02:02:16.580000",
+      "days_old": 21,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "bullhorn",
+      "display_name": "Bullhorn",
+      "stat_downloads": 163,
+      "stat_stars": 0,
+      "created_at": "2026-03-07T01:02:13.108000",
+      "days_old": 21,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "hunter-integration",
+      "display_name": "Hunter",
+      "stat_downloads": 162,
+      "stat_stars": 0,
+      "created_at": "2026-03-09T22:02:13.579000",
+      "days_old": 19,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "guru",
+      "display_name": "Guru",
+      "stat_downloads": 162,
+      "stat_stars": 0,
+      "created_at": "2026-03-09T22:02:20.059000",
+      "days_old": 19,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "follow-up-boss-integration",
+      "display_name": "Follow Up Boss",
+      "stat_downloads": 161,
+      "stat_stars": 0,
+      "created_at": "2026-03-09T20:42:27.014000",
+      "days_old": 19,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "google-tasks-integration",
+      "display_name": "Google Tasks",
+      "stat_downloads": 160,
+      "stat_stars": 0,
+      "created_at": "2026-03-08T03:02:29.564000",
+      "days_old": 20,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "pdf-apiio",
+      "display_name": "Pdf Apiio",
+      "stat_downloads": 158,
+      "stat_stars": 0,
+      "created_at": "2026-03-11T00:02:17.356000",
+      "days_old": 17,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "omnisend",
+      "display_name": "Omnisend",
+      "stat_downloads": 158,
+      "stat_stars": 0,
+      "created_at": "2026-03-11T00:02:27.138000",
+      "days_old": 17,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "semrush",
+      "display_name": "Semrush",
+      "stat_downloads": 157,
+      "stat_stars": 0,
+      "created_at": "2026-03-13T03:02:30.071000",
+      "days_old": 15,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "jobnimbus",
+      "display_name": "Jobnimbus",
+      "stat_downloads": 157,
+      "stat_stars": 0,
+      "created_at": "2026-03-07T03:02:40.837000",
+      "days_old": 21,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "bexio-integration",
+      "display_name": "Bexio",
+      "stat_downloads": 156,
+      "stat_stars": 0,
+      "created_at": "2026-03-11T22:02:39.042000",
+      "days_old": 17,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "elmahio",
+      "display_name": "Elmahio",
+      "stat_downloads": 156,
+      "stat_stars": 0,
+      "created_at": "2026-03-11T22:02:21.259000",
+      "days_old": 17,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "workday-soap",
+      "display_name": "Workday Soap",
+      "stat_downloads": 156,
+      "stat_stars": 0,
+      "created_at": "2026-03-08T03:02:19.865000",
+      "days_old": 20,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "cloud-convert",
+      "display_name": "Cloud Convert",
+      "stat_downloads": 154,
+      "stat_stars": 0,
+      "created_at": "2026-03-11T21:02:11.940000",
+      "days_old": 17,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "datarobot",
+      "display_name": "Datarobot",
+      "stat_downloads": 154,
+      "stat_stars": 0,
+      "created_at": "2026-03-11T01:02:14",
+      "days_old": 17,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "google-gemini",
+      "display_name": "Google Gemini",
+      "stat_downloads": 152,
+      "stat_stars": 0,
+      "created_at": "2026-03-14T03:02:10.506000",
+      "days_old": 14,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "nocrmio",
+      "display_name": "Nocrmio",
+      "stat_downloads": 152,
+      "stat_stars": 0,
+      "created_at": "2026-03-11T21:02:23.413000",
+      "days_old": 17,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "amcards",
+      "display_name": "Amcards",
+      "stat_downloads": 152,
+      "stat_stars": 0,
+      "created_at": "2026-03-11T00:02:21.984000",
+      "days_old": 17,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "solve-crm",
+      "display_name": "Solve Crm",
+      "stat_downloads": 152,
+      "stat_stars": 0,
+      "created_at": "2026-03-10T20:02:14.357000",
+      "days_old": 18,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "pagerduty-integration",
+      "display_name": "Pagerduty",
+      "stat_downloads": 152,
+      "stat_stars": 0,
+      "created_at": "2026-03-09T23:02:14.110000",
+      "days_old": 19,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "devrev-integration",
+      "display_name": "Devrev",
+      "stat_downloads": 151,
+      "stat_stars": 0,
+      "created_at": "2026-03-11T22:02:12.842000",
+      "days_old": 17,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "coperniq",
+      "display_name": "Coperniq",
+      "stat_downloads": 151,
+      "stat_stars": 0,
+      "created_at": "2026-03-08T03:02:13.958000",
+      "days_old": 20,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "revamp-crm",
+      "display_name": "Revamp Crm",
+      "stat_downloads": 150,
+      "stat_stars": 0,
+      "created_at": "2026-03-10T22:02:33.411000",
+      "days_old": 18,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "codescene",
+      "display_name": "Codescene",
+      "stat_downloads": 149,
+      "stat_stars": 0,
+      "created_at": "2026-03-11T21:02:18.404000",
+      "days_old": 17,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "swaggerhub",
+      "display_name": "Swaggerhub",
+      "stat_downloads": 149,
+      "stat_stars": 0,
+      "created_at": "2026-03-10T20:02:25.955000",
+      "days_old": 18,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "google-classroom-integration",
+      "display_name": "Google Classroom",
+      "stat_downloads": 148,
+      "stat_stars": 0,
+      "created_at": "2026-03-10T20:02:33.337000",
+      "days_old": 18,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "appdrag",
+      "display_name": "Appdrag",
+      "stat_downloads": 147,
+      "stat_stars": 0,
+      "created_at": "2026-03-11T00:02:09.282000",
+      "days_old": 17,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "act-365",
+      "display_name": "Act 365",
+      "stat_downloads": 147,
+      "stat_stars": 0,
+      "created_at": "2026-03-10T22:02:12.239000",
+      "days_old": 18,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "open-exchange-rates",
+      "display_name": "Open Exchange Rates",
+      "stat_downloads": 146,
+      "stat_stars": 0,
+      "created_at": "2026-03-12T21:02:12.663000",
+      "days_old": 16,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "activecampaign-integration",
+      "display_name": "Activecampaign",
+      "stat_downloads": 146,
+      "stat_stars": 0,
+      "created_at": "2026-03-12T21:02:20.881000",
+      "days_old": 16,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "api4ai",
+      "display_name": "Api4Ai",
+      "stat_downloads": 145,
+      "stat_stars": 0,
+      "created_at": "2026-03-14T00:02:15.087000",
+      "days_old": 14,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "ahrefs-integration",
+      "display_name": "Ahrefs",
+      "stat_downloads": 145,
+      "stat_stars": 0,
+      "created_at": "2026-03-11T21:02:33.493000",
+      "days_old": 17,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "headless-testing",
+      "display_name": "Headless Testing",
+      "stat_downloads": 145,
+      "stat_stars": 0,
+      "created_at": "2026-03-11T21:02:39.851000",
+      "days_old": 17,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ramp",
+      "display_name": "Ramp",
+      "stat_downloads": 145,
+      "stat_stars": 0,
+      "created_at": "2026-03-10T20:02:45.209000",
+      "days_old": 18,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "aeroleads",
+      "display_name": "Aeroleads",
+      "stat_downloads": 144,
+      "stat_stars": 0,
+      "created_at": "2026-03-12T22:02:33.056000",
+      "days_old": 16,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "lawmatics",
+      "display_name": "Lawmatics",
+      "stat_downloads": 144,
+      "stat_stars": 0,
+      "created_at": "2026-03-10T23:02:13.528000",
+      "days_old": 18,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "hansei",
+      "display_name": "Hansei",
+      "stat_downloads": 143,
+      "stat_stars": 0,
+      "created_at": "2026-03-12T22:02:07.748000",
+      "days_old": 16,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "phrase",
+      "display_name": "Phrase",
+      "stat_downloads": 143,
+      "stat_stars": 0,
+      "created_at": "2026-03-12T21:02:25.813000",
+      "days_old": 16,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "message-bird",
+      "display_name": "Message Bird",
+      "stat_downloads": 143,
+      "stat_stars": 0,
+      "created_at": "2026-03-10T22:02:25.074000",
+      "days_old": 18,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "gravity-forms",
+      "display_name": "Gravity Forms",
+      "stat_downloads": 143,
+      "stat_stars": 0,
+      "created_at": "2026-03-10T22:02:38.405000",
+      "days_old": 18,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "docupilot",
+      "display_name": "Docupilot",
+      "stat_downloads": 141,
+      "stat_stars": 0,
+      "created_at": "2026-03-12T02:02:54.076000",
+      "days_old": 16,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "loopify",
+      "display_name": "Loopify",
+      "stat_downloads": 141,
+      "stat_stars": 0,
+      "created_at": "2026-03-12T02:02:30.636000",
+      "days_old": 16,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "discourse",
+      "display_name": "Discourse",
+      "stat_downloads": 140,
+      "stat_stars": 0,
+      "created_at": "2026-03-14T23:02:31.760000",
+      "days_old": 14,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "cloze-integration",
+      "display_name": "Cloze",
+      "stat_downloads": 140,
+      "stat_stars": 0,
+      "created_at": "2026-03-12T02:02:42.265000",
+      "days_old": 16,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "harmonic",
+      "display_name": "Harmonic",
+      "stat_downloads": 140,
+      "stat_stars": 0,
+      "created_at": "2026-03-10T23:02:27.931000",
+      "days_old": 18,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "google-my-business",
+      "display_name": "Google My Business",
+      "stat_downloads": 139,
+      "stat_stars": 0,
+      "created_at": "2026-03-15T01:02:12.661000",
+      "days_old": 13,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "flodesk",
+      "display_name": "Flodesk",
+      "stat_downloads": 139,
+      "stat_stars": 0,
+      "created_at": "2026-03-12T22:02:27.760000",
+      "days_old": 16,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "pipeliner-crm",
+      "display_name": "Pipeliner Crm",
+      "stat_downloads": 139,
+      "stat_stars": 0,
+      "created_at": "2026-03-12T02:02:49.224000",
+      "days_old": 16,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "youtube-analytics-integration",
+      "display_name": "Youtube Analytics",
+      "stat_downloads": 139,
+      "stat_stars": 0,
+      "created_at": "2026-03-10T23:02:22.849000",
+      "days_old": 18,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "vimeo-integration",
+      "display_name": "Vimeo",
+      "stat_downloads": 138,
+      "stat_stars": 0,
+      "created_at": "2026-03-12T23:02:09.247000",
+      "days_old": 16,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "order-desk",
+      "display_name": "Order Desk",
+      "stat_downloads": 138,
+      "stat_stars": 0,
+      "created_at": "2026-03-12T04:02:09.709000",
+      "days_old": 16,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "botpenguin",
+      "display_name": "Botpenguin",
+      "stat_downloads": 137,
+      "stat_stars": 0,
+      "created_at": "2026-03-12T04:02:16.535000",
+      "days_old": 16,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "solarwinds-service-desk",
+      "display_name": "Solarwinds Service Desk",
+      "stat_downloads": 137,
+      "stat_stars": 0,
+      "created_at": "2026-03-10T22:02:19.851000",
+      "days_old": 18,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "elastic-email",
+      "display_name": "Elastic Email",
+      "stat_downloads": 136,
+      "stat_stars": 0,
+      "created_at": "2026-03-14T05:02:17.606000",
+      "days_old": 14,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "8x8",
+      "display_name": "8X8",
+      "stat_downloads": 136,
+      "stat_stars": 0,
+      "created_at": "2026-03-12T03:02:33.573000",
+      "days_old": 16,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "fullcontact",
+      "display_name": "Fullcontact",
+      "stat_downloads": 135,
+      "stat_stars": 0,
+      "created_at": "2026-03-12T04:02:21.786000",
+      "days_old": 16,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "bouncer",
+      "display_name": "Bouncer",
+      "stat_downloads": 134,
+      "stat_stars": 0,
+      "created_at": "2026-03-13T03:02:24.218000",
+      "days_old": 15,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "render-integration",
+      "display_name": "Render",
+      "stat_downloads": 134,
+      "stat_stars": 0,
+      "created_at": "2026-03-13T02:02:09.874000",
+      "days_old": 15,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "learndash",
+      "display_name": "Learndash",
+      "stat_downloads": 134,
+      "stat_stars": 0,
+      "created_at": "2026-03-12T22:02:22.063000",
+      "days_old": 16,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "geodb-cities",
+      "display_name": "Geodb Cities",
+      "stat_downloads": 134,
+      "stat_stars": 0,
+      "created_at": "2026-03-12T03:02:24.279000",
+      "days_old": 16,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ukg-pro-hcm",
+      "display_name": "Ukg Pro Hcm",
+      "stat_downloads": 133,
+      "stat_stars": 0,
+      "created_at": "2026-03-12T02:02:06.370000",
+      "days_old": 16,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "circleci-integration",
+      "display_name": "Circleci",
+      "stat_downloads": 132,
+      "stat_stars": 0,
+      "created_at": "2026-03-12T22:02:16.022000",
+      "days_old": 16,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "apify-integration",
+      "display_name": "Apify",
+      "stat_downloads": 131,
+      "stat_stars": 0,
+      "created_at": "2026-03-15T05:02:17.747000",
+      "days_old": 13,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "bubble",
+      "display_name": "Bubble",
+      "stat_downloads": 131,
+      "stat_stars": 0,
+      "created_at": "2026-03-13T22:02:09.365000",
+      "days_old": 15,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "better-stack",
+      "display_name": "Better Stack",
+      "stat_downloads": 130,
+      "stat_stars": 0,
+      "created_at": "2026-03-14T23:02:37.048000",
+      "days_old": 14,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "prismic",
+      "display_name": "Prismic",
+      "stat_downloads": 130,
+      "stat_stars": 0,
+      "created_at": "2026-03-13T23:02:26.055000",
+      "days_old": 15,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "northflank",
+      "display_name": "Northflank",
+      "stat_downloads": 130,
+      "stat_stars": 0,
+      "created_at": "2026-03-13T22:02:38.028000",
+      "days_old": 15,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "flexmail",
+      "display_name": "Flexmail",
+      "stat_downloads": 129,
+      "stat_stars": 0,
+      "created_at": "2026-03-13T00:02:07.999000",
+      "days_old": 15,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ottertext",
+      "display_name": "Ottertext",
+      "stat_downloads": 128,
+      "stat_stars": 0,
+      "created_at": "2026-03-13T05:02:21.656000",
+      "days_old": 15,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "darwinbox",
+      "display_name": "Darwinbox",
+      "stat_downloads": 128,
+      "stat_stars": 0,
+      "created_at": "2026-03-13T23:02:12.317000",
+      "days_old": 15,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "drift-integration",
+      "display_name": "Drift",
+      "stat_downloads": 128,
+      "stat_stars": 0,
+      "created_at": "2026-03-13T22:02:33.202000",
+      "days_old": 15,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "retailed",
+      "display_name": "Retailed",
+      "stat_downloads": 128,
+      "stat_stars": 0,
+      "created_at": "2026-03-13T05:02:16.231000",
+      "days_old": 15,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "simplero",
+      "display_name": "Simplero",
+      "stat_downloads": 126,
+      "stat_stars": 0,
+      "created_at": "2026-03-13T03:02:11.700000",
+      "days_old": 15,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "stormboard",
+      "display_name": "Stormboard",
+      "stat_downloads": 124,
+      "stat_stars": 0,
+      "created_at": "2026-03-13T05:02:07.778000",
+      "days_old": 15,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "codat",
+      "display_name": "Codat",
+      "stat_downloads": 124,
+      "stat_stars": 0,
+      "created_at": "2026-03-14T22:02:26.071000",
+      "days_old": 14,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "beebole",
+      "display_name": "Beebole",
+      "stat_downloads": 124,
+      "stat_stars": 0,
+      "created_at": "2026-03-14T03:02:33.792000",
+      "days_old": 14,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "people-data-labs",
+      "display_name": "People Data Labs",
+      "stat_downloads": 124,
+      "stat_stars": 0,
+      "created_at": "2026-03-13T23:02:19.720000",
+      "days_old": 15,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "botmaker",
+      "display_name": "Botmaker",
+      "stat_downloads": 124,
+      "stat_stars": 0,
+      "created_at": "2026-03-13T22:02:24.836000",
+      "days_old": 15,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "codacy",
+      "display_name": "Codacy",
+      "stat_downloads": 123,
+      "stat_stars": 0,
+      "created_at": "2026-03-14T23:02:42.415000",
+      "days_old": 14,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "flutterwave",
+      "display_name": "Flutterwave",
+      "stat_downloads": 123,
+      "stat_stars": 0,
+      "created_at": "2026-03-14T05:02:27.479000",
+      "days_old": 14,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "espocrm",
+      "display_name": "Espocrm",
+      "stat_downloads": 123,
+      "stat_stars": 0,
+      "created_at": "2026-03-14T03:02:16.231000",
+      "days_old": 14,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "perigon",
+      "display_name": "Perigon",
+      "stat_downloads": 123,
+      "stat_stars": 0,
+      "created_at": "2026-03-13T22:02:17.680000",
+      "days_old": 15,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "craftmypdf",
+      "display_name": "Craftmypdf",
+      "stat_downloads": 122,
+      "stat_stars": 0,
+      "created_at": "2026-03-14T23:02:13.711000",
+      "days_old": 14,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "fieldpulse",
+      "display_name": "Fieldpulse",
+      "stat_downloads": 122,
+      "stat_stars": 0,
+      "created_at": "2026-03-14T05:02:22.748000",
+      "days_old": 14,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "oneuptime",
+      "display_name": "Oneuptime",
+      "stat_downloads": 120,
+      "stat_stars": 0,
+      "created_at": "2026-03-13T03:02:35.736000",
+      "days_old": 15,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "oksign",
+      "display_name": "Oksign",
+      "stat_downloads": 119,
+      "stat_stars": 0,
+      "created_at": "2026-03-14T05:02:09.780000",
+      "days_old": 14,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "findymail",
+      "display_name": "Findymail",
+      "stat_downloads": 119,
+      "stat_stars": 0,
+      "created_at": "2026-03-14T05:02:32.851000",
+      "days_old": 14,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "crowddev",
+      "display_name": "Crowddev",
+      "stat_downloads": 119,
+      "stat_stars": 0,
+      "created_at": "2026-03-14T03:02:21.835000",
+      "days_old": 14,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "pdfco",
+      "display_name": "Pdfco",
+      "stat_downloads": 119,
+      "stat_stars": 0,
+      "created_at": "2026-03-14T03:02:28.589000",
+      "days_old": 14,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "teamwave",
+      "display_name": "Teamwave",
+      "stat_downloads": 119,
+      "stat_stars": 0,
+      "created_at": "2026-03-14T00:02:07.685000",
+      "days_old": 14,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "clearbit-integration",
+      "display_name": "Clearbit",
+      "stat_downloads": 119,
+      "stat_stars": 0,
+      "created_at": "2026-03-13T05:02:29.582000",
+      "days_old": 15,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "fidel-api",
+      "display_name": "Fidel Api",
+      "stat_downloads": 119,
+      "stat_stars": 0,
+      "created_at": "2026-03-13T03:02:19.223000",
+      "days_old": 15,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "mailboxvalidator",
+      "display_name": "Mailboxvalidator",
+      "stat_downloads": 118,
+      "stat_stars": 0,
+      "created_at": "2026-03-14T23:02:20.672000",
+      "days_old": 14,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "eden-ai",
+      "display_name": "Eden Ai",
+      "stat_downloads": 117,
+      "stat_stars": 0,
+      "created_at": "2026-03-14T22:02:21.624000",
+      "days_old": 14,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "neon-integration",
+      "display_name": "Neon",
+      "stat_downloads": 115,
+      "stat_stars": 0,
+      "created_at": "2026-03-14T22:02:15.917000",
+      "days_old": 14,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "aircall",
+      "display_name": "Aircall",
+      "stat_downloads": 115,
+      "stat_stars": 0,
+      "created_at": "2026-03-15T05:02:23.454000",
+      "days_old": 13,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "intellexer-api",
+      "display_name": "Intellexer Api",
+      "stat_downloads": 115,
+      "stat_stars": 0,
+      "created_at": "2026-03-15T03:02:40.436000",
+      "days_old": 13,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "lemon-squeezy",
+      "display_name": "Lemon Squeezy",
+      "stat_downloads": 114,
+      "stat_stars": 0,
+      "created_at": "2026-03-15T05:02:39.262000",
+      "days_old": 13,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "lmnt",
+      "display_name": "Lmnt",
+      "stat_downloads": 113,
+      "stat_stars": 0,
+      "created_at": "2026-03-16T03:02:40.114000",
+      "days_old": 12,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "gorillastack",
+      "display_name": "Gorillastack",
+      "stat_downloads": 113,
+      "stat_stars": 0,
+      "created_at": "2026-03-15T03:02:34.696000",
+      "days_old": 13,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "cloudbees",
+      "display_name": "Cloudbees",
+      "stat_downloads": 113,
+      "stat_stars": 0,
+      "created_at": "2026-03-15T03:02:29.465000",
+      "days_old": 13,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "chmeetings",
+      "display_name": "Chmeetings",
+      "stat_downloads": 112,
+      "stat_stars": 0,
+      "created_at": "2026-03-16T01:02:24.985000",
+      "days_old": 12,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "baselinker",
+      "display_name": "Baselinker",
+      "stat_downloads": 111,
+      "stat_stars": 0,
+      "created_at": "2026-03-15T22:02:25.359000",
+      "days_old": 13,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "linearb",
+      "display_name": "Linearb",
+      "stat_downloads": 111,
+      "stat_stars": 0,
+      "created_at": "2026-03-15T22:02:18.998000",
+      "days_old": 13,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "agiled",
+      "display_name": "Agiled",
+      "stat_downloads": 111,
+      "stat_stars": 0,
+      "created_at": "2026-03-15T03:02:18.959000",
+      "days_old": 13,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "talentlms",
+      "display_name": "Talentlms",
+      "stat_downloads": 110,
+      "stat_stars": 0,
+      "created_at": "2026-03-15T05:02:28.532000",
+      "days_old": 13,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "mailmodo",
+      "display_name": "Mailmodo",
+      "stat_downloads": 110,
+      "stat_stars": 0,
+      "created_at": "2026-03-15T01:02:17.306000",
+      "days_old": 13,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "blocknative",
+      "display_name": "Blocknative",
+      "stat_downloads": 109,
+      "stat_stars": 0,
+      "created_at": "2026-03-16T05:02:43.216000",
+      "days_old": 12,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "manifestly-checklists",
+      "display_name": "Manifestly Checklists",
+      "stat_downloads": 108,
+      "stat_stars": 0,
+      "created_at": "2026-03-15T23:02:53.900000",
+      "days_old": 13,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "witai",
+      "display_name": "Witai",
+      "stat_downloads": 108,
+      "stat_stars": 0,
+      "created_at": "2026-03-15T03:02:24.102000",
+      "days_old": 13,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "digicert",
+      "display_name": "Digicert",
+      "stat_downloads": 107,
+      "stat_stars": 0,
+      "created_at": "2026-03-15T23:02:30.452000",
+      "days_old": 13,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "slybroadcast",
+      "display_name": "Slybroadcast",
+      "stat_downloads": 106,
+      "stat_stars": 0,
+      "created_at": "2026-03-16T01:02:34.591000",
+      "days_old": 12,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "hyperise",
+      "display_name": "Hyperise",
+      "stat_downloads": 106,
+      "stat_stars": 0,
+      "created_at": "2026-03-15T05:02:34.122000",
+      "days_old": 13,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "nethunt-crm",
+      "display_name": "Nethunt Crm",
+      "stat_downloads": 105,
+      "stat_stars": 0,
+      "created_at": "2026-03-15T23:02:24.792000",
+      "days_old": 13,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "swagup",
+      "display_name": "Swagup",
+      "stat_downloads": 103,
+      "stat_stars": 0,
+      "created_at": "2026-03-15T23:02:36.351000",
+      "days_old": 13,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "campayn",
+      "display_name": "Campayn",
+      "stat_downloads": 102,
+      "stat_stars": 0,
+      "created_at": "2026-03-16T05:02:37.512000",
+      "days_old": 12,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "clubworx",
+      "display_name": "Clubworx",
+      "stat_downloads": 102,
+      "stat_stars": 0,
+      "created_at": "2026-03-16T05:02:33.119000",
+      "days_old": 12,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "httpsms",
+      "display_name": "Httpsms",
+      "stat_downloads": 102,
+      "stat_stars": 0,
+      "created_at": "2026-03-15T22:02:32.329000",
+      "days_old": 13,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "stormglassio",
+      "display_name": "Stormglassio",
+      "stat_downloads": 101,
+      "stat_stars": 0,
+      "created_at": "2026-03-15T23:02:45.333000",
+      "days_old": 13,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "kanbanize",
+      "display_name": "Kanbanize",
+      "stat_downloads": 100,
+      "stat_stars": 0,
+      "created_at": "2026-03-16T05:02:26.790000",
+      "days_old": 12,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "bugbug",
+      "display_name": "Bugbug",
+      "stat_downloads": 100,
+      "stat_stars": 0,
+      "created_at": "2026-03-16T03:02:24.891000",
+      "days_old": 12,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "saplingai",
+      "display_name": "Saplingai",
+      "stat_downloads": 100,
+      "stat_stars": 0,
+      "created_at": "2026-03-16T03:02:20.409000",
+      "days_old": 12,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "purple-sonar",
+      "display_name": "Purple Sonar",
+      "stat_downloads": 99,
+      "stat_stars": 0,
+      "created_at": "2026-03-16T03:02:44.647000",
+      "days_old": 12,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "hippo-video",
+      "display_name": "Hippo Video",
+      "stat_downloads": 96,
+      "stat_stars": 0,
+      "created_at": "2026-03-16T05:02:47.974000",
+      "days_old": 12,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "bigpictureio",
+      "display_name": "Bigpictureio",
+      "stat_downloads": 90,
+      "stat_stars": 0,
+      "created_at": "2026-03-16T23:02:37.211000",
+      "days_old": 12,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "klipfolio",
+      "display_name": "Klipfolio",
+      "stat_downloads": 84,
+      "stat_stars": 0,
+      "created_at": "2026-03-16T22:02:20.250000",
+      "days_old": 12,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "magnetic",
+      "display_name": "Magnetic",
+      "stat_downloads": 84,
+      "stat_stars": 0,
+      "created_at": "2026-03-16T23:02:42.916000",
+      "days_old": 12,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "mboum",
+      "display_name": "Mboum",
+      "stat_downloads": 82,
+      "stat_stars": 0,
+      "created_at": "2026-03-17T06:02:41.170000",
+      "days_old": 11,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "amilia",
+      "display_name": "Amilia",
+      "stat_downloads": 82,
+      "stat_stars": 0,
+      "created_at": "2026-03-16T23:02:32.707000",
+      "days_old": 12,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "simplekpi",
+      "display_name": "Simplekpi",
+      "stat_downloads": 79,
+      "stat_stars": 0,
+      "created_at": "2026-03-16T23:02:24.083000",
+      "days_old": 12,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "api-void",
+      "display_name": "Api Void",
+      "stat_downloads": 78,
+      "stat_stars": 0,
+      "created_at": "2026-03-16T23:02:47.792000",
+      "days_old": 12,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "coassemble",
+      "display_name": "Coassemble",
+      "stat_downloads": 74,
+      "stat_stars": 0,
+      "created_at": "2026-03-17T03:02:52.226000",
+      "days_old": 11,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "relevance-ai",
+      "display_name": "Relevance Ai",
+      "stat_downloads": 73,
+      "stat_stars": 0,
+      "created_at": "2026-03-16T22:02:26.465000",
+      "days_old": 12,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "invoice-ninja",
+      "display_name": "Invoice Ninja",
+      "stat_downloads": 72,
+      "stat_stars": 0,
+      "created_at": "2026-03-17T03:02:38.892000",
+      "days_old": 11,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ncscale",
+      "display_name": "Ncscale",
+      "stat_downloads": 72,
+      "stat_stars": 0,
+      "created_at": "2026-03-17T03:02:29.954000",
+      "days_old": 11,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "tapform",
+      "display_name": "Tapform",
+      "stat_downloads": 72,
+      "stat_stars": 0,
+      "created_at": "2026-03-17T03:02:24.917000",
+      "days_old": 11,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "aevent",
+      "display_name": "Aevent",
+      "stat_downloads": 71,
+      "stat_stars": 0,
+      "created_at": "2026-03-18T01:02:28.464000",
+      "days_old": 10,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "chatwork",
+      "display_name": "Chatwork",
+      "stat_downloads": 70,
+      "stat_stars": 0,
+      "created_at": "2026-03-18T01:02:38.996000",
+      "days_old": 10,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "sales-simplify",
+      "display_name": "Sales Simplify",
+      "stat_downloads": 70,
+      "stat_stars": 0,
+      "created_at": "2026-03-17T06:02:46.191000",
+      "days_old": 11,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "datagma",
+      "display_name": "Datagma",
+      "stat_downloads": 70,
+      "stat_stars": 0,
+      "created_at": "2026-03-17T03:02:45.972000",
+      "days_old": 11,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "leexi",
+      "display_name": "Leexi",
+      "stat_downloads": 70,
+      "stat_stars": 0,
+      "created_at": "2026-03-17T01:02:36.037000",
+      "days_old": 11,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "braintree",
+      "display_name": "Braintree",
+      "stat_downloads": 69,
+      "stat_stars": 0,
+      "created_at": "2026-03-18T03:02:25.005000",
+      "days_old": 10,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "push-by-techulus",
+      "display_name": "Push By Techulus",
+      "stat_downloads": 67,
+      "stat_stars": 0,
+      "created_at": "2026-03-17T06:02:51.144000",
+      "days_old": 11,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "chargeover",
+      "display_name": "Chargeover",
+      "stat_downloads": 67,
+      "stat_stars": 0,
+      "created_at": "2026-03-17T01:02:31.416000",
+      "days_old": 11,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "inmobile",
+      "display_name": "Inmobile",
+      "stat_downloads": 67,
+      "stat_stars": 0,
+      "created_at": "2026-03-17T01:02:41.134000",
+      "days_old": 11,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "smugmug",
+      "display_name": "Smugmug",
+      "stat_downloads": 66,
+      "stat_stars": 0,
+      "created_at": "2026-03-17T23:02:50.514000",
+      "days_old": 11,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "rafflys",
+      "display_name": "Rafflys",
+      "stat_downloads": 64,
+      "stat_stars": 0,
+      "created_at": "2026-03-18T01:02:44.047000",
+      "days_old": 10,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "grab-your-reviews",
+      "display_name": "Grab Your Reviews",
+      "stat_downloads": 64,
+      "stat_stars": 0,
+      "created_at": "2026-03-17T06:02:24.330000",
+      "days_old": 11,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "sendsms",
+      "display_name": "Sendsms",
+      "stat_downloads": 63,
+      "stat_stars": 0,
+      "created_at": "2026-03-18T01:02:33.779000",
+      "days_old": 10,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "simplesat",
+      "display_name": "Simplesat",
+      "stat_downloads": 63,
+      "stat_stars": 0,
+      "created_at": "2026-03-17T06:02:31.649000",
+      "days_old": 11,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "servicem8",
+      "display_name": "Servicem8",
+      "stat_downloads": 63,
+      "stat_stars": 0,
+      "created_at": "2026-03-19T08:02:25.170000",
+      "days_old": 9,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "qualaroo",
+      "display_name": "Qualaroo",
+      "stat_downloads": 63,
+      "stat_stars": 0,
+      "created_at": "2026-03-18T04:02:21.876000",
+      "days_old": 10,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "quickemailverification",
+      "display_name": "Quickemailverification",
+      "stat_downloads": 62,
+      "stat_stars": 0,
+      "created_at": "2026-03-18T07:02:58.609000",
+      "days_old": 10,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "regal",
+      "display_name": "Regal",
+      "stat_downloads": 62,
+      "stat_stars": 0,
+      "created_at": "2026-03-18T04:02:32.945000",
+      "days_old": 10,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "rosette-text-analytics",
+      "display_name": "Rosette Text Analytics",
+      "stat_downloads": 62,
+      "stat_stars": 0,
+      "created_at": "2026-03-17T23:02:41.034000",
+      "days_old": 11,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "popupsmart",
+      "display_name": "Popupsmart",
+      "stat_downloads": 62,
+      "stat_stars": 0,
+      "created_at": "2026-03-17T23:02:25.565000",
+      "days_old": 11,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "followup",
+      "display_name": "Followup",
+      "stat_downloads": 61,
+      "stat_stars": 0,
+      "created_at": "2026-03-18T07:02:30.099000",
+      "days_old": 10,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "gtmetrix",
+      "display_name": "Gtmetrix",
+      "stat_downloads": 61,
+      "stat_stars": 0,
+      "created_at": "2026-03-18T07:02:45.321000",
+      "days_old": 10,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "piggy",
+      "display_name": "Piggy",
+      "stat_downloads": 61,
+      "stat_stars": 0,
+      "created_at": "2026-03-18T04:02:27.787000",
+      "days_old": 10,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "robocorp",
+      "display_name": "Robocorp",
+      "stat_downloads": 61,
+      "stat_stars": 0,
+      "created_at": "2026-03-17T23:02:36.273000",
+      "days_old": 11,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "spondyr",
+      "display_name": "Spondyr",
+      "stat_downloads": 61,
+      "stat_stars": 0,
+      "created_at": "2026-03-17T22:02:20.481000",
+      "days_old": 11,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "dialmycalls",
+      "display_name": "Dialmycalls",
+      "stat_downloads": 60,
+      "stat_stars": 0,
+      "created_at": "2026-03-18T03:02:31.013000",
+      "days_old": 10,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "easyship",
+      "display_name": "Easyship",
+      "stat_downloads": 59,
+      "stat_stars": 0,
+      "created_at": "2026-03-19T08:02:45.557000",
+      "days_old": 9,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "confluent",
+      "display_name": "Confluent",
+      "stat_downloads": 58,
+      "stat_stars": 0,
+      "created_at": "2026-03-18T23:02:41.373000",
+      "days_old": 10,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "cloudlayer",
+      "display_name": "Cloudlayer",
+      "stat_downloads": 57,
+      "stat_stars": 0,
+      "created_at": "2026-03-20T00:02:49.084000",
+      "days_old": 8,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "imejisio",
+      "display_name": "Imejisio",
+      "stat_downloads": 57,
+      "stat_stars": 0,
+      "created_at": "2026-03-19T08:02:38.152000",
+      "days_old": 9,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "pingdom",
+      "display_name": "Pingdom",
+      "stat_downloads": 57,
+      "stat_stars": 0,
+      "created_at": "2026-03-19T06:02:41.524000",
+      "days_old": 9,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "sendbird",
+      "display_name": "Sendbird",
+      "stat_downloads": 57,
+      "stat_stars": 0,
+      "created_at": "2026-03-18T23:02:33.986000",
+      "days_old": 10,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "scale-ai",
+      "display_name": "Scale Ai",
+      "stat_downloads": 57,
+      "stat_stars": 0,
+      "created_at": "2026-03-18T07:02:52.503000",
+      "days_old": 10,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "echtpost-postcards",
+      "display_name": "Echtpost Postcards",
+      "stat_downloads": 56,
+      "stat_stars": 0,
+      "created_at": "2026-03-19T02:02:18.106000",
+      "days_old": 9,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "signalwire",
+      "display_name": "Signalwire",
+      "stat_downloads": 56,
+      "stat_stars": 0,
+      "created_at": "2026-03-18T23:03:05.070000",
+      "days_old": 10,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "signwell",
+      "display_name": "Signwell",
+      "stat_downloads": 56,
+      "stat_stars": 0,
+      "created_at": "2026-03-18T23:02:50.521000",
+      "days_old": 10,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "bot9",
+      "display_name": "Bot9",
+      "stat_downloads": 56,
+      "stat_stars": 0,
+      "created_at": "2026-03-18T07:02:36.419000",
+      "days_old": 10,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "pdffiller",
+      "display_name": "Pdffiller",
+      "stat_downloads": 55,
+      "stat_stars": 0,
+      "created_at": "2026-03-18T22:02:30.374000",
+      "days_old": 10,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "html-to-image-integration",
+      "display_name": "Html To Image",
+      "stat_downloads": 55,
+      "stat_stars": 0,
+      "created_at": "2026-03-17T23:02:31.780000",
+      "days_old": 11,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "cuttly",
+      "display_name": "Cuttly",
+      "stat_downloads": 55,
+      "stat_stars": 0,
+      "created_at": "2026-03-19T08:02:20.762000",
+      "days_old": 9,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "docugenerate",
+      "display_name": "Docugenerate",
+      "stat_downloads": 55,
+      "stat_stars": 0,
+      "created_at": "2026-03-19T02:02:28.224000",
+      "days_old": 9,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "questionpro",
+      "display_name": "Questionpro",
+      "stat_downloads": 55,
+      "stat_stars": 0,
+      "created_at": "2026-03-19T02:02:33.252000",
+      "days_old": 9,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "bannerbear",
+      "display_name": "Bannerbear",
+      "stat_downloads": 55,
+      "stat_stars": 0,
+      "created_at": "2026-03-19T02:02:22.720000",
+      "days_old": 9,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "loyjoy",
+      "display_name": "Loyjoy",
+      "stat_downloads": 55,
+      "stat_stars": 0,
+      "created_at": "2026-03-18T23:02:45.893000",
+      "days_old": 10,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "roll",
+      "display_name": "Roll",
+      "stat_downloads": 54,
+      "stat_stars": 0,
+      "created_at": "2026-03-19T08:02:32.497000",
+      "days_old": 9,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "smoove",
+      "display_name": "Smoove",
+      "stat_downloads": 54,
+      "stat_stars": 0,
+      "created_at": "2026-03-20T00:02:19.590000",
+      "days_old": 8,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "signrequest",
+      "display_name": "Signrequest",
+      "stat_downloads": 54,
+      "stat_stars": 0,
+      "created_at": "2026-03-19T06:02:22.322000",
+      "days_old": 9,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "fogbugz",
+      "display_name": "Fogbugz",
+      "stat_downloads": 54,
+      "stat_stars": 0,
+      "created_at": "2026-03-19T06:02:27.110000",
+      "days_old": 9,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "axesso-data-service-amazon",
+      "display_name": "Axesso Data Service Amazon",
+      "stat_downloads": 53,
+      "stat_stars": 0,
+      "created_at": "2026-03-20T14:02:33.092000",
+      "days_old": 8,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "metatextai-inference-api",
+      "display_name": "Metatextai Inference Api",
+      "stat_downloads": 53,
+      "stat_stars": 0,
+      "created_at": "2026-03-19T06:02:31.957000",
+      "days_old": 9,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ecologi",
+      "display_name": "Ecologi",
+      "stat_downloads": 52,
+      "stat_stars": 0,
+      "created_at": "2026-03-21T10:02:41.304000",
+      "days_old": 7,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "respondio",
+      "display_name": "Respondio",
+      "stat_downloads": 52,
+      "stat_stars": 0,
+      "created_at": "2026-03-20T00:02:36.190000",
+      "days_old": 8,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "docparser",
+      "display_name": "Docparser",
+      "stat_downloads": 52,
+      "stat_stars": 0,
+      "created_at": "2026-03-19T23:02:27.420000",
+      "days_old": 9,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "droxy",
+      "display_name": "Droxy",
+      "stat_downloads": 51,
+      "stat_stars": 0,
+      "created_at": "2026-03-20T00:02:24.957000",
+      "days_old": 8,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "raven-tools",
+      "display_name": "Raven Tools",
+      "stat_downloads": 50,
+      "stat_stars": 0,
+      "created_at": "2026-03-21T15:02:31.241000",
+      "days_old": 7,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "goody",
+      "display_name": "Goody",
+      "stat_downloads": 50,
+      "stat_stars": 0,
+      "created_at": "2026-03-20T08:02:39.542000",
+      "days_old": 8,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "alphamoon",
+      "display_name": "Alphamoon",
+      "stat_downloads": 50,
+      "stat_stars": 0,
+      "created_at": "2026-03-20T02:02:35.403000",
+      "days_old": 8,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "flipando",
+      "display_name": "Flipando",
+      "stat_downloads": 50,
+      "stat_stars": 0,
+      "created_at": "2026-03-20T00:02:41.883000",
+      "days_old": 8,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "idealpostcodes",
+      "display_name": "Idealpostcodes",
+      "stat_downloads": 49,
+      "stat_stars": 0,
+      "created_at": "2026-03-19T06:02:36.844000",
+      "days_old": 9,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "easy-projects",
+      "display_name": "Easy Projects",
+      "stat_downloads": 49,
+      "stat_stars": 0,
+      "created_at": "2026-03-20T14:02:26.828000",
+      "days_old": 8,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "streak",
+      "display_name": "Streak",
+      "stat_downloads": 49,
+      "stat_stars": 0,
+      "created_at": "2026-03-20T08:02:23.501000",
+      "days_old": 8,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "solcast",
+      "display_name": "Solcast",
+      "stat_downloads": 49,
+      "stat_stars": 0,
+      "created_at": "2026-03-20T02:02:30.950000",
+      "days_old": 8,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "marketstack",
+      "display_name": "Marketstack",
+      "stat_downloads": 48,
+      "stat_stars": 0,
+      "created_at": "2026-03-20T02:02:40.737000",
+      "days_old": 8,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "emailable",
+      "display_name": "Emailable",
+      "stat_downloads": 47,
+      "stat_stars": 0,
+      "created_at": "2026-03-21T02:02:35.059000",
+      "days_old": 7,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "nexudus",
+      "display_name": "Nexudus",
+      "stat_downloads": 46,
+      "stat_stars": 0,
+      "created_at": "2026-03-21T15:02:42.067000",
+      "days_old": 7,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "tapfiliate",
+      "display_name": "Tapfiliate",
+      "stat_downloads": 46,
+      "stat_stars": 0,
+      "created_at": "2026-03-21T10:02:31.099000",
+      "days_old": 7,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "placid",
+      "display_name": "Placid",
+      "stat_downloads": 46,
+      "stat_stars": 0,
+      "created_at": "2026-03-20T14:02:51.646000",
+      "days_old": 8,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "clicktime",
+      "display_name": "Clicktime",
+      "stat_downloads": 46,
+      "stat_stars": 0,
+      "created_at": "2026-03-20T08:02:44.534000",
+      "days_old": 8,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "credit-repair-cloud",
+      "display_name": "Credit Repair Cloud",
+      "stat_downloads": 45,
+      "stat_stars": 0,
+      "created_at": "2026-03-20T14:02:40.423000",
+      "days_old": 8,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "getprospect",
+      "display_name": "Getprospect",
+      "stat_downloads": 45,
+      "stat_stars": 0,
+      "created_at": "2026-03-20T08:02:28.200000",
+      "days_old": 8,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "taxjar",
+      "display_name": "Taxjar",
+      "stat_downloads": 45,
+      "stat_stars": 0,
+      "created_at": "2026-03-20T02:02:25.998000",
+      "days_old": 8,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "chatra",
+      "display_name": "Chatra",
+      "stat_downloads": 44,
+      "stat_stars": 0,
+      "created_at": "2026-03-22T13:02:43.215000",
+      "days_old": 6,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "plate-recognizer",
+      "display_name": "Plate Recognizer",
+      "stat_downloads": 44,
+      "stat_stars": 0,
+      "created_at": "2026-03-21T10:02:36.971000",
+      "days_old": 7,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "melo",
+      "display_name": "Melo",
+      "stat_downloads": 44,
+      "stat_stars": 0,
+      "created_at": "2026-03-21T02:02:49.563000",
+      "days_old": 7,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "abyssale",
+      "display_name": "Abyssale",
+      "stat_downloads": 44,
+      "stat_stars": 0,
+      "created_at": "2026-03-21T02:02:28.812000",
+      "days_old": 7,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "helium",
+      "display_name": "Helium",
+      "stat_downloads": 43,
+      "stat_stars": 0,
+      "created_at": "2026-03-21T00:02:23.413000",
+      "days_old": 7,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "chatlayer",
+      "display_name": "Chatlayer",
+      "stat_downloads": 42,
+      "stat_stars": 0,
+      "created_at": "2026-03-22T01:02:37.322000",
+      "days_old": 6,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "billsby",
+      "display_name": "Billsby",
+      "stat_downloads": 42,
+      "stat_stars": 0,
+      "created_at": "2026-03-21T15:02:47.230000",
+      "days_old": 7,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "digitalriver",
+      "display_name": "Digitalriver",
+      "stat_downloads": 42,
+      "stat_stars": 0,
+      "created_at": "2026-03-21T00:02:48.414000",
+      "days_old": 7,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "alegra",
+      "display_name": "Alegra",
+      "stat_downloads": 41,
+      "stat_stars": 0,
+      "created_at": "2026-03-22T00:02:55.268000",
+      "days_old": 6,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "reviewsio",
+      "display_name": "Reviewsio",
+      "stat_downloads": 41,
+      "stat_stars": 0,
+      "created_at": "2026-03-21T00:02:43.229000",
+      "days_old": 7,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "sidetracker",
+      "display_name": "Sidetracker",
+      "stat_downloads": 40,
+      "stat_stars": 0,
+      "created_at": "2026-03-22T00:03:05.385000",
+      "days_old": 6,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "pdfmonkey",
+      "display_name": "Pdfmonkey",
+      "stat_downloads": 40,
+      "stat_stars": 0,
+      "created_at": "2026-03-22T00:02:32.662000",
+      "days_old": 6,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "softr",
+      "display_name": "Softr",
+      "stat_downloads": 40,
+      "stat_stars": 0,
+      "created_at": "2026-03-21T15:02:51.878000",
+      "days_old": 7,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "paddle-integration",
+      "display_name": "Paddle",
+      "stat_downloads": 40,
+      "stat_stars": 0,
+      "created_at": "2026-03-21T15:02:37.196000",
+      "days_old": 7,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "marketing-master-io",
+      "display_name": "Marketing Master Io",
+      "stat_downloads": 40,
+      "stat_stars": 0,
+      "created_at": "2026-03-21T10:02:52.991000",
+      "days_old": 7,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "forms-on-fire",
+      "display_name": "Forms On Fire",
+      "stat_downloads": 40,
+      "stat_stars": 0,
+      "created_at": "2026-03-21T00:02:31.474000",
+      "days_old": 7,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "badger-maps",
+      "display_name": "Badger Maps",
+      "stat_downloads": 39,
+      "stat_stars": 0,
+      "created_at": "2026-03-22T03:02:35.384000",
+      "days_old": 6,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "shoprocket",
+      "display_name": "Shoprocket",
+      "stat_downloads": 39,
+      "stat_stars": 0,
+      "created_at": "2026-03-22T02:02:29.366000",
+      "days_old": 6,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "logistia-route-planner",
+      "display_name": "Logistia Route Planner",
+      "stat_downloads": 39,
+      "stat_stars": 0,
+      "created_at": "2026-03-22T00:02:45.600000",
+      "days_old": 6,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "graphy",
+      "display_name": "Graphy",
+      "stat_downloads": 39,
+      "stat_stars": 0,
+      "created_at": "2026-03-20T14:02:20.864000",
+      "days_old": 8,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "conversion-tools",
+      "display_name": "Conversion Tools",
+      "stat_downloads": 38,
+      "stat_stars": 0,
+      "created_at": "2026-03-23T01:03:00.831000",
+      "days_old": 5,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "arcgis-online",
+      "display_name": "Arcgis Online",
+      "stat_downloads": 38,
+      "stat_stars": 0,
+      "created_at": "2026-03-21T10:02:47.458000",
+      "days_old": 7,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "akismet",
+      "display_name": "Akismet",
+      "stat_downloads": 38,
+      "stat_stars": 0,
+      "created_at": "2026-03-20T08:02:34.217000",
+      "days_old": 8,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "qdrant-integration",
+      "display_name": "Qdrant",
+      "stat_downloads": 37,
+      "stat_stars": 0,
+      "created_at": "2026-03-25T20:03:12.284000",
+      "days_old": 3,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "mojotxt",
+      "display_name": "Mojotxt",
+      "stat_downloads": 37,
+      "stat_stars": 0,
+      "created_at": "2026-03-23T01:02:41.744000",
+      "days_old": 5,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "algomo",
+      "display_name": "Algomo",
+      "stat_downloads": 37,
+      "stat_stars": 0,
+      "created_at": "2026-03-22T15:03:03.610000",
+      "days_old": 6,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "customgpt",
+      "display_name": "Customgpt",
+      "stat_downloads": 37,
+      "stat_stars": 0,
+      "created_at": "2026-03-22T15:02:41.562000",
+      "days_old": 6,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "paykickstart",
+      "display_name": "Paykickstart",
+      "stat_downloads": 37,
+      "stat_stars": 0,
+      "created_at": "2026-03-22T13:02:54.489000",
+      "days_old": 6,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "amara",
+      "display_name": "Amara",
+      "stat_downloads": 37,
+      "stat_stars": 0,
+      "created_at": "2026-03-22T03:02:29.500000",
+      "days_old": 6,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "dbt-cloud",
+      "display_name": "Dbt Cloud",
+      "stat_downloads": 36,
+      "stat_stars": 0,
+      "created_at": "2026-03-25T20:03:19.995000",
+      "days_old": 3,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "finnhub-integration",
+      "display_name": "Finnhub",
+      "stat_downloads": 36,
+      "stat_stars": 0,
+      "created_at": "2026-03-23T21:02:39.152000",
+      "days_old": 5,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ipinfoio",
+      "display_name": "Ipinfoio",
+      "stat_downloads": 36,
+      "stat_stars": 0,
+      "created_at": "2026-03-23T04:02:33.187000",
+      "days_old": 5,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "gift-up",
+      "display_name": "Gift Up",
+      "stat_downloads": 36,
+      "stat_stars": 0,
+      "created_at": "2026-03-23T03:02:17.059000",
+      "days_old": 5,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "parseur",
+      "display_name": "Parseur",
+      "stat_downloads": 36,
+      "stat_stars": 0,
+      "created_at": "2026-03-22T15:03:09.025000",
+      "days_old": 6,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "airslate",
+      "display_name": "Airslate",
+      "stat_downloads": 36,
+      "stat_stars": 0,
+      "created_at": "2026-03-22T15:03:16.895000",
+      "days_old": 6,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "clickmeeting",
+      "display_name": "Clickmeeting",
+      "stat_downloads": 36,
+      "stat_stars": 0,
+      "created_at": "2026-03-22T13:02:38.161000",
+      "days_old": 6,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "maestra",
+      "display_name": "Maestra",
+      "stat_downloads": 35,
+      "stat_stars": 0,
+      "created_at": "2026-03-21T02:02:44.721000",
+      "days_old": 7,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "codereadr",
+      "display_name": "Codereadr",
+      "stat_downloads": 35,
+      "stat_stars": 0,
+      "created_at": "2026-03-21T00:02:54.686000",
+      "days_old": 7,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "pumble",
+      "display_name": "Pumble",
+      "stat_downloads": 34,
+      "stat_stars": 0,
+      "created_at": "2026-03-23T20:02:23.367000",
+      "days_old": 5,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "kintone-integration",
+      "display_name": "Kintone",
+      "stat_downloads": 34,
+      "stat_stars": 0,
+      "created_at": "2026-03-23T21:02:59.274000",
+      "days_old": 5,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "callfire",
+      "display_name": "Callfire",
+      "stat_downloads": 34,
+      "stat_stars": 0,
+      "created_at": "2026-03-23T03:02:19.925000",
+      "days_old": 5,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "smarty",
+      "display_name": "Smarty",
+      "stat_downloads": 34,
+      "stat_stars": 0,
+      "created_at": "2026-03-23T01:02:48.502000",
+      "days_old": 5,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "detectify",
+      "display_name": "Detectify",
+      "stat_downloads": 34,
+      "stat_stars": 0,
+      "created_at": "2026-03-22T00:03:00.103000",
+      "days_old": 6,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "klenty",
+      "display_name": "Klenty",
+      "stat_downloads": 33,
+      "stat_stars": 0,
+      "created_at": "2026-03-23T04:02:38.293000",
+      "days_old": 5,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "cobalt",
+      "display_name": "Cobalt",
+      "stat_downloads": 33,
+      "stat_stars": 0,
+      "created_at": "2026-03-23T01:02:36.446000",
+      "days_old": 5,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "google-maps-integration",
+      "display_name": "Google Maps",
+      "stat_downloads": 33,
+      "stat_stars": 0,
+      "created_at": "2026-03-22T03:02:48.834000",
+      "days_old": 6,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "anonyflow",
+      "display_name": "Anonyflow",
+      "stat_downloads": 33,
+      "stat_stars": 0,
+      "created_at": "2026-03-21T01:02:36.919000",
+      "days_old": 7,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "hiveage",
+      "display_name": "Hiveage",
+      "stat_downloads": 32,
+      "stat_stars": 0,
+      "created_at": "2026-03-23T20:02:20.640000",
+      "days_old": 5,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "bland-ai",
+      "display_name": "Bland Ai",
+      "stat_downloads": 31,
+      "stat_stars": 0,
+      "created_at": "2026-03-23T21:02:32.017000",
+      "days_old": 5,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "envoy",
+      "display_name": "Envoy",
+      "stat_downloads": 31,
+      "stat_stars": 0,
+      "created_at": "2026-03-23T20:02:29.023000",
+      "days_old": 5,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "google-merchant-center",
+      "display_name": "Google Merchant Center",
+      "stat_downloads": 31,
+      "stat_stars": 0,
+      "created_at": "2026-03-23T20:02:32.069000",
+      "days_old": 5,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "productlane",
+      "display_name": "Productlane",
+      "stat_downloads": 31,
+      "stat_stars": 0,
+      "created_at": "2026-03-23T04:02:28.983000",
+      "days_old": 5,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "engage",
+      "display_name": "Engage",
+      "stat_downloads": 31,
+      "stat_stars": 0,
+      "created_at": "2026-03-23T01:02:53.685000",
+      "days_old": 5,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "reachmail",
+      "display_name": "Reachmail",
+      "stat_downloads": 31,
+      "stat_stars": 0,
+      "created_at": "2026-03-22T13:02:48.234000",
+      "days_old": 6,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "sendblue",
+      "display_name": "Sendblue",
+      "stat_downloads": 30,
+      "stat_stars": 0,
+      "created_at": "2026-03-24T04:02:49.862000",
+      "days_old": 4,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "placetel",
+      "display_name": "Placetel",
+      "stat_downloads": 30,
+      "stat_stars": 0,
+      "created_at": "2026-03-23T20:02:26.174000",
+      "days_old": 5,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ninox",
+      "display_name": "Ninox",
+      "stat_downloads": 30,
+      "stat_stars": 0,
+      "created_at": "2026-03-22T15:02:34.129000",
+      "days_old": 6,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "newslit",
+      "display_name": "Newslit",
+      "stat_downloads": 29,
+      "stat_stars": 0,
+      "created_at": "2026-03-25T23:02:37.320000",
+      "days_old": 3,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "rocket-chat",
+      "display_name": "Rocket Chat",
+      "stat_downloads": 29,
+      "stat_stars": 0,
+      "created_at": "2026-03-25T23:02:42.370000",
+      "days_old": 3,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "dayschedule",
+      "display_name": "Dayschedule",
+      "stat_downloads": 29,
+      "stat_stars": 0,
+      "created_at": "2026-03-25T22:02:31.757000",
+      "days_old": 3,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "booqable",
+      "display_name": "Booqable",
+      "stat_downloads": 29,
+      "stat_stars": 0,
+      "created_at": "2026-03-25T20:03:02.457000",
+      "days_old": 3,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "loopmessage",
+      "display_name": "Loopmessage",
+      "stat_downloads": 29,
+      "stat_stars": 0,
+      "created_at": "2026-03-24T20:02:58.166000",
+      "days_old": 4,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "funnelcockpit",
+      "display_name": "Funnelcockpit",
+      "stat_downloads": 29,
+      "stat_stars": 0,
+      "created_at": "2026-03-24T20:03:12.569000",
+      "days_old": 4,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "inksprout",
+      "display_name": "Inksprout",
+      "stat_downloads": 29,
+      "stat_stars": 0,
+      "created_at": "2026-03-24T20:02:47.964000",
+      "days_old": 4,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "deputy",
+      "display_name": "Deputy",
+      "stat_downloads": 29,
+      "stat_stars": 0,
+      "created_at": "2026-03-24T03:02:31.006000",
+      "days_old": 4,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "go-upc",
+      "display_name": "Go Upc",
+      "stat_downloads": 29,
+      "stat_stars": 0,
+      "created_at": "2026-03-24T01:03:00.204000",
+      "days_old": 4,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "identitycheck",
+      "display_name": "Identitycheck",
+      "stat_downloads": 29,
+      "stat_stars": 0,
+      "created_at": "2026-03-24T01:02:37.368000",
+      "days_old": 4,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "lodgify",
+      "display_name": "Lodgify",
+      "stat_downloads": 29,
+      "stat_stars": 0,
+      "created_at": "2026-03-24T01:03:07.592000",
+      "days_old": 4,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "faraday",
+      "display_name": "Faraday",
+      "stat_downloads": 29,
+      "stat_stars": 0,
+      "created_at": "2026-03-23T21:02:44.357000",
+      "days_old": 5,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "workboard",
+      "display_name": "Workboard",
+      "stat_downloads": 28,
+      "stat_stars": 0,
+      "created_at": "2026-03-25T23:02:28.628000",
+      "days_old": 3,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "active-trail",
+      "display_name": "Active Trail",
+      "stat_downloads": 28,
+      "stat_stars": 0,
+      "created_at": "2026-03-24T04:02:42.384000",
+      "days_old": 4,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "jp-funda",
+      "display_name": "Jp Funda",
+      "stat_downloads": 28,
+      "stat_stars": 0,
+      "created_at": "2026-03-24T03:02:35.893000",
+      "days_old": 4,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "serphouse",
+      "display_name": "Serphouse",
+      "stat_downloads": 28,
+      "stat_stars": 0,
+      "created_at": "2026-03-23T21:02:49.136000",
+      "days_old": 5,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "poof",
+      "display_name": "Poof",
+      "stat_downloads": 28,
+      "stat_stars": 0,
+      "created_at": "2026-03-22T13:02:32.949000",
+      "days_old": 6,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "getaccept",
+      "display_name": "Getaccept",
+      "stat_downloads": 27,
+      "stat_stars": 0,
+      "created_at": "2026-03-24T20:02:52.967000",
+      "days_old": 4,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "senta",
+      "display_name": "Senta",
+      "stat_downloads": 27,
+      "stat_stars": 0,
+      "created_at": "2026-03-24T04:02:55.349000",
+      "days_old": 4,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "oxford-dictionaries",
+      "display_name": "Oxford Dictionaries",
+      "stat_downloads": 26,
+      "stat_stars": 0,
+      "created_at": "2026-03-26T21:02:52.997000",
+      "days_old": 2,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "realphonevalidation",
+      "display_name": "Realphonevalidation",
+      "stat_downloads": 26,
+      "stat_stars": 0,
+      "created_at": "2026-03-25T23:02:50.258000",
+      "days_old": 3,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "semaphore",
+      "display_name": "Semaphore",
+      "stat_downloads": 26,
+      "stat_stars": 0,
+      "created_at": "2026-03-24T20:03:07.537000",
+      "days_old": 4,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "elevenlabs-integration",
+      "display_name": "Elevenlabs",
+      "stat_downloads": 26,
+      "stat_stars": 0,
+      "created_at": "2026-03-24T01:02:44.752000",
+      "days_old": 4,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "ghost-integration",
+      "display_name": "Ghost",
+      "stat_downloads": 26,
+      "stat_stars": 0,
+      "created_at": "2026-03-24T01:02:52.342000",
+      "days_old": 4,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "acquire",
+      "display_name": "Acquire",
+      "stat_downloads": 25,
+      "stat_stars": 0,
+      "created_at": "2026-03-26T23:02:31.987000",
+      "days_old": 2,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "cliengo",
+      "display_name": "Cliengo",
+      "stat_downloads": 25,
+      "stat_stars": 0,
+      "created_at": "2026-03-26T23:02:43.372000",
+      "days_old": 2,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "faktoora",
+      "display_name": "Faktoora",
+      "stat_downloads": 25,
+      "stat_stars": 0,
+      "created_at": "2026-03-26T02:02:57.967000",
+      "days_old": 2,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "spotlightr",
+      "display_name": "Spotlightr",
+      "stat_downloads": 25,
+      "stat_stars": 0,
+      "created_at": "2026-03-25T20:02:49.641000",
+      "days_old": 3,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "snapdocs",
+      "display_name": "Snapdocs",
+      "stat_downloads": 25,
+      "stat_stars": 0,
+      "created_at": "2026-03-25T20:03:26.421000",
+      "days_old": 3,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "mumara",
+      "display_name": "Mumara",
+      "stat_downloads": 25,
+      "stat_stars": 0,
+      "created_at": "2026-03-24T22:02:38.471000",
+      "days_old": 4,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "dear-systems",
+      "display_name": "Dear Systems",
+      "stat_downloads": 24,
+      "stat_stars": 0,
+      "created_at": "2026-03-25T02:02:37.619000",
+      "days_old": 3,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "starton",
+      "display_name": "Starton",
+      "stat_downloads": 24,
+      "stat_stars": 0,
+      "created_at": "2026-03-25T02:02:32.651000",
+      "days_old": 3,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "sifter",
+      "display_name": "Sifter",
+      "stat_downloads": 24,
+      "stat_stars": 0,
+      "created_at": "2026-03-24T22:02:56.226000",
+      "days_old": 4,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "mapbox-integration",
+      "display_name": "Mapbox",
+      "stat_downloads": 23,
+      "stat_stars": 0,
+      "created_at": "2026-03-26T22:02:36.146000",
+      "days_old": 2,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "junip",
+      "display_name": "Junip",
+      "stat_downloads": 23,
+      "stat_stars": 0,
+      "created_at": "2026-03-26T21:02:36.053000",
+      "days_old": 2,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "linkly",
+      "display_name": "Linkly",
+      "stat_downloads": 23,
+      "stat_stars": 0,
+      "created_at": "2026-03-26T02:02:43.448000",
+      "days_old": 2,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "qwilr",
+      "display_name": "Qwilr",
+      "stat_downloads": 23,
+      "stat_stars": 0,
+      "created_at": "2026-03-25T05:02:50.204000",
+      "days_old": 3,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "formdesk",
+      "display_name": "Formdesk",
+      "stat_downloads": 23,
+      "stat_stars": 0,
+      "created_at": "2026-03-25T03:02:43.161000",
+      "days_old": 3,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "moonmail",
+      "display_name": "Moonmail",
+      "stat_downloads": 23,
+      "stat_stars": 0,
+      "created_at": "2026-03-24T22:02:31.246000",
+      "days_old": 4,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "overloop",
+      "display_name": "Overloop",
+      "stat_downloads": 23,
+      "stat_stars": 0,
+      "created_at": "2026-03-24T22:02:44.550000",
+      "days_old": 4,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "blazemeter",
+      "display_name": "Blazemeter",
+      "stat_downloads": 22,
+      "stat_stars": 0,
+      "created_at": "2026-03-26T23:02:37.811000",
+      "days_old": 2,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "content-snare",
+      "display_name": "Content Snare",
+      "stat_downloads": 22,
+      "stat_stars": 0,
+      "created_at": "2026-03-26T06:02:43.052000",
+      "days_old": 2,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "kickbox",
+      "display_name": "Kickbox",
+      "stat_downloads": 22,
+      "stat_stars": 0,
+      "created_at": "2026-03-26T06:02:36.787000",
+      "days_old": 2,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "benchmark-email",
+      "display_name": "Benchmark Email",
+      "stat_downloads": 22,
+      "stat_stars": 0,
+      "created_at": "2026-03-25T05:02:55.172000",
+      "days_old": 3,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "pro-ledger",
+      "display_name": "Pro Ledger",
+      "stat_downloads": 22,
+      "stat_stars": 0,
+      "created_at": "2026-03-25T03:02:37.743000",
+      "days_old": 3,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "btcpay-server",
+      "display_name": "Btcpay Server",
+      "stat_downloads": 22,
+      "stat_stars": 0,
+      "created_at": "2026-03-25T02:02:53.297000",
+      "days_old": 3,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "firmao",
+      "display_name": "Firmao",
+      "stat_downloads": 22,
+      "stat_stars": 0,
+      "created_at": "2026-03-25T02:02:47.755000",
+      "days_old": 3,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "10to8",
+      "display_name": "10To8",
+      "stat_downloads": 21,
+      "stat_stars": 0,
+      "created_at": "2026-03-26T21:02:48.222000",
+      "days_old": 2,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "appointedd",
+      "display_name": "Appointedd",
+      "stat_downloads": 21,
+      "stat_stars": 0,
+      "created_at": "2026-03-26T21:02:31.155000",
+      "days_old": 2,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "mobivate",
+      "display_name": "Mobivate",
+      "stat_downloads": 21,
+      "stat_stars": 0,
+      "created_at": "2026-03-26T04:02:35.139000",
+      "days_old": 2,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "giantcampaign",
+      "display_name": "Giantcampaign",
+      "stat_downloads": 21,
+      "stat_stars": 0,
+      "created_at": "2026-03-26T02:03:03.536000",
+      "days_old": 2,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "paystack",
+      "display_name": "Paystack",
+      "stat_downloads": 21,
+      "stat_stars": 0,
+      "created_at": "2026-03-25T02:02:43.162000",
+      "days_old": 3,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "supernotes",
+      "display_name": "Supernotes",
+      "stat_downloads": 21,
+      "stat_stars": 0,
+      "created_at": "2026-03-24T22:02:51.514000",
+      "days_old": 4,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "lessonspace",
+      "display_name": "Lessonspace",
+      "stat_downloads": 20,
+      "stat_stars": 0,
+      "created_at": "2026-03-26T21:02:42.198000",
+      "days_old": 2,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "pitchlane",
+      "display_name": "Pitchlane",
+      "stat_downloads": 20,
+      "stat_stars": 0,
+      "created_at": "2026-03-26T02:03:37.903000",
+      "days_old": 2,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "process-street",
+      "display_name": "Process Street",
+      "stat_downloads": 20,
+      "stat_stars": 0,
+      "created_at": "2026-03-25T05:02:45.248000",
+      "days_old": 3,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "builderio",
+      "display_name": "Builderio",
+      "stat_downloads": 19,
+      "stat_stars": 0,
+      "created_at": "2026-03-27T03:02:43.885000",
+      "days_old": 1,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "swiftype",
+      "display_name": "Swiftype",
+      "stat_downloads": 19,
+      "stat_stars": 0,
+      "created_at": "2026-03-27T00:02:28.956000",
+      "days_old": 1,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "impression",
+      "display_name": "Impression",
+      "stat_downloads": 19,
+      "stat_stars": 0,
+      "created_at": "2026-03-26T02:02:48.106000",
+      "days_old": 2,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "nifty",
+      "display_name": "Nifty",
+      "stat_downloads": 18,
+      "stat_stars": 0,
+      "created_at": "2026-03-27T04:02:39.478000",
+      "days_old": 1,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "finmo",
+      "display_name": "Finmo",
+      "stat_downloads": 18,
+      "stat_stars": 0,
+      "created_at": "2026-03-27T03:02:30.304000",
+      "days_old": 1,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "growsurf",
+      "display_name": "Growsurf",
+      "stat_downloads": 18,
+      "stat_stars": 0,
+      "created_at": "2026-03-27T03:02:38.880000",
+      "days_old": 1,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "3scribe",
+      "display_name": "3Scribe",
+      "stat_downloads": 18,
+      "stat_stars": 0,
+      "created_at": "2026-03-27T03:02:49.656000",
+      "days_old": 1,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "crimeometer",
+      "display_name": "Crimeometer",
+      "stat_downloads": 18,
+      "stat_stars": 0,
+      "created_at": "2026-03-26T06:02:30.143000",
+      "days_old": 2,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "knowfirst",
+      "display_name": "Knowfirst",
+      "stat_downloads": 17,
+      "stat_stars": 0,
+      "created_at": "2026-03-27T06:02:44.767000",
+      "days_old": 1,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "aylien-news-api",
+      "display_name": "Aylien News Api",
+      "stat_downloads": 17,
+      "stat_stars": 0,
+      "created_at": "2026-03-27T04:02:34.283000",
+      "days_old": 1,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "thanksio",
+      "display_name": "Thanksio",
+      "stat_downloads": 16,
+      "stat_stars": 0,
+      "created_at": "2026-03-26T04:02:29.695000",
+      "days_old": 2,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "eversign",
+      "display_name": "Eversign",
+      "stat_downloads": 15,
+      "stat_stars": 0,
+      "created_at": "2026-03-27T03:02:55.173000",
+      "days_old": 1,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "decision-journal-integration",
+      "display_name": "Decision Journal",
+      "stat_downloads": 13,
+      "stat_stars": 0,
+      "created_at": "2026-03-27T06:02:38.807000",
+      "days_old": 1,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "sellsy",
+      "display_name": "Sellsy",
+      "stat_downloads": 13,
+      "stat_stars": 0,
+      "created_at": "2026-03-27T06:02:30.217000",
+      "days_old": 1,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "jumpseller",
+      "display_name": "Jumpseller",
+      "stat_downloads": 12,
+      "stat_stars": 0,
+      "created_at": "2026-03-27T22:02:53.369000",
+      "days_old": 1,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "rasa",
+      "display_name": "Rasa",
+      "stat_downloads": 12,
+      "stat_stars": 0,
+      "created_at": "2026-03-27T22:03:00.265000",
+      "days_old": 1,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "bugherd",
+      "display_name": "Bugherd",
+      "stat_downloads": 11,
+      "stat_stars": 0,
+      "created_at": "2026-03-27T22:02:31.006000",
+      "days_old": 1,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "formcan",
+      "display_name": "Formcan",
+      "stat_downloads": 10,
+      "stat_stars": 0,
+      "created_at": "2026-03-27T22:02:47.340000",
+      "days_old": 1,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "abuselpdb",
+      "display_name": "Abuselpdb",
+      "stat_downloads": 9,
+      "stat_stars": 0,
+      "created_at": "2026-03-27T22:02:42.708000",
+      "days_old": 1,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "scopemaster",
+      "display_name": "Scopemaster",
+      "stat_downloads": 7,
+      "stat_stars": 0,
+      "created_at": "2026-03-28T00:02:28.496000",
+      "days_old": 0,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "agenty",
+      "display_name": "Agenty",
+      "stat_downloads": 7,
+      "stat_stars": 0,
+      "created_at": "2026-03-28T00:02:47.047000",
+      "days_old": 0,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "1msg",
+      "display_name": "1Msg",
+      "stat_downloads": 7,
+      "stat_stars": 0,
+      "created_at": "2026-03-28T00:02:33",
+      "days_old": 0,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "jw-player",
+      "display_name": "Jw Player",
+      "stat_downloads": 6,
+      "stat_stars": 0,
+      "created_at": "2026-03-28T00:02:40.954000",
+      "days_old": 0,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "documint",
+      "display_name": "Documint",
+      "stat_downloads": 6,
+      "stat_stars": 0,
+      "created_at": "2026-03-28T00:02:53.994000",
+      "days_old": 0,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "aleph-alpha",
+      "display_name": "Aleph Alpha",
+      "stat_downloads": 0,
+      "stat_stars": 0,
+      "created_at": "2026-03-28T03:02:54.136000",
+      "days_old": 0,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "docupost",
+      "display_name": "Docupost",
+      "stat_downloads": 0,
+      "stat_stars": 0,
+      "created_at": "2026-03-28T03:02:59.753000",
+      "days_old": 0,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "alchemer",
+      "display_name": "Alchemer",
+      "stat_downloads": 0,
+      "stat_stars": 0,
+      "created_at": "2026-03-28T03:02:46.393000",
+      "days_old": 0,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "sonix",
+      "display_name": "Sonix",
+      "stat_downloads": 0,
+      "stat_stars": 0,
+      "created_at": "2026-03-28T03:02:41.357000",
+      "days_old": 0,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "ibm-x-force-exchange",
+      "display_name": "Ibm X Force Exchange",
+      "stat_downloads": 0,
+      "stat_stars": 0,
+      "created_at": "2026-03-28T03:02:35.229000",
+      "days_old": 0,
+      "is_highlighted": false,
+      "is_suspicious": false
+    }
+  ],
+  "trajectory": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 25653,
+      "stars": 2
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 26489,
+      "stars": 2
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 30231,
+      "stars": 3
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 32470,
+      "stars": 3
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 33653,
+      "stars": 5
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 34718,
+      "stars": 5
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 39772,
+      "stars": 5
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 40089,
+      "stars": 5
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 40766,
+      "stars": 5
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 42641,
+      "stars": 5
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 47588,
+      "stars": 5
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 47588,
+      "stars": 5
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 48339,
+      "stars": 5
+    }
+  ],
+  "download_trajectory": [
+    25653,
+    26489,
+    30231,
+    32470,
+    33653,
+    34718,
+    39772,
+    40089,
+    40766,
+    42641,
+    47588,
+    47588,
+    48339
+  ]
+}

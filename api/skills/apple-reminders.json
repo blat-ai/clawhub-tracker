@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd784wzfsx768a0ds4x0pyrgxh7yjg4h",
+  "slug": "apple-reminders",
+  "display_name": "Apple Reminders",
+  "summary": "Manage Apple Reminders via the `remindctl` CLI on macOS (list, add, edit, complete, delete). Supports lists, date filters, and JSON/plain output.",
+  "owner_handle": "steipete",
+  "owner_image": "https://avatars.githubusercontent.com/u/58493?v=4",
+  "created_at": "2026-01-04T16:48:16.326000",
+  "days_old": 82,
+  "stat_downloads": 20844,
+  "stat_stars": 46,
+  "tags": {
+    "latest": "k97fyyffb4ree9zt9wky1ah4k57ykn8t"
+  },
+  "badges": null,
+  "stat_installs": 1081,
+  "stat_comments": 1,
+  "current_version": "1.0.0",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 254.2,
+  "acceleration_pct": -74.9,
+  "dl_delta": 92,
+  "dl_wow": 0.4,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 6,
+  "installs_wow": 0.6,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 18277,
+      "stars": 41,
+      "installs_all_time": 945,
+      "installs_current": 931
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 18422,
+      "stars": 42,
+      "installs_all_time": 958,
+      "installs_current": 944
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 18720,
+      "stars": 42,
+      "installs_all_time": 973,
+      "installs_current": 958
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 18980,
+      "stars": 43,
+      "installs_all_time": 987,
+      "installs_current": 972
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 19240,
+      "stars": 43,
+      "installs_all_time": 999,
+      "installs_current": 983
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 19489,
+      "stars": 43,
+      "installs_all_time": 1019,
+      "installs_current": 1003
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 19944,
+      "stars": 45,
+      "installs_all_time": 1041,
+      "installs_current": 1025
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 19982,
+      "stars": 45,
+      "installs_all_time": 1046,
+      "installs_current": 1030
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 20066,
+      "stars": 45,
+      "installs_all_time": 1048,
+      "installs_current": 1032
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 20348,
+      "stars": 46,
+      "installs_all_time": 1060,
+      "installs_current": 1044
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 20752,
+      "stars": 46,
+      "installs_all_time": 1075,
+      "installs_current": 1059
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 20752,
+      "stars": 46,
+      "installs_all_time": 1075,
+      "installs_current": 1059
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 20844,
+      "stars": 46,
+      "installs_all_time": 1081,
+      "installs_current": 1063
+    }
+  ],
+  "version_releases": []
+}

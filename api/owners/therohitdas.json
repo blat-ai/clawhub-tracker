@@ -1,0 +1,276 @@
+{
+  "handle": "therohitdas",
+  "total_downloads": 50261,
+  "total_stars": 33,
+  "total_installs": 139,
+  "skill_count": 16,
+  "avg_dl_per_day": 57.9,
+  "highlighted_count": 0,
+  "suspicious_count": 16,
+  "clean_pct": 0.0,
+  "dl_delta": 146,
+  "dl_wow": 0.3,
+  "dl_per_day": 146.0,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "star_per_day": 0,
+  "installs_delta": 1,
+  "installs_wow": 0.7,
+  "installs_per_day": 1.0,
+  "owner_display_name": "therohitdas",
+  "owner_name": "therohitdas",
+  "owner_image": "https://avatars.githubusercontent.com/u/43847374?v=4",
+  "bio": "contact: therohitdas [at] outlook.com",
+  "company": "@am2studio",
+  "location": "Uttarpara, India",
+  "blog": "https://theRohitDas.com",
+  "public_repos": 29,
+  "followers": 36,
+  "following": 39,
+  "github_created_at": "2018-10-04T10:28:37",
+  "twitter_username": "theRohitDas",
+  "skills": [
+    {
+      "slug": "youtube-full",
+      "display_name": "Youtube Full",
+      "stat_downloads": 9109,
+      "stat_stars": 16,
+      "created_at": "2026-02-01T04:25:01.112000",
+      "days_old": 55,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "transcriptapi",
+      "display_name": "Transcriptapi",
+      "stat_downloads": 4977,
+      "stat_stars": 3,
+      "created_at": "2026-02-01T04:24:39.261000",
+      "days_old": 55,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "transcript",
+      "display_name": "Transcript",
+      "stat_downloads": 3752,
+      "stat_stars": 1,
+      "created_at": "2026-02-01T04:24:41.692000",
+      "days_old": 55,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "youtube-api",
+      "display_name": "Youtube Api",
+      "stat_downloads": 3567,
+      "stat_stars": 0,
+      "created_at": "2026-02-01T04:24:57.396000",
+      "days_old": 55,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "subtitles",
+      "display_name": "Subtitles",
+      "stat_downloads": 3228,
+      "stat_stars": 0,
+      "created_at": "2026-02-01T04:24:47.634000",
+      "days_old": 55,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "captions",
+      "display_name": "Captions",
+      "stat_downloads": 3187,
+      "stat_stars": 1,
+      "created_at": "2026-02-01T04:24:45.757000",
+      "days_old": 55,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "yt",
+      "display_name": "Yt",
+      "stat_downloads": 3158,
+      "stat_stars": 2,
+      "created_at": "2026-02-01T04:24:43.893000",
+      "days_old": 55,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "youtube-data",
+      "display_name": "Youtube Data",
+      "stat_downloads": 3046,
+      "stat_stars": 1,
+      "created_at": "2026-02-01T04:24:59.221000",
+      "days_old": 55,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "video-transcript",
+      "display_name": "Video Transcript",
+      "stat_downloads": 2866,
+      "stat_stars": 3,
+      "created_at": "2026-02-01T04:24:49.704000",
+      "days_old": 55,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "youtube-channels",
+      "display_name": "Youtube Channels",
+      "stat_downloads": 2855,
+      "stat_stars": 0,
+      "created_at": "2026-02-01T04:24:53.633000",
+      "days_old": 55,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "youtube-playlist",
+      "display_name": "Youtube Playlist",
+      "stat_downloads": 2727,
+      "stat_stars": 1,
+      "created_at": "2026-02-01T04:24:55.514000",
+      "days_old": 55,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "slack-personal",
+      "display_name": "Slk",
+      "stat_downloads": 2594,
+      "stat_stars": 2,
+      "created_at": "2026-01-31T13:00:18.612000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "youtube-search",
+      "display_name": "Youtube Search",
+      "stat_downloads": 1861,
+      "stat_stars": 3,
+      "created_at": "2026-02-01T04:24:51.637000",
+      "days_old": 55,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "camera",
+      "display_name": "Camera",
+      "stat_downloads": 1515,
+      "stat_stars": 0,
+      "created_at": "2026-02-11T07:53:41.019000",
+      "days_old": 45,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "slk",
+      "display_name": "Slk",
+      "stat_downloads": 991,
+      "stat_stars": 0,
+      "created_at": "2026-02-11T06:58:23.563000",
+      "days_old": 45,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "browser-history",
+      "display_name": "Browser History",
+      "stat_downloads": 828,
+      "stat_stars": 0,
+      "created_at": "2026-02-11T07:53:36.890000",
+      "days_old": 45,
+      "is_highlighted": false,
+      "is_suspicious": true
+    }
+  ],
+  "trajectory": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 47358,
+      "stars": 33
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 47534,
+      "stars": 33
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 47968,
+      "stars": 33
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 48238,
+      "stars": 33
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 48440,
+      "stars": 33
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 48687,
+      "stars": 33
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 49214,
+      "stars": 33
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 49245,
+      "stars": 33
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 49345,
+      "stars": 33
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 49646,
+      "stars": 33
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 50115,
+      "stars": 33
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 50115,
+      "stars": 33
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 50261,
+      "stars": 33
+    }
+  ],
+  "download_trajectory": [
+    47358,
+    47534,
+    47968,
+    48238,
+    48440,
+    48687,
+    49214,
+    49245,
+    49345,
+    49646,
+    50115,
+    50115,
+    50261
+  ]
+}

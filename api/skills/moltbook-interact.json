@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd7dsmjcrf4w2rwefzrq2pxgns8083se",
+  "slug": "moltbook-interact",
+  "display_name": "moltbook-interact",
+  "summary": "Interact with Moltbook social network for AI agents. Post, reply, browse, and analyze engagement. Use when the user wants to engage with Moltbook, check their feed, reply to posts, or track their activity on the agent social network.",
+  "owner_handle": "lunarcmd",
+  "owner_image": "https://avatars.githubusercontent.com/u/258189954?v=4",
+  "created_at": "2026-01-31T13:51:09.132000",
+  "days_old": 55,
+  "stat_downloads": 15767,
+  "stat_stars": 20,
+  "tags": {
+    "latest": "k97440275r72d0n3pmwssr8xwd809dvr"
+  },
+  "badges": null,
+  "stat_installs": 121,
+  "stat_comments": 1,
+  "current_version": "1.0.1",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 286.7,
+  "acceleration_pct": -74.3,
+  "dl_delta": 19,
+  "dl_wow": 0.1,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 0,
+  "installs_wow": 0.0,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 15307,
+      "stars": 20,
+      "installs_all_time": 108,
+      "installs_current": 99
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 15342,
+      "stars": 20,
+      "installs_all_time": 109,
+      "installs_current": 100
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 15410,
+      "stars": 20,
+      "installs_all_time": 111,
+      "installs_current": 102
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 15459,
+      "stars": 20,
+      "installs_all_time": 114,
+      "installs_current": 106
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 15502,
+      "stars": 20,
+      "installs_all_time": 117,
+      "installs_current": 107
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 15542,
+      "stars": 20,
+      "installs_all_time": 118,
+      "installs_current": 108
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 15610,
+      "stars": 20,
+      "installs_all_time": 118,
+      "installs_current": 107
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 15614,
+      "stars": 20,
+      "installs_all_time": 118,
+      "installs_current": 107
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 15626,
+      "stars": 20,
+      "installs_all_time": 118,
+      "installs_current": 107
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 15688,
+      "stars": 20,
+      "installs_all_time": 118,
+      "installs_current": 107
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 15748,
+      "stars": 20,
+      "installs_all_time": 121,
+      "installs_current": 110
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 15748,
+      "stars": 20,
+      "installs_all_time": 121,
+      "installs_current": 110
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 15767,
+      "stars": 20,
+      "installs_all_time": 121,
+      "installs_current": 110
+    }
+  ],
+  "version_releases": []
+}

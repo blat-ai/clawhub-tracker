@@ -1,0 +1,128 @@
+{
+  "skill_id": "kd73w2fx6hmzkqg304mxq0evj57znqz0",
+  "slug": "marketing-skills",
+  "display_name": "Marketing Skills",
+  "summary": "Access 23 marketing modules offering checklists, frameworks, and ready-to-use deliverables for CRO, SEO, copywriting, analytics, launches, ads, and social me...",
+  "owner_handle": "jchopard69",
+  "owner_image": "https://avatars.githubusercontent.com/u/252077042?v=4",
+  "created_at": "2026-01-21T13:50:03.855000",
+  "days_old": 65,
+  "stat_downloads": 13376,
+  "stat_stars": 93,
+  "tags": {
+    "analytics": "k97eavb14hqg028r4g8ef2mqk97zmvnb",
+    "copywriting": "k97eavb14hqg028r4g8ef2mqk97zmvnb",
+    "cro": "k97eavb14hqg028r4g8ef2mqk97zmvnb",
+    "latest": "k97eavb14hqg028r4g8ef2mqk97zmvnb",
+    "marketing": "k97eavb14hqg028r4g8ef2mqk97zmvnb",
+    "seo": "k97eavb14hqg028r4g8ef2mqk97zmvnb"
+  },
+  "badges": null,
+  "stat_installs": 102,
+  "stat_comments": 0,
+  "current_version": "0.1.2",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 205.8,
+  "acceleration_pct": -79.3,
+  "dl_delta": 29,
+  "dl_wow": 0.2,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 2,
+  "installs_wow": 2.0,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 12415,
+      "stars": 89,
+      "installs_all_time": 87,
+      "installs_current": 84
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 12466,
+      "stars": 89,
+      "installs_all_time": 90,
+      "installs_current": 87
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 12592,
+      "stars": 89,
+      "installs_all_time": 92,
+      "installs_current": 89
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 12686,
+      "stars": 89,
+      "installs_all_time": 92,
+      "installs_current": 89
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 12759,
+      "stars": 91,
+      "installs_all_time": 93,
+      "installs_current": 90
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 12864,
+      "stars": 92,
+      "installs_all_time": 97,
+      "installs_current": 94
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 13042,
+      "stars": 93,
+      "installs_all_time": 98,
+      "installs_current": 95
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 13063,
+      "stars": 93,
+      "installs_all_time": 98,
+      "installs_current": 95
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 13089,
+      "stars": 93,
+      "installs_all_time": 98,
+      "installs_current": 95
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 13203,
+      "stars": 93,
+      "installs_all_time": 99,
+      "installs_current": 96
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 13347,
+      "stars": 93,
+      "installs_all_time": 100,
+      "installs_current": 97
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 13347,
+      "stars": 93,
+      "installs_all_time": 100,
+      "installs_current": 97
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 13376,
+      "stars": 93,
+      "installs_all_time": 102,
+      "installs_current": 99
+    }
+  ],
+  "version_releases": []
+}

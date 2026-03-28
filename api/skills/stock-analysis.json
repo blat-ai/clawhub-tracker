@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd7cwpp23jfes4w92xs5m9ebs17z6wgx",
+  "slug": "stock-analysis",
+  "display_name": "Stock Analysis",
+  "summary": "Analyze stocks and cryptocurrencies using Yahoo Finance data. Supports portfolio management, watchlists with alerts, dividend analysis, 8-dimension stock scoring, viral trend detection (Hot Scanner), and rumor/early signal detection. Use for stock analysis, portfolio tracking, earnings reactions, crypto monitoring, trending stocks, or finding rumors before they hit mainstream.",
+  "owner_handle": "udiedrichsen",
+  "owner_image": "https://avatars.githubusercontent.com/u/4386398?v=4",
+  "created_at": "2026-01-14T09:46:15.214000",
+  "days_old": 72,
+  "stat_downloads": 39357,
+  "stat_stars": 190,
+  "tags": {
+    "latest": "k974z9fcypgbaeref13qmjdpv180dg89"
+  },
+  "badges": null,
+  "stat_installs": 453,
+  "stat_comments": 1,
+  "current_version": "6.2.0",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 546.6,
+  "acceleration_pct": -72.9,
+  "dl_delta": 154,
+  "dl_wow": 0.4,
+  "star_delta": 2,
+  "star_wow": 1.1,
+  "installs_delta": 1,
+  "installs_wow": 0.2,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 34058,
+      "stars": 167,
+      "installs_all_time": 338,
+      "installs_current": 321
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 34538,
+      "stars": 170,
+      "installs_all_time": 349,
+      "installs_current": 329
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 35418,
+      "stars": 173,
+      "installs_all_time": 369,
+      "installs_current": 349
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 36018,
+      "stars": 175,
+      "installs_all_time": 379,
+      "installs_current": 359
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 36548,
+      "stars": 180,
+      "installs_all_time": 386,
+      "installs_current": 364
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 37027,
+      "stars": 180,
+      "installs_all_time": 398,
+      "installs_current": 376
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 37867,
+      "stars": 182,
+      "installs_all_time": 416,
+      "installs_current": 392
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 37927,
+      "stars": 182,
+      "installs_all_time": 418,
+      "installs_current": 394
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 38028,
+      "stars": 182,
+      "installs_all_time": 420,
+      "installs_current": 396
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 38496,
+      "stars": 186,
+      "installs_all_time": 436,
+      "installs_current": 412
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 39203,
+      "stars": 188,
+      "installs_all_time": 452,
+      "installs_current": 429
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 39203,
+      "stars": 188,
+      "installs_all_time": 452,
+      "installs_current": 429
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 39357,
+      "stars": 190,
+      "installs_all_time": 453,
+      "installs_current": 430
+    }
+  ],
+  "version_releases": []
+}

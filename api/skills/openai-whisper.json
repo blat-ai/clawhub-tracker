@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd751x4yfrrd1rkmws7t8jadhx7yknc8",
+  "slug": "openai-whisper",
+  "display_name": "Openai Whisper",
+  "summary": "Local speech-to-text with the Whisper CLI (no API key).",
+  "owner_handle": "steipete",
+  "owner_image": "https://avatars.githubusercontent.com/u/58493?v=4",
+  "created_at": "2026-01-04T16:49:25.755000",
+  "days_old": 82,
+  "stat_downloads": 58746,
+  "stat_stars": 252,
+  "tags": {
+    "latest": "k970s3fds5q3jr8vj6skxr1ryx7yj8rn"
+  },
+  "badges": null,
+  "stat_installs": 1736,
+  "stat_comments": 2,
+  "current_version": "1.0.0",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 716.4,
+  "acceleration_pct": -72.9,
+  "dl_delta": 317,
+  "dl_wow": 0.5,
+  "star_delta": 2,
+  "star_wow": 0.8,
+  "installs_delta": 16,
+  "installs_wow": 0.9,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 49999,
+      "stars": 223,
+      "installs_all_time": 1453,
+      "installs_current": 1421
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 50614,
+      "stars": 223,
+      "installs_all_time": 1469,
+      "installs_current": 1437
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 51737,
+      "stars": 229,
+      "installs_all_time": 1507,
+      "installs_current": 1474
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 52628,
+      "stars": 233,
+      "installs_all_time": 1535,
+      "installs_current": 1500
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 53467,
+      "stars": 234,
+      "installs_all_time": 1564,
+      "installs_current": 1526
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 54266,
+      "stars": 236,
+      "installs_all_time": 1603,
+      "installs_current": 1564
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 55802,
+      "stars": 241,
+      "installs_all_time": 1660,
+      "installs_current": 1622
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 55936,
+      "stars": 242,
+      "installs_all_time": 1666,
+      "installs_current": 1627
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 56173,
+      "stars": 243,
+      "installs_all_time": 1669,
+      "installs_current": 1630
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 57106,
+      "stars": 245,
+      "installs_all_time": 1694,
+      "installs_current": 1654
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 58429,
+      "stars": 250,
+      "installs_all_time": 1720,
+      "installs_current": 1678
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 58429,
+      "stars": 250,
+      "installs_all_time": 1720,
+      "installs_current": 1678
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 58746,
+      "stars": 252,
+      "installs_all_time": 1736,
+      "installs_current": 1693
+    }
+  ],
+  "version_releases": []
+}

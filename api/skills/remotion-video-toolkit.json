@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd798d8k4s416m3ggdng434pqs805a19",
+  "slug": "remotion-video-toolkit",
+  "display_name": "Remotion Video Toolkit",
+  "summary": "Complete toolkit for programmatic video creation with Remotion + React. Covers animations, timing, rendering (CLI/Node.js/Lambda/Cloud Run), captions, 3D, charts, text effects, transitions, and media handling. Use when writing Remotion code, building video generation pipelines, or creating data-driven video templates.",
+  "owner_handle": "shreefentsar",
+  "owner_image": "https://avatars.githubusercontent.com/u/51826553?v=4",
+  "created_at": "2026-01-29T07:50:48.037000",
+  "days_old": 57,
+  "stat_downloads": 14847,
+  "stat_stars": 66,
+  "tags": {
+    "latest": "k974b8khvx76rbpxavdm1adrpx805ftf"
+  },
+  "badges": null,
+  "stat_installs": 89,
+  "stat_comments": 0,
+  "current_version": "1.4.0",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 260.5,
+  "acceleration_pct": -72.1,
+  "dl_delta": 43,
+  "dl_wow": 0.3,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 0,
+  "installs_wow": 0.0,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 13383,
+      "stars": 58,
+      "installs_all_time": 71,
+      "installs_current": 68
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 13490,
+      "stars": 59,
+      "installs_all_time": 71,
+      "installs_current": 68
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 13734,
+      "stars": 59,
+      "installs_all_time": 73,
+      "installs_current": 70
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 13926,
+      "stars": 60,
+      "installs_all_time": 75,
+      "installs_current": 72
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 14081,
+      "stars": 60,
+      "installs_all_time": 78,
+      "installs_current": 74
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 14208,
+      "stars": 60,
+      "installs_all_time": 80,
+      "installs_current": 76
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 14426,
+      "stars": 61,
+      "installs_all_time": 80,
+      "installs_current": 76
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 14450,
+      "stars": 62,
+      "installs_all_time": 80,
+      "installs_current": 76
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 14488,
+      "stars": 62,
+      "installs_all_time": 80,
+      "installs_current": 76
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 14604,
+      "stars": 64,
+      "installs_all_time": 83,
+      "installs_current": 79
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 14804,
+      "stars": 66,
+      "installs_all_time": 89,
+      "installs_current": 85
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 14804,
+      "stars": 66,
+      "installs_all_time": 89,
+      "installs_current": 85
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 14847,
+      "stars": 66,
+      "installs_all_time": 89,
+      "installs_current": 85
+    }
+  ],
+  "version_releases": []
+}

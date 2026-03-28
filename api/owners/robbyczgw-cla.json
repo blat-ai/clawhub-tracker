@@ -1,0 +1,226 @@
+{
+  "handle": "robbyczgw-cla",
+  "total_downloads": 54424,
+  "total_stars": 172,
+  "total_installs": 276,
+  "skill_count": 11,
+  "avg_dl_per_day": 81.0,
+  "highlighted_count": 0,
+  "suspicious_count": 8,
+  "clean_pct": 27.3,
+  "dl_delta": 210,
+  "dl_wow": 0.4,
+  "dl_per_day": 210.0,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "star_per_day": 0,
+  "installs_delta": 1,
+  "installs_wow": 0.4,
+  "installs_per_day": 1.0,
+  "owner_display_name": "Robby",
+  "owner_name": "robbyczgw-cla",
+  "owner_image": "https://avatars.githubusercontent.com/u/239660374?v=4",
+  "bio": "Building in the OpenClaw ecosystem: Skills, Plugins, PRs, and OpenCami. ",
+  "company": null,
+  "location": "Austria ",
+  "blog": "openclawskills.xyz",
+  "public_repos": 35,
+  "followers": 57,
+  "following": 64,
+  "github_created_at": "2025-10-22T19:21:27",
+  "twitter_username": "CamiAi__",
+  "skills": [
+    {
+      "slug": "web-search-plus",
+      "display_name": "Web Search Plus",
+      "stat_downloads": 17026,
+      "stat_stars": 85,
+      "created_at": "2026-01-20T22:05:37.164000",
+      "days_old": 67,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "topic-monitor",
+      "display_name": "Topic Monitor",
+      "stat_downloads": 7526,
+      "stat_stars": 24,
+      "created_at": "2026-01-31T21:50:53.788000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "personas",
+      "display_name": "Personas",
+      "stat_downloads": 6244,
+      "stat_stars": 26,
+      "created_at": "2026-01-20T18:40:40.727000",
+      "days_old": 67,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "elevenlabs-voices",
+      "display_name": "ElevenLabs Voices",
+      "stat_downloads": 5858,
+      "stat_stars": 16,
+      "created_at": "2026-01-25T06:19:36.847000",
+      "days_old": 62,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "sports-ticker",
+      "display_name": "Sports Ticker",
+      "stat_downloads": 4780,
+      "stat_stars": 2,
+      "created_at": "2026-01-20T12:27:39.920000",
+      "days_old": 67,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "smart-followups",
+      "display_name": "Smart Follow-ups",
+      "stat_downloads": 4229,
+      "stat_stars": 8,
+      "created_at": "2026-01-20T16:08:03.734000",
+      "days_old": 67,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "agent-chronicle",
+      "display_name": "Agent Chronicle",
+      "stat_downloads": 4000,
+      "stat_stars": 4,
+      "created_at": "2026-01-31T22:52:09.496000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "youtube-apify-transcript",
+      "display_name": "Youtube Apify Transcript",
+      "stat_downloads": 3021,
+      "stat_stars": 5,
+      "created_at": "2026-02-03T13:35:27.412000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "x-apify",
+      "display_name": "X Apify",
+      "stat_downloads": 1021,
+      "stat_stars": 0,
+      "created_at": "2026-02-11T11:23:12.153000",
+      "days_old": 45,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "roundtable",
+      "display_name": "Roundtable",
+      "stat_downloads": 641,
+      "stat_stars": 2,
+      "created_at": "2026-02-17T17:42:44.262000",
+      "days_old": 39,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "lucid-dreamer",
+      "display_name": "Lucid",
+      "stat_downloads": 78,
+      "stat_stars": 0,
+      "created_at": "2026-03-22T22:23:09.597000",
+      "days_old": 6,
+      "is_highlighted": false,
+      "is_suspicious": true
+    }
+  ],
+  "trajectory": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 50140,
+      "stars": 157
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 50388,
+      "stars": 157
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 50983,
+      "stars": 158
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 51382,
+      "stars": 161
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 51746,
+      "stars": 165
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 52141,
+      "stars": 166
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 52895,
+      "stars": 168
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 52957,
+      "stars": 169
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 53083,
+      "stars": 169
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 53486,
+      "stars": 169
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 54214,
+      "stars": 172
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 54214,
+      "stars": 172
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 54424,
+      "stars": 172
+    }
+  ],
+  "download_trajectory": [
+    50140,
+    50388,
+    50983,
+    51382,
+    51746,
+    52141,
+    52895,
+    52957,
+    53083,
+    53486,
+    54214,
+    54214,
+    54424
+  ]
+}

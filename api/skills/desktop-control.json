@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd72pn5cm6jsjmb9kpt3991yr980jbwp",
+  "slug": "desktop-control",
+  "display_name": "Desktop Control",
+  "summary": "Advanced desktop automation with mouse, keyboard, and screen control",
+  "owner_handle": "matagul",
+  "owner_image": "https://avatars.githubusercontent.com/u/94160728?v=4",
+  "created_at": "2026-02-05T01:33:20.863000",
+  "days_old": 51,
+  "stat_downloads": 38846,
+  "stat_stars": 259,
+  "tags": {
+    "latest": "k977ba9ex3zwfbe3pejrdvtd6180kxft"
+  },
+  "badges": null,
+  "stat_installs": 374,
+  "stat_comments": 4,
+  "current_version": "1.0.0",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 761.7,
+  "acceleration_pct": -70.9,
+  "dl_delta": 272,
+  "dl_wow": 0.7,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 1,
+  "installs_wow": 0.3,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 31880,
+      "stars": 225,
+      "installs_all_time": 289,
+      "installs_current": 274
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 32325,
+      "stars": 225,
+      "installs_all_time": 298,
+      "installs_current": 282
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 33256,
+      "stars": 228,
+      "installs_all_time": 307,
+      "installs_current": 289
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 33978,
+      "stars": 232,
+      "installs_all_time": 316,
+      "installs_current": 298
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 34585,
+      "stars": 237,
+      "installs_all_time": 323,
+      "installs_current": 304
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 35194,
+      "stars": 239,
+      "installs_all_time": 335,
+      "installs_current": 314
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 36384,
+      "stars": 247,
+      "installs_all_time": 350,
+      "installs_current": 327
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 36483,
+      "stars": 248,
+      "installs_all_time": 351,
+      "installs_current": 328
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 36647,
+      "stars": 248,
+      "installs_all_time": 352,
+      "installs_current": 329
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 37418,
+      "stars": 253,
+      "installs_all_time": 358,
+      "installs_current": 334
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 38574,
+      "stars": 259,
+      "installs_all_time": 373,
+      "installs_current": 348
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 38574,
+      "stars": 259,
+      "installs_all_time": 373,
+      "installs_current": 348
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 38846,
+      "stars": 259,
+      "installs_all_time": 374,
+      "installs_current": 349
+    }
+  ],
+  "version_releases": []
+}

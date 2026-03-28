@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd7a6tk0p3eg1jzwq62aw9c6cd7yqqeb",
+  "slug": "superdesign",
+  "display_name": "SuperDesign",
+  "summary": "Expert frontend design guidelines for creating beautiful, modern UIs. Use when building landing pages, dashboards, or any user interface.",
+  "owner_handle": "mpociot",
+  "owner_image": "https://avatars.githubusercontent.com/u/804684?v=4",
+  "created_at": "2026-01-06T17:04:34.735000",
+  "days_old": 80,
+  "stat_downloads": 24900,
+  "stat_stars": 139,
+  "tags": {
+    "latest": "k97ft9jdshwfz5e4wczb2p7can7yq6e9"
+  },
+  "badges": null,
+  "stat_installs": 258,
+  "stat_comments": 1,
+  "current_version": "1.0.0",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 311.2,
+  "acceleration_pct": -73.0,
+  "dl_delta": 123,
+  "dl_wow": 0.5,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 3,
+  "installs_wow": 1.2,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 21432,
+      "stars": 123,
+      "installs_all_time": 201,
+      "installs_current": 196
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 21654,
+      "stars": 123,
+      "installs_all_time": 205,
+      "installs_current": 200
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 22090,
+      "stars": 125,
+      "installs_all_time": 212,
+      "installs_current": 207
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 22417,
+      "stars": 127,
+      "installs_all_time": 218,
+      "installs_current": 213
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 22774,
+      "stars": 130,
+      "installs_all_time": 224,
+      "installs_current": 217
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 23120,
+      "stars": 133,
+      "installs_all_time": 234,
+      "installs_current": 227
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 23757,
+      "stars": 133,
+      "installs_all_time": 242,
+      "installs_current": 234
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 23806,
+      "stars": 133,
+      "installs_all_time": 244,
+      "installs_current": 236
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 23917,
+      "stars": 133,
+      "installs_all_time": 244,
+      "installs_current": 236
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 24262,
+      "stars": 133,
+      "installs_all_time": 250,
+      "installs_current": 241
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 24777,
+      "stars": 139,
+      "installs_all_time": 255,
+      "installs_current": 246
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 24777,
+      "stars": 139,
+      "installs_all_time": 255,
+      "installs_current": 246
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 24900,
+      "stars": 139,
+      "installs_all_time": 258,
+      "installs_current": 249
+    }
+  ],
+  "version_releases": []
+}

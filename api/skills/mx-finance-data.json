@@ -1,0 +1,145 @@
+{
+  "skill_id": "kd7aexwfzfy64gv6xn9ap540ds82t0bb",
+  "slug": "mx-finance-data",
+  "display_name": "All-Market Financial Data Hub",
+  "summary": "\u57fa\u4e8e\u4e1c\u65b9\u8d22\u5bcc\u6570\u636e\u5e93\uff0c\u652f\u6301\u81ea\u7136\u8bed\u8a00\u67e5\u8be2\u91d1\u878d\u6570\u636e\uff0c\u8986\u76d6A\u6e2f\u7f8e\u3001\u57fa\u91d1\u3001\u503a\u5238\u7b49\u591a\u79cd\u8d44\u4ea7\uff0c\u542b\u5b9e\u65f6\u884c\u60c5\u3001\u516c\u53f8\u4fe1\u606f\u3001\u4f30\u503c\u3001\u8d22\u52a1\u62a5\u8868\u7b49\uff0c\u53ef\u7528\u4e8e\u6295\u8d44\u7814\u7a76\u3001\u4ea4\u6613\u590d\u76d8\u3001\u5e02\u573a\u76d1\u63a7\u3001\u884c\u4e1a\u5206\u6790\u3001\u4fe1\u7528\u7814\u7a76\u3001\u8d22\u62a5\u5ba1\u8ba1\u3001\u8d44\u4ea7\u914d\u7f6e\u7b49\u573a\u666f\uff0c\u9002\u914d\u673a\u6784\u4e0e\u4e2a\u4eba\u591a\u5143\u9700\u6c42\u3002\u8fd4\u56de\u7ed3\u679c\u5305\u542b\u6570\u636e\u8bf4\u660e\u53ca xlsx \u6587\u4ef6\u3002Natural language query f...",
+  "owner_handle": "financial-ai-analyst",
+  "owner_image": "https://avatars.githubusercontent.com/u/41098207?v=4",
+  "created_at": "2026-03-13T09:10:19.827000",
+  "days_old": 14,
+  "stat_downloads": 11014,
+  "stat_stars": 55,
+  "tags": {
+    "Ashare": "k97b3172955qsswv1r4zjfvtr98357qg",
+    "financial": "k97b3172955qsswv1r4zjfvtr98357qg",
+    "latest": "k97372wwpenkkn8c4zg7nym5ks83qrra",
+    "quant": "k97b3172955qsswv1r4zjfvtr98357qg",
+    "risk": "k97b3172955qsswv1r4zjfvtr98357qg",
+    "stock": "k97b3172955qsswv1r4zjfvtr98357qg",
+    "trade": "k97b3172955qsswv1r4zjfvtr98357qg"
+  },
+  "badges": null,
+  "stat_installs": 13,
+  "stat_comments": 0,
+  "current_version": "1.0.9",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 786.7,
+  "acceleration_pct": -87.9,
+  "dl_delta": 34,
+  "dl_wow": 0.3,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 0,
+  "installs_wow": 0.0,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 6333,
+      "stars": 44,
+      "installs_all_time": 8,
+      "installs_current": 8
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 7253,
+      "stars": 44,
+      "installs_all_time": 8,
+      "installs_current": 7
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 8943,
+      "stars": 45,
+      "installs_all_time": 8,
+      "installs_current": 6
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 9696,
+      "stars": 48,
+      "installs_all_time": 10,
+      "installs_current": 7
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 9792,
+      "stars": 49,
+      "installs_all_time": 10,
+      "installs_current": 7
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 9897,
+      "stars": 49,
+      "installs_all_time": 10,
+      "installs_current": 7
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 10290,
+      "stars": 51,
+      "installs_all_time": 12,
+      "installs_current": 9
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 10319,
+      "stars": 51,
+      "installs_all_time": 12,
+      "installs_current": 9
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 10351,
+      "stars": 51,
+      "installs_all_time": 12,
+      "installs_current": 9
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 10601,
+      "stars": 52,
+      "installs_all_time": 13,
+      "installs_current": 10
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 10980,
+      "stars": 55,
+      "installs_all_time": 13,
+      "installs_current": 10
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 10980,
+      "stars": 55,
+      "installs_all_time": 13,
+      "installs_current": 10
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 11014,
+      "stars": 55,
+      "installs_all_time": 13,
+      "installs_current": 10
+    }
+  ],
+  "version_releases": [
+    {
+      "version_number": "1.0.7",
+      "run_date": "2026-03-21T03:00:00.776166",
+      "changelog": "mx-finance-data 1.0.7\n\n- Documentation updates in SKILL.md for clarity and completeness.\n- No functional or interface changes to code logic."
+    },
+    {
+      "version_number": "1.0.8",
+      "run_date": "2026-03-24T14:13:35.104417",
+      "changelog": "No code changes detected in this version.\n\n- Added operating system-specific instructions for configuring the EM_API_KEY environment variable (separate steps for macOS and Linux).\n- General documentation clarity improvements in environment variable setup sections.\n- No functional changes to features, dependencies, or code."
+    },
+    {
+      "version_number": "1.0.9",
+      "run_date": "2026-03-27T14:10:05.719067",
+      "changelog": "- Removed the requirement for the EM_API_KEY environment variable and related instructions.\n- Updated the metadata section to exclude environment variable requirements.\n- No code or functional changes; documentation updated for environment setup simplification."
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd7cc90h4m0srxkn6d5dd67fs17yjtrd",
+  "slug": "gifgrep",
+  "display_name": "Gifgrep",
+  "summary": "Search GIF providers with CLI/TUI, download results, and extract stills/sheets.",
+  "owner_handle": "steipete",
+  "owner_image": "https://avatars.githubusercontent.com/u/58493?v=4",
+  "created_at": "2026-01-04T00:57:06.016000",
+  "days_old": 83,
+  "stat_downloads": 13298,
+  "stat_stars": 6,
+  "tags": {
+    "latest": "k976xmpr3181h0w6arr6z0708s7yjq67"
+  },
+  "badges": "{\"redactionApproved\": {\"at\": 1767488693995.0, \"byUserId\": \"kn70pywhg0fyz996kpa8xj89s57yhv26\"}}",
+  "stat_installs": 1042,
+  "stat_comments": 0,
+  "current_version": "1.0.1",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 160.2,
+  "acceleration_pct": -79.9,
+  "dl_delta": 45,
+  "dl_wow": 0.3,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 4,
+  "installs_wow": 0.4,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 11995,
+      "stars": 6,
+      "installs_all_time": 923,
+      "installs_current": 902
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 12069,
+      "stars": 6,
+      "installs_all_time": 930,
+      "installs_current": 909
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 12207,
+      "stars": 6,
+      "installs_all_time": 948,
+      "installs_current": 926
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 12332,
+      "stars": 6,
+      "installs_all_time": 962,
+      "installs_current": 940
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 12469,
+      "stars": 6,
+      "installs_all_time": 971,
+      "installs_current": 947
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 12574,
+      "stars": 6,
+      "installs_all_time": 987,
+      "installs_current": 963
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 12814,
+      "stars": 6,
+      "installs_all_time": 1007,
+      "installs_current": 983
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 12829,
+      "stars": 6,
+      "installs_all_time": 1011,
+      "installs_current": 987
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 12878,
+      "stars": 6,
+      "installs_all_time": 1013,
+      "installs_current": 989
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 13053,
+      "stars": 6,
+      "installs_all_time": 1025,
+      "installs_current": 1001
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 13253,
+      "stars": 6,
+      "installs_all_time": 1038,
+      "installs_current": 1014
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 13253,
+      "stars": 6,
+      "installs_all_time": 1038,
+      "installs_current": 1014
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 13298,
+      "stars": 6,
+      "installs_all_time": 1042,
+      "installs_current": 1017
+    }
+  ],
+  "version_releases": []
+}

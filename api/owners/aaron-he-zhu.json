@@ -1,0 +1,316 @@
+{
+  "handle": "aaron-he-zhu",
+  "total_downloads": 42603,
+  "total_stars": 52,
+  "total_installs": 216,
+  "skill_count": 20,
+  "avg_dl_per_day": 44.5,
+  "highlighted_count": 0,
+  "suspicious_count": 0,
+  "clean_pct": 100.0,
+  "dl_delta": 227,
+  "dl_wow": 0.5,
+  "dl_per_day": 227.0,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "star_per_day": 0,
+  "installs_delta": 3,
+  "installs_wow": 1.4,
+  "installs_per_day": 3.0,
+  "owner_display_name": "Aaron Zhu",
+  "owner_name": "aaron-he-zhu",
+  "owner_image": "https://avatars.githubusercontent.com/u/139607425?v=4",
+  "bio": null,
+  "company": null,
+  "location": null,
+  "blog": null,
+  "public_repos": 3,
+  "followers": 27,
+  "following": 2,
+  "github_created_at": "2023-07-15T04:34:59",
+  "twitter_username": "zhuhe",
+  "skills": [
+    {
+      "slug": "seo-content-writer",
+      "display_name": "Seo Content Writer",
+      "stat_downloads": 6958,
+      "stat_stars": 15,
+      "created_at": "2026-02-08T14:03:48.864000",
+      "days_old": 48,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "competitor-analysis",
+      "display_name": "Competitor Analysis",
+      "stat_downloads": 4783,
+      "stat_stars": 3,
+      "created_at": "2026-02-08T13:57:27.893000",
+      "days_old": 48,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "keyword-research",
+      "display_name": "Keyword Research",
+      "stat_downloads": 3467,
+      "stat_stars": 5,
+      "created_at": "2026-02-08T13:58:14.539000",
+      "days_old": 48,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "technical-seo-checker",
+      "display_name": "Technical Seo Checker",
+      "stat_downloads": 2645,
+      "stat_stars": 5,
+      "created_at": "2026-02-08T14:07:16.397000",
+      "days_old": 48,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "on-page-seo-auditor",
+      "display_name": "On Page Seo Auditor",
+      "stat_downloads": 2094,
+      "stat_stars": 2,
+      "created_at": "2026-02-08T14:06:57.955000",
+      "days_old": 48,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "content-quality-auditor",
+      "display_name": "Content Quality Auditor",
+      "stat_downloads": 1947,
+      "stat_stars": 1,
+      "created_at": "2026-02-08T14:05:03.785000",
+      "days_old": 48,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "performance-reporter",
+      "display_name": "Performance Reporter",
+      "stat_downloads": 1807,
+      "stat_stars": 2,
+      "created_at": "2026-02-08T14:01:14.038000",
+      "days_old": 48,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "alert-manager",
+      "display_name": "Alert Manager",
+      "stat_downloads": 1787,
+      "stat_stars": 1,
+      "created_at": "2026-02-08T14:01:47.648000",
+      "days_old": 48,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "content-gap-analysis",
+      "display_name": "Content Gap Analysis",
+      "stat_downloads": 1751,
+      "stat_stars": 1,
+      "created_at": "2026-02-08T13:59:09.085000",
+      "days_old": 48,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "rank-tracker",
+      "display_name": "Rank Tracker",
+      "stat_downloads": 1747,
+      "stat_stars": 1,
+      "created_at": "2026-02-08T14:00:42.190000",
+      "days_old": 48,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "geo-content-optimizer",
+      "display_name": "Geo Content Optimizer",
+      "stat_downloads": 1670,
+      "stat_stars": 5,
+      "created_at": "2026-02-08T14:02:41.914000",
+      "days_old": 48,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "serp-analysis",
+      "display_name": "Serp Analysis",
+      "stat_downloads": 1660,
+      "stat_stars": 1,
+      "created_at": "2026-02-08T13:59:55.248000",
+      "days_old": 48,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "backlink-analyzer",
+      "display_name": "Backlink Analyzer",
+      "stat_downloads": 1634,
+      "stat_stars": 1,
+      "created_at": "2026-02-08T14:05:48.594000",
+      "days_old": 48,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "meta-tags-optimizer",
+      "display_name": "Meta Tags Optimizer",
+      "stat_downloads": 1461,
+      "stat_stars": 4,
+      "created_at": "2026-02-08T14:03:14.903000",
+      "days_old": 48,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "schema-markup-generator",
+      "display_name": "Schema Markup Generator",
+      "stat_downloads": 1413,
+      "stat_stars": 1,
+      "created_at": "2026-02-08T14:03:30.966000",
+      "days_old": 48,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "memory-management",
+      "display_name": "Memory Management",
+      "stat_downloads": 1412,
+      "stat_stars": 1,
+      "created_at": "2026-02-08T14:05:17.834000",
+      "days_old": 48,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "content-refresher",
+      "display_name": "Content Refresher",
+      "stat_downloads": 1316,
+      "stat_stars": 1,
+      "created_at": "2026-02-08T14:06:30.562000",
+      "days_old": 48,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "domain-authority-auditor",
+      "display_name": "Domain Authority Auditor",
+      "stat_downloads": 1080,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T16:03:29.083000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "entity-optimizer",
+      "display_name": "Entity Optimizer",
+      "stat_downloads": 1009,
+      "stat_stars": 2,
+      "created_at": "2026-02-11T15:30:31.463000",
+      "days_old": 45,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "internal-linking-optimizer",
+      "display_name": "Internal Linking Optimizer",
+      "stat_downloads": 962,
+      "stat_stars": 0,
+      "created_at": "2026-02-08T14:06:43.693000",
+      "days_old": 48,
+      "is_highlighted": false,
+      "is_suspicious": false
+    }
+  ],
+  "trajectory": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 36894,
+      "stars": 48
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 37154,
+      "stars": 48
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 37788,
+      "stars": 48
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 38198,
+      "stars": 48
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 38538,
+      "stars": 48
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 38886,
+      "stars": 48
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 39867,
+      "stars": 48
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 39972,
+      "stars": 48
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 40214,
+      "stars": 48
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 40944,
+      "stars": 49
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 42376,
+      "stars": 52
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 42376,
+      "stars": 52
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 42603,
+      "stars": 52
+    }
+  ],
+  "download_trajectory": [
+    36894,
+    37154,
+    37788,
+    38198,
+    38538,
+    38886,
+    39867,
+    39972,
+    40214,
+    40944,
+    42376,
+    42376,
+    42603
+  ]
+}

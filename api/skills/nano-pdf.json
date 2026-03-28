@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd7f3gkfh1hxcbde4bx5dhhp217yjqc9",
+  "slug": "nano-pdf",
+  "display_name": "Nano Pdf",
+  "summary": "Edit PDFs with natural-language instructions using the nano-pdf CLI.",
+  "owner_handle": "steipete",
+  "owner_image": "https://avatars.githubusercontent.com/u/58493?v=4",
+  "created_at": "2026-01-04T16:49:19.433000",
+  "days_old": 82,
+  "stat_downloads": 76227,
+  "stat_stars": 189,
+  "tags": {
+    "latest": "k978pqgk0bbynqv9fxjfq1w5zs7yj3xf"
+  },
+  "badges": null,
+  "stat_installs": 2076,
+  "stat_comments": 1,
+  "current_version": "1.0.0",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 929.6,
+  "acceleration_pct": -73.2,
+  "dl_delta": 419,
+  "dl_wow": 0.6,
+  "star_delta": 2,
+  "star_wow": 1.1,
+  "installs_delta": 11,
+  "installs_wow": 0.5,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 64281,
+      "stars": 155,
+      "installs_all_time": 1731,
+      "installs_current": 1694
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 65106,
+      "stars": 157,
+      "installs_all_time": 1758,
+      "installs_current": 1721
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 66792,
+      "stars": 161,
+      "installs_all_time": 1807,
+      "installs_current": 1768
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 68072,
+      "stars": 163,
+      "installs_all_time": 1845,
+      "installs_current": 1804
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 69191,
+      "stars": 167,
+      "installs_all_time": 1876,
+      "installs_current": 1832
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 70318,
+      "stars": 169,
+      "installs_all_time": 1916,
+      "installs_current": 1872
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 72344,
+      "stars": 177,
+      "installs_all_time": 1976,
+      "installs_current": 1931
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 72523,
+      "stars": 177,
+      "installs_all_time": 1983,
+      "installs_current": 1938
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 72787,
+      "stars": 178,
+      "installs_all_time": 1986,
+      "installs_current": 1941
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 74086,
+      "stars": 181,
+      "installs_all_time": 2012,
+      "installs_current": 1966
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 75808,
+      "stars": 187,
+      "installs_all_time": 2065,
+      "installs_current": 2020
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 75808,
+      "stars": 187,
+      "installs_all_time": 2065,
+      "installs_current": 2020
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 76227,
+      "stars": 189,
+      "installs_all_time": 2076,
+      "installs_current": 2030
+    }
+  ],
+  "version_releases": []
+}

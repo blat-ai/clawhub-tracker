@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd7b468xm2szmdtgbd6trwdap57ykzfb",
+  "slug": "video-frames",
+  "display_name": "Video Frames",
+  "summary": "Extract frames or short clips from videos using ffmpeg.",
+  "owner_handle": "steipete",
+  "owner_image": "https://avatars.githubusercontent.com/u/58493?v=4",
+  "created_at": "2026-01-04T16:49:51.700000",
+  "days_old": 82,
+  "stat_downloads": 34853,
+  "stat_stars": 96,
+  "tags": {
+    "latest": "k971b6zgyc3090sma92v0f3ag17ykrdj"
+  },
+  "badges": null,
+  "stat_installs": 1324,
+  "stat_comments": 1,
+  "current_version": "1.0.0",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 425.0,
+  "acceleration_pct": -70.2,
+  "dl_delta": 229,
+  "dl_wow": 0.7,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 6,
+  "installs_wow": 0.5,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 29115,
+      "stars": 82,
+      "installs_all_time": 1139,
+      "installs_current": 1116
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 29454,
+      "stars": 82,
+      "installs_all_time": 1153,
+      "installs_current": 1130
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 30128,
+      "stars": 85,
+      "installs_all_time": 1181,
+      "installs_current": 1157
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 30673,
+      "stars": 85,
+      "installs_all_time": 1202,
+      "installs_current": 1178
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 31188,
+      "stars": 86,
+      "installs_all_time": 1217,
+      "installs_current": 1191
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 31757,
+      "stars": 87,
+      "installs_all_time": 1240,
+      "installs_current": 1213
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 32798,
+      "stars": 90,
+      "installs_all_time": 1270,
+      "installs_current": 1240
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 32864,
+      "stars": 90,
+      "installs_all_time": 1276,
+      "installs_current": 1246
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 33020,
+      "stars": 90,
+      "installs_all_time": 1280,
+      "installs_current": 1250
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 33633,
+      "stars": 91,
+      "installs_all_time": 1297,
+      "installs_current": 1267
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 34624,
+      "stars": 96,
+      "installs_all_time": 1318,
+      "installs_current": 1288
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 34624,
+      "stars": 96,
+      "installs_all_time": 1318,
+      "installs_current": 1288
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 34853,
+      "stars": 96,
+      "installs_all_time": 1324,
+      "installs_current": 1293
+    }
+  ],
+  "version_releases": []
+}

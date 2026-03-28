@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd7aczrffpzdpr162408sa4jcs7yjbmg",
+  "slug": "imsg",
+  "display_name": "Imsg",
+  "summary": "iMessage/SMS CLI for listing chats, history, watch, and sending.",
+  "owner_handle": "steipete",
+  "owner_image": "https://avatars.githubusercontent.com/u/58493?v=4",
+  "created_at": "2026-01-04T16:49:08.833000",
+  "days_old": 82,
+  "stat_downloads": 11639,
+  "stat_stars": 19,
+  "tags": {
+    "latest": "k972m4hp43f27bs1m68zesz9j17yk36k"
+  },
+  "badges": null,
+  "stat_installs": 993,
+  "stat_comments": 0,
+  "current_version": "1.0.0",
+  "is_highlighted": false,
+  "is_suspicious": false,
+  "velocity": 141.9,
+  "acceleration_pct": -71.0,
+  "dl_delta": 58,
+  "dl_wow": 0.5,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 6,
+  "installs_wow": 0.6,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 10246,
+      "stars": 17,
+      "installs_all_time": 874,
+      "installs_current": 861
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 10334,
+      "stars": 17,
+      "installs_all_time": 883,
+      "installs_current": 870
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 10476,
+      "stars": 17,
+      "installs_all_time": 898,
+      "installs_current": 884
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 10623,
+      "stars": 17,
+      "installs_all_time": 912,
+      "installs_current": 898
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 10762,
+      "stars": 17,
+      "installs_all_time": 922,
+      "installs_current": 906
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 10887,
+      "stars": 18,
+      "installs_all_time": 937,
+      "installs_current": 920
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 11122,
+      "stars": 18,
+      "installs_all_time": 953,
+      "installs_current": 936
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 11134,
+      "stars": 18,
+      "installs_all_time": 959,
+      "installs_current": 941
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 11180,
+      "stars": 18,
+      "installs_all_time": 962,
+      "installs_current": 944
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 11334,
+      "stars": 18,
+      "installs_all_time": 974,
+      "installs_current": 956
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 11581,
+      "stars": 19,
+      "installs_all_time": 987,
+      "installs_current": 968
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 11581,
+      "stars": 19,
+      "installs_all_time": 987,
+      "installs_current": 968
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 11639,
+      "stars": 19,
+      "installs_all_time": 993,
+      "installs_current": 972
+    }
+  ],
+  "version_releases": []
+}

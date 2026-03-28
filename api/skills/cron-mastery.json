@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd76749ebj013s9ztwebxkrbzd809xmk",
+  "slug": "cron-mastery",
+  "display_name": "Cron Mastery",
+  "summary": "Master OpenClaw's timing systems. Use for scheduling reliable reminders, setting up periodic maintenance (janitor jobs), and understanding when to use Cron v...",
+  "owner_handle": "i-mw",
+  "owner_image": "https://avatars.githubusercontent.com/u/10008835?v=4",
+  "created_at": "2026-01-31T03:33:19.869000",
+  "days_old": 55,
+  "stat_downloads": 12833,
+  "stat_stars": 30,
+  "tags": {
+    "latest": "k977hynvn27s89nv5qt2ek049x81831m"
+  },
+  "badges": null,
+  "stat_installs": 137,
+  "stat_comments": 3,
+  "current_version": "1.0.3",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 233.3,
+  "acceleration_pct": -77.0,
+  "dl_delta": 50,
+  "dl_wow": 0.4,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 0,
+  "installs_wow": 0.0,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 11383,
+      "stars": 26,
+      "installs_all_time": 110,
+      "installs_current": 105
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 11482,
+      "stars": 26,
+      "installs_all_time": 113,
+      "installs_current": 108
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 11650,
+      "stars": 26,
+      "installs_all_time": 115,
+      "installs_current": 110
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 11768,
+      "stars": 26,
+      "installs_all_time": 118,
+      "installs_current": 113
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 11885,
+      "stars": 27,
+      "installs_all_time": 118,
+      "installs_current": 112
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 11995,
+      "stars": 29,
+      "installs_all_time": 122,
+      "installs_current": 116
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 12256,
+      "stars": 29,
+      "installs_all_time": 128,
+      "installs_current": 122
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 12284,
+      "stars": 29,
+      "installs_all_time": 129,
+      "installs_current": 123
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 12332,
+      "stars": 29,
+      "installs_all_time": 130,
+      "installs_current": 124
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 12501,
+      "stars": 30,
+      "installs_all_time": 135,
+      "installs_current": 128
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 12783,
+      "stars": 30,
+      "installs_all_time": 137,
+      "installs_current": 130
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 12783,
+      "stars": 30,
+      "installs_all_time": 137,
+      "installs_current": 130
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 12833,
+      "stars": 30,
+      "installs_all_time": 137,
+      "installs_current": 130
+    }
+  ],
+  "version_releases": []
+}

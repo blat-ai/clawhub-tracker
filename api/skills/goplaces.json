@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd7dshw70ch4n31hw2njgek11n7ykmqe",
+  "slug": "goplaces",
+  "display_name": "Goplaces",
+  "summary": "Query Google Places API (New) via the goplaces CLI for text search, place details, resolve, and reviews. Use for human-friendly place lookup or JSON output for scripts.",
+  "owner_handle": "steipete",
+  "owner_image": "https://avatars.githubusercontent.com/u/58493?v=4",
+  "created_at": "2026-01-04T16:49:07.454000",
+  "days_old": 82,
+  "stat_downloads": 16470,
+  "stat_stars": 27,
+  "tags": {
+    "latest": "k975cj7as0692h9dq0717fk1th7yjjvh"
+  },
+  "badges": null,
+  "stat_installs": 1088,
+  "stat_comments": 1,
+  "current_version": "1.0.0",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 200.9,
+  "acceleration_pct": -69.9,
+  "dl_delta": 83,
+  "dl_wow": 0.5,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 6,
+  "installs_wow": 0.6,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 14840,
+      "stars": 26,
+      "installs_all_time": 962,
+      "installs_current": 944
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 14949,
+      "stars": 26,
+      "installs_all_time": 973,
+      "installs_current": 955
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 15116,
+      "stars": 26,
+      "installs_all_time": 991,
+      "installs_current": 973
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 15281,
+      "stars": 26,
+      "installs_all_time": 1005,
+      "installs_current": 987
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 15447,
+      "stars": 26,
+      "installs_all_time": 1018,
+      "installs_current": 998
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 15587,
+      "stars": 27,
+      "installs_all_time": 1035,
+      "installs_current": 1015
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 15849,
+      "stars": 27,
+      "installs_all_time": 1051,
+      "installs_current": 1031
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 15866,
+      "stars": 27,
+      "installs_all_time": 1055,
+      "installs_current": 1035
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 15928,
+      "stars": 27,
+      "installs_all_time": 1058,
+      "installs_current": 1038
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 16142,
+      "stars": 27,
+      "installs_all_time": 1070,
+      "installs_current": 1050
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 16387,
+      "stars": 27,
+      "installs_all_time": 1082,
+      "installs_current": 1062
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 16387,
+      "stars": 27,
+      "installs_all_time": 1082,
+      "installs_current": 1062
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 16470,
+      "stars": 27,
+      "installs_all_time": 1088,
+      "installs_current": 1067
+    }
+  ],
+  "version_releases": []
+}

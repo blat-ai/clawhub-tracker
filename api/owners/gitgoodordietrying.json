@@ -1,0 +1,356 @@
+{
+  "handle": "gitgoodordietrying",
+  "total_downloads": 99082,
+  "total_stars": 111,
+  "total_installs": 761,
+  "skill_count": 24,
+  "avg_dl_per_day": 77.9,
+  "highlighted_count": 0,
+  "suspicious_count": 24,
+  "clean_pct": 0.0,
+  "dl_delta": 388,
+  "dl_wow": 0.4,
+  "dl_per_day": 388.0,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "star_per_day": 0,
+  "installs_delta": 3,
+  "installs_wow": 0.4,
+  "installs_per_day": 3.0,
+  "owner_display_name": "gitgoodordietrying",
+  "owner_name": "gitgoodordietrying",
+  "owner_image": "https://avatars.githubusercontent.com/u/116975874?v=4",
+  "bio": null,
+  "company": null,
+  "location": null,
+  "blog": null,
+  "public_repos": null,
+  "followers": null,
+  "following": null,
+  "github_created_at": null,
+  "twitter_username": null,
+  "skills": [
+    {
+      "slug": "sql-toolkit",
+      "display_name": "SQL Toolkit",
+      "stat_downloads": 12196,
+      "stat_stars": 36,
+      "created_at": "2026-02-03T21:44:37.543000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "security-audit-toolkit",
+      "display_name": "Security Audit Toolkit",
+      "stat_downloads": 9253,
+      "stat_stars": 13,
+      "created_at": "2026-02-03T21:45:07.070000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "git-workflows",
+      "display_name": "Git Workflows",
+      "stat_downloads": 8967,
+      "stat_stars": 5,
+      "created_at": "2026-02-03T22:42:36.308000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "cron-scheduling",
+      "display_name": "Cron & Scheduling",
+      "stat_downloads": 7329,
+      "stat_stars": 7,
+      "created_at": "2026-02-03T22:43:29.900000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "api-dev",
+      "display_name": "API Development",
+      "stat_downloads": 6881,
+      "stat_stars": 6,
+      "created_at": "2026-02-03T20:47:56.718000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "csv-pipeline",
+      "display_name": "CSV Data Pipeline",
+      "stat_downloads": 4111,
+      "stat_stars": 1,
+      "created_at": "2026-02-03T20:47:49.885000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "log-analyzer",
+      "display_name": "Log Analyzer",
+      "stat_downloads": 4105,
+      "stat_stars": 4,
+      "created_at": "2026-02-03T21:44:46.063000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "docker-sandbox",
+      "display_name": "Docker Sandbox",
+      "stat_downloads": 3904,
+      "stat_stars": 5,
+      "created_at": "2026-02-03T20:47:39.792000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "ssh-tunnel",
+      "display_name": "SSH Tunnel",
+      "stat_downloads": 3594,
+      "stat_stars": 6,
+      "created_at": "2026-02-03T22:42:54.236000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "regex-patterns",
+      "display_name": "Regex Patterns",
+      "stat_downloads": 3545,
+      "stat_stars": 1,
+      "created_at": "2026-02-03T22:42:46.113000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "cicd-pipeline",
+      "display_name": "CI/CD Pipeline",
+      "stat_downloads": 3517,
+      "stat_stars": 1,
+      "created_at": "2026-02-03T20:48:01.245000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "container-debug",
+      "display_name": "Container Debug",
+      "stat_downloads": 3455,
+      "stat_stars": 1,
+      "created_at": "2026-02-03T22:43:04.219000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "shell-scripting",
+      "display_name": "Shell Scripting",
+      "stat_downloads": 3439,
+      "stat_stars": 1,
+      "created_at": "2026-02-03T22:43:12.857000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "dns-networking",
+      "display_name": "DNS & Networking",
+      "stat_downloads": 3059,
+      "stat_stars": 1,
+      "created_at": "2026-02-03T22:43:25.446000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "test-patterns",
+      "display_name": "Test Patterns",
+      "stat_downloads": 2872,
+      "stat_stars": 1,
+      "created_at": "2026-02-03T21:44:41.722000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "infra-as-code",
+      "display_name": "Infrastructure as Code",
+      "stat_downloads": 2746,
+      "stat_stars": 1,
+      "created_at": "2026-02-03T21:45:11.244000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "perf-profiler",
+      "display_name": "Performance Profiler",
+      "stat_downloads": 2691,
+      "stat_stars": 2,
+      "created_at": "2026-02-03T21:45:15.487000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "emergency-rescue",
+      "display_name": "Emergency Rescue Kit",
+      "stat_downloads": 2574,
+      "stat_stars": 1,
+      "created_at": "2026-02-03T23:11:04.867000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "skill-writer",
+      "display_name": "Skill Writer",
+      "stat_downloads": 2044,
+      "stat_stars": 9,
+      "created_at": "2026-02-03T22:55:56.664000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "data-validation",
+      "display_name": "Data Validation",
+      "stat_downloads": 1989,
+      "stat_stars": 1,
+      "created_at": "2026-02-03T22:43:08.475000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "skill-search-optimizer",
+      "display_name": "Skill Search Optimizer",
+      "stat_downloads": 1880,
+      "stat_stars": 3,
+      "created_at": "2026-02-03T22:56:06.784000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "skill-reviewer",
+      "display_name": "Skill Reviewer",
+      "stat_downloads": 1770,
+      "stat_stars": 1,
+      "created_at": "2026-02-03T22:56:01.631000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "encoding-formats",
+      "display_name": "Encoding & Formats",
+      "stat_downloads": 1707,
+      "stat_stars": 1,
+      "created_at": "2026-02-03T22:43:34.078000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "makefile-build",
+      "display_name": "Makefile & Build",
+      "stat_downloads": 1454,
+      "stat_stars": 3,
+      "created_at": "2026-02-03T22:43:38.407000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": true
+    }
+  ],
+  "trajectory": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 88097,
+      "stars": 100
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 88777,
+      "stars": 101
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 90262,
+      "stars": 102
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 91333,
+      "stars": 104
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 92367,
+      "stars": 107
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 93470,
+      "stars": 107
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 95437,
+      "stars": 108
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 95577,
+      "stars": 108
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 95934,
+      "stars": 108
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 97022,
+      "stars": 109
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 98694,
+      "stars": 111
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 98694,
+      "stars": 111
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 99082,
+      "stars": 111
+    }
+  ],
+  "download_trajectory": [
+    88097,
+    88777,
+    90262,
+    91333,
+    92367,
+    93470,
+    95437,
+    95577,
+    95934,
+    97022,
+    98694,
+    98694,
+    99082
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd7cpwvfbzzh1cajx0btyg5vrn811nfw",
+  "slug": "frontend-design-3",
+  "display_name": "Frontend Design",
+  "summary": "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when building web components, pages, or applications. Generates creative, polished code that avoids generic AI aesthetics.",
+  "owner_handle": "michaelmonetized",
+  "owner_image": "https://avatars.githubusercontent.com/u/162010215?v=4",
+  "created_at": "2026-02-12T02:14:32.442000",
+  "days_old": 44,
+  "stat_downloads": 11740,
+  "stat_stars": 25,
+  "tags": {
+    "latest": "k9794sgxdxakvtdv3em0bhr8d98100rw"
+  },
+  "badges": null,
+  "stat_installs": 116,
+  "stat_comments": 0,
+  "current_version": "0.1.0",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 266.8,
+  "acceleration_pct": -66.7,
+  "dl_delta": 156,
+  "dl_wow": 1.3,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 1,
+  "installs_wow": 0.9,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 8214,
+      "stars": 16,
+      "installs_all_time": 83,
+      "installs_current": 79
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 8381,
+      "stars": 16,
+      "installs_all_time": 86,
+      "installs_current": 82
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 8783,
+      "stars": 16,
+      "installs_all_time": 88,
+      "installs_current": 84
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 9099,
+      "stars": 16,
+      "installs_all_time": 91,
+      "installs_current": 87
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 9456,
+      "stars": 18,
+      "installs_all_time": 96,
+      "installs_current": 91
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 9801,
+      "stars": 18,
+      "installs_all_time": 99,
+      "installs_current": 94
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 10396,
+      "stars": 21,
+      "installs_all_time": 106,
+      "installs_current": 100
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 10439,
+      "stars": 22,
+      "installs_all_time": 107,
+      "installs_current": 100
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 10517,
+      "stars": 22,
+      "installs_all_time": 107,
+      "installs_current": 100
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 10908,
+      "stars": 24,
+      "installs_all_time": 111,
+      "installs_current": 104
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 11584,
+      "stars": 25,
+      "installs_all_time": 115,
+      "installs_current": 108
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 11584,
+      "stars": 25,
+      "installs_all_time": 115,
+      "installs_current": 108
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 11740,
+      "stars": 25,
+      "installs_all_time": 116,
+      "installs_current": 109
+    }
+  ],
+  "version_releases": []
+}

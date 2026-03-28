@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd71441rhp9bqw7gajg2x0n25180nhap",
+  "slug": "github-api",
+  "display_name": "GitHub",
+  "summary": "GitHub API integration with managed OAuth. Access repositories, issues, pull requests, commits, branches, and users.\nUse this skill when users want to interact with GitHub repositories, manage issues and PRs, search code, or automate workflows.\nFor other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
+  "owner_handle": "byungkyu",
+  "owner_image": "https://avatars.githubusercontent.com/u/16563684?v=4",
+  "created_at": "2026-02-06T04:05:03.641000",
+  "days_old": 49,
+  "stat_downloads": 13639,
+  "stat_stars": 41,
+  "tags": {
+    "latest": "k97ckr4n9ynvx56zgy70qy8ccs80weqh"
+  },
+  "badges": null,
+  "stat_installs": 43,
+  "stat_comments": 3,
+  "current_version": "1.0.3",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 278.3,
+  "acceleration_pct": -71.9,
+  "dl_delta": 9,
+  "dl_wow": 0.1,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 0,
+  "installs_wow": 0.0,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 13414,
+      "stars": 41,
+      "installs_all_time": 34,
+      "installs_current": 32
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 13435,
+      "stars": 41,
+      "installs_all_time": 35,
+      "installs_current": 33
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 13468,
+      "stars": 41,
+      "installs_all_time": 35,
+      "installs_current": 33
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 13492,
+      "stars": 41,
+      "installs_all_time": 36,
+      "installs_current": 34
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 13500,
+      "stars": 41,
+      "installs_all_time": 38,
+      "installs_current": 35
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 13512,
+      "stars": 41,
+      "installs_all_time": 39,
+      "installs_current": 36
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 13555,
+      "stars": 41,
+      "installs_all_time": 42,
+      "installs_current": 39
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 13559,
+      "stars": 41,
+      "installs_all_time": 42,
+      "installs_current": 39
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 13566,
+      "stars": 41,
+      "installs_all_time": 42,
+      "installs_current": 39
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 13591,
+      "stars": 41,
+      "installs_all_time": 42,
+      "installs_current": 39
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 13630,
+      "stars": 41,
+      "installs_all_time": 43,
+      "installs_current": 40
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 13630,
+      "stars": 41,
+      "installs_all_time": 43,
+      "installs_current": 40
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 13639,
+      "stars": 41,
+      "installs_all_time": 43,
+      "installs_current": 40
+    }
+  ],
+  "version_releases": []
+}

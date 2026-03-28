@@ -1,0 +1,196 @@
+{
+  "handle": "udiedrichsen",
+  "total_downloads": 55307,
+  "total_stars": 206,
+  "total_installs": 489,
+  "skill_count": 8,
+  "avg_dl_per_day": 98.0,
+  "highlighted_count": 0,
+  "suspicious_count": 8,
+  "clean_pct": 0.0,
+  "dl_delta": 174,
+  "dl_wow": 0.3,
+  "dl_per_day": 174.0,
+  "star_delta": 2,
+  "star_wow": 1.0,
+  "star_per_day": 2.0,
+  "installs_delta": 1,
+  "installs_wow": 0.2,
+  "installs_per_day": 1.0,
+  "owner_display_name": "udiedrichsen",
+  "owner_name": "udiedrichsen",
+  "owner_image": "https://avatars.githubusercontent.com/u/4386398?v=4",
+  "bio": "Developer, Motorbike rider and hobby cook with a passion for speed.",
+  "company": "Moinsen Software Development",
+  "location": "Hamburg - Germany",
+  "blog": "http://www.moinsen.dev",
+  "public_repos": 34,
+  "followers": 28,
+  "following": 32,
+  "github_created_at": "2013-05-09T11:51:15",
+  "twitter_username": null,
+  "skills": [
+    {
+      "slug": "stock-analysis",
+      "display_name": "Stock Analysis",
+      "stat_downloads": 39357,
+      "stat_stars": 190,
+      "created_at": "2026-01-14T09:46:15.214000",
+      "days_old": 73,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "shopping-expert",
+      "display_name": "Shopping Expert",
+      "stat_downloads": 3176,
+      "stat_stars": 5,
+      "created_at": "2026-01-14T13:23:23.501000",
+      "days_old": 73,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "audio-gen",
+      "display_name": "Audio Content Generator",
+      "stat_downloads": 2380,
+      "stat_stars": 1,
+      "created_at": "2026-01-14T14:24:52.046000",
+      "days_old": 73,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "event-planner",
+      "display_name": "Event Planner",
+      "stat_downloads": 2256,
+      "stat_stars": 6,
+      "created_at": "2026-01-14T11:58:01.592000",
+      "days_old": 73,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "idea-coach",
+      "display_name": "Idea Coach",
+      "stat_downloads": 2151,
+      "stat_stars": 1,
+      "created_at": "2026-02-02T08:48:17.561000",
+      "days_old": 54,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "clawdbot-sync",
+      "display_name": "Clawdbot Sync",
+      "stat_downloads": 2121,
+      "stat_stars": 1,
+      "created_at": "2026-01-26T12:55:38.552000",
+      "days_old": 61,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "streaming-buddy",
+      "display_name": "Streaming Buddy",
+      "stat_downloads": 2039,
+      "stat_stars": 1,
+      "created_at": "2026-01-26T12:46:06.851000",
+      "days_old": 61,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "device-assistant",
+      "display_name": "Device Assistant",
+      "stat_downloads": 1827,
+      "stat_stars": 1,
+      "created_at": "2026-01-26T13:26:23.734000",
+      "days_old": 61,
+      "is_highlighted": false,
+      "is_suspicious": true
+    }
+  ],
+  "trajectory": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 49271,
+      "stars": 183
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 49803,
+      "stars": 186
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 50792,
+      "stars": 189
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 51458,
+      "stars": 191
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 52031,
+      "stars": 196
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 52571,
+      "stars": 196
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 53550,
+      "stars": 198
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 53611,
+      "stars": 198
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 53733,
+      "stars": 198
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 54276,
+      "stars": 202
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 55133,
+      "stars": 204
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 55133,
+      "stars": 204
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 55307,
+      "stars": 206
+    }
+  ],
+  "download_trajectory": [
+    49271,
+    49803,
+    50792,
+    51458,
+    52031,
+    52571,
+    53550,
+    53611,
+    53733,
+    54276,
+    55133,
+    55133,
+    55307
+  ]
+}

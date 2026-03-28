@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd73xvyspmzkqye0a7gm0jcx1h80h4yq",
+  "slug": "agent-autonomy-kit",
+  "display_name": "Agent Autonomy Kit",
+  "summary": "Stop waiting for prompts. Keep working.",
+  "owner_handle": "ryancampbell",
+  "owner_image": "https://avatars.githubusercontent.com/u/121135?v=4",
+  "created_at": "2026-02-04T20:43:41.307000",
+  "days_old": 51,
+  "stat_downloads": 14546,
+  "stat_stars": 65,
+  "tags": {
+    "latest": "k97fdv0f7xnak9kkxmy1mr7k3x80gmap"
+  },
+  "badges": null,
+  "stat_installs": 163,
+  "stat_comments": 3,
+  "current_version": "1.0.0",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 285.2,
+  "acceleration_pct": -74.5,
+  "dl_delta": 55,
+  "dl_wow": 0.4,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 0,
+  "installs_wow": 0.0,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 12891,
+      "stars": 61,
+      "installs_all_time": 129,
+      "installs_current": 122
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 12992,
+      "stars": 61,
+      "installs_all_time": 131,
+      "installs_current": 124
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 13165,
+      "stars": 61,
+      "installs_all_time": 137,
+      "installs_current": 130
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 13325,
+      "stars": 62,
+      "installs_all_time": 139,
+      "installs_current": 132
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 13544,
+      "stars": 63,
+      "installs_all_time": 145,
+      "installs_current": 137
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 13742,
+      "stars": 63,
+      "installs_all_time": 151,
+      "installs_current": 142
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 14023,
+      "stars": 64,
+      "installs_all_time": 156,
+      "installs_current": 147
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 14045,
+      "stars": 64,
+      "installs_all_time": 156,
+      "installs_current": 147
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 14110,
+      "stars": 64,
+      "installs_all_time": 156,
+      "installs_current": 146
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 14261,
+      "stars": 64,
+      "installs_all_time": 158,
+      "installs_current": 147
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 14491,
+      "stars": 65,
+      "installs_all_time": 163,
+      "installs_current": 152
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 14491,
+      "stars": 65,
+      "installs_all_time": 163,
+      "installs_current": 152
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 14546,
+      "stars": 65,
+      "installs_all_time": 163,
+      "installs_current": 152
+    }
+  ],
+  "version_releases": []
+}

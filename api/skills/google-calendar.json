@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd74yhd02tfjctyv85q821v89x809028",
+  "slug": "google-calendar",
+  "display_name": "Google Calendar",
+  "summary": "Interact with Google Calendar via the Google Calendar API \u2013 list upcoming events, create new events, update or delete them. Use this skill when you need programmatic access to your calendar from OpenClaw.",
+  "owner_handle": "adrianmiller99",
+  "owner_image": "https://avatars.githubusercontent.com/u/130710178?v=4",
+  "created_at": "2026-01-31T17:09:20.981000",
+  "days_old": 55,
+  "stat_downloads": 11582,
+  "stat_stars": 11,
+  "tags": {
+    "latest": "k974ssbjy3yv8ms0accztps349809z11"
+  },
+  "badges": null,
+  "stat_installs": 98,
+  "stat_comments": 0,
+  "current_version": "0.1.0",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 210.6,
+  "acceleration_pct": -65.8,
+  "dl_delta": 51,
+  "dl_wow": 0.4,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 0,
+  "installs_wow": 0.0,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 10588,
+      "stars": 11,
+      "installs_all_time": 86,
+      "installs_current": 86
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 10666,
+      "stars": 11,
+      "installs_all_time": 87,
+      "installs_current": 87
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 10781,
+      "stars": 11,
+      "installs_all_time": 88,
+      "installs_current": 88
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 10874,
+      "stars": 11,
+      "installs_all_time": 92,
+      "installs_current": 92
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 10960,
+      "stars": 11,
+      "installs_all_time": 93,
+      "installs_current": 92
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 11049,
+      "stars": 11,
+      "installs_all_time": 94,
+      "installs_current": 93
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 11205,
+      "stars": 11,
+      "installs_all_time": 95,
+      "installs_current": 94
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 11219,
+      "stars": 11,
+      "installs_all_time": 95,
+      "installs_current": 94
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 11267,
+      "stars": 11,
+      "installs_all_time": 95,
+      "installs_current": 94
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 11368,
+      "stars": 11,
+      "installs_all_time": 98,
+      "installs_current": 97
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 11531,
+      "stars": 11,
+      "installs_all_time": 98,
+      "installs_current": 97
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 11531,
+      "stars": 11,
+      "installs_all_time": 98,
+      "installs_current": 97
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 11582,
+      "stars": 11,
+      "installs_all_time": 98,
+      "installs_current": 97
+    }
+  ],
+  "version_releases": []
+}

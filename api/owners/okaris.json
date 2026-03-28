@@ -1,0 +1,696 @@
+{
+  "handle": "okaris",
+  "total_downloads": 70419,
+  "total_stars": 33,
+  "total_installs": 389,
+  "skill_count": 58,
+  "avg_dl_per_day": 25.2,
+  "highlighted_count": 0,
+  "suspicious_count": 58,
+  "clean_pct": 0.0,
+  "dl_delta": 277,
+  "dl_wow": 0.4,
+  "dl_per_day": 277.0,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "star_per_day": 0,
+  "installs_delta": 2,
+  "installs_wow": 0.5,
+  "installs_per_day": 2.0,
+  "owner_display_name": "\u00d6mer Kar\u0131\u015fman",
+  "owner_name": "okaris",
+  "owner_image": "https://avatars.githubusercontent.com/u/1448702?v=4",
+  "bio": null,
+  "company": "inference.sh",
+  "location": "Germany",
+  "blog": "okaris.com",
+  "public_repos": 90,
+  "followers": 117,
+  "following": 39,
+  "github_created_at": "2012-02-18T08:13:02",
+  "twitter_username": "okarisman",
+  "skills": [
+    {
+      "slug": "python-executor",
+      "display_name": "Python Executor",
+      "stat_downloads": 5382,
+      "stat_stars": 2,
+      "created_at": "2026-02-06T07:37:26.663000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "ai-automation-workflows",
+      "display_name": "Ai Automation Workflows",
+      "stat_downloads": 3610,
+      "stat_stars": 1,
+      "created_at": "2026-02-05T19:36:00.390000",
+      "days_old": 51,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "ai-image-generation",
+      "display_name": "Ai Image Generation",
+      "stat_downloads": 3408,
+      "stat_stars": 0,
+      "created_at": "2026-02-06T07:30:08.070000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "data-visualization-2",
+      "display_name": "Data Visualization",
+      "stat_downloads": 2323,
+      "stat_stars": 0,
+      "created_at": "2026-02-09T17:03:58.494000",
+      "days_old": 47,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "speech-to-text",
+      "display_name": "Speech To Text",
+      "stat_downloads": 2180,
+      "stat_stars": 0,
+      "created_at": "2026-02-06T07:39:05.741000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "ai-social-media-content",
+      "display_name": "Ai Social Media Content",
+      "stat_downloads": 1950,
+      "stat_stars": 6,
+      "created_at": "2026-02-06T07:31:57.508000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "twitter-automation",
+      "display_name": "Twitter Automation",
+      "stat_downloads": 1938,
+      "stat_stars": 2,
+      "created_at": "2026-02-06T07:39:52.927000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "agent-ui",
+      "display_name": "Agent Ui",
+      "stat_downloads": 1763,
+      "stat_stars": 2,
+      "created_at": "2026-02-05T19:32:15.031000",
+      "days_old": 51,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "tools-ui",
+      "display_name": "Tools Ui",
+      "stat_downloads": 1559,
+      "stat_stars": 0,
+      "created_at": "2026-02-06T07:39:35.927000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "nano-banana-2",
+      "display_name": "Nano Banana 2",
+      "stat_downloads": 1545,
+      "stat_stars": 2,
+      "created_at": "2026-02-27T10:28:06.638000",
+      "days_old": 29,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "flux-image",
+      "display_name": "Flux Image",
+      "stat_downloads": 1511,
+      "stat_stars": 2,
+      "created_at": "2026-02-06T07:35:08.660000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "ai-video-generation",
+      "display_name": "Ai Video Generation",
+      "stat_downloads": 1477,
+      "stat_stars": 2,
+      "created_at": "2026-02-06T07:32:17.204000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "ai-product-photography",
+      "display_name": "Ai Product Photography",
+      "stat_downloads": 1464,
+      "stat_stars": 0,
+      "created_at": "2026-02-06T07:31:18.339000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "ai-marketing-videos",
+      "display_name": "Ai Marketing Videos",
+      "stat_downloads": 1436,
+      "stat_stars": 5,
+      "created_at": "2026-02-06T07:30:32.829000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "background-removal",
+      "display_name": "Background Removal",
+      "stat_downloads": 1336,
+      "stat_stars": 0,
+      "created_at": "2026-02-06T07:33:02.554000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "agentic-browser",
+      "display_name": "Agent Browser",
+      "stat_downloads": 1330,
+      "stat_stars": 2,
+      "created_at": "2026-02-05T19:35:16.711000",
+      "days_old": 51,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "image-upscaling",
+      "display_name": "Image Upscaling",
+      "stat_downloads": 1301,
+      "stat_stars": 0,
+      "created_at": "2026-02-06T07:35:54.466000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "competitor-teardown",
+      "display_name": "Competitor Teardown",
+      "stat_downloads": 1292,
+      "stat_stars": 0,
+      "created_at": "2026-02-09T17:04:57.801000",
+      "days_old": 47,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "ai-music-generation",
+      "display_name": "Ai Music Generation",
+      "stat_downloads": 1277,
+      "stat_stars": 0,
+      "created_at": "2026-02-06T07:30:45.315000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "text-to-speech",
+      "display_name": "Text To Speech",
+      "stat_downloads": 1261,
+      "stat_stars": 0,
+      "created_at": "2026-02-06T07:39:17.308000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "javascript-sdk",
+      "display_name": "Javascript Sdk",
+      "stat_downloads": 1260,
+      "stat_stars": 0,
+      "created_at": "2026-02-06T07:36:10.855000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "ai-voice-cloning",
+      "display_name": "Ai Voice Cloning",
+      "stat_downloads": 1255,
+      "stat_stars": 0,
+      "created_at": "2026-02-06T07:32:31.594000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "ai-podcast-creation",
+      "display_name": "Ai Podcast Creation",
+      "stat_downloads": 1234,
+      "stat_stars": 0,
+      "created_at": "2026-02-06T07:31:01.080000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "llm-models",
+      "display_name": "Llm Models",
+      "stat_downloads": 1180,
+      "stat_stars": 0,
+      "created_at": "2026-02-06T07:36:22.390000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "chat-ui",
+      "display_name": "Chat Ui",
+      "stat_downloads": 1171,
+      "stat_stars": 0,
+      "created_at": "2026-02-06T07:34:55.823000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "python-sdk",
+      "display_name": "Python Sdk",
+      "stat_downloads": 1145,
+      "stat_stars": 0,
+      "created_at": "2026-02-06T07:38:21.311000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "video-prompting-guide",
+      "display_name": "Video Prompting Guide",
+      "stat_downloads": 1090,
+      "stat_stars": 2,
+      "created_at": "2026-02-06T07:40:13.670000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "ai-rag-pipeline",
+      "display_name": "Ai Rag Pipeline",
+      "stat_downloads": 1085,
+      "stat_stars": 0,
+      "created_at": "2026-02-06T07:31:45.070000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "google-veo",
+      "display_name": "Google Veo",
+      "stat_downloads": 1040,
+      "stat_stars": 2,
+      "created_at": "2026-02-06T07:35:43.265000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "related-skill",
+      "display_name": "Related Skill",
+      "stat_downloads": 1029,
+      "stat_stars": 0,
+      "created_at": "2026-02-06T07:38:55.658000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "ai-avatar-video",
+      "display_name": "Ai Avatar Video",
+      "stat_downloads": 990,
+      "stat_stars": 0,
+      "created_at": "2026-02-06T07:29:34.637000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "linkedin-content",
+      "display_name": "Linkedin Content",
+      "stat_downloads": 924,
+      "stat_stars": 0,
+      "created_at": "2026-02-09T17:02:33.156000",
+      "days_old": 47,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "storyboard-creation",
+      "display_name": "Storyboard Creation",
+      "stat_downloads": 924,
+      "stat_stars": 0,
+      "created_at": "2026-02-09T16:59:08.569000",
+      "days_old": 47,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "image-to-video",
+      "display_name": "Image To Video",
+      "stat_downloads": 836,
+      "stat_stars": 0,
+      "created_at": "2026-02-18T08:26:43.755000",
+      "days_old": 38,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "youtube-thumbnail-design",
+      "display_name": "Youtube Thumbnail Design",
+      "stat_downloads": 775,
+      "stat_stars": 0,
+      "created_at": "2026-02-09T16:57:41.863000",
+      "days_old": 47,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "email-design",
+      "display_name": "Email Design",
+      "stat_downloads": 769,
+      "stat_stars": 0,
+      "created_at": "2026-02-09T17:03:24.093000",
+      "days_old": 47,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "technical-blog-writing",
+      "display_name": "Technical Blog Writing",
+      "stat_downloads": 723,
+      "stat_stars": 0,
+      "created_at": "2026-02-09T16:58:38.322000",
+      "days_old": 47,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "app-store-screenshots",
+      "display_name": "App Store Screenshots",
+      "stat_downloads": 720,
+      "stat_stars": 2,
+      "created_at": "2026-02-09T17:06:31.325000",
+      "days_old": 47,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "logo-design-guide",
+      "display_name": "Logo Design Guide",
+      "stat_downloads": 716,
+      "stat_stars": 0,
+      "created_at": "2026-02-09T17:01:46.878000",
+      "days_old": 47,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "customer-persona",
+      "display_name": "Customer Persona",
+      "stat_downloads": 713,
+      "stat_stars": 0,
+      "created_at": "2026-02-09T17:04:18.734000",
+      "days_old": 47,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "character-design-sheet",
+      "display_name": "Character Design Sheet",
+      "stat_downloads": 709,
+      "stat_stars": 0,
+      "created_at": "2026-02-09T17:05:14.598000",
+      "days_old": 47,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "pitch-deck-visuals",
+      "display_name": "Pitch Deck Visuals",
+      "stat_downloads": 703,
+      "stat_stars": 0,
+      "created_at": "2026-02-09T17:00:59.271000",
+      "days_old": 47,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "seo-content-brief",
+      "display_name": "Seo Content Brief",
+      "stat_downloads": 702,
+      "stat_stars": 0,
+      "created_at": "2026-02-09T16:59:36.414000",
+      "days_old": 47,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "landing-page-design",
+      "display_name": "Landing Page Design",
+      "stat_downloads": 688,
+      "stat_stars": 0,
+      "created_at": "2026-02-09T17:02:44.507000",
+      "days_old": 47,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "twitter-thread-creation",
+      "display_name": "Twitter Thread Creation",
+      "stat_downloads": 678,
+      "stat_stars": 0,
+      "created_at": "2026-02-09T16:58:18.759000",
+      "days_old": 47,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "ai-content-pipeline",
+      "display_name": "Ai Content Pipeline",
+      "stat_downloads": 659,
+      "stat_stars": 0,
+      "created_at": "2026-02-09T17:07:36.537000",
+      "days_old": 47,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "prompt-engineering",
+      "display_name": "Prompt Engineering",
+      "stat_downloads": 656,
+      "stat_stars": 0,
+      "created_at": "2026-02-06T07:37:02.805000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "dialogue-audio",
+      "display_name": "Dialogue Audio",
+      "stat_downloads": 655,
+      "stat_stars": 0,
+      "created_at": "2026-02-09T17:03:45.352000",
+      "days_old": 47,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "book-cover-design",
+      "display_name": "Book Cover Design",
+      "stat_downloads": 637,
+      "stat_stars": 1,
+      "created_at": "2026-02-09T17:06:10.283000",
+      "days_old": 47,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "press-release-writing",
+      "display_name": "Press Release Writing",
+      "stat_downloads": 629,
+      "stat_stars": 0,
+      "created_at": "2026-02-09T17:00:44.240000",
+      "days_old": 47,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "og-image-design",
+      "display_name": "Og Image Design",
+      "stat_downloads": 623,
+      "stat_stars": 0,
+      "created_at": "2026-02-09T17:01:14.707000",
+      "days_old": 47,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "talking-head-production",
+      "display_name": "Talking Head Production",
+      "stat_downloads": 621,
+      "stat_stars": 0,
+      "created_at": "2026-02-09T16:58:54.819000",
+      "days_old": 47,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "video-ad-specs",
+      "display_name": "Video Ad Specs",
+      "stat_downloads": 619,
+      "stat_stars": 0,
+      "created_at": "2026-02-09T16:58:06.404000",
+      "days_old": 47,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "case-study-writing",
+      "display_name": "Case Study Writing",
+      "stat_downloads": 616,
+      "stat_stars": 0,
+      "created_at": "2026-02-09T17:05:31.227000",
+      "days_old": 47,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "product-hunt-launch-2",
+      "display_name": "Product Hunt Launch",
+      "stat_downloads": 598,
+      "stat_stars": 0,
+      "created_at": "2026-02-09T17:00:14.107000",
+      "days_old": 47,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "explainer-video-guide",
+      "display_name": "Explainer Video Guide",
+      "stat_downloads": 590,
+      "stat_stars": 0,
+      "created_at": "2026-02-09T17:03:08.488000",
+      "days_old": 47,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "newsletter-curation",
+      "display_name": "Newsletter Curation",
+      "stat_downloads": 579,
+      "stat_stars": 0,
+      "created_at": "2026-02-09T17:01:31.304000",
+      "days_old": 47,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "product-changelog",
+      "display_name": "Product Changelog",
+      "stat_downloads": 535,
+      "stat_stars": 0,
+      "created_at": "2026-02-09T17:00:27.965000",
+      "days_old": 47,
+      "is_highlighted": false,
+      "is_suspicious": true
+    }
+  ],
+  "trajectory": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 62360,
+      "stars": 33
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 62806,
+      "stars": 33
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 63979,
+      "stars": 33
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 64630,
+      "stars": 33
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 65325,
+      "stars": 33
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 66055,
+      "stars": 33
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 67571,
+      "stars": 33
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 67665,
+      "stars": 32
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 67955,
+      "stars": 32
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 68751,
+      "stars": 32
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 70142,
+      "stars": 33
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 70142,
+      "stars": 33
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 70419,
+      "stars": 33
+    }
+  ],
+  "download_trajectory": [
+    62360,
+    62806,
+    63979,
+    64630,
+    65325,
+    66055,
+    67571,
+    67665,
+    67955,
+    68751,
+    70142,
+    70142,
+    70419
+  ]
+}

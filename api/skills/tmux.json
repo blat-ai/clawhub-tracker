@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd7b1tdyfwqzs9ced394yt6f297yj9z3",
+  "slug": "tmux",
+  "display_name": "Tmux",
+  "summary": "Remote-control tmux sessions for interactive CLIs by sending keystrokes and scraping pane output.",
+  "owner_handle": "steipete",
+  "owner_image": "https://avatars.githubusercontent.com/u/58493?v=4",
+  "created_at": "2026-01-04T16:49:47.948000",
+  "days_old": 82,
+  "stat_downloads": 19413,
+  "stat_stars": 36,
+  "tags": {
+    "latest": "k979d2nw8m5zyk0wbefkwnpa597yjd9e"
+  },
+  "badges": null,
+  "stat_installs": 1195,
+  "stat_comments": 3,
+  "current_version": "1.0.0",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 236.7,
+  "acceleration_pct": -70.0,
+  "dl_delta": 109,
+  "dl_wow": 0.6,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 7,
+  "installs_wow": 0.6,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 17015,
+      "stars": 32,
+      "installs_all_time": 1054,
+      "installs_current": 1028
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 17162,
+      "stars": 32,
+      "installs_all_time": 1065,
+      "installs_current": 1039
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 17431,
+      "stars": 33,
+      "installs_all_time": 1086,
+      "installs_current": 1059
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 17670,
+      "stars": 33,
+      "installs_all_time": 1100,
+      "installs_current": 1073
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 17911,
+      "stars": 34,
+      "installs_all_time": 1112,
+      "installs_current": 1083
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 18133,
+      "stars": 35,
+      "installs_all_time": 1128,
+      "installs_current": 1098
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 18509,
+      "stars": 35,
+      "installs_all_time": 1155,
+      "installs_current": 1124
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 18538,
+      "stars": 35,
+      "installs_all_time": 1160,
+      "installs_current": 1128
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 18608,
+      "stars": 35,
+      "installs_all_time": 1163,
+      "installs_current": 1131
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 18901,
+      "stars": 35,
+      "installs_all_time": 1173,
+      "installs_current": 1140
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 19304,
+      "stars": 36,
+      "installs_all_time": 1188,
+      "installs_current": 1155
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 19304,
+      "stars": 36,
+      "installs_all_time": 1188,
+      "installs_current": 1155
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 19413,
+      "stars": 36,
+      "installs_all_time": 1195,
+      "installs_current": 1161
+    }
+  ],
+  "version_releases": []
+}

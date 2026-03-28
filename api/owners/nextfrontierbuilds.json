@@ -1,0 +1,256 @@
+{
+  "handle": "nextfrontierbuilds",
+  "total_downloads": 77350,
+  "total_stars": 219,
+  "total_installs": 549,
+  "skill_count": 14,
+  "avg_dl_per_day": 99.0,
+  "highlighted_count": 0,
+  "suspicious_count": 14,
+  "clean_pct": 0.0,
+  "dl_delta": 348,
+  "dl_wow": 0.5,
+  "dl_per_day": 348.0,
+  "star_delta": 2,
+  "star_wow": 0.9,
+  "star_per_day": 2.0,
+  "installs_delta": 4,
+  "installs_wow": 0.7,
+  "installs_per_day": 4.0,
+  "owner_display_name": "NextFrontierBuilds",
+  "owner_name": null,
+  "owner_image": "https://avatars.githubusercontent.com/u/257253317?v=4",
+  "bio": "Free AI dev tools. One command. No setup. Building Strykr, PRISM, and Moltbot skills.",
+  "company": null,
+  "location": "Kuala Lumpur, Malaysia",
+  "blog": "https://strykr.com",
+  "public_repos": 29,
+  "followers": 2,
+  "following": 0,
+  "github_created_at": "2026-01-26T08:03:55",
+  "twitter_username": "NextXFrontier",
+  "skills": [
+    {
+      "slug": "elite-longterm-memory",
+      "display_name": "Elite Longterm Memory",
+      "stat_downloads": 42196,
+      "stat_stars": 166,
+      "created_at": "2026-02-02T16:37:23.398000",
+      "days_old": 54,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "ai-pdf-builder",
+      "display_name": "Ai Pdf Builder",
+      "stat_downloads": 5192,
+      "stat_stars": 1,
+      "created_at": "2026-01-27T07:45:42.443000",
+      "days_old": 60,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "moltbot-best-practices",
+      "display_name": "Moltbot Best Practices",
+      "stat_downloads": 4180,
+      "stat_stars": 20,
+      "created_at": "2026-01-28T18:12:09.037000",
+      "days_old": 59,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "x-algorithm",
+      "display_name": "X Algorithm",
+      "stat_downloads": 3698,
+      "stat_stars": 16,
+      "created_at": "2026-01-28T18:19:29.370000",
+      "days_old": 59,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "skill-scaffold",
+      "display_name": "Skill Scaffold",
+      "stat_downloads": 3402,
+      "stat_stars": 1,
+      "created_at": "2026-02-02T16:39:05.111000",
+      "days_old": 54,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "fear-greed",
+      "display_name": "Fear Greed",
+      "stat_downloads": 2837,
+      "stat_stars": 1,
+      "created_at": "2026-01-28T05:22:47.369000",
+      "days_old": 59,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "x-articles",
+      "display_name": "X Articles",
+      "stat_downloads": 2782,
+      "stat_stars": 6,
+      "created_at": "2026-01-27T19:23:04.836000",
+      "days_old": 60,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "moltbot-security",
+      "display_name": "Moltbot Security",
+      "stat_downloads": 2454,
+      "stat_stars": 3,
+      "created_at": "2026-01-28T18:52:20.579000",
+      "days_old": 59,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "strykr-prism",
+      "display_name": "Strykr Prism",
+      "stat_downloads": 1935,
+      "stat_stars": 1,
+      "created_at": "2026-01-28T05:14:33.717000",
+      "days_old": 59,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "prism-alerts",
+      "display_name": "Prism Alerts",
+      "stat_downloads": 1850,
+      "stat_stars": 1,
+      "created_at": "2026-01-28T05:22:41.137000",
+      "days_old": 59,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "prism-scanner",
+      "display_name": "Prism Scanner",
+      "stat_downloads": 1775,
+      "stat_stars": 1,
+      "created_at": "2026-01-28T05:22:35.347000",
+      "days_old": 59,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "web-qa-bot",
+      "display_name": "Web Qa Bot",
+      "stat_downloads": 1738,
+      "stat_stars": 0,
+      "created_at": "2026-01-28T08:49:49.001000",
+      "days_old": 59,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "strykr-qa-bot",
+      "display_name": "Strykr Qa Bot",
+      "stat_downloads": 1719,
+      "stat_stars": 1,
+      "created_at": "2026-02-02T16:40:47.473000",
+      "days_old": 54,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "package-seo",
+      "display_name": "Package SEO",
+      "stat_downloads": 1592,
+      "stat_stars": 1,
+      "created_at": "2026-02-02T10:50:36.916000",
+      "days_old": 54,
+      "is_highlighted": false,
+      "is_suspicious": true
+    }
+  ],
+  "trajectory": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 67688,
+      "stars": 194
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 68292,
+      "stars": 196
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 69622,
+      "stars": 199
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 70573,
+      "stars": 203
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 71491,
+      "stars": 205
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 72387,
+      "stars": 208
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 74199,
+      "stars": 213
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 74333,
+      "stars": 213
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 74595,
+      "stars": 213
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 75549,
+      "stars": 214
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 77002,
+      "stars": 217
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 77002,
+      "stars": 217
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 77350,
+      "stars": 219
+    }
+  ],
+  "download_trajectory": [
+    67688,
+    68292,
+    69622,
+    70573,
+    71491,
+    72387,
+    74199,
+    74333,
+    74595,
+    75549,
+    77002,
+    77002,
+    77350
+  ]
+}

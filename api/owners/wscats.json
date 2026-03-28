@@ -1,0 +1,336 @@
+{
+  "handle": "wscats",
+  "total_downloads": 66158,
+  "total_stars": 41,
+  "total_installs": 17,
+  "skill_count": 22,
+  "avg_dl_per_day": 226.1,
+  "highlighted_count": 0,
+  "suspicious_count": 0,
+  "clean_pct": 100.0,
+  "dl_delta": 2531,
+  "dl_wow": 4.0,
+  "dl_per_day": 2531.0,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "star_per_day": 0,
+  "installs_delta": 1,
+  "installs_wow": 6.2,
+  "installs_per_day": 1.0,
+  "owner_display_name": "enoyao",
+  "owner_name": null,
+  "owner_image": "https://avatars.githubusercontent.com/u/17243165?v=4",
+  "bio": "Those very adventurous dreams, I will go crazy with you! \r\n",
+  "company": "@Tencent ",
+  "location": "ShenZhen, China",
+  "blog": null,
+  "public_repos": 103,
+  "followers": 2859,
+  "following": 13,
+  "github_created_at": "2016-02-15T03:55:41",
+  "twitter_username": null,
+  "skills": [
+    {
+      "slug": "bilibili-all-in-one",
+      "display_name": "Bilibili All In One",
+      "stat_downloads": 5383,
+      "stat_stars": 4,
+      "created_at": "2026-03-15T05:40:40.986000",
+      "days_old": 13,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "code-analysis-skills",
+      "display_name": "Code Analysis Skills",
+      "stat_downloads": 5212,
+      "stat_stars": 2,
+      "created_at": "2026-03-13T02:18:15.903000",
+      "days_old": 15,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "smart-weekly-report",
+      "display_name": "Report Generator",
+      "stat_downloads": 5201,
+      "stat_stars": 5,
+      "created_at": "2026-03-14T14:55:10.231000",
+      "days_old": 14,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "interview-simulator",
+      "display_name": "Interview Simulator",
+      "stat_downloads": 4922,
+      "stat_stars": 4,
+      "created_at": "2026-03-14T14:33:32.455000",
+      "days_old": 14,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "baidu-netdisk-skills",
+      "display_name": "Baidu Netdisk Skills",
+      "stat_downloads": 4893,
+      "stat_stars": 2,
+      "created_at": "2026-03-15T15:06:39.974000",
+      "days_old": 13,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "who-is-actor",
+      "display_name": "Who Is Actor",
+      "stat_downloads": 4832,
+      "stat_stars": 2,
+      "created_at": "2026-03-13T14:49:09.451000",
+      "days_old": 15,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "t-trading",
+      "display_name": "T Trading",
+      "stat_downloads": 4812,
+      "stat_stars": 3,
+      "created_at": "2026-03-14T12:55:19.508000",
+      "days_old": 14,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "resume-assistant",
+      "display_name": "Resume Assistant",
+      "stat_downloads": 4798,
+      "stat_stars": 4,
+      "created_at": "2026-03-14T02:14:19.402000",
+      "days_old": 14,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "qq-zone-photo",
+      "display_name": "Qq Zone Photo",
+      "stat_downloads": 4786,
+      "stat_stars": 2,
+      "created_at": "2026-03-15T00:50:55.461000",
+      "days_old": 13,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "university-applications",
+      "display_name": "University Applications",
+      "stat_downloads": 4716,
+      "stat_stars": 2,
+      "created_at": "2026-03-14T08:03:38.437000",
+      "days_old": 14,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "weiyun-skills",
+      "display_name": "Weiyun Skills",
+      "stat_downloads": 4703,
+      "stat_stars": 2,
+      "created_at": "2026-03-15T15:05:50.203000",
+      "days_old": 13,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "juejin-skills",
+      "display_name": "Juejin",
+      "stat_downloads": 4596,
+      "stat_stars": 3,
+      "created_at": "2026-03-17T02:09:43.993000",
+      "days_old": 11,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "eno",
+      "display_name": "Eno Skills",
+      "stat_downloads": 4578,
+      "stat_stars": 2,
+      "created_at": "2026-03-14T15:55:35.419000",
+      "days_old": 14,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "javascript-skills",
+      "display_name": "JavaScript",
+      "stat_downloads": 905,
+      "stat_stars": 1,
+      "created_at": "2026-03-18T01:04:16.200000",
+      "days_old": 10,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "poetry",
+      "display_name": "Poetry",
+      "stat_downloads": 820,
+      "stat_stars": 0,
+      "created_at": "2026-03-18T01:26:48.703000",
+      "days_old": 10,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "typescript-skills",
+      "display_name": "TypeScript",
+      "stat_downloads": 301,
+      "stat_stars": 2,
+      "created_at": "2026-03-18T21:14:45.515000",
+      "days_old": 10,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "xhs-cn",
+      "display_name": "Xiaohongshu",
+      "stat_downloads": 286,
+      "stat_stars": 0,
+      "created_at": "2026-03-19T15:50:26.119000",
+      "days_old": 9,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "tencent-docs-markdown",
+      "display_name": "\u817e\u8baf\u6587\u6863Markdown",
+      "stat_downloads": 119,
+      "stat_stars": 1,
+      "created_at": "2026-03-24T15:25:04.027000",
+      "days_old": 4,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "2",
+      "display_name": "2",
+      "stat_downloads": 83,
+      "stat_stars": 0,
+      "created_at": "2026-03-18T21:25:45.675000",
+      "days_old": 10,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "b",
+      "display_name": "B",
+      "stat_downloads": 80,
+      "stat_stars": 0,
+      "created_at": "2026-03-18T21:24:35.774000",
+      "days_old": 10,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "kobe",
+      "display_name": "Kobe",
+      "stat_downloads": 66,
+      "stat_stars": 0,
+      "created_at": "2026-03-18T21:22:35.108000",
+      "days_old": 10,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "520",
+      "display_name": "520",
+      "stat_downloads": 66,
+      "stat_stars": 0,
+      "created_at": "2026-03-18T21:27:17.184000",
+      "days_old": 10,
+      "is_highlighted": false,
+      "is_suspicious": false
+    }
+  ],
+  "trajectory": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 7945,
+      "stars": 27
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 11725,
+      "stars": 29
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 18492,
+      "stars": 31
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 23079,
+      "stars": 31
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 28159,
+      "stars": 33
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 33227,
+      "stars": 35
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 41212,
+      "stars": 36
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 41927,
+      "stars": 37
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 44373,
+      "stars": 37
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 51589,
+      "stars": 38
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 63627,
+      "stars": 41
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 63627,
+      "stars": 41
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 66158,
+      "stars": 41
+    }
+  ],
+  "download_trajectory": [
+    7945,
+    11725,
+    18492,
+    23079,
+    28159,
+    33227,
+    41212,
+    41927,
+    44373,
+    51589,
+    63627,
+    63627,
+    66158
+  ]
+}

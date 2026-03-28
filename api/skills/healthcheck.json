@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd72vc9bc9w0c7xxhba13xfz2x80azc5",
+  "slug": "healthcheck",
+  "display_name": "healthcheck",
+  "summary": "Track water and sleep with JSON file storage",
+  "owner_handle": "stellarhold170nt",
+  "owner_image": "https://avatars.githubusercontent.com/u/99376592?v=4",
+  "created_at": "2026-02-01T16:27:14.507000",
+  "days_old": 54,
+  "stat_downloads": 17473,
+  "stat_stars": 9,
+  "tags": {
+    "latest": "k97cjtb2v307k4bwjr00byqm8n80bf9t"
+  },
+  "badges": null,
+  "stat_installs": 977,
+  "stat_comments": 0,
+  "current_version": "1.0.2",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 323.6,
+  "acceleration_pct": -67.0,
+  "dl_delta": 141,
+  "dl_wow": 0.8,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 5,
+  "installs_wow": 0.5,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 14189,
+      "stars": 8,
+      "installs_all_time": 811,
+      "installs_current": 795
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 14371,
+      "stars": 8,
+      "installs_all_time": 819,
+      "installs_current": 803
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 14703,
+      "stars": 8,
+      "installs_all_time": 843,
+      "installs_current": 826
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 14991,
+      "stars": 8,
+      "installs_all_time": 865,
+      "installs_current": 847
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 15260,
+      "stars": 8,
+      "installs_all_time": 876,
+      "installs_current": 857
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 15626,
+      "stars": 8,
+      "installs_all_time": 897,
+      "installs_current": 878
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 16253,
+      "stars": 9,
+      "installs_all_time": 926,
+      "installs_current": 904
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 16295,
+      "stars": 9,
+      "installs_all_time": 931,
+      "installs_current": 909
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 16384,
+      "stars": 9,
+      "installs_all_time": 933,
+      "installs_current": 911
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 16722,
+      "stars": 9,
+      "installs_all_time": 950,
+      "installs_current": 927
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 17332,
+      "stars": 9,
+      "installs_all_time": 972,
+      "installs_current": 948
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 17332,
+      "stars": 9,
+      "installs_all_time": 972,
+      "installs_current": 948
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 17473,
+      "stars": 9,
+      "installs_all_time": 977,
+      "installs_current": 952
+    }
+  ],
+  "version_releases": []
+}

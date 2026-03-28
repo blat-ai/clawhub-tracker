@@ -1,0 +1,2956 @@
+{
+  "handle": "1kalin",
+  "total_downloads": 174614,
+  "total_stars": 123,
+  "total_installs": 570,
+  "skill_count": 284,
+  "avg_dl_per_day": 15.8,
+  "highlighted_count": 0,
+  "suspicious_count": 280,
+  "clean_pct": 1.4,
+  "dl_delta": 1119,
+  "dl_wow": 0.6,
+  "dl_per_day": 1119.0,
+  "star_delta": 1,
+  "star_wow": 0.8,
+  "star_per_day": 1.0,
+  "installs_delta": 9,
+  "installs_wow": 1.6,
+  "installs_per_day": 9.0,
+  "owner_display_name": "1kalin",
+  "owner_name": "1kalin",
+  "owner_image": "https://avatars.githubusercontent.com/u/15705344?v=4",
+  "bio": "\u26a1\u26a1\u26a1",
+  "company": null,
+  "location": "Manchester, UK",
+  "blog": "devpost.com/kaliin95",
+  "public_repos": 11,
+  "followers": 0,
+  "following": 0,
+  "github_created_at": "2015-11-07T15:49:24",
+  "twitter_username": null,
+  "skills": [
+    {
+      "slug": "social-media-scheduler",
+      "display_name": "Social Media Scheduler",
+      "stat_downloads": 6883,
+      "stat_stars": 7,
+      "created_at": "2026-02-13T02:51:57.095000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "market-research-agent",
+      "display_name": "Market Research Agent",
+      "stat_downloads": 3822,
+      "stat_stars": 16,
+      "created_at": "2026-02-13T02:52:02.797000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "weekly-report-generator",
+      "display_name": "Weekly Report Generator",
+      "stat_downloads": 3376,
+      "stat_stars": 3,
+      "created_at": "2026-02-13T02:52:14.128000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "linkedin-writer",
+      "display_name": "LinkedIn Writer",
+      "stat_downloads": 2380,
+      "stat_stars": 3,
+      "created_at": "2026-02-13T02:39:07.373000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-productivity-system",
+      "display_name": "Productivity Operating System",
+      "stat_downloads": 2350,
+      "stat_stars": 1,
+      "created_at": "2026-02-19T18:24:59.838000",
+      "days_old": 37,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "sales-pipeline-tracker",
+      "display_name": "Sales Pipeline Tracker",
+      "stat_downloads": 2276,
+      "stat_stars": 2,
+      "created_at": "2026-02-13T02:51:52.663000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "ai-researcher",
+      "display_name": "AI Researcher",
+      "stat_downloads": 2066,
+      "stat_stars": 6,
+      "created_at": "2026-02-13T02:52:43.189000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "ai-seo-writer",
+      "display_name": "SEO Writer",
+      "stat_downloads": 1631,
+      "stat_stars": 0,
+      "created_at": "2026-02-13T02:40:07.686000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "content-repurposing-engine",
+      "display_name": "Content Repurposer",
+      "stat_downloads": 1557,
+      "stat_stars": 2,
+      "created_at": "2026-02-13T02:52:52.765000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "proposal-writer",
+      "display_name": "Proposal Writer",
+      "stat_downloads": 1485,
+      "stat_stars": 0,
+      "created_at": "2026-02-13T02:52:19.034000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-business-automation",
+      "display_name": "Business Automation Architect",
+      "stat_downloads": 1448,
+      "stat_stars": 0,
+      "created_at": "2026-02-13T15:27:20.176000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "financial-tracker",
+      "display_name": "Financial Tracker",
+      "stat_downloads": 1416,
+      "stat_stars": 0,
+      "created_at": "2026-02-13T02:52:38.648000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "competitor-analyst",
+      "display_name": "Competitor Analyst",
+      "stat_downloads": 1364,
+      "stat_stars": 6,
+      "created_at": "2026-02-13T02:38:49.659000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "crm-manager",
+      "display_name": "CRM Manager",
+      "stat_downloads": 1303,
+      "stat_stars": 3,
+      "created_at": "2026-02-13T02:39:19.214000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-qa-testing-engine",
+      "display_name": "QA & Testing Engine",
+      "stat_downloads": 1291,
+      "stat_stars": 1,
+      "created_at": "2026-02-17T18:25:01.224000",
+      "days_old": 39,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "cold-email-writer",
+      "display_name": "Cold Email Writer",
+      "stat_downloads": 1189,
+      "stat_stars": 0,
+      "created_at": "2026-02-13T02:38:41.217000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-financial-due-diligence",
+      "display_name": "Financial Due Diligence Analyzer",
+      "stat_downloads": 1169,
+      "stat_stars": 1,
+      "created_at": "2026-02-15T16:43:43.407000",
+      "days_old": 41,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "lead-scorer",
+      "display_name": "Lead Scorer",
+      "stat_downloads": 1150,
+      "stat_stars": 0,
+      "created_at": "2026-02-13T02:52:30.010000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-pricing-strategy",
+      "display_name": "Pricing Strategy",
+      "stat_downloads": 1104,
+      "stat_stars": 0,
+      "created_at": "2026-02-14T11:40:09.137000",
+      "days_old": 42,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-social-media-engine",
+      "display_name": "Social Media Content Engine",
+      "stat_downloads": 1082,
+      "stat_stars": 1,
+      "created_at": "2026-02-13T13:27:32.666000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-procurement",
+      "display_name": "Procurement Manager",
+      "stat_downloads": 1047,
+      "stat_stars": 0,
+      "created_at": "2026-02-14T13:13:12.862000",
+      "days_old": 42,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-interview-architect",
+      "display_name": "Interview Architect",
+      "stat_downloads": 987,
+      "stat_stars": 0,
+      "created_at": "2026-02-19T13:24:45.635000",
+      "days_old": 37,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-qa-test-plan",
+      "display_name": "QA Test Plan Generator",
+      "stat_downloads": 957,
+      "stat_stars": 1,
+      "created_at": "2026-02-15T13:44:25.200000",
+      "days_old": 41,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-automation-strategy",
+      "display_name": "Business Automation Strategy",
+      "stat_downloads": 833,
+      "stat_stars": 0,
+      "created_at": "2026-02-19T17:29:04.790000",
+      "days_old": 37,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-career-accelerator",
+      "display_name": "---",
+      "stat_downloads": 831,
+      "stat_stars": 0,
+      "created_at": "2026-02-22T17:43:20.260000",
+      "days_old": 34,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "customer-onboarding",
+      "display_name": "Customer Onboarding",
+      "stat_downloads": 821,
+      "stat_stars": 0,
+      "created_at": "2026-02-13T02:52:07.117000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-humanizer",
+      "display_name": "Ai Humanizer",
+      "stat_downloads": 821,
+      "stat_stars": 0,
+      "created_at": "2026-02-13T02:22:28.199000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-compliance-audit",
+      "display_name": "Compliance Audit Generator",
+      "stat_downloads": 806,
+      "stat_stars": 1,
+      "created_at": "2026-02-13T11:13:49.419000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-contract-analyzer",
+      "display_name": "AfrexAI Contract Analyzer",
+      "stat_downloads": 803,
+      "stat_stars": 0,
+      "created_at": "2026-02-13T02:57:10.402000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-prospect-researcher",
+      "display_name": "Prospect Researcher",
+      "stat_downloads": 796,
+      "stat_stars": 3,
+      "created_at": "2026-02-13T02:22:38.559000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "morning-daily-briefing",
+      "display_name": "Daily Briefing",
+      "stat_downloads": 786,
+      "stat_stars": 0,
+      "created_at": "2026-02-13T02:40:25.505000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-web-scraping-engine",
+      "display_name": "Web Scraping & Data Extraction Engine",
+      "stat_downloads": 784,
+      "stat_stars": 0,
+      "created_at": "2026-02-22T11:29:23.570000",
+      "days_old": 34,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-inventory-supply-chain",
+      "display_name": "Inventory Supply Chain",
+      "stat_downloads": 780,
+      "stat_stars": 1,
+      "created_at": "2026-02-14T13:25:15.454000",
+      "days_old": 42,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-supply-chain",
+      "display_name": "Supply Chain Risk Monitor",
+      "stat_downloads": 779,
+      "stat_stars": 0,
+      "created_at": "2026-02-13T15:43:21.306000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-sales-playbook",
+      "display_name": "Sales Playbook",
+      "stat_downloads": 777,
+      "stat_stars": 4,
+      "created_at": "2026-02-17T16:25:02.886000",
+      "days_old": 39,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-competitor-monitor",
+      "display_name": "AfrexAI Competitor Monitor",
+      "stat_downloads": 772,
+      "stat_stars": 0,
+      "created_at": "2026-02-13T02:57:25.215000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-crm-updater",
+      "display_name": "Crm Manager",
+      "stat_downloads": 769,
+      "stat_stars": 1,
+      "created_at": "2026-02-13T02:58:46.567000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-stakeholder-report",
+      "display_name": "Stakeholder Report Generator",
+      "stat_downloads": 751,
+      "stat_stars": 0,
+      "created_at": "2026-02-13T10:13:20.728000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-revenue-forecasting",
+      "display_name": "Revenue Forecasting Engine",
+      "stat_downloads": 742,
+      "stat_stars": 0,
+      "created_at": "2026-02-16T10:43:54.755000",
+      "days_old": 40,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-okr-engine",
+      "display_name": "OKR & Strategy Execution Engine",
+      "stat_downloads": 740,
+      "stat_stars": 0,
+      "created_at": "2026-02-18T16:24:50.393000",
+      "days_old": 38,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-regulatory-compliance",
+      "display_name": "Regulatory Compliance Audit",
+      "stat_downloads": 740,
+      "stat_stars": 0,
+      "created_at": "2026-02-19T11:12:46.991000",
+      "days_old": 37,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-qa-engine",
+      "display_name": "QA & Test Engineering Command Center",
+      "stat_downloads": 738,
+      "stat_stars": 1,
+      "created_at": "2026-02-15T13:29:12.343000",
+      "days_old": 41,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-swot-analyzer",
+      "display_name": "SWOT Analyzer",
+      "stat_downloads": 719,
+      "stat_stars": 2,
+      "created_at": "2026-02-13T03:13:28.674000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-risk-assessment",
+      "display_name": "Risk Assessment Framework",
+      "stat_downloads": 705,
+      "stat_stars": 0,
+      "created_at": "2026-02-14T10:20:52.194000",
+      "days_old": 42,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-kpi-tracker",
+      "display_name": "KPI Tracker",
+      "stat_downloads": 701,
+      "stat_stars": 0,
+      "created_at": "2026-02-13T02:58:20.358000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-presentation-mastery",
+      "display_name": "Presentation Mastery",
+      "stat_downloads": 700,
+      "stat_stars": 2,
+      "created_at": "2026-02-16T12:29:08.103000",
+      "days_old": 40,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-risk-management",
+      "display_name": "Enterprise Risk Management Engine",
+      "stat_downloads": 697,
+      "stat_stars": 0,
+      "created_at": "2026-02-16T15:29:07.380000",
+      "days_old": 40,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-contract-review",
+      "display_name": "Contract Review",
+      "stat_downloads": 694,
+      "stat_stars": 0,
+      "created_at": "2026-02-14T11:40:04.110000",
+      "days_old": 42,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-technical-docs",
+      "display_name": "Technical Documentation Engine",
+      "stat_downloads": 692,
+      "stat_stars": 0,
+      "created_at": "2026-02-15T10:39:12.173000",
+      "days_old": 41,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-construction-estimator",
+      "display_name": "Construction Estimator Pro",
+      "stat_downloads": 691,
+      "stat_stars": 2,
+      "created_at": "2026-02-17T12:28:13.859000",
+      "days_old": 39,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-knowledge-management",
+      "display_name": "Knowledge Management System",
+      "stat_downloads": 689,
+      "stat_stars": 0,
+      "created_at": "2026-02-19T18:25:06.799000",
+      "days_old": 37,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "ai-invoice-generator",
+      "display_name": "Invoice Generator",
+      "stat_downloads": 682,
+      "stat_stars": 0,
+      "created_at": "2026-02-13T02:40:00.900000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-performance-review",
+      "display_name": "Performance Review Engine",
+      "stat_downloads": 681,
+      "stat_stars": 2,
+      "created_at": "2026-02-13T08:43:19.468000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-sales-roi",
+      "display_name": "Sales ROI Calculator",
+      "stat_downloads": 680,
+      "stat_stars": 0,
+      "created_at": "2026-02-13T03:45:09.706000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-grant-writer",
+      "display_name": "Grant Writer",
+      "stat_downloads": 678,
+      "stat_stars": 0,
+      "created_at": "2026-02-13T10:43:25.066000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-investment-engine",
+      "display_name": "Investment Analysis & Portfolio Management Engine",
+      "stat_downloads": 678,
+      "stat_stars": 0,
+      "created_at": "2026-02-22T17:31:08.171000",
+      "days_old": 34,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-budget-planner",
+      "display_name": "AfrexAI Budget Planner",
+      "stat_downloads": 676,
+      "stat_stars": 0,
+      "created_at": "2026-02-13T03:28:21.226000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-logistics-optimizer",
+      "display_name": "Logistics Operations Optimizer",
+      "stat_downloads": 674,
+      "stat_stars": 2,
+      "created_at": "2026-02-16T13:13:35.945000",
+      "days_old": 40,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-sop-generator",
+      "display_name": "SOP Generator",
+      "stat_downloads": 669,
+      "stat_stars": 1,
+      "created_at": "2026-02-13T05:13:07.472000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-rfp-responder",
+      "display_name": "RFP & Proposal Responder",
+      "stat_downloads": 668,
+      "stat_stars": 0,
+      "created_at": "2026-02-13T09:13:26.564000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-portfolio-risk",
+      "display_name": "Portfolio Risk Analyzer",
+      "stat_downloads": 665,
+      "stat_stars": 0,
+      "created_at": "2026-02-15T15:28:41.487000",
+      "days_old": 41,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-email-to-calendar",
+      "display_name": "Email to Calendar Extraction Engine",
+      "stat_downloads": 660,
+      "stat_stars": 0,
+      "created_at": "2026-02-13T04:26:31.407000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-pricing-optimizer",
+      "display_name": "AfrexAI Pricing Optimizer",
+      "stat_downloads": 651,
+      "stat_stars": 0,
+      "created_at": "2026-02-13T02:57:14.965000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-cybersecurity",
+      "display_name": "Cybersecurity Risk Assessment",
+      "stat_downloads": 648,
+      "stat_stars": 4,
+      "created_at": "2026-02-15T10:43:03.138000",
+      "days_old": 41,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-pitch-deck-reviewer",
+      "display_name": "AfrexAI Pitch Deck Reviewer",
+      "stat_downloads": 642,
+      "stat_stars": 0,
+      "created_at": "2026-02-13T02:57:04.049000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-data-privacy",
+      "display_name": "Data Privacy & Protection Program",
+      "stat_downloads": 642,
+      "stat_stars": 0,
+      "created_at": "2026-02-15T15:14:00.001000",
+      "days_old": 41,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-project-manager",
+      "display_name": "Project Manager",
+      "stat_downloads": 641,
+      "stat_stars": 0,
+      "created_at": "2026-02-14T10:34:25.491000",
+      "days_old": 42,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-incident-response",
+      "display_name": "Incident Response Playbook",
+      "stat_downloads": 634,
+      "stat_stars": 0,
+      "created_at": "2026-02-13T06:43:06.759000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-vendor-eval",
+      "display_name": "Vendor Evaluation & Due Diligence",
+      "stat_downloads": 634,
+      "stat_stars": 0,
+      "created_at": "2026-02-13T06:13:26.011000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-cash-flow-forecast",
+      "display_name": "Cash Flow Forecast",
+      "stat_downloads": 633,
+      "stat_stars": 0,
+      "created_at": "2026-02-13T07:13:08.413000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-social-repurposer",
+      "display_name": "Content Repurposer",
+      "stat_downloads": 630,
+      "stat_stars": 0,
+      "created_at": "2026-02-13T02:58:44.316000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-cybersecurity-engine",
+      "display_name": "Cybersecurity Engine",
+      "stat_downloads": 629,
+      "stat_stars": 0,
+      "created_at": "2026-02-19T16:25:24.109000",
+      "days_old": 37,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-hipaa-compliance",
+      "display_name": "HIPAA Compliance for AI Agents",
+      "stat_downloads": 627,
+      "stat_stars": 0,
+      "created_at": "2026-02-15T12:44:29.739000",
+      "days_old": 41,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-proposal-gen",
+      "display_name": "Proposal Writer",
+      "stat_downloads": 622,
+      "stat_stars": 0,
+      "created_at": "2026-02-13T02:58:34.625000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-code-reviewer",
+      "display_name": "Code Review Engine",
+      "stat_downloads": 620,
+      "stat_stars": 0,
+      "created_at": "2026-02-13T11:26:51.796000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "ai-meeting-prep",
+      "display_name": "Meeting Prep",
+      "stat_downloads": 620,
+      "stat_stars": 0,
+      "created_at": "2026-02-13T02:39:55.506000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-policy-writer",
+      "display_name": "Policy Writer",
+      "stat_downloads": 619,
+      "stat_stars": 2,
+      "created_at": "2026-02-13T07:43:45.902000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-fpa-engine",
+      "display_name": "FP&A Engine",
+      "stat_downloads": 618,
+      "stat_stars": 0,
+      "created_at": "2026-02-17T17:25:13.015000",
+      "days_old": 39,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-training-program",
+      "display_name": "Employee Training Program",
+      "stat_downloads": 617,
+      "stat_stars": 3,
+      "created_at": "2026-02-16T09:42:45.811000",
+      "days_old": 40,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-sprint-planner",
+      "display_name": "Sprint Planner",
+      "stat_downloads": 617,
+      "stat_stars": 0,
+      "created_at": "2026-02-14T11:22:55.918000",
+      "days_old": 42,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "objection-handler",
+      "display_name": "Objection Handler",
+      "stat_downloads": 616,
+      "stat_stars": 0,
+      "created_at": "2026-02-13T02:39:42.780000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-meeting-prep",
+      "display_name": "Meeting Prep",
+      "stat_downloads": 614,
+      "stat_stars": 0,
+      "created_at": "2026-02-13T02:58:42.479000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-recruiting-engine",
+      "display_name": "AI Recruiting Engine",
+      "stat_downloads": 612,
+      "stat_stars": 1,
+      "created_at": "2026-02-13T12:27:12.662000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-warehouse-ops",
+      "display_name": "Warehouse Operations Optimizer",
+      "stat_downloads": 612,
+      "stat_stars": 0,
+      "created_at": "2026-02-14T15:43:10.841000",
+      "days_old": 42,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-react-production",
+      "display_name": "React Production Engineering",
+      "stat_downloads": 610,
+      "stat_stars": 0,
+      "created_at": "2026-02-21T13:26:06.501000",
+      "days_old": 35,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-email-crafter",
+      "display_name": "Cold Email Writer",
+      "stat_downloads": 608,
+      "stat_stars": 0,
+      "created_at": "2026-02-13T02:58:32.709000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-email-triager",
+      "display_name": "Email Triager",
+      "stat_downloads": 608,
+      "stat_stars": 0,
+      "created_at": "2026-02-13T02:22:47.013000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-employee-handbook",
+      "display_name": "Employee Handbook Generator",
+      "stat_downloads": 608,
+      "stat_stars": 0,
+      "created_at": "2026-02-14T12:24:27.815000",
+      "days_old": 42,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-business-continuity",
+      "display_name": "Business Continuity Planner",
+      "stat_downloads": 606,
+      "stat_stars": 0,
+      "created_at": "2026-02-13T09:43:45.643000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-agent-manager",
+      "display_name": "AI Agent Manager Playbook",
+      "stat_downloads": 605,
+      "stat_stars": 0,
+      "created_at": "2026-02-17T16:14:49.443000",
+      "days_old": 39,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-onboarding",
+      "display_name": "Customer Onboarding",
+      "stat_downloads": 603,
+      "stat_stars": 0,
+      "created_at": "2026-02-13T02:58:40.573000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-seo-content-engine",
+      "display_name": "SEO Content Engine",
+      "stat_downloads": 603,
+      "stat_stars": 0,
+      "created_at": "2026-02-13T08:27:07.014000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-workplace-safety",
+      "display_name": "Workplace Safety Compliance",
+      "stat_downloads": 597,
+      "stat_stars": 1,
+      "created_at": "2026-02-15T13:44:31.941000",
+      "days_old": 41,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "icp-builder",
+      "display_name": "ICP Builder",
+      "stat_downloads": 596,
+      "stat_stars": 2,
+      "created_at": "2026-02-13T02:39:13.108000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-data-analyst",
+      "display_name": "Data Analyst",
+      "stat_downloads": 595,
+      "stat_stars": 0,
+      "created_at": "2026-02-13T14:27:27.944000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-email-marketing",
+      "display_name": "Email Marketing Command Center",
+      "stat_downloads": 594,
+      "stat_stars": 0,
+      "created_at": "2026-02-14T14:33:59.217000",
+      "days_old": 42,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-budget-tracker",
+      "display_name": "Budget & Expense Tracker",
+      "stat_downloads": 593,
+      "stat_stars": 1,
+      "created_at": "2026-02-13T07:26:36.799000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-churn-analyzer",
+      "display_name": "Churn Risk Analyzer",
+      "stat_downloads": 593,
+      "stat_stars": 0,
+      "created_at": "2026-02-13T04:43:05.919000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-customer-success",
+      "display_name": "Customer Success Playbook",
+      "stat_downloads": 592,
+      "stat_stars": 0,
+      "created_at": "2026-02-17T17:25:19.969000",
+      "days_old": 39,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-market-sizing",
+      "display_name": "Market Sizing \u2014 TAM/SAM/SOM Calculator",
+      "stat_downloads": 592,
+      "stat_stars": 0,
+      "created_at": "2026-02-13T13:43:04.684000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-customer-support",
+      "display_name": "Customer Support Command Center",
+      "stat_downloads": 592,
+      "stat_stars": 1,
+      "created_at": "2026-02-13T10:27:42.828000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-real-estate-engine",
+      "display_name": "Real Estate Engine",
+      "stat_downloads": 590,
+      "stat_stars": 4,
+      "created_at": "2026-02-19T16:25:42.065000",
+      "days_old": 37,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-change-management",
+      "display_name": "Change Management Planner",
+      "stat_downloads": 586,
+      "stat_stars": 0,
+      "created_at": "2026-02-13T12:13:27.730000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-hiring-scorecard",
+      "display_name": "AfrexAI Hiring Scorecard",
+      "stat_downloads": 585,
+      "stat_stars": 0,
+      "created_at": "2026-02-13T03:35:56.561000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-spreadsheet-engineering",
+      "display_name": "Spreadsheet Engineering",
+      "stat_downloads": 583,
+      "stat_stars": 0,
+      "created_at": "2026-02-21T16:29:04.665000",
+      "days_old": 35,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-seo-writer",
+      "display_name": "Seo Writer",
+      "stat_downloads": 581,
+      "stat_stars": 0,
+      "created_at": "2026-02-13T02:58:30.465000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-tax-planning",
+      "display_name": "Tax Planning Framework",
+      "stat_downloads": 580,
+      "stat_stars": 0,
+      "created_at": "2026-02-15T14:42:37.792000",
+      "days_old": 41,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-prd-engine",
+      "display_name": "PRD Engine",
+      "stat_downloads": 571,
+      "stat_stars": 0,
+      "created_at": "2026-02-15T11:42:59.390000",
+      "days_old": 41,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-founder-os",
+      "display_name": "Founder OS",
+      "stat_downloads": 571,
+      "stat_stars": 0,
+      "created_at": "2026-02-17T17:24:56.810000",
+      "days_old": 39,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-invoice-gen",
+      "display_name": "Invoice Generator",
+      "stat_downloads": 570,
+      "stat_stars": 1,
+      "created_at": "2026-02-13T02:58:36.590000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-offboarding",
+      "display_name": "Employee Offboarding Manager",
+      "stat_downloads": 570,
+      "stat_stars": 0,
+      "created_at": "2026-02-13T11:43:21.289000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-capacity-planner",
+      "display_name": "Capacity Planner",
+      "stat_downloads": 569,
+      "stat_stars": 0,
+      "created_at": "2026-02-13T08:13:29.206000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-annual-report",
+      "display_name": "Annual Report Generator",
+      "stat_downloads": 568,
+      "stat_stars": 0,
+      "created_at": "2026-02-16T16:13:48.631000",
+      "days_old": 40,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-lead-hunter",
+      "display_name": "AfrexAI Lead Hunter Pro",
+      "stat_downloads": 567,
+      "stat_stars": 0,
+      "created_at": "2026-02-13T05:27:14.322000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-brand-strategy",
+      "display_name": "Brand Strategy Engine",
+      "stat_downloads": 566,
+      "stat_stars": 0,
+      "created_at": "2026-02-16T11:25:05.113000",
+      "days_old": 40,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-tech-debt-audit",
+      "display_name": "Technical Debt Audit",
+      "stat_downloads": 565,
+      "stat_stars": 0,
+      "created_at": "2026-02-13T12:43:16.359000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-exit-strategy",
+      "display_name": "Exit Strategy & Business Valuation Planner",
+      "stat_downloads": 564,
+      "stat_stars": 0,
+      "created_at": "2026-02-14T13:43:28.966000",
+      "days_old": 42,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-web-performance-engine",
+      "display_name": "Web Performance Engine",
+      "stat_downloads": 564,
+      "stat_stars": 0,
+      "created_at": "2026-02-19T16:25:31.994000",
+      "days_old": 37,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-sprint-retro",
+      "display_name": "Sprint Retrospective Facilitator",
+      "stat_downloads": 561,
+      "stat_stars": 0,
+      "created_at": "2026-02-13T14:13:22.224000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-release-notes",
+      "display_name": "Release Notes Generator",
+      "stat_downloads": 560,
+      "stat_stars": 0,
+      "created_at": "2026-02-13T14:43:25.557000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "contract-reviewer",
+      "display_name": "Contract Reviewer",
+      "stat_downloads": 558,
+      "stat_stars": 1,
+      "created_at": "2026-02-24T20:16:20.614000",
+      "days_old": 32,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-data-engineering",
+      "display_name": "Data Engineering",
+      "stat_downloads": 556,
+      "stat_stars": 0,
+      "created_at": "2026-02-18T17:25:51.171000",
+      "days_old": 38,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-ad-ops",
+      "display_name": "Ad Ops & Cross-Channel Advertising Agent",
+      "stat_downloads": 555,
+      "stat_stars": 0,
+      "created_at": "2026-02-19T18:43:58.533000",
+      "days_old": 37,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-invoice-engine",
+      "display_name": "Invoice Engine",
+      "stat_downloads": 552,
+      "stat_stars": 0,
+      "created_at": "2026-02-14T10:34:19.513000",
+      "days_old": 42,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-saas-metrics",
+      "display_name": "SaaS Metrics Dashboard",
+      "stat_downloads": 551,
+      "stat_stars": 0,
+      "created_at": "2026-02-20T12:14:12.940000",
+      "days_old": 36,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-compliance-engine",
+      "display_name": "Compliance & Audit Readiness Engine",
+      "stat_downloads": 550,
+      "stat_stars": 0,
+      "created_at": "2026-02-16T16:28:55.584000",
+      "days_old": 40,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-negotiation-mastery",
+      "display_name": "Negotiation Mastery",
+      "stat_downloads": 549,
+      "stat_stars": 0,
+      "created_at": "2026-02-15T09:30:34.939000",
+      "days_old": 41,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-api-docs",
+      "display_name": "API Documentation Generator",
+      "stat_downloads": 549,
+      "stat_stars": 0,
+      "created_at": "2026-02-13T15:12:54.473000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-api-architect",
+      "display_name": "API Architect",
+      "stat_downloads": 544,
+      "stat_stars": 0,
+      "created_at": "2026-02-15T12:25:30.597000",
+      "days_old": 41,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-data-migration",
+      "display_name": "Data Migration Planner",
+      "stat_downloads": 543,
+      "stat_stars": 0,
+      "created_at": "2026-02-13T13:13:04.472000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-database-engineer",
+      "display_name": "Database Engineering Mastery",
+      "stat_downloads": 541,
+      "stat_stars": 1,
+      "created_at": "2026-02-16T14:30:20.614000",
+      "days_old": 40,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-energy-audit",
+      "display_name": "Energy Audit",
+      "stat_downloads": 541,
+      "stat_stars": 0,
+      "created_at": "2026-02-14T14:13:30.355000",
+      "days_old": 42,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-ma-playbook",
+      "display_name": "M&A Playbook",
+      "stat_downloads": 541,
+      "stat_stars": 0,
+      "created_at": "2026-02-17T12:44:36.891000",
+      "days_old": 39,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-sre-platform",
+      "display_name": "SRE & Incident Management Platform",
+      "stat_downloads": 541,
+      "stat_stars": 2,
+      "created_at": "2026-02-17T11:29:00.355000",
+      "days_old": 39,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-fleet-management",
+      "display_name": "Fleet Management Optimizer",
+      "stat_downloads": 540,
+      "stat_stars": 0,
+      "created_at": "2026-02-14T15:13:11.242000",
+      "days_old": 42,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-lead-scorer",
+      "display_name": "Lead Scorer",
+      "stat_downloads": 537,
+      "stat_stars": 0,
+      "created_at": "2026-02-13T02:58:38.563000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-meeting-mastery",
+      "display_name": "Meeting Mastery",
+      "stat_downloads": 533,
+      "stat_stars": 0,
+      "created_at": "2026-02-13T09:26:32.664000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-gtm-strategy",
+      "display_name": "Go-To-Market Strategy Framework",
+      "stat_downloads": 532,
+      "stat_stars": 1,
+      "created_at": "2026-02-18T16:13:15.314000",
+      "days_old": 38,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-email-marketing-engine",
+      "display_name": "Email Marketing Engine",
+      "stat_downloads": 530,
+      "stat_stars": 0,
+      "created_at": "2026-02-16T14:24:41.012000",
+      "days_old": 40,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-profit-margin",
+      "display_name": "Profit Margin Analyzer",
+      "stat_downloads": 530,
+      "stat_stars": 0,
+      "created_at": "2026-02-16T14:44:05.967000",
+      "days_old": 40,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-demand-forecasting",
+      "display_name": "Demand Forecasting Framework",
+      "stat_downloads": 529,
+      "stat_stars": 0,
+      "created_at": "2026-02-16T11:14:10.681000",
+      "days_old": 40,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-accounts-payable",
+      "display_name": "Accounts Payable Automation",
+      "stat_downloads": 528,
+      "stat_stars": 0,
+      "created_at": "2026-02-16T12:12:49.558000",
+      "days_old": 40,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-startup-fundraising",
+      "display_name": "Startup Fundraising Engine",
+      "stat_downloads": 525,
+      "stat_stars": 0,
+      "created_at": "2026-02-20T18:31:06.624000",
+      "days_old": 36,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-crisis-comms",
+      "display_name": "Crisis Communications Playbook",
+      "stat_downloads": 525,
+      "stat_stars": 0,
+      "created_at": "2026-02-15T10:42:44.506000",
+      "days_old": 41,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-product-manager",
+      "display_name": "Product Management OS",
+      "stat_downloads": 524,
+      "stat_stars": 1,
+      "created_at": "2026-02-25T21:30:14.230000",
+      "days_old": 31,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-compensation-planner",
+      "display_name": "Compensation & Salary Benchmarking",
+      "stat_downloads": 523,
+      "stat_stars": 0,
+      "created_at": "2026-02-16T12:13:03.687000",
+      "days_old": 40,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-accessibility-engine",
+      "display_name": "Accessibility Engine",
+      "stat_downloads": 522,
+      "stat_stars": 0,
+      "created_at": "2026-02-20T18:25:33.198000",
+      "days_old": 36,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-stakeholder-management",
+      "display_name": "Stakeholder Management",
+      "stat_downloads": 522,
+      "stat_stars": 0,
+      "created_at": "2026-02-16T14:24:51.896000",
+      "days_old": 40,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-esg-reporting",
+      "display_name": "ESG Reporting Framework",
+      "stat_downloads": 520,
+      "stat_stars": 0,
+      "created_at": "2026-02-19T17:42:38.206000",
+      "days_old": 37,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-community-growth-engine",
+      "display_name": "Community Growth Engine",
+      "stat_downloads": 519,
+      "stat_stars": 0,
+      "created_at": "2026-02-17T15:53:12.728000",
+      "days_old": 39,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-testimonial-collector",
+      "display_name": "AfrexAI Testimonial Collector",
+      "stat_downloads": 518,
+      "stat_stars": 0,
+      "created_at": "2026-02-13T02:57:20.883000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-board-meeting",
+      "display_name": "Board Meeting Prep",
+      "stat_downloads": 513,
+      "stat_stars": 0,
+      "created_at": "2026-02-15T15:43:46.170000",
+      "days_old": 41,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-margin-analysis",
+      "display_name": "Margin Analysis & Profit Optimization",
+      "stat_downloads": 510,
+      "stat_stars": 0,
+      "created_at": "2026-02-21T19:45:24.659000",
+      "days_old": 35,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-employee-onboarding",
+      "display_name": "Employee Onboarding Generator",
+      "stat_downloads": 510,
+      "stat_stars": 0,
+      "created_at": "2026-02-14T14:43:24.254000",
+      "days_old": 42,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-proposal-engine",
+      "display_name": "Proposal Engine",
+      "stat_downloads": 509,
+      "stat_stars": 0,
+      "created_at": "2026-02-14T09:29:17.135000",
+      "days_old": 42,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-prompt-engineering",
+      "display_name": "Prompt Engineering Mastery",
+      "stat_downloads": 504,
+      "stat_stars": 0,
+      "created_at": "2026-02-18T16:25:21.749000",
+      "days_old": 38,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-license-manager",
+      "display_name": "Software License Manager",
+      "stat_downloads": 503,
+      "stat_stars": 0,
+      "created_at": "2026-02-14T16:13:40.068000",
+      "days_old": 42,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-startup-metrics-engine",
+      "display_name": "Startup Metrics Command Center",
+      "stat_downloads": 503,
+      "stat_stars": 0,
+      "created_at": "2026-02-15T14:29:16.350000",
+      "days_old": 41,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-payroll-audit",
+      "display_name": "Payroll Compliance Audit",
+      "stat_downloads": 502,
+      "stat_stars": 0,
+      "created_at": "2026-02-15T12:13:04.826000",
+      "days_old": 41,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-disaster-recovery",
+      "display_name": "IT Disaster Recovery Plan Generator",
+      "stat_downloads": 502,
+      "stat_stars": 0,
+      "created_at": "2026-02-14T12:43:35.439000",
+      "days_old": 42,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-unit-economics",
+      "display_name": "Unit Economics Analyzer",
+      "stat_downloads": 500,
+      "stat_stars": 0,
+      "created_at": "2026-02-17T11:43:29.670000",
+      "days_old": 39,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-customer-journey",
+      "display_name": "Customer Journey Mapping",
+      "stat_downloads": 500,
+      "stat_stars": 0,
+      "created_at": "2026-02-15T16:13:35.023000",
+      "days_old": 41,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-agent-engineering",
+      "display_name": "Agent Engineering",
+      "stat_downloads": 499,
+      "stat_stars": 0,
+      "created_at": "2026-02-18T17:25:34.115000",
+      "days_old": 38,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-cac-optimizer",
+      "display_name": "CAC Optimizer",
+      "stat_downloads": 499,
+      "stat_stars": 0,
+      "created_at": "2026-02-16T14:14:24.649000",
+      "days_old": 40,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-vendor-negotiation",
+      "display_name": "Vendor Negotiation Playbook",
+      "stat_downloads": 499,
+      "stat_stars": 0,
+      "created_at": "2026-02-17T09:42:49.966000",
+      "days_old": 39,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-competitive-intel",
+      "display_name": "Competitive Intel",
+      "stat_downloads": 499,
+      "stat_stars": 0,
+      "created_at": "2026-02-14T13:25:23.551000",
+      "days_old": 42,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-engineering-manager",
+      "display_name": "Engineering Manager OS",
+      "stat_downloads": 498,
+      "stat_stars": 0,
+      "created_at": "2026-02-16T13:29:58.124000",
+      "days_old": 40,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-support-operations",
+      "display_name": "Customer Support Operations Engine",
+      "stat_downloads": 497,
+      "stat_stars": 0,
+      "created_at": "2026-02-19T12:29:38.540000",
+      "days_old": 37,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-technical-seo",
+      "display_name": "Technical SEO Mastery",
+      "stat_downloads": 494,
+      "stat_stars": 0,
+      "created_at": "2026-02-18T11:29:01.654000",
+      "days_old": 38,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-partnership-revenue",
+      "display_name": "Partnership Revenue Engine",
+      "stat_downloads": 493,
+      "stat_stars": 0,
+      "created_at": "2026-02-17T18:24:46.093000",
+      "days_old": 39,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-investor-relations",
+      "display_name": "Investor Relations Playbook",
+      "stat_downloads": 492,
+      "stat_stars": 0,
+      "created_at": "2026-02-18T16:12:36.242000",
+      "days_old": 38,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-ai-governance",
+      "display_name": "AI Governance Policy Builder",
+      "stat_downloads": 490,
+      "stat_stars": 0,
+      "created_at": "2026-02-20T18:25:41.589000",
+      "days_old": 36,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-ux-research-engine",
+      "display_name": "UX Research Engine",
+      "stat_downloads": 488,
+      "stat_stars": 1,
+      "created_at": "2026-02-17T18:25:06.421000",
+      "days_old": 39,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-soc2-compliance",
+      "display_name": "SOC 2 AI Agent Compliance",
+      "stat_downloads": 488,
+      "stat_stars": 0,
+      "created_at": "2026-02-19T10:12:34.665000",
+      "days_old": 37,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-client-success",
+      "display_name": "Client Success & Revenue Expansion",
+      "stat_downloads": 486,
+      "stat_stars": 0,
+      "created_at": "2026-02-14T15:38:44.060000",
+      "days_old": 42,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "business-process-audit",
+      "display_name": "Business Process Audit",
+      "stat_downloads": 484,
+      "stat_stars": 0,
+      "created_at": "2026-02-22T21:55:59.667000",
+      "days_old": 34,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-channel-partner",
+      "display_name": "Channel Partner Program",
+      "stat_downloads": 484,
+      "stat_stars": 0,
+      "created_at": "2026-02-18T09:42:51.107000",
+      "days_old": 38,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-product-launch",
+      "display_name": "Product Launch System",
+      "stat_downloads": 483,
+      "stat_stars": 0,
+      "created_at": "2026-02-16T15:30:09.398000",
+      "days_old": 40,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-data-governance",
+      "display_name": "Data Governance Framework",
+      "stat_downloads": 482,
+      "stat_stars": 0,
+      "created_at": "2026-02-20T17:44:22.331000",
+      "days_old": 36,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-renewal-management",
+      "display_name": "Contract & Subscription Renewal Management",
+      "stat_downloads": 480,
+      "stat_stars": 0,
+      "created_at": "2026-02-17T17:15:07.910000",
+      "days_old": 39,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-claude-code-production",
+      "display_name": "Claude Code Production Engineering",
+      "stat_downloads": 480,
+      "stat_stars": 1,
+      "created_at": "2026-02-21T19:28:24.857000",
+      "days_old": 35,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-decision-engine",
+      "display_name": "Decision Engine",
+      "stat_downloads": 479,
+      "stat_stars": 0,
+      "created_at": "2026-02-18T18:25:19.082000",
+      "days_old": 38,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-accounts-receivable",
+      "display_name": "Accounts Receivable Manager",
+      "stat_downloads": 468,
+      "stat_stars": 0,
+      "created_at": "2026-02-15T12:12:53.132000",
+      "days_old": 41,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-workforce-planning",
+      "display_name": "Workforce Planning Framework",
+      "stat_downloads": 468,
+      "stat_stars": 0,
+      "created_at": "2026-02-16T12:13:10.725000",
+      "days_old": 40,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-revops-engine",
+      "display_name": "RevOps Engine",
+      "stat_downloads": 466,
+      "stat_stars": 1,
+      "created_at": "2026-02-20T17:25:03.628000",
+      "days_old": 36,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-board-reporting",
+      "display_name": "Board Reporting Framework",
+      "stat_downloads": 464,
+      "stat_stars": 0,
+      "created_at": "2026-02-19T18:13:48.907000",
+      "days_old": 37,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-debt-collection",
+      "display_name": "Debt Collection Recovery",
+      "stat_downloads": 464,
+      "stat_stars": 0,
+      "created_at": "2026-02-15T13:44:19.110000",
+      "days_old": 41,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-sales-funnel-engine",
+      "display_name": "Sales Funnel Engine",
+      "stat_downloads": 462,
+      "stat_stars": 1,
+      "created_at": "2026-02-25T18:32:15.114000",
+      "days_old": 31,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-partnership-agreement",
+      "display_name": "Partnership Agreement Generator",
+      "stat_downloads": 462,
+      "stat_stars": 0,
+      "created_at": "2026-02-16T16:43:46.979000",
+      "days_old": 40,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-openclaw-mastery",
+      "display_name": "OpenClaw Mastery",
+      "stat_downloads": 461,
+      "stat_stars": 0,
+      "created_at": "2026-02-19T11:29:16.932000",
+      "days_old": 37,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-web3-engineering",
+      "display_name": "Web3 & Blockchain Engineering",
+      "stat_downloads": 457,
+      "stat_stars": 1,
+      "created_at": "2026-02-19T18:29:31.952000",
+      "days_old": 37,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-agent-observability",
+      "display_name": "AI Agent Observability",
+      "stat_downloads": 456,
+      "stat_stars": 0,
+      "created_at": "2026-02-22T16:42:38.355000",
+      "days_old": 34,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-fitness-engine",
+      "display_name": "Fitness & Training Engineering",
+      "stat_downloads": 454,
+      "stat_stars": 0,
+      "created_at": "2026-02-19T16:25:06.270000",
+      "days_old": 37,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-sla-manager",
+      "display_name": "SLA Manager",
+      "stat_downloads": 449,
+      "stat_stars": 0,
+      "created_at": "2026-02-17T12:14:07.007000",
+      "days_old": 39,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-api-monetization",
+      "display_name": "API Monetization Strategy",
+      "stat_downloads": 443,
+      "stat_stars": 0,
+      "created_at": "2026-02-21T16:44:23.808000",
+      "days_old": 35,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-conversion-copywriting",
+      "display_name": "Conversion Copywriting Engine",
+      "stat_downloads": 443,
+      "stat_stars": 0,
+      "created_at": "2026-02-24T17:28:35.644000",
+      "days_old": 32,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-ai-agency-blueprint",
+      "display_name": "AI Automation Agency Blueprint",
+      "stat_downloads": 441,
+      "stat_stars": 3,
+      "created_at": "2026-02-20T11:30:18.786000",
+      "days_old": 36,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "sla-monitor",
+      "display_name": "SLA Monitor",
+      "stat_downloads": 439,
+      "stat_stars": 0,
+      "created_at": "2026-02-22T19:56:09.293000",
+      "days_old": 34,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-insurance-automation",
+      "display_name": "Insurance Operations Automation",
+      "stat_downloads": 437,
+      "stat_stars": 0,
+      "created_at": "2026-02-20T18:14:34.355000",
+      "days_old": 36,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-post-mortem",
+      "display_name": "Post-Mortem & Incident Review",
+      "stat_downloads": 433,
+      "stat_stars": 0,
+      "created_at": "2026-02-19T19:15:01.920000",
+      "days_old": 37,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-rag-engineering",
+      "display_name": "RAG Engineering",
+      "stat_downloads": 431,
+      "stat_stars": 1,
+      "created_at": "2026-02-20T13:24:51.103000",
+      "days_old": 36,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-personal-finance",
+      "display_name": "Personal Finance Mastery",
+      "stat_downloads": 430,
+      "stat_stars": 1,
+      "created_at": "2026-02-24T22:28:40.102000",
+      "days_old": 32,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-strategic-thinking",
+      "display_name": "Strategic Thinking & Mental Models Engine",
+      "stat_downloads": 429,
+      "stat_stars": 0,
+      "created_at": "2026-02-24T18:29:51.674000",
+      "days_old": 32,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-n8n-mastery",
+      "display_name": "n8n Workflow Engineering",
+      "stat_downloads": 429,
+      "stat_stars": 0,
+      "created_at": "2026-02-21T10:25:41.728000",
+      "days_old": 35,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-ml-engineering",
+      "display_name": "ML Engineering",
+      "stat_downloads": 428,
+      "stat_stars": 0,
+      "created_at": "2026-02-19T12:30:09.669000",
+      "days_old": 37,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-warranty-management",
+      "display_name": "Warranty & Returns Management",
+      "stat_downloads": 425,
+      "stat_stars": 0,
+      "created_at": "2026-02-18T13:12:51.187000",
+      "days_old": 38,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "compliance-readiness",
+      "display_name": "AI Compliance Readiness Assessment",
+      "stat_downloads": 424,
+      "stat_stars": 2,
+      "created_at": "2026-02-22T19:25:16.183000",
+      "days_old": 34,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-nextjs-production",
+      "display_name": "Next.js Production Engineering",
+      "stat_downloads": 423,
+      "stat_stars": 0,
+      "created_at": "2026-02-20T17:29:47.182000",
+      "days_old": 36,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-ai-readiness",
+      "display_name": "AI Readiness Assessment",
+      "stat_downloads": 422,
+      "stat_stars": 0,
+      "created_at": "2026-02-20T11:13:58.080000",
+      "days_old": 36,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-devrel-engine",
+      "display_name": "DevRel & Developer Advocacy Engine",
+      "stat_downloads": 420,
+      "stat_stars": 0,
+      "created_at": "2026-02-18T12:29:20.515000",
+      "days_old": 38,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-sales-compensation",
+      "display_name": "Sales Compensation Plan Designer",
+      "stat_downloads": 419,
+      "stat_stars": 0,
+      "created_at": "2026-02-22T13:42:49.812000",
+      "days_old": 34,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-agent-runbook",
+      "display_name": "Agent Ops Runbook",
+      "stat_downloads": 413,
+      "stat_stars": 0,
+      "created_at": "2026-02-22T11:44:15.208000",
+      "days_old": 34,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-fastapi-production",
+      "display_name": "FastAPI Production Engineering",
+      "stat_downloads": 408,
+      "stat_stars": 0,
+      "created_at": "2026-02-21T13:25:43.840000",
+      "days_old": 35,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-procurement-ops",
+      "display_name": "Procurement Operations",
+      "stat_downloads": 408,
+      "stat_stars": 0,
+      "created_at": "2026-02-20T19:15:04.735000",
+      "days_old": 36,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-investor-update",
+      "display_name": "Investor Update",
+      "stat_downloads": 406,
+      "stat_stars": 0,
+      "created_at": "2026-02-20T13:12:50.074000",
+      "days_old": 36,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-franchise-ops",
+      "display_name": "Franchise Operations Analyzer",
+      "stat_downloads": 403,
+      "stat_stars": 0,
+      "created_at": "2026-02-21T18:16:07.762000",
+      "days_old": 35,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-deal-desk",
+      "display_name": "Deal Desk",
+      "stat_downloads": 403,
+      "stat_stars": 0,
+      "created_at": "2026-02-20T12:44:06.866000",
+      "days_old": 36,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-event-management",
+      "display_name": "Event Management",
+      "stat_downloads": 402,
+      "stat_stars": 1,
+      "created_at": "2026-02-20T17:24:57.196000",
+      "days_old": 36,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-employee-retention",
+      "display_name": "Employee Retention & Turnover Risk Analyzer",
+      "stat_downloads": 401,
+      "stat_stars": 0,
+      "created_at": "2026-02-21T19:14:17.352000",
+      "days_old": 35,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-vendor-risk",
+      "display_name": "Vendor Risk Assessment",
+      "stat_downloads": 401,
+      "stat_stars": 0,
+      "created_at": "2026-02-20T18:45:11.015000",
+      "days_old": 36,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-export-compliance",
+      "display_name": "Export Compliance & Trade Controls",
+      "stat_downloads": 399,
+      "stat_stars": 0,
+      "created_at": "2026-02-22T18:44:16.280000",
+      "days_old": 34,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-spend-intelligence",
+      "display_name": "Spend Intelligence",
+      "stat_downloads": 397,
+      "stat_stars": 0,
+      "created_at": "2026-02-20T10:12:38.490000",
+      "days_old": 36,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-cloud-cost-audit",
+      "display_name": "Cloud Cost Audit",
+      "stat_downloads": 394,
+      "stat_stars": 0,
+      "created_at": "2026-02-21T17:12:33.439000",
+      "days_old": 35,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-copywriting-mastery",
+      "display_name": "Copywriting Mastery",
+      "stat_downloads": 392,
+      "stat_stars": 0,
+      "created_at": "2026-02-28T04:26:39.033000",
+      "days_old": 28,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-insurance-claims",
+      "display_name": "Insurance Claims Processor",
+      "stat_downloads": 392,
+      "stat_stars": 0,
+      "created_at": "2026-02-22T17:42:47.242000",
+      "days_old": 34,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-legacy-modernization",
+      "display_name": "legacy modernization",
+      "stat_downloads": 392,
+      "stat_stars": 0,
+      "created_at": "2026-02-19T16:26:01.652000",
+      "days_old": 37,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-git-engineering",
+      "display_name": "Git Engineering & Repository Strategy",
+      "stat_downloads": 389,
+      "stat_stars": 0,
+      "created_at": "2026-02-20T16:29:02.938000",
+      "days_old": 36,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-stripe-production",
+      "display_name": "Stripe Production Engineering",
+      "stat_downloads": 387,
+      "stat_stars": 0,
+      "created_at": "2026-02-21T20:29:56.242000",
+      "days_old": 35,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-django-production",
+      "display_name": "Django Production Engineering",
+      "stat_downloads": 386,
+      "stat_stars": 0,
+      "created_at": "2026-02-21T13:25:32.659000",
+      "days_old": 35,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-tokenomics",
+      "display_name": "Token Economics Analyzer",
+      "stat_downloads": 385,
+      "stat_stars": 0,
+      "created_at": "2026-02-21T18:45:54.847000",
+      "days_old": 35,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-go-production",
+      "display_name": "Go Production Engineering",
+      "stat_downloads": 385,
+      "stat_stars": 0,
+      "created_at": "2026-02-21T17:25:00.103000",
+      "days_old": 35,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-ai-safety-audit",
+      "display_name": "AI Safety Audit",
+      "stat_downloads": 384,
+      "stat_stars": 0,
+      "created_at": "2026-02-20T16:44:58.549000",
+      "days_old": 36,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-data-room",
+      "display_name": "Data Room Checklist",
+      "stat_downloads": 383,
+      "stat_stars": 0,
+      "created_at": "2026-02-22T13:43:01.732000",
+      "days_old": 34,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-observability-engine",
+      "display_name": "Observability & Reliability Engineering",
+      "stat_downloads": 378,
+      "stat_stars": 0,
+      "created_at": "2026-02-22T18:30:05.782000",
+      "days_old": 34,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-postmortem",
+      "display_name": "Incident Postmortem Framework",
+      "stat_downloads": 374,
+      "stat_stars": 0,
+      "created_at": "2026-02-22T13:42:55.809000",
+      "days_old": 34,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-medical-billing",
+      "display_name": "Medical Billing & Revenue Cycle",
+      "stat_downloads": 369,
+      "stat_stars": 0,
+      "created_at": "2026-02-24T19:44:02.138000",
+      "days_old": 32,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "aaas-roi-calculator",
+      "display_name": "AI-as-a-Service ROI Calculator",
+      "stat_downloads": 368,
+      "stat_stars": 0,
+      "created_at": "2026-02-22T19:24:58.212000",
+      "days_old": 34,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-mcp-engineering",
+      "display_name": "MCP Engineering",
+      "stat_downloads": 367,
+      "stat_stars": 0,
+      "created_at": "2026-02-22T21:29:26.298000",
+      "days_old": 34,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-ai-spend-audit",
+      "display_name": "Ai Spend Audit",
+      "stat_downloads": 362,
+      "stat_stars": 0,
+      "created_at": "2026-02-22T10:26:19.558000",
+      "days_old": 34,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-whistleblower",
+      "display_name": "Whistleblower Ethics Hotline",
+      "stat_downloads": 356,
+      "stat_stars": 0,
+      "created_at": "2026-02-22T17:42:52.709000",
+      "days_old": 34,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "vendor-risk-assessment",
+      "display_name": "Vendor Risk Assessment",
+      "stat_downloads": 347,
+      "stat_stars": 0,
+      "created_at": "2026-02-24T20:16:30.262000",
+      "days_old": 32,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-vibe-coding",
+      "display_name": "Vibe Coding Mastery",
+      "stat_downloads": 345,
+      "stat_stars": 0,
+      "created_at": "2026-02-28T04:31:08.729000",
+      "days_old": 28,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-performance-engineering",
+      "display_name": "Performance Engineering System",
+      "stat_downloads": 339,
+      "stat_stars": 0,
+      "created_at": "2026-02-25T22:28:57.004000",
+      "days_old": 31,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-building-permits",
+      "display_name": "Building Permit & Construction Permitting",
+      "stat_downloads": 338,
+      "stat_stars": 0,
+      "created_at": "2026-02-25T00:14:16.601000",
+      "days_old": 31,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-self-hosting-mastery",
+      "display_name": "Self-Hosting Mastery",
+      "stat_downloads": 332,
+      "stat_stars": 0,
+      "created_at": "2026-02-26T00:30:38.752000",
+      "days_old": 30,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-crisis-management",
+      "display_name": "Crisis Management & Communications Playbook",
+      "stat_downloads": 332,
+      "stat_stars": 0,
+      "created_at": "2026-02-24T19:29:30.359000",
+      "days_old": 32,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-food-safety",
+      "display_name": "Food Safety & HACCP Compliance",
+      "stat_downloads": 329,
+      "stat_stars": 0,
+      "created_at": "2026-02-24T20:44:02.573000",
+      "days_old": 32,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-rate-strategy",
+      "display_name": "Interest Rate Strategy",
+      "stat_downloads": 326,
+      "stat_stars": 0,
+      "created_at": "2026-02-22T13:43:06.977000",
+      "days_old": 34,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-epa-compliance",
+      "display_name": "Environmental Compliance Manager",
+      "stat_downloads": 325,
+      "stat_stars": 0,
+      "created_at": "2026-02-24T18:44:04.905000",
+      "days_old": 32,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-executive-coaching",
+      "display_name": "Executive Coaching & Leadership Development Engine",
+      "stat_downloads": 322,
+      "stat_stars": 0,
+      "created_at": "2026-02-25T00:31:15.051000",
+      "days_old": 31,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-ai-coding-toolkit",
+      "display_name": "AI Coding Toolkit",
+      "stat_downloads": 321,
+      "stat_stars": 0,
+      "created_at": "2026-02-28T22:28:23.495000",
+      "days_old": 28,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-event-planner",
+      "display_name": "Event Planner Pro",
+      "stat_downloads": 319,
+      "stat_stars": 1,
+      "created_at": "2026-02-24T21:29:19.052000",
+      "days_old": 32,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-workers-comp",
+      "display_name": "Workers Compensation Compliance",
+      "stat_downloads": 318,
+      "stat_stars": 0,
+      "created_at": "2026-02-24T22:44:00.795000",
+      "days_old": 32,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-benefits-admin",
+      "display_name": "Benefits Administration Agent",
+      "stat_downloads": 318,
+      "stat_stars": 0,
+      "created_at": "2026-02-24T17:45:08.047000",
+      "days_old": 32,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-growth-engine",
+      "display_name": "Growth Engineering Mastery",
+      "stat_downloads": 315,
+      "stat_stars": 0,
+      "created_at": "2026-02-18T12:24:43.911000",
+      "days_old": 38,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-photography-mastery",
+      "display_name": "Photography Mastery",
+      "stat_downloads": 303,
+      "stat_stars": 1,
+      "created_at": "2026-02-25T20:29:55.953000",
+      "days_old": 31,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-davis-bacon",
+      "display_name": "Davis-Bacon Prevailing Wage Compliance",
+      "stat_downloads": 299,
+      "stat_stars": 0,
+      "created_at": "2026-02-24T23:44:17.742000",
+      "days_old": 32,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-lease-analyzer",
+      "display_name": "Commercial Lease Analyzer",
+      "stat_downloads": 297,
+      "stat_stars": 0,
+      "created_at": "2026-02-24T18:14:46.626000",
+      "days_old": 32,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "client-onboarding",
+      "display_name": "Client Onboarding",
+      "stat_downloads": 292,
+      "stat_stars": 2,
+      "created_at": "2026-02-25T20:17:36.927000",
+      "days_old": 31,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-roofing-contractor",
+      "display_name": "Roofing Contractor Operations",
+      "stat_downloads": 288,
+      "stat_stars": 0,
+      "created_at": "2026-02-25T23:43:48.658000",
+      "days_old": 31,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-dental-practice",
+      "display_name": "Dental Practice Operations",
+      "stat_downloads": 282,
+      "stat_stars": 0,
+      "created_at": "2026-02-25T19:12:37.199000",
+      "days_old": 31,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-restaurant-ops",
+      "display_name": "Restaurant Operations",
+      "stat_downloads": 280,
+      "stat_stars": 0,
+      "created_at": "2026-02-26T02:15:23.207000",
+      "days_old": 30,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-home-inspection",
+      "display_name": "Home Inspection Business Operations",
+      "stat_downloads": 273,
+      "stat_stars": 0,
+      "created_at": "2026-02-25T23:13:44.445000",
+      "days_old": 31,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-auto-repair",
+      "display_name": "Auto Repair Shop Operations",
+      "stat_downloads": 272,
+      "stat_stars": 0,
+      "created_at": "2026-02-28T05:21:11.243000",
+      "days_old": 28,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-staffing-agency",
+      "display_name": "Staffing Agency Operations",
+      "stat_downloads": 271,
+      "stat_stars": 0,
+      "created_at": "2026-02-26T00:13:35.236000",
+      "days_old": 30,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-pharmacy-compliance",
+      "display_name": "Pharmacy Compliance",
+      "stat_downloads": 271,
+      "stat_stars": 0,
+      "created_at": "2026-02-25T19:12:43.117000",
+      "days_old": 31,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-hvac",
+      "display_name": "HVAC Business Operations",
+      "stat_downloads": 268,
+      "stat_stars": 0,
+      "created_at": "2026-02-28T21:43:20.726000",
+      "days_old": 28,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-cleaning-business",
+      "display_name": "Cleaning Business Operations",
+      "stat_downloads": 263,
+      "stat_stars": 2,
+      "created_at": "2026-02-28T05:21:05.558000",
+      "days_old": 28,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-gym-fitness",
+      "display_name": "Gym & Fitness Studio Operations",
+      "stat_downloads": 262,
+      "stat_stars": 0,
+      "created_at": "2026-02-28T22:14:33.997000",
+      "days_old": 28,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-agent-memory",
+      "display_name": "Agent Memory Architecture",
+      "stat_downloads": 260,
+      "stat_stars": 2,
+      "created_at": "2026-02-28T22:28:09.870000",
+      "days_old": 28,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-pest-control",
+      "display_name": "Pest Control Business Operations",
+      "stat_downloads": 257,
+      "stat_stars": 1,
+      "created_at": "2026-02-25T21:42:31.538000",
+      "days_old": 31,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-landscaping",
+      "display_name": "Landscaping & Lawn Care Operations",
+      "stat_downloads": 254,
+      "stat_stars": 0,
+      "created_at": "2026-02-25T20:43:05.029000",
+      "days_old": 31,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-prompt-mastery",
+      "display_name": "Prompt Engineering Mastery",
+      "stat_downloads": 253,
+      "stat_stars": 0,
+      "created_at": "2026-02-28T22:28:29.009000",
+      "days_old": 28,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-childcare-center",
+      "display_name": "Childcare Center Operations",
+      "stat_downloads": 253,
+      "stat_stars": 0,
+      "created_at": "2026-02-28T05:21:19.210000",
+      "days_old": 28,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-funeral-home",
+      "display_name": "Funeral Home Operations",
+      "stat_downloads": 253,
+      "stat_stars": 0,
+      "created_at": "2026-02-25T19:42:46.712000",
+      "days_old": 31,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-veterinary-practice",
+      "display_name": "Veterinary Practice Operations",
+      "stat_downloads": 253,
+      "stat_stars": 0,
+      "created_at": "2026-02-25T20:45:37.592000",
+      "days_old": 31,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-childcare-compliance",
+      "display_name": "Childcare Compliance",
+      "stat_downloads": 247,
+      "stat_stars": 0,
+      "created_at": "2026-02-25T19:13:14.659000",
+      "days_old": 31,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-salon-spa",
+      "display_name": "Salon & Spa Operations",
+      "stat_downloads": 244,
+      "stat_stars": 0,
+      "created_at": "2026-02-25T19:12:51.680000",
+      "days_old": 31,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-moving-company",
+      "display_name": "Moving Company Operations",
+      "stat_downloads": 242,
+      "stat_stars": 0,
+      "created_at": "2026-02-25T20:42:50.434000",
+      "days_old": 31,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-food-truck",
+      "display_name": "Food Truck Business Operations",
+      "stat_downloads": 241,
+      "stat_stars": 0,
+      "created_at": "2026-03-01T04:14:04.224000",
+      "days_old": 27,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "afrexai-voice-ai-engine",
+      "display_name": "Voice AI Agent Engineering",
+      "stat_downloads": 38,
+      "stat_stars": 0,
+      "created_at": "2026-03-24T00:20:14.076000",
+      "days_old": 4,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "afrexai-spreadsheet-master",
+      "display_name": "Spreadsheet & Data Wrangling Master",
+      "stat_downloads": 34,
+      "stat_stars": 0,
+      "created_at": "2026-03-24T01:01:33.222000",
+      "days_old": 4,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "afrexai-solar-installer",
+      "display_name": "Solar Installation Business Operations",
+      "stat_downloads": 34,
+      "stat_stars": 0,
+      "created_at": "2026-03-24T00:10:56.609000",
+      "days_old": 4,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "afrexai-plumbing-business",
+      "display_name": "Plumbing Business Operations",
+      "stat_downloads": 30,
+      "stat_stars": 0,
+      "created_at": "2026-03-24T00:54:20.856000",
+      "days_old": 4,
+      "is_highlighted": false,
+      "is_suspicious": false
+    }
+  ],
+  "trajectory": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 141613,
+      "stars": 96
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 143164,
+      "stars": 97
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 147860,
+      "stars": 103
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 150299,
+      "stars": 107
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 152784,
+      "stars": 109
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 156455,
+      "stars": 109
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 163058,
+      "stars": 115
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 163825,
+      "stars": 116
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 164483,
+      "stars": 117
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 167781,
+      "stars": 119
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 173495,
+      "stars": 122
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 173495,
+      "stars": 122
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 174614,
+      "stars": 123
+    }
+  ],
+  "download_trajectory": [
+    141613,
+    143164,
+    147860,
+    150299,
+    152784,
+    156455,
+    163058,
+    163825,
+    164483,
+    167781,
+    173495,
+    173495,
+    174614
+  ]
+}

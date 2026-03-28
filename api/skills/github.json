@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd7avmm6txvmxgjvd5typxc7157ykb9a",
+  "slug": "github",
+  "display_name": "Github",
+  "summary": "Interact with GitHub using the `gh` CLI. Use `gh issue`, `gh pr`, `gh run`, and `gh api` for issues, PRs, CI runs, and advanced queries.",
+  "owner_handle": "steipete",
+  "owner_image": "https://avatars.githubusercontent.com/u/58493?v=4",
+  "created_at": "2026-01-04T16:49:04.344000",
+  "days_old": 82,
+  "stat_downloads": 135680,
+  "stat_stars": 457,
+  "tags": {
+    "latest": "k97894cjdsq0tgyfd6ypcfdafn7ykcmx"
+  },
+  "badges": null,
+  "stat_installs": 3655,
+  "stat_comments": 7,
+  "current_version": "1.0.0",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 1654.6,
+  "acceleration_pct": -71.9,
+  "dl_delta": 613,
+  "dl_wow": 0.5,
+  "star_delta": 2,
+  "star_wow": 0.4,
+  "installs_delta": 18,
+  "installs_wow": 0.5,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 118346,
+      "stars": 398,
+      "installs_all_time": 3050,
+      "installs_current": 2982
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 119532,
+      "stars": 400,
+      "installs_all_time": 3096,
+      "installs_current": 3027
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 121785,
+      "stars": 403,
+      "installs_all_time": 3182,
+      "installs_current": 3110
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 123484,
+      "stars": 409,
+      "installs_all_time": 3247,
+      "installs_current": 3173
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 125096,
+      "stars": 416,
+      "installs_all_time": 3296,
+      "installs_current": 3218
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 126753,
+      "stars": 419,
+      "installs_all_time": 3368,
+      "installs_current": 3287
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 129972,
+      "stars": 437,
+      "installs_all_time": 3474,
+      "installs_current": 3388
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 130218,
+      "stars": 437,
+      "installs_all_time": 3481,
+      "installs_current": 3395
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 130633,
+      "stars": 437,
+      "installs_all_time": 3492,
+      "installs_current": 3406
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 132399,
+      "stars": 446,
+      "installs_all_time": 3548,
+      "installs_current": 3461
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 135067,
+      "stars": 455,
+      "installs_all_time": 3637,
+      "installs_current": 3545
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 135067,
+      "stars": 455,
+      "installs_all_time": 3637,
+      "installs_current": 3545
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 135680,
+      "stars": 457,
+      "installs_all_time": 3655,
+      "installs_current": 3562
+    }
+  ],
+  "version_releases": []
+}

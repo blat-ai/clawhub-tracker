@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd7car3k6zj36bgjmcsxmyb01x805ydd",
+  "slug": "web-search",
+  "display_name": "Web Search",
+  "summary": "This skill should be used when users need to search the web for information, find current content, look up news articles, search for images, or find videos. It uses DuckDuckGo's search API to return results in clean, formatted output (text, markdown, or JSON). Use for research, fact-checking, finding recent information, or gathering web resources.",
+  "owner_handle": "billyutw",
+  "owner_image": "https://avatars.githubusercontent.com/u/26513936?v=4",
+  "created_at": "2026-01-29T07:57:34.302000",
+  "days_old": 57,
+  "stat_downloads": 21675,
+  "stat_stars": 25,
+  "tags": {
+    "latest": "k97e2055wfhrf2wk8ykn04x98x804v6c"
+  },
+  "badges": null,
+  "stat_installs": 424,
+  "stat_comments": 1,
+  "current_version": "1.0.0",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 380.3,
+  "acceleration_pct": -69.6,
+  "dl_delta": 107,
+  "dl_wow": 0.5,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 1,
+  "installs_wow": 0.2,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 19152,
+      "stars": 22,
+      "installs_all_time": 355,
+      "installs_current": 341
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 19286,
+      "stars": 22,
+      "installs_all_time": 363,
+      "installs_current": 349
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 19611,
+      "stars": 23,
+      "installs_all_time": 369,
+      "installs_current": 354
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 19873,
+      "stars": 23,
+      "installs_all_time": 376,
+      "installs_current": 361
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 20121,
+      "stars": 23,
+      "installs_all_time": 384,
+      "installs_current": 369
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 20344,
+      "stars": 23,
+      "installs_all_time": 391,
+      "installs_current": 376
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 20810,
+      "stars": 23,
+      "installs_all_time": 407,
+      "installs_current": 392
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 20839,
+      "stars": 23,
+      "installs_all_time": 409,
+      "installs_current": 393
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 20922,
+      "stars": 23,
+      "installs_all_time": 412,
+      "installs_current": 396
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 21191,
+      "stars": 23,
+      "installs_all_time": 415,
+      "installs_current": 399
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 21568,
+      "stars": 25,
+      "installs_all_time": 423,
+      "installs_current": 408
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 21568,
+      "stars": 25,
+      "installs_all_time": 423,
+      "installs_current": 408
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 21675,
+      "stars": 25,
+      "installs_all_time": 424,
+      "installs_current": 409
+    }
+  ],
+  "version_releases": []
+}

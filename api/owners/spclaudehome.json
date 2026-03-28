@@ -1,0 +1,136 @@
+{
+  "handle": "spclaudehome",
+  "total_downloads": 163097,
+  "total_stars": 688,
+  "total_installs": 3211,
+  "skill_count": 2,
+  "avg_dl_per_day": 1456.2,
+  "highlighted_count": 0,
+  "suspicious_count": 2,
+  "clean_pct": 0.0,
+  "dl_delta": 1377,
+  "dl_wow": 0.9,
+  "dl_per_day": 1377.0,
+  "star_delta": 5,
+  "star_wow": 0.7,
+  "star_per_day": 5.0,
+  "installs_delta": 23,
+  "installs_wow": 0.7,
+  "installs_per_day": 23.0,
+  "owner_display_name": "spclaudehome",
+  "owner_name": "pinchy0x",
+  "owner_image": "https://avatars.githubusercontent.com/u/257035288?v=4",
+  "bio": null,
+  "company": null,
+  "location": null,
+  "blog": null,
+  "public_repos": null,
+  "followers": null,
+  "following": null,
+  "github_created_at": null,
+  "twitter_username": null,
+  "skills": [
+    {
+      "slug": "skill-vetter",
+      "display_name": "Skill Vetter",
+      "stat_downloads": 161427,
+      "stat_stars": 688,
+      "created_at": "2026-01-31T12:43:49.632000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "crabnet",
+      "display_name": "CrabNet",
+      "stat_downloads": 1670,
+      "stat_stars": 0,
+      "created_at": "2026-01-31T14:44:09.247000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": true
+    }
+  ],
+  "trajectory": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 120299,
+      "stars": 477
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 122948,
+      "stars": 485
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 128890,
+      "stars": 513
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 133248,
+      "stars": 548
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 137248,
+      "stars": 572
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 141365,
+      "stars": 587
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 149283,
+      "stars": 625
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 149911,
+      "stars": 631
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 150549,
+      "stars": 632
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 154891,
+      "stars": 653
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 161720,
+      "stars": 683
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 161720,
+      "stars": 683
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 163097,
+      "stars": 688
+    }
+  ],
+  "download_trajectory": [
+    120299,
+    122948,
+    128890,
+    133248,
+    137248,
+    141365,
+    149283,
+    149911,
+    150549,
+    154891,
+    161720,
+    161720,
+    163097
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd7d6rghjnynxjaet2a0dx0yes7ykr6m",
+  "slug": "camsnap",
+  "display_name": "Camsnap",
+  "summary": "Capture frames or clips from RTSP/ONVIF cameras.",
+  "owner_handle": "steipete",
+  "owner_image": "https://avatars.githubusercontent.com/u/58493?v=4",
+  "created_at": "2026-01-04T16:48:26.244000",
+  "days_old": 82,
+  "stat_downloads": 11988,
+  "stat_stars": 9,
+  "tags": {
+    "latest": "k97bfsyg3fspm783a55nnm99rh7ykph6"
+  },
+  "badges": null,
+  "stat_installs": 997,
+  "stat_comments": 0,
+  "current_version": "1.0.0",
+  "is_highlighted": false,
+  "is_suspicious": false,
+  "velocity": 146.2,
+  "acceleration_pct": -80.9,
+  "dl_delta": 50,
+  "dl_wow": 0.4,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 5,
+  "installs_wow": 0.5,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 10524,
+      "stars": 8,
+      "installs_all_time": 875,
+      "installs_current": 858
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 10606,
+      "stars": 8,
+      "installs_all_time": 885,
+      "installs_current": 868
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 10771,
+      "stars": 8,
+      "installs_all_time": 899,
+      "installs_current": 881
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 10919,
+      "stars": 8,
+      "installs_all_time": 912,
+      "installs_current": 894
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 11054,
+      "stars": 8,
+      "installs_all_time": 923,
+      "installs_current": 903
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 11166,
+      "stars": 9,
+      "installs_all_time": 941,
+      "installs_current": 921
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 11402,
+      "stars": 9,
+      "installs_all_time": 957,
+      "installs_current": 937
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 11420,
+      "stars": 9,
+      "installs_all_time": 961,
+      "installs_current": 940
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 11480,
+      "stars": 9,
+      "installs_all_time": 963,
+      "installs_current": 942
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 11682,
+      "stars": 9,
+      "installs_all_time": 975,
+      "installs_current": 954
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 11938,
+      "stars": 9,
+      "installs_all_time": 992,
+      "installs_current": 970
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 11938,
+      "stars": 9,
+      "installs_all_time": 992,
+      "installs_current": 970
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 11988,
+      "stars": 9,
+      "installs_all_time": 997,
+      "installs_current": 974
+    }
+  ],
+  "version_releases": []
+}

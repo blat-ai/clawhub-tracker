@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd77fk7xycy5zkencq6pxt90kn80nyfe",
+  "slug": "copywriting",
+  "display_name": "Copywriting",
+  "summary": "Write persuasive copy for landing pages, emails, ads, sales pages, and marketing materials. Use when you need to write headlines, CTAs, product descriptions, ad copy, email sequences, or any text meant to drive action. Covers copywriting formulas (AIDA, PAS, FAB), headline writing, emotional triggers, objection handling in copy, and A/B testing. Trigger on \"write copy\", \"copywriting\", \"landing page copy\", \"headline\", \"write a sales page\", \"ad copy\", \"email copy\", \"persuasive writing\", \"how to write [marketing text]\".",
+  "owner_handle": "jk-0001",
+  "owner_image": "https://avatars.githubusercontent.com/u/103896999?v=4",
+  "created_at": "2026-02-06T01:37:17.629000",
+  "days_old": 50,
+  "stat_downloads": 12608,
+  "stat_stars": 25,
+  "tags": {
+    "latest": "k9767p2qm10v97pqxbgw7f1n9s80natw"
+  },
+  "badges": null,
+  "stat_installs": 190,
+  "stat_comments": 0,
+  "current_version": "0.1.0",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 252.2,
+  "acceleration_pct": -69.6,
+  "dl_delta": 113,
+  "dl_wow": 0.9,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 2,
+  "installs_wow": 1.1,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 9862,
+      "stars": 23,
+      "installs_all_time": 131,
+      "installs_current": 129
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 10044,
+      "stars": 23,
+      "installs_all_time": 136,
+      "installs_current": 134
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 10369,
+      "stars": 24,
+      "installs_all_time": 137,
+      "installs_current": 135
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 10630,
+      "stars": 24,
+      "installs_all_time": 141,
+      "installs_current": 139
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 10885,
+      "stars": 24,
+      "installs_all_time": 152,
+      "installs_current": 149
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 11166,
+      "stars": 24,
+      "installs_all_time": 156,
+      "installs_current": 153
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 11671,
+      "stars": 24,
+      "installs_all_time": 171,
+      "installs_current": 168
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 11707,
+      "stars": 24,
+      "installs_all_time": 174,
+      "installs_current": 171
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 11788,
+      "stars": 24,
+      "installs_all_time": 175,
+      "installs_current": 172
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 12079,
+      "stars": 24,
+      "installs_all_time": 180,
+      "installs_current": 177
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 12495,
+      "stars": 25,
+      "installs_all_time": 188,
+      "installs_current": 185
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 12495,
+      "stars": 25,
+      "installs_all_time": 188,
+      "installs_current": 185
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 12608,
+      "stars": 25,
+      "installs_all_time": 190,
+      "installs_current": 187
+    }
+  ],
+  "version_releases": []
+}

@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd7c652ye5yk4nskj0a60jh32580d857",
+  "slug": "typeform",
+  "display_name": "Typeform",
+  "summary": "Typeform API integration with managed OAuth. Create forms, manage responses, and access insights. Use this skill when users want to interact with Typeform surveys and responses. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
+  "owner_handle": "byungkyu",
+  "owner_image": "https://avatars.githubusercontent.com/u/16563684?v=4",
+  "created_at": "2026-02-02T09:18:46.054000",
+  "days_old": 53,
+  "stat_downloads": 16999,
+  "stat_stars": 6,
+  "tags": {
+    "latest": "k97cbcs7jbxw6fbs81rz3x0mrd80wp7b"
+  },
+  "badges": null,
+  "stat_installs": 14,
+  "stat_comments": 3,
+  "current_version": "1.0.4",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 320.7,
+  "acceleration_pct": -68.2,
+  "dl_delta": 7,
+  "dl_wow": 0.0,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 0,
+  "installs_wow": 0.0,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 16834,
+      "stars": 6,
+      "installs_all_time": 11,
+      "installs_current": 9
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 16851,
+      "stars": 6,
+      "installs_all_time": 11,
+      "installs_current": 9
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 16879,
+      "stars": 6,
+      "installs_all_time": 11,
+      "installs_current": 9
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 16896,
+      "stars": 6,
+      "installs_all_time": 12,
+      "installs_current": 10
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 16904,
+      "stars": 6,
+      "installs_all_time": 12,
+      "installs_current": 9
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 16910,
+      "stars": 6,
+      "installs_all_time": 13,
+      "installs_current": 10
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 16938,
+      "stars": 6,
+      "installs_all_time": 13,
+      "installs_current": 10
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 16940,
+      "stars": 6,
+      "installs_all_time": 13,
+      "installs_current": 10
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 16945,
+      "stars": 6,
+      "installs_all_time": 13,
+      "installs_current": 10
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 16962,
+      "stars": 6,
+      "installs_all_time": 13,
+      "installs_current": 10
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 16992,
+      "stars": 6,
+      "installs_all_time": 14,
+      "installs_current": 11
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 16992,
+      "stars": 6,
+      "installs_all_time": 14,
+      "installs_current": 11
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 16999,
+      "stars": 6,
+      "installs_all_time": 14,
+      "installs_current": 11
+    }
+  ],
+  "version_releases": []
+}

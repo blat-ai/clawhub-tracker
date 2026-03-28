@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd771zwym4a9ccq3cjthtyy5gn80d9wr",
+  "slug": "security-auditor",
+  "display_name": "Security Auditor",
+  "summary": "Use when reviewing code for security vulnerabilities, implementing authentication flows, auditing OWASP Top 10, configuring CORS/CSP headers, handling secrets, input validation, SQL injection prevention, XSS protection, or any security-related code review.",
+  "owner_handle": "jgarrison929",
+  "owner_image": "https://avatars.githubusercontent.com/u/21370704?v=4",
+  "created_at": "2026-02-02T04:56:57.892000",
+  "days_old": 53,
+  "stat_downloads": 16408,
+  "stat_stars": 23,
+  "tags": {
+    "latest": "k97b1vcx8ppmgc3bj9w41x9gzx80detq"
+  },
+  "badges": null,
+  "stat_installs": 222,
+  "stat_comments": 0,
+  "current_version": "1.0.0",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 309.6,
+  "acceleration_pct": -68.8,
+  "dl_delta": 119,
+  "dl_wow": 0.7,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 1,
+  "installs_wow": 0.5,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 13317,
+      "stars": 19,
+      "installs_all_time": 164,
+      "installs_current": 160
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 13510,
+      "stars": 19,
+      "installs_all_time": 168,
+      "installs_current": 162
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 13910,
+      "stars": 20,
+      "installs_all_time": 171,
+      "installs_current": 164
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 14217,
+      "stars": 20,
+      "installs_all_time": 179,
+      "installs_current": 171
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 14538,
+      "stars": 20,
+      "installs_all_time": 188,
+      "installs_current": 178
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 14882,
+      "stars": 22,
+      "installs_all_time": 201,
+      "installs_current": 190
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 15414,
+      "stars": 23,
+      "installs_all_time": 211,
+      "installs_current": 198
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 15445,
+      "stars": 23,
+      "installs_all_time": 212,
+      "installs_current": 199
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 15548,
+      "stars": 23,
+      "installs_all_time": 213,
+      "installs_current": 201
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 15827,
+      "stars": 23,
+      "installs_all_time": 215,
+      "installs_current": 203
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 16289,
+      "stars": 23,
+      "installs_all_time": 221,
+      "installs_current": 209
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 16289,
+      "stars": 23,
+      "installs_all_time": 221,
+      "installs_current": 209
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 16408,
+      "stars": 23,
+      "installs_all_time": 222,
+      "installs_current": 210
+    }
+  ],
+  "version_releases": []
+}

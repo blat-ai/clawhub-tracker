@@ -1,0 +1,130 @@
+{
+  "handle": "fly0pants",
+  "total_downloads": 84754,
+  "total_stars": 366,
+  "total_installs": 359,
+  "skill_count": 2,
+  "avg_dl_per_day": 3533.6,
+  "highlighted_count": 0,
+  "suspicious_count": 0,
+  "clean_pct": 100.0,
+  "dl_delta": 150,
+  "dl_wow": 0.2,
+  "dl_per_day": 150.0,
+  "star_delta": 1,
+  "star_wow": 0.3,
+  "star_per_day": 1.0,
+  "installs_delta": 0,
+  "installs_wow": 0.0,
+  "installs_per_day": 0,
+  "owner_display_name": "fly0pants",
+  "owner_name": "fly0pants",
+  "owner_image": "https://avatars.githubusercontent.com/u/110800087?v=4",
+  "bio": null,
+  "company": null,
+  "location": null,
+  "blog": null,
+  "public_repos": 21,
+  "followers": 0,
+  "following": 0,
+  "github_created_at": "2022-08-08T03:24:26",
+  "twitter_username": null,
+  "skills": [
+    {
+      "slug": "admapix",
+      "display_name": "AdMapix",
+      "stat_downloads": 77025,
+      "stat_stars": 204,
+      "created_at": "2026-03-13T07:11:54.380000",
+      "days_old": 15,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ecomseer",
+      "display_name": "EcomSeer",
+      "stat_downloads": 7729,
+      "stat_stars": 162,
+      "created_at": "2026-03-24T08:53:11.342000",
+      "days_old": 4,
+      "is_highlighted": false,
+      "is_suspicious": false
+    }
+  ],
+  "trajectory": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 63733,
+      "stars": 116
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 64383,
+      "stars": 159
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 64756,
+      "stars": 161
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 65076,
+      "stars": 164
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 65381,
+      "stars": 164
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 83485,
+      "stars": 343
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 83551,
+      "stars": 343
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 83645,
+      "stars": 345
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 84007,
+      "stars": 360
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 84604,
+      "stars": 365
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 84604,
+      "stars": 365
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 84754,
+      "stars": 366
+    }
+  ],
+  "download_trajectory": [
+    63733,
+    64383,
+    64756,
+    65076,
+    65381,
+    83485,
+    83551,
+    83645,
+    84007,
+    84604,
+    84604,
+    84754
+  ]
+}

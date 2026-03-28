@@ -1,0 +1,136 @@
+{
+  "handle": "biostartechnology",
+  "total_downloads": 83986,
+  "total_stars": 504,
+  "total_installs": 1160,
+  "skill_count": 2,
+  "avg_dl_per_day": 666.6,
+  "highlighted_count": 0,
+  "suspicious_count": 2,
+  "clean_pct": 0.0,
+  "dl_delta": 480,
+  "dl_wow": 0.6,
+  "dl_per_day": 480.0,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "star_per_day": 0,
+  "installs_delta": 10,
+  "installs_wow": 0.9,
+  "installs_per_day": 10.0,
+  "owner_display_name": "B*T",
+  "owner_name": "biostartechnology",
+  "owner_image": "https://avatars.githubusercontent.com/u/46933184?v=4",
+  "bio": null,
+  "company": null,
+  "location": null,
+  "blog": null,
+  "public_repos": 0,
+  "followers": 0,
+  "following": 0,
+  "github_created_at": "2019-01-22T16:00:36",
+  "twitter_username": null,
+  "skills": [
+    {
+      "slug": "humanizer",
+      "display_name": "Humanizer",
+      "stat_downloads": 72875,
+      "stat_stars": 470,
+      "created_at": "2026-01-24T05:15:36.865000",
+      "days_old": 63,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "linkedin",
+      "display_name": "LinkedIn",
+      "stat_downloads": 11111,
+      "stat_stars": 34,
+      "created_at": "2026-01-24T05:15:29.796000",
+      "days_old": 63,
+      "is_highlighted": false,
+      "is_suspicious": true
+    }
+  ],
+  "trajectory": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 70754,
+      "stars": 455
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 71655,
+      "stars": 457
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 73407,
+      "stars": 461
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 74742,
+      "stars": 471
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 75909,
+      "stars": 474
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 77130,
+      "stars": 476
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 79552,
+      "stars": 489
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 79739,
+      "stars": 489
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 80046,
+      "stars": 489
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 81442,
+      "stars": 492
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 83506,
+      "stars": 504
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 83506,
+      "stars": 504
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 83986,
+      "stars": 504
+    }
+  ],
+  "download_trajectory": [
+    70754,
+    71655,
+    73407,
+    74742,
+    75909,
+    77130,
+    79552,
+    79739,
+    80046,
+    81442,
+    83506,
+    83506,
+    83986
+  ]
+}

@@ -1,0 +1,326 @@
+{
+  "handle": "codedao12",
+  "total_downloads": 57119,
+  "total_stars": 89,
+  "total_installs": 393,
+  "skill_count": 21,
+  "avg_dl_per_day": 52.2,
+  "highlighted_count": 0,
+  "suspicious_count": 21,
+  "clean_pct": 0.0,
+  "dl_delta": 294,
+  "dl_wow": 0.5,
+  "dl_per_day": 294.0,
+  "star_delta": 1,
+  "star_wow": 1.1,
+  "star_per_day": 1.0,
+  "installs_delta": 4,
+  "installs_wow": 1.0,
+  "installs_per_day": 4.0,
+  "owner_display_name": "codedao12",
+  "owner_name": "codedao12",
+  "owner_image": "https://avatars.githubusercontent.com/u/249323427?v=4",
+  "bio": null,
+  "company": null,
+  "location": null,
+  "blog": null,
+  "public_repos": 2,
+  "followers": 2,
+  "following": 0,
+  "github_created_at": "2025-12-12T16:27:03",
+  "twitter_username": null,
+  "skills": [
+    {
+      "slug": "telegram",
+      "display_name": "Telegram",
+      "stat_downloads": 14169,
+      "stat_stars": 20,
+      "created_at": "2026-02-01T16:56:17.628000",
+      "days_old": 55,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "agent-browser-core",
+      "display_name": "Agent Browser Core",
+      "stat_downloads": 7764,
+      "stat_stars": 18,
+      "created_at": "2026-02-06T08:00:37.991000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "facebook",
+      "display_name": "Facebook",
+      "stat_downloads": 3613,
+      "stat_stars": 6,
+      "created_at": "2026-02-01T17:01:50.711000",
+      "days_old": 55,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "wordpress",
+      "display_name": "Wordpress REST API",
+      "stat_downloads": 3531,
+      "stat_stars": 7,
+      "created_at": "2026-02-02T10:12:16.694000",
+      "days_old": 54,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "n8n-api",
+      "display_name": "n8n API",
+      "stat_downloads": 3018,
+      "stat_stars": 3,
+      "created_at": "2026-02-01T16:19:47.045000",
+      "days_old": 55,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "discord-hub",
+      "display_name": "Discord",
+      "stat_downloads": 2536,
+      "stat_stars": 2,
+      "created_at": "2026-02-05T04:14:59.849000",
+      "days_old": 51,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "google-sheets-api",
+      "display_name": "Google Sheets API",
+      "stat_downloads": 2338,
+      "stat_stars": 4,
+      "created_at": "2026-02-02T10:25:01.122000",
+      "days_old": 54,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "n8n-hub",
+      "display_name": "n8n Hub",
+      "stat_downloads": 2166,
+      "stat_stars": 3,
+      "created_at": "2026-02-01T16:46:36.321000",
+      "days_old": 55,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "messenger",
+      "display_name": "Messenger",
+      "stat_downloads": 2021,
+      "stat_stars": 5,
+      "created_at": "2026-02-01T17:05:01.534000",
+      "days_old": 55,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "meeting-to-action",
+      "display_name": "Meeting To Action",
+      "stat_downloads": 1935,
+      "stat_stars": 1,
+      "created_at": "2026-02-09T09:53:08.669000",
+      "days_old": 47,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "twilio",
+      "display_name": "Twilio",
+      "stat_downloads": 1902,
+      "stat_stars": 4,
+      "created_at": "2026-02-09T07:09:09.898000",
+      "days_old": 47,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "zalo",
+      "display_name": "Zalo",
+      "stat_downloads": 1809,
+      "stat_stars": 0,
+      "created_at": "2026-02-01T16:55:49.537000",
+      "days_old": 55,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "google-sheet-api",
+      "display_name": "Google Sheet API",
+      "stat_downloads": 1795,
+      "stat_stars": 3,
+      "created_at": "2026-02-02T09:47:17.314000",
+      "days_old": 54,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "auto-shorts-repurposer",
+      "display_name": "Auto Shorts Repurposer",
+      "stat_downloads": 1472,
+      "stat_stars": 7,
+      "created_at": "2026-02-09T09:48:18.825000",
+      "days_old": 47,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "shopping-price-drop-coupon-scout",
+      "display_name": "Shopping Price Drop Coupon Scout",
+      "stat_downloads": 1209,
+      "stat_stars": 0,
+      "created_at": "2026-02-09T09:55:20.912000",
+      "days_old": 47,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "travel-price-drop-visa-reminder",
+      "display_name": "Travel Price Drop Visa Reminder",
+      "stat_downloads": 1082,
+      "stat_stars": 2,
+      "created_at": "2026-02-09T09:56:58.264000",
+      "days_old": 47,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "elevenlabs-ai",
+      "display_name": "Elevenlabs AI",
+      "stat_downloads": 1069,
+      "stat_stars": 0,
+      "created_at": "2026-02-09T10:08:45.619000",
+      "days_old": 47,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "podcast-chaptering-highlights",
+      "display_name": "Podcast Chaptering Highlights",
+      "stat_downloads": 964,
+      "stat_stars": 0,
+      "created_at": "2026-02-09T09:53:54.139000",
+      "days_old": 47,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "smart-home-energy-saver",
+      "display_name": "Smart Home Energy Saver",
+      "stat_downloads": 960,
+      "stat_stars": 2,
+      "created_at": "2026-02-09T09:56:22.909000",
+      "days_old": 47,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "receipt-subscription-cleaner",
+      "display_name": "Receipt Subscription Cleaner",
+      "stat_downloads": 892,
+      "stat_stars": 2,
+      "created_at": "2026-02-09T09:54:36.877000",
+      "days_old": 47,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "community-mod-pack",
+      "display_name": "Community Mod Pack",
+      "stat_downloads": 874,
+      "stat_stars": 0,
+      "created_at": "2026-02-09T09:52:25.846000",
+      "days_old": 47,
+      "is_highlighted": false,
+      "is_suspicious": true
+    }
+  ],
+  "trajectory": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 50597,
+      "stars": 82
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 50999,
+      "stars": 83
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 51843,
+      "stars": 83
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 52486,
+      "stars": 86
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 53021,
+      "stars": 86
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 53598,
+      "stars": 86
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 54746,
+      "stars": 88
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 54815,
+      "stars": 88
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 55053,
+      "stars": 88
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 55747,
+      "stars": 88
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 56825,
+      "stars": 88
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 56825,
+      "stars": 88
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 57119,
+      "stars": 89
+    }
+  ],
+  "download_trajectory": [
+    50597,
+    50999,
+    51843,
+    52486,
+    53021,
+    53598,
+    54746,
+    54815,
+    55053,
+    55747,
+    56825,
+    56825,
+    57119
+  ]
+}

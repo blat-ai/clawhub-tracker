@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd7bt5kdeckc87bz6rk3p4v5f980p1qg",
+  "slug": "playwright-scraper-skill",
+  "display_name": "Playwright Scraper Skill",
+  "summary": "Playwright-based web scraping OpenClaw Skill with anti-bot protection. Successfully tested on complex sites like Discuss.com.hk.",
+  "owner_handle": "waisimon",
+  "owner_image": "https://avatars.githubusercontent.com/u/26592019?v=4",
+  "created_at": "2026-02-07T13:24:26.815000",
+  "days_old": 48,
+  "stat_downloads": 20572,
+  "stat_stars": 47,
+  "tags": {
+    "latest": "k974r41cp0t749r4xhs5kr69bx80p2za"
+  },
+  "badges": null,
+  "stat_installs": 243,
+  "stat_comments": 0,
+  "current_version": "1.2.0",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 428.6,
+  "acceleration_pct": -71.8,
+  "dl_delta": 107,
+  "dl_wow": 0.5,
+  "star_delta": 1,
+  "star_wow": 2.2,
+  "installs_delta": 1,
+  "installs_wow": 0.4,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 17762,
+      "stars": 40,
+      "installs_all_time": 195,
+      "installs_current": 191
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 17961,
+      "stars": 40,
+      "installs_all_time": 197,
+      "installs_current": 192
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 18305,
+      "stars": 40,
+      "installs_all_time": 200,
+      "installs_current": 195
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 18573,
+      "stars": 40,
+      "installs_all_time": 205,
+      "installs_current": 200
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 18850,
+      "stars": 43,
+      "installs_all_time": 212,
+      "installs_current": 205
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 19123,
+      "stars": 43,
+      "installs_all_time": 218,
+      "installs_current": 211
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 19601,
+      "stars": 44,
+      "installs_all_time": 229,
+      "installs_current": 222
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 19641,
+      "stars": 44,
+      "installs_all_time": 232,
+      "installs_current": 225
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 19719,
+      "stars": 44,
+      "installs_all_time": 233,
+      "installs_current": 226
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 20021,
+      "stars": 45,
+      "installs_all_time": 236,
+      "installs_current": 229
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 20465,
+      "stars": 46,
+      "installs_all_time": 242,
+      "installs_current": 234
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 20465,
+      "stars": 46,
+      "installs_all_time": 242,
+      "installs_current": 234
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 20572,
+      "stars": 47,
+      "installs_all_time": 243,
+      "installs_current": 235
+    }
+  ],
+  "version_releases": []
+}

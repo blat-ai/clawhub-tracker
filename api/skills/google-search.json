@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd70q2e4tsw8344qaap0hm0t5d80b9wd",
+  "slug": "google-search",
+  "display_name": "google-search",
+  "summary": "Search the web using Google Custom Search Engine (PSE). Use this when you need live information, documentation, or to research topics and the built-in web_search is unavailable.",
+  "owner_handle": "mxfeinberg",
+  "owner_image": "https://avatars.githubusercontent.com/u/7530298?v=4",
+  "created_at": "2026-02-01T01:35:54.813000",
+  "days_old": 55,
+  "stat_downloads": 12484,
+  "stat_stars": 16,
+  "tags": {
+    "latest": "k97f0c7tsjnvwatnefzqvg0rph80b1rk"
+  },
+  "badges": null,
+  "stat_installs": 168,
+  "stat_comments": 0,
+  "current_version": "1.0.0",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 227.0,
+  "acceleration_pct": -71.8,
+  "dl_delta": 57,
+  "dl_wow": 0.5,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 0,
+  "installs_wow": 0.0,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 10990,
+      "stars": 14,
+      "installs_all_time": 146,
+      "installs_current": 138
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 11082,
+      "stars": 14,
+      "installs_all_time": 148,
+      "installs_current": 140
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 11242,
+      "stars": 14,
+      "installs_all_time": 151,
+      "installs_current": 143
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 11374,
+      "stars": 14,
+      "installs_all_time": 152,
+      "installs_current": 144
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 11525,
+      "stars": 15,
+      "installs_all_time": 154,
+      "installs_current": 146
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 11673,
+      "stars": 15,
+      "installs_all_time": 160,
+      "installs_current": 152
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 11982,
+      "stars": 15,
+      "installs_all_time": 163,
+      "installs_current": 155
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 12009,
+      "stars": 15,
+      "installs_all_time": 163,
+      "installs_current": 155
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 12040,
+      "stars": 15,
+      "installs_all_time": 164,
+      "installs_current": 156
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 12211,
+      "stars": 15,
+      "installs_all_time": 165,
+      "installs_current": 157
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 12427,
+      "stars": 16,
+      "installs_all_time": 168,
+      "installs_current": 160
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 12427,
+      "stars": 16,
+      "installs_all_time": 168,
+      "installs_current": 160
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 12484,
+      "stars": 16,
+      "installs_all_time": 168,
+      "installs_current": 160
+    }
+  ],
+  "version_releases": []
+}

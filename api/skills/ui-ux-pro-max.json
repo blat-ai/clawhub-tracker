@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd7cm1ckpb7zcdnh2fmf2gbfxd8030d7",
+  "slug": "ui-ux-pro-max",
+  "display_name": "UI/UX Pro Max",
+  "summary": "UI/UX design intelligence and implementation guidance for building polished interfaces. Use when the user asks for UI design, UX flows, information architecture, visual style direction, design systems/tokens, component specs, copy/microcopy, accessibility, or to generate/critique/refine frontend UI (HTML/CSS/JS, React, Next.js, Vue, Svelte, Tailwind). Includes workflows for (1) generating new UI layouts and styling, (2) improving existing UI/UX, (3) producing design-system tokens and component guidelines, and (4) turning UX recommendations into concrete code changes.",
+  "owner_handle": "xobi667",
+  "owner_image": "https://avatars.githubusercontent.com/u/143898661?v=4",
+  "created_at": "2026-01-28T16:02:39.343000",
+  "days_old": 58,
+  "stat_downloads": 21094,
+  "stat_stars": 107,
+  "tags": {
+    "latest": "k970krg0ccq1wzwgnb3yx967rd802vyy"
+  },
+  "badges": null,
+  "stat_installs": 258,
+  "stat_comments": 0,
+  "current_version": "0.1.0",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 363.7,
+  "acceleration_pct": -72.3,
+  "dl_delta": 135,
+  "dl_wow": 0.6,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 2,
+  "installs_wow": 0.8,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 17452,
+      "stars": 92,
+      "installs_all_time": 195,
+      "installs_current": 187
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 17657,
+      "stars": 93,
+      "installs_all_time": 198,
+      "installs_current": 189
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 18135,
+      "stars": 93,
+      "installs_all_time": 204,
+      "installs_current": 195
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 18479,
+      "stars": 94,
+      "installs_all_time": 212,
+      "installs_current": 203
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 18816,
+      "stars": 97,
+      "installs_all_time": 219,
+      "installs_current": 209
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 19123,
+      "stars": 98,
+      "installs_all_time": 224,
+      "installs_current": 214
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 19745,
+      "stars": 99,
+      "installs_all_time": 235,
+      "installs_current": 225
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 19799,
+      "stars": 101,
+      "installs_all_time": 236,
+      "installs_current": 226
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 19877,
+      "stars": 101,
+      "installs_all_time": 237,
+      "installs_current": 227
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 20286,
+      "stars": 103,
+      "installs_all_time": 246,
+      "installs_current": 236
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 20959,
+      "stars": 107,
+      "installs_all_time": 256,
+      "installs_current": 246
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 20959,
+      "stars": 107,
+      "installs_all_time": 256,
+      "installs_current": 246
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 21094,
+      "stars": 107,
+      "installs_all_time": 258,
+      "installs_current": 247
+    }
+  ],
+  "version_releases": []
+}

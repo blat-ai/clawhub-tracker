@@ -1,0 +1,236 @@
+{
+  "handle": "jdrhyne",
+  "total_downloads": 44257,
+  "total_stars": 56,
+  "total_installs": 287,
+  "skill_count": 12,
+  "avg_dl_per_day": 54.5,
+  "highlighted_count": 0,
+  "suspicious_count": 10,
+  "clean_pct": 16.7,
+  "dl_delta": 118,
+  "dl_wow": 0.3,
+  "dl_per_day": 118.0,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "star_per_day": 0,
+  "installs_delta": 0,
+  "installs_wow": 0.0,
+  "installs_per_day": 0,
+  "owner_display_name": "Jonathan Rhyne",
+  "owner_name": "jdrhyne",
+  "owner_image": "https://avatars.githubusercontent.com/u/7828464?v=4",
+  "bio": "Bucko, Co-Founder & CEO of @PSPDFKit \r\n . Aspiring vibe coding god.",
+  "company": "Co-Founder, CEO, Nutrient",
+  "location": "Raleigh, NC",
+  "blog": "https://www.nutrient.io",
+  "public_repos": 25,
+  "followers": 17,
+  "following": 13,
+  "github_created_at": "2014-06-08T04:51:09",
+  "twitter_username": "jdrhyne",
+  "skills": [
+    {
+      "slug": "jira",
+      "display_name": "JIRA",
+      "stat_downloads": 6061,
+      "stat_stars": 12,
+      "created_at": "2026-01-06T00:30:35.374000",
+      "days_old": 81,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "todo-tracker",
+      "display_name": "TODO Tracker",
+      "stat_downloads": 5525,
+      "stat_stars": 0,
+      "created_at": "2026-01-17T07:18:40.198000",
+      "days_old": 70,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "gsc",
+      "display_name": "Google Search Console",
+      "stat_downloads": 5422,
+      "stat_stars": 21,
+      "created_at": "2026-01-16T21:33:57.278000",
+      "days_old": 71,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "sysadmin-toolbox",
+      "display_name": "Sysadmin Toolbox",
+      "stat_downloads": 5190,
+      "stat_stars": 0,
+      "created_at": "2026-01-19T17:15:03.483000",
+      "days_old": 68,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "google-ads",
+      "display_name": "Google Ads",
+      "stat_downloads": 5106,
+      "stat_stars": 10,
+      "created_at": "2026-01-19T16:24:47.563000",
+      "days_old": 68,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "context-recovery",
+      "display_name": "Context Recovery",
+      "stat_downloads": 4121,
+      "stat_stars": 3,
+      "created_at": "2026-01-26T00:48:19.984000",
+      "days_old": 61,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "ga4",
+      "display_name": "GA4 Analytics",
+      "stat_downloads": 3466,
+      "stat_stars": 1,
+      "created_at": "2026-01-16T04:12:56.793000",
+      "days_old": 71,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "nutrient-openclaw",
+      "display_name": "Nutrient Openclaw",
+      "stat_downloads": 2581,
+      "stat_stars": 4,
+      "created_at": "2026-02-05T15:40:28.361000",
+      "days_old": 51,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "munger-observer",
+      "display_name": "Munger Observer",
+      "stat_downloads": 2561,
+      "stat_stars": 3,
+      "created_at": "2026-01-19T16:22:25.348000",
+      "days_old": 68,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "gong",
+      "display_name": "Gong",
+      "stat_downloads": 1947,
+      "stat_stars": 1,
+      "created_at": "2026-01-19T03:18:19.743000",
+      "days_old": 68,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "nudocs",
+      "display_name": "Nudocs",
+      "stat_downloads": 1881,
+      "stat_stars": 1,
+      "created_at": "2026-01-13T04:44:29.774000",
+      "days_old": 74,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "nutrient-document-processing-universal",
+      "display_name": "Nutrient Document Processing (Universal Agent Skill)",
+      "stat_downloads": 396,
+      "stat_stars": 0,
+      "created_at": "2026-02-27T16:49:29.018000",
+      "days_old": 29,
+      "is_highlighted": false,
+      "is_suspicious": false
+    }
+  ],
+  "trajectory": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 41189,
+      "stars": 55
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 41412,
+      "stars": 55
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 41818,
+      "stars": 55
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 42141,
+      "stars": 55
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 42363,
+      "stars": 55
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 42561,
+      "stars": 55
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 43120,
+      "stars": 55
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 43169,
+      "stars": 55
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 43272,
+      "stars": 55
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 43621,
+      "stars": 55
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 44139,
+      "stars": 56
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 44139,
+      "stars": 56
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 44257,
+      "stars": 56
+    }
+  ],
+  "download_trajectory": [
+    41189,
+    41412,
+    41818,
+    42141,
+    42363,
+    42561,
+    43120,
+    43169,
+    43272,
+    43621,
+    44139,
+    44139,
+    44257
+  ]
+}

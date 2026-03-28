@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd74g5ggqa7k4j3h9se8sv1p117yj8s2",
+  "slug": "weather",
+  "display_name": "Weather",
+  "summary": "Get current weather and forecasts (no API key required).",
+  "owner_handle": "steipete",
+  "owner_image": "https://avatars.githubusercontent.com/u/58493?v=4",
+  "created_at": "2026-01-04T16:49:54.459000",
+  "days_old": 82,
+  "stat_downloads": 116425,
+  "stat_stars": 331,
+  "tags": {
+    "latest": "k97b2hmpej53w1qhpm2fsk5d9n7yjpz5"
+  },
+  "badges": null,
+  "stat_installs": 3192,
+  "stat_comments": 6,
+  "current_version": "1.0.0",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 1419.8,
+  "acceleration_pct": -72.1,
+  "dl_delta": 511,
+  "dl_wow": 0.4,
+  "star_delta": 2,
+  "star_wow": 0.6,
+  "installs_delta": 13,
+  "installs_wow": 0.4,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 101414,
+      "stars": 299,
+      "installs_all_time": 2626,
+      "installs_current": 2566
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 102417,
+      "stars": 299,
+      "installs_all_time": 2664,
+      "installs_current": 2603
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 104352,
+      "stars": 302,
+      "installs_all_time": 2748,
+      "installs_current": 2681
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 105873,
+      "stars": 308,
+      "installs_all_time": 2810,
+      "installs_current": 2739
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 107230,
+      "stars": 312,
+      "installs_all_time": 2866,
+      "installs_current": 2791
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 108764,
+      "stars": 313,
+      "installs_all_time": 2920,
+      "installs_current": 2844
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 111558,
+      "stars": 319,
+      "installs_all_time": 3032,
+      "installs_current": 2952
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 111759,
+      "stars": 320,
+      "installs_all_time": 3039,
+      "installs_current": 2959
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 112088,
+      "stars": 321,
+      "installs_all_time": 3047,
+      "installs_current": 2967
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 113590,
+      "stars": 328,
+      "installs_all_time": 3096,
+      "installs_current": 3014
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 115914,
+      "stars": 329,
+      "installs_all_time": 3179,
+      "installs_current": 3092
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 115914,
+      "stars": 329,
+      "installs_all_time": 3179,
+      "installs_current": 3092
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 116425,
+      "stars": 331,
+      "installs_all_time": 3192,
+      "installs_current": 3103
+    }
+  ],
+  "version_releases": []
+}

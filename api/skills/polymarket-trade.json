@@ -1,0 +1,134 @@
+{
+  "skill_id": "kd76xf5v8avmxnpaa243vhj4p182kzax",
+  "slug": "polymarket-trade",
+  "display_name": "Polymarket",
+  "summary": "Query Polymarket prediction markets - check odds, trending markets, search events, track prices and momentum. Includes watchlist alerts, resolution calendar,...",
+  "owner_handle": "joelchance",
+  "owner_image": "https://avatars.githubusercontent.com/u/256029209?v=4",
+  "created_at": "2026-03-09T07:28:29.179000",
+  "days_old": 18,
+  "stat_downloads": 57044,
+  "stat_stars": 27,
+  "tags": {
+    "latest": "k97b90qm1q0vt1gdv02cw7mt5583fgnx"
+  },
+  "badges": null,
+  "stat_installs": 13,
+  "stat_comments": 1,
+  "current_version": "1.0.3",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 3169.1,
+  "acceleration_pct": -62.5,
+  "dl_delta": 2538,
+  "dl_wow": 4.7,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 0,
+  "installs_wow": 0.0,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 13300,
+      "stars": 2,
+      "installs_all_time": 2,
+      "installs_current": 2
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 16401,
+      "stars": 2,
+      "installs_all_time": 2,
+      "installs_current": 2
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 21201,
+      "stars": 4,
+      "installs_all_time": 3,
+      "installs_current": 3
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 25407,
+      "stars": 10,
+      "installs_all_time": 4,
+      "installs_current": 4
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 30290,
+      "stars": 13,
+      "installs_all_time": 4,
+      "installs_current": 4
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 34399,
+      "stars": 20,
+      "installs_all_time": 8,
+      "installs_current": 8
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 38991,
+      "stars": 21,
+      "installs_all_time": 11,
+      "installs_current": 11
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 39580,
+      "stars": 22,
+      "installs_all_time": 11,
+      "installs_current": 11
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 41176,
+      "stars": 22,
+      "installs_all_time": 12,
+      "installs_current": 12
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 46344,
+      "stars": 24,
+      "installs_all_time": 12,
+      "installs_current": 12
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 54506,
+      "stars": 27,
+      "installs_all_time": 13,
+      "installs_current": 13
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 54506,
+      "stars": 27,
+      "installs_all_time": 13,
+      "installs_current": 13
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 57044,
+      "stars": 27,
+      "installs_all_time": 13,
+      "installs_current": 13
+    }
+  ],
+  "version_releases": [
+    {
+      "version_number": "1.0.2",
+      "run_date": "2026-03-23T03:00:00.753584",
+      "changelog": "No user-facing changes in this version.\n\n- Documentation and metadata remain unchanged.\n- No code or content updates detected."
+    },
+    {
+      "version_number": "1.0.3",
+      "run_date": "2026-03-24T14:13:35.104417",
+      "changelog": "- Updated SKILL.md to replace repeated \"How Building a Weather Polymarket Bot...\" links with clearer \"How to use\" links.\n- No changes to code or functionality; documentation only.\n- All usage examples, commands, and security explanations remain as before."
+    }
+  ]
+}

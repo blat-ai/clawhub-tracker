@@ -1,0 +1,296 @@
+{
+  "handle": "thesethrose",
+  "total_downloads": 81473,
+  "total_stars": 250,
+  "total_installs": 558,
+  "skill_count": 18,
+  "avg_dl_per_day": 65.4,
+  "highlighted_count": 0,
+  "suspicious_count": 18,
+  "clean_pct": 0.0,
+  "dl_delta": 208,
+  "dl_wow": 0.3,
+  "dl_per_day": 208.0,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "star_per_day": 0,
+  "installs_delta": 1,
+  "installs_wow": 0.2,
+  "installs_per_day": 1.0,
+  "owner_display_name": "Seth Rose",
+  "owner_name": null,
+  "owner_image": "https://avatars.githubusercontent.com/u/10383809?v=4",
+  "bio": null,
+  "company": "@Inferno-Assets-LLC",
+  "location": "Dallas, TX",
+  "blog": "sethrose.dev",
+  "public_repos": 58,
+  "followers": 77,
+  "following": 48,
+  "github_created_at": "2015-01-03T20:26:00",
+  "twitter_username": "TheSethRose",
+  "skills": [
+    {
+      "slug": "marketing-mode",
+      "display_name": "Marketing Mode",
+      "stat_downloads": 19222,
+      "stat_stars": 125,
+      "created_at": "2026-01-21T17:29:18.544000",
+      "days_old": 66,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "vercel",
+      "display_name": "Vercel Platform",
+      "stat_downloads": 8385,
+      "stat_stars": 22,
+      "created_at": "2026-01-14T04:25:48.098000",
+      "days_old": 73,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "clawdbot-security-check",
+      "display_name": "Clawdbot Security Check",
+      "stat_downloads": 7469,
+      "stat_stars": 33,
+      "created_at": "2026-01-26T21:35:45.220000",
+      "days_old": 61,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "skills-search",
+      "display_name": "Skills.sh Search",
+      "stat_downloads": 6500,
+      "stat_stars": 19,
+      "created_at": "2026-01-21T04:34:15.379000",
+      "days_old": 66,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "context7",
+      "display_name": "Context7 MCP",
+      "stat_downloads": 6422,
+      "stat_stars": 14,
+      "created_at": "2026-01-14T03:55:31.439000",
+      "days_old": 73,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "homebrew",
+      "display_name": "Homebrew Package Manager",
+      "stat_downloads": 3387,
+      "stat_stars": 1,
+      "created_at": "2026-01-14T04:00:52.568000",
+      "days_old": 73,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "weather-pollen",
+      "display_name": "Weather Pollen",
+      "stat_downloads": 3168,
+      "stat_stars": 2,
+      "created_at": "2026-01-14T03:55:41.636000",
+      "days_old": 73,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "reddit-search",
+      "display_name": "Reddit Search",
+      "stat_downloads": 3023,
+      "stat_stars": 4,
+      "created_at": "2026-01-18T21:06:34.817000",
+      "days_old": 69,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "apple-docs",
+      "display_name": "Apple Docs",
+      "stat_downloads": 2924,
+      "stat_stars": 3,
+      "created_at": "2026-01-17T20:13:36.436000",
+      "days_old": 70,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "notebook",
+      "display_name": "Notebook",
+      "stat_downloads": 2721,
+      "stat_stars": 8,
+      "created_at": "2026-01-11T09:10:40.164000",
+      "days_old": 76,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "minimax-usage",
+      "display_name": "Minimax Usage",
+      "stat_downloads": 2710,
+      "stat_stars": 1,
+      "created_at": "2026-01-17T19:38:38.974000",
+      "days_old": 70,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "therapy-mode",
+      "display_name": "Therapy Mode",
+      "stat_downloads": 2624,
+      "stat_stars": 10,
+      "created_at": "2026-01-19T05:21:12.942000",
+      "days_old": 68,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "pi-admin",
+      "display_name": "Pi Admin",
+      "stat_downloads": 2617,
+      "stat_stars": 4,
+      "created_at": "2026-01-14T03:47:32.803000",
+      "days_old": 73,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "servicenow-docs",
+      "display_name": "Servicenow Docs",
+      "stat_downloads": 2300,
+      "stat_stars": 0,
+      "created_at": "2026-01-14T16:04:03.870000",
+      "days_old": 73,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "catfact",
+      "display_name": "Cat Fact",
+      "stat_downloads": 2048,
+      "stat_stars": 1,
+      "created_at": "2026-01-10T10:35:27.688000",
+      "days_old": 77,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "kraken",
+      "display_name": "Kraken",
+      "stat_downloads": 1997,
+      "stat_stars": 2,
+      "created_at": "2026-01-10T08:50:36.294000",
+      "days_old": 77,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "npm-search",
+      "display_name": "NPM Search",
+      "stat_downloads": 1985,
+      "stat_stars": 0,
+      "created_at": "2026-01-14T03:55:36.121000",
+      "days_old": 73,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "servicenow-agent",
+      "display_name": "ServiceNow Agent",
+      "stat_downloads": 1971,
+      "stat_stars": 1,
+      "created_at": "2026-01-15T21:13:22.008000",
+      "days_old": 72,
+      "is_highlighted": false,
+      "is_suspicious": true
+    }
+  ],
+  "trajectory": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 220752,
+      "stars": 872
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 223049,
+      "stars": 884
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 227860,
+      "stars": 905
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 231519,
+      "stars": 922
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 234694,
+      "stars": 931
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 237823,
+      "stars": 945
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 244344,
+      "stars": 985
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 244832,
+      "stars": 987
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 245515,
+      "stars": 988
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 249020,
+      "stars": 1005
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 81265,
+      "stars": 250
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 81265,
+      "stars": 250
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 81473,
+      "stars": 250
+    }
+  ],
+  "download_trajectory": [
+    220752,
+    223049,
+    227860,
+    231519,
+    234694,
+    237823,
+    244344,
+    244832,
+    245515,
+    249020,
+    81265,
+    81265,
+    81473
+  ]
+}

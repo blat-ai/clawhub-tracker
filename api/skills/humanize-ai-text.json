@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd78xkvrmzt97nqzsxpvjrt2y180d8ba",
+  "slug": "humanize-ai-text",
+  "display_name": "Humanize AI text",
+  "summary": "Humanize AI-generated text to bypass detection. This humanizer rewrites ChatGPT, Claude, and GPT content to sound natural and pass AI detectors like GPTZero,...",
+  "owner_handle": "moltbro",
+  "owner_image": "https://avatars.githubusercontent.com/u/258696198?v=4",
+  "created_at": "2026-02-02T01:16:46.129000",
+  "days_old": 54,
+  "stat_downloads": 34087,
+  "stat_stars": 157,
+  "tags": {
+    "latest": "k979tdrgttkemp6k61t6zfpt2581n0yb"
+  },
+  "badges": null,
+  "stat_installs": 265,
+  "stat_comments": 8,
+  "current_version": "1.0.1",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 631.2,
+  "acceleration_pct": -65.8,
+  "dl_delta": 117,
+  "dl_wow": 0.3,
+  "star_delta": 1,
+  "star_wow": 0.6,
+  "installs_delta": 0,
+  "installs_wow": 0.0,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 31130,
+      "stars": 147,
+      "installs_all_time": 192,
+      "installs_current": 184
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 31278,
+      "stars": 148,
+      "installs_all_time": 195,
+      "installs_current": 186
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 31571,
+      "stars": 150,
+      "installs_all_time": 206,
+      "installs_current": 195
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 31847,
+      "stars": 150,
+      "installs_all_time": 218,
+      "installs_current": 206
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 32059,
+      "stars": 153,
+      "installs_all_time": 220,
+      "installs_current": 206
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 32396,
+      "stars": 154,
+      "installs_all_time": 226,
+      "installs_current": 212
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 32992,
+      "stars": 155,
+      "installs_all_time": 248,
+      "installs_current": 234
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 33030,
+      "stars": 155,
+      "installs_all_time": 249,
+      "installs_current": 235
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 33091,
+      "stars": 155,
+      "installs_all_time": 250,
+      "installs_current": 235
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 33372,
+      "stars": 155,
+      "installs_all_time": 257,
+      "installs_current": 242
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 33970,
+      "stars": 156,
+      "installs_all_time": 265,
+      "installs_current": 250
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 33970,
+      "stars": 156,
+      "installs_all_time": 265,
+      "installs_current": 250
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 34087,
+      "stars": 157,
+      "installs_all_time": 265,
+      "installs_current": 250
+    }
+  ],
+  "version_releases": []
+}

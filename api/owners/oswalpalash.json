@@ -1,0 +1,136 @@
+{
+  "handle": "oswalpalash",
+  "total_downloads": 139930,
+  "total_stars": 419,
+  "total_installs": 861,
+  "skill_count": 2,
+  "avg_dl_per_day": 1147.0,
+  "highlighted_count": 0,
+  "suspicious_count": 1,
+  "clean_pct": 50.0,
+  "dl_delta": 900,
+  "dl_wow": 0.6,
+  "dl_per_day": 900.0,
+  "star_delta": 4,
+  "star_wow": 1.0,
+  "star_per_day": 4.0,
+  "installs_delta": 9,
+  "installs_wow": 1.1,
+  "installs_per_day": 9.0,
+  "owner_display_name": "oswalpalash",
+  "owner_name": "oswalpalash",
+  "owner_image": "https://avatars.githubusercontent.com/u/6431196?v=4",
+  "bio": "Alumnus @ Carnegie Mellon University  \r\nCTFs @pwning and @mmm-team \r\nChallenge Author and Tester @picoCTF \r\nSecurity Research at @cmu-pasta \r\nWorks @cargurus",
+  "company": "https://oswalpalash.com",
+  "location": "Boston",
+  "blog": "https://oswalpalash.com",
+  "public_repos": 96,
+  "followers": 68,
+  "following": 14,
+  "github_created_at": "2014-01-17T16:33:33",
+  "twitter_username": "oswalpalash",
+  "skills": [
+    {
+      "slug": "ontology",
+      "display_name": "ontology",
+      "stat_downloads": 137324,
+      "stat_stars": 414,
+      "created_at": "2026-01-26T08:17:15.751000",
+      "days_old": 61,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "causal-inference",
+      "display_name": "Causal Inference",
+      "stat_downloads": 2606,
+      "stat_stars": 5,
+      "created_at": "2026-01-26T07:46:49.533000",
+      "days_old": 61,
+      "is_highlighted": false,
+      "is_suspicious": true
+    }
+  ],
+  "trajectory": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 118063,
+      "stars": 330
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 119456,
+      "stars": 330
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 122291,
+      "stars": 344
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 124514,
+      "stars": 355
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 126530,
+      "stars": 362
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 128500,
+      "stars": 369
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 132503,
+      "stars": 394
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 132825,
+      "stars": 394
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 133233,
+      "stars": 395
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 135438,
+      "stars": 406
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 139030,
+      "stars": 415
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 139030,
+      "stars": 415
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 139930,
+      "stars": 419
+    }
+  ],
+  "download_trajectory": [
+    118063,
+    119456,
+    122291,
+    124514,
+    126530,
+    128500,
+    132503,
+    132825,
+    133233,
+    135438,
+    139030,
+    139030,
+    139930
+  ]
+}

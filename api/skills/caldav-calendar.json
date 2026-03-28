@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd71z6ryt8kbf3z1g7cdaag5t97ymj2x",
+  "slug": "caldav-calendar",
+  "display_name": "Caldav Calendar",
+  "summary": "Sync and query CalDAV calendars (iCloud, Google, Fastmail, Nextcloud, etc.) using vdirsyncer + khal. Works on Linux.",
+  "owner_handle": "asleep123",
+  "owner_image": "https://avatars.githubusercontent.com/u/122379135?v=4",
+  "created_at": "2026-01-05T02:34:15.544000",
+  "days_old": 82,
+  "stat_downloads": 22586,
+  "stat_stars": 187,
+  "tags": {
+    "latest": "k97fq1c2r7nmqhm39y10jh8gxx7yq0h5"
+  },
+  "badges": "{\"highlighted\": {\"at\": 1769571676632.0, \"byUserId\": \"kn7bxdhae07mn5rkhw363hyen17ymt5m\"}}",
+  "stat_installs": 218,
+  "stat_comments": 19,
+  "current_version": "1.0.1",
+  "is_highlighted": true,
+  "is_suspicious": true,
+  "velocity": 275.4,
+  "acceleration_pct": -68.0,
+  "dl_delta": 95,
+  "dl_wow": 0.4,
+  "star_delta": 1,
+  "star_wow": 0.5,
+  "installs_delta": 1,
+  "installs_wow": 0.5,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 20177,
+      "stars": 175,
+      "installs_all_time": 183,
+      "installs_current": 181
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 20342,
+      "stars": 175,
+      "installs_all_time": 185,
+      "installs_current": 183
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 20695,
+      "stars": 177,
+      "installs_all_time": 192,
+      "installs_current": 190
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 20944,
+      "stars": 179,
+      "installs_all_time": 194,
+      "installs_current": 192
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 21179,
+      "stars": 181,
+      "installs_all_time": 196,
+      "installs_current": 193
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 21411,
+      "stars": 183,
+      "installs_all_time": 201,
+      "installs_current": 198
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 21817,
+      "stars": 184,
+      "installs_all_time": 210,
+      "installs_current": 206
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 21853,
+      "stars": 185,
+      "installs_all_time": 210,
+      "installs_current": 206
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 21929,
+      "stars": 185,
+      "installs_all_time": 211,
+      "installs_current": 207
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 22150,
+      "stars": 185,
+      "installs_all_time": 213,
+      "installs_current": 209
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 22491,
+      "stars": 186,
+      "installs_all_time": 217,
+      "installs_current": 213
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 22491,
+      "stars": 186,
+      "installs_all_time": 217,
+      "installs_current": 213
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 22586,
+      "stars": 187,
+      "installs_all_time": 218,
+      "installs_current": 214
+    }
+  ],
+  "version_releases": []
+}

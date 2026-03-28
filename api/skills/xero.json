@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd77z8gty13fam3bjmghagecjn80dkdq",
+  "slug": "xero",
+  "display_name": "Xero",
+  "summary": "Xero API integration with managed OAuth. Manage contacts, invoices, payments, accounts, and run financial reports. Use this skill when users want to interact with Xero accounting data. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
+  "owner_handle": "byungkyu",
+  "owner_image": "https://avatars.githubusercontent.com/u/16563684?v=4",
+  "created_at": "2026-02-02T09:21:05.831000",
+  "days_old": 53,
+  "stat_downloads": 17327,
+  "stat_stars": 10,
+  "tags": {
+    "latest": "k97b9kydbs0qxed3ttktsr3c5h80xc2n"
+  },
+  "badges": null,
+  "stat_installs": 12,
+  "stat_comments": 3,
+  "current_version": "1.0.4",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 326.9,
+  "acceleration_pct": -45.5,
+  "dl_delta": 12,
+  "dl_wow": 0.1,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 0,
+  "installs_wow": 0.0,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 17113,
+      "stars": 10,
+      "installs_all_time": 9,
+      "installs_current": 8
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 17127,
+      "stars": 10,
+      "installs_all_time": 9,
+      "installs_current": 8
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 17161,
+      "stars": 10,
+      "installs_all_time": 9,
+      "installs_current": 8
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 17188,
+      "stars": 10,
+      "installs_all_time": 10,
+      "installs_current": 9
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 17204,
+      "stars": 10,
+      "installs_all_time": 10,
+      "installs_current": 8
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 17216,
+      "stars": 10,
+      "installs_all_time": 11,
+      "installs_current": 9
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 17255,
+      "stars": 10,
+      "installs_all_time": 11,
+      "installs_current": 9
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 17257,
+      "stars": 10,
+      "installs_all_time": 11,
+      "installs_current": 9
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 17262,
+      "stars": 10,
+      "installs_all_time": 11,
+      "installs_current": 9
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 17279,
+      "stars": 10,
+      "installs_all_time": 11,
+      "installs_current": 9
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 17315,
+      "stars": 10,
+      "installs_all_time": 12,
+      "installs_current": 10
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 17315,
+      "stars": 10,
+      "installs_all_time": 12,
+      "installs_current": 10
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 17327,
+      "stars": 10,
+      "installs_all_time": 12,
+      "installs_current": 10
+    }
+  ],
+  "version_releases": []
+}

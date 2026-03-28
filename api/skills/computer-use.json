@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd731zre5cs7r6zrdf7v9yg29580b6gd",
+  "slug": "computer-use",
+  "display_name": "Computer Use",
+  "summary": "Full desktop computer use for headless Linux servers. Xvfb + XFCE virtual desktop with xdotool automation. 17 actions (click, type, scroll, screenshot, drag,...",
+  "owner_handle": "ram-raghav-s",
+  "owner_image": "https://avatars.githubusercontent.com/u/92739966?v=4",
+  "created_at": "2026-02-01T10:47:29.740000",
+  "days_old": 54,
+  "stat_downloads": 11454,
+  "stat_stars": 35,
+  "tags": {
+    "latest": "k97fr5k7mb86z3bzervvhmtq01816g0n"
+  },
+  "badges": null,
+  "stat_installs": 107,
+  "stat_comments": 6,
+  "current_version": "1.2.1",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 212.1,
+  "acceleration_pct": -62.0,
+  "dl_delta": 30,
+  "dl_wow": 0.3,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 1,
+  "installs_wow": 0.9,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 10831,
+      "stars": 31,
+      "installs_all_time": 97,
+      "installs_current": 94
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 10873,
+      "stars": 31,
+      "installs_all_time": 98,
+      "installs_current": 95
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 10944,
+      "stars": 32,
+      "installs_all_time": 98,
+      "installs_current": 95
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 11024,
+      "stars": 33,
+      "installs_all_time": 100,
+      "installs_current": 97
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 11070,
+      "stars": 33,
+      "installs_all_time": 100,
+      "installs_current": 96
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 11124,
+      "stars": 33,
+      "installs_all_time": 103,
+      "installs_current": 99
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 11227,
+      "stars": 33,
+      "installs_all_time": 105,
+      "installs_current": 101
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 11230,
+      "stars": 33,
+      "installs_all_time": 105,
+      "installs_current": 101
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 11242,
+      "stars": 33,
+      "installs_all_time": 105,
+      "installs_current": 101
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 11309,
+      "stars": 33,
+      "installs_all_time": 105,
+      "installs_current": 101
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 11424,
+      "stars": 35,
+      "installs_all_time": 106,
+      "installs_current": 102
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 11424,
+      "stars": 35,
+      "installs_all_time": 106,
+      "installs_current": 102
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 11454,
+      "stars": 35,
+      "installs_all_time": 107,
+      "installs_current": 103
+    }
+  ],
+  "version_releases": []
+}

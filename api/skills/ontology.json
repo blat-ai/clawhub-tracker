@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd7fbkq8d21m09n3bzkz6yg2vd7zysgw",
+  "slug": "ontology",
+  "display_name": "ontology",
+  "summary": "Typed knowledge graph for structured agent memory and composable skills. Use when creating/querying entities (Person, Project, Task, Event, Document), linkin...",
+  "owner_handle": "oswalpalash",
+  "owner_image": "https://avatars.githubusercontent.com/u/6431196?v=4",
+  "created_at": "2026-01-26T08:17:15.751000",
+  "days_old": 60,
+  "stat_downloads": 137324,
+  "stat_stars": 414,
+  "tags": {
+    "latest": "k97ffze3zez06e1m81k7nrwn2182qtgz"
+  },
+  "badges": null,
+  "stat_installs": 854,
+  "stat_comments": 8,
+  "current_version": "1.0.4",
+  "is_highlighted": false,
+  "is_suspicious": false,
+  "velocity": 2288.7,
+  "acceleration_pct": -65.4,
+  "dl_delta": 898,
+  "dl_wow": 0.7,
+  "star_delta": 4,
+  "star_wow": 1.0,
+  "installs_delta": 9,
+  "installs_wow": 1.1,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 115573,
+      "stars": 326,
+      "installs_all_time": 463,
+      "installs_current": 448
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 116956,
+      "stars": 326,
+      "installs_all_time": 498,
+      "installs_current": 482
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 119775,
+      "stars": 340,
+      "installs_all_time": 548,
+      "installs_current": 531
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 121984,
+      "stars": 351,
+      "installs_all_time": 575,
+      "installs_current": 558
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 123988,
+      "stars": 358,
+      "installs_all_time": 614,
+      "installs_current": 595
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 125955,
+      "stars": 365,
+      "installs_all_time": 656,
+      "installs_current": 635
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 129936,
+      "stars": 389,
+      "installs_all_time": 729,
+      "installs_current": 706
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 130258,
+      "stars": 389,
+      "installs_all_time": 737,
+      "installs_current": 714
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 130661,
+      "stars": 390,
+      "installs_all_time": 744,
+      "installs_current": 721
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 132855,
+      "stars": 401,
+      "installs_all_time": 782,
+      "installs_current": 758
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 136426,
+      "stars": 410,
+      "installs_all_time": 845,
+      "installs_current": 818
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 136426,
+      "stars": 410,
+      "installs_all_time": 845,
+      "installs_current": 818
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 137324,
+      "stars": 414,
+      "installs_all_time": 854,
+      "installs_current": 828
+    }
+  ],
+  "version_releases": []
+}

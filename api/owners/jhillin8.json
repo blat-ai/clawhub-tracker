@@ -1,0 +1,486 @@
+{
+  "handle": "jhillin8",
+  "total_downloads": 86744,
+  "total_stars": 76,
+  "total_installs": 344,
+  "skill_count": 37,
+  "avg_dl_per_day": 37.8,
+  "highlighted_count": 0,
+  "suspicious_count": 37,
+  "clean_pct": 0.0,
+  "dl_delta": 211,
+  "dl_wow": 0.2,
+  "dl_per_day": 211.0,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "star_per_day": 0,
+  "installs_delta": 0,
+  "installs_wow": 0.0,
+  "installs_per_day": 0,
+  "owner_display_name": "jhillin8",
+  "owner_name": "jhillin8",
+  "owner_image": "https://avatars.githubusercontent.com/u/79551560?v=4",
+  "bio": null,
+  "company": null,
+  "location": null,
+  "blog": null,
+  "public_repos": 0,
+  "followers": 0,
+  "following": 5,
+  "github_created_at": "2021-02-24T00:54:53",
+  "twitter_username": null,
+  "skills": [
+    {
+      "slug": "focus-deep-work",
+      "display_name": "Focus Deep Work",
+      "stat_downloads": 7371,
+      "stat_stars": 9,
+      "created_at": "2026-01-25T07:34:06.742000",
+      "days_old": 62,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "portfolio-watcher",
+      "display_name": "Portfolio Watcher",
+      "stat_downloads": 6090,
+      "stat_stars": 4,
+      "created_at": "2026-01-25T07:35:23.827000",
+      "days_old": 62,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "newsletter-digest",
+      "display_name": "Newsletter Digest",
+      "stat_downloads": 4214,
+      "stat_stars": 3,
+      "created_at": "2026-01-25T07:35:04.920000",
+      "days_old": 62,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "habit-tracker",
+      "display_name": "Habit Tracker",
+      "stat_downloads": 3777,
+      "stat_stars": 1,
+      "created_at": "2026-01-25T07:33:06.777000",
+      "days_old": 62,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "expense-tracker-pro",
+      "display_name": "Expense Tracker Pro",
+      "stat_downloads": 3304,
+      "stat_stars": 6,
+      "created_at": "2026-01-25T07:33:50.224000",
+      "days_old": 62,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "healthy-eating",
+      "display_name": "Healthy Eating",
+      "stat_downloads": 2899,
+      "stat_stars": 2,
+      "created_at": "2026-01-25T07:34:28.305000",
+      "days_old": 62,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "study-habits",
+      "display_name": "Study Habits",
+      "stat_downloads": 2618,
+      "stat_stars": 3,
+      "created_at": "2026-01-25T07:37:23.178000",
+      "days_old": 62,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "relationship-skills",
+      "display_name": "Relationship Skills",
+      "stat_downloads": 2571,
+      "stat_stars": 5,
+      "created_at": "2026-01-25T07:36:54.500000",
+      "days_old": 62,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "overcome-problem",
+      "display_name": "Overcome Problem",
+      "stat_downloads": 2422,
+      "stat_stars": 6,
+      "created_at": "2026-01-25T07:35:17.695000",
+      "days_old": 62,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "workout-logger",
+      "display_name": "Workout Logger",
+      "stat_downloads": 2243,
+      "stat_stars": 1,
+      "created_at": "2026-01-25T07:37:41.008000",
+      "days_old": 62,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "procrastination-buster",
+      "display_name": "Procrastination Buster",
+      "stat_downloads": 2222,
+      "stat_stars": 2,
+      "created_at": "2026-01-25T07:35:36.857000",
+      "days_old": 62,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "morning-routine",
+      "display_name": "Morning Routine",
+      "stat_downloads": 2207,
+      "stat_stars": 1,
+      "created_at": "2026-01-25T07:34:50.344000",
+      "days_old": 62,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "daily-motivation",
+      "display_name": "Daily Motivation",
+      "stat_downloads": 2082,
+      "stat_stars": 1,
+      "created_at": "2026-01-25T07:33:30.782000",
+      "days_old": 62,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "self-love-confidence",
+      "display_name": "Self Love Confidence",
+      "stat_downloads": 2003,
+      "stat_stars": 3,
+      "created_at": "2026-01-25T07:37:03.509000",
+      "days_old": 62,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "mindfulness-meditation",
+      "display_name": "Mindfulness Meditation",
+      "stat_downloads": 1991,
+      "stat_stars": 1,
+      "created_at": "2026-01-25T07:34:43.710000",
+      "days_old": 62,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "mens-mental-health",
+      "display_name": "Mens Mental Health",
+      "stat_downloads": 1986,
+      "stat_stars": 2,
+      "created_at": "2026-01-25T07:34:35.304000",
+      "days_old": 62,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "build-discipline",
+      "display_name": "Build Discipline",
+      "stat_downloads": 1972,
+      "stat_stars": 1,
+      "created_at": "2026-01-25T07:33:24.229000",
+      "days_old": 62,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "night-routine",
+      "display_name": "Night Routine",
+      "stat_downloads": 1916,
+      "stat_stars": 3,
+      "created_at": "2026-01-25T07:35:11.849000",
+      "days_old": 62,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "anxiety-relief",
+      "display_name": "Anxiety Relief",
+      "stat_downloads": 1911,
+      "stat_stars": 1,
+      "created_at": "2026-01-25T07:33:17.437000",
+      "days_old": 62,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "gratitude-journal",
+      "display_name": "Gratitude Journal",
+      "stat_downloads": 1885,
+      "stat_stars": 3,
+      "created_at": "2026-01-25T07:34:14.006000",
+      "days_old": 62,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "muscle-gain",
+      "display_name": "Muscle Gain",
+      "stat_downloads": 1818,
+      "stat_stars": 1,
+      "created_at": "2026-01-25T07:34:57.611000",
+      "days_old": 62,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "weight-loss",
+      "display_name": "Weight Loss",
+      "stat_downloads": 1808,
+      "stat_stars": 2,
+      "created_at": "2026-01-25T07:37:34.917000",
+      "days_old": 62,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "stress-relief",
+      "display_name": "Stress Relief",
+      "stat_downloads": 1804,
+      "stat_stars": 1,
+      "created_at": "2026-01-25T07:37:16.922000",
+      "days_old": 62,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "fasting-tracker",
+      "display_name": "Fasting Tracker",
+      "stat_downloads": 1804,
+      "stat_stars": 1,
+      "created_at": "2026-01-25T07:33:58.156000",
+      "days_old": 62,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "testosterone-optimization",
+      "display_name": "Testosterone Optimization",
+      "stat_downloads": 1793,
+      "stat_stars": 1,
+      "created_at": "2026-01-25T07:37:29.090000",
+      "days_old": 62,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "depression-support",
+      "display_name": "Depression Support",
+      "stat_downloads": 1754,
+      "stat_stars": 1,
+      "created_at": "2026-01-25T07:33:37.221000",
+      "days_old": 62,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "social-media-detox",
+      "display_name": "Social Media Detox",
+      "stat_downloads": 1718,
+      "stat_stars": 1,
+      "created_at": "2026-01-25T07:37:10.587000",
+      "days_old": 62,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "quit-smoking",
+      "display_name": "Quit Smoking",
+      "stat_downloads": 1700,
+      "stat_stars": 1,
+      "created_at": "2026-01-25T07:36:12.090000",
+      "days_old": 62,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "ranked-gym",
+      "display_name": "Ranked Gym",
+      "stat_downloads": 1695,
+      "stat_stars": 1,
+      "created_at": "2026-01-25T07:36:48.286000",
+      "days_old": 62,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "quit-porn",
+      "display_name": "Quit Porn",
+      "stat_downloads": 1684,
+      "stat_stars": 1,
+      "created_at": "2026-01-25T07:36:05.381000",
+      "days_old": 62,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "quit-caffeine",
+      "display_name": "Quit Caffeine",
+      "stat_downloads": 1665,
+      "stat_stars": 1,
+      "created_at": "2026-01-25T07:35:52.593000",
+      "days_old": 62,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "detox-counter",
+      "display_name": "Detox Counter",
+      "stat_downloads": 1663,
+      "stat_stars": 1,
+      "created_at": "2026-01-25T07:33:44.484000",
+      "days_old": 62,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "quit-overspending",
+      "display_name": "Quit Overspending",
+      "stat_downloads": 1658,
+      "stat_stars": 1,
+      "created_at": "2026-01-25T07:35:59.523000",
+      "days_old": 62,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "pregnancy-tracker",
+      "display_name": "Pregnancy Tracker",
+      "stat_downloads": 1644,
+      "stat_stars": 1,
+      "created_at": "2026-01-25T07:35:30.292000",
+      "days_old": 62,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "quit-vaping",
+      "display_name": "Quit Vaping",
+      "stat_downloads": 1625,
+      "stat_stars": 1,
+      "created_at": "2026-01-25T07:37:56.350000",
+      "days_old": 62,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "quit-weed",
+      "display_name": "Quit Weed",
+      "stat_downloads": 1623,
+      "stat_stars": 1,
+      "created_at": "2026-01-25T07:36:39.402000",
+      "days_old": 62,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "quit-alcohol",
+      "display_name": "Quit Alcohol",
+      "stat_downloads": 1604,
+      "stat_stars": 1,
+      "created_at": "2026-01-25T07:35:45.654000",
+      "days_old": 62,
+      "is_highlighted": false,
+      "is_suspicious": true
+    }
+  ],
+  "trajectory": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 81243,
+      "stars": 76
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 81646,
+      "stars": 76
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 82439,
+      "stars": 76
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 82932,
+      "stars": 76
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 83289,
+      "stars": 76
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 83745,
+      "stars": 76
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 84841,
+      "stars": 76
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 84924,
+      "stars": 76
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 85094,
+      "stars": 76
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 85601,
+      "stars": 76
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 86533,
+      "stars": 76
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 86533,
+      "stars": 76
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 86744,
+      "stars": 76
+    }
+  ],
+  "download_trajectory": [
+    81243,
+    81646,
+    82439,
+    82932,
+    83289,
+    83745,
+    84841,
+    84924,
+    85094,
+    85601,
+    86533,
+    86533,
+    86744
+  ]
+}

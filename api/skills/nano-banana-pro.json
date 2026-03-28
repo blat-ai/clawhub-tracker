@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd7dcr6a98x26ykz8zxevaw22s7yjcgt",
+  "slug": "nano-banana-pro",
+  "display_name": "Nano Banana Pro",
+  "summary": "Generate/edit images with Nano Banana Pro (Gemini 3 Pro Image). Use for image create/modify requests incl. edits. Supports text-to-image + image-to-image; 1K/2K/4K; use --input-image.",
+  "owner_handle": "steipete",
+  "owner_image": "https://avatars.githubusercontent.com/u/58493?v=4",
+  "created_at": "2026-01-04T16:49:18.090000",
+  "days_old": 82,
+  "stat_downloads": 69992,
+  "stat_stars": 281,
+  "tags": {
+    "latest": "k97c58hcj68pf010rs69xcyybx7ymyjj"
+  },
+  "badges": null,
+  "stat_installs": 1603,
+  "stat_comments": 1,
+  "current_version": "1.0.1",
+  "is_highlighted": false,
+  "is_suspicious": false,
+  "velocity": 853.6,
+  "acceleration_pct": -72.4,
+  "dl_delta": 481,
+  "dl_wow": 0.7,
+  "star_delta": 4,
+  "star_wow": 1.4,
+  "installs_delta": 9,
+  "installs_wow": 0.6,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 55954,
+      "stars": 219,
+      "installs_all_time": 1382,
+      "installs_current": 1358
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 56919,
+      "stars": 224,
+      "installs_all_time": 1395,
+      "installs_current": 1371
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 58856,
+      "stars": 236,
+      "installs_all_time": 1426,
+      "installs_current": 1401
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 60300,
+      "stars": 240,
+      "installs_all_time": 1451,
+      "installs_current": 1426
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 61615,
+      "stars": 245,
+      "installs_all_time": 1476,
+      "installs_current": 1448
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 62926,
+      "stars": 251,
+      "installs_all_time": 1502,
+      "installs_current": 1472
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 65394,
+      "stars": 257,
+      "installs_all_time": 1537,
+      "installs_current": 1506
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 65580,
+      "stars": 259,
+      "installs_all_time": 1542,
+      "installs_current": 1511
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 65906,
+      "stars": 261,
+      "installs_all_time": 1545,
+      "installs_current": 1513
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 67325,
+      "stars": 267,
+      "installs_all_time": 1567,
+      "installs_current": 1529
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 69511,
+      "stars": 277,
+      "installs_all_time": 1594,
+      "installs_current": 1558
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 69511,
+      "stars": 277,
+      "installs_all_time": 1594,
+      "installs_current": 1558
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 69992,
+      "stars": 281,
+      "installs_all_time": 1603,
+      "installs_current": 1565
+    }
+  ],
+  "version_releases": []
+}

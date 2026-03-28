@@ -1,0 +1,126 @@
+{
+  "handle": "chindden",
+  "total_downloads": 57409,
+  "total_stars": 205,
+  "total_installs": 1936,
+  "skill_count": 1,
+  "avg_dl_per_day": 956.8,
+  "highlighted_count": 0,
+  "suspicious_count": 1,
+  "clean_pct": 0.0,
+  "dl_delta": 377,
+  "dl_wow": 0.7,
+  "dl_per_day": 377.0,
+  "star_delta": 2,
+  "star_wow": 1.0,
+  "star_per_day": 2.0,
+  "installs_delta": 8,
+  "installs_wow": 0.4,
+  "installs_per_day": 8.0,
+  "owner_display_name": "chindden",
+  "owner_name": "chindden",
+  "owner_image": "https://avatars.githubusercontent.com/u/34678156?v=4",
+  "bio": null,
+  "company": null,
+  "location": null,
+  "blog": null,
+  "public_repos": 62,
+  "followers": 0,
+  "following": 1,
+  "github_created_at": "2017-12-19T10:05:02",
+  "twitter_username": null,
+  "skills": [
+    {
+      "slug": "skill-creator",
+      "display_name": "Skill Creator",
+      "stat_downloads": 57409,
+      "stat_stars": 205,
+      "created_at": "2026-01-27T14:04:37.376000",
+      "days_old": 60,
+      "is_highlighted": false,
+      "is_suspicious": true
+    }
+  ],
+  "trajectory": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 45981,
+      "stars": 161
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 46679,
+      "stars": 162
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 48175,
+      "stars": 169
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 49305,
+      "stars": 175
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 50328,
+      "stars": 178
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 51467,
+      "stars": 180
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 53601,
+      "stars": 188
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 53773,
+      "stars": 190
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 54025,
+      "stars": 192
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 55194,
+      "stars": 197
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 57032,
+      "stars": 203
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 57032,
+      "stars": 203
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 57409,
+      "stars": 205
+    }
+  ],
+  "download_trajectory": [
+    45981,
+    46679,
+    48175,
+    49305,
+    50328,
+    51467,
+    53601,
+    53773,
+    54025,
+    55194,
+    57032,
+    57032,
+    57409
+  ]
+}

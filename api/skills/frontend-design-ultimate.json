@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd7128athbz16n4bgnes4vw50n80dcqr",
+  "slug": "frontend-design-ultimate",
+  "display_name": "Frontend Design Ultimate",
+  "summary": "Create distinctive, production-grade static sites with React, Tailwind CSS, and shadcn/ui \u2014 no mockups needed. Generates bold, memorable designs from plain text requirements with anti-AI-slop aesthetics, mobile-first responsive patterns, and single-file bundling. Use when building landing pages, marketing sites, portfolios, dashboards, or any static web UI. Supports both Vite (pure static) and Next.js (Vercel deploy) workflows.",
+  "owner_handle": "kesslerio",
+  "owner_image": "https://avatars.githubusercontent.com/u/2647990?v=4",
+  "created_at": "2026-02-02T07:48:09.918000",
+  "days_old": 53,
+  "stat_downloads": 11782,
+  "stat_stars": 58,
+  "tags": {
+    "latest": "k97fv5qhhvx9qfkxmqhtt8cvg580d4pq"
+  },
+  "badges": null,
+  "stat_installs": 103,
+  "stat_comments": 0,
+  "current_version": "1.0.0",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 222.3,
+  "acceleration_pct": -67.9,
+  "dl_delta": 35,
+  "dl_wow": 0.3,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 1,
+  "installs_wow": 1.0,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 10886,
+      "stars": 52,
+      "installs_all_time": 82,
+      "installs_current": 79
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 10951,
+      "stars": 52,
+      "installs_all_time": 82,
+      "installs_current": 79
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 11079,
+      "stars": 53,
+      "installs_all_time": 84,
+      "installs_current": 81
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 11172,
+      "stars": 53,
+      "installs_all_time": 86,
+      "installs_current": 83
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 11253,
+      "stars": 54,
+      "installs_all_time": 89,
+      "installs_current": 85
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 11329,
+      "stars": 55,
+      "installs_all_time": 92,
+      "installs_current": 88
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 11491,
+      "stars": 55,
+      "installs_all_time": 96,
+      "installs_current": 92
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 11495,
+      "stars": 56,
+      "installs_all_time": 97,
+      "installs_current": 93
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 11511,
+      "stars": 56,
+      "installs_all_time": 98,
+      "installs_current": 94
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 11604,
+      "stars": 57,
+      "installs_all_time": 101,
+      "installs_current": 96
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 11747,
+      "stars": 58,
+      "installs_all_time": 102,
+      "installs_current": 97
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 11747,
+      "stars": 58,
+      "installs_all_time": 102,
+      "installs_current": 97
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 11782,
+      "stars": 58,
+      "installs_all_time": 103,
+      "installs_current": 98
+    }
+  ],
+  "version_releases": []
+}

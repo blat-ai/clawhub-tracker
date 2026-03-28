@@ -1,0 +1,126 @@
+{
+  "handle": "maximeprades",
+  "total_downloads": 59573,
+  "total_stars": 326,
+  "total_installs": 1119,
+  "skill_count": 1,
+  "avg_dl_per_day": 805.0,
+  "highlighted_count": 0,
+  "suspicious_count": 1,
+  "clean_pct": 0.0,
+  "dl_delta": 461,
+  "dl_wow": 0.8,
+  "dl_per_day": 461.0,
+  "star_delta": 3,
+  "star_wow": 0.9,
+  "star_per_day": 3.0,
+  "installs_delta": 9,
+  "installs_wow": 0.8,
+  "installs_per_day": 9.0,
+  "owner_display_name": "maximeprades",
+  "owner_name": "maximeprades",
+  "owner_image": "https://avatars.githubusercontent.com/u/509269?v=4",
+  "bio": "Product",
+  "company": null,
+  "location": "San Francisco",
+  "blog": null,
+  "public_repos": 1,
+  "followers": 23,
+  "following": 10,
+  "github_created_at": "2010-12-04T14:40:07",
+  "twitter_username": null,
+  "skills": [
+    {
+      "slug": "auto-updater",
+      "display_name": "Auto-Updater Skill",
+      "stat_downloads": 59573,
+      "stat_stars": 326,
+      "created_at": "2026-01-13T16:58:59.453000",
+      "days_old": 74,
+      "is_highlighted": false,
+      "is_suspicious": true
+    }
+  ],
+  "trajectory": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 49006,
+      "stars": 289
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 49663,
+      "stars": 291
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 50903,
+      "stars": 295
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 51879,
+      "stars": 300
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 52827,
+      "stars": 302
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 53826,
+      "stars": 306
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 55756,
+      "stars": 313
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 55906,
+      "stars": 316
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 56219,
+      "stars": 316
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 57382,
+      "stars": 321
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 59112,
+      "stars": 323
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 59112,
+      "stars": 323
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 59573,
+      "stars": 326
+    }
+  ],
+  "download_trajectory": [
+    49006,
+    49663,
+    50903,
+    51879,
+    52827,
+    53826,
+    55756,
+    55906,
+    56219,
+    57382,
+    59112,
+    59112,
+    59573
+  ]
+}

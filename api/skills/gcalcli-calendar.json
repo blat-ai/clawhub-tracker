@@ -1,0 +1,131 @@
+{
+  "skill_id": "kd7aapn5ejbpecny9yqe72f1x980jz6v",
+  "slug": "gcalcli-calendar",
+  "display_name": "Google Calendar (via gcalcli)",
+  "summary": "Google Calendar via gcalcli: today-only agenda by default, bounded meaning-first lookup via agenda scans, and fast create/delete with verification--optimized for low tool calls and minimal output.",
+  "owner_handle": "lstpsche",
+  "owner_image": "https://avatars.githubusercontent.com/u/40822400?v=4",
+  "created_at": "2026-02-05T22:09:02.455000",
+  "days_old": 50,
+  "stat_downloads": 13301,
+  "stat_stars": 9,
+  "tags": {
+    "agenda": "k974gemj9ncr9n9jhqp6npsged811vh1",
+    "calendar": "k974gemj9ncr9n9jhqp6npsged811vh1",
+    "events": "k974gemj9ncr9n9jhqp6npsged811vh1",
+    "gcalcli": "k974gemj9ncr9n9jhqp6npsged811vh1",
+    "google-calendar": "k974gemj9ncr9n9jhqp6npsged811vh1",
+    "latest": "k974gemj9ncr9n9jhqp6npsged811vh1",
+    "productivity": "k974gemj9ncr9n9jhqp6npsged811vh1",
+    "schedule": "k974gemj9ncr9n9jhqp6npsged811vh1",
+    "token-efficient": "k974gemj9ncr9n9jhqp6npsged811vh1"
+  },
+  "badges": null,
+  "stat_installs": 107,
+  "stat_comments": 0,
+  "current_version": "3.0.0",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 266.0,
+  "acceleration_pct": -72.9,
+  "dl_delta": 54,
+  "dl_wow": 0.4,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 0,
+  "installs_wow": 0.0,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 11944,
+      "stars": 8,
+      "installs_all_time": 93,
+      "installs_current": 89
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 12042,
+      "stars": 8,
+      "installs_all_time": 96,
+      "installs_current": 92
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 12267,
+      "stars": 8,
+      "installs_all_time": 96,
+      "installs_current": 92
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 12425,
+      "stars": 8,
+      "installs_all_time": 98,
+      "installs_current": 94
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 12499,
+      "stars": 8,
+      "installs_all_time": 98,
+      "installs_current": 93
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 12603,
+      "stars": 8,
+      "installs_all_time": 103,
+      "installs_current": 98
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 12832,
+      "stars": 8,
+      "installs_all_time": 103,
+      "installs_current": 98
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 12849,
+      "stars": 9,
+      "installs_all_time": 104,
+      "installs_current": 99
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 12900,
+      "stars": 9,
+      "installs_all_time": 105,
+      "installs_current": 100
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 13048,
+      "stars": 9,
+      "installs_all_time": 105,
+      "installs_current": 100
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 13247,
+      "stars": 9,
+      "installs_all_time": 107,
+      "installs_current": 102
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 13247,
+      "stars": 9,
+      "installs_all_time": 107,
+      "installs_current": 102
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 13301,
+      "stars": 9,
+      "installs_all_time": 107,
+      "installs_current": 102
+    }
+  ],
+  "version_releases": []
+}

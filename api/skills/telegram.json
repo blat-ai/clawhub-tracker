@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd7b3brm0s5zs9m2x6ansmrv2x80a1h9",
+  "slug": "telegram",
+  "display_name": "Telegram",
+  "summary": "OpenClaw skill for designing Telegram Bot API workflows and command-driven conversations using direct HTTPS requests (no SDKs).",
+  "owner_handle": "codedao12",
+  "owner_image": "https://avatars.githubusercontent.com/u/249323427?v=4",
+  "created_at": "2026-02-01T16:56:17.628000",
+  "days_old": 54,
+  "stat_downloads": 14169,
+  "stat_stars": 20,
+  "tags": {
+    "latest": "k976v8x43zt4tsc45wtnx1sxax80c650"
+  },
+  "badges": null,
+  "stat_installs": 200,
+  "stat_comments": 0,
+  "current_version": "1.0.1",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 262.4,
+  "acceleration_pct": -70.9,
+  "dl_delta": 95,
+  "dl_wow": 0.7,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 3,
+  "installs_wow": 1.5,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 12044,
+      "stars": 18,
+      "installs_all_time": 165,
+      "installs_current": 161
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 12183,
+      "stars": 18,
+      "installs_all_time": 167,
+      "installs_current": 163
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 12422,
+      "stars": 18,
+      "installs_all_time": 168,
+      "installs_current": 164
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 12619,
+      "stars": 19,
+      "installs_all_time": 174,
+      "installs_current": 170
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 12828,
+      "stars": 19,
+      "installs_all_time": 177,
+      "installs_current": 172
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 13041,
+      "stars": 19,
+      "installs_all_time": 184,
+      "installs_current": 179
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 13396,
+      "stars": 20,
+      "installs_all_time": 187,
+      "installs_current": 183
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 13413,
+      "stars": 20,
+      "installs_all_time": 187,
+      "installs_current": 183
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 13506,
+      "stars": 20,
+      "installs_all_time": 188,
+      "installs_current": 184
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 13739,
+      "stars": 20,
+      "installs_all_time": 191,
+      "installs_current": 187
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 14074,
+      "stars": 20,
+      "installs_all_time": 197,
+      "installs_current": 192
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 14074,
+      "stars": 20,
+      "installs_all_time": 197,
+      "installs_current": 192
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 14169,
+      "stars": 20,
+      "installs_all_time": 200,
+      "installs_current": 195
+    }
+  ],
+  "version_releases": []
+}

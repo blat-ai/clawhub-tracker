@@ -1,0 +1,1306 @@
+{
+  "handle": "wpank",
+  "total_downloads": 130976,
+  "total_stars": 75,
+  "total_installs": 932,
+  "skill_count": 119,
+  "avg_dl_per_day": 23.9,
+  "highlighted_count": 0,
+  "suspicious_count": 119,
+  "clean_pct": 0.0,
+  "dl_delta": 752,
+  "dl_wow": 0.6,
+  "dl_per_day": 752.0,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "star_per_day": 0,
+  "installs_delta": 16,
+  "installs_wow": 1.7,
+  "installs_per_day": 16.0,
+  "owner_display_name": "wpank",
+  "owner_name": "wpank",
+  "owner_image": "https://avatars.githubusercontent.com/u/9498646?v=4",
+  "bio": "\\ Metak\u00f8smia \\  ",
+  "company": null,
+  "location": "metaverse",
+  "blog": "https://soundcloud.com/metakosmia/tracks",
+  "public_repos": 60,
+  "followers": 781,
+  "following": 4580,
+  "github_created_at": "2014-11-01T14:03:41",
+  "twitter_username": null,
+  "skills": [
+    {
+      "slug": "code-review",
+      "display_name": "Code Review",
+      "stat_downloads": 9174,
+      "stat_stars": 8,
+      "created_at": "2026-02-10T13:24:29.941000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "e2e-testing-patterns",
+      "display_name": "E2E Testing Patterns",
+      "stat_downloads": 4423,
+      "stat_stars": 3,
+      "created_at": "2026-02-10T13:24:57.262000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "mermaid-diagrams",
+      "display_name": "Mermaid Diagrams",
+      "stat_downloads": 3862,
+      "stat_stars": 5,
+      "created_at": "2026-02-10T13:40:13.646000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "tailwind-design-system",
+      "display_name": "Tailwind Design System",
+      "stat_downloads": 3632,
+      "stat_stars": 8,
+      "created_at": "2026-02-10T12:57:37.516000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "clean-code-review",
+      "display_name": "Clean Code",
+      "stat_downloads": 3524,
+      "stat_stars": 6,
+      "created_at": "2026-02-10T13:23:51.880000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "testing-patterns",
+      "display_name": "Testing Patterns",
+      "stat_downloads": 3131,
+      "stat_stars": 2,
+      "created_at": "2026-02-10T13:26:49.288000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "react-best-practices",
+      "display_name": "React Best Practices",
+      "stat_downloads": 3121,
+      "stat_stars": 3,
+      "created_at": "2026-02-10T12:54:07.421000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "web-design",
+      "display_name": "Web Design",
+      "stat_downloads": 2701,
+      "stat_stars": 1,
+      "created_at": "2026-02-10T12:40:29.576000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "architecture-patterns",
+      "display_name": "Architecture Patterns",
+      "stat_downloads": 2376,
+      "stat_stars": 4,
+      "created_at": "2026-02-10T12:12:28.410000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "design-system-creation",
+      "display_name": "Design System Creation",
+      "stat_downloads": 1930,
+      "stat_stars": 4,
+      "created_at": "2026-02-10T13:02:34.194000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "kubernetes-devops",
+      "display_name": "Kubernetes",
+      "stat_downloads": 1814,
+      "stat_stars": 1,
+      "created_at": "2026-02-10T12:43:40.945000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "nodejs-patterns",
+      "display_name": "Nodejs Patterns",
+      "stat_downloads": 1740,
+      "stat_stars": 2,
+      "created_at": "2026-02-10T12:17:45.816000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "tailwind-v4-shadcn",
+      "display_name": "Tailwind v4 Shadcn",
+      "stat_downloads": 1513,
+      "stat_stars": 1,
+      "created_at": "2026-02-10T12:58:17.759000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "logging-observability",
+      "display_name": "Logging Observability",
+      "stat_downloads": 1411,
+      "stat_stars": 1,
+      "created_at": "2026-02-10T13:28:46.517000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "project-documentation",
+      "display_name": "Project Documentation",
+      "stat_downloads": 1387,
+      "stat_stars": 3,
+      "created_at": "2026-02-10T13:13:46.445000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "decision-frameworks",
+      "display_name": "Decision Frameworks",
+      "stat_downloads": 1309,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T13:02:00.121000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "context-driven-development",
+      "display_name": "Context Driven Development",
+      "stat_downloads": 1306,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T13:01:19.916000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "responsive-design",
+      "display_name": "Responsive Design",
+      "stat_downloads": 1263,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T12:55:41.707000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "theme-factory",
+      "display_name": "Theme Factory",
+      "stat_downloads": 1248,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T12:24:25.692000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "ui-ux",
+      "display_name": "UI / UX",
+      "stat_downloads": 1243,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T12:37:51.840000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "planning-files",
+      "display_name": "Planning With Files",
+      "stat_downloads": 1238,
+      "stat_stars": 6,
+      "created_at": "2026-02-10T13:12:43.309000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "expo-native-ui",
+      "display_name": "Expor Native UI",
+      "stat_downloads": 1237,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T12:50:33.813000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "startup-metrics",
+      "display_name": "Startup Metrics",
+      "stat_downloads": 1197,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T13:16:53.360000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "professional-communication",
+      "display_name": "Professional Communication",
+      "stat_downloads": 1192,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T13:41:03.065000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "schema-markup",
+      "display_name": "Schema Markup",
+      "stat_downloads": 1157,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T13:41:23.089000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "react-performance",
+      "display_name": "React Performance",
+      "stat_downloads": 1148,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T12:55:09.502000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "ui-design",
+      "display_name": "UI Design",
+      "stat_downloads": 1131,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T12:25:31.187000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "resiliant-connections",
+      "display_name": "Resiliant Connections",
+      "stat_downloads": 1120,
+      "stat_stars": 2,
+      "created_at": "2026-02-10T13:21:22.555000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "api-rate-limiting",
+      "display_name": "API Rate Limiting",
+      "stat_downloads": 1089,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T12:09:32.249000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "api-error-handling",
+      "display_name": "API Error Handling",
+      "stat_downloads": 1076,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T12:09:07.152000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "distinctive-design-systems",
+      "display_name": "Distinctive Design Systems",
+      "stat_downloads": 1046,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T12:22:58.944000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "testing-workflow",
+      "display_name": "Testing Workflow",
+      "stat_downloads": 1044,
+      "stat_stars": 1,
+      "created_at": "2026-02-10T13:27:03.415000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "workflow-patterns",
+      "display_name": "Workflow Patterns",
+      "stat_downloads": 1040,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T13:15:28.791000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "architecture-decision-records",
+      "display_name": "Architecture Decision Records",
+      "stat_downloads": 1036,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T12:11:44.373000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "clear-writing",
+      "display_name": "Clear Writing",
+      "stat_downloads": 963,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T13:39:28.639000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "article-illustrator",
+      "display_name": "Article Illustrator",
+      "stat_downloads": 963,
+      "stat_stars": 1,
+      "created_at": "2026-02-10T13:31:58.575000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "postgres-job-queue",
+      "display_name": "Postgres Job Queue",
+      "stat_downloads": 957,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T12:18:14.493000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "auto-context",
+      "display_name": "Auto Context",
+      "stat_downloads": 939,
+      "stat_stars": 2,
+      "created_at": "2026-02-10T13:00:51.667000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "financial-design-systems",
+      "display_name": "Financial Design Systems",
+      "stat_downloads": 934,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T12:23:28.265000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "feature-specification",
+      "display_name": "Feature Specification",
+      "stat_downloads": 922,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T13:04:02.599000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "design-system-patterns",
+      "display_name": "Design System Patterns",
+      "stat_downloads": 920,
+      "stat_stars": 2,
+      "created_at": "2026-02-10T12:22:25.437000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "realtime-dashboard",
+      "display_name": "Realtime Dashboard",
+      "stat_downloads": 912,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T13:14:15.114000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "turborepo",
+      "display_name": "Turborepo",
+      "stat_downloads": 910,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T12:46:25.730000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "shadcn",
+      "display_name": "Shadcn UI",
+      "stat_downloads": 906,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T12:56:32.864000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "10x-patterns",
+      "display_name": "10x Patterns",
+      "stat_downloads": 902,
+      "stat_stars": 2,
+      "created_at": "2026-02-10T13:00:26.594000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "caching",
+      "display_name": "caching",
+      "stat_downloads": 879,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T12:08:04.077000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "cross-chain-arbitrage",
+      "display_name": "Uniswap Cross Chain Arbitrage",
+      "stat_downloads": 861,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T17:41:40.169000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "full-stack-feature",
+      "display_name": "Full Stack Feature",
+      "stat_downloads": 855,
+      "stat_stars": 2,
+      "created_at": "2026-02-10T13:06:48.660000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "design-system-components",
+      "display_name": "Design System Components",
+      "stat_downloads": 853,
+      "stat_stars": 2,
+      "created_at": "2026-02-10T12:21:53.895000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "command-creator",
+      "display_name": "Command Creator",
+      "stat_downloads": 845,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T13:27:25.098000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "react-modernization",
+      "display_name": "React Modernization",
+      "stat_downloads": 836,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T12:54:20.713000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "nextjs-guidelines",
+      "display_name": "Nextjs",
+      "stat_downloads": 836,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T12:52:53.462000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "microservice-patterns",
+      "display_name": "Microservice Patterns",
+      "stat_downloads": 830,
+      "stat_stars": 2,
+      "created_at": "2026-02-10T12:16:43.192000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "native-ui",
+      "display_name": "Native UI",
+      "stat_downloads": 829,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T12:51:26.891000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "subagent-development",
+      "display_name": "Subagent Development",
+      "stat_downloads": 812,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T13:15:01.620000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "database-migrations",
+      "display_name": "database-migrations",
+      "stat_downloads": 809,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T12:08:32.636000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "auth-patterns",
+      "display_name": "auth-patterns",
+      "stat_downloads": 791,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T12:07:04.134000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "realtime-react-hooks",
+      "display_name": "Realtime React Hooks",
+      "stat_downloads": 770,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T13:20:47.001000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "api-development",
+      "display_name": "api-development",
+      "stat_downloads": 761,
+      "stat_stars": 1,
+      "created_at": "2026-02-10T12:05:50.650000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "persona-docs",
+      "display_name": "Persona Docs",
+      "stat_downloads": 750,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T13:40:30.105000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "production-readiness",
+      "display_name": "Production Readiness",
+      "stat_downloads": 749,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T13:13:13.035000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "session-handoff",
+      "display_name": "Session Handoff",
+      "stat_downloads": 748,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T13:30:24.592000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "animated-financial-display",
+      "display_name": "Animated Financial Display Design System",
+      "stat_downloads": 748,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T12:21:26.077000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "agent-otc-trade",
+      "display_name": "Uniswap Agent Otc Trade",
+      "stat_downloads": 746,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T17:31:45.873000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "prometheus-devops",
+      "display_name": "Prometheus",
+      "stat_downloads": 746,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T12:44:46.856000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "api-design-principles",
+      "display_name": "API Design Principles",
+      "stat_downloads": 745,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T12:11:08.044000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "game-changing-features",
+      "display_name": "Game Changing Features",
+      "stat_downloads": 744,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T13:39:43.724000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "monorepo",
+      "display_name": "Monorepo Management",
+      "stat_downloads": 742,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T12:17:15.113000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "uniswap-swap-simulation",
+      "display_name": "Uniswap Swap Simulation",
+      "stat_downloads": 734,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T17:54:13.394000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "extraction",
+      "display_name": "Skill Extraction",
+      "stat_downloads": 733,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T12:47:18.150000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "submit-limit-order",
+      "display_name": "Uniswap Submit Limit Order",
+      "stat_downloads": 728,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T17:52:54.656000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "service-layer-architecture",
+      "display_name": "Service Layer Architecture",
+      "stat_downloads": 727,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T12:18:44.610000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "react-composition",
+      "display_name": "React Composition",
+      "stat_downloads": 726,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T12:53:42.162000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "execute-swap",
+      "display_name": "Uniswap Execute Swap",
+      "stat_downloads": 722,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T17:44:57.837000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "finishing-branch",
+      "display_name": "Finishing Branch",
+      "stat_downloads": 720,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T13:27:48.695000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "quality-gates",
+      "display_name": "Quality Gates",
+      "stat_downloads": 715,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T13:25:54.347000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "subagent-driven-development-2",
+      "display_name": "Subagent Driven Development",
+      "stat_downloads": 714,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T13:31:21.477000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "research-and-trade",
+      "display_name": "Uniswap Research And Trade",
+      "stat_downloads": 709,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T17:49:54.908000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "reducing-entropy",
+      "display_name": "Reducing Entropy",
+      "stat_downloads": 708,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T13:26:29.918000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "websocket-hub-patterns",
+      "display_name": "Websocket Hub Patterns",
+      "stat_downloads": 698,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T13:22:04.655000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "setup-agent-wallet",
+      "display_name": "Uniswap Setup Agent Wallet",
+      "stat_downloads": 697,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T17:52:02.046000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "manage-liquidity",
+      "display_name": "Uniswap Manage Liquidity",
+      "stat_downloads": 694,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T17:48:07.805000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "self-funding-setup",
+      "display_name": "Uniswap Self Funding Setup",
+      "stat_downloads": 693,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T17:51:43.034000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "frontend-design-guidelines",
+      "display_name": "Frontend Design",
+      "stat_downloads": 692,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T12:51:32.851000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "composition-patterns",
+      "display_name": "Frontend Composition Patterns",
+      "stat_downloads": 690,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T12:48:01.521000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "batch-swap",
+      "display_name": "Uniswap Batch Swap",
+      "stat_downloads": 689,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T17:33:12.552000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "release-skills",
+      "display_name": "Release Skills",
+      "stat_downloads": 689,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T13:30:03.970000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "design-integration",
+      "display_name": "Uniswap Design Integration",
+      "stat_downloads": 688,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T17:44:40.468000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "build-hook",
+      "display_name": "Uniswap Build Hook",
+      "stat_downloads": 687,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T17:33:50.545000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "uniswap-pool-analysis",
+      "display_name": "Uniswap Pool Analysis",
+      "stat_downloads": 686,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T17:53:44.110000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "dual-stream-architecture",
+      "display_name": "Dual Stream Architecture",
+      "stat_downloads": 685,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T13:20:23.916000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "estimation-atterns",
+      "display_name": "Estimation Patterns",
+      "stat_downloads": 684,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T13:03:38.980000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "loading-state-patterns",
+      "display_name": "Loading State Patterns",
+      "stat_downloads": 684,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T12:23:54.792000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "go-concurrency-patterns",
+      "display_name": "Go Concurrency Patterns",
+      "stat_downloads": 684,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T12:15:25.807000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "backend-event-stores",
+      "display_name": "Backend Event Stores",
+      "stat_downloads": 680,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T12:14:49.034000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "setup-local-testnet",
+      "display_name": "Setup Local Anvil Testnet",
+      "stat_downloads": 679,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T17:52:37.780000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "assess-risk",
+      "display_name": "Uniswap Assess Risk",
+      "stat_downloads": 679,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T17:32:56.136000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "find-yield",
+      "display_name": "Uniswap Find Yield",
+      "stat_downloads": 676,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T17:45:26.675000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "research-token",
+      "display_name": "Uniswap Research Token",
+      "stat_downloads": 675,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T17:50:14.049000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "portfolio-report",
+      "display_name": "Uniswap Portfolio Report",
+      "stat_downloads": 674,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T17:49:13.113000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "full-lp-workflow",
+      "display_name": "Uniswap Full Lp Workflow",
+      "stat_downloads": 670,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T17:47:06.368000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "configure-x402",
+      "display_name": "Configure X402",
+      "stat_downloads": 670,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T17:34:28.742000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "deploy-agent-token",
+      "display_name": "Uniswap Deploy Agent Token",
+      "stat_downloads": 668,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T17:43:32.765000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "analyze-pool",
+      "display_name": "Uniswap Analyze Pool",
+      "stat_downloads": 659,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T17:32:25.518000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "create-test-pool",
+      "display_name": "Uniswap Create Test Pool",
+      "stat_downloads": 657,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T17:41:04.422000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "scan-opportunities",
+      "display_name": "Uniswap Scan Opportunities",
+      "stat_downloads": 651,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T17:50:34.567000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "cross-chain-swap",
+      "display_name": "Uniswap Cross Chain Swap",
+      "stat_downloads": 651,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T17:42:55.396000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "optimize-lp",
+      "display_name": "Uniswap Optimize Lp",
+      "stat_downloads": 651,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T17:48:45.631000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "lp-strategy",
+      "display_name": "Uniswap Lp Strategy",
+      "stat_downloads": 648,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T17:47:36.277000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "bridge-tokens",
+      "display_name": "Uniswap Bridge Tokens",
+      "stat_downloads": 642,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T17:33:32.590000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "monitor-tokenjar",
+      "display_name": "Uniswap Monitor Tokenjar",
+      "stat_downloads": 640,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T17:48:26.111000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "analyze-burn-economics",
+      "display_name": "Uniswap Analyze Burn Economics",
+      "stat_downloads": 639,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T17:32:03.913000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "compare-pools",
+      "display_name": "Uniswap Compare Pools",
+      "stat_downloads": 638,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T17:34:10.048000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "api-versioning",
+      "display_name": "api-versioning",
+      "stat_downloads": 638,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T12:06:20.443000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "track-performance",
+      "display_name": "Uniswap Track Performance",
+      "stat_downloads": 633,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T17:53:27.966000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "seek-protocol-fees",
+      "display_name": "Uniswap Seek Protocol Fees",
+      "stat_downloads": 632,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T17:50:55.946000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "design-hook",
+      "display_name": "Design Uniswap Hook",
+      "stat_downloads": 630,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T17:43:52.608000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "rebalance-position",
+      "display_name": "Uniswap Rebalance Position",
+      "stat_downloads": 626,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T17:49:36.899000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "setup-dca",
+      "display_name": "Uniswap Setup DCA",
+      "stat_downloads": 622,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T17:52:21.376000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": true
+    }
+  ],
+  "trajectory": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 112102,
+      "stars": 69
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 113159,
+      "stars": 69
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 115864,
+      "stars": 70
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 117357,
+      "stars": 70
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 118970,
+      "stars": 71
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 120760,
+      "stars": 73
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 124377,
+      "stars": 73
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 124664,
+      "stars": 73
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 125269,
+      "stars": 73
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 127174,
+      "stars": 74
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 130224,
+      "stars": 75
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 130224,
+      "stars": 75
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 130976,
+      "stars": 75
+    }
+  ],
+  "download_trajectory": [
+    112102,
+    113159,
+    115864,
+    117357,
+    118970,
+    120760,
+    124377,
+    124664,
+    125269,
+    127174,
+    130224,
+    130224,
+    130976
+  ]
+}

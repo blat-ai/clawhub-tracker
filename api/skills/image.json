@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd74t14dsbjae55tqz6jpt925n80vdn5",
+  "slug": "image",
+  "display_name": "Image",
+  "summary": "Create, inspect, process, and optimize image files and visual assets with reliable format choice, resizing, compression, color-profile, metadata, and platfor...",
+  "owner_handle": "ivangdavila",
+  "owner_image": "https://avatars.githubusercontent.com/u/81719670?v=4",
+  "created_at": "2026-02-09T19:34:36.396000",
+  "days_old": 46,
+  "stat_downloads": 11676,
+  "stat_stars": 16,
+  "tags": {
+    "latest": "k979r31nrdhd34na04rpgwcw3s82pdrx"
+  },
+  "badges": null,
+  "stat_installs": 164,
+  "stat_comments": 0,
+  "current_version": "1.0.4",
+  "is_highlighted": false,
+  "is_suspicious": false,
+  "velocity": 253.8,
+  "acceleration_pct": -78.1,
+  "dl_delta": 68,
+  "dl_wow": 0.6,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 1,
+  "installs_wow": 0.6,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 8712,
+      "stars": 10,
+      "installs_all_time": 108,
+      "installs_current": 106
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 8961,
+      "stars": 10,
+      "installs_all_time": 112,
+      "installs_current": 110
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 9467,
+      "stars": 11,
+      "installs_all_time": 119,
+      "installs_current": 117
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 9846,
+      "stars": 13,
+      "installs_all_time": 127,
+      "installs_current": 125
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 10218,
+      "stars": 15,
+      "installs_all_time": 133,
+      "installs_current": 130
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 10523,
+      "stars": 15,
+      "installs_all_time": 141,
+      "installs_current": 137
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 10894,
+      "stars": 16,
+      "installs_all_time": 148,
+      "installs_current": 144
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 10930,
+      "stars": 16,
+      "installs_all_time": 149,
+      "installs_current": 145
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 10993,
+      "stars": 16,
+      "installs_all_time": 150,
+      "installs_current": 146
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 11240,
+      "stars": 17,
+      "installs_all_time": 155,
+      "installs_current": 151
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 11608,
+      "stars": 16,
+      "installs_all_time": 163,
+      "installs_current": 159
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 11608,
+      "stars": 16,
+      "installs_all_time": 163,
+      "installs_current": 159
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 11676,
+      "stars": 16,
+      "installs_all_time": 164,
+      "installs_current": 160
+    }
+  ],
+  "version_releases": []
+}

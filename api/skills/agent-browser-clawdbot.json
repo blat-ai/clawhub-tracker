@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd73k6ckp22a61dnwn93rwdp2s7znp0a",
+  "slug": "agent-browser-clawdbot",
+  "display_name": "Agent Browser",
+  "summary": "Headless browser automation CLI optimized for AI agents with accessibility tree snapshots and ref-based element selection",
+  "owner_handle": "matrixy",
+  "owner_image": "https://avatars.githubusercontent.com/u/3080139?v=4",
+  "created_at": "2026-01-21T22:00:54.381000",
+  "days_old": 65,
+  "stat_downloads": 50592,
+  "stat_stars": 170,
+  "tags": {
+    "latest": "k972cehvcj0t10a68e1jk05k057zmerc"
+  },
+  "badges": null,
+  "stat_installs": 365,
+  "stat_comments": 1,
+  "current_version": "0.1.0",
+  "is_highlighted": false,
+  "is_suspicious": false,
+  "velocity": 778.3,
+  "acceleration_pct": -60.3,
+  "dl_delta": 963,
+  "dl_wow": 1.9,
+  "star_delta": 2,
+  "star_wow": 1.2,
+  "installs_delta": 3,
+  "installs_wow": 0.8,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 29843,
+      "stars": 90,
+      "installs_all_time": 199,
+      "installs_current": 182
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 30974,
+      "stars": 92,
+      "installs_all_time": 206,
+      "installs_current": 188
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 33651,
+      "stars": 103,
+      "installs_all_time": 222,
+      "installs_current": 201
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 35781,
+      "stars": 115,
+      "installs_all_time": 242,
+      "installs_current": 221
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 37734,
+      "stars": 125,
+      "installs_all_time": 263,
+      "installs_current": 240
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 39714,
+      "stars": 132,
+      "installs_all_time": 281,
+      "installs_current": 257
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 43281,
+      "stars": 144,
+      "installs_all_time": 313,
+      "installs_current": 287
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 43569,
+      "stars": 146,
+      "installs_all_time": 314,
+      "installs_current": 288
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 43962,
+      "stars": 147,
+      "installs_all_time": 317,
+      "installs_current": 292
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 45993,
+      "stars": 157,
+      "installs_all_time": 334,
+      "installs_current": 306
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 49629,
+      "stars": 168,
+      "installs_all_time": 362,
+      "installs_current": 332
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 49629,
+      "stars": 168,
+      "installs_all_time": 362,
+      "installs_current": 332
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 50592,
+      "stars": 170,
+      "installs_all_time": 365,
+      "installs_current": 333
+    }
+  ],
+  "version_releases": []
+}

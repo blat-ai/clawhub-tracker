@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd7f8kt2v1tce5sywjkxd96ed5808smt",
+  "slug": "memory-manager",
+  "display_name": "Memory Manager",
+  "summary": "Local memory management for agents. Compression detection, auto-snapshots, and semantic search. Use when agents need to detect compression risk before memory loss, save context snapshots, search historical memories, or track memory usage patterns. Never lose context again.",
+  "owner_handle": "marmikcfc",
+  "owner_image": "https://avatars.githubusercontent.com/u/8331083?v=4",
+  "created_at": "2026-01-31T06:53:20.221000",
+  "days_old": 55,
+  "stat_downloads": 17747,
+  "stat_stars": 76,
+  "tags": {
+    "latest": "k979qtvmzy64050f7m7tnsykvs809cnv"
+  },
+  "badges": null,
+  "stat_installs": 241,
+  "stat_comments": 3,
+  "current_version": "1.0.0",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 322.7,
+  "acceleration_pct": -66.8,
+  "dl_delta": 98,
+  "dl_wow": 0.6,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 0,
+  "installs_wow": 0.0,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 15208,
+      "stars": 69,
+      "installs_all_time": 173,
+      "installs_current": 166
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 15355,
+      "stars": 69,
+      "installs_all_time": 177,
+      "installs_current": 170
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 15693,
+      "stars": 71,
+      "installs_all_time": 185,
+      "installs_current": 178
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 15947,
+      "stars": 74,
+      "installs_all_time": 189,
+      "installs_current": 182
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 16206,
+      "stars": 75,
+      "installs_all_time": 200,
+      "installs_current": 192
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 16469,
+      "stars": 75,
+      "installs_all_time": 208,
+      "installs_current": 200
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 16964,
+      "stars": 76,
+      "installs_all_time": 221,
+      "installs_current": 213
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 16998,
+      "stars": 76,
+      "installs_all_time": 221,
+      "installs_current": 213
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 17054,
+      "stars": 76,
+      "installs_all_time": 224,
+      "installs_current": 215
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 17293,
+      "stars": 76,
+      "installs_all_time": 230,
+      "installs_current": 221
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 17649,
+      "stars": 76,
+      "installs_all_time": 241,
+      "installs_current": 232
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 17649,
+      "stars": 76,
+      "installs_all_time": 241,
+      "installs_current": 232
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 17747,
+      "stars": 76,
+      "installs_all_time": 241,
+      "installs_current": 232
+    }
+  ],
+  "version_releases": []
+}

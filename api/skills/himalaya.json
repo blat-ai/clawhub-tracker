@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd7fz8hxh207xd6haddp6tfmr17ywfcv",
+  "slug": "himalaya",
+  "display_name": "Himalaya",
+  "summary": "CLI to manage emails via IMAP/SMTP. Use `himalaya` to list, read, write, reply, forward, search, and organize emails from the terminal. Supports multiple accounts and message composition with MML (MIME Meta Language).",
+  "owner_handle": "lamelas",
+  "owner_image": "https://avatars.githubusercontent.com/u/210068?v=4",
+  "created_at": "2026-01-09T10:24:31.328000",
+  "days_old": 77,
+  "stat_downloads": 32898,
+  "stat_stars": 58,
+  "tags": {
+    "latest": "k972c3cy05pgq2pw4017bykcc57ywcwr"
+  },
+  "badges": null,
+  "stat_installs": 1311,
+  "stat_comments": 3,
+  "current_version": "1.0.0",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 427.2,
+  "acceleration_pct": -71.5,
+  "dl_delta": 155,
+  "dl_wow": 0.5,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 7,
+  "installs_wow": 0.5,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 29162,
+      "stars": 50,
+      "installs_all_time": 1142,
+      "installs_current": 1115
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 29403,
+      "stars": 50,
+      "installs_all_time": 1154,
+      "installs_current": 1127
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 29874,
+      "stars": 50,
+      "installs_all_time": 1181,
+      "installs_current": 1152
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 30238,
+      "stars": 52,
+      "installs_all_time": 1196,
+      "installs_current": 1167
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 30575,
+      "stars": 53,
+      "installs_all_time": 1212,
+      "installs_current": 1181
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 30921,
+      "stars": 53,
+      "installs_all_time": 1232,
+      "installs_current": 1201
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 31543,
+      "stars": 56,
+      "installs_all_time": 1258,
+      "installs_current": 1227
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 31604,
+      "stars": 56,
+      "installs_all_time": 1263,
+      "installs_current": 1232
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 31714,
+      "stars": 56,
+      "installs_all_time": 1266,
+      "installs_current": 1235
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 32147,
+      "stars": 56,
+      "installs_all_time": 1285,
+      "installs_current": 1254
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 32743,
+      "stars": 58,
+      "installs_all_time": 1304,
+      "installs_current": 1275
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 32743,
+      "stars": 58,
+      "installs_all_time": 1304,
+      "installs_current": 1275
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 32898,
+      "stars": 58,
+      "installs_all_time": 1311,
+      "installs_current": 1280
+    }
+  ],
+  "version_releases": []
+}

@@ -1,0 +1,206 @@
+{
+  "handle": "ide-rea",
+  "total_downloads": 122952,
+  "total_stars": 250,
+  "total_installs": 1068,
+  "skill_count": 9,
+  "avg_dl_per_day": 274.1,
+  "highlighted_count": 0,
+  "suspicious_count": 7,
+  "clean_pct": 22.2,
+  "dl_delta": 571,
+  "dl_wow": 0.5,
+  "dl_per_day": 571.0,
+  "star_delta": 2,
+  "star_wow": 0.8,
+  "star_per_day": 2.0,
+  "installs_delta": 4,
+  "installs_wow": 0.4,
+  "installs_per_day": 4.0,
+  "owner_display_name": "ide-rea",
+  "owner_name": "ide-rea",
+  "owner_image": "https://avatars.githubusercontent.com/u/30512600?v=4",
+  "bio": null,
+  "company": null,
+  "location": null,
+  "blog": null,
+  "public_repos": 12,
+  "followers": 8,
+  "following": 2,
+  "github_created_at": "2017-07-28T00:15:33",
+  "twitter_username": null,
+  "skills": [
+    {
+      "slug": "baidu-search",
+      "display_name": "Baidu Search",
+      "stat_downloads": 64351,
+      "stat_stars": 172,
+      "created_at": "2026-02-05T11:42:34.419000",
+      "days_old": 51,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ai-ppt-generator",
+      "display_name": "Ai Ppt Generator",
+      "stat_downloads": 22314,
+      "stat_stars": 48,
+      "created_at": "2026-02-07T17:07:38.130000",
+      "days_old": 49,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "baidu-baike-data",
+      "display_name": "baidu baike search",
+      "stat_downloads": 8431,
+      "stat_stars": 2,
+      "created_at": "2026-02-08T16:17:16.797000",
+      "days_old": 48,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "baidu-scholar-search-skill",
+      "display_name": "baidu scholar search",
+      "stat_downloads": 7622,
+      "stat_stars": 8,
+      "created_at": "2026-02-07T18:20:01.414000",
+      "days_old": 49,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "ai-picture-book",
+      "display_name": "AI picture book generate",
+      "stat_downloads": 7187,
+      "stat_stars": 11,
+      "created_at": "2026-02-05T11:46:08.973000",
+      "days_old": 51,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "ai-notes-ofvideo",
+      "display_name": "ai notes of video",
+      "stat_downloads": 6795,
+      "stat_stars": 7,
+      "created_at": "2026-02-07T16:26:51.760000",
+      "days_old": 49,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "deepresearch-conversation",
+      "display_name": "deepresearch conversation",
+      "stat_downloads": 6105,
+      "stat_stars": 2,
+      "created_at": "2026-02-07T07:33:25.465000",
+      "days_old": 49,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "test-01",
+      "display_name": "dasfgg",
+      "stat_downloads": 83,
+      "stat_stars": 0,
+      "created_at": "2026-03-17T13:44:57.254000",
+      "days_old": 11,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "ai-notes-for-video",
+      "display_name": "AI Notes for Video",
+      "stat_downloads": 64,
+      "stat_stars": 0,
+      "created_at": "2026-03-19T10:57:18.233000",
+      "days_old": 9,
+      "is_highlighted": false,
+      "is_suspicious": true
+    }
+  ],
+  "trajectory": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 101581,
+      "stars": 188
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 103143,
+      "stars": 192
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 106556,
+      "stars": 207
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 108897,
+      "stars": 209
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 110809,
+      "stars": 210
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 112630,
+      "stars": 217
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 116584,
+      "stars": 227
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 116834,
+      "stars": 229
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 117129,
+      "stars": 230
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 119173,
+      "stars": 241
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 122381,
+      "stars": 248
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 122381,
+      "stars": 248
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 122952,
+      "stars": 250
+    }
+  ],
+  "download_trajectory": [
+    101581,
+    103143,
+    106556,
+    108897,
+    110809,
+    112630,
+    116584,
+    116834,
+    117129,
+    119173,
+    122381,
+    122381,
+    122952
+  ]
+}

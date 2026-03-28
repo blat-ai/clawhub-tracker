@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd77ye9z3q441y1sx8qqcds35980f81r",
+  "slug": "outlook-api",
+  "display_name": "Outlook",
+  "summary": "Microsoft Outlook API integration with managed OAuth. Read, send, and manage emails, folders, calendar events, and contacts via Microsoft Graph. Use this skill when users want to interact with Outlook. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
+  "owner_handle": "byungkyu",
+  "owner_image": "https://avatars.githubusercontent.com/u/16563684?v=4",
+  "created_at": "2026-02-03T11:12:16.202000",
+  "days_old": 52,
+  "stat_downloads": 19641,
+  "stat_stars": 34,
+  "tags": {
+    "latest": "k97a8dd5vct6zfjnh1chcndqts80wbg8"
+  },
+  "badges": null,
+  "stat_installs": 55,
+  "stat_comments": 3,
+  "current_version": "1.0.3",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 377.7,
+  "acceleration_pct": -68.9,
+  "dl_delta": 14,
+  "dl_wow": 0.1,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 0,
+  "installs_wow": 0.0,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 19173,
+      "stars": 30,
+      "installs_all_time": 47,
+      "installs_current": 45
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 19207,
+      "stars": 30,
+      "installs_all_time": 47,
+      "installs_current": 45
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 19281,
+      "stars": 32,
+      "installs_all_time": 48,
+      "installs_current": 46
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 19334,
+      "stars": 32,
+      "installs_all_time": 49,
+      "installs_current": 47
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 19371,
+      "stars": 32,
+      "installs_all_time": 49,
+      "installs_current": 46
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 19422,
+      "stars": 32,
+      "installs_all_time": 50,
+      "installs_current": 47
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 19511,
+      "stars": 34,
+      "installs_all_time": 53,
+      "installs_current": 49
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 19517,
+      "stars": 34,
+      "installs_all_time": 53,
+      "installs_current": 49
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 19524,
+      "stars": 34,
+      "installs_all_time": 54,
+      "installs_current": 50
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 19562,
+      "stars": 34,
+      "installs_all_time": 55,
+      "installs_current": 51
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 19627,
+      "stars": 34,
+      "installs_all_time": 55,
+      "installs_current": 51
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 19627,
+      "stars": 34,
+      "installs_all_time": 55,
+      "installs_current": 51
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 19641,
+      "stars": 34,
+      "installs_all_time": 55,
+      "installs_current": 51
+    }
+  ],
+  "version_releases": []
+}

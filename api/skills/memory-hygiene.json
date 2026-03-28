@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd7bzyndy32aq1y24bfzj4x09s802gtt",
+  "slug": "memory-hygiene",
+  "display_name": "Memory Hygiene",
+  "summary": "Audit, clean, and optimize Clawdbot's vector memory (LanceDB). Use when memory is bloated with junk, token usage is high from irrelevant auto-recalls, or setting up memory maintenance automation.",
+  "owner_handle": "dylanbaker24",
+  "owner_image": "https://avatars.githubusercontent.com/u/208568310?v=4",
+  "created_at": "2026-01-28T17:37:10.815000",
+  "days_old": 58,
+  "stat_downloads": 15831,
+  "stat_stars": 15,
+  "tags": {
+    "latest": "k972d37mvfxy7kxe7my67z4y5n803e1g"
+  },
+  "badges": null,
+  "stat_installs": 194,
+  "stat_comments": 0,
+  "current_version": "1.0.0",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 272.9,
+  "acceleration_pct": -77.4,
+  "dl_delta": 35,
+  "dl_wow": 0.2,
+  "star_delta": 1,
+  "star_wow": 7.1,
+  "installs_delta": 2,
+  "installs_wow": 1.0,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 13783,
+      "stars": 15,
+      "installs_all_time": 149,
+      "installs_current": 146
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 13977,
+      "stars": 15,
+      "installs_all_time": 154,
+      "installs_current": 151
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 14288,
+      "stars": 14,
+      "installs_all_time": 160,
+      "installs_current": 157
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 14546,
+      "stars": 14,
+      "installs_all_time": 167,
+      "installs_current": 164
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 14808,
+      "stars": 14,
+      "installs_all_time": 170,
+      "installs_current": 166
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 15058,
+      "stars": 14,
+      "installs_all_time": 174,
+      "installs_current": 169
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 15489,
+      "stars": 14,
+      "installs_all_time": 181,
+      "installs_current": 175
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 15507,
+      "stars": 14,
+      "installs_all_time": 181,
+      "installs_current": 175
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 15544,
+      "stars": 14,
+      "installs_all_time": 182,
+      "installs_current": 176
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 15662,
+      "stars": 14,
+      "installs_all_time": 185,
+      "installs_current": 179
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 15796,
+      "stars": 14,
+      "installs_all_time": 192,
+      "installs_current": 186
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 15796,
+      "stars": 14,
+      "installs_all_time": 192,
+      "installs_current": 186
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 15831,
+      "stars": 15,
+      "installs_all_time": 194,
+      "installs_current": 188
+    }
+  ],
+  "version_releases": []
+}

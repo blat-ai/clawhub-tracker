@@ -1,0 +1,786 @@
+{
+  "handle": "cinience",
+  "total_downloads": 61583,
+  "total_stars": 7,
+  "total_installs": 157,
+  "skill_count": 67,
+  "avg_dl_per_day": 21.0,
+  "highlighted_count": 0,
+  "suspicious_count": 61,
+  "clean_pct": 9.0,
+  "dl_delta": 149,
+  "dl_wow": 0.2,
+  "dl_per_day": 149.0,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "star_per_day": 0,
+  "installs_delta": 0,
+  "installs_wow": 0.0,
+  "installs_per_day": 0,
+  "owner_display_name": "cinience",
+  "owner_name": "cinience",
+  "owner_image": "https://avatars.githubusercontent.com/u/557426?v=4",
+  "bio": null,
+  "company": null,
+  "location": null,
+  "blog": null,
+  "public_repos": 57,
+  "followers": 68,
+  "following": 25,
+  "github_created_at": "2011-01-11T13:21:33",
+  "twitter_username": null,
+  "skills": [
+    {
+      "slug": "volcengine-ai-image-generation",
+      "display_name": "Volcengine Ai Image Generation",
+      "stat_downloads": 2602,
+      "stat_stars": 1,
+      "created_at": "2026-02-11T00:24:06.634000",
+      "days_old": 45,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "alicloud-ai-content-aimiaobi",
+      "display_name": "Alicloud Ai Content Aimiaobi",
+      "stat_downloads": 1326,
+      "stat_stars": 0,
+      "created_at": "2026-02-11T00:03:21.022000",
+      "days_old": 45,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "volcengine-ai-video-generation",
+      "display_name": "Volcengine Ai Video Generation",
+      "stat_downloads": 1305,
+      "stat_stars": 0,
+      "created_at": "2026-02-11T00:24:19.282000",
+      "days_old": 45,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "volcengine-ai-audio-tts",
+      "display_name": "Volcengine Ai Audio Tts",
+      "stat_downloads": 1239,
+      "stat_stars": 0,
+      "created_at": "2026-02-11T00:24:00.390000",
+      "days_old": 45,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "alicloud-ai-text-document-mind",
+      "display_name": "Alicloud Ai Text Document Mind",
+      "stat_downloads": 1105,
+      "stat_stars": 0,
+      "created_at": "2026-02-11T00:04:12.572000",
+      "days_old": 45,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "alicloud-ai-translation-anytrans",
+      "display_name": "Alicloud Ai Translation Anytrans",
+      "stat_downloads": 1103,
+      "stat_stars": 0,
+      "created_at": "2026-02-11T00:04:15.890000",
+      "days_old": 45,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "alicloud-ai-image-qwen-image",
+      "display_name": "Alicloud Ai Image Qwen Image",
+      "stat_downloads": 1090,
+      "stat_stars": 2,
+      "created_at": "2026-02-11T00:03:32.289000",
+      "days_old": 45,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "alicloud-ai-content-aicontent",
+      "display_name": "Alicloud Ai Content Aicontent",
+      "stat_downloads": 1084,
+      "stat_stars": 0,
+      "created_at": "2026-02-11T00:03:17.694000",
+      "days_old": 45,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "alicloud-ai-chatbot",
+      "display_name": "Alicloud Ai Chatbot",
+      "stat_downloads": 1081,
+      "stat_stars": 0,
+      "created_at": "2026-02-11T00:04:01.529000",
+      "days_old": 45,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "alicloud-storage-oss-ossutil",
+      "display_name": "Alicloud Storage Oss Ossutil",
+      "stat_downloads": 1077,
+      "stat_stars": 1,
+      "created_at": "2026-02-11T00:05:58.281000",
+      "days_old": 45,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "alicloud-ai-recommend-airec",
+      "display_name": "Alicloud Ai Recommend Airec",
+      "stat_downloads": 1060,
+      "stat_stars": 0,
+      "created_at": "2026-02-11T00:03:47.678000",
+      "days_old": 45,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "alicloud-database-analyticdb-mysql",
+      "display_name": "Alicloud Database Analyticdb Mysql",
+      "stat_downloads": 1045,
+      "stat_stars": 0,
+      "created_at": "2026-02-11T00:10:29.610000",
+      "days_old": 45,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "alicloud-security-center-sas",
+      "display_name": "Alicloud Security Center Sas",
+      "stat_downloads": 1036,
+      "stat_stars": 0,
+      "created_at": "2026-02-11T00:05:48.716000",
+      "days_old": 45,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "alicloud-ai-audio-tts",
+      "display_name": "Alicloud Ai Audio Tts",
+      "stat_downloads": 1035,
+      "stat_stars": 0,
+      "created_at": "2026-02-11T00:03:14.308000",
+      "days_old": 45,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "alicloud-security-content-moderation-green",
+      "display_name": "Alicloud Security Content Moderation Green",
+      "stat_downloads": 1033,
+      "stat_stars": 0,
+      "created_at": "2026-02-11T00:05:41.899000",
+      "days_old": 45,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "alicloud-compute-fc-serverless-devs",
+      "display_name": "Alicloud Compute Fc Serverless Devs",
+      "stat_downloads": 1018,
+      "stat_stars": 0,
+      "created_at": "2026-02-11T00:04:42.546000",
+      "days_old": 45,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "alicloud-ai-entry-modelstudio-test",
+      "display_name": "Alicloud Ai Entry Modelstudio Test",
+      "stat_downloads": 1015,
+      "stat_stars": 0,
+      "created_at": "2026-02-11T00:03:27.762000",
+      "days_old": 45,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "alicloud-ai-image-zimage-turbo",
+      "display_name": "Alicloud Ai Image Zimage Turbo",
+      "stat_downloads": 1014,
+      "stat_stars": 0,
+      "created_at": "2026-02-11T00:03:36.406000",
+      "days_old": 45,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "alicloud-ai-entry-modelstudio",
+      "display_name": "Alicloud Ai Entry Modelstudio",
+      "stat_downloads": 1013,
+      "stat_stars": 0,
+      "created_at": "2026-02-11T00:03:24.430000",
+      "days_old": 45,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "alicloud-network-dns-cli",
+      "display_name": "Alicloud Network Dns Cli",
+      "stat_downloads": 1012,
+      "stat_stars": 0,
+      "created_at": "2026-02-11T00:05:27.833000",
+      "days_old": 45,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "alicloud-backup-bdrc",
+      "display_name": "Alicloud Backup Bdrc",
+      "stat_downloads": 1011,
+      "stat_stars": 0,
+      "created_at": "2026-02-11T00:04:23.234000",
+      "days_old": 45,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "alicloud-ai-video-wan-video",
+      "display_name": "Alicloud Ai Video Wan Video",
+      "stat_downloads": 1007,
+      "stat_stars": 0,
+      "created_at": "2026-02-11T00:04:19.734000",
+      "days_old": 45,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "alicloud-ai-misc-crawl-and-skill",
+      "display_name": "Alicloud Ai Misc Crawl And Skill",
+      "stat_downloads": 998,
+      "stat_stars": 0,
+      "created_at": "2026-02-11T00:03:41.171000",
+      "days_old": 45,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "alicloud-security-id-verification-cloudauth",
+      "display_name": "Alicloud Security Id Verification Cloudauth",
+      "stat_downloads": 995,
+      "stat_stars": 0,
+      "created_at": "2026-02-11T00:05:51.879000",
+      "days_old": 45,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "alicloud-data-lake-dlf",
+      "display_name": "Alicloud Data Lake Dlf",
+      "stat_downloads": 992,
+      "stat_stars": 0,
+      "created_at": "2026-02-11T00:04:54.339000",
+      "days_old": 45,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "alicloud-ai-contactcenter-ai",
+      "display_name": "Alicloud Ai Contactcenter Ai",
+      "stat_downloads": 992,
+      "stat_stars": 0,
+      "created_at": "2026-02-11T00:04:08.369000",
+      "days_old": 45,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "alicloud-security-cloudfw",
+      "display_name": "Alicloud Security Cloudfw",
+      "stat_downloads": 986,
+      "stat_stars": 0,
+      "created_at": "2026-02-11T00:05:45.269000",
+      "days_old": 45,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "alicloud-data-analytics-dataanalysisgbi",
+      "display_name": "Alicloud Data Analytics Dataanalysisgbi",
+      "stat_downloads": 986,
+      "stat_stars": 0,
+      "created_at": "2026-02-11T00:04:51.185000",
+      "days_old": 45,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "alicloud-ai-search-opensearch",
+      "display_name": "Alicloud Ai Search Opensearch",
+      "stat_downloads": 979,
+      "stat_stars": 0,
+      "created_at": "2026-02-11T00:03:58",
+      "days_old": 45,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "alicloud-media-video-translation",
+      "display_name": "Alicloud Media Video Translation",
+      "stat_downloads": 978,
+      "stat_stars": 0,
+      "created_at": "2026-02-11T00:05:24.206000",
+      "days_old": 45,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "alicloud-security-kms",
+      "display_name": "Alicloud Security Kms",
+      "stat_downloads": 976,
+      "stat_stars": 0,
+      "created_at": "2026-02-11T00:05:54.915000",
+      "days_old": 45,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "alicloud-backup-hbr",
+      "display_name": "Alicloud Backup Hbr",
+      "stat_downloads": 974,
+      "stat_stars": 0,
+      "created_at": "2026-02-11T00:04:26.625000",
+      "days_old": 45,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "alicloud-ai-cloud-call-center",
+      "display_name": "Alicloud Ai Cloud Call Center",
+      "stat_downloads": 971,
+      "stat_stars": 0,
+      "created_at": "2026-02-11T00:04:04.981000",
+      "days_old": 45,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "alicloud-observability-sls-log-query",
+      "display_name": "Alicloud Observability Sls Log Query",
+      "stat_downloads": 970,
+      "stat_stars": 0,
+      "created_at": "2026-02-11T00:05:32.788000",
+      "days_old": 45,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "alicloud-ai-search-dashvector",
+      "display_name": "Alicloud Ai Search Dashvector",
+      "stat_downloads": 962,
+      "stat_stars": 0,
+      "created_at": "2026-02-11T00:03:50.922000",
+      "days_old": 45,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "alicloud-ai-pai-aiworkspace",
+      "display_name": "Alicloud Ai Pai Aiworkspace",
+      "stat_downloads": 961,
+      "stat_stars": 0,
+      "created_at": "2026-02-11T00:03:44.267000",
+      "days_old": 45,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "alicloud-data-lake-dlf-next",
+      "display_name": "Alicloud Data Lake Dlf Next",
+      "stat_downloads": 950,
+      "stat_stars": 0,
+      "created_at": "2026-02-11T00:04:57.725000",
+      "days_old": 45,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "alicloud-compute-fc-agentrun",
+      "display_name": "Alicloud Compute Fc Agentrun",
+      "stat_downloads": 945,
+      "stat_stars": 0,
+      "created_at": "2026-02-11T00:04:39.077000",
+      "days_old": 45,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "alicloud-compute-ecs",
+      "display_name": "Alicloud Compute Ecs",
+      "stat_downloads": 942,
+      "stat_stars": 0,
+      "created_at": "2026-02-11T00:04:34.675000",
+      "days_old": 45,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "alicloud-platform-openapi-product-api-discovery",
+      "display_name": "Alicloud Platform Openapi Product Api Discovery",
+      "stat_downloads": 934,
+      "stat_stars": 0,
+      "created_at": "2026-02-11T00:05:38.939000",
+      "days_old": 45,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "alicloud-compute-swas-open",
+      "display_name": "Alicloud Compute Swas Open",
+      "stat_downloads": 931,
+      "stat_stars": 0,
+      "created_at": "2026-02-11T00:04:47.937000",
+      "days_old": 45,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "alicloud-ai-search-milvus",
+      "display_name": "Alicloud Ai Search Milvus",
+      "stat_downloads": 929,
+      "stat_stars": 0,
+      "created_at": "2026-02-11T00:03:54.620000",
+      "days_old": 45,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "cinience-alicloud-database-rds-supabase",
+      "display_name": "alicloud-database-rds-supabase",
+      "stat_downloads": 919,
+      "stat_stars": 0,
+      "created_at": "2026-02-11T00:05:20.711000",
+      "days_old": 45,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "volcengine-storage-tos",
+      "display_name": "Volcengine Storage Tos",
+      "stat_downloads": 910,
+      "stat_stars": 0,
+      "created_at": "2026-02-11T00:24:41.506000",
+      "days_old": 45,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "alicloud-database-rds-supabase",
+      "display_name": "Alicloud Database Rds Supabase",
+      "stat_downloads": 907,
+      "stat_stars": 0,
+      "created_at": "2026-02-11T00:10:33.305000",
+      "days_old": 45,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "volcengine-database-rds",
+      "display_name": "Volcengine Database Rds",
+      "stat_downloads": 900,
+      "stat_stars": 0,
+      "created_at": "2026-02-11T00:24:29.034000",
+      "days_old": 45,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "volcengine-observability-cls",
+      "display_name": "Volcengine Observability Cls",
+      "stat_downloads": 897,
+      "stat_stars": 0,
+      "created_at": "2026-02-11T00:24:35.381000",
+      "days_old": 45,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "volcengine-ai-search-rag",
+      "display_name": "Volcengine Ai Search Rag",
+      "stat_downloads": 895,
+      "stat_stars": 0,
+      "created_at": "2026-02-11T00:24:12.913000",
+      "days_old": 45,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "volcengine-compute-function",
+      "display_name": "Volcengine Compute Function",
+      "stat_downloads": 879,
+      "stat_stars": 0,
+      "created_at": "2026-02-11T00:24:26.030000",
+      "days_old": 45,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "volcengine-network-dns",
+      "display_name": "Volcengine Network Dns",
+      "stat_downloads": 875,
+      "stat_stars": 0,
+      "created_at": "2026-02-11T00:24:32.231000",
+      "days_old": 45,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "volcengine-ai-misc-model-discovery",
+      "display_name": "Volcengine Ai Misc Model Discovery",
+      "stat_downloads": 867,
+      "stat_stars": 0,
+      "created_at": "2026-02-11T00:24:09.830000",
+      "days_old": 45,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "volcengine-ai-text-ark-chat",
+      "display_name": "Volcengine Ai Text Ark Chat",
+      "stat_downloads": 858,
+      "stat_stars": 0,
+      "created_at": "2026-02-11T00:24:16.146000",
+      "days_old": 45,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "volcengine-compute-ecs",
+      "display_name": "Volcengine Compute Ecs",
+      "stat_downloads": 846,
+      "stat_stars": 0,
+      "created_at": "2026-02-11T00:24:22.727000",
+      "days_old": 45,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "volcengine-security-kms",
+      "display_name": "Volcengine Security Kms",
+      "stat_downloads": 843,
+      "stat_stars": 0,
+      "created_at": "2026-02-11T00:24:38.417000",
+      "days_old": 45,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "volcengine-ai-entry-ark",
+      "display_name": "Volcengine Ai Entry Ark",
+      "stat_downloads": 820,
+      "stat_stars": 0,
+      "created_at": "2026-02-11T00:24:03.532000",
+      "days_old": 45,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "alicloud-ai-image-qwen-image-edit",
+      "display_name": "Alicloud Ai Image Qwen Image Edit",
+      "stat_downloads": 802,
+      "stat_stars": 0,
+      "created_at": "2026-02-13T08:58:50.306000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "alicloud-ai-audio-tts-voice-clone",
+      "display_name": "Alicloud Ai Audio Tts Voice Clone",
+      "stat_downloads": 747,
+      "stat_stars": 1,
+      "created_at": "2026-02-13T08:58:29.098000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "alicloud-platform-multicloud-docs-api-benchmark",
+      "display_name": "Alicloud Platform Multicloud Docs Api Benchmark",
+      "stat_downloads": 637,
+      "stat_stars": 2,
+      "created_at": "2026-02-13T09:00:30.420000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "alicloud-ai-video-wan-r2v",
+      "display_name": "Alicloud Ai Video Wan R2v",
+      "stat_downloads": 637,
+      "stat_stars": 0,
+      "created_at": "2026-02-13T08:59:55.512000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "alicloud-ai-audio-tts-realtime",
+      "display_name": "Alicloud Ai Audio Tts Realtime",
+      "stat_downloads": 632,
+      "stat_stars": 0,
+      "created_at": "2026-02-13T08:58:24.104000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "alicloud-ai-audio-tts-voice-design",
+      "display_name": "Alicloud Ai Audio Tts Voice Design",
+      "stat_downloads": 625,
+      "stat_stars": 0,
+      "created_at": "2026-02-13T08:58:34.382000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "alicloud-platform-docs-api-review",
+      "display_name": "Alicloud Platform Docs Api Review",
+      "stat_downloads": 576,
+      "stat_stars": 0,
+      "created_at": "2026-02-13T09:00:25.049000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "alicloud-ai-audio-asr",
+      "display_name": "Alicloud Ai Audio Asr",
+      "stat_downloads": 179,
+      "stat_stars": 0,
+      "created_at": "2026-03-11T09:36:47.633000",
+      "days_old": 17,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "alicloud-ai-audio-cosyvoice-voice-clone",
+      "display_name": "Alicloud Ai Audio Cosyvoice Voice Clone",
+      "stat_downloads": 176,
+      "stat_stars": 0,
+      "created_at": "2026-03-11T09:36:55.008000",
+      "days_old": 17,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "alicloud-ai-audio-asr-realtime",
+      "display_name": "Alicloud Ai Audio Asr Realtime",
+      "stat_downloads": 170,
+      "stat_stars": 0,
+      "created_at": "2026-03-11T09:36:50.978000",
+      "days_old": 17,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "alicloud-ai-audio-livetranslate",
+      "display_name": "Alicloud Ai Audio Livetranslate",
+      "stat_downloads": 168,
+      "stat_stars": 0,
+      "created_at": "2026-03-11T09:37:01.567000",
+      "days_old": 17,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "alicloud-ai-audio-cosyvoice-voice-design",
+      "display_name": "Alicloud Ai Audio Cosyvoice Voice Design",
+      "stat_downloads": 156,
+      "stat_stars": 0,
+      "created_at": "2026-03-11T09:36:58.632000",
+      "days_old": 17,
+      "is_highlighted": false,
+      "is_suspicious": true
+    }
+  ],
+  "trajectory": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 55512,
+      "stars": 7
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 55852,
+      "stars": 7
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 56801,
+      "stars": 7
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 57221,
+      "stars": 7
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 57668,
+      "stars": 7
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 58119,
+      "stars": 7
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 59392,
+      "stars": 7
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 59437,
+      "stars": 7
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 59560,
+      "stars": 7
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 60332,
+      "stars": 7
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 61434,
+      "stars": 7
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 61434,
+      "stars": 7
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 61583,
+      "stars": 7
+    }
+  ],
+  "download_trajectory": [
+    55512,
+    55852,
+    56801,
+    57221,
+    57668,
+    58119,
+    59392,
+    59437,
+    59560,
+    60332,
+    61434,
+    61434,
+    61583
+  ]
+}

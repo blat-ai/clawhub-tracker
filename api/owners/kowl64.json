@@ -1,0 +1,236 @@
+{
+  "handle": "kowl64",
+  "total_downloads": 48153,
+  "total_stars": 116,
+  "total_installs": 312,
+  "skill_count": 12,
+  "avg_dl_per_day": 57.3,
+  "highlighted_count": 0,
+  "suspicious_count": 12,
+  "clean_pct": 0.0,
+  "dl_delta": 159,
+  "dl_wow": 0.3,
+  "dl_per_day": 159.0,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "star_per_day": 0,
+  "installs_delta": 2,
+  "installs_wow": 0.6,
+  "installs_per_day": 2.0,
+  "owner_display_name": "KOwl64",
+  "owner_name": null,
+  "owner_image": "https://avatars.githubusercontent.com/u/59417033?v=4",
+  "bio": null,
+  "company": null,
+  "location": null,
+  "blog": null,
+  "public_repos": 2,
+  "followers": 0,
+  "following": 3,
+  "github_created_at": "2020-01-01T16:36:14",
+  "twitter_username": null,
+  "skills": [
+    {
+      "slug": "n8n-workflow-automation",
+      "display_name": "n8n workflow automation",
+      "stat_downloads": 21619,
+      "stat_stars": 102,
+      "created_at": "2026-01-17T15:38:41.187000",
+      "days_old": 70,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "linux-service-triage",
+      "display_name": "Linux & service basics",
+      "stat_downloads": 4232,
+      "stat_stars": 0,
+      "created_at": "2026-01-17T15:37:30.014000",
+      "days_old": 70,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "data-reconciliation-exceptions",
+      "display_name": "Data quality & reconciliation with exception",
+      "stat_downloads": 3895,
+      "stat_stars": 1,
+      "created_at": "2026-01-17T15:30:06.303000",
+      "days_old": 70,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "excel-weekly-dashboard",
+      "display_name": "Excel weekly dashboards at scale",
+      "stat_downloads": 3722,
+      "stat_stars": 4,
+      "created_at": "2026-01-17T15:34:41.350000",
+      "days_old": 70,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "pa-admin-exec",
+      "display_name": "Core PA Admin and Exec Support",
+      "stat_downloads": 2474,
+      "stat_stars": 1,
+      "created_at": "2026-01-17T13:04:55.929000",
+      "days_old": 70,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "api-credentials-hygiene",
+      "display_name": "API credentials hygiene",
+      "stat_downloads": 2276,
+      "stat_stars": 2,
+      "created_at": "2026-01-17T15:28:21.906000",
+      "days_old": 70,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "dvsa-tc-audit-readiness-operator-licence-uk",
+      "display_name": "DVSA & Traffic Commissioner Audit Readiness (UK)",
+      "stat_downloads": 1729,
+      "stat_stars": 1,
+      "created_at": "2026-01-17T14:33:08.202000",
+      "days_old": 70,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "drivers-hours-wtd-infringement-coach-uk",
+      "display_name": "Drivers\u2019 Hours & WTD Infringement Coach (UK)",
+      "stat_downloads": 1708,
+      "stat_stars": 1,
+      "created_at": "2026-01-17T14:31:05.620000",
+      "days_old": 70,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "cpc-mpqc-competence-tracker-compliance-uk",
+      "display_name": "CPC/MPQC Training & Competence Tracking (UK)",
+      "stat_downloads": 1700,
+      "stat_stars": 1,
+      "created_at": "2026-01-17T14:27:20.996000",
+      "days_old": 70,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "incident-pcn-evidence-appeal-corrective-actions-uk",
+      "display_name": "Incident & PCN Handling Pack (UK)",
+      "stat_downloads": 1633,
+      "stat_stars": 1,
+      "created_at": "2026-01-17T14:35:06.180000",
+      "days_old": 70,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "transport-investigation-acas-aligned-pack",
+      "display_name": "Investigation Pack (ACAS-aligned)",
+      "stat_downloads": 1613,
+      "stat_stars": 1,
+      "created_at": "2026-01-17T14:40:28.767000",
+      "days_old": 70,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "tachograph-infringement-triage-root-cause-uk",
+      "display_name": "Tachograph Triage & Root-Cause Prompts (UK)",
+      "stat_downloads": 1552,
+      "stat_stars": 1,
+      "created_at": "2026-01-17T14:38:59.717000",
+      "days_old": 70,
+      "is_highlighted": false,
+      "is_suspicious": true
+    }
+  ],
+  "trajectory": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 43759,
+      "stars": 106
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 44074,
+      "stars": 106
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 44672,
+      "stars": 107
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 45084,
+      "stars": 108
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 45464,
+      "stars": 111
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 45865,
+      "stars": 111
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 46656,
+      "stars": 112
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 46716,
+      "stars": 112
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 46846,
+      "stars": 112
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 47304,
+      "stars": 114
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 47994,
+      "stars": 116
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 47994,
+      "stars": 116
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 48153,
+      "stars": 116
+    }
+  ],
+  "download_trajectory": [
+    43759,
+    44074,
+    44672,
+    45084,
+    45464,
+    45865,
+    46656,
+    46716,
+    46846,
+    47304,
+    47994,
+    47994,
+    48153
+  ]
+}

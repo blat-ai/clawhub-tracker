@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd7fhqhq9qyv1pdvhb5x2p98zx808znv",
+  "slug": "agent-memory",
+  "display_name": "Agent Memory",
+  "summary": "Persistent memory for AI agents to store facts, learn from actions, recall information, and track entities across sessions.",
+  "owner_handle": "dennis-da-menace",
+  "owner_image": "https://avatars.githubusercontent.com/u/257660093?v=4",
+  "created_at": "2026-01-31T21:50:32.617000",
+  "days_old": 55,
+  "stat_downloads": 16463,
+  "stat_stars": 16,
+  "tags": {
+    "latest": "k974qehxkkq7tev43zpsdwkt7x808w9d"
+  },
+  "badges": null,
+  "stat_installs": 349,
+  "stat_comments": 1,
+  "current_version": "1.0.0",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 299.3,
+  "acceleration_pct": -74.6,
+  "dl_delta": 87,
+  "dl_wow": 0.5,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 1,
+  "installs_wow": 0.3,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 13877,
+      "stars": 15,
+      "installs_all_time": 274,
+      "installs_current": 272
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 14027,
+      "stars": 15,
+      "installs_all_time": 276,
+      "installs_current": 274
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 14385,
+      "stars": 15,
+      "installs_all_time": 285,
+      "installs_current": 282
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 14657,
+      "stars": 15,
+      "installs_all_time": 292,
+      "installs_current": 287
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 14929,
+      "stars": 16,
+      "installs_all_time": 304,
+      "installs_current": 298
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 15197,
+      "stars": 16,
+      "installs_all_time": 311,
+      "installs_current": 304
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 15638,
+      "stars": 16,
+      "installs_all_time": 324,
+      "installs_current": 316
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 15665,
+      "stars": 16,
+      "installs_all_time": 326,
+      "installs_current": 318
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 15725,
+      "stars": 16,
+      "installs_all_time": 327,
+      "installs_current": 319
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 16007,
+      "stars": 16,
+      "installs_all_time": 333,
+      "installs_current": 325
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 16376,
+      "stars": 16,
+      "installs_all_time": 348,
+      "installs_current": 339
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 16376,
+      "stars": 16,
+      "installs_all_time": 348,
+      "installs_current": 339
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 16463,
+      "stars": 16,
+      "installs_all_time": 349,
+      "installs_current": 340
+    }
+  ],
+  "version_releases": []
+}

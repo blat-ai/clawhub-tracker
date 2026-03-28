@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd7emg4se41xyn6d1ed8njv7b57zt9p8",
+  "slug": "edge-tts",
+  "display_name": "Edge TTS",
+  "summary": "Text-to-speech conversion using node-edge-tts npm package for generating audio from text.\nSupports multiple voices, languages, speed adjustment, pitch control, and subtitle generation.\nUse when: (1) User requests audio/voice output with the \"tts\" trigger or keyword. (2) Content needs to be spoken rather than read (multitasking, accessibility, driving, cooking). (3) User wants a specific voice, speed, pitch, or format for TTS output.",
+  "owner_handle": "i3130002",
+  "owner_image": "https://avatars.githubusercontent.com/u/11602376?v=4",
+  "created_at": "2026-01-24T23:15:33.444000",
+  "days_old": 62,
+  "stat_downloads": 15015,
+  "stat_stars": 28,
+  "tags": {
+    "latest": "k97c8fwtf38gcd50rs2jmm2cxn7zzd30"
+  },
+  "badges": null,
+  "stat_installs": 213,
+  "stat_comments": 0,
+  "current_version": "2.0.0",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 242.2,
+  "acceleration_pct": -63.8,
+  "dl_delta": 109,
+  "dl_wow": 0.7,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 1,
+  "installs_wow": 0.5,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 12675,
+      "stars": 24,
+      "installs_all_time": 164,
+      "installs_current": 158
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 12857,
+      "stars": 25,
+      "installs_all_time": 169,
+      "installs_current": 163
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 13135,
+      "stars": 25,
+      "installs_all_time": 172,
+      "installs_current": 166
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 13366,
+      "stars": 26,
+      "installs_all_time": 176,
+      "installs_current": 170
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 13604,
+      "stars": 26,
+      "installs_all_time": 181,
+      "installs_current": 174
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 13839,
+      "stars": 26,
+      "installs_all_time": 184,
+      "installs_current": 177
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 14243,
+      "stars": 27,
+      "installs_all_time": 194,
+      "installs_current": 187
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 14271,
+      "stars": 27,
+      "installs_all_time": 195,
+      "installs_current": 187
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 14334,
+      "stars": 27,
+      "installs_all_time": 195,
+      "installs_current": 187
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 14572,
+      "stars": 27,
+      "installs_all_time": 200,
+      "installs_current": 192
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 14906,
+      "stars": 28,
+      "installs_all_time": 212,
+      "installs_current": 203
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 14906,
+      "stars": 28,
+      "installs_all_time": 212,
+      "installs_current": 203
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 15015,
+      "stars": 28,
+      "installs_all_time": 213,
+      "installs_current": 204
+    }
+  ],
+  "version_releases": []
+}

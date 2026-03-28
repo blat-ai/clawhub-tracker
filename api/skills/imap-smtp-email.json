@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd78ty80arj53xb463kdtmawas804psv",
+  "slug": "imap-smtp-email",
+  "display_name": "imap-smtp-email",
+  "summary": "Read and send email via IMAP/SMTP. Check for new/unread messages, fetch content, search mailboxes, mark as read/unread, and send emails with attachments. Sup...",
+  "owner_handle": "gzlicanyi",
+  "owner_image": "https://avatars.githubusercontent.com/u/16240434?v=4",
+  "created_at": "2026-01-29T09:54:15.625000",
+  "days_old": 57,
+  "stat_downloads": 30922,
+  "stat_stars": 79,
+  "tags": {
+    "latest": "k970b4d786dq86jtjebq3nxavs830rtj"
+  },
+  "badges": null,
+  "stat_installs": 350,
+  "stat_comments": 7,
+  "current_version": "0.0.10",
+  "is_highlighted": false,
+  "is_suspicious": false,
+  "velocity": 542.5,
+  "acceleration_pct": -62.7,
+  "dl_delta": 238,
+  "dl_wow": 0.8,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 3,
+  "installs_wow": 0.9,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 25384,
+      "stars": 62,
+      "installs_all_time": 253,
+      "installs_current": 246
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 25712,
+      "stars": 63,
+      "installs_all_time": 262,
+      "installs_current": 255
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 26490,
+      "stars": 65,
+      "installs_all_time": 272,
+      "installs_current": 264
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 27052,
+      "stars": 67,
+      "installs_all_time": 287,
+      "installs_current": 279
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 27516,
+      "stars": 70,
+      "installs_all_time": 293,
+      "installs_current": 284
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 28038,
+      "stars": 72,
+      "installs_all_time": 307,
+      "installs_current": 298
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 29003,
+      "stars": 76,
+      "installs_all_time": 327,
+      "installs_current": 317
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 29095,
+      "stars": 77,
+      "installs_all_time": 329,
+      "installs_current": 319
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 29227,
+      "stars": 77,
+      "installs_all_time": 329,
+      "installs_current": 319
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 29733,
+      "stars": 78,
+      "installs_all_time": 336,
+      "installs_current": 326
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 30684,
+      "stars": 79,
+      "installs_all_time": 347,
+      "installs_current": 336
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 30684,
+      "stars": 79,
+      "installs_all_time": 347,
+      "installs_current": 336
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 30922,
+      "stars": 79,
+      "installs_all_time": 350,
+      "installs_current": 339
+    }
+  ],
+  "version_releases": []
+}

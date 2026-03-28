@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd78g544ya8kqh0a7cpcgep7ds7ytvv8",
+  "slug": "todoist",
+  "display_name": "Todoist",
+  "summary": "Manage tasks and projects in Todoist. Use when user asks about tasks, to-dos, reminders, or productivity.",
+  "owner_handle": "mjrussell",
+  "owner_image": "https://avatars.githubusercontent.com/u/1641895?v=4",
+  "created_at": "2026-01-08T06:07:01.167000",
+  "days_old": 78,
+  "stat_downloads": 16482,
+  "stat_stars": 46,
+  "tags": {
+    "latest": "k972n5r0sdpd87j6xhmvn966ex802pc5"
+  },
+  "badges": null,
+  "stat_installs": 189,
+  "stat_comments": 1,
+  "current_version": "0.2.1",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 211.3,
+  "acceleration_pct": -72.5,
+  "dl_delta": 47,
+  "dl_wow": 0.3,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 2,
+  "installs_wow": 1.1,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 15196,
+      "stars": 44,
+      "installs_all_time": 165,
+      "installs_current": 161
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 15296,
+      "stars": 44,
+      "installs_all_time": 166,
+      "installs_current": 162
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 15478,
+      "stars": 44,
+      "installs_all_time": 167,
+      "installs_current": 163
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 15599,
+      "stars": 44,
+      "installs_all_time": 171,
+      "installs_current": 167
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 15708,
+      "stars": 45,
+      "installs_all_time": 172,
+      "installs_current": 167
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 15839,
+      "stars": 45,
+      "installs_all_time": 173,
+      "installs_current": 168
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 16058,
+      "stars": 46,
+      "installs_all_time": 179,
+      "installs_current": 174
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 16076,
+      "stars": 46,
+      "installs_all_time": 179,
+      "installs_current": 174
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 16119,
+      "stars": 46,
+      "installs_all_time": 179,
+      "installs_current": 174
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 16247,
+      "stars": 46,
+      "installs_all_time": 180,
+      "installs_current": 175
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 16435,
+      "stars": 46,
+      "installs_all_time": 187,
+      "installs_current": 182
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 16435,
+      "stars": 46,
+      "installs_all_time": 187,
+      "installs_current": 182
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 16482,
+      "stars": 46,
+      "installs_all_time": 189,
+      "installs_current": 184
+    }
+  ],
+  "version_releases": []
+}

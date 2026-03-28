@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd74n44stcpmhfvqe02yj7r6ms808nvm",
+  "slug": "pdf",
+  "display_name": "Pdf",
+  "summary": "Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, and handling forms. When Claude needs to fill in a PDF form or programmatically process, generate, or analyze PDF documents at scale.",
+  "owner_handle": "awspace",
+  "owner_image": "https://avatars.githubusercontent.com/u/131568675?v=4",
+  "created_at": "2026-01-31T08:24:15.729000",
+  "days_old": 55,
+  "stat_downloads": 25285,
+  "stat_stars": 42,
+  "tags": {
+    "latest": "k97cz981kj0veqx1m79dd5sy4n809j57"
+  },
+  "badges": null,
+  "stat_installs": 533,
+  "stat_comments": 1,
+  "current_version": "0.1.0",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 459.7,
+  "acceleration_pct": -72.3,
+  "dl_delta": 168,
+  "dl_wow": 0.7,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 6,
+  "installs_wow": 1.1,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 20692,
+      "stars": 33,
+      "installs_all_time": 379,
+      "installs_current": 373
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 20938,
+      "stars": 33,
+      "installs_all_time": 390,
+      "installs_current": 384
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 21474,
+      "stars": 35,
+      "installs_all_time": 407,
+      "installs_current": 400
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 21946,
+      "stars": 35,
+      "installs_all_time": 425,
+      "installs_current": 418
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 22393,
+      "stars": 35,
+      "installs_all_time": 436,
+      "installs_current": 427
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 22789,
+      "stars": 36,
+      "installs_all_time": 452,
+      "installs_current": 441
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 23584,
+      "stars": 36,
+      "installs_all_time": 484,
+      "installs_current": 471
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 23648,
+      "stars": 36,
+      "installs_all_time": 487,
+      "installs_current": 474
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 23769,
+      "stars": 36,
+      "installs_all_time": 488,
+      "installs_current": 475
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 24254,
+      "stars": 38,
+      "installs_all_time": 503,
+      "installs_current": 489
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 25117,
+      "stars": 42,
+      "installs_all_time": 527,
+      "installs_current": 512
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 25117,
+      "stars": 42,
+      "installs_all_time": 527,
+      "installs_current": 512
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 25285,
+      "stars": 42,
+      "installs_all_time": 533,
+      "installs_current": 516
+    }
+  ],
+  "version_releases": []
+}

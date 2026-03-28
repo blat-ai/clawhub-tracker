@@ -1,0 +1,656 @@
+{
+  "handle": "steipete",
+  "total_downloads": 1736467,
+  "total_stars": 5603,
+  "total_installs": 61340,
+  "skill_count": 54,
+  "avg_dl_per_day": 387.9,
+  "highlighted_count": 2,
+  "suspicious_count": 39,
+  "clean_pct": 27.8,
+  "dl_delta": 8806,
+  "dl_wow": 0.5,
+  "dl_per_day": 8806.0,
+  "star_delta": 28,
+  "star_wow": 0.5,
+  "star_per_day": 28.0,
+  "installs_delta": 311,
+  "installs_wow": 0.5,
+  "installs_per_day": 311.0,
+  "owner_display_name": "Peter Steinberger",
+  "owner_name": "steipete",
+  "owner_image": "https://avatars.githubusercontent.com/u/58493?v=4",
+  "bio": "Came back from retirement to mess with AI. Clawdfather @OpenClaw\r\n\r\nPreviously: Founder of @PSPDFKit.",
+  "company": "Full-Time Open-Sourcerer",
+  "location": "Vienna & London",
+  "blog": "http://steipete.me",
+  "public_repos": 173,
+  "followers": 44606,
+  "following": 104,
+  "github_created_at": "2009-02-27T08:34:22",
+  "twitter_username": "steipete",
+  "skills": [
+    {
+      "slug": "summarize",
+      "display_name": "Summarize",
+      "stat_downloads": 215434,
+      "stat_stars": 832,
+      "created_at": "2026-01-04T16:49:43.635000",
+      "days_old": 83,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "gog",
+      "display_name": "Gog",
+      "stat_downloads": 136127,
+      "stat_stars": 787,
+      "created_at": "2026-01-04T16:49:06.060000",
+      "days_old": 83,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "github",
+      "display_name": "Github",
+      "stat_downloads": 135680,
+      "stat_stars": 457,
+      "created_at": "2026-01-04T16:49:04.344000",
+      "days_old": 83,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "weather",
+      "display_name": "Weather",
+      "stat_downloads": 116425,
+      "stat_stars": 331,
+      "created_at": "2026-01-04T16:49:54.459000",
+      "days_old": 83,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "nano-pdf",
+      "display_name": "Nano Pdf",
+      "stat_downloads": 76227,
+      "stat_stars": 189,
+      "created_at": "2026-01-04T16:49:19.433000",
+      "days_old": 83,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "nano-banana-pro",
+      "display_name": "Nano Banana Pro",
+      "stat_downloads": 69992,
+      "stat_stars": 281,
+      "created_at": "2026-01-04T16:49:18.090000",
+      "days_old": 83,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "sonoscli",
+      "display_name": "Sonoscli",
+      "stat_downloads": 68521,
+      "stat_stars": 47,
+      "created_at": "2026-01-04T16:49:41.030000",
+      "days_old": 83,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "notion",
+      "display_name": "Notion",
+      "stat_downloads": 67481,
+      "stat_stars": 216,
+      "created_at": "2026-01-04T16:49:20.889000",
+      "days_old": 83,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "obsidian",
+      "display_name": "Obsidian",
+      "stat_downloads": 67223,
+      "stat_stars": 276,
+      "created_at": "2026-01-04T16:49:22.143000",
+      "days_old": 83,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "openai-whisper",
+      "display_name": "Openai Whisper",
+      "stat_downloads": 58746,
+      "stat_stars": 252,
+      "created_at": "2026-01-04T16:49:25.755000",
+      "days_old": 83,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "mcporter",
+      "display_name": "Mcporter",
+      "stat_downloads": 47303,
+      "stat_stars": 141,
+      "created_at": "2026-01-04T16:49:15.897000",
+      "days_old": 83,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "brave-search",
+      "display_name": "Brave Search",
+      "stat_downloads": 45451,
+      "stat_stars": 166,
+      "created_at": "2026-01-04T16:48:24.976000",
+      "days_old": 83,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "video-frames",
+      "display_name": "Video Frames",
+      "stat_downloads": 34853,
+      "stat_stars": 96,
+      "created_at": "2026-01-04T16:49:51.700000",
+      "days_old": 83,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "slack",
+      "display_name": "Slack",
+      "stat_downloads": 33430,
+      "stat_stars": 109,
+      "created_at": "2026-01-04T16:49:38.002000",
+      "days_old": 83,
+      "is_highlighted": true,
+      "is_suspicious": true
+    },
+    {
+      "slug": "trello",
+      "display_name": "Trello",
+      "stat_downloads": 30314,
+      "stat_stars": 117,
+      "created_at": "2026-01-04T16:49:49.426000",
+      "days_old": 83,
+      "is_highlighted": true,
+      "is_suspicious": true
+    },
+    {
+      "slug": "blogwatcher",
+      "display_name": "Blogwatcher",
+      "stat_downloads": 29695,
+      "stat_stars": 52,
+      "created_at": "2026-01-04T16:48:19.849000",
+      "days_old": 83,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "markdown-converter",
+      "display_name": "Markdown Converter",
+      "stat_downloads": 28848,
+      "stat_stars": 145,
+      "created_at": "2026-01-05T22:26:05.151000",
+      "days_old": 82,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "model-usage",
+      "display_name": "Model Usage",
+      "stat_downloads": 28495,
+      "stat_stars": 99,
+      "created_at": "2026-01-06T02:47:19.455000",
+      "days_old": 81,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "clawdhub",
+      "display_name": "Clawdhub",
+      "stat_downloads": 25606,
+      "stat_stars": 208,
+      "created_at": "2026-01-04T16:48:28.330000",
+      "days_old": 83,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "gemini",
+      "display_name": "Gemini",
+      "stat_downloads": 25540,
+      "stat_stars": 46,
+      "created_at": "2026-01-04T16:48:36.392000",
+      "days_old": 83,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "discord",
+      "display_name": "Discord",
+      "stat_downloads": 25299,
+      "stat_stars": 55,
+      "created_at": "2026-01-04T16:48:31.074000",
+      "days_old": 83,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "qmd",
+      "display_name": "Qmd",
+      "stat_downloads": 24906,
+      "stat_stars": 90,
+      "created_at": "2026-01-04T16:49:34.981000",
+      "days_old": 83,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "apple-notes",
+      "display_name": "Apple Notes",
+      "stat_downloads": 24840,
+      "stat_stars": 43,
+      "created_at": "2026-01-04T16:48:14.031000",
+      "days_old": 83,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "peekaboo",
+      "display_name": "Peekaboo",
+      "stat_downloads": 21133,
+      "stat_stars": 63,
+      "created_at": "2026-01-04T16:49:33.660000",
+      "days_old": 83,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "apple-reminders",
+      "display_name": "Apple Reminders",
+      "stat_downloads": 20844,
+      "stat_stars": 46,
+      "created_at": "2026-01-04T16:48:16.326000",
+      "days_old": 83,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "sag",
+      "display_name": "Sag",
+      "stat_downloads": 20152,
+      "stat_stars": 21,
+      "created_at": "2026-01-04T16:49:36.535000",
+      "days_old": 83,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "1password",
+      "display_name": "1password",
+      "stat_downloads": 19514,
+      "stat_stars": 41,
+      "created_at": "2026-01-06T02:47:07.516000",
+      "days_old": 81,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "tmux",
+      "display_name": "Tmux",
+      "stat_downloads": 19413,
+      "stat_stars": 36,
+      "created_at": "2026-01-04T16:49:47.948000",
+      "days_old": 83,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "openai-image-gen",
+      "display_name": "Openai Image Gen",
+      "stat_downloads": 19049,
+      "stat_stars": 25,
+      "created_at": "2026-01-04T16:49:24.210000",
+      "days_old": 83,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "spotify-player",
+      "display_name": "Spotify Player",
+      "stat_downloads": 18829,
+      "stat_stars": 40,
+      "created_at": "2026-01-04T16:49:42.402000",
+      "days_old": 83,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "openai-whisper-api",
+      "display_name": "Openai Whisper Api",
+      "stat_downloads": 17921,
+      "stat_stars": 38,
+      "created_at": "2026-01-04T16:49:28.103000",
+      "days_old": 83,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "goplaces",
+      "display_name": "Goplaces",
+      "stat_downloads": 16470,
+      "stat_stars": 27,
+      "created_at": "2026-01-04T16:49:07.454000",
+      "days_old": 83,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "gifgrep",
+      "display_name": "Gifgrep",
+      "stat_downloads": 13298,
+      "stat_stars": 6,
+      "created_at": "2026-01-04T00:57:06.016000",
+      "days_old": 83,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "camsnap",
+      "display_name": "Camsnap",
+      "stat_downloads": 11988,
+      "stat_stars": 9,
+      "created_at": "2026-01-04T16:48:26.244000",
+      "days_old": 83,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "oracle",
+      "display_name": "Oracle",
+      "stat_downloads": 11890,
+      "stat_stars": 12,
+      "created_at": "2026-01-04T16:49:30.678000",
+      "days_old": 83,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "imsg",
+      "display_name": "Imsg",
+      "stat_downloads": 11639,
+      "stat_stars": 19,
+      "created_at": "2026-01-04T16:49:08.833000",
+      "days_old": 83,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "things-mac",
+      "display_name": "Things Mac",
+      "stat_downloads": 10901,
+      "stat_stars": 15,
+      "created_at": "2026-01-04T16:49:44.979000",
+      "days_old": 83,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "openhue",
+      "display_name": "Openhue",
+      "stat_downloads": 9077,
+      "stat_stars": 7,
+      "created_at": "2026-01-04T16:49:29.355000",
+      "days_old": 83,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "video-transcript-downloader",
+      "display_name": "Video Transcript Downloader",
+      "stat_downloads": 8696,
+      "stat_stars": 60,
+      "created_at": "2026-01-05T22:27:09.078000",
+      "days_old": 82,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "songsee",
+      "display_name": "Songsee",
+      "stat_downloads": 8560,
+      "stat_stars": 5,
+      "created_at": "2026-01-04T16:49:39.576000",
+      "days_old": 83,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "bear-notes",
+      "display_name": "Bear Notes",
+      "stat_downloads": 8555,
+      "stat_stars": 3,
+      "created_at": "2026-01-04T16:48:18.356000",
+      "days_old": 83,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "eightctl",
+      "display_name": "Eightctl",
+      "stat_downloads": 7428,
+      "stat_stars": 6,
+      "created_at": "2026-01-04T16:48:32.885000",
+      "days_old": 83,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "blucli",
+      "display_name": "Blucli",
+      "stat_downloads": 7414,
+      "stat_stars": 1,
+      "created_at": "2026-01-04T16:48:21.512000",
+      "days_old": 83,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "local-places",
+      "display_name": "Local Places",
+      "stat_downloads": 6957,
+      "stat_stars": 22,
+      "created_at": "2026-01-04T16:49:14.524000",
+      "days_old": 83,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "ordercli",
+      "display_name": "Ordercli",
+      "stat_downloads": 6854,
+      "stat_stars": 3,
+      "created_at": "2026-01-04T16:49:32.216000",
+      "days_old": 83,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "food-order",
+      "display_name": "Food Order",
+      "stat_downloads": 3253,
+      "stat_stars": 7,
+      "created_at": "2026-01-04T16:48:35.134000",
+      "days_old": 83,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "swiftui-liquid-glass",
+      "display_name": "Swiftui Liquid Glass",
+      "stat_downloads": 2916,
+      "stat_stars": 13,
+      "created_at": "2026-01-05T22:26:58.261000",
+      "days_old": 82,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "domain-dns-ops",
+      "display_name": "Domain Dns Ops",
+      "stat_downloads": 2864,
+      "stat_stars": 11,
+      "created_at": "2026-01-05T22:25:58.097000",
+      "days_old": 82,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "swift-concurrency-expert",
+      "display_name": "Swift Concurrency Expert",
+      "stat_downloads": 2658,
+      "stat_stars": 5,
+      "created_at": "2026-01-05T22:26:56.079000",
+      "days_old": 82,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "swiftui-performance-audit",
+      "display_name": "Swiftui Performance Audit",
+      "stat_downloads": 2622,
+      "stat_stars": 3,
+      "created_at": "2026-01-05T22:27:02.583000",
+      "days_old": 82,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "create-cli",
+      "display_name": "Create Cli",
+      "stat_downloads": 2581,
+      "stat_stars": 10,
+      "created_at": "2026-01-05T22:25:55.821000",
+      "days_old": 82,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "swiftui-view-refactor",
+      "display_name": "Swiftui View Refactor",
+      "stat_downloads": 2459,
+      "stat_stars": 6,
+      "created_at": "2026-01-05T22:27:04.904000",
+      "days_old": 82,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "instruments-profiling",
+      "display_name": "Instruments Profiling",
+      "stat_downloads": 2075,
+      "stat_stars": 3,
+      "created_at": "2026-01-05T22:26:02.669000",
+      "days_old": 82,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "native-app-performance",
+      "display_name": "Native App Performance",
+      "stat_downloads": 2021,
+      "stat_stars": 5,
+      "created_at": "2026-01-05T22:26:31.861000",
+      "days_old": 82,
+      "is_highlighted": false,
+      "is_suspicious": true
+    }
+  ],
+  "trajectory": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 1499824,
+      "stars": 4920
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 1515770,
+      "stars": 4957
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 1545725,
+      "stars": 5053
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 1569236,
+      "stars": 5126
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 1591550,
+      "stars": 5187
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 1613940,
+      "stars": 5246
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 1655877,
+      "stars": 5375
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 1659189,
+      "stars": 5388
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 1665345,
+      "stars": 5398
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 1690935,
+      "stars": 5474
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 1727661,
+      "stars": 5575
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 1727661,
+      "stars": 5575
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 1736467,
+      "stars": 5603
+    }
+  ],
+  "download_trajectory": [
+    1499824,
+    1515770,
+    1545725,
+    1569236,
+    1591550,
+    1613940,
+    1655877,
+    1659189,
+    1665345,
+    1690935,
+    1727661,
+    1727661,
+    1736467
+  ]
+}

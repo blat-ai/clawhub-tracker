@@ -1,0 +1,126 @@
+{
+  "handle": "jacky1n7",
+  "total_downloads": 62163,
+  "total_stars": 174,
+  "total_installs": 962,
+  "skill_count": 1,
+  "avg_dl_per_day": 2072.1,
+  "highlighted_count": 0,
+  "suspicious_count": 1,
+  "clean_pct": 0.0,
+  "dl_delta": 510,
+  "dl_wow": 0.8,
+  "dl_per_day": 510.0,
+  "star_delta": 2,
+  "star_wow": 1.2,
+  "star_per_day": 2.0,
+  "installs_delta": 8,
+  "installs_wow": 0.8,
+  "installs_per_day": 8.0,
+  "owner_display_name": "Xiaoran Li",
+  "owner_name": null,
+  "owner_image": "https://avatars.githubusercontent.com/u/146931635?v=4",
+  "bio": "\u5317\u5316\u5de5\u5728\u8bfb\uff5cDeveloper Tools \u00b7 Agent Ops\uff5c\u591a\u667a\u80fd\u4f53\u79d1\u7814\u4ee3\u7801\u5de5\u4f5c\u6d41\uff5c\u53ef\u63a7\u81ea\u52a8\u5316\uff5c\u81ea\u52a8\u9a7e\u9a76\uff08\u89c4\u5212-\u63a7\u5236-\u7cfb\u7edf\uff09\u65b9\u5411\u5173\u6ce8",
+  "company": null,
+  "location": null,
+  "blog": null,
+  "public_repos": 10,
+  "followers": 2,
+  "following": 0,
+  "github_created_at": "2023-10-04T08:41:31",
+  "twitter_username": null,
+  "skills": [
+    {
+      "slug": "openclaw-tavily-search",
+      "display_name": "Tavily \u641c\u7d22",
+      "stat_downloads": 62163,
+      "stat_stars": 174,
+      "created_at": "2026-02-26T16:01:19.343000",
+      "days_old": 30,
+      "is_highlighted": false,
+      "is_suspicious": true
+    }
+  ],
+  "trajectory": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 41467,
+      "stars": 101
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 42920,
+      "stars": 111
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 46078,
+      "stars": 125
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 48355,
+      "stars": 129
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 50585,
+      "stars": 137
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 52760,
+      "stars": 145
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 56516,
+      "stars": 154
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 56796,
+      "stars": 155
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 57132,
+      "stars": 155
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 58939,
+      "stars": 165
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 61653,
+      "stars": 172
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 61653,
+      "stars": 172
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 62163,
+      "stars": 174
+    }
+  ],
+  "download_trajectory": [
+    41467,
+    42920,
+    46078,
+    48355,
+    50585,
+    52760,
+    56516,
+    56796,
+    57132,
+    58939,
+    61653,
+    61653,
+    62163
+  ]
+}

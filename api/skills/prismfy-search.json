@@ -1,0 +1,53 @@
+{
+  "skill_id": "kd7063jkb37apqm2gm7f1rpj7x83nzpa",
+  "slug": "prismfy-search",
+  "display_name": "prismfy-search",
+  "summary": "Search the web across 10 engines \u2014 Google, Reddit, GitHub, arXiv, Hacker News, and more \u2014 using Prismfy. Use when the user asks to search the web, look somet...",
+  "owner_handle": "uroboros1205",
+  "owner_image": "https://avatars.githubusercontent.com/u/86728823?v=4",
+  "created_at": "2026-03-26T21:02:50.782000",
+  "days_old": 1,
+  "stat_downloads": 3150,
+  "stat_stars": 1,
+  "tags": {
+    "latest": "k97ep051cad7nceg1bwrn43fz983myys"
+  },
+  "badges": null,
+  "stat_installs": 0,
+  "stat_comments": 0,
+  "current_version": "1.0.0",
+  "is_highlighted": false,
+  "is_suspicious": false,
+  "velocity": 3150.0,
+  "acceleration_pct": null,
+  "dl_delta": 1231,
+  "dl_wow": 64.1,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 0,
+  "installs_wow": null,
+  "history": [
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 1919,
+      "stars": 1,
+      "installs_all_time": 0,
+      "installs_current": 0
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 1919,
+      "stars": 1,
+      "installs_all_time": 0,
+      "installs_current": 0
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 3150,
+      "stars": 1,
+      "installs_all_time": 0,
+      "installs_current": 0
+    }
+  ],
+  "version_releases": []
+}

@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd70nngfsaftpxymdjhhs6wwjh7zwym5",
+  "slug": "agentmail",
+  "display_name": "AgentMail",
+  "summary": "API-first email platform designed for AI agents. Create and manage dedicated email inboxes, send and receive emails programmatically, and handle email-based workflows with webhooks and real-time events. Use when you need to set up agent email identity, send emails from agents, handle incoming email workflows, or replace traditional email providers like Gmail with agent-friendly infrastructure.",
+  "owner_handle": "adboio",
+  "owner_image": "https://avatars.githubusercontent.com/u/23323033?v=4",
+  "created_at": "2026-01-25T05:42:40.427000",
+  "days_old": 61,
+  "stat_downloads": 22401,
+  "stat_stars": 49,
+  "tags": {
+    "latest": "k9799ry9q15vaezq3kn6d9c90x7zy0f6"
+  },
+  "badges": null,
+  "stat_installs": 279,
+  "stat_comments": 1,
+  "current_version": "1.1.1",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 367.2,
+  "acceleration_pct": -68.5,
+  "dl_delta": 153,
+  "dl_wow": 0.7,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 1,
+  "installs_wow": 0.4,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 19223,
+      "stars": 46,
+      "installs_all_time": 237,
+      "installs_current": 222
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 19458,
+      "stars": 46,
+      "installs_all_time": 243,
+      "installs_current": 228
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 19844,
+      "stars": 47,
+      "installs_all_time": 244,
+      "installs_current": 227
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 20143,
+      "stars": 47,
+      "installs_all_time": 247,
+      "installs_current": 230
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 20424,
+      "stars": 47,
+      "installs_all_time": 256,
+      "installs_current": 238
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 20736,
+      "stars": 47,
+      "installs_all_time": 259,
+      "installs_current": 241
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 21237,
+      "stars": 48,
+      "installs_all_time": 270,
+      "installs_current": 251
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 21281,
+      "stars": 48,
+      "installs_all_time": 270,
+      "installs_current": 251
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 21411,
+      "stars": 48,
+      "installs_all_time": 272,
+      "installs_current": 253
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 21767,
+      "stars": 48,
+      "installs_all_time": 275,
+      "installs_current": 256
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 22248,
+      "stars": 49,
+      "installs_all_time": 278,
+      "installs_current": 259
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 22248,
+      "stars": 49,
+      "installs_all_time": 278,
+      "installs_current": 259
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 22401,
+      "stars": 49,
+      "installs_all_time": 279,
+      "installs_current": 260
+    }
+  ],
+  "version_releases": []
+}

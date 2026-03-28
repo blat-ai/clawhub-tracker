@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd77cxnmqw5n1dj36ny7e45x6d80e6xe",
+  "slug": "clickup-api",
+  "display_name": "ClickUp",
+  "summary": "ClickUp API integration with managed OAuth. Access tasks, lists, folders, spaces, workspaces, users, and manage webhooks. Use this skill when users want to manage work items, track projects, or integrate with ClickUp workflows. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
+  "owner_handle": "byungkyu",
+  "owner_image": "https://avatars.githubusercontent.com/u/16563684?v=4",
+  "created_at": "2026-02-03T11:13:34.095000",
+  "days_old": 52,
+  "stat_downloads": 16317,
+  "stat_stars": 10,
+  "tags": {
+    "latest": "k975rz7403waktw0rd9ppax3zn80wpqp"
+  },
+  "badges": null,
+  "stat_installs": 7,
+  "stat_comments": 3,
+  "current_version": "1.0.3",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 313.8,
+  "acceleration_pct": -55.0,
+  "dl_delta": 9,
+  "dl_wow": 0.1,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 0,
+  "installs_wow": 0.0,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 16147,
+      "stars": 10,
+      "installs_all_time": 6,
+      "installs_current": 5
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 16161,
+      "stars": 10,
+      "installs_all_time": 6,
+      "installs_current": 5
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 16189,
+      "stars": 10,
+      "installs_all_time": 6,
+      "installs_current": 5
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 16204,
+      "stars": 10,
+      "installs_all_time": 6,
+      "installs_current": 5
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 16208,
+      "stars": 10,
+      "installs_all_time": 6,
+      "installs_current": 5
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 16217,
+      "stars": 10,
+      "installs_all_time": 7,
+      "installs_current": 6
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 16252,
+      "stars": 10,
+      "installs_all_time": 7,
+      "installs_current": 6
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 16254,
+      "stars": 10,
+      "installs_all_time": 7,
+      "installs_current": 6
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 16257,
+      "stars": 10,
+      "installs_all_time": 7,
+      "installs_current": 6
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 16274,
+      "stars": 10,
+      "installs_all_time": 7,
+      "installs_current": 6
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 16308,
+      "stars": 10,
+      "installs_all_time": 7,
+      "installs_current": 6
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 16308,
+      "stars": 10,
+      "installs_all_time": 7,
+      "installs_current": 6
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 16317,
+      "stars": 10,
+      "installs_all_time": 7,
+      "installs_current": 6
+    }
+  ],
+  "version_releases": []
+}

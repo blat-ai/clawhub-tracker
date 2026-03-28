@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd766mw8mnzxj5zxz08vatev2980n9pj",
+  "slug": "automation-workflows",
+  "display_name": "Automation Workflows",
+  "summary": "Design and implement automation workflows to save time and scale operations as a solopreneur. Use when identifying repetitive tasks to automate, building workflows across tools, setting up triggers and actions, or optimizing existing automations. Covers automation opportunity identification, workflow design, tool selection (Zapier, Make, n8n), testing, and maintenance. Trigger on \"automate\", \"automation\", \"workflow automation\", \"save time\", \"reduce manual work\", \"automate my business\", \"no-code automation\".",
+  "owner_handle": "jk-0001",
+  "owner_image": "https://avatars.githubusercontent.com/u/103896999?v=4",
+  "created_at": "2026-02-06T01:33:02.349000",
+  "days_old": 50,
+  "stat_downloads": 53665,
+  "stat_stars": 222,
+  "tags": {
+    "latest": "k973kgs54pjbnwn99gajagy8j580n8wp"
+  },
+  "badges": null,
+  "stat_installs": 836,
+  "stat_comments": 1,
+  "current_version": "0.1.0",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 1073.3,
+  "acceleration_pct": -71.1,
+  "dl_delta": 342,
+  "dl_wow": 0.6,
+  "star_delta": 2,
+  "star_wow": 0.9,
+  "installs_delta": 6,
+  "installs_wow": 0.7,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 44077,
+      "stars": 186,
+      "installs_all_time": 628,
+      "installs_current": 610
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 44749,
+      "stars": 188,
+      "installs_all_time": 644,
+      "installs_current": 624
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 45966,
+      "stars": 194,
+      "installs_all_time": 672,
+      "installs_current": 651
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 46896,
+      "stars": 195,
+      "installs_all_time": 692,
+      "installs_current": 670
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 47791,
+      "stars": 201,
+      "installs_all_time": 717,
+      "installs_current": 690
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 48760,
+      "stars": 205,
+      "installs_all_time": 741,
+      "installs_current": 713
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 50487,
+      "stars": 211,
+      "installs_all_time": 779,
+      "installs_current": 749
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 50621,
+      "stars": 212,
+      "installs_all_time": 784,
+      "installs_current": 754
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 50880,
+      "stars": 212,
+      "installs_all_time": 787,
+      "installs_current": 757
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 51806,
+      "stars": 215,
+      "installs_all_time": 799,
+      "installs_current": 768
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 53323,
+      "stars": 220,
+      "installs_all_time": 830,
+      "installs_current": 798
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 53323,
+      "stars": 220,
+      "installs_all_time": 830,
+      "installs_current": 798
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 53665,
+      "stars": 222,
+      "installs_all_time": 836,
+      "installs_current": 802
+    }
+  ],
+  "version_releases": []
+}

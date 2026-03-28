@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd7ac4s7egcre3jyddgh4mj01n80g7hy",
+  "slug": "youtube-api-skill",
+  "display_name": "YouTube",
+  "summary": "YouTube Data API integration with managed OAuth. Search videos, manage playlists, access channel data, and interact with comments. Use this skill when users want to interact with YouTube. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
+  "owner_handle": "byungkyu",
+  "owner_image": "https://avatars.githubusercontent.com/u/16563684?v=4",
+  "created_at": "2026-02-04T08:26:21.120000",
+  "days_old": 51,
+  "stat_downloads": 23366,
+  "stat_stars": 125,
+  "tags": {
+    "latest": "k975ccf2wpqrwr5sb248sxtx2n80xfy1"
+  },
+  "badges": null,
+  "stat_installs": 92,
+  "stat_comments": 4,
+  "current_version": "1.0.3",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 458.2,
+  "acceleration_pct": -76.1,
+  "dl_delta": 22,
+  "dl_wow": 0.1,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 0,
+  "installs_wow": 0.0,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 22658,
+      "stars": 118,
+      "installs_all_time": 80,
+      "installs_current": 76
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 22719,
+      "stars": 118,
+      "installs_all_time": 82,
+      "installs_current": 78
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 22836,
+      "stars": 119,
+      "installs_all_time": 83,
+      "installs_current": 79
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 22919,
+      "stars": 121,
+      "installs_all_time": 84,
+      "installs_current": 80
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 22976,
+      "stars": 121,
+      "installs_all_time": 85,
+      "installs_current": 80
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 23043,
+      "stars": 121,
+      "installs_all_time": 87,
+      "installs_current": 82
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 23153,
+      "stars": 122,
+      "installs_all_time": 90,
+      "installs_current": 85
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 23162,
+      "stars": 123,
+      "installs_all_time": 91,
+      "installs_current": 86
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 23185,
+      "stars": 123,
+      "installs_all_time": 91,
+      "installs_current": 86
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 23254,
+      "stars": 124,
+      "installs_all_time": 92,
+      "installs_current": 87
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 23344,
+      "stars": 125,
+      "installs_all_time": 92,
+      "installs_current": 87
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 23344,
+      "stars": 125,
+      "installs_all_time": 92,
+      "installs_current": 87
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 23366,
+      "stars": 125,
+      "installs_all_time": 92,
+      "installs_current": 87
+    }
+  ],
+  "version_releases": []
+}

@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd795rczbns952jkwhnez5ahcd80c5aq",
+  "slug": "shopify",
+  "display_name": "Shopify",
+  "summary": "Shopify integration - currently under maintenance. Contact founders@maton.ai for assistance.",
+  "owner_handle": "byungkyu",
+  "owner_image": "https://avatars.githubusercontent.com/u/16563684?v=4",
+  "created_at": "2026-02-02T09:17:32.490000",
+  "days_old": 53,
+  "stat_downloads": 17993,
+  "stat_stars": 6,
+  "tags": {
+    "latest": "k97d6rrth3de0f6he2t6rf6dpx80ebqw"
+  },
+  "badges": null,
+  "stat_installs": 25,
+  "stat_comments": 1,
+  "current_version": "1.0.1",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 339.5,
+  "acceleration_pct": -69.2,
+  "dl_delta": 12,
+  "dl_wow": 0.1,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 0,
+  "installs_wow": 0.0,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 17558,
+      "stars": 5,
+      "installs_all_time": 19,
+      "installs_current": 16
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 17597,
+      "stars": 5,
+      "installs_all_time": 20,
+      "installs_current": 17
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 17670,
+      "stars": 5,
+      "installs_all_time": 20,
+      "installs_current": 17
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 17753,
+      "stars": 5,
+      "installs_all_time": 22,
+      "installs_current": 19
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 17812,
+      "stars": 5,
+      "installs_all_time": 22,
+      "installs_current": 18
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 17852,
+      "stars": 5,
+      "installs_all_time": 23,
+      "installs_current": 19
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 17895,
+      "stars": 5,
+      "installs_all_time": 24,
+      "installs_current": 20
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 17896,
+      "stars": 5,
+      "installs_all_time": 24,
+      "installs_current": 20
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 17908,
+      "stars": 5,
+      "installs_all_time": 24,
+      "installs_current": 20
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 17935,
+      "stars": 6,
+      "installs_all_time": 25,
+      "installs_current": 21
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 17981,
+      "stars": 6,
+      "installs_all_time": 25,
+      "installs_current": 21
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 17981,
+      "stars": 6,
+      "installs_all_time": 25,
+      "installs_current": 21
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 17993,
+      "stars": 6,
+      "installs_all_time": 25,
+      "installs_current": 21
+    }
+  ],
+  "version_releases": []
+}

@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd75qwp6s2nwpz01c51np1hs4s80yyne",
+  "slug": "code",
+  "display_name": "Code",
+  "summary": "Coding workflow with planning, implementation, verification, and testing for clean software development.",
+  "owner_handle": "ivangdavila",
+  "owner_image": "https://avatars.githubusercontent.com/u/81719670?v=4",
+  "created_at": "2026-02-11T12:34:03.769000",
+  "days_old": 44,
+  "stat_downloads": 16224,
+  "stat_stars": 32,
+  "tags": {
+    "latest": "k979e3r2f8s4cv00npfzym72jd81esbp"
+  },
+  "badges": null,
+  "stat_installs": 192,
+  "stat_comments": 0,
+  "current_version": "1.0.4",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 368.7,
+  "acceleration_pct": -74.5,
+  "dl_delta": 155,
+  "dl_wow": 1.0,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 1,
+  "installs_wow": 0.5,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 11768,
+      "stars": 24,
+      "installs_all_time": 145,
+      "installs_current": 141
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 12132,
+      "stars": 24,
+      "installs_all_time": 150,
+      "installs_current": 145
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 12758,
+      "stars": 26,
+      "installs_all_time": 158,
+      "installs_current": 153
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 13261,
+      "stars": 27,
+      "installs_all_time": 162,
+      "installs_current": 157
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 13710,
+      "stars": 27,
+      "installs_all_time": 166,
+      "installs_current": 161
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 14099,
+      "stars": 28,
+      "installs_all_time": 172,
+      "installs_current": 167
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 14747,
+      "stars": 29,
+      "installs_all_time": 178,
+      "installs_current": 173
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 14791,
+      "stars": 29,
+      "installs_all_time": 180,
+      "installs_current": 175
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 14933,
+      "stars": 29,
+      "installs_all_time": 182,
+      "installs_current": 177
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 15400,
+      "stars": 30,
+      "installs_all_time": 185,
+      "installs_current": 180
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 16069,
+      "stars": 32,
+      "installs_all_time": 191,
+      "installs_current": 186
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 16069,
+      "stars": 32,
+      "installs_all_time": 191,
+      "installs_current": 186
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 16224,
+      "stars": 32,
+      "installs_all_time": 192,
+      "installs_current": 187
+    }
+  ],
+  "version_releases": []
+}

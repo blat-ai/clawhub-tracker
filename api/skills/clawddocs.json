@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd709cbfahxmfwbpt1vyg90gsd7z1xvy",
+  "slug": "clawddocs",
+  "display_name": "Clawdbot Documentation Expert",
+  "summary": "Clawdbot documentation expert with decision tree navigation, search scripts, doc fetching, version tracking, and config snippets for all Clawdbot features",
+  "owner_handle": "nicholasspisak",
+  "owner_image": "https://avatars.githubusercontent.com/u/129075147?v=4",
+  "created_at": "2026-01-11T02:41:49.187000",
+  "days_old": 76,
+  "stat_downloads": 32498,
+  "stat_stars": 267,
+  "tags": {
+    "latest": "k971f45xa0d098ebgmgbmdg8m57z390x"
+  },
+  "badges": null,
+  "stat_installs": 503,
+  "stat_comments": 7,
+  "current_version": "1.2.2",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 427.6,
+  "acceleration_pct": -68.1,
+  "dl_delta": 118,
+  "dl_wow": 0.4,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": -1,
+  "installs_wow": -0.2,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 29754,
+      "stars": 257,
+      "installs_all_time": 429,
+      "installs_current": 414
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 29933,
+      "stars": 258,
+      "installs_all_time": 437,
+      "installs_current": 421
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 30288,
+      "stars": 260,
+      "installs_all_time": 444,
+      "installs_current": 428
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 30602,
+      "stars": 263,
+      "installs_all_time": 456,
+      "installs_current": 440
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 30852,
+      "stars": 265,
+      "installs_all_time": 462,
+      "installs_current": 444
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 31125,
+      "stars": 265,
+      "installs_all_time": 469,
+      "installs_current": 451
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 31621,
+      "stars": 268,
+      "installs_all_time": 484,
+      "installs_current": 462
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 31651,
+      "stars": 268,
+      "installs_all_time": 485,
+      "installs_current": 463
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 31750,
+      "stars": 268,
+      "installs_all_time": 487,
+      "installs_current": 465
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 32021,
+      "stars": 268,
+      "installs_all_time": 494,
+      "installs_current": 471
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 32380,
+      "stars": 267,
+      "installs_all_time": 504,
+      "installs_current": 481
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 32380,
+      "stars": 267,
+      "installs_all_time": 504,
+      "installs_current": 481
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 32498,
+      "stars": 267,
+      "installs_all_time": 503,
+      "installs_current": 478
+    }
+  ],
+  "version_releases": []
+}

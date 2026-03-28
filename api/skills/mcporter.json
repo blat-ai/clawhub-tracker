@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd7avvp5d3bdahm3jdr6hwhcvh7ykgg7",
+  "slug": "mcporter",
+  "display_name": "Mcporter",
+  "summary": "Use the mcporter CLI to list, configure, auth, and call MCP servers/tools directly (HTTP or stdio), including ad-hoc servers, config edits, and CLI/type generation.",
+  "owner_handle": "steipete",
+  "owner_image": "https://avatars.githubusercontent.com/u/58493?v=4",
+  "created_at": "2026-01-04T16:49:15.897000",
+  "days_old": 82,
+  "stat_downloads": 47303,
+  "stat_stars": 141,
+  "tags": {
+    "latest": "k973778pzgzetvsttxj3kqw05n7ykngf"
+  },
+  "badges": "{\"official\": {\"at\": 1769581978613.0, \"byUserId\": \"kn749wfk1gv41cpqjx38tarwhh7yk4xa\"}}",
+  "stat_installs": 1671,
+  "stat_comments": 1,
+  "current_version": "1.0.0",
+  "is_highlighted": false,
+  "is_suspicious": false,
+  "velocity": 576.9,
+  "acceleration_pct": -69.0,
+  "dl_delta": 321,
+  "dl_wow": 0.7,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 7,
+  "installs_wow": 0.4,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 39836,
+      "stars": 116,
+      "installs_all_time": 1429,
+      "installs_current": 1398
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 40301,
+      "stars": 119,
+      "installs_all_time": 1447,
+      "installs_current": 1417
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 41214,
+      "stars": 123,
+      "installs_all_time": 1480,
+      "installs_current": 1448
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 41943,
+      "stars": 125,
+      "installs_all_time": 1505,
+      "installs_current": 1472
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 42667,
+      "stars": 126,
+      "installs_all_time": 1533,
+      "installs_current": 1498
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 43321,
+      "stars": 127,
+      "installs_all_time": 1563,
+      "installs_current": 1525
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 44607,
+      "stars": 133,
+      "installs_all_time": 1605,
+      "installs_current": 1565
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 44726,
+      "stars": 133,
+      "installs_all_time": 1611,
+      "installs_current": 1571
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 44913,
+      "stars": 133,
+      "installs_all_time": 1615,
+      "installs_current": 1575
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 45761,
+      "stars": 135,
+      "installs_all_time": 1636,
+      "installs_current": 1595
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 46982,
+      "stars": 141,
+      "installs_all_time": 1664,
+      "installs_current": 1622
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 46982,
+      "stars": 141,
+      "installs_all_time": 1664,
+      "installs_current": 1622
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 47303,
+      "stars": 141,
+      "installs_all_time": 1671,
+      "installs_current": 1628
+    }
+  ],
+  "version_releases": []
+}

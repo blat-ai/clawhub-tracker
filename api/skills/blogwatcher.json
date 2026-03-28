@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd73d0edt3p8ahfmjb76b2nerx7ykrxc",
+  "slug": "blogwatcher",
+  "display_name": "Blogwatcher",
+  "summary": "Monitor blogs and RSS/Atom feeds for updates using the blogwatcher CLI.",
+  "owner_handle": "steipete",
+  "owner_image": "https://avatars.githubusercontent.com/u/58493?v=4",
+  "created_at": "2026-01-04T16:48:19.849000",
+  "days_old": 82,
+  "stat_downloads": 29695,
+  "stat_stars": 52,
+  "tags": {
+    "latest": "k97egznhtxxe8f3skk1rv952g57ykn73"
+  },
+  "badges": null,
+  "stat_installs": 1278,
+  "stat_comments": 1,
+  "current_version": "1.0.0",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 362.1,
+  "acceleration_pct": -72.9,
+  "dl_delta": 150,
+  "dl_wow": 0.5,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 6,
+  "installs_wow": 0.5,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 26244,
+      "stars": 47,
+      "installs_all_time": 1113,
+      "installs_current": 1089
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 26459,
+      "stars": 47,
+      "installs_all_time": 1127,
+      "installs_current": 1103
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 26835,
+      "stars": 49,
+      "installs_all_time": 1150,
+      "installs_current": 1124
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 27163,
+      "stars": 49,
+      "installs_all_time": 1165,
+      "installs_current": 1139
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 27494,
+      "stars": 50,
+      "installs_all_time": 1177,
+      "installs_current": 1149
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 27836,
+      "stars": 50,
+      "installs_all_time": 1204,
+      "installs_current": 1175
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 28425,
+      "stars": 50,
+      "installs_all_time": 1229,
+      "installs_current": 1200
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 28485,
+      "stars": 51,
+      "installs_all_time": 1234,
+      "installs_current": 1205
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 28611,
+      "stars": 51,
+      "installs_all_time": 1236,
+      "installs_current": 1207
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 29038,
+      "stars": 51,
+      "installs_all_time": 1251,
+      "installs_current": 1222
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 29545,
+      "stars": 52,
+      "installs_all_time": 1272,
+      "installs_current": 1240
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 29545,
+      "stars": 52,
+      "installs_all_time": 1272,
+      "installs_current": 1240
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 29695,
+      "stars": 52,
+      "installs_all_time": 1278,
+      "installs_current": 1246
+    }
+  ],
+  "version_releases": []
+}

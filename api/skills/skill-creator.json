@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd70vj4mdfn50dm59s6ypec9e9801f4r",
+  "slug": "skill-creator",
+  "display_name": "Skill Creator",
+  "summary": "Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Claude's capabilities with specialized knowledge, workflows, or tool integrations.",
+  "owner_handle": "chindden",
+  "owner_image": "https://avatars.githubusercontent.com/u/34678156?v=4",
+  "created_at": "2026-01-27T14:04:37.376000",
+  "days_old": 59,
+  "stat_downloads": 57409,
+  "stat_stars": 205,
+  "tags": {
+    "latest": "k97bahjz3bvx90vc3rvhgkjaz5800s64"
+  },
+  "badges": null,
+  "stat_installs": 1936,
+  "stat_comments": 3,
+  "current_version": "0.1.0",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 973.0,
+  "acceleration_pct": -73.5,
+  "dl_delta": 377,
+  "dl_wow": 0.7,
+  "star_delta": 2,
+  "star_wow": 1.0,
+  "installs_delta": 8,
+  "installs_wow": 0.4,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 45981,
+      "stars": 161,
+      "installs_all_time": 1559,
+      "installs_current": 1531
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 46679,
+      "stars": 162,
+      "installs_all_time": 1586,
+      "installs_current": 1558
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 48175,
+      "stars": 169,
+      "installs_all_time": 1627,
+      "installs_current": 1597
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 49305,
+      "stars": 175,
+      "installs_all_time": 1662,
+      "installs_current": 1632
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 50328,
+      "stars": 178,
+      "installs_all_time": 1696,
+      "installs_current": 1662
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 51467,
+      "stars": 180,
+      "installs_all_time": 1744,
+      "installs_current": 1706
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 53601,
+      "stars": 188,
+      "installs_all_time": 1827,
+      "installs_current": 1783
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 53773,
+      "stars": 190,
+      "installs_all_time": 1835,
+      "installs_current": 1789
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 54025,
+      "stars": 192,
+      "installs_all_time": 1840,
+      "installs_current": 1795
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 55194,
+      "stars": 197,
+      "installs_all_time": 1878,
+      "installs_current": 1831
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 57032,
+      "stars": 203,
+      "installs_all_time": 1928,
+      "installs_current": 1878
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 57032,
+      "stars": 203,
+      "installs_all_time": 1928,
+      "installs_current": 1878
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 57409,
+      "stars": 205,
+      "installs_all_time": 1936,
+      "installs_current": 1884
+    }
+  ],
+  "version_releases": []
+}

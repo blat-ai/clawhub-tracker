@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd7dncs3f43mj6q970k1f287ah80c55b",
+  "slug": "skill-vetting",
+  "display_name": "Skill Vetting",
+  "summary": "Vet ClawHub skills for security and utility before installation. Use when considering installing a ClawHub skill, evaluating third-party code, or assessing w...",
+  "owner_handle": "eddygk",
+  "owner_image": "https://avatars.githubusercontent.com/u/832737?v=4",
+  "created_at": "2026-02-02T13:04:49.260000",
+  "days_old": 53,
+  "stat_downloads": 11654,
+  "stat_stars": 6,
+  "tags": {
+    "latest": "k97130pmfb7vrctxfxrga49snd818cn0"
+  },
+  "badges": null,
+  "stat_installs": 213,
+  "stat_comments": 1,
+  "current_version": "1.1.0",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 219.9,
+  "acceleration_pct": -69.6,
+  "dl_delta": 41,
+  "dl_wow": 0.4,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 1,
+  "installs_wow": 0.5,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 10407,
+      "stars": 6,
+      "installs_all_time": 163,
+      "installs_current": 154
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 10503,
+      "stars": 6,
+      "installs_all_time": 167,
+      "installs_current": 158
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 10690,
+      "stars": 6,
+      "installs_all_time": 174,
+      "installs_current": 165
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 10815,
+      "stars": 6,
+      "installs_all_time": 181,
+      "installs_current": 171
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 10931,
+      "stars": 6,
+      "installs_all_time": 182,
+      "installs_current": 171
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 11046,
+      "stars": 6,
+      "installs_all_time": 194,
+      "installs_current": 182
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 11285,
+      "stars": 6,
+      "installs_all_time": 200,
+      "installs_current": 189
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 11302,
+      "stars": 6,
+      "installs_all_time": 201,
+      "installs_current": 190
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 11328,
+      "stars": 6,
+      "installs_all_time": 202,
+      "installs_current": 191
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 11437,
+      "stars": 6,
+      "installs_all_time": 208,
+      "installs_current": 197
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 11613,
+      "stars": 6,
+      "installs_all_time": 212,
+      "installs_current": 201
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 11613,
+      "stars": 6,
+      "installs_all_time": 212,
+      "installs_current": 201
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 11654,
+      "stars": 6,
+      "installs_all_time": 213,
+      "installs_current": 202
+    }
+  ],
+  "version_releases": []
+}

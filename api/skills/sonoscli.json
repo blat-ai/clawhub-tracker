@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd71bx7wzz0xbc492njvdkkrph7yj7m7",
+  "slug": "sonoscli",
+  "display_name": "Sonoscli",
+  "summary": "Control Sonos speakers (discover/status/play/volume/group).",
+  "owner_handle": "steipete",
+  "owner_image": "https://avatars.githubusercontent.com/u/58493?v=4",
+  "created_at": "2026-01-04T16:49:41.030000",
+  "days_old": 82,
+  "stat_downloads": 68521,
+  "stat_stars": 47,
+  "tags": {
+    "latest": "k97fjvgjgf7dp5gdbkmw8m8mbn7ykcv3"
+  },
+  "badges": null,
+  "stat_installs": 2390,
+  "stat_comments": 1,
+  "current_version": "1.0.0",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 835.6,
+  "acceleration_pct": -73.1,
+  "dl_delta": 273,
+  "dl_wow": 0.4,
+  "star_delta": 1,
+  "star_wow": 2.2,
+  "installs_delta": 10,
+  "installs_wow": 0.4,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 61226,
+      "stars": 41,
+      "installs_all_time": 2069,
+      "installs_current": 1988
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 61742,
+      "stars": 42,
+      "installs_all_time": 2090,
+      "installs_current": 2009
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 62661,
+      "stars": 43,
+      "installs_all_time": 2136,
+      "installs_current": 2053
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 63371,
+      "stars": 43,
+      "installs_all_time": 2170,
+      "installs_current": 2085
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 64089,
+      "stars": 43,
+      "installs_all_time": 2203,
+      "installs_current": 2116
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 64851,
+      "stars": 43,
+      "installs_all_time": 2240,
+      "installs_current": 2151
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 66069,
+      "stars": 43,
+      "installs_all_time": 2304,
+      "installs_current": 2211
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 66170,
+      "stars": 43,
+      "installs_all_time": 2314,
+      "installs_current": 2221
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 66387,
+      "stars": 44,
+      "installs_all_time": 2319,
+      "installs_current": 2225
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 67183,
+      "stars": 46,
+      "installs_all_time": 2346,
+      "installs_current": 2251
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 68248,
+      "stars": 46,
+      "installs_all_time": 2380,
+      "installs_current": 2283
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 68248,
+      "stars": 46,
+      "installs_all_time": 2380,
+      "installs_current": 2283
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 68521,
+      "stars": 47,
+      "installs_all_time": 2390,
+      "installs_current": 2292
+    }
+  ],
+  "version_releases": []
+}

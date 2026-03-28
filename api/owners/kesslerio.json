@@ -1,0 +1,406 @@
+{
+  "handle": "kesslerio",
+  "total_downloads": 98018,
+  "total_stars": 168,
+  "total_installs": 558,
+  "skill_count": 29,
+  "avg_dl_per_day": 60.0,
+  "highlighted_count": 0,
+  "suspicious_count": 29,
+  "clean_pct": 0.0,
+  "dl_delta": 231,
+  "dl_wow": 0.2,
+  "dl_per_day": 231.0,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "star_per_day": 0,
+  "installs_delta": 3,
+  "installs_wow": 0.5,
+  "installs_per_day": 3.0,
+  "owner_display_name": "kesslerio",
+  "owner_name": "kesslerio",
+  "owner_image": "https://avatars.githubusercontent.com/u/2647990?v=4",
+  "bio": null,
+  "company": null,
+  "location": "Mountain View, CA",
+  "blog": "https://kessler.io",
+  "public_repos": 54,
+  "followers": 7,
+  "following": 3,
+  "github_created_at": "2012-10-25T09:29:51",
+  "twitter_username": null,
+  "skills": [
+    {
+      "slug": "academic-deep-research",
+      "display_name": "Academic Deep Research",
+      "stat_downloads": 14288,
+      "stat_stars": 48,
+      "created_at": "2026-02-02T08:20:32.089000",
+      "days_old": 54,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "frontend-design-ultimate",
+      "display_name": "Frontend Design Ultimate",
+      "stat_downloads": 11782,
+      "stat_stars": 58,
+      "created_at": "2026-02-02T07:48:09.918000",
+      "days_old": 54,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "finance-news",
+      "display_name": "Finance News Briefings",
+      "stat_downloads": 7232,
+      "stat_stars": 9,
+      "created_at": "2026-01-31T05:40:19.206000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "technews",
+      "display_name": "TechMeme News",
+      "stat_downloads": 4843,
+      "stat_stars": 4,
+      "created_at": "2026-01-31T05:42:25.807000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "pymupdf-pdf-parser-clawdbot-skill",
+      "display_name": "PyMuPDF PDF Parser Clawdbot Skill",
+      "stat_downloads": 4834,
+      "stat_stars": 4,
+      "created_at": "2026-01-23T19:27:11.096000",
+      "days_old": 64,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "imagemagick",
+      "display_name": "ImageMagick Operations",
+      "stat_downloads": 4298,
+      "stat_stars": 1,
+      "created_at": "2026-01-31T05:41:34.531000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "kesslerio-stealth-browser",
+      "display_name": "Stealth Browser",
+      "stat_downloads": 3492,
+      "stat_stars": 4,
+      "created_at": "2026-02-02T07:48:01.564000",
+      "days_old": 54,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "activecampaign",
+      "display_name": "ActiveCampaign CRM",
+      "stat_downloads": 3384,
+      "stat_stars": 2,
+      "created_at": "2026-01-31T05:41:20.847000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "soulcraft",
+      "display_name": "SoulCraft",
+      "stat_downloads": 3236,
+      "stat_stars": 5,
+      "created_at": "2026-01-31T05:34:17.106000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "task-tracker",
+      "display_name": "Task Tracker",
+      "stat_downloads": 2688,
+      "stat_stars": 1,
+      "created_at": "2026-01-21T05:20:33.518000",
+      "days_old": 66,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "oura-analytics",
+      "display_name": "Oura Ring Analytics",
+      "stat_downloads": 2650,
+      "stat_stars": 7,
+      "created_at": "2026-01-22T23:42:48.665000",
+      "days_old": 65,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "phone-agent",
+      "display_name": "Phone Voice Agent",
+      "stat_downloads": 2500,
+      "stat_stars": 6,
+      "created_at": "2026-01-31T05:43:39.955000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "campaign-orchestrator",
+      "display_name": "Campaign Orchestrator",
+      "stat_downloads": 2313,
+      "stat_stars": 0,
+      "created_at": "2026-01-31T05:40:51.934000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "fitbit-analytics",
+      "display_name": "Fitbit Analytics",
+      "stat_downloads": 2211,
+      "stat_stars": 1,
+      "created_at": "2026-01-23T00:01:41.102000",
+      "days_old": 64,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "lobster-jobs",
+      "display_name": "Lobster Workflows",
+      "stat_downloads": 2117,
+      "stat_stars": 1,
+      "created_at": "2026-01-31T05:43:10.437000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "babyconnect",
+      "display_name": "Baby Connect Logger",
+      "stat_downloads": 2082,
+      "stat_stars": 1,
+      "created_at": "2026-01-31T05:43:59.481000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "calendly",
+      "display_name": "Calendly Integration",
+      "stat_downloads": 2073,
+      "stat_stars": 0,
+      "created_at": "2026-01-31T05:40:23.545000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "google-messages-openclaw-skill",
+      "display_name": "Google Messages",
+      "stat_downloads": 2069,
+      "stat_stars": 0,
+      "created_at": "2026-02-01T06:50:44.580000",
+      "days_old": 55,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "amadeus-hotels",
+      "display_name": "Amadeus Hotels",
+      "stat_downloads": 2062,
+      "stat_stars": 1,
+      "created_at": "2026-02-02T07:20:29.579000",
+      "days_old": 54,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "mineru-pdf-parser-clawdbot-skill",
+      "display_name": "MinerU PDF Parser Clawdbot Skill",
+      "stat_downloads": 2021,
+      "stat_stars": 2,
+      "created_at": "2026-01-23T19:26:59.179000",
+      "days_old": 64,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "camoufox-stealth",
+      "display_name": "Camoufox Stealth Browser",
+      "stat_downloads": 1985,
+      "stat_stars": 1,
+      "created_at": "2026-02-02T07:54:18.396000",
+      "days_old": 54,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "camoufox-stealth-browser",
+      "display_name": "Camoufox Stealth Browser",
+      "stat_downloads": 1933,
+      "stat_stars": 1,
+      "created_at": "2026-02-02T07:59:43.685000",
+      "days_old": 54,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "shorten",
+      "display_name": "Shorten",
+      "stat_downloads": 1900,
+      "stat_stars": 1,
+      "created_at": "2026-01-24T03:47:37.395000",
+      "days_old": 63,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "url-shortener",
+      "display_name": "URL Shortener",
+      "stat_downloads": 1878,
+      "stat_stars": 1,
+      "created_at": "2026-01-31T05:41:05.256000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "attio-crm",
+      "display_name": "Attio CRM",
+      "stat_downloads": 1843,
+      "stat_stars": 4,
+      "created_at": "2026-01-31T05:46:19.845000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "klutch",
+      "display_name": "Klutch",
+      "stat_downloads": 1625,
+      "stat_stars": 1,
+      "created_at": "2026-02-04T03:13:22.150000",
+      "days_old": 52,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "agentmail-kessler",
+      "display_name": "AgentMail (Enhanced)",
+      "stat_downloads": 1618,
+      "stat_stars": 2,
+      "created_at": "2026-02-02T07:59:55.918000",
+      "days_old": 54,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "stripe-cli",
+      "display_name": "Stripe CLI",
+      "stat_downloads": 1581,
+      "stat_stars": 1,
+      "created_at": "2026-01-31T05:44:14.073000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "apollo-io",
+      "display_name": "Apollo.io Sales Intelligence",
+      "stat_downloads": 1480,
+      "stat_stars": 1,
+      "created_at": "2026-01-31T05:41:55.255000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": true
+    }
+  ],
+  "trajectory": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 90472,
+      "stars": 149
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 91002,
+      "stars": 151
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 92038,
+      "stars": 153
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 92829,
+      "stars": 154
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 93449,
+      "stars": 157
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 94145,
+      "stars": 159
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 95617,
+      "stars": 160
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 95698,
+      "stars": 161
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 95899,
+      "stars": 161
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 96674,
+      "stars": 163
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 97787,
+      "stars": 168
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 97787,
+      "stars": 168
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 98018,
+      "stars": 168
+    }
+  ],
+  "download_trajectory": [
+    90472,
+    91002,
+    92038,
+    92829,
+    93449,
+    94145,
+    95617,
+    95698,
+    95899,
+    96674,
+    97787,
+    97787,
+    98018
+  ]
+}

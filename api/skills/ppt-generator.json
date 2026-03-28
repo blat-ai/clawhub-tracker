@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd7c6v86bq027zs1ac3ef14h6x80grx5",
+  "slug": "ppt-generator",
+  "display_name": "description: \u5c06\u7528\u6237\u8bb2\u7a3f\u4e00\u952e\u751f\u6210\u4e54\u5e03\u65af\u98ce\u6781\u7b80\u79d1\u6280\u611f\u7ad6\u5c4fHTML\u6f14\u793a\u7a3f\u3002\u5f53\u7528\u6237\u9700\u8981\u751f\u6210PPT\u3001\u6f14\u793a\u6587\u7a3f\u3001Slides\u3001\u5e7b\u706f\u7247\uff0c\u6216\u8981\u6c42\u79d1\u6280\u98ce/\u6781\u7b80\u98ce/\u4e54\u5e03\u65af\u98ce\u683c\u7684\u6f14\u793a\u65f6\u89e6\u53d1\u6b64\u6280\u80fd\u3002\u8f93\u51fa\u4e3a\u5355\u4e2a\u53ef\u76f4\u63a5\u8fd0\u884c\u7684HTML\u6587\u4ef6\u3002",
+  "summary": "\u5c06\u7528\u6237\u8bb2\u7a3f\u4e00\u952e\u751f\u6210\u4e54\u5e03\u65af\u98ce\u6781\u7b80\u79d1\u6280\u611f\u7ad6\u5c4fHTML\u6f14\u793a\u7a3f\u3002\u5f53\u7528\u6237\u9700\u8981\u751f\u6210PPT\u3001\u6f14\u793a\u6587\u7a3f\u3001Slides\u3001\u5e7b\u706f\u7247\uff0c\u6216\u8981\u6c42\u79d1\u6280\u98ce/\u6781\u7b80\u98ce/\u4e54\u5e03\u65af\u98ce\u683c\u7684\u6f14\u793a\u65f6\u89e6\u53d1\u6b64\u6280\u80fd\u3002\u8f93\u51fa\u4e3a\u5355\u4e2a\u53ef\u76f4\u63a5\u8fd0\u884c\u7684HTML\u6587\u4ef6\u3002",
+  "owner_handle": "wwlyzzyorg",
+  "owner_image": "https://avatars.githubusercontent.com/u/18164685?v=4",
+  "created_at": "2026-02-04T10:21:13.886000",
+  "days_old": 51,
+  "stat_downloads": 19526,
+  "stat_stars": 54,
+  "tags": {
+    "latest": "k97dj48eg9kz2xgk5b3ntgz0sh80hp1f"
+  },
+  "badges": null,
+  "stat_installs": 200,
+  "stat_comments": 0,
+  "current_version": "1.0.0",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 382.9,
+  "acceleration_pct": -75.8,
+  "dl_delta": 150,
+  "dl_wow": 0.8,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 0,
+  "installs_wow": 0.0,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 14769,
+      "stars": 36,
+      "installs_all_time": 147,
+      "installs_current": 140
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 15046,
+      "stars": 37,
+      "installs_all_time": 155,
+      "installs_current": 148
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 15682,
+      "stars": 38,
+      "installs_all_time": 164,
+      "installs_current": 157
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 16132,
+      "stars": 38,
+      "installs_all_time": 166,
+      "installs_current": 159
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 16534,
+      "stars": 40,
+      "installs_all_time": 168,
+      "installs_current": 159
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 16931,
+      "stars": 41,
+      "installs_all_time": 173,
+      "installs_current": 164
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 17861,
+      "stars": 47,
+      "installs_all_time": 183,
+      "installs_current": 173
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 17925,
+      "stars": 47,
+      "installs_all_time": 183,
+      "installs_current": 173
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 18005,
+      "stars": 47,
+      "installs_all_time": 185,
+      "installs_current": 175
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 18545,
+      "stars": 49,
+      "installs_all_time": 193,
+      "installs_current": 183
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 19376,
+      "stars": 54,
+      "installs_all_time": 200,
+      "installs_current": 188
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 19376,
+      "stars": 54,
+      "installs_all_time": 200,
+      "installs_current": 188
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 19526,
+      "stars": 54,
+      "installs_all_time": 200,
+      "installs_current": 188
+    }
+  ],
+  "version_releases": []
+}

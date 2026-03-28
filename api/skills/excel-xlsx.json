@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd78f02qbnmg9ffcg1y9aynp2h80xvab",
+  "slug": "excel-xlsx",
+  "display_name": "Excel / XLSX",
+  "summary": "Create, inspect, and edit Microsoft Excel workbooks and XLSX files with reliable formulas, dates, types, formatting, recalculation, and template preservation...",
+  "owner_handle": "ivangdavila",
+  "owner_image": "https://avatars.githubusercontent.com/u/81719670?v=4",
+  "created_at": "2026-02-10T01:20:33.325000",
+  "days_old": 46,
+  "stat_downloads": 33006,
+  "stat_stars": 129,
+  "tags": {
+    "latest": "k97dm13qzsc220saevjcbqqmd582qdgz"
+  },
+  "badges": null,
+  "stat_installs": 392,
+  "stat_comments": 0,
+  "current_version": "1.0.2",
+  "is_highlighted": false,
+  "is_suspicious": false,
+  "velocity": 717.5,
+  "acceleration_pct": -68.5,
+  "dl_delta": 584,
+  "dl_wow": 1.8,
+  "star_delta": 1,
+  "star_wow": 0.8,
+  "installs_delta": 6,
+  "installs_wow": 1.6,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 18721,
+      "stars": 60,
+      "installs_all_time": 218,
+      "installs_current": 215
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 19477,
+      "stars": 64,
+      "installs_all_time": 233,
+      "installs_current": 230
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 21195,
+      "stars": 71,
+      "installs_all_time": 250,
+      "installs_current": 247
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 22515,
+      "stars": 80,
+      "installs_all_time": 264,
+      "installs_current": 260
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 23780,
+      "stars": 84,
+      "installs_all_time": 279,
+      "installs_current": 274
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 25068,
+      "stars": 96,
+      "installs_all_time": 298,
+      "installs_current": 290
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 27633,
+      "stars": 108,
+      "installs_all_time": 324,
+      "installs_current": 316
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 27837,
+      "stars": 109,
+      "installs_all_time": 327,
+      "installs_current": 319
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 28108,
+      "stars": 111,
+      "installs_all_time": 331,
+      "installs_current": 323
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 29693,
+      "stars": 115,
+      "installs_all_time": 349,
+      "installs_current": 340
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 32422,
+      "stars": 128,
+      "installs_all_time": 386,
+      "installs_current": 376
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 32422,
+      "stars": 128,
+      "installs_all_time": 386,
+      "installs_current": 376
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 33006,
+      "stars": 129,
+      "installs_all_time": 392,
+      "installs_current": 380
+    }
+  ],
+  "version_releases": []
+}

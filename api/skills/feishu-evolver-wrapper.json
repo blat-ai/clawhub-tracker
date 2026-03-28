@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd7dvss9x1d59j5dbqen9mv7jn815823",
+  "slug": "feishu-evolver-wrapper",
+  "display_name": "Feishu Evolver Wrapper",
+  "summary": "Feishu-integrated wrapper for the capability-evolver. Manages the evolution loop lifecycle (start/stop/ensure), sends rich Feishu card reports, and provides...",
+  "owner_handle": "autogame-17",
+  "owner_image": "https://avatars.githubusercontent.com/u/166480271?v=4",
+  "created_at": "2026-02-14T03:34:53.438000",
+  "days_old": 41,
+  "stat_downloads": 35223,
+  "stat_stars": 7,
+  "tags": {
+    "latest": "k97fv9e008r8ggmt9f4dn93qv581yc3k"
+  },
+  "badges": null,
+  "stat_installs": 148,
+  "stat_comments": 0,
+  "current_version": "1.7.1",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 859.1,
+  "acceleration_pct": -63.3,
+  "dl_delta": 789,
+  "dl_wow": 2.3,
+  "star_delta": 1,
+  "star_wow": 16.7,
+  "installs_delta": 2,
+  "installs_wow": 1.4,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 22534,
+      "stars": 4,
+      "installs_all_time": 111,
+      "installs_current": 107
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 23191,
+      "stars": 4,
+      "installs_all_time": 115,
+      "installs_current": 110
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 24335,
+      "stars": 5,
+      "installs_all_time": 119,
+      "installs_current": 114
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 25336,
+      "stars": 5,
+      "installs_all_time": 122,
+      "installs_current": 117
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 26375,
+      "stars": 5,
+      "installs_all_time": 122,
+      "installs_current": 116
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 27396,
+      "stars": 6,
+      "installs_all_time": 129,
+      "installs_current": 123
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 29719,
+      "stars": 6,
+      "installs_all_time": 135,
+      "installs_current": 127
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 29899,
+      "stars": 6,
+      "installs_all_time": 135,
+      "installs_current": 127
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 30430,
+      "stars": 6,
+      "installs_all_time": 137,
+      "installs_current": 129
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 32046,
+      "stars": 6,
+      "installs_all_time": 140,
+      "installs_current": 132
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 34434,
+      "stars": 6,
+      "installs_all_time": 146,
+      "installs_current": 138
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 34434,
+      "stars": 6,
+      "installs_all_time": 146,
+      "installs_current": 138
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 35223,
+      "stars": 7,
+      "installs_all_time": 148,
+      "installs_current": 140
+    }
+  ],
+  "version_releases": []
+}

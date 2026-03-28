@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd71nzjjay0knnz6m6z31kdzn57zyd3j",
+  "slug": "wed-1-0-1",
+  "display_name": "Wed 1.0.1",
+  "summary": "What Would Elon Do? - Transform any idea into a ruthless execution plan. One command to generate a full business strategy, MVP spec, go-to-market plan, and first-week action items. Think bigger. Move faster. /wed 'your idea'",
+  "owner_handle": "gvillanueva84",
+  "owner_image": "https://avatars.githubusercontent.com/u/211327249?v=4",
+  "created_at": "2026-01-26T22:37:31.156000",
+  "days_old": 60,
+  "stat_downloads": 14664,
+  "stat_stars": 5,
+  "tags": {
+    "latest": "k9772rj55v7k8ty9g1yfcarfq17zz5rv"
+  },
+  "badges": null,
+  "stat_installs": 2,
+  "stat_comments": 2,
+  "current_version": "1.0.0",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 244.4,
+  "acceleration_pct": -53.8,
+  "dl_delta": 6,
+  "dl_wow": 0.0,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 0,
+  "installs_wow": 0.0,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 14523,
+      "stars": 5,
+      "installs_all_time": 1,
+      "installs_current": 1
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 14534,
+      "stars": 5,
+      "installs_all_time": 1,
+      "installs_current": 1
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 14559,
+      "stars": 5,
+      "installs_all_time": 1,
+      "installs_current": 1
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 14581,
+      "stars": 5,
+      "installs_all_time": 2,
+      "installs_current": 2
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 14585,
+      "stars": 5,
+      "installs_all_time": 2,
+      "installs_current": 1
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 14597,
+      "stars": 5,
+      "installs_all_time": 2,
+      "installs_current": 1
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 14620,
+      "stars": 5,
+      "installs_all_time": 2,
+      "installs_current": 1
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 14621,
+      "stars": 5,
+      "installs_all_time": 2,
+      "installs_current": 1
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 14624,
+      "stars": 5,
+      "installs_all_time": 2,
+      "installs_current": 1
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 14634,
+      "stars": 5,
+      "installs_all_time": 2,
+      "installs_current": 1
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 14658,
+      "stars": 5,
+      "installs_all_time": 2,
+      "installs_current": 1
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 14658,
+      "stars": 5,
+      "installs_all_time": 2,
+      "installs_current": 1
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 14664,
+      "stars": 5,
+      "installs_all_time": 2,
+      "installs_current": 1
+    }
+  ],
+  "version_releases": []
+}

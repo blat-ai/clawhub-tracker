@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd79vwee4q2w59zx38ab7dj6jn800nxr",
+  "slug": "searxng",
+  "display_name": "Searxng",
+  "summary": "Privacy-respecting metasearch using your local SearXNG instance. Search the web, images, news, and more without external API dependencies.",
+  "owner_handle": "abk234",
+  "owner_image": "https://avatars.githubusercontent.com/u/192931312?v=4",
+  "created_at": "2026-01-27T00:05:52.291000",
+  "days_old": 60,
+  "stat_downloads": 14990,
+  "stat_stars": 27,
+  "tags": {
+    "latest": "k97dbmjb9ac3a9x8fqyesjn131801y03"
+  },
+  "badges": null,
+  "stat_installs": 371,
+  "stat_comments": 2,
+  "current_version": "1.0.3",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 249.8,
+  "acceleration_pct": -71.4,
+  "dl_delta": 92,
+  "dl_wow": 0.6,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 4,
+  "installs_wow": 1.1,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 12283,
+      "stars": 23,
+      "installs_all_time": 295,
+      "installs_current": 279
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 12474,
+      "stars": 23,
+      "installs_all_time": 303,
+      "installs_current": 286
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 12851,
+      "stars": 24,
+      "installs_all_time": 308,
+      "installs_current": 289
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 13154,
+      "stars": 25,
+      "installs_all_time": 314,
+      "installs_current": 295
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 13441,
+      "stars": 25,
+      "installs_all_time": 325,
+      "installs_current": 305
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 13742,
+      "stars": 25,
+      "installs_all_time": 331,
+      "installs_current": 310
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 14183,
+      "stars": 26,
+      "installs_all_time": 349,
+      "installs_current": 328
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 14229,
+      "stars": 26,
+      "installs_all_time": 349,
+      "installs_current": 328
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 14300,
+      "stars": 26,
+      "installs_all_time": 349,
+      "installs_current": 328
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 14551,
+      "stars": 26,
+      "installs_all_time": 355,
+      "installs_current": 333
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 14898,
+      "stars": 27,
+      "installs_all_time": 367,
+      "installs_current": 344
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 14898,
+      "stars": 27,
+      "installs_all_time": 367,
+      "installs_current": 344
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 14990,
+      "stars": 27,
+      "installs_all_time": 371,
+      "installs_current": 348
+    }
+  ],
+  "version_releases": []
+}

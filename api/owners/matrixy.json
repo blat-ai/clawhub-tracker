@@ -1,0 +1,156 @@
+{
+  "handle": "matrixy",
+  "total_downloads": 57852,
+  "total_stars": 177,
+  "total_installs": 392,
+  "skill_count": 4,
+  "avg_dl_per_day": 219.9,
+  "highlighted_count": 0,
+  "suspicious_count": 3,
+  "clean_pct": 25.0,
+  "dl_delta": 979,
+  "dl_wow": 1.7,
+  "dl_per_day": 979.0,
+  "star_delta": 2,
+  "star_wow": 1.1,
+  "star_per_day": 2.0,
+  "installs_delta": 3,
+  "installs_wow": 0.8,
+  "installs_per_day": 3.0,
+  "owner_display_name": "MaTriXy",
+  "owner_name": null,
+  "owner_image": "https://avatars.githubusercontent.com/u/3080139?v=4",
+  "bio": "Proud Parent. \r\n                      \r\nLFC Blood.\r\n                        \r\nCode Collector.\r\n                       \r\nTech lover.",
+  "company": null,
+  "location": "Far Far close",
+  "blog": null,
+  "public_repos": 8300,
+  "followers": 171,
+  "following": 584,
+  "github_created_at": "2012-12-19T11:01:35",
+  "twitter_username": "elkriefy",
+  "skills": [
+    {
+      "slug": "agent-browser-clawdbot",
+      "display_name": "Agent Browser",
+      "stat_downloads": 50592,
+      "stat_stars": 170,
+      "created_at": "2026-01-21T22:00:54.381000",
+      "days_old": 66,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "linear-skill",
+      "display_name": "Linear",
+      "stat_downloads": 2581,
+      "stat_stars": 4,
+      "created_at": "2026-01-24T15:31:33.983000",
+      "days_old": 63,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "audio-reply-skill",
+      "display_name": "Audio Reply",
+      "stat_downloads": 2383,
+      "stat_stars": 3,
+      "created_at": "2026-01-23T15:34:30.231000",
+      "days_old": 64,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "agent-registry",
+      "display_name": "Agent Registry",
+      "stat_downloads": 2296,
+      "stat_stars": 0,
+      "created_at": "2026-01-21T22:02:42.117000",
+      "days_old": 66,
+      "is_highlighted": false,
+      "is_suspicious": true
+    }
+  ],
+  "trajectory": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 36414,
+      "stars": 97
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 37581,
+      "stars": 99
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 40373,
+      "stars": 110
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 42598,
+      "stars": 122
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 44646,
+      "stars": 132
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 46705,
+      "stars": 139
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 50368,
+      "stars": 151
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 50662,
+      "stars": 153
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 51075,
+      "stars": 154
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 53143,
+      "stars": 164
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 56873,
+      "stars": 175
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 56873,
+      "stars": 175
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 57852,
+      "stars": 177
+    }
+  ],
+  "download_trajectory": [
+    36414,
+    37581,
+    40373,
+    42598,
+    44646,
+    46705,
+    50368,
+    50662,
+    51075,
+    53143,
+    56873,
+    56873,
+    57852
+  ]
+}

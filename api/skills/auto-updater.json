@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd79vgpn7t6vg2vrtkn1cvga4n7z5n8f",
+  "slug": "auto-updater",
+  "display_name": "Auto-Updater Skill",
+  "summary": "Automatically update Clawdbot and all installed skills once daily. Runs via cron, checks for updates, applies them, and messages the user with a summary of what changed.",
+  "owner_handle": "maximeprades",
+  "owner_image": "https://avatars.githubusercontent.com/u/509269?v=4",
+  "created_at": "2026-01-13T16:58:59.453000",
+  "days_old": 73,
+  "stat_downloads": 59573,
+  "stat_stars": 326,
+  "tags": {
+    "latest": "k9736e4gchbxkt1wre8ytyw5vd7z5y1t"
+  },
+  "badges": null,
+  "stat_installs": 1119,
+  "stat_comments": 5,
+  "current_version": "1.0.0",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 816.1,
+  "acceleration_pct": -68.8,
+  "dl_delta": 461,
+  "dl_wow": 0.8,
+  "star_delta": 3,
+  "star_wow": 0.9,
+  "installs_delta": 9,
+  "installs_wow": 0.8,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 49006,
+      "stars": 289,
+      "installs_all_time": 849,
+      "installs_current": 813
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 49663,
+      "stars": 291,
+      "installs_all_time": 874,
+      "installs_current": 835
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 50903,
+      "stars": 295,
+      "installs_all_time": 905,
+      "installs_current": 865
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 51879,
+      "stars": 300,
+      "installs_all_time": 935,
+      "installs_current": 891
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 52827,
+      "stars": 302,
+      "installs_all_time": 968,
+      "installs_current": 918
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 53826,
+      "stars": 306,
+      "installs_all_time": 1001,
+      "installs_current": 948
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 55756,
+      "stars": 313,
+      "installs_all_time": 1048,
+      "installs_current": 990
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 55906,
+      "stars": 316,
+      "installs_all_time": 1051,
+      "installs_current": 993
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 56219,
+      "stars": 316,
+      "installs_all_time": 1056,
+      "installs_current": 999
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 57382,
+      "stars": 321,
+      "installs_all_time": 1079,
+      "installs_current": 1020
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 59112,
+      "stars": 323,
+      "installs_all_time": 1110,
+      "installs_current": 1049
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 59112,
+      "stars": 323,
+      "installs_all_time": 1110,
+      "installs_current": 1049
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 59573,
+      "stars": 326,
+      "installs_all_time": 1119,
+      "installs_current": 1058
+    }
+  ],
+  "version_releases": []
+}

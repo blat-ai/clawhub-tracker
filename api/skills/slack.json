@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd7aqq9ye7nqa4wwecyvshc5bx7yjz2s",
+  "slug": "slack",
+  "display_name": "Slack",
+  "summary": "Use when you need to control Slack from Clawdbot via the slack tool, including reacting to messages or pinning/unpinning items in Slack channels or DMs.",
+  "owner_handle": "steipete",
+  "owner_image": "https://avatars.githubusercontent.com/u/58493?v=4",
+  "created_at": "2026-01-04T16:49:38.002000",
+  "days_old": 82,
+  "stat_downloads": 33430,
+  "stat_stars": 109,
+  "tags": {
+    "latest": "k974s2nwqdrhhcyyetbj0d3x8h7ykacv"
+  },
+  "badges": "{\"highlighted\": {\"at\": 1769571860347.0, \"byUserId\": \"kn70pywhg0fyz996kpa8xj89s57yhv26\"}}",
+  "stat_installs": 1214,
+  "stat_comments": 11,
+  "current_version": "1.0.0",
+  "is_highlighted": true,
+  "is_suspicious": true,
+  "velocity": 407.7,
+  "acceleration_pct": -72.1,
+  "dl_delta": 178,
+  "dl_wow": 0.5,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 5,
+  "installs_wow": 0.4,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 28986,
+      "stars": 95,
+      "installs_all_time": 1047,
+      "installs_current": 1024
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 29295,
+      "stars": 95,
+      "installs_all_time": 1062,
+      "installs_current": 1039
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 29869,
+      "stars": 98,
+      "installs_all_time": 1087,
+      "installs_current": 1064
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 30320,
+      "stars": 99,
+      "installs_all_time": 1107,
+      "installs_current": 1084
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 30762,
+      "stars": 100,
+      "installs_all_time": 1122,
+      "installs_current": 1098
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 31172,
+      "stars": 102,
+      "installs_all_time": 1144,
+      "installs_current": 1119
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 31896,
+      "stars": 104,
+      "installs_all_time": 1171,
+      "installs_current": 1147
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 31968,
+      "stars": 105,
+      "installs_all_time": 1177,
+      "installs_current": 1152
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 32099,
+      "stars": 105,
+      "installs_all_time": 1181,
+      "installs_current": 1156
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 32606,
+      "stars": 108,
+      "installs_all_time": 1194,
+      "installs_current": 1169
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 33252,
+      "stars": 109,
+      "installs_all_time": 1209,
+      "installs_current": 1183
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 33252,
+      "stars": 109,
+      "installs_all_time": 1209,
+      "installs_current": 1183
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 33430,
+      "stars": 109,
+      "installs_all_time": 1214,
+      "installs_current": 1187
+    }
+  ],
+  "version_releases": []
+}

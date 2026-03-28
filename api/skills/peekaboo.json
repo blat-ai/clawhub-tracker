@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd75rnykn0smnjm0xqxaxyc7q57yks7j",
+  "slug": "peekaboo",
+  "display_name": "Peekaboo",
+  "summary": "Capture and automate macOS UI with the Peekaboo CLI.",
+  "owner_handle": "steipete",
+  "owner_image": "https://avatars.githubusercontent.com/u/58493?v=4",
+  "created_at": "2026-01-04T16:49:33.660000",
+  "days_old": 82,
+  "stat_downloads": 21133,
+  "stat_stars": 63,
+  "tags": {
+    "latest": "k979a540wc1hsb23fpz63n5ags7ykpnn"
+  },
+  "badges": null,
+  "stat_installs": 1147,
+  "stat_comments": 4,
+  "current_version": "1.0.0",
+  "is_highlighted": false,
+  "is_suspicious": false,
+  "velocity": 257.7,
+  "acceleration_pct": -75.7,
+  "dl_delta": 91,
+  "dl_wow": 0.4,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 7,
+  "installs_wow": 0.6,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 18474,
+      "stars": 56,
+      "installs_all_time": 1001,
+      "installs_current": 982
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 18651,
+      "stars": 56,
+      "installs_all_time": 1014,
+      "installs_current": 994
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 18984,
+      "stars": 59,
+      "installs_all_time": 1034,
+      "installs_current": 1013
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 19233,
+      "stars": 60,
+      "installs_all_time": 1047,
+      "installs_current": 1026
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 19503,
+      "stars": 61,
+      "installs_all_time": 1059,
+      "installs_current": 1036
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 19723,
+      "stars": 62,
+      "installs_all_time": 1077,
+      "installs_current": 1053
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 20169,
+      "stars": 63,
+      "installs_all_time": 1104,
+      "installs_current": 1080
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 20213,
+      "stars": 63,
+      "installs_all_time": 1109,
+      "installs_current": 1084
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 20298,
+      "stars": 63,
+      "installs_all_time": 1111,
+      "installs_current": 1086
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 20588,
+      "stars": 63,
+      "installs_all_time": 1126,
+      "installs_current": 1101
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 21042,
+      "stars": 63,
+      "installs_all_time": 1140,
+      "installs_current": 1115
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 21042,
+      "stars": 63,
+      "installs_all_time": 1140,
+      "installs_current": 1115
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 21133,
+      "stars": 63,
+      "installs_all_time": 1147,
+      "installs_current": 1120
+    }
+  ],
+  "version_releases": []
+}

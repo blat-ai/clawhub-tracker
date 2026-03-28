@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd79qg7e6gtpc140s549bk0x2s7yjrh9",
+  "slug": "clawdhub",
+  "display_name": "Clawdhub",
+  "summary": "Use the ClawdHub CLI to search, install, update, and publish agent skills from clawdhub.com. Use when you need to fetch new skills on the fly, sync installed skills to latest or a specific version, or publish new/updated skill folders with the npm-installed clawdhub CLI.",
+  "owner_handle": "steipete",
+  "owner_image": "https://avatars.githubusercontent.com/u/58493?v=4",
+  "created_at": "2026-01-04T16:48:28.330000",
+  "days_old": 82,
+  "stat_downloads": 25606,
+  "stat_stars": 208,
+  "tags": {
+    "latest": "k971z0hmgg09ezb8svtkv18e9x7yknzs"
+  },
+  "badges": null,
+  "stat_installs": 381,
+  "stat_comments": 1,
+  "current_version": "1.0.0",
+  "is_highlighted": false,
+  "is_suspicious": false,
+  "velocity": 312.3,
+  "acceleration_pct": -70.7,
+  "dl_delta": 197,
+  "dl_wow": 0.8,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 3,
+  "installs_wow": 0.8,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 20874,
+      "stars": 181,
+      "installs_all_time": 332,
+      "installs_current": 308
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 21180,
+      "stars": 182,
+      "installs_all_time": 335,
+      "installs_current": 311
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 21758,
+      "stars": 187,
+      "installs_all_time": 342,
+      "installs_current": 318
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 22190,
+      "stars": 193,
+      "installs_all_time": 348,
+      "installs_current": 323
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 22650,
+      "stars": 195,
+      "installs_all_time": 351,
+      "installs_current": 326
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 23052,
+      "stars": 198,
+      "installs_all_time": 357,
+      "installs_current": 331
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 23872,
+      "stars": 202,
+      "installs_all_time": 365,
+      "installs_current": 337
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 23948,
+      "stars": 202,
+      "installs_all_time": 366,
+      "installs_current": 338
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 24064,
+      "stars": 203,
+      "installs_all_time": 368,
+      "installs_current": 340
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 24620,
+      "stars": 205,
+      "installs_all_time": 372,
+      "installs_current": 344
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 25409,
+      "stars": 208,
+      "installs_all_time": 378,
+      "installs_current": 349
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 25409,
+      "stars": 208,
+      "installs_all_time": 378,
+      "installs_current": 349
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 25606,
+      "stars": 208,
+      "installs_all_time": 381,
+      "installs_current": 351
+    }
+  ],
+  "version_releases": []
+}

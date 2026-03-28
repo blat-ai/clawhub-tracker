@@ -1,0 +1,146 @@
+{
+  "handle": "shaivpidadi",
+  "total_downloads": 54831,
+  "total_stars": 358,
+  "total_installs": 432,
+  "skill_count": 3,
+  "avg_dl_per_day": 358.1,
+  "highlighted_count": 0,
+  "suspicious_count": 3,
+  "clean_pct": 0.0,
+  "dl_delta": 235,
+  "dl_wow": 0.4,
+  "dl_per_day": 235.0,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "star_per_day": 0,
+  "installs_delta": 2,
+  "installs_wow": 0.5,
+  "installs_per_day": 2.0,
+  "owner_display_name": "Shaishav Pidadi",
+  "owner_name": null,
+  "owner_image": "https://avatars.githubusercontent.com/u/26166520?v=4",
+  "bio": "I solve problems!",
+  "company": null,
+  "location": "Utopia",
+  "blog": null,
+  "public_repos": 44,
+  "followers": 39,
+  "following": 75,
+  "github_created_at": "2017-03-03T13:49:23",
+  "twitter_username": null,
+  "skills": [
+    {
+      "slug": "free-ride",
+      "display_name": "Free Ride - Unlimited free AI",
+      "stat_downloads": 47771,
+      "stat_stars": 349,
+      "created_at": "2026-02-05T17:42:17.350000",
+      "days_old": 51,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "freeride",
+      "display_name": "Free Ride - Unlimited free AI",
+      "stat_downloads": 4533,
+      "stat_stars": 7,
+      "created_at": "2026-02-05T17:43:42.811000",
+      "days_old": 51,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "arc-security",
+      "display_name": "Arc Security - Agent Trust Protocol",
+      "stat_downloads": 2527,
+      "stat_stars": 2,
+      "created_at": "2026-02-04T21:06:14.436000",
+      "days_old": 52,
+      "is_highlighted": false,
+      "is_suspicious": true
+    }
+  ],
+  "trajectory": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 41769,
+      "stars": 293
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 42502,
+      "stars": 294
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 43934,
+      "stars": 307
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 45120,
+      "stars": 319
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 46173,
+      "stars": 323
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 47209,
+      "stars": 332
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 49054,
+      "stars": 346
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 49253,
+      "stars": 346
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 49547,
+      "stars": 349
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 2511,
+      "stars": 2
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 54596,
+      "stars": 358
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 54596,
+      "stars": 358
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 54831,
+      "stars": 358
+    }
+  ],
+  "download_trajectory": [
+    41769,
+    42502,
+    43934,
+    45120,
+    46173,
+    47209,
+    49054,
+    49253,
+    49547,
+    2511,
+    54596,
+    54596,
+    54831
+  ]
+}

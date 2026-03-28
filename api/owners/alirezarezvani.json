@@ -1,0 +1,1826 @@
+{
+  "handle": "alirezarezvani",
+  "total_downloads": 128362,
+  "total_stars": 154,
+  "total_installs": 979,
+  "skill_count": 171,
+  "avg_dl_per_day": 20.6,
+  "highlighted_count": 0,
+  "suspicious_count": 46,
+  "clean_pct": 73.1,
+  "dl_delta": 923,
+  "dl_wow": 0.7,
+  "dl_per_day": 923.0,
+  "star_delta": 1,
+  "star_wow": 0.7,
+  "star_per_day": 1.0,
+  "installs_delta": 2,
+  "installs_wow": 0.2,
+  "installs_per_day": 2.0,
+  "owner_display_name": "Alireza Rezvani",
+  "owner_name": "alirezarezvani",
+  "owner_image": "https://avatars.githubusercontent.com/u/5697919?v=4",
+  "bio": "CTO in HealthTech | Engineering AI that helps people move safely and live better . Augmented AI | Agentic Coding | Turning complex problems into simple solution",
+  "company": "@lindera-engineering ",
+  "location": "Berlin",
+  "blog": "https://alirezarezvani.com",
+  "public_repos": 27,
+  "followers": 747,
+  "following": 25,
+  "github_created_at": "2013-10-16T06:52:39",
+  "twitter_username": "RezaRezvaniBln",
+  "skills": [
+    {
+      "slug": "marketing-strategy-pmm",
+      "display_name": "Marketing Strategy Pmm",
+      "stat_downloads": 6806,
+      "stat_stars": 26,
+      "created_at": "2026-02-06T18:29:11.333000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "senior-architect",
+      "display_name": "Senior Architect",
+      "stat_downloads": 5015,
+      "stat_stars": 12,
+      "created_at": "2026-01-30T01:08:51.838000",
+      "days_old": 57,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "content-creator",
+      "display_name": "Content Creator",
+      "stat_downloads": 3834,
+      "stat_stars": 10,
+      "created_at": "2026-02-06T18:28:58.910000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "risk-management-specialist",
+      "display_name": "Risk Management Specialist",
+      "stat_downloads": 3775,
+      "stat_stars": 4,
+      "created_at": "2026-02-02T10:16:21.575000",
+      "days_old": 54,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "senior-devops",
+      "display_name": "Senior Devops",
+      "stat_downloads": 3622,
+      "stat_stars": 7,
+      "created_at": "2026-01-30T01:07:29.875000",
+      "days_old": 57,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "tdd-guide",
+      "display_name": "Tdd Guide",
+      "stat_downloads": 3260,
+      "stat_stars": 4,
+      "created_at": "2026-02-06T18:28:30.690000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "quality-documentation-manager",
+      "display_name": "Quality Documentation Manager",
+      "stat_downloads": 2927,
+      "stat_stars": 2,
+      "created_at": "2026-02-02T08:53:29.508000",
+      "days_old": 54,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "product-manager-toolkit",
+      "display_name": "Product Manager Toolkit",
+      "stat_downloads": 2754,
+      "stat_stars": 6,
+      "created_at": "2026-02-06T18:29:28.873000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "senior-data-scientist",
+      "display_name": "Senior Data Scientist",
+      "stat_downloads": 2695,
+      "stat_stars": 6,
+      "created_at": "2026-02-06T18:27:20.512000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "senior-backend",
+      "display_name": "Senior Backend",
+      "stat_downloads": 2662,
+      "stat_stars": 0,
+      "created_at": "2026-01-30T01:04:12.022000",
+      "days_old": 57,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "ceo-advisor",
+      "display_name": "Ceo Advisor",
+      "stat_downloads": 2564,
+      "stat_stars": 5,
+      "created_at": "2026-02-06T18:26:24.380000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "senior-security",
+      "display_name": "Senior Security",
+      "stat_downloads": 2486,
+      "stat_stars": 5,
+      "created_at": "2026-02-06T18:28:23.329000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ui-design-system",
+      "display_name": "Ui Design System",
+      "stat_downloads": 2355,
+      "stat_stars": 7,
+      "created_at": "2026-02-06T18:29:50.748000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "app-store-optimization",
+      "display_name": "App Store Optimization",
+      "stat_downloads": 2244,
+      "stat_stars": 4,
+      "created_at": "2026-02-02T10:27:49.136000",
+      "days_old": 54,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "cto-advisor",
+      "display_name": "Cto Advisor",
+      "stat_downloads": 2221,
+      "stat_stars": 5,
+      "created_at": "2026-02-06T18:26:29.612000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "senior-data-engineer",
+      "display_name": "Senior Data Engineer",
+      "stat_downloads": 2203,
+      "stat_stars": 2,
+      "created_at": "2026-02-06T18:27:12.915000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "quality-manager-qmr",
+      "display_name": "Quality Manager Qmr",
+      "stat_downloads": 2149,
+      "stat_stars": 1,
+      "created_at": "2026-02-02T08:54:27.249000",
+      "days_old": 54,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "agile-product-owner",
+      "display_name": "Agile Product Owner",
+      "stat_downloads": 2127,
+      "stat_stars": 5,
+      "created_at": "2026-02-02T08:51:37.220000",
+      "days_old": 54,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ux-researcher-designer",
+      "display_name": "Ux Researcher Designer",
+      "stat_downloads": 1984,
+      "stat_stars": 4,
+      "created_at": "2026-02-06T18:30:03.176000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "senior-ml-engineer",
+      "display_name": "Senior Ml Engineer",
+      "stat_downloads": 1894,
+      "stat_stars": 2,
+      "created_at": "2026-02-06T18:27:55.868000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "information-security-manager-iso27001",
+      "display_name": "Information Security Manager Iso27001",
+      "stat_downloads": 1882,
+      "stat_stars": 2,
+      "created_at": "2026-02-06T18:30:50.158000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "senior-qa",
+      "display_name": "Senior Qa",
+      "stat_downloads": 1846,
+      "stat_stars": 2,
+      "created_at": "2026-02-06T18:28:10.769000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "regulatory-affairs-head",
+      "display_name": "Regulatory Affairs Head",
+      "stat_downloads": 1824,
+      "stat_stars": 1,
+      "created_at": "2026-02-02T10:02:40.181000",
+      "days_old": 54,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "marketing-demand-acquisition",
+      "display_name": "Marketing Demand Acquisition",
+      "stat_downloads": 1820,
+      "stat_stars": 5,
+      "created_at": "2026-02-06T18:29:05.690000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "quality-manager-qms-iso13485",
+      "display_name": "Quality Manager Qms Iso13485",
+      "stat_downloads": 1780,
+      "stat_stars": 1,
+      "created_at": "2026-02-02T10:03:53.583000",
+      "days_old": 54,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "product-strategist",
+      "display_name": "Product Strategist",
+      "stat_downloads": 1771,
+      "stat_stars": 3,
+      "created_at": "2026-02-06T18:29:39.059000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "senior-secops",
+      "display_name": "Senior Secops",
+      "stat_downloads": 1766,
+      "stat_stars": 2,
+      "created_at": "2026-02-06T18:28:18.303000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "senior-computer-vision",
+      "display_name": "Senior Computer Vision",
+      "stat_downloads": 1759,
+      "stat_stars": 2,
+      "created_at": "2026-02-06T18:27:06.458000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "social-media-analyzer",
+      "display_name": "Social Media Analyzer",
+      "stat_downloads": 1725,
+      "stat_stars": 1,
+      "created_at": "2026-02-06T18:29:17.908000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "gdpr-dsgvo-expert",
+      "display_name": "Gdpr Dsgvo Expert",
+      "stat_downloads": 1670,
+      "stat_stars": 3,
+      "created_at": "2026-02-06T18:30:31.416000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "aws-solution-architect",
+      "display_name": "Aws Solution Architect",
+      "stat_downloads": 1654,
+      "stat_stars": 1,
+      "created_at": "2026-02-06T18:26:36.459000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "mdr-745-specialist",
+      "display_name": "Mdr 745 Specialist",
+      "stat_downloads": 1522,
+      "stat_stars": 1,
+      "created_at": "2026-02-06T18:31:08.676000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "senior-prompt-engineer",
+      "display_name": "Senior Prompt Engineer",
+      "stat_downloads": 1485,
+      "stat_stars": 5,
+      "created_at": "2026-02-06T18:28:04.712000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "capa-officer",
+      "display_name": "Capa Officer",
+      "stat_downloads": 1421,
+      "stat_stars": 1,
+      "created_at": "2026-02-06T18:30:16.869000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "fda-consultant-specialist",
+      "display_name": "Fda Consultant Specialist",
+      "stat_downloads": 1386,
+      "stat_stars": 0,
+      "created_at": "2026-02-06T18:30:24.953000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "qms-audit-expert",
+      "display_name": "Qms Audit Expert",
+      "stat_downloads": 1352,
+      "stat_stars": 1,
+      "created_at": "2026-02-06T18:31:16.540000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "tech-stack-evaluator",
+      "display_name": "Tech Stack Evaluator",
+      "stat_downloads": 1346,
+      "stat_stars": 0,
+      "created_at": "2026-02-06T18:28:42.985000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "isms-audit-expert",
+      "display_name": "Isms Audit Expert",
+      "stat_downloads": 1320,
+      "stat_stars": 1,
+      "created_at": "2026-02-06T18:31:01.229000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "marketing-ideas",
+      "display_name": "marketing-ideas",
+      "stat_downloads": 1255,
+      "stat_stars": 1,
+      "created_at": "2026-03-09T21:59:41.869000",
+      "days_old": 19,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "marketing-psychology",
+      "display_name": "marketing-psychology",
+      "stat_downloads": 1235,
+      "stat_stars": 0,
+      "created_at": "2026-03-09T21:59:49.321000",
+      "days_old": 19,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "database-designer",
+      "display_name": "Database Designer",
+      "stat_downloads": 1231,
+      "stat_stars": 0,
+      "created_at": "2026-02-16T19:36:16.635000",
+      "days_old": 40,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ms365-tenant-manager",
+      "display_name": "Ms365 Tenant Manager",
+      "stat_downloads": 1109,
+      "stat_stars": 0,
+      "created_at": "2026-02-06T18:26:49.825000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "playwright-pro",
+      "display_name": "Playwright Pro",
+      "stat_downloads": 892,
+      "stat_stars": 0,
+      "created_at": "2026-03-05T13:12:04.843000",
+      "days_old": 23,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "api-design-reviewer",
+      "display_name": "Api Design Reviewer",
+      "stat_downloads": 772,
+      "stat_stars": 0,
+      "created_at": "2026-02-16T17:10:35.499000",
+      "days_old": 40,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "revenue-operations",
+      "display_name": "Revenue Operations",
+      "stat_downloads": 745,
+      "stat_stars": 0,
+      "created_at": "2026-02-15T20:11:28.772000",
+      "days_old": 41,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "customer-success-manager",
+      "display_name": "Customer Success Manager",
+      "stat_downloads": 698,
+      "stat_stars": 0,
+      "created_at": "2026-02-15T20:08:42.198000",
+      "days_old": 41,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "agent-designer",
+      "display_name": "Agent Designer",
+      "stat_downloads": 698,
+      "stat_stars": 0,
+      "created_at": "2026-02-16T19:36:29.037000",
+      "days_old": 40,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "observability-designer",
+      "display_name": "Observability Designer",
+      "stat_downloads": 650,
+      "stat_stars": 0,
+      "created_at": "2026-02-16T20:45:13.054000",
+      "days_old": 40,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "incident-commander",
+      "display_name": "Incident Commander",
+      "stat_downloads": 643,
+      "stat_stars": 0,
+      "created_at": "2026-02-16T17:10:02.585000",
+      "days_old": 40,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "dependency-auditor",
+      "display_name": "Dependency Auditor",
+      "stat_downloads": 623,
+      "stat_stars": 0,
+      "created_at": "2026-02-16T20:45:23.905000",
+      "days_old": 40,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "interview-system-designer",
+      "display_name": "Interview System Designer",
+      "stat_downloads": 582,
+      "stat_stars": 0,
+      "created_at": "2026-02-16T17:10:54.500000",
+      "days_old": 40,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "skill-tester",
+      "display_name": "Skill Tester",
+      "stat_downloads": 572,
+      "stat_stars": 0,
+      "created_at": "2026-02-16T19:36:36.426000",
+      "days_old": 40,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "migration-architect",
+      "display_name": "Migration Architect",
+      "stat_downloads": 541,
+      "stat_stars": 0,
+      "created_at": "2026-02-16T17:11:09.656000",
+      "days_old": 40,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "tech-debt-tracker",
+      "display_name": "Tech Debt Tracker",
+      "stat_downloads": 530,
+      "stat_stars": 0,
+      "created_at": "2026-02-16T17:10:24.557000",
+      "days_old": 40,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "release-manager",
+      "display_name": "Release Manager",
+      "stat_downloads": 499,
+      "stat_stars": 0,
+      "created_at": "2026-02-16T19:36:09.886000",
+      "days_old": 40,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "programmatic-seo",
+      "display_name": "programmatic-seo",
+      "stat_downloads": 484,
+      "stat_stars": 0,
+      "created_at": "2026-03-10T00:31:56.862000",
+      "days_old": 18,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "copy-editing",
+      "display_name": "Copy Editing",
+      "stat_downloads": 475,
+      "stat_stars": 0,
+      "created_at": "2026-03-09T15:24:29.855000",
+      "days_old": 19,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "cs-social-content",
+      "display_name": "social-content",
+      "stat_downloads": 467,
+      "stat_stars": 1,
+      "created_at": "2026-03-10T19:18:06.711000",
+      "days_old": 18,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "page-cro",
+      "display_name": "page-cro",
+      "stat_downloads": 449,
+      "stat_stars": 0,
+      "created_at": "2026-03-09T23:15:43.787000",
+      "days_old": 19,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "database-schema-designer",
+      "display_name": "database-schema-designer",
+      "stat_downloads": 444,
+      "stat_stars": 0,
+      "created_at": "2026-03-10T09:24:36.361000",
+      "days_old": 18,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ci-cd-pipeline-builder",
+      "display_name": "ci-cd-pipeline-builder",
+      "stat_downloads": 409,
+      "stat_stars": 0,
+      "created_at": "2026-03-10T06:53:49.648000",
+      "days_old": 18,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "cs-analytics-tracking",
+      "display_name": "analytics-tracking",
+      "stat_downloads": 343,
+      "stat_stars": 0,
+      "created_at": "2026-03-09T20:26:23.201000",
+      "days_old": 19,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "content-production",
+      "display_name": "Content Production",
+      "stat_downloads": 323,
+      "stat_stars": 0,
+      "created_at": "2026-03-09T15:24:21.940000",
+      "days_old": 19,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "context-engine",
+      "display_name": "Context Engine",
+      "stat_downloads": 322,
+      "stat_stars": 0,
+      "created_at": "2026-03-05T22:47:05.480000",
+      "days_old": 23,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "sales-engineer",
+      "display_name": "Sales Engineer",
+      "stat_downloads": 319,
+      "stat_stars": 0,
+      "created_at": "2026-03-04T02:12:07.126000",
+      "days_old": 24,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "cs-brand-guidelines",
+      "display_name": "brand-guidelines",
+      "stat_downloads": 318,
+      "stat_stars": 0,
+      "created_at": "2026-03-09T20:26:26.725000",
+      "days_old": 19,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "email-sequence",
+      "display_name": "Email Sequence",
+      "stat_downloads": 302,
+      "stat_stars": 0,
+      "created_at": "2026-03-09T15:24:40.388000",
+      "days_old": 19,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "decision-logger",
+      "display_name": "Decision Logger",
+      "stat_downloads": 280,
+      "stat_stars": 0,
+      "created_at": "2026-03-05T22:47:00.042000",
+      "days_old": 23,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "git-worktree-manager",
+      "display_name": "git-worktree-manager",
+      "stat_downloads": 279,
+      "stat_stars": 0,
+      "created_at": "2026-03-10T10:40:43.200000",
+      "days_old": 18,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "launch-strategy",
+      "display_name": "Launch Strategy",
+      "stat_downloads": 271,
+      "stat_stars": 0,
+      "created_at": "2026-03-09T15:24:50.690000",
+      "days_old": 19,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "cfo-advisor",
+      "display_name": "Cfo Advisor",
+      "stat_downloads": 269,
+      "stat_stars": 0,
+      "created_at": "2026-03-05T21:35:38.086000",
+      "days_old": 23,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "paid-ads",
+      "display_name": "paid-ads",
+      "stat_downloads": 266,
+      "stat_stars": 0,
+      "created_at": "2026-03-09T23:15:47.921000",
+      "days_old": 19,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "ciso-advisor",
+      "display_name": "Ciso Advisor",
+      "stat_downloads": 266,
+      "stat_stars": 0,
+      "created_at": "2026-03-05T21:35:46.226000",
+      "days_old": 23,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "cs-pricing-strategy",
+      "display_name": "pricing-strategy",
+      "stat_downloads": 262,
+      "stat_stars": 0,
+      "created_at": "2026-03-10T18:16:29.272000",
+      "days_old": 18,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "intl-expansion",
+      "display_name": "Intl Expansion",
+      "stat_downloads": 261,
+      "stat_stars": 0,
+      "created_at": "2026-03-06T00:01:19.082000",
+      "days_old": 22,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "executive-mentor",
+      "display_name": "Executive Mentor",
+      "stat_downloads": 259,
+      "stat_stars": 0,
+      "created_at": "2026-03-05T22:46:44.986000",
+      "days_old": 23,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "experiment-designer",
+      "display_name": "Experiment Designer",
+      "stat_downloads": 259,
+      "stat_stars": 0,
+      "created_at": "2026-03-11T14:24:48.262000",
+      "days_old": 17,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "board-deck-builder",
+      "display_name": "Board Deck Builder",
+      "stat_downloads": 259,
+      "stat_stars": 0,
+      "created_at": "2026-03-05T22:47:20.163000",
+      "days_old": 23,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "campaign-analytics",
+      "display_name": "Campaign Analytics",
+      "stat_downloads": 259,
+      "stat_stars": 0,
+      "created_at": "2026-03-09T15:23:53.042000",
+      "days_old": 19,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "c-level-advisor",
+      "display_name": "c-level-advisor",
+      "stat_downloads": 256,
+      "stat_stars": 1,
+      "created_at": "2026-03-05T21:34:55.741000",
+      "days_old": 23,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "cmo-advisor",
+      "display_name": "Cmo Advisor",
+      "stat_downloads": 256,
+      "stat_stars": 0,
+      "created_at": "2026-03-05T21:35:33.896000",
+      "days_old": 23,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "onboarding-cro",
+      "display_name": "onboarding-cro",
+      "stat_downloads": 254,
+      "stat_stars": 0,
+      "created_at": "2026-03-09T23:15:40.103000",
+      "days_old": 19,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "cs-seo-audit",
+      "display_name": "seo-audit",
+      "stat_downloads": 253,
+      "stat_stars": 0,
+      "created_at": "2026-03-10T19:17:41.109000",
+      "days_old": 18,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "chief-of-staff",
+      "display_name": "Chief Of Staff",
+      "stat_downloads": 252,
+      "stat_stars": 0,
+      "created_at": "2026-03-05T22:46:52.030000",
+      "days_old": 23,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "paywall-upgrade-cro",
+      "display_name": "paywall-upgrade-cro",
+      "stat_downloads": 251,
+      "stat_stars": 0,
+      "created_at": "2026-03-09T23:15:52.069000",
+      "days_old": 19,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "culture-architect",
+      "display_name": "Culture Architect",
+      "stat_downloads": 250,
+      "stat_stars": 0,
+      "created_at": "2026-03-06T00:01:22.811000",
+      "days_old": 22,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "cro-advisor",
+      "display_name": "Cro Advisor",
+      "stat_downloads": 250,
+      "stat_stars": 0,
+      "created_at": "2026-03-05T21:35:41.943000",
+      "days_old": 23,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "referral-program",
+      "display_name": "referral-program",
+      "stat_downloads": 249,
+      "stat_stars": 0,
+      "created_at": "2026-03-10T01:47:41.426000",
+      "days_old": 18,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "change-management",
+      "display_name": "Change Management",
+      "stat_downloads": 249,
+      "stat_stars": 0,
+      "created_at": "2026-03-06T00:01:42.029000",
+      "days_old": 22,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "cpo-advisor",
+      "display_name": "Cpo Advisor",
+      "stat_downloads": 247,
+      "stat_stars": 0,
+      "created_at": "2026-03-05T21:35:30.119000",
+      "days_old": 23,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "free-tool-strategy",
+      "display_name": "Free Tool Strategy",
+      "stat_downloads": 246,
+      "stat_stars": 0,
+      "created_at": "2026-03-09T15:24:47.395000",
+      "days_old": 19,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "chro-advisor",
+      "display_name": "Chro Advisor",
+      "stat_downloads": 243,
+      "stat_stars": 0,
+      "created_at": "2026-03-05T21:35:50.056000",
+      "days_old": 23,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "cs-onboard",
+      "display_name": "Cs Onboard",
+      "stat_downloads": 240,
+      "stat_stars": 0,
+      "created_at": "2026-03-05T22:46:48.296000",
+      "days_old": 23,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "cs-social-media-manager",
+      "display_name": "social-media-manager",
+      "stat_downloads": 239,
+      "stat_stars": 0,
+      "created_at": "2026-03-10T19:18:20.228000",
+      "days_old": 18,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "internal-narrative",
+      "display_name": "Internal Narrative",
+      "stat_downloads": 239,
+      "stat_stars": 0,
+      "created_at": "2026-03-06T01:01:44.256000",
+      "days_old": 22,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "coo-advisor",
+      "display_name": "Coo Advisor",
+      "stat_downloads": 239,
+      "stat_stars": 0,
+      "created_at": "2026-03-05T21:35:26.398000",
+      "days_old": 23,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "board-meeting",
+      "display_name": "Board Meeting",
+      "stat_downloads": 237,
+      "stat_stars": 0,
+      "created_at": "2026-03-05T22:46:55.950000",
+      "days_old": 23,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "scrum-master",
+      "display_name": "scrum-master",
+      "stat_downloads": 236,
+      "stat_stars": 0,
+      "created_at": "2026-03-11T03:07:43.015000",
+      "days_old": 17,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ma-playbook",
+      "display_name": "Ma Playbook",
+      "stat_downloads": 235,
+      "stat_stars": 0,
+      "created_at": "2026-03-06T00:01:15.501000",
+      "days_old": 22,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "changelog-generator",
+      "display_name": "changelog-generator",
+      "stat_downloads": 233,
+      "stat_stars": 0,
+      "created_at": "2026-03-10T06:53:25.726000",
+      "days_old": 18,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "api-test-suite-builder",
+      "display_name": "api-test-suite-builder",
+      "stat_downloads": 230,
+      "stat_stars": 0,
+      "created_at": "2026-03-10T06:53:24.731000",
+      "days_old": 18,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "org-health-diagnostic",
+      "display_name": "Org Health Diagnostic",
+      "stat_downloads": 230,
+      "stat_stars": 0,
+      "created_at": "2026-03-06T00:01:11.751000",
+      "days_old": 22,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "strategic-alignment",
+      "display_name": "Strategic Alignment",
+      "stat_downloads": 229,
+      "stat_stars": 0,
+      "created_at": "2026-03-06T00:01:38.430000",
+      "days_old": 22,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "scenario-war-room",
+      "display_name": "Scenario War Room",
+      "stat_downloads": 228,
+      "stat_stars": 0,
+      "created_at": "2026-03-06T00:01:08.094000",
+      "days_old": 22,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "signup-flow-cro",
+      "display_name": "signup-flow-cro",
+      "stat_downloads": 227,
+      "stat_stars": 0,
+      "created_at": "2026-03-10T01:47:50.960000",
+      "days_old": 18,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "form-cro",
+      "display_name": "Form Cro",
+      "stat_downloads": 227,
+      "stat_stars": 0,
+      "created_at": "2026-03-09T15:24:43.889000",
+      "days_old": 19,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "popup-cro",
+      "display_name": "popup-cro",
+      "stat_downloads": 225,
+      "stat_stars": 0,
+      "created_at": "2026-03-10T00:31:44.247000",
+      "days_old": 18,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "content-humanizer",
+      "display_name": "Content Humanizer",
+      "stat_downloads": 225,
+      "stat_stars": 0,
+      "created_at": "2026-03-09T15:24:17.588000",
+      "days_old": 19,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "cs-code-reviewer",
+      "display_name": "code-reviewer",
+      "stat_downloads": 222,
+      "stat_stars": 0,
+      "created_at": "2026-03-10T18:15:51.824000",
+      "days_old": 18,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "auto-memory-pro",
+      "display_name": "Auto Memory Pro",
+      "stat_downloads": 219,
+      "stat_stars": 0,
+      "created_at": "2026-03-05T17:25:53.713000",
+      "days_old": 23,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "email-template-builder",
+      "display_name": "email-template-builder",
+      "stat_downloads": 219,
+      "stat_stars": 0,
+      "created_at": "2026-03-10T04:19:42.196000",
+      "days_old": 18,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "company-os",
+      "display_name": "Company Os",
+      "stat_downloads": 219,
+      "stat_stars": 0,
+      "created_at": "2026-03-06T00:01:31.696000",
+      "days_old": 22,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "cs-ai-seo",
+      "display_name": "ai-seo",
+      "stat_downloads": 216,
+      "stat_stars": 0,
+      "created_at": "2026-03-09T20:26:18.552000",
+      "days_old": 19,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "code-reviewer-2",
+      "display_name": "Senior Code Reviewer",
+      "stat_downloads": 213,
+      "stat_stars": 0,
+      "created_at": "2026-03-04T02:15:57.457000",
+      "days_old": 24,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "marketing-context",
+      "display_name": "marketing-context",
+      "stat_downloads": 212,
+      "stat_stars": 0,
+      "created_at": "2026-03-09T21:59:38.829000",
+      "days_old": 19,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "marketing-ops",
+      "display_name": "marketing-ops",
+      "stat_downloads": 212,
+      "stat_stars": 0,
+      "created_at": "2026-03-09T21:59:45.261000",
+      "days_old": 19,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "codebase-onboarding",
+      "display_name": "codebase-onboarding",
+      "stat_downloads": 211,
+      "stat_stars": 0,
+      "created_at": "2026-03-10T08:09:51.932000",
+      "days_old": 18,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "cs-ad-creative",
+      "display_name": "ad-creative",
+      "stat_downloads": 211,
+      "stat_stars": 0,
+      "created_at": "2026-03-09T20:26:13.959000",
+      "days_old": 19,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "cs-google-workspace-cli",
+      "display_name": "google-workspace-cli",
+      "stat_downloads": 209,
+      "stat_stars": 0,
+      "created_at": "2026-03-11T15:50:15.972000",
+      "days_old": 17,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "prompt-engineer-toolkit",
+      "display_name": "prompt-engineer-toolkit",
+      "stat_downloads": 208,
+      "stat_stars": 0,
+      "created_at": "2026-03-10T00:32:06.027000",
+      "days_old": 18,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "cs-ab-test-setup",
+      "display_name": "ab-test-setup",
+      "stat_downloads": 208,
+      "stat_stars": 0,
+      "created_at": "2026-03-09T20:26:09.476000",
+      "days_old": 19,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "mcp-server-builder",
+      "display_name": "mcp-server-builder",
+      "stat_downloads": 208,
+      "stat_stars": 0,
+      "created_at": "2026-03-10T11:56:41.340000",
+      "days_old": 18,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "cs-schema-markup",
+      "display_name": "schema-markup",
+      "stat_downloads": 206,
+      "stat_stars": 0,
+      "created_at": "2026-03-10T19:17:18.115000",
+      "days_old": 18,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "cs-cold-email",
+      "display_name": "cold-email",
+      "stat_downloads": 206,
+      "stat_stars": 0,
+      "created_at": "2026-03-09T20:26:36.997000",
+      "days_old": 19,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "c-suite-founder-coach",
+      "display_name": "C-Suite Founder Coach",
+      "stat_downloads": 205,
+      "stat_stars": 0,
+      "created_at": "2026-03-06T01:01:39.594000",
+      "days_old": 22,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "cs-churn-prevention",
+      "display_name": "churn-prevention",
+      "stat_downloads": 204,
+      "stat_stars": 0,
+      "created_at": "2026-03-09T20:26:31.381000",
+      "days_old": 19,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "c-suite-agent-protocol",
+      "display_name": "C-Suite Agent Protocol",
+      "stat_downloads": 204,
+      "stat_stars": 0,
+      "created_at": "2026-03-05T22:47:16.623000",
+      "days_old": 23,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "roadmap-communicator",
+      "display_name": "Roadmap Communicator",
+      "stat_downloads": 203,
+      "stat_stars": 0,
+      "created_at": "2026-03-11T14:25:13.911000",
+      "days_old": 17,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "cs-competitor-alternatives",
+      "display_name": "competitor-alternatives",
+      "stat_downloads": 203,
+      "stat_stars": 0,
+      "created_at": "2026-03-09T20:26:41.351000",
+      "days_old": 19,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "c-suite-competitive-intel",
+      "display_name": "C-Suite Competitive Intel",
+      "stat_downloads": 202,
+      "stat_stars": 0,
+      "created_at": "2026-03-06T01:01:48.388000",
+      "days_old": 22,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "runbook-generator",
+      "display_name": "runbook-generator",
+      "stat_downloads": 202,
+      "stat_stars": 0,
+      "created_at": "2026-03-10T15:44:38.283000",
+      "days_old": 18,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "agent-workflow-designer",
+      "display_name": "agent-workflow-designer",
+      "stat_downloads": 202,
+      "stat_stars": 0,
+      "created_at": "2026-03-10T05:36:31.937000",
+      "days_old": 18,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "stripe-integration-expert",
+      "display_name": "stripe-integration-expert",
+      "stat_downloads": 202,
+      "stat_stars": 0,
+      "created_at": "2026-03-10T04:20:44.132000",
+      "days_old": 18,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "cs-skill-security-auditor",
+      "display_name": "skill-security-auditor",
+      "stat_downloads": 200,
+      "stat_stars": 0,
+      "created_at": "2026-03-10T19:17:53.641000",
+      "days_old": 18,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "env-secrets-manager",
+      "display_name": "env-secrets-manager",
+      "stat_downloads": 199,
+      "stat_stars": 0,
+      "created_at": "2026-03-10T10:40:37.742000",
+      "days_old": 18,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "jira-expert",
+      "display_name": "jira-expert",
+      "stat_downloads": 199,
+      "stat_stars": 0,
+      "created_at": "2026-03-11T01:51:59.728000",
+      "days_old": 17,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "cs-financial-analyst",
+      "display_name": "financial-analyst",
+      "stat_downloads": 198,
+      "stat_stars": 0,
+      "created_at": "2026-03-11T05:23:59.129000",
+      "days_old": 17,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "cs-copywriting",
+      "display_name": "copywriting",
+      "stat_downloads": 198,
+      "stat_stars": 0,
+      "created_at": "2026-03-10T18:16:13.897000",
+      "days_old": 18,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "cs-content-strategy",
+      "display_name": "content-strategy",
+      "stat_downloads": 196,
+      "stat_stars": 0,
+      "created_at": "2026-03-10T18:16:07.074000",
+      "days_old": 18,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "contract-and-proposal-writer",
+      "display_name": "contract-and-proposal-writer",
+      "stat_downloads": 195,
+      "stat_stars": 0,
+      "created_at": "2026-03-11T03:07:54.603000",
+      "days_old": 17,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "monorepo-navigator",
+      "display_name": "monorepo-navigator",
+      "stat_downloads": 195,
+      "stat_stars": 0,
+      "created_at": "2026-03-10T13:13:03.956000",
+      "days_old": 18,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "cs-agent-protocol",
+      "display_name": "agent-protocol",
+      "stat_downloads": 194,
+      "stat_stars": 0,
+      "created_at": "2026-03-11T05:23:42.268000",
+      "days_old": 17,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "site-architecture",
+      "display_name": "site-architecture",
+      "stat_downloads": 193,
+      "stat_stars": 0,
+      "created_at": "2026-03-10T03:03:46.943000",
+      "days_old": 18,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "pr-review-expert",
+      "display_name": "pr-review-expert",
+      "stat_downloads": 192,
+      "stat_stars": 0,
+      "created_at": "2026-03-10T14:28:34.827000",
+      "days_old": 18,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "rag-architect",
+      "display_name": "Rag Architect",
+      "stat_downloads": 190,
+      "stat_stars": 1,
+      "created_at": "2026-02-16T19:36:21.854000",
+      "days_old": 40,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "atlassian-templates",
+      "display_name": "atlassian-templates",
+      "stat_downloads": 189,
+      "stat_stars": 0,
+      "created_at": "2026-03-11T01:51:48.453000",
+      "days_old": 17,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "cs-competitive-intel",
+      "display_name": "competitive-intel",
+      "stat_downloads": 187,
+      "stat_stars": 0,
+      "created_at": "2026-03-11T05:23:49.688000",
+      "days_old": 17,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "product-analytics",
+      "display_name": "Product Analytics",
+      "stat_downloads": 187,
+      "stat_stars": 0,
+      "created_at": "2026-03-11T14:25:01.413000",
+      "days_old": 17,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "saas-scaffolder",
+      "display_name": "saas-scaffolder",
+      "stat_downloads": 186,
+      "stat_stars": 0,
+      "created_at": "2026-03-10T18:16:43.786000",
+      "days_old": 18,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "x-twitter-growth",
+      "display_name": "x-twitter-growth",
+      "stat_downloads": 185,
+      "stat_stars": 0,
+      "created_at": "2026-03-10T16:59:43.749000",
+      "days_old": 18,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "cs-founder-coach",
+      "display_name": "founder-coach",
+      "stat_downloads": 184,
+      "stat_stars": 0,
+      "created_at": "2026-03-11T05:24:04.828000",
+      "days_old": 17,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "business-growth",
+      "display_name": "business-growth",
+      "stat_downloads": 184,
+      "stat_stars": 0,
+      "created_at": "2026-03-11T15:13:28.718000",
+      "days_old": 17,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "cs-performance-profiler",
+      "display_name": "performance-profiler",
+      "stat_downloads": 183,
+      "stat_stars": 0,
+      "created_at": "2026-03-10T18:16:21.328000",
+      "days_old": 18,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "senior-pm",
+      "display_name": "senior-pm",
+      "stat_downloads": 182,
+      "stat_stars": 1,
+      "created_at": "2026-03-11T03:07:50.593000",
+      "days_old": 17,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "cs-playwright-pro",
+      "display_name": "playwright-pro",
+      "stat_downloads": 182,
+      "stat_stars": 0,
+      "created_at": "2026-03-11T15:57:55.983000",
+      "days_old": 17,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "atlassian-admin",
+      "display_name": "atlassian-admin",
+      "stat_downloads": 177,
+      "stat_stars": 0,
+      "created_at": "2026-03-11T01:51:43.487000",
+      "days_old": 17,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "competitive-teardown",
+      "display_name": "competitive-teardown",
+      "stat_downloads": 177,
+      "stat_stars": 0,
+      "created_at": "2026-03-10T18:16:26.392000",
+      "days_old": 18,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "cs-self-improving-agent",
+      "display_name": "self-improving-agent",
+      "stat_downloads": 175,
+      "stat_stars": 0,
+      "created_at": "2026-03-11T15:50:29.376000",
+      "days_old": 17,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "confluence-expert",
+      "display_name": "confluence-expert",
+      "stat_downloads": 174,
+      "stat_stars": 0,
+      "created_at": "2026-03-11T01:51:53.510000",
+      "days_old": 17,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "cs-pw",
+      "display_name": "Tmp.SpQgKzelJa",
+      "stat_downloads": 173,
+      "stat_stars": 0,
+      "created_at": "2026-03-10T18:14:47.657000",
+      "days_old": 18,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "seek-and-analyze-video",
+      "display_name": "Seek And Analyze Video",
+      "stat_downloads": 170,
+      "stat_stars": 0,
+      "created_at": "2026-03-10T13:11:46.715000",
+      "days_old": 18,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "cs-landing-page-generator",
+      "display_name": "landing-page-generator",
+      "stat_downloads": 167,
+      "stat_stars": 0,
+      "created_at": "2026-03-11T05:24:13.151000",
+      "days_old": 17,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "product-discovery",
+      "display_name": "Product Discovery",
+      "stat_downloads": 163,
+      "stat_stars": 0,
+      "created_at": "2026-03-11T14:25:08.101000",
+      "days_old": 17,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "saas-metrics-coach",
+      "display_name": "saas-metrics-coach",
+      "stat_downloads": 162,
+      "stat_stars": 0,
+      "created_at": "2026-03-11T04:23:46.480000",
+      "days_old": 17,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "terraform-patterns",
+      "display_name": "Terraform Patterns",
+      "stat_downloads": 64,
+      "stat_stars": 0,
+      "created_at": "2026-03-20T08:56:31.225000",
+      "days_old": 8,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "docker-development",
+      "display_name": "Docker Development",
+      "stat_downloads": 59,
+      "stat_stars": 0,
+      "created_at": "2026-03-20T08:56:18.509000",
+      "days_old": 8,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "research-summarizer",
+      "display_name": "Research Summarizer",
+      "stat_downloads": 58,
+      "stat_stars": 0,
+      "created_at": "2026-03-20T08:56:39.510000",
+      "days_old": 8,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "epic-design",
+      "display_name": "Epic Design",
+      "stat_downloads": 57,
+      "stat_stars": 0,
+      "created_at": "2026-03-20T08:56:00.669000",
+      "days_old": 8,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "code-to-prd",
+      "display_name": "Code To Prd",
+      "stat_downloads": 56,
+      "stat_stars": 0,
+      "created_at": "2026-03-20T08:56:35.971000",
+      "days_old": 8,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "autoresearch-agent",
+      "display_name": "Autoresearch Agent",
+      "stat_downloads": 53,
+      "stat_stars": 0,
+      "created_at": "2026-03-20T08:56:15.073000",
+      "days_old": 8,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "helm-chart-builder",
+      "display_name": "Helm Chart Builder",
+      "stat_downloads": 52,
+      "stat_stars": 0,
+      "created_at": "2026-03-20T08:56:21.877000",
+      "days_old": 8,
+      "is_highlighted": false,
+      "is_suspicious": false
+    }
+  ],
+  "trajectory": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 102983,
+      "stars": 103
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 104275,
+      "stars": 104
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 108373,
+      "stars": 118
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 110570,
+      "stars": 123
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 112402,
+      "stars": 136
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 114416,
+      "stars": 138
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 119266,
+      "stars": 144
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 119633,
+      "stars": 144
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 120312,
+      "stars": 145
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 123116,
+      "stars": 147
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 127439,
+      "stars": 153
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 127439,
+      "stars": 153
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 128362,
+      "stars": 154
+    }
+  ],
+  "download_trajectory": [
+    102983,
+    104275,
+    108373,
+    110570,
+    112402,
+    114416,
+    119266,
+    119633,
+    120312,
+    123116,
+    127439,
+    127439,
+    128362
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd73wsb3xw1h9trg0fr5jxvmxn80pvvx",
+  "slug": "lnbits-with-qrcode",
+  "display_name": "LNBits Wallet wtih QR Code",
+  "summary": "Manage LNbits Lightning Wallet (Balance, Pay, Invoice)",
+  "owner_handle": "jamestsetsekas",
+  "owner_image": "https://avatars.githubusercontent.com/u/8147662?v=4",
+  "created_at": "2026-02-07T04:19:29.454000",
+  "days_old": 48,
+  "stat_downloads": 20101,
+  "stat_stars": 6,
+  "tags": {
+    "latest": "k973wv41myvpm4rvxn08gze63s80ryvs"
+  },
+  "badges": null,
+  "stat_installs": 16,
+  "stat_comments": 1,
+  "current_version": "1.0.2",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 418.8,
+  "acceleration_pct": -82.8,
+  "dl_delta": 5,
+  "dl_wow": 0.0,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 0,
+  "installs_wow": 0.0,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 19868,
+      "stars": 6,
+      "installs_all_time": 11,
+      "installs_current": 10
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 19884,
+      "stars": 6,
+      "installs_all_time": 11,
+      "installs_current": 10
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 19926,
+      "stars": 6,
+      "installs_all_time": 11,
+      "installs_current": 10
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 19956,
+      "stars": 6,
+      "installs_all_time": 12,
+      "installs_current": 11
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 19970,
+      "stars": 6,
+      "installs_all_time": 12,
+      "installs_current": 10
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 19986,
+      "stars": 6,
+      "installs_all_time": 13,
+      "installs_current": 11
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 20028,
+      "stars": 6,
+      "installs_all_time": 15,
+      "installs_current": 13
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 20031,
+      "stars": 6,
+      "installs_all_time": 15,
+      "installs_current": 13
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 20037,
+      "stars": 6,
+      "installs_all_time": 15,
+      "installs_current": 13
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 20060,
+      "stars": 6,
+      "installs_all_time": 15,
+      "installs_current": 13
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 20096,
+      "stars": 6,
+      "installs_all_time": 16,
+      "installs_current": 14
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 20096,
+      "stars": 6,
+      "installs_all_time": 16,
+      "installs_current": 14
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 20101,
+      "stars": 6,
+      "installs_all_time": 16,
+      "installs_current": 14
+    }
+  ],
+  "version_releases": []
+}

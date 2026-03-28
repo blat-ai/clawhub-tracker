@@ -1,0 +1,129 @@
+{
+  "skill_id": "kd74k0rp0thkm7eg7h2tvam3ps80c0jy",
+  "slug": "elite-longterm-memory",
+  "display_name": "Elite Longterm Memory",
+  "summary": "Ultimate AI agent memory system for Cursor, Claude, ChatGPT & Copilot. WAL protocol + vector search + git-notes + cloud backup. Never lose context again. Vibe-coding ready.",
+  "owner_handle": "nextfrontierbuilds",
+  "owner_image": "https://avatars.githubusercontent.com/u/257253317?v=4",
+  "created_at": "2026-02-02T16:37:23.398000",
+  "days_old": 53,
+  "stat_downloads": 42196,
+  "stat_stars": 166,
+  "tags": {
+    "ai": "k9717w5j1985bttdptp48efpw180d3r1",
+    "clawdbot": "k9717w5j1985bttdptp48efpw180d3r1",
+    "latest": "k972pg04qwh1fppcbr11g0wcg180zpwy",
+    "long-term": "k9717w5j1985bttdptp48efpw180d3r1",
+    "memory": "k9717w5j1985bttdptp48efpw180d3r1",
+    "openclaw": "k9717w5j1985bttdptp48efpw180d3r1",
+    "persistence": "k9717w5j1985bttdptp48efpw180d3r1"
+  },
+  "badges": null,
+  "stat_installs": 453,
+  "stat_comments": 5,
+  "current_version": "1.2.3",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 796.2,
+  "acceleration_pct": -70.1,
+  "dl_delta": 289,
+  "dl_wow": 0.7,
+  "star_delta": 2,
+  "star_wow": 1.2,
+  "installs_delta": 4,
+  "installs_wow": 0.9,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 34371,
+      "stars": 141,
+      "installs_all_time": 339,
+      "installs_current": 320
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 34855,
+      "stars": 143,
+      "installs_all_time": 351,
+      "installs_current": 332
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 35901,
+      "stars": 146,
+      "installs_all_time": 367,
+      "installs_current": 346
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 36689,
+      "stars": 150,
+      "installs_all_time": 374,
+      "installs_current": 352
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 37478,
+      "stars": 152,
+      "installs_all_time": 379,
+      "installs_current": 353
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 38231,
+      "stars": 155,
+      "installs_all_time": 394,
+      "installs_current": 366
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 39658,
+      "stars": 160,
+      "installs_all_time": 416,
+      "installs_current": 387
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 39773,
+      "stars": 160,
+      "installs_all_time": 418,
+      "installs_current": 389
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 39975,
+      "stars": 160,
+      "installs_all_time": 422,
+      "installs_current": 393
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 40739,
+      "stars": 161,
+      "installs_all_time": 433,
+      "installs_current": 404
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 41907,
+      "stars": 164,
+      "installs_all_time": 449,
+      "installs_current": 421
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 41907,
+      "stars": 164,
+      "installs_all_time": 449,
+      "installs_current": 421
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 42196,
+      "stars": 166,
+      "installs_all_time": 453,
+      "installs_current": 425
+    }
+  ],
+  "version_releases": []
+}

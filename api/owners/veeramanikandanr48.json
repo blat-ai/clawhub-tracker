@@ -1,0 +1,646 @@
+{
+  "handle": "veeramanikandanr48",
+  "total_downloads": 171526,
+  "total_stars": 305,
+  "total_installs": 1047,
+  "skill_count": 53,
+  "avg_dl_per_day": 57.8,
+  "highlighted_count": 0,
+  "suspicious_count": 53,
+  "clean_pct": 0.0,
+  "dl_delta": 723,
+  "dl_wow": 0.4,
+  "dl_per_day": 723.0,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "star_per_day": 0,
+  "installs_delta": 7,
+  "installs_wow": 0.7,
+  "installs_per_day": 7.0,
+  "owner_display_name": "Veera",
+  "owner_name": null,
+  "owner_image": "https://avatars.githubusercontent.com/u/119089869?v=4",
+  "bio": "Data Analysis Enthusiast | Full Stack Developer | Data Analyst | React Js | Node Js\r\n",
+  "company": null,
+  "location": "Thiruvannamalai, TamilNadu, Thiruvannamalai.",
+  "blog": "https://veeramanikandan.vercel.app/",
+  "public_repos": 90,
+  "followers": 12,
+  "following": 3,
+  "github_created_at": "2022-11-26T02:45:41",
+  "twitter_username": "Veera_r_tech",
+  "skills": [
+    {
+      "slug": "us-stock-analysis",
+      "display_name": "Us Stock Analysis",
+      "stat_downloads": 13476,
+      "stat_stars": 48,
+      "created_at": "2026-01-31T14:33:19.946000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "market-environment-analysis",
+      "display_name": "Market Environment Analysis",
+      "stat_downloads": 8887,
+      "stat_stars": 14,
+      "created_at": "2026-01-31T14:37:52.220000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "technical-analyst",
+      "display_name": "Technical Analyst",
+      "stat_downloads": 8261,
+      "stat_stars": 31,
+      "created_at": "2026-01-31T14:40:56.286000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "backtest-expert",
+      "display_name": "Backtest Expert",
+      "stat_downloads": 6710,
+      "stat_stars": 17,
+      "created_at": "2026-01-31T14:34:55.738000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "research-paper-writer",
+      "display_name": "Research Paper Writer",
+      "stat_downloads": 6571,
+      "stat_stars": 28,
+      "created_at": "2026-01-31T14:25:53.189000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "market-news-analyst",
+      "display_name": "Market News Analyst",
+      "stat_downloads": 6267,
+      "stat_stars": 23,
+      "created_at": "2026-01-31T14:38:22.040000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "seo-optimizer",
+      "display_name": "Seo Optimizer",
+      "stat_downloads": 5984,
+      "stat_stars": 11,
+      "created_at": "2026-01-31T14:25:20.674000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "test-master",
+      "display_name": "Test Master",
+      "stat_downloads": 5737,
+      "stat_stars": 7,
+      "created_at": "2026-01-31T05:54:06.815000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "react-expert",
+      "display_name": "React Expert",
+      "stat_downloads": 5696,
+      "stat_stars": 4,
+      "created_at": "2026-01-31T05:52:00.738000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "pentest",
+      "display_name": "security-reviewer",
+      "stat_downloads": 5537,
+      "stat_stars": 4,
+      "created_at": "2026-01-31T05:41:36.883000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "architecture-designer",
+      "display_name": "Architecture Designer",
+      "stat_downloads": 4622,
+      "stat_stars": 2,
+      "created_at": "2026-01-31T05:47:57.264000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "cli-developer",
+      "display_name": "Cli Developer",
+      "stat_downloads": 4494,
+      "stat_stars": 1,
+      "created_at": "2026-01-31T05:50:05.053000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "economic-calendar-fetcher",
+      "display_name": "Economic Calendar Fetcher",
+      "stat_downloads": 4006,
+      "stat_stars": 2,
+      "created_at": "2026-01-31T14:37:00.982000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "wordpress-pro",
+      "display_name": "Wordpress Pro",
+      "stat_downloads": 3790,
+      "stat_stars": 9,
+      "created_at": "2026-01-31T05:53:43.877000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "portfolio-manager",
+      "display_name": "Portfolio Manager",
+      "stat_downloads": 3190,
+      "stat_stars": 2,
+      "created_at": "2026-01-31T14:36:24.478000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "institutional-flow-tracker",
+      "display_name": "Institutional Flow Tracker",
+      "stat_downloads": 3074,
+      "stat_stars": 5,
+      "created_at": "2026-01-31T14:37:31.206000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "api-designer",
+      "display_name": "Api Designer",
+      "stat_downloads": 3056,
+      "stat_stars": 1,
+      "created_at": "2026-01-31T05:44:31.122000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "cryptocurrency-trader-skill",
+      "display_name": "Cryptocurrency Trader",
+      "stat_downloads": 2891,
+      "stat_stars": 10,
+      "created_at": "2026-01-31T14:47:55.542000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "vue-expert",
+      "display_name": "Vue Expert",
+      "stat_downloads": 2782,
+      "stat_stars": 5,
+      "created_at": "2026-01-31T05:53:56.660000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "agent-development",
+      "display_name": "Agent Development",
+      "stat_downloads": 2747,
+      "stat_stars": 8,
+      "created_at": "2026-01-31T14:51:49.001000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "typescript-pro",
+      "display_name": "Typescript Pro",
+      "stat_downloads": 2647,
+      "stat_stars": 4,
+      "created_at": "2026-01-31T05:54:00.175000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "terraform-engineer",
+      "display_name": "Terraform Engineer",
+      "stat_downloads": 2645,
+      "stat_stars": 2,
+      "created_at": "2026-01-31T05:54:09.955000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "codebase-documenter",
+      "display_name": "Codebase Documenter",
+      "stat_downloads": 2587,
+      "stat_stars": 1,
+      "created_at": "2026-01-31T14:27:02.469000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "swift-expert",
+      "display_name": "Swift Expert",
+      "stat_downloads": 2467,
+      "stat_stars": 3,
+      "created_at": "2026-01-31T05:56:23.480000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "sql-pro",
+      "display_name": "Sql Pro",
+      "stat_downloads": 2413,
+      "stat_stars": 4,
+      "created_at": "2026-01-31T05:56:30.706000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "accessibility",
+      "display_name": "Accessibility",
+      "stat_downloads": 2404,
+      "stat_stars": 0,
+      "created_at": "2026-01-31T14:51:20.638000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "breadth-chart-analyst",
+      "display_name": "Breadth Chart Analyst",
+      "stat_downloads": 2343,
+      "stat_stars": 5,
+      "created_at": "2026-01-31T14:34:26.407000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "earnings-calendar",
+      "display_name": "Earnings Calendar",
+      "stat_downloads": 2314,
+      "stat_stars": 1,
+      "created_at": "2026-01-31T14:43:09.819000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "test-specialist",
+      "display_name": "Test Specialist",
+      "stat_downloads": 2187,
+      "stat_stars": 3,
+      "created_at": "2026-01-31T14:26:29.015000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "sector-analyst",
+      "display_name": "Sector Analyst",
+      "stat_downloads": 2158,
+      "stat_stars": 14,
+      "created_at": "2026-01-31T14:41:03.704000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "pair-trade-screener",
+      "display_name": "Pair Trade Screener",
+      "stat_downloads": 2064,
+      "stat_stars": 5,
+      "created_at": "2026-01-31T14:41:10.090000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "options-strategy-advisor",
+      "display_name": "Options Strategy Advisor",
+      "stat_downloads": 2045,
+      "stat_stars": 3,
+      "created_at": "2026-01-31T14:41:14.222000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "secure-code-guardian",
+      "display_name": "Secure Code Guardian",
+      "stat_downloads": 2044,
+      "stat_stars": 1,
+      "created_at": "2026-01-31T05:56:47.285000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "auto-animate",
+      "display_name": "Auto Animate",
+      "stat_downloads": 1894,
+      "stat_stars": 1,
+      "created_at": "2026-01-31T14:53:39.878000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "spring-boot-engineer",
+      "display_name": "Spring Boot Engineer",
+      "stat_downloads": 1839,
+      "stat_stars": 4,
+      "created_at": "2026-01-31T05:56:34.315000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "better-auth",
+      "display_name": "Better Auth",
+      "stat_downloads": 1835,
+      "stat_stars": 1,
+      "created_at": "2026-01-31T14:54:04.068000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "cicd-pipeline-generator",
+      "display_name": "Cicd Pipeline Generator",
+      "stat_downloads": 1821,
+      "stat_stars": 1,
+      "created_at": "2026-01-31T14:27:45.346000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "mcp",
+      "display_name": "mcp-builder",
+      "stat_downloads": 1812,
+      "stat_stars": 1,
+      "created_at": "2026-01-31T05:30:00.086000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "vue-expert-js",
+      "display_name": "Vue Expert Js",
+      "stat_downloads": 1775,
+      "stat_stars": 2,
+      "created_at": "2026-01-31T05:53:52.122000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "ai-sdk-core",
+      "display_name": "Ai Sdk Core",
+      "stat_downloads": 1768,
+      "stat_stars": 2,
+      "created_at": "2026-01-31T14:52:41.364000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "websocket-engineer",
+      "display_name": "Websocket Engineer",
+      "stat_downloads": 1754,
+      "stat_stars": 2,
+      "created_at": "2026-01-31T05:53:48.304000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "us-market-bubble-detector",
+      "display_name": "Us Market Bubble Detector",
+      "stat_downloads": 1695,
+      "stat_stars": 3,
+      "created_at": "2026-01-31T14:40:53.503000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "spark-engineer",
+      "display_name": "Spark Engineer",
+      "stat_downloads": 1684,
+      "stat_stars": 1,
+      "created_at": "2026-01-31T05:56:43.707000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "dividend-growth-pullback-screener",
+      "display_name": "Dividend Growth Pullback Screener",
+      "stat_downloads": 1664,
+      "stat_stars": 1,
+      "created_at": "2026-01-31T14:34:05.357000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "claude-agent-sdk",
+      "display_name": "Claude Agent Sdk",
+      "stat_downloads": 1659,
+      "stat_stars": 0,
+      "created_at": "2026-01-31T14:55:06.699000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "sre-engineer",
+      "display_name": "Sre Engineer",
+      "stat_downloads": 1636,
+      "stat_stars": 0,
+      "created_at": "2026-01-31T05:56:26.818000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "brand-analyzer",
+      "display_name": "Brand Analyzer",
+      "stat_downloads": 1621,
+      "stat_stars": 3,
+      "created_at": "2026-01-31T14:28:58.566000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "spec-miner",
+      "display_name": "Spec Miner",
+      "stat_downloads": 1600,
+      "stat_stars": 0,
+      "created_at": "2026-01-31T05:56:38.614000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "angular-architect",
+      "display_name": "Angular Architect",
+      "stat_downloads": 1589,
+      "stat_stars": 2,
+      "created_at": "2026-01-31T05:43:42.285000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "scenario-analyzer",
+      "display_name": "Scenario Analyzer",
+      "stat_downloads": 1518,
+      "stat_stars": 1,
+      "created_at": "2026-01-31T14:41:07.624000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "clerk-auth",
+      "display_name": "Clerk Auth",
+      "stat_downloads": 1460,
+      "stat_stars": 0,
+      "created_at": "2026-01-31T14:55:43.181000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "ai-sdk-ui",
+      "display_name": "Ai Sdk Ui",
+      "stat_downloads": 1457,
+      "stat_stars": 1,
+      "created_at": "2026-01-31T14:53:09.588000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "azure-auth",
+      "display_name": "Azure Auth",
+      "stat_downloads": 1349,
+      "stat_stars": 1,
+      "created_at": "2026-01-31T14:54:35.836000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": true
+    }
+  ],
+  "trajectory": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 153697,
+      "stars": 280
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 154828,
+      "stars": 281
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 156993,
+      "stars": 285
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 158477,
+      "stars": 286
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 160070,
+      "stars": 287
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 161824,
+      "stars": 288
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 165235,
+      "stars": 291
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 165486,
+      "stars": 291
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 166002,
+      "stars": 292
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 167856,
+      "stars": 297
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 170803,
+      "stars": 305
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 170803,
+      "stars": 305
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 171526,
+      "stars": 305
+    }
+  ],
+  "download_trajectory": [
+    153697,
+    154828,
+    156993,
+    158477,
+    160070,
+    161824,
+    165235,
+    165486,
+    166002,
+    167856,
+    170803,
+    170803,
+    171526
+  ]
+}

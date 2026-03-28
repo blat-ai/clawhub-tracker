@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd7e2wyr0whjbkwxxcraz7f5gs7ykpk2",
+  "slug": "discord",
+  "display_name": "Discord",
+  "summary": "Use when you need to control Discord from Clawdbot via the discord tool: send messages, react, post or upload stickers, upload emojis, run polls, manage threads/pins/search, fetch permissions or member/role/channel info, or handle moderation actions in Discord DMs or channels.",
+  "owner_handle": "steipete",
+  "owner_image": "https://avatars.githubusercontent.com/u/58493?v=4",
+  "created_at": "2026-01-04T16:48:31.074000",
+  "days_old": 82,
+  "stat_downloads": 25299,
+  "stat_stars": 55,
+  "tags": {
+    "latest": "k979r9etqg0j4r5j3jxhnepczn7ym8ek"
+  },
+  "badges": null,
+  "stat_installs": 1109,
+  "stat_comments": 4,
+  "current_version": "1.0.1",
+  "is_highlighted": false,
+  "is_suspicious": false,
+  "velocity": 308.5,
+  "acceleration_pct": -70.8,
+  "dl_delta": 170,
+  "dl_wow": 0.7,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 5,
+  "installs_wow": 0.5,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 21450,
+      "stars": 51,
+      "installs_all_time": 958,
+      "installs_current": 939
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 21732,
+      "stars": 51,
+      "installs_all_time": 969,
+      "installs_current": 950
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 22190,
+      "stars": 52,
+      "installs_all_time": 994,
+      "installs_current": 975
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 22526,
+      "stars": 53,
+      "installs_all_time": 1012,
+      "installs_current": 993
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 22912,
+      "stars": 53,
+      "installs_all_time": 1026,
+      "installs_current": 1005
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 23281,
+      "stars": 55,
+      "installs_all_time": 1048,
+      "installs_current": 1026
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 23909,
+      "stars": 55,
+      "installs_all_time": 1068,
+      "installs_current": 1046
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 23968,
+      "stars": 55,
+      "installs_all_time": 1073,
+      "installs_current": 1051
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 24112,
+      "stars": 55,
+      "installs_all_time": 1076,
+      "installs_current": 1054
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 24550,
+      "stars": 55,
+      "installs_all_time": 1089,
+      "installs_current": 1067
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 25129,
+      "stars": 55,
+      "installs_all_time": 1104,
+      "installs_current": 1081
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 25129,
+      "stars": 55,
+      "installs_all_time": 1104,
+      "installs_current": 1081
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 25299,
+      "stars": 55,
+      "installs_all_time": 1109,
+      "installs_current": 1085
+    }
+  ],
+  "version_releases": []
+}

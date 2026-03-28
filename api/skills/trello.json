@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd79hv7wxce5yjamakdh9wymmn7yjmzc",
+  "slug": "trello",
+  "display_name": "Trello",
+  "summary": "Manage Trello boards, lists, and cards via the Trello REST API.",
+  "owner_handle": "steipete",
+  "owner_image": "https://avatars.githubusercontent.com/u/58493?v=4",
+  "created_at": "2026-01-04T16:49:49.426000",
+  "days_old": 82,
+  "stat_downloads": 30314,
+  "stat_stars": 117,
+  "tags": {
+    "latest": "k972ztzdw6e8fsz0f3vpj3dzhh7yj8kw"
+  },
+  "badges": "{\"highlighted\": {\"at\": 1769572021645.0, \"byUserId\": \"kn70pywhg0fyz996kpa8xj89s57yhv26\"}}",
+  "stat_installs": 1164,
+  "stat_comments": 9,
+  "current_version": "1.0.0",
+  "is_highlighted": true,
+  "is_suspicious": true,
+  "velocity": 369.7,
+  "acceleration_pct": -76.5,
+  "dl_delta": 118,
+  "dl_wow": 0.4,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 5,
+  "installs_wow": 0.4,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 26898,
+      "stars": 111,
+      "installs_all_time": 1018,
+      "installs_current": 991
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 27186,
+      "stars": 111,
+      "installs_all_time": 1030,
+      "installs_current": 1003
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 27685,
+      "stars": 113,
+      "installs_all_time": 1052,
+      "installs_current": 1024
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 28023,
+      "stars": 113,
+      "installs_all_time": 1067,
+      "installs_current": 1039
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 28344,
+      "stars": 114,
+      "installs_all_time": 1082,
+      "installs_current": 1052
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 28640,
+      "stars": 115,
+      "installs_all_time": 1101,
+      "installs_current": 1070
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 29161,
+      "stars": 116,
+      "installs_all_time": 1123,
+      "installs_current": 1092
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 29203,
+      "stars": 116,
+      "installs_all_time": 1129,
+      "installs_current": 1097
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 29314,
+      "stars": 116,
+      "installs_all_time": 1132,
+      "installs_current": 1100
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 29705,
+      "stars": 116,
+      "installs_all_time": 1143,
+      "installs_current": 1111
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 30196,
+      "stars": 117,
+      "installs_all_time": 1159,
+      "installs_current": 1127
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 30196,
+      "stars": 117,
+      "installs_all_time": 1159,
+      "installs_current": 1127
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 30314,
+      "stars": 117,
+      "installs_all_time": 1164,
+      "installs_current": 1131
+    }
+  ],
+  "version_releases": []
+}

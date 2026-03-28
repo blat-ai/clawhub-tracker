@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd7cjm4z2jwsjjhcv8yprcgez98012kw",
+  "slug": "byterover",
+  "display_name": "ByteRover",
+  "summary": "You MUST use this for gathering contexts before any work. This is a Knowledge management for AI agents. Use `brv` to store and retrieve project patterns, dec...",
+  "owner_handle": "byteroverinc",
+  "owner_image": "https://avatars.githubusercontent.com/u/257500950?v=4",
+  "created_at": "2026-01-27T10:13:25.216000",
+  "days_old": 59,
+  "stat_downloads": 32264,
+  "stat_stars": 107,
+  "tags": {
+    "latest": "k97dvsgd3gp082ztgz9p1phj6s8331mw"
+  },
+  "badges": null,
+  "stat_installs": 217,
+  "stat_comments": 4,
+  "current_version": "2.1.0",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 546.8,
+  "acceleration_pct": -75.1,
+  "dl_delta": 77,
+  "dl_wow": 0.2,
+  "star_delta": 1,
+  "star_wow": 0.9,
+  "installs_delta": 0,
+  "installs_wow": 0.0,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 30303,
+      "stars": 100,
+      "installs_all_time": 170,
+      "installs_current": 158
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 30450,
+      "stars": 100,
+      "installs_all_time": 175,
+      "installs_current": 163
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 30688,
+      "stars": 102,
+      "installs_all_time": 180,
+      "installs_current": 168
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 30905,
+      "stars": 103,
+      "installs_all_time": 186,
+      "installs_current": 174
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 31076,
+      "stars": 103,
+      "installs_all_time": 188,
+      "installs_current": 175
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 31224,
+      "stars": 105,
+      "installs_all_time": 195,
+      "installs_current": 181
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 31525,
+      "stars": 105,
+      "installs_all_time": 204,
+      "installs_current": 189
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 31557,
+      "stars": 105,
+      "installs_all_time": 204,
+      "installs_current": 189
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 31628,
+      "stars": 105,
+      "installs_all_time": 205,
+      "installs_current": 190
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 31866,
+      "stars": 105,
+      "installs_all_time": 210,
+      "installs_current": 194
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 32187,
+      "stars": 106,
+      "installs_all_time": 217,
+      "installs_current": 200
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 32187,
+      "stars": 106,
+      "installs_all_time": 217,
+      "installs_current": 200
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 32264,
+      "stars": 107,
+      "installs_all_time": 217,
+      "installs_current": 200
+    }
+  ],
+  "version_releases": []
+}

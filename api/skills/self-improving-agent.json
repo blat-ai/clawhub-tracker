@@ -1,0 +1,113 @@
+{
+  "skill_id": "kd71q6bf0e8vcgdcxfdd3qyd817ynzhk",
+  "slug": "self-improving-agent",
+  "display_name": "self-improving-agent",
+  "summary": "Captures learnings, errors, and corrections to enable continuous improvement. Use when: (1) A command or operation fails unexpectedly, (2) User corrects Clau...",
+  "owner_handle": "pskoett",
+  "owner_image": "https://avatars.githubusercontent.com/u/177305814?v=4",
+  "created_at": "2026-01-05T17:03:18.365000",
+  "days_old": 81,
+  "stat_downloads": 314094,
+  "stat_stars": 2763,
+  "tags": {
+    "latest": "k97bdyjg9dtrc4tt1638qv0p5983pv6y"
+  },
+  "badges": null,
+  "stat_installs": 5209,
+  "stat_comments": 51,
+  "current_version": "3.0.8",
+  "is_highlighted": false,
+  "is_suspicious": false,
+  "velocity": 3877.7,
+  "acceleration_pct": null,
+  "dl_delta": 8951,
+  "dl_wow": 2.9,
+  "star_delta": 53,
+  "star_wow": 2.0,
+  "installs_delta": 148,
+  "installs_wow": 2.9,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 250357,
+      "stars": 2295,
+      "installs_all_time": 4051,
+      "installs_current": 3888
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 255172,
+      "stars": 2344,
+      "installs_all_time": 4160,
+      "installs_current": 4001
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 265630,
+      "stars": 2426,
+      "installs_all_time": 4351,
+      "installs_current": 4189
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 273365,
+      "stars": 2493,
+      "installs_all_time": 4495,
+      "installs_current": 4327
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 280381,
+      "stars": 2535,
+      "installs_all_time": 4622,
+      "installs_current": 4446
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 287001,
+      "stars": 2584,
+      "installs_all_time": 4748,
+      "installs_current": 4571
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 295819,
+      "stars": 2652,
+      "installs_all_time": 4929,
+      "installs_current": 4704
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 297187,
+      "stars": 2662,
+      "installs_all_time": 4944,
+      "installs_current": 4719
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 305143,
+      "stars": 2710,
+      "installs_all_time": 5061,
+      "installs_current": 4841
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 314094,
+      "stars": 2763,
+      "installs_all_time": 5209,
+      "installs_current": 4954
+    }
+  ],
+  "version_releases": [
+    {
+      "version_number": "3.0.6",
+      "run_date": "2026-03-24T16:57:13.814672",
+      "changelog": "no changes re-upload after clawhub update"
+    },
+    {
+      "version_number": "3.0.8",
+      "run_date": "2026-03-28T03:00:00.365056",
+      "changelog": "No code or documentation changes detected in this release.\n\n- Version update with no modifications to files or SKILL.md.\n- No user-facing changes or new features."
+    }
+  ]
+}

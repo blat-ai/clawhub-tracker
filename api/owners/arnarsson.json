@@ -1,0 +1,226 @@
+{
+  "handle": "arnarsson",
+  "total_downloads": 72144,
+  "total_stars": 82,
+  "total_installs": 657,
+  "skill_count": 11,
+  "avg_dl_per_day": 113.1,
+  "highlighted_count": 0,
+  "suspicious_count": 11,
+  "clean_pct": 0.0,
+  "dl_delta": 288,
+  "dl_wow": 0.4,
+  "dl_per_day": 288.0,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "star_per_day": 0,
+  "installs_delta": 3,
+  "installs_wow": 0.5,
+  "installs_per_day": 3.0,
+  "owner_display_name": "Arnarsson",
+  "owner_name": null,
+  "owner_image": "https://avatars.githubusercontent.com/u/96142966?v=4",
+  "bio": "\u201cI Connect Dots\"",
+  "company": "Seven",
+  "location": "Copenhagen",
+  "blog": null,
+  "public_repos": 102,
+  "followers": 1,
+  "following": 18,
+  "github_created_at": "2021-12-14T18:55:09",
+  "twitter_username": null,
+  "skills": [
+    {
+      "slug": "docker-essentials",
+      "display_name": "Docker Essentials",
+      "stat_downloads": 23080,
+      "stat_stars": 27,
+      "created_at": "2026-01-29T13:07:20.015000",
+      "days_old": 58,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "git-essentials",
+      "display_name": "Git Essentials",
+      "stat_downloads": 20605,
+      "stat_stars": 29,
+      "created_at": "2026-01-29T13:07:25.864000",
+      "days_old": 58,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "ssh-essentials",
+      "display_name": "Ssh Essentials",
+      "stat_downloads": 7919,
+      "stat_stars": 14,
+      "created_at": "2026-01-29T13:07:43.680000",
+      "days_old": 58,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "curl-http",
+      "display_name": "Curl Http",
+      "stat_downloads": 4605,
+      "stat_stars": 5,
+      "created_at": "2026-01-29T13:07:33.458000",
+      "days_old": 58,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "fd-find",
+      "display_name": "Fd Find",
+      "stat_downloads": 2856,
+      "stat_stars": 1,
+      "created_at": "2026-01-29T13:07:06.097000",
+      "days_old": 58,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "bat-cat",
+      "display_name": "Bat Cat",
+      "stat_downloads": 2726,
+      "stat_stars": 2,
+      "created_at": "2026-01-29T13:07:14.002000",
+      "days_old": 58,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "jq-json-processor",
+      "display_name": "Jq Json Processor",
+      "stat_downloads": 2559,
+      "stat_stars": 1,
+      "created_at": "2026-01-29T13:06:50.402000",
+      "days_old": 58,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "ripgrep",
+      "display_name": "Ripgrep",
+      "stat_downloads": 2442,
+      "stat_stars": 1,
+      "created_at": "2026-01-29T13:06:58.910000",
+      "days_old": 58,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "fzf-fuzzy-finder",
+      "display_name": "Fzf Fuzzy Finder",
+      "stat_downloads": 2157,
+      "stat_stars": 1,
+      "created_at": "2026-01-29T13:07:51.613000",
+      "days_old": 58,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "eureka-feedback",
+      "display_name": "Eureka Feedback",
+      "stat_downloads": 1639,
+      "stat_stars": 1,
+      "created_at": "2026-01-29T13:01:53.020000",
+      "days_old": 58,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "linear-webhook",
+      "display_name": "Linear Webhook",
+      "stat_downloads": 1556,
+      "stat_stars": 0,
+      "created_at": "2026-01-29T13:02:01.565000",
+      "days_old": 58,
+      "is_highlighted": false,
+      "is_suspicious": true
+    }
+  ],
+  "trajectory": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 64218,
+      "stars": 68
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 64757,
+      "stars": 69
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 65828,
+      "stars": 71
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 66635,
+      "stars": 71
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 67380,
+      "stars": 73
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 68144,
+      "stars": 74
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 69487,
+      "stars": 75
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 69567,
+      "stars": 76
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 69821,
+      "stars": 76
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 70635,
+      "stars": 76
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 71856,
+      "stars": 82
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 71856,
+      "stars": 82
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 72144,
+      "stars": 82
+    }
+  ],
+  "download_trajectory": [
+    64218,
+    64757,
+    65828,
+    66635,
+    67380,
+    68144,
+    69487,
+    69567,
+    69821,
+    70635,
+    71856,
+    71856,
+    72144
+  ]
+}

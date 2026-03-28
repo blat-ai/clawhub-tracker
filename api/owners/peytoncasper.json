@@ -1,0 +1,166 @@
+{
+  "handle": "peytoncasper",
+  "total_downloads": 43144,
+  "total_stars": 44,
+  "total_installs": 499,
+  "skill_count": 5,
+  "avg_dl_per_day": 169.2,
+  "highlighted_count": 0,
+  "suspicious_count": 5,
+  "clean_pct": 0.0,
+  "dl_delta": 261,
+  "dl_wow": 0.6,
+  "dl_per_day": 261.0,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "star_per_day": 0,
+  "installs_delta": 4,
+  "installs_wow": 0.8,
+  "installs_per_day": 4.0,
+  "owner_display_name": "peytoncasper",
+  "owner_name": "peytoncasper",
+  "owner_image": "https://avatars.githubusercontent.com/u/8305883?v=4",
+  "bio": null,
+  "company": null,
+  "location": null,
+  "blog": null,
+  "public_repos": 88,
+  "followers": 34,
+  "following": 4,
+  "github_created_at": "2014-07-30T03:05:47",
+  "twitter_username": null,
+  "skills": [
+    {
+      "slug": "browser-automation",
+      "display_name": "Browser Automation",
+      "stat_downloads": 28497,
+      "stat_stars": 40,
+      "created_at": "2026-02-05T15:58:11.925000",
+      "days_old": 51,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "agent-browser-stagehand",
+      "display_name": "Agent Browser - Stagehand",
+      "stat_downloads": 5753,
+      "stat_stars": 4,
+      "created_at": "2026-02-05T15:59:09.372000",
+      "days_old": 51,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "stagehand-browser-cli",
+      "display_name": "Stagehand Browser CLI",
+      "stat_downloads": 5210,
+      "stat_stars": 0,
+      "created_at": "2026-02-05T16:01:58.021000",
+      "days_old": 51,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "browser-pc",
+      "display_name": "Browser Automation CLI",
+      "stat_downloads": 2352,
+      "stat_stars": 0,
+      "created_at": "2026-02-05T16:02:09.444000",
+      "days_old": 51,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "functions",
+      "display_name": "Functions",
+      "stat_downloads": 1332,
+      "stat_stars": 0,
+      "created_at": "2026-02-05T16:00:34.258000",
+      "days_old": 51,
+      "is_highlighted": false,
+      "is_suspicious": true
+    }
+  ],
+  "trajectory": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 36306,
+      "stars": 38
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 36769,
+      "stars": 39
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 37624,
+      "stars": 40
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 38337,
+      "stars": 41
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 38969,
+      "stars": 42
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 39624,
+      "stars": 42
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 40813,
+      "stars": 42
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 40904,
+      "stars": 42
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 41104,
+      "stars": 42
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 41787,
+      "stars": 42
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 42883,
+      "stars": 44
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 42883,
+      "stars": 44
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 43144,
+      "stars": 44
+    }
+  ],
+  "download_trajectory": [
+    36306,
+    36769,
+    37624,
+    38337,
+    38969,
+    39624,
+    40813,
+    40904,
+    41104,
+    41787,
+    42883,
+    42883,
+    43144
+  ]
+}

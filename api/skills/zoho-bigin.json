@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd73ftfjase6hc4cjy8d1r1hnn80mr5p",
+  "slug": "zoho-bigin",
+  "display_name": "Zoho Bigin",
+  "summary": "Zoho Bigin API integration with managed OAuth. Manage contacts, companies, pipelines, and products in Bigin CRM.\nUse this skill when users want to read, create, update, or delete CRM records, search contacts, or manage sales pipelines.\nFor other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).\nRequires network access and valid Maton API key.",
+  "owner_handle": "byungkyu",
+  "owner_image": "https://avatars.githubusercontent.com/u/16563684?v=4",
+  "created_at": "2026-02-06T12:07:30.735000",
+  "days_old": 49,
+  "stat_downloads": 11634,
+  "stat_stars": 4,
+  "tags": {
+    "latest": "k9792jq38j8jwv932ygbfh1v1580w3bm"
+  },
+  "badges": null,
+  "stat_installs": 4,
+  "stat_comments": 3,
+  "current_version": "1.0.3",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 237.4,
+  "acceleration_pct": -70.6,
+  "dl_delta": 5,
+  "dl_wow": 0.0,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 0,
+  "installs_wow": 0.0,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 11527,
+      "stars": 4,
+      "installs_all_time": 2,
+      "installs_current": 1
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 11533,
+      "stars": 4,
+      "installs_all_time": 2,
+      "installs_current": 1
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 11552,
+      "stars": 4,
+      "installs_all_time": 2,
+      "installs_current": 1
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 11564,
+      "stars": 4,
+      "installs_all_time": 3,
+      "installs_current": 2
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 11564,
+      "stars": 4,
+      "installs_all_time": 3,
+      "installs_current": 1
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 11569,
+      "stars": 4,
+      "installs_all_time": 4,
+      "installs_current": 2
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 11589,
+      "stars": 4,
+      "installs_all_time": 4,
+      "installs_current": 2
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 11590,
+      "stars": 4,
+      "installs_all_time": 4,
+      "installs_current": 2
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 11594,
+      "stars": 4,
+      "installs_all_time": 4,
+      "installs_current": 2
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 11607,
+      "stars": 4,
+      "installs_all_time": 4,
+      "installs_current": 2
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 11629,
+      "stars": 4,
+      "installs_all_time": 4,
+      "installs_current": 2
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 11629,
+      "stars": 4,
+      "installs_all_time": 4,
+      "installs_current": 2
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 11634,
+      "stars": 4,
+      "installs_all_time": 4,
+      "installs_current": 2
+    }
+  ],
+  "version_releases": []
+}

@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd7cjktzzxc179wk2jn75y71mh8228g7",
+  "slug": "find-skills-skill",
+  "display_name": "Find Skills Skill",
+  "summary": "Search and discover OpenClaw skills from various sources. Use when: user wants to find available skills, search for specific functionality, or discover new s...",
+  "owner_handle": "fangkelvin",
+  "owner_image": "https://avatars.githubusercontent.com/u/261776090?v=4",
+  "created_at": "2026-03-01T16:35:42.282000",
+  "days_old": 26,
+  "stat_downloads": 12569,
+  "stat_stars": 31,
+  "tags": {
+    "latest": "k976tq8xaetjt0645cjn3xtb2x822cx7"
+  },
+  "badges": null,
+  "stat_installs": 90,
+  "stat_comments": 0,
+  "current_version": "1.0.0",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 483.4,
+  "acceleration_pct": -70.1,
+  "dl_delta": 545,
+  "dl_wow": 4.5,
+  "star_delta": 3,
+  "star_wow": 10.7,
+  "installs_delta": 6,
+  "installs_wow": 7.1,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 2006,
+      "stars": 2,
+      "installs_all_time": 21,
+      "installs_current": 21
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 2097,
+      "stars": 2,
+      "installs_all_time": 23,
+      "installs_current": 22
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 2328,
+      "stars": 2,
+      "installs_all_time": 24,
+      "installs_current": 23
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 2495,
+      "stars": 2,
+      "installs_all_time": 26,
+      "installs_current": 24
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 3341,
+      "stars": 5,
+      "installs_all_time": 32,
+      "installs_current": 30
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 4599,
+      "stars": 6,
+      "installs_all_time": 40,
+      "installs_current": 38
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 7325,
+      "stars": 12,
+      "installs_all_time": 61,
+      "installs_current": 57
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 7567,
+      "stars": 13,
+      "installs_all_time": 64,
+      "installs_current": 60
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 7795,
+      "stars": 13,
+      "installs_all_time": 65,
+      "installs_current": 61
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 9392,
+      "stars": 19,
+      "installs_all_time": 72,
+      "installs_current": 68
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 12024,
+      "stars": 28,
+      "installs_all_time": 84,
+      "installs_current": 80
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 12024,
+      "stars": 28,
+      "installs_all_time": 84,
+      "installs_current": 80
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 12569,
+      "stars": 31,
+      "installs_all_time": 90,
+      "installs_current": 86
+    }
+  ],
+  "version_releases": []
+}

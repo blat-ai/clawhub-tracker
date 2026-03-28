@@ -1,0 +1,316 @@
+{
+  "handle": "xejrax",
+  "total_downloads": 75961,
+  "total_stars": 65,
+  "total_installs": 661,
+  "skill_count": 20,
+  "avg_dl_per_day": 71.7,
+  "highlighted_count": 0,
+  "suspicious_count": 20,
+  "clean_pct": 0.0,
+  "dl_delta": 284,
+  "dl_wow": 0.4,
+  "dl_per_day": 284.0,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "star_per_day": 0,
+  "installs_delta": 4,
+  "installs_wow": 0.6,
+  "installs_per_day": 4.0,
+  "owner_display_name": "Xejrax",
+  "owner_name": null,
+  "owner_image": "https://avatars.githubusercontent.com/u/148405630?v=4",
+  "bio": null,
+  "company": null,
+  "location": null,
+  "blog": null,
+  "public_repos": 2,
+  "followers": 5,
+  "following": 7,
+  "github_created_at": "2023-10-19T01:15:59",
+  "twitter_username": null,
+  "skills": [
+    {
+      "slug": "pdf-extract",
+      "display_name": "Pdf Extract",
+      "stat_downloads": 12632,
+      "stat_stars": 15,
+      "created_at": "2026-02-03T16:21:13.109000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "file-search",
+      "display_name": "File Search",
+      "stat_downloads": 11111,
+      "stat_stars": 15,
+      "created_at": "2026-02-03T16:20:51.974000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "image-ocr",
+      "display_name": "Image Ocr",
+      "stat_downloads": 8703,
+      "stat_stars": 10,
+      "created_at": "2026-02-03T16:21:17.206000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "system-info",
+      "display_name": "System Info",
+      "stat_downloads": 6824,
+      "stat_stars": 8,
+      "created_at": "2026-02-03T16:21:33.070000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "git-helper",
+      "display_name": "Git Helper",
+      "stat_downloads": 4179,
+      "stat_stars": 1,
+      "created_at": "2026-02-03T16:21:25.117000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "ssh-exec",
+      "display_name": "Ssh Exec",
+      "stat_downloads": 3214,
+      "stat_stars": 0,
+      "created_at": "2026-02-03T16:20:56.263000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "docker-ctl",
+      "display_name": "Docker Ctl",
+      "stat_downloads": 3110,
+      "stat_stars": 1,
+      "created_at": "2026-02-03T16:21:29.325000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "email-send",
+      "display_name": "Email Send",
+      "stat_downloads": 2970,
+      "stat_stars": 1,
+      "created_at": "2026-02-03T16:20:43.885000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "clipboard",
+      "display_name": "Clipboard",
+      "stat_downloads": 2922,
+      "stat_stars": 1,
+      "created_at": "2026-02-03T16:20:47.866000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "ping-monitor",
+      "display_name": "Ping Monitor",
+      "stat_downloads": 2509,
+      "stat_stars": 1,
+      "created_at": "2026-02-03T16:21:04.725000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "log-tail",
+      "display_name": "Log Tail",
+      "stat_downloads": 2227,
+      "stat_stars": 1,
+      "created_at": "2026-02-03T16:21:37.062000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "brainz-calendar",
+      "display_name": "Calendar",
+      "stat_downloads": 2072,
+      "stat_stars": 1,
+      "created_at": "2026-02-03T16:51:51.107000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "media-player",
+      "display_name": "Media Player",
+      "stat_downloads": 1982,
+      "stat_stars": 3,
+      "created_at": "2026-02-03T16:21:21.140000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "geo-ip",
+      "display_name": "Geo Ip",
+      "stat_downloads": 1850,
+      "stat_stars": 1,
+      "created_at": "2026-02-03T16:21:55.136000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "dns-lookup",
+      "display_name": "Dns Lookup",
+      "stat_downloads": 1783,
+      "stat_stars": 1,
+      "created_at": "2026-02-03T16:21:00.293000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "brew-install",
+      "display_name": "Brew Install",
+      "stat_downloads": 1736,
+      "stat_stars": 1,
+      "created_at": "2026-02-03T16:21:46.448000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "brainz-tasks",
+      "display_name": "Tasks",
+      "stat_downloads": 1673,
+      "stat_stars": 1,
+      "created_at": "2026-02-03T16:51:55.880000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "wifi-qr",
+      "display_name": "Wifi Qr",
+      "stat_downloads": 1597,
+      "stat_stars": 1,
+      "created_at": "2026-02-03T16:21:41.544000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "ping-beads",
+      "display_name": "Ping Beads",
+      "stat_downloads": 1496,
+      "stat_stars": 1,
+      "created_at": "2026-02-03T16:21:50.820000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "url-shorten",
+      "display_name": "Url Shorten",
+      "stat_downloads": 1371,
+      "stat_stars": 1,
+      "created_at": "2026-02-03T16:21:08.849000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": true
+    }
+  ],
+  "trajectory": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 67794,
+      "stars": 60
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 68387,
+      "stars": 60
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 69627,
+      "stars": 60
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 70476,
+      "stars": 63
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 71183,
+      "stars": 63
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 71853,
+      "stars": 63
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 73311,
+      "stars": 64
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 73403,
+      "stars": 64
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 73632,
+      "stars": 64
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 74393,
+      "stars": 64
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 75677,
+      "stars": 65
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 75677,
+      "stars": 65
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 75961,
+      "stars": 65
+    }
+  ],
+  "download_trajectory": [
+    67794,
+    68387,
+    69627,
+    70476,
+    71183,
+    71853,
+    73311,
+    73403,
+    73632,
+    74393,
+    75677,
+    75677,
+    75961
+  ]
+}

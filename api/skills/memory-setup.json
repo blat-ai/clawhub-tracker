@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd7836a46c44y1ngba8ebxyvpd802b5j",
+  "slug": "memory-setup",
+  "display_name": "Memory Setup",
+  "summary": "Enable and configure Moltbot/Clawdbot memory search for persistent context. Use when setting up memory, fixing \"goldfish brain,\" or helping users configure memorySearch in their config. Covers MEMORY.md, daily logs, and vector search setup.",
+  "owner_handle": "jrbobbyhansen-pixel",
+  "owner_image": "https://avatars.githubusercontent.com/u/247437892?v=4",
+  "created_at": "2026-01-28T02:40:45.678000",
+  "days_old": 59,
+  "stat_downloads": 27710,
+  "stat_stars": 103,
+  "tags": {
+    "latest": "k970bss9k60ngp8sz0kj2kya35803923"
+  },
+  "badges": null,
+  "stat_installs": 354,
+  "stat_comments": 5,
+  "current_version": "1.0.0",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 469.7,
+  "acceleration_pct": -70.3,
+  "dl_delta": 220,
+  "dl_wow": 0.8,
+  "star_delta": 1,
+  "star_wow": 1.0,
+  "installs_delta": 4,
+  "installs_wow": 1.1,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 21719,
+      "stars": 86,
+      "installs_all_time": 262,
+      "installs_current": 253
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 22178,
+      "stars": 87,
+      "installs_all_time": 267,
+      "installs_current": 258
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 23018,
+      "stars": 91,
+      "installs_all_time": 279,
+      "installs_current": 269
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 23636,
+      "stars": 93,
+      "installs_all_time": 292,
+      "installs_current": 282
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 24203,
+      "stars": 95,
+      "installs_all_time": 297,
+      "installs_current": 285
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 24808,
+      "stars": 96,
+      "installs_all_time": 310,
+      "installs_current": 296
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 25858,
+      "stars": 98,
+      "installs_all_time": 328,
+      "installs_current": 313
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 25929,
+      "stars": 99,
+      "installs_all_time": 329,
+      "installs_current": 314
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 26042,
+      "stars": 99,
+      "installs_all_time": 330,
+      "installs_current": 315
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 26669,
+      "stars": 100,
+      "installs_all_time": 338,
+      "installs_current": 323
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 27490,
+      "stars": 102,
+      "installs_all_time": 350,
+      "installs_current": 332
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 27490,
+      "stars": 102,
+      "installs_all_time": 350,
+      "installs_current": 332
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 27710,
+      "stars": 103,
+      "installs_all_time": 354,
+      "installs_current": 336
+    }
+  ],
+  "version_releases": []
+}

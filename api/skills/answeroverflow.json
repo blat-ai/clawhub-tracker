@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd7chjwkwcc4hsr8zr6rbwfrqd803hk0",
+  "slug": "answeroverflow",
+  "display_name": "Answer Overflow",
+  "summary": "Search indexed Discord community discussions via Answer Overflow. Find solutions to coding problems, library issues, and community Q&A that only exist in Discord conversations.",
+  "owner_handle": "rhyssullivan",
+  "owner_image": "https://avatars.githubusercontent.com/u/39114868?v=4",
+  "created_at": "2026-01-28T00:38:28.311000",
+  "days_old": 59,
+  "stat_downloads": 14743,
+  "stat_stars": 137,
+  "tags": {
+    "latest": "k97776eph594qhd3pqb5xhwq19803yg4"
+  },
+  "badges": "{\"highlighted\": {\"at\": 1769571020925.0, \"byUserId\": \"kn7ehk5erw07et6p0vq4k451ws802vgd\"}}",
+  "stat_installs": 179,
+  "stat_comments": 0,
+  "current_version": "1.0.2",
+  "is_highlighted": true,
+  "is_suspicious": true,
+  "velocity": 249.9,
+  "acceleration_pct": -72.5,
+  "dl_delta": 76,
+  "dl_wow": 0.5,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 0,
+  "installs_wow": 0.0,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 12782,
+      "stars": 128,
+      "installs_all_time": 153,
+      "installs_current": 144
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 12901,
+      "stars": 128,
+      "installs_all_time": 154,
+      "installs_current": 145
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 13205,
+      "stars": 128,
+      "installs_all_time": 159,
+      "installs_current": 150
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 13392,
+      "stars": 128,
+      "installs_all_time": 162,
+      "installs_current": 153
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 13585,
+      "stars": 131,
+      "installs_all_time": 165,
+      "installs_current": 153
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 13758,
+      "stars": 132,
+      "installs_all_time": 169,
+      "installs_current": 157
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 14074,
+      "stars": 135,
+      "installs_all_time": 172,
+      "installs_current": 160
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 14103,
+      "stars": 135,
+      "installs_all_time": 173,
+      "installs_current": 161
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 14158,
+      "stars": 135,
+      "installs_all_time": 174,
+      "installs_current": 162
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 14379,
+      "stars": 136,
+      "installs_all_time": 175,
+      "installs_current": 163
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 14667,
+      "stars": 137,
+      "installs_all_time": 179,
+      "installs_current": 167
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 14667,
+      "stars": 137,
+      "installs_all_time": 179,
+      "installs_current": 167
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 14743,
+      "stars": 137,
+      "installs_all_time": 179,
+      "installs_current": 167
+    }
+  ],
+  "version_releases": []
+}

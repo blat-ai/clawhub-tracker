@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd79b0zpa6er9c32v56ht47w0h81gdmh",
+  "slug": "powerpoint-pptx",
+  "display_name": "Powerpoint / PPTX",
+  "summary": "Create, inspect, and edit Microsoft PowerPoint presentations and PPTX decks with reliable layouts, templates, placeholders, notes, charts, and visual QA. Use...",
+  "owner_handle": "ivangdavila",
+  "owner_image": "https://avatars.githubusercontent.com/u/81719670?v=4",
+  "created_at": "2026-02-20T10:32:38.519000",
+  "days_old": 35,
+  "stat_downloads": 21405,
+  "stat_stars": 59,
+  "tags": {
+    "latest": "k9790f8kmfj8gjsem4w7tffv7182q488"
+  },
+  "badges": null,
+  "stat_installs": 233,
+  "stat_comments": 0,
+  "current_version": "1.0.1",
+  "is_highlighted": false,
+  "is_suspicious": false,
+  "velocity": 611.6,
+  "acceleration_pct": -71.3,
+  "dl_delta": 317,
+  "dl_wow": 1.5,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 1,
+  "installs_wow": 0.4,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 13048,
+      "stars": 38,
+      "installs_all_time": 134,
+      "installs_current": 134
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 13516,
+      "stars": 39,
+      "installs_all_time": 138,
+      "installs_current": 138
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 14502,
+      "stars": 40,
+      "installs_all_time": 149,
+      "installs_current": 148
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 15277,
+      "stars": 43,
+      "installs_all_time": 157,
+      "installs_current": 156
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 16027,
+      "stars": 44,
+      "installs_all_time": 162,
+      "installs_current": 160
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 16836,
+      "stars": 48,
+      "installs_all_time": 176,
+      "installs_current": 172
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 18332,
+      "stars": 51,
+      "installs_all_time": 194,
+      "installs_current": 190
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 18459,
+      "stars": 51,
+      "installs_all_time": 195,
+      "installs_current": 191
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 18628,
+      "stars": 51,
+      "installs_all_time": 196,
+      "installs_current": 192
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 19563,
+      "stars": 53,
+      "installs_all_time": 207,
+      "installs_current": 203
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 21088,
+      "stars": 59,
+      "installs_all_time": 232,
+      "installs_current": 227
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 21088,
+      "stars": 59,
+      "installs_all_time": 232,
+      "installs_current": 227
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 21405,
+      "stars": 59,
+      "installs_all_time": 233,
+      "installs_current": 227
+    }
+  ],
+  "version_releases": []
+}

@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd7c5yzn3g2qxr3cp6gm3ba7a97zxb3h",
+  "slug": "youtube-watcher",
+  "display_name": "YouTube Watcher",
+  "summary": "Fetch and read transcripts from YouTube videos. Use when you need to summarize a video, answer questions about its content, or extract information from it.",
+  "owner_handle": "michaelgathara",
+  "owner_image": "https://avatars.githubusercontent.com/u/21083524?v=4",
+  "created_at": "2026-01-25T07:56:19.866000",
+  "days_old": 61,
+  "stat_downloads": 36553,
+  "stat_stars": 240,
+  "tags": {
+    "latest": "k975h4xcpmn6bkfdenwr7emyhx7zw8pa"
+  },
+  "badges": null,
+  "stat_installs": 438,
+  "stat_comments": 6,
+  "current_version": "1.0.0",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 599.2,
+  "acceleration_pct": -70.8,
+  "dl_delta": 181,
+  "dl_wow": 0.5,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 1,
+  "installs_wow": 0.2,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 32000,
+      "stars": 221,
+      "installs_all_time": 364,
+      "installs_current": 353
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 32326,
+      "stars": 223,
+      "installs_all_time": 370,
+      "installs_current": 359
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 32892,
+      "stars": 225,
+      "installs_all_time": 377,
+      "installs_current": 365
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 33350,
+      "stars": 230,
+      "installs_all_time": 380,
+      "installs_current": 368
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 33765,
+      "stars": 233,
+      "installs_all_time": 392,
+      "installs_current": 378
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 34200,
+      "stars": 234,
+      "installs_all_time": 403,
+      "installs_current": 388
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 34947,
+      "stars": 236,
+      "installs_all_time": 415,
+      "installs_current": 399
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 35016,
+      "stars": 236,
+      "installs_all_time": 418,
+      "installs_current": 402
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 35147,
+      "stars": 236,
+      "installs_all_time": 419,
+      "installs_current": 403
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 35635,
+      "stars": 237,
+      "installs_all_time": 428,
+      "installs_current": 412
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 36372,
+      "stars": 240,
+      "installs_all_time": 437,
+      "installs_current": 421
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 36372,
+      "stars": 240,
+      "installs_all_time": 437,
+      "installs_current": 421
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 36553,
+      "stars": 240,
+      "installs_all_time": 438,
+      "installs_current": 422
+    }
+  ],
+  "version_releases": []
+}

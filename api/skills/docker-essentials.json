@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd7cbqjkpa7z52yvhh8s1f2k0h804jpj",
+  "slug": "docker-essentials",
+  "display_name": "Docker Essentials",
+  "summary": "Essential Docker commands and workflows for container management, image operations, and debugging.",
+  "owner_handle": "arnarsson",
+  "owner_image": "https://avatars.githubusercontent.com/u/96142966?v=4",
+  "created_at": "2026-01-29T13:07:20.015000",
+  "days_old": 57,
+  "stat_downloads": 23080,
+  "stat_stars": 27,
+  "tags": {
+    "latest": "k97a5jqst0etanp3gy2w8701f9805cf3"
+  },
+  "badges": null,
+  "stat_installs": 255,
+  "stat_comments": 3,
+  "current_version": "1.0.0",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 404.9,
+  "acceleration_pct": -70.4,
+  "dl_delta": 115,
+  "dl_wow": 0.5,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 1,
+  "installs_wow": 0.4,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 20236,
+      "stars": 21,
+      "installs_all_time": 216,
+      "installs_current": 209
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 20410,
+      "stars": 21,
+      "installs_all_time": 217,
+      "installs_current": 210
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 20786,
+      "stars": 22,
+      "installs_all_time": 226,
+      "installs_current": 219
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 21087,
+      "stars": 22,
+      "installs_all_time": 231,
+      "installs_current": 224
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 21376,
+      "stars": 22,
+      "installs_all_time": 234,
+      "installs_current": 226
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 21666,
+      "stars": 23,
+      "installs_all_time": 239,
+      "installs_current": 231
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 22131,
+      "stars": 23,
+      "installs_all_time": 244,
+      "installs_current": 236
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 22164,
+      "stars": 24,
+      "installs_all_time": 246,
+      "installs_current": 238
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 22261,
+      "stars": 24,
+      "installs_all_time": 246,
+      "installs_current": 238
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 22552,
+      "stars": 24,
+      "installs_all_time": 248,
+      "installs_current": 240
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 22965,
+      "stars": 27,
+      "installs_all_time": 254,
+      "installs_current": 247
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 22965,
+      "stars": 27,
+      "installs_all_time": 254,
+      "installs_current": 247
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 23080,
+      "stars": 27,
+      "installs_all_time": 255,
+      "installs_current": 248
+    }
+  ],
+  "version_releases": []
+}

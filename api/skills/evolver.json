@@ -1,0 +1,144 @@
+{
+  "skill_id": "kd79dt880njjefngvdv5h2nby581486p",
+  "slug": "evolver",
+  "display_name": "Evolver",
+  "summary": "A self-evolution engine for AI agents. Analyzes runtime history to identify improvements and applies protocol-constrained evolution.",
+  "owner_handle": "autogame-17",
+  "owner_image": "https://avatars.githubusercontent.com/u/166480271?v=4",
+  "created_at": "2026-02-14T11:48:09.809000",
+  "days_old": 41,
+  "stat_downloads": 40747,
+  "stat_stars": 68,
+  "tags": {
+    "latest": "k97e3sd8jhxth1s1dcz6mtnz0n83q08t"
+  },
+  "badges": null,
+  "stat_installs": 295,
+  "stat_comments": 2,
+  "current_version": "1.40.0",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 993.8,
+  "acceleration_pct": -62.6,
+  "dl_delta": 861,
+  "dl_wow": 2.2,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 4,
+  "installs_wow": 1.4,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 26593,
+      "stars": 59,
+      "installs_all_time": 216,
+      "installs_current": 206
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 27333,
+      "stars": 59,
+      "installs_all_time": 219,
+      "installs_current": 208
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 28621,
+      "stars": 60,
+      "installs_all_time": 226,
+      "installs_current": 214
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 29726,
+      "stars": 60,
+      "installs_all_time": 235,
+      "installs_current": 219
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 30874,
+      "stars": 62,
+      "installs_all_time": 239,
+      "installs_current": 221
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 32039,
+      "stars": 62,
+      "installs_all_time": 252,
+      "installs_current": 234
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 34687,
+      "stars": 64,
+      "installs_all_time": 270,
+      "installs_current": 251
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 34889,
+      "stars": 64,
+      "installs_all_time": 271,
+      "installs_current": 252
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 35435,
+      "stars": 64,
+      "installs_all_time": 274,
+      "installs_current": 255
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 37193,
+      "stars": 64,
+      "installs_all_time": 280,
+      "installs_current": 261
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 39886,
+      "stars": 68,
+      "installs_all_time": 291,
+      "installs_current": 271
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 39886,
+      "stars": 68,
+      "installs_all_time": 291,
+      "installs_current": 271
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 40747,
+      "stars": 68,
+      "installs_all_time": 295,
+      "installs_current": 274
+    }
+  ],
+  "version_releases": [
+    {
+      "version_number": "1.32.4",
+      "run_date": "2026-03-21T03:00:00.776166",
+      "changelog": "v1.32.4"
+    },
+    {
+      "version_number": "1.35.0",
+      "run_date": "2026-03-23T03:00:00.753584",
+      "changelog": "v1.35.0: complete module extraction + test coverage"
+    },
+    {
+      "version_number": "1.39.0",
+      "run_date": "2026-03-24T14:13:35.104417",
+      "changelog": "v1.39.0 Auto Skills Upgrade"
+    },
+    {
+      "version_number": "1.40.0",
+      "run_date": "2026-03-27T17:40:37.408934",
+      "changelog": "v1.40.0: feat(a2a): handle has_pending_events and poll hub events in heartbeat"
+    }
+  ]
+}

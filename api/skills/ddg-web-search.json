@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd7ctbfmg3b8pym644agb94kwx816x3v",
+  "slug": "ddg-web-search",
+  "display_name": "DuckDuckGo Web Search",
+  "summary": "Web search without an API key using DuckDuckGo Lite via web_fetch. Use as a fallback when web_search fails with missing_brave_api_key error, or whenever you...",
+  "owner_handle": "jakelin",
+  "owner_image": "https://avatars.githubusercontent.com/u/573856?v=4",
+  "created_at": "2026-02-15T09:34:14.829000",
+  "days_old": 40,
+  "stat_downloads": 20406,
+  "stat_stars": 19,
+  "tags": {
+    "latest": "k974rg6srmkhhc6bbgy8e74jt1817k75"
+  },
+  "badges": null,
+  "stat_installs": 234,
+  "stat_comments": 4,
+  "current_version": "1.0.0",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 510.1,
+  "acceleration_pct": -74.7,
+  "dl_delta": 145,
+  "dl_wow": 0.7,
+  "star_delta": 1,
+  "star_wow": 5.6,
+  "installs_delta": 0,
+  "installs_wow": 0.0,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 15810,
+      "stars": 13,
+      "installs_all_time": 182,
+      "installs_current": 173
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 16137,
+      "stars": 14,
+      "installs_all_time": 188,
+      "installs_current": 179
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 16758,
+      "stars": 16,
+      "installs_all_time": 193,
+      "installs_current": 184
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 17264,
+      "stars": 16,
+      "installs_all_time": 198,
+      "installs_current": 189
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 17723,
+      "stars": 16,
+      "installs_all_time": 200,
+      "installs_current": 190
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 18195,
+      "stars": 17,
+      "installs_all_time": 207,
+      "installs_current": 197
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 19018,
+      "stars": 18,
+      "installs_all_time": 212,
+      "installs_current": 202
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 19075,
+      "stars": 18,
+      "installs_all_time": 213,
+      "installs_current": 203
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 19199,
+      "stars": 18,
+      "installs_all_time": 213,
+      "installs_current": 203
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 19647,
+      "stars": 18,
+      "installs_all_time": 222,
+      "installs_current": 212
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 20261,
+      "stars": 18,
+      "installs_all_time": 234,
+      "installs_current": 223
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 20261,
+      "stars": 18,
+      "installs_all_time": 234,
+      "installs_current": 223
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 20406,
+      "stars": 19,
+      "installs_all_time": 234,
+      "installs_current": 223
+    }
+  ],
+  "version_releases": []
+}

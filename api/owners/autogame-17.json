@@ -1,0 +1,426 @@
+{
+  "handle": "autogame-17",
+  "total_downloads": 148273,
+  "total_stars": 188,
+  "total_installs": 1902,
+  "skill_count": 31,
+  "avg_dl_per_day": 114.5,
+  "highlighted_count": 0,
+  "suspicious_count": 31,
+  "clean_pct": 0.0,
+  "dl_delta": 2231,
+  "dl_wow": 1.5,
+  "dl_per_day": 2231.0,
+  "star_delta": 1,
+  "star_wow": 0.5,
+  "star_per_day": 1.0,
+  "installs_delta": 16,
+  "installs_wow": 0.8,
+  "installs_per_day": 16.0,
+  "owner_display_name": "autogame-17",
+  "owner_name": "autogame-17",
+  "owner_image": "https://avatars.githubusercontent.com/u/166480271?v=4",
+  "bio": "Founder and CEO at EvoMap(https://evomap.ai) & AutoGame(https://autogame.ai)",
+  "company": "EvoMap",
+  "location": null,
+  "blog": null,
+  "public_repos": 11,
+  "followers": 121,
+  "following": 9,
+  "github_created_at": "2024-04-09T06:06:03",
+  "twitter_username": null,
+  "skills": [
+    {
+      "slug": "evolver",
+      "display_name": "Evolver",
+      "stat_downloads": 40747,
+      "stat_stars": 68,
+      "created_at": "2026-02-14T11:48:09.809000",
+      "days_old": 42,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "feishu-evolver-wrapper",
+      "display_name": "Feishu Evolver Wrapper",
+      "stat_downloads": 35223,
+      "stat_stars": 7,
+      "created_at": "2026-02-14T03:34:53.438000",
+      "days_old": 42,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "capability-evolver",
+      "display_name": "Evolver",
+      "stat_downloads": 27094,
+      "stat_stars": 87,
+      "created_at": "2026-02-14T09:22:53.550000",
+      "days_old": 42,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "feishu-doc",
+      "display_name": "Feishu Doc",
+      "stat_downloads": 6621,
+      "stat_stars": 8,
+      "created_at": "2026-02-14T03:35:29.182000",
+      "days_old": 42,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "feishu-calendar",
+      "display_name": "feishu-calendar",
+      "stat_downloads": 5275,
+      "stat_stars": 1,
+      "created_at": "2026-02-14T05:21:17.564000",
+      "days_old": 42,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "feishu-bitable",
+      "display_name": "feishu-bitable",
+      "stat_downloads": 5049,
+      "stat_stars": 2,
+      "created_at": "2026-02-15T11:36:59.756000",
+      "days_old": 41,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "feishu-drive",
+      "display_name": "feishu-drive",
+      "stat_downloads": 3429,
+      "stat_stars": 3,
+      "created_at": "2026-02-13T06:56:09.673000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "feishu-card",
+      "display_name": "Feishu Card",
+      "stat_downloads": 2592,
+      "stat_stars": 3,
+      "created_at": "2026-02-14T03:35:15.381000",
+      "days_old": 42,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "code-stats",
+      "display_name": "Code Stats",
+      "stat_downloads": 2591,
+      "stat_stars": 0,
+      "created_at": "2026-02-15T17:31:05.872000",
+      "days_old": 41,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "feishu-common",
+      "display_name": "Feishu Common",
+      "stat_downloads": 2219,
+      "stat_stars": 1,
+      "created_at": "2026-02-14T03:35:00.708000",
+      "days_old": 42,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "feishu-memory-recall",
+      "display_name": "feishu-memory-recall",
+      "stat_downloads": 1959,
+      "stat_stars": 0,
+      "created_at": "2026-02-15T11:37:29.756000",
+      "days_old": 41,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "feishu-message",
+      "display_name": "feishu-message",
+      "stat_downloads": 1518,
+      "stat_stars": 0,
+      "created_at": "2026-02-14T05:20:47.123000",
+      "days_old": 42,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "prompt-optimizer",
+      "display_name": "Prompt Optimizer",
+      "stat_downloads": 1355,
+      "stat_stars": 1,
+      "created_at": "2026-02-17T15:04:16.804000",
+      "days_old": 39,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "feishu-post",
+      "display_name": "Feishu Post",
+      "stat_downloads": 928,
+      "stat_stars": 0,
+      "created_at": "2026-02-14T02:49:22.496000",
+      "days_old": 42,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "auto-pr-merger",
+      "display_name": "Auto Pr Merger",
+      "stat_downloads": 885,
+      "stat_stars": 0,
+      "created_at": "2026-02-17T13:04:47.656000",
+      "days_old": 39,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "feishu-group-manager",
+      "display_name": "feishu-group-manager",
+      "stat_downloads": 810,
+      "stat_stars": 0,
+      "created_at": "2026-02-15T11:37:20.392000",
+      "days_old": 41,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "feishu-minutes",
+      "display_name": "feishu-minutes",
+      "stat_downloads": 805,
+      "stat_stars": 0,
+      "created_at": "2026-02-15T11:37:41.535000",
+      "days_old": 41,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "feishu-sticker",
+      "display_name": "feishu-sticker",
+      "stat_downloads": 789,
+      "stat_stars": 1,
+      "created_at": "2026-02-14T05:20:58.660000",
+      "days_old": 42,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "feishu-attendance",
+      "display_name": "feishu-attendance",
+      "stat_downloads": 738,
+      "stat_stars": 0,
+      "created_at": "2026-02-14T05:21:07.353000",
+      "days_old": 42,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "feishu-chat-forwarder",
+      "display_name": "feishu-chat-forwarder",
+      "stat_downloads": 732,
+      "stat_stars": 0,
+      "created_at": "2026-02-14T05:20:34.210000",
+      "days_old": 42,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "active-learner",
+      "display_name": "Active Learner",
+      "stat_downloads": 723,
+      "stat_stars": 2,
+      "created_at": "2026-02-17T13:04:01.009000",
+      "days_old": 39,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "security-sentinel",
+      "display_name": "Security Sentinel",
+      "stat_downloads": 721,
+      "stat_stars": 0,
+      "created_at": "2026-02-17T16:06:20.900000",
+      "days_old": 39,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "auto-test-generator",
+      "display_name": "Auto Test Generator",
+      "stat_downloads": 707,
+      "stat_stars": 4,
+      "created_at": "2026-02-17T13:04:55.013000",
+      "days_old": 39,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "feishu-broadcast",
+      "display_name": "feishu-broadcast",
+      "stat_downloads": 693,
+      "stat_stars": 0,
+      "created_at": "2026-02-15T11:37:09.427000",
+      "days_old": 41,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "read-optimizer",
+      "display_name": "Read Optimizer",
+      "stat_downloads": 670,
+      "stat_stars": 0,
+      "created_at": "2026-02-17T15:06:12.723000",
+      "days_old": 39,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "config-validator",
+      "display_name": "Config Validator",
+      "stat_downloads": 616,
+      "stat_stars": 0,
+      "created_at": "2026-02-17T14:04:16.013000",
+      "days_old": 39,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "feishu-voice-assistant",
+      "display_name": "Feishu Voice Assistant",
+      "stat_downloads": 580,
+      "stat_stars": 0,
+      "created_at": "2026-02-17T16:05:40.575000",
+      "days_old": 39,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "quote-generator",
+      "display_name": "Quote Generator",
+      "stat_downloads": 576,
+      "stat_stars": 0,
+      "created_at": "2026-02-17T15:05:49.155000",
+      "days_old": 39,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "qr-generator",
+      "display_name": "Qr Generator",
+      "stat_downloads": 557,
+      "stat_stars": 0,
+      "created_at": "2026-02-17T15:05:32.540000",
+      "days_old": 39,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "checksum",
+      "display_name": "Checksum",
+      "stat_downloads": 551,
+      "stat_stars": 0,
+      "created_at": "2026-02-17T13:05:26.850000",
+      "days_old": 39,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "autogame-tales",
+      "display_name": "Autogame Tales",
+      "stat_downloads": 520,
+      "stat_stars": 0,
+      "created_at": "2026-02-17T13:05:09.147000",
+      "days_old": 39,
+      "is_highlighted": false,
+      "is_suspicious": true
+    }
+  ],
+  "trajectory": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 106689,
+      "stars": 159
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 109067,
+      "stars": 159
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 113509,
+      "stars": 168
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 117125,
+      "stars": 172
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 120710,
+      "stars": 175
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 124323,
+      "stars": 177
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 131902,
+      "stars": 182
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 132481,
+      "stars": 182
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 133880,
+      "stars": 182
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 138726,
+      "stars": 183
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 146042,
+      "stars": 187
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 146042,
+      "stars": 187
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 148273,
+      "stars": 188
+    }
+  ],
+  "download_trajectory": [
+    106689,
+    109067,
+    113509,
+    117125,
+    120710,
+    124323,
+    131902,
+    132481,
+    133880,
+    138726,
+    146042,
+    146042,
+    148273
+  ]
+}

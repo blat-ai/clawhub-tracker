@@ -1,0 +1,134 @@
+{
+  "skill_id": "kd7ans4j6fwb8zwr0qyct403n580bqh3",
+  "slug": "api-gateway",
+  "display_name": "API Gateway",
+  "summary": "Connect to 100+ APIs (Google Workspace, Microsoft 365, GitHub, Notion, Slack, Airtable, HubSpot, etc.) with managed OAuth. Use this skill when users want to...",
+  "owner_handle": "byungkyu",
+  "owner_image": "https://avatars.githubusercontent.com/u/16563684?v=4",
+  "created_at": "2026-02-01T08:37:47.126000",
+  "days_old": 54,
+  "stat_downloads": 56633,
+  "stat_stars": 279,
+  "tags": {
+    "latest": "k976psytpdffkqf232rknzpjwd83k710"
+  },
+  "badges": null,
+  "stat_installs": 440,
+  "stat_comments": 2,
+  "current_version": "1.0.71",
+  "is_highlighted": false,
+  "is_suspicious": false,
+  "velocity": 1048.8,
+  "acceleration_pct": -72.5,
+  "dl_delta": 329,
+  "dl_wow": 0.6,
+  "star_delta": 1,
+  "star_wow": 0.4,
+  "installs_delta": 3,
+  "installs_wow": 0.7,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 47755,
+      "stars": 239,
+      "installs_all_time": 318,
+      "installs_current": 306
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 48363,
+      "stars": 241,
+      "installs_all_time": 328,
+      "installs_current": 315
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 49534,
+      "stars": 245,
+      "installs_all_time": 346,
+      "installs_current": 332
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 50471,
+      "stars": 250,
+      "installs_all_time": 359,
+      "installs_current": 344
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 51370,
+      "stars": 256,
+      "installs_all_time": 371,
+      "installs_current": 355
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 52177,
+      "stars": 260,
+      "installs_all_time": 382,
+      "installs_current": 364
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 53651,
+      "stars": 267,
+      "installs_all_time": 406,
+      "installs_current": 386
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 53769,
+      "stars": 267,
+      "installs_all_time": 407,
+      "installs_current": 387
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 53992,
+      "stars": 269,
+      "installs_all_time": 412,
+      "installs_current": 391
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 54964,
+      "stars": 274,
+      "installs_all_time": 424,
+      "installs_current": 402
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 56304,
+      "stars": 278,
+      "installs_all_time": 437,
+      "installs_current": 415
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 56304,
+      "stars": 278,
+      "installs_all_time": 437,
+      "installs_current": 415
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 56633,
+      "stars": 279,
+      "installs_all_time": 440,
+      "installs_current": 415
+    }
+  ],
+  "version_releases": [
+    {
+      "version_number": "1.0.70",
+      "run_date": "2026-03-22T03:00:00.645113",
+      "changelog": "## api-gateway v1.0.70\n\n- Added a new documentation file at references/twenty/README.md.\n- No changes to code or core functionality in this release."
+    },
+    {
+      "version_number": "1.0.71",
+      "run_date": "2026-03-25T03:00:00.456013",
+      "changelog": "- No changes detected in this version.  \n- Version number updated to 1.0.71; content and functionality remain the same."
+    }
+  ]
+}

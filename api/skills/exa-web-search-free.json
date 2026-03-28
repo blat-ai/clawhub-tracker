@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd7eb0a71ehay1hfv5h8npsjgd803kaf",
+  "slug": "exa-web-search-free",
+  "display_name": "Exa Web Search (Free)",
+  "summary": "Free AI search via Exa MCP. Web search for news/info, code search for docs/examples from GitHub/StackOverflow, company research for business intel. No API key needed.",
+  "owner_handle": "whiteknight07",
+  "owner_image": "https://avatars.githubusercontent.com/u/40636711?v=4",
+  "created_at": "2026-01-28T23:48:39.080000",
+  "days_old": 58,
+  "stat_downloads": 19253,
+  "stat_stars": 63,
+  "tags": {
+    "latest": "k97ebq12325t607ehmztep31zn802y8c"
+  },
+  "badges": null,
+  "stat_installs": 198,
+  "stat_comments": 3,
+  "current_version": "1.0.1",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 331.9,
+  "acceleration_pct": -72.4,
+  "dl_delta": 64,
+  "dl_wow": 0.3,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 1,
+  "installs_wow": 0.5,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 17328,
+      "stars": 60,
+      "installs_all_time": 163,
+      "installs_current": 155
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 17484,
+      "stars": 61,
+      "installs_all_time": 166,
+      "installs_current": 158
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 17739,
+      "stars": 61,
+      "installs_all_time": 169,
+      "installs_current": 161
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 17944,
+      "stars": 61,
+      "installs_all_time": 174,
+      "installs_current": 166
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 18153,
+      "stars": 61,
+      "installs_all_time": 179,
+      "installs_current": 170
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 18343,
+      "stars": 61,
+      "installs_all_time": 184,
+      "installs_current": 174
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 18695,
+      "stars": 62,
+      "installs_all_time": 191,
+      "installs_current": 180
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 18718,
+      "stars": 62,
+      "installs_all_time": 191,
+      "installs_current": 180
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 18768,
+      "stars": 62,
+      "installs_all_time": 192,
+      "installs_current": 181
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 18950,
+      "stars": 62,
+      "installs_all_time": 193,
+      "installs_current": 182
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 19189,
+      "stars": 63,
+      "installs_all_time": 197,
+      "installs_current": 185
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 19189,
+      "stars": 63,
+      "installs_all_time": 197,
+      "installs_current": 185
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 19253,
+      "stars": 63,
+      "installs_all_time": 198,
+      "installs_current": 186
+    }
+  ],
+  "version_releases": []
+}

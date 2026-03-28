@@ -1,0 +1,166 @@
+{
+  "handle": "joelchance",
+  "total_downloads": 79001,
+  "total_stars": 88,
+  "total_installs": 45,
+  "skill_count": 5,
+  "avg_dl_per_day": 719.8,
+  "highlighted_count": 0,
+  "suspicious_count": 5,
+  "clean_pct": 0.0,
+  "dl_delta": 2557,
+  "dl_wow": 3.3,
+  "dl_per_day": 2557.0,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "star_per_day": 0,
+  "installs_delta": 0,
+  "installs_wow": 0.0,
+  "installs_per_day": 0,
+  "owner_display_name": "joelchance",
+  "owner_name": "joelchance",
+  "owner_image": "https://avatars.githubusercontent.com/u/256029209?v=4",
+  "bio": null,
+  "company": null,
+  "location": null,
+  "blog": null,
+  "public_repos": 0,
+  "followers": 0,
+  "following": 0,
+  "github_created_at": "2026-01-20T05:20:56",
+  "twitter_username": null,
+  "skills": [
+    {
+      "slug": "polymarket-trade",
+      "display_name": "Polymarket",
+      "stat_downloads": 57044,
+      "stat_stars": 27,
+      "created_at": "2026-03-09T07:28:29.179000",
+      "days_old": 19,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "markdown-convert",
+      "display_name": "Markdown.new Skill",
+      "stat_downloads": 17507,
+      "stat_stars": 39,
+      "created_at": "2026-02-19T19:19:24.013000",
+      "days_old": 37,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "manus-ai",
+      "display_name": "Manus AI Agent",
+      "stat_downloads": 3458,
+      "stat_stars": 6,
+      "created_at": "2026-02-20T21:04:31.021000",
+      "days_old": 36,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "supabase-query",
+      "display_name": "Supabase \u26a1",
+      "stat_downloads": 515,
+      "stat_stars": 12,
+      "created_at": "2026-02-20T21:10:57.877000",
+      "days_old": 36,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "parallel-ai",
+      "display_name": "Parallel AI Skill",
+      "stat_downloads": 477,
+      "stat_stars": 4,
+      "created_at": "2026-02-20T21:05:37.522000",
+      "days_old": 36,
+      "is_highlighted": false,
+      "is_suspicious": true
+    }
+  ],
+  "trajectory": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 34710,
+      "stars": 63
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 37849,
+      "stars": 63
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 42732,
+      "stars": 65
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 47004,
+      "stars": 71
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 51938,
+      "stars": 74
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 56087,
+      "stars": 81
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 60784,
+      "stars": 82
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 61383,
+      "stars": 83
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 62982,
+      "stars": 83
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 68199,
+      "stars": 85
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 76444,
+      "stars": 88
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 76444,
+      "stars": 88
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 79001,
+      "stars": 88
+    }
+  ],
+  "download_trajectory": [
+    34710,
+    37849,
+    42732,
+    47004,
+    51938,
+    56087,
+    60784,
+    61383,
+    62982,
+    68199,
+    76444,
+    76444,
+    79001
+  ]
+}

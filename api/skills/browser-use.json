@@ -1,0 +1,129 @@
+{
+  "skill_id": "kd7fyw1dazcdmj5n6dnj53g06n7zyq3k",
+  "slug": "browser-use",
+  "display_name": "Browser Use",
+  "summary": "Automates browser interactions for web testing, form filling, screenshots, and data extraction. Use when the user needs to navigate websites, interact with w...",
+  "owner_handle": "shawnpana",
+  "owner_image": "https://avatars.githubusercontent.com/u/129362299?v=4",
+  "created_at": "2026-01-26T00:43:51.012000",
+  "days_old": 61,
+  "stat_downloads": 30887,
+  "stat_stars": 73,
+  "tags": {
+    "latest": "k9749hvzkd3xrwsd6sqh1hj1gx83d6fx"
+  },
+  "badges": null,
+  "stat_installs": 364,
+  "stat_comments": 5,
+  "current_version": "2.0.0",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 506.3,
+  "acceleration_pct": -70.1,
+  "dl_delta": 146,
+  "dl_wow": 0.5,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 3,
+  "installs_wow": 0.8,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 27176,
+      "stars": 66,
+      "installs_all_time": 293,
+      "installs_current": 288
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 27389,
+      "stars": 66,
+      "installs_all_time": 295,
+      "installs_current": 290
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 27800,
+      "stars": 67,
+      "installs_all_time": 301,
+      "installs_current": 294
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 28140,
+      "stars": 68,
+      "installs_all_time": 309,
+      "installs_current": 301
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 28474,
+      "stars": 68,
+      "installs_all_time": 315,
+      "installs_current": 305
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 28815,
+      "stars": 68,
+      "installs_all_time": 325,
+      "installs_current": 314
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 29547,
+      "stars": 70,
+      "installs_all_time": 338,
+      "installs_current": 326
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 29602,
+      "stars": 70,
+      "installs_all_time": 340,
+      "installs_current": 328
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 29706,
+      "stars": 70,
+      "installs_all_time": 341,
+      "installs_current": 329
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 30091,
+      "stars": 71,
+      "installs_all_time": 350,
+      "installs_current": 338
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 30741,
+      "stars": 73,
+      "installs_all_time": 361,
+      "installs_current": 349
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 30741,
+      "stars": 73,
+      "installs_all_time": 361,
+      "installs_current": 349
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 30887,
+      "stars": 73,
+      "installs_all_time": 364,
+      "installs_current": 352
+    }
+  ],
+  "version_releases": [
+    {
+      "version_number": "2.0.0",
+      "run_date": "2026-03-23T03:00:00.753584",
+      "changelog": "- Improved and reorganized documentation for clarity and modern workflows.\n- Added details on using named Chrome profiles, connecting to running Chrome via CDP, and cloud browser workflows.\n- Documented command chaining for efficient multi-step automation.\n- Included guidance for authenticated browsing, local tunnels, and profile management.\n- Clarified command options, output handling, and best practices for stateful session management."
+    }
+  ]
+}

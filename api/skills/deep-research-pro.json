@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd7erx03e8m62jff7nr3ag5d5180kksb",
+  "slug": "deep-research-pro",
+  "display_name": "Deep Research Pro",
+  "summary": "Multi-source deep research agent. Searches the web, synthesizes findings, and delivers cited reports. No API keys required.",
+  "owner_handle": "parags",
+  "owner_image": "https://avatars.githubusercontent.com/u/48784?v=4",
+  "created_at": "2026-02-05T14:51:40.093000",
+  "days_old": 50,
+  "stat_downloads": 20832,
+  "stat_stars": 59,
+  "tags": {
+    "latest": "k9720zs4qfw9kcpx5n4nve4rfn80jzw3"
+  },
+  "badges": null,
+  "stat_installs": 276,
+  "stat_comments": 0,
+  "current_version": "1.0.2",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 416.6,
+  "acceleration_pct": -66.9,
+  "dl_delta": 103,
+  "dl_wow": 0.5,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 2,
+  "installs_wow": 0.7,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 17931,
+      "stars": 47,
+      "installs_all_time": 205,
+      "installs_current": 196
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 18167,
+      "stars": 48,
+      "installs_all_time": 208,
+      "installs_current": 199
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 18583,
+      "stars": 50,
+      "installs_all_time": 215,
+      "installs_current": 205
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 18973,
+      "stars": 51,
+      "installs_all_time": 224,
+      "installs_current": 213
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 19305,
+      "stars": 51,
+      "installs_all_time": 231,
+      "installs_current": 220
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 19608,
+      "stars": 51,
+      "installs_all_time": 242,
+      "installs_current": 231
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 19982,
+      "stars": 54,
+      "installs_all_time": 257,
+      "installs_current": 246
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 20010,
+      "stars": 55,
+      "installs_all_time": 258,
+      "installs_current": 247
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 20082,
+      "stars": 55,
+      "installs_all_time": 260,
+      "installs_current": 249
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 20321,
+      "stars": 58,
+      "installs_all_time": 264,
+      "installs_current": 253
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 20729,
+      "stars": 59,
+      "installs_all_time": 274,
+      "installs_current": 263
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 20729,
+      "stars": 59,
+      "installs_all_time": 274,
+      "installs_current": 263
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 20832,
+      "stars": 59,
+      "installs_all_time": 276,
+      "installs_current": 265
+    }
+  ],
+  "version_releases": []
+}

@@ -1,0 +1,476 @@
+{
+  "handle": "guohongbin-git",
+  "total_downloads": 72019,
+  "total_stars": 135,
+  "total_installs": 716,
+  "skill_count": 36,
+  "avg_dl_per_day": 52.8,
+  "highlighted_count": 0,
+  "suspicious_count": 35,
+  "clean_pct": 2.8,
+  "dl_delta": 768,
+  "dl_wow": 1.1,
+  "dl_per_day": 768.0,
+  "star_delta": 2,
+  "star_wow": 1.5,
+  "star_per_day": 2.0,
+  "installs_delta": 4,
+  "installs_wow": 0.6,
+  "installs_per_day": 4.0,
+  "owner_display_name": "Guohongbin",
+  "owner_name": "guohongbin-git",
+  "owner_image": "https://avatars.githubusercontent.com/u/202475309?v=4",
+  "bio": null,
+  "company": null,
+  "location": null,
+  "blog": null,
+  "public_repos": 45,
+  "followers": 2,
+  "following": 5,
+  "github_created_at": "2025-03-09T03:52:34",
+  "twitter_username": null,
+  "skills": [
+    {
+      "slug": "skill-finder-cn",
+      "display_name": "Skill Finder Cn",
+      "stat_downloads": 20167,
+      "stat_stars": 61,
+      "created_at": "2026-02-17T10:16:29.748000",
+      "days_old": 39,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "market-analysis-cn",
+      "display_name": "Market Analysis CN | \u5e02\u573a\u5206\u6790\u670d\u52a1",
+      "stat_downloads": 6908,
+      "stat_stars": 17,
+      "created_at": "2026-02-17T14:53:51.884000",
+      "days_old": 39,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "wechat-mp-cn",
+      "display_name": "WeChat MP CN",
+      "stat_downloads": 6749,
+      "stat_stars": 32,
+      "created_at": "2026-02-19T07:09:44.899000",
+      "days_old": 37,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "xiaohongshu-cn",
+      "display_name": "Xiaohongshu CN",
+      "stat_downloads": 4209,
+      "stat_stars": 3,
+      "created_at": "2026-02-19T02:11:10.090000",
+      "days_old": 37,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "docx-cn",
+      "display_name": "Docx Cn",
+      "stat_downloads": 3576,
+      "stat_stars": 1,
+      "created_at": "2026-02-17T09:39:55.206000",
+      "days_old": 39,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "github-trending-cn",
+      "display_name": "Github Trending Cn",
+      "stat_downloads": 3383,
+      "stat_stars": 4,
+      "created_at": "2026-02-21T10:17:11.200000",
+      "days_old": 35,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "quant-trading-cn",
+      "display_name": "Quant Trading CN",
+      "stat_downloads": 3179,
+      "stat_stars": 1,
+      "created_at": "2026-02-19T02:57:28.515000",
+      "days_old": 37,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "xlsx-cn",
+      "display_name": "Xlsx Cn",
+      "stat_downloads": 2935,
+      "stat_stars": 1,
+      "created_at": "2026-02-17T09:40:07.018000",
+      "days_old": 39,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "baidu-hot-cn",
+      "display_name": "Baidu Hot Cn",
+      "stat_downloads": 2284,
+      "stat_stars": 2,
+      "created_at": "2026-02-21T10:11:40.357000",
+      "days_old": 35,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "pdf-cn",
+      "display_name": "Pdf Cn",
+      "stat_downloads": 1471,
+      "stat_stars": 0,
+      "created_at": "2026-02-17T09:40:00.525000",
+      "days_old": 39,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "zhihu-hot-cn",
+      "display_name": "Zhihu Hot CN",
+      "stat_downloads": 1455,
+      "stat_stars": 0,
+      "created_at": "2026-02-19T02:09:15.581000",
+      "days_old": 37,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "dingtalk-feishu-cn",
+      "display_name": "dingtalk-feishu-cn",
+      "stat_downloads": 1303,
+      "stat_stars": 6,
+      "created_at": "2026-02-19T07:10:34.910000",
+      "days_old": 37,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "taobao-hot-cn",
+      "display_name": "Taobao Hot Cn",
+      "stat_downloads": 944,
+      "stat_stars": 3,
+      "created_at": "2026-02-18T01:27:48.314000",
+      "days_old": 38,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "travel-cn",
+      "display_name": "Travel CN",
+      "stat_downloads": 943,
+      "stat_stars": 0,
+      "created_at": "2026-02-19T11:57:54.717000",
+      "days_old": 37,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "git-secrets-scanner",
+      "display_name": "Git Secrets Scanner",
+      "stat_downloads": 909,
+      "stat_stars": 0,
+      "created_at": "2026-02-19T03:47:27.977000",
+      "days_old": 37,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "crypto-arb-cn",
+      "display_name": "Crypto Arbitrage CN | \u52a0\u5bc6\u8d27\u5e01\u5957\u5229\u76d1\u63a7",
+      "stat_downloads": 837,
+      "stat_stars": 0,
+      "created_at": "2026-02-17T05:27:07.845000",
+      "days_old": 39,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "binance-pro-cn",
+      "display_name": "Binance Pro Cn",
+      "stat_downloads": 804,
+      "stat_stars": 0,
+      "created_at": "2026-02-17T12:17:58.377000",
+      "days_old": 39,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "agent-services-cn",
+      "display_name": "Agent Services Cn",
+      "stat_downloads": 742,
+      "stat_stars": 1,
+      "created_at": "2026-02-18T01:48:15.585000",
+      "days_old": 38,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "douyin-creator-cn",
+      "display_name": "Douyin Creator Cn",
+      "stat_downloads": 695,
+      "stat_stars": 1,
+      "created_at": "2026-02-18T01:17:26.190000",
+      "days_old": 38,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "resume-generator-cn",
+      "display_name": "resume-generator-cn",
+      "stat_downloads": 649,
+      "stat_stars": 0,
+      "created_at": "2026-02-19T07:11:09.205000",
+      "days_old": 37,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "tianyancha-cn",
+      "display_name": "tianyancha-cn",
+      "stat_downloads": 611,
+      "stat_stars": 1,
+      "created_at": "2026-02-19T07:10:42.708000",
+      "days_old": 37,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "memory-sync-cn",
+      "display_name": "Memory Sync CN",
+      "stat_downloads": 569,
+      "stat_stars": 0,
+      "created_at": "2026-02-19T01:47:11.082000",
+      "days_old": 37,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "memory-sync-enhanced",
+      "display_name": "Memory Sync Enhanced",
+      "stat_downloads": 558,
+      "stat_stars": 1,
+      "created_at": "2026-02-19T10:52:07.101000",
+      "days_old": 37,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "v2ex-hot-cn",
+      "display_name": "V2ex Hot Cn",
+      "stat_downloads": 538,
+      "stat_stars": 0,
+      "created_at": "2026-02-21T12:13:48.847000",
+      "days_old": 35,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "solana-funding-arb-cn",
+      "display_name": "Solana Funding Arb Cn",
+      "stat_downloads": 515,
+      "stat_stars": 0,
+      "created_at": "2026-02-17T12:17:57.182000",
+      "days_old": 39,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "agent-sleep",
+      "display_name": "Agent Sleep",
+      "stat_downloads": 514,
+      "stat_stars": 0,
+      "created_at": "2026-02-18T11:10:23.115000",
+      "days_old": 38,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "cross-chain-arbitrage-cn",
+      "display_name": "Cross-Chain Arbitrage CN | \u8de8\u94fe\u5957\u5229",
+      "stat_downloads": 513,
+      "stat_stars": 0,
+      "created_at": "2026-02-17T12:17:39.058000",
+      "days_old": 39,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "lead-research-assistant-cn",
+      "display_name": "Lead Research Assistant Cn",
+      "stat_downloads": 506,
+      "stat_stars": 0,
+      "created_at": "2026-02-17T06:16:22.338000",
+      "days_old": 39,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "polymarket-arbitrage-cn",
+      "display_name": "Polymarket Arbitrage Cn",
+      "stat_downloads": 482,
+      "stat_stars": 0,
+      "created_at": "2026-02-20T03:04:15.684000",
+      "days_old": 36,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "mlops-industrialization-cn",
+      "display_name": "MLOps Industrialization",
+      "stat_downloads": 478,
+      "stat_stars": 0,
+      "created_at": "2026-02-18T15:18:02.617000",
+      "days_old": 38,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "mlops-automation-cn",
+      "display_name": "MLOps Automation",
+      "stat_downloads": 478,
+      "stat_stars": 0,
+      "created_at": "2026-02-18T15:18:12.174000",
+      "days_old": 38,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "mlops-prototyping-cn",
+      "display_name": "MLOps Prototyping CN",
+      "stat_downloads": 471,
+      "stat_stars": 0,
+      "created_at": "2026-02-19T01:47:29.973000",
+      "days_old": 37,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "finetune-service-cn",
+      "display_name": "Fine-tune Service CN | \u6a21\u578b\u5fae\u8c03\u670d\u52a1",
+      "stat_downloads": 453,
+      "stat_stars": 0,
+      "created_at": "2026-02-17T12:17:35.468000",
+      "days_old": 39,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "mlops-validation-cn",
+      "display_name": "MLOps Validation CN",
+      "stat_downloads": 405,
+      "stat_stars": 0,
+      "created_at": "2026-02-19T01:47:33.898000",
+      "days_old": 37,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "changelog-generator-cn",
+      "display_name": "Changelog Generator Cn",
+      "stat_downloads": 404,
+      "stat_stars": 0,
+      "created_at": "2026-02-20T16:30:22.600000",
+      "days_old": 36,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "content-research-writer-cn",
+      "display_name": "Content Research Writer Cn",
+      "stat_downloads": 382,
+      "stat_stars": 0,
+      "created_at": "2026-02-17T06:17:32.868000",
+      "days_old": 39,
+      "is_highlighted": false,
+      "is_suspicious": true
+    }
+  ],
+  "trajectory": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 52665,
+      "stars": 87
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 53604,
+      "stars": 89
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 55594,
+      "stars": 94
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 56935,
+      "stars": 95
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 58585,
+      "stars": 97
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 60531,
+      "stars": 104
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 64490,
+      "stars": 113
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 64835,
+      "stars": 114
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 65302,
+      "stars": 115
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 67644,
+      "stars": 123
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 71251,
+      "stars": 133
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 71251,
+      "stars": 133
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 72019,
+      "stars": 135
+    }
+  ],
+  "download_trajectory": [
+    52665,
+    53604,
+    55594,
+    56935,
+    58585,
+    60531,
+    64490,
+    64835,
+    65302,
+    67644,
+    71251,
+    71251,
+    72019
+  ]
+}

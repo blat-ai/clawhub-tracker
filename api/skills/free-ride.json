@@ -1,0 +1,122 @@
+{
+  "skill_id": "kd7ca5p9c45ff1p0fsbpv5j3cs80j3ty",
+  "slug": "free-ride",
+  "display_name": "Free Ride - Unlimited free AI",
+  "summary": "Manages free AI models from OpenRouter for OpenClaw. Automatically ranks models by quality, configures fallbacks for rate-limit handling, and updates opencla...",
+  "owner_handle": "shaivpidadi",
+  "owner_image": "https://avatars.githubusercontent.com/u/26166520?v=4",
+  "created_at": "2026-02-05T17:42:17.350000",
+  "days_old": 50,
+  "stat_downloads": 47771,
+  "stat_stars": 349,
+  "tags": {
+    "latest": "k979d1h1kjqbt29eff5w87yv9h83pfqr"
+  },
+  "badges": null,
+  "stat_installs": 379,
+  "stat_comments": 25,
+  "current_version": "1.0.7",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 955.4,
+  "acceleration_pct": -66.7,
+  "dl_delta": 195,
+  "dl_wow": 0.4,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 0,
+  "installs_wow": 0.0,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 39335,
+      "stars": 291,
+      "installs_all_time": 285,
+      "installs_current": 277
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 40060,
+      "stars": 292,
+      "installs_all_time": 291,
+      "installs_current": 282
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 41475,
+      "stars": 305,
+      "installs_all_time": 310,
+      "installs_current": 299
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 42648,
+      "stars": 317,
+      "installs_all_time": 325,
+      "installs_current": 313
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 43695,
+      "stars": 321,
+      "installs_all_time": 338,
+      "installs_current": 325
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 44726,
+      "stars": 330,
+      "installs_all_time": 350,
+      "installs_current": 336
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 46554,
+      "stars": 344,
+      "installs_all_time": 373,
+      "installs_current": 358
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 46752,
+      "stars": 344,
+      "installs_all_time": 374,
+      "installs_current": 359
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 47045,
+      "stars": 347,
+      "installs_all_time": 376,
+      "installs_current": 361
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 47576,
+      "stars": 349,
+      "installs_all_time": 379,
+      "installs_current": 348
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 47576,
+      "stars": 349,
+      "installs_all_time": 379,
+      "installs_current": 348
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 47771,
+      "stars": 349,
+      "installs_all_time": 379,
+      "installs_current": 348
+    }
+  ],
+  "version_releases": [
+    {
+      "version_number": "1.0.7",
+      "run_date": "2026-03-27T14:10:05.719067",
+      "changelog": "- Adds detailed SKILL.md documentation for the freeride skill.\n- Clearly explains prerequisites, primary workflow, command reference, config changes, optional watcher, and troubleshooting steps.\n- No code changes or functionality updates detailed."
+    }
+  ]
+}

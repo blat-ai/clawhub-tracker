@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd79zyh1kxr5qm4459p0etvy2h7yjcxr",
+  "slug": "apple-notes",
+  "display_name": "Apple Notes",
+  "summary": "Manage Apple Notes via the `memo` CLI on macOS (create, view, edit, delete, search, move, and export notes). Use when a user asks Clawdbot to add a note, list notes, search notes, or manage note folders.",
+  "owner_handle": "steipete",
+  "owner_image": "https://avatars.githubusercontent.com/u/58493?v=4",
+  "created_at": "2026-01-04T16:48:14.031000",
+  "days_old": 82,
+  "stat_downloads": 24840,
+  "stat_stars": 43,
+  "tags": {
+    "latest": "k974xp9g7af13e8s1jpdpxrhvd7yja2e"
+  },
+  "badges": null,
+  "stat_installs": 1157,
+  "stat_comments": 1,
+  "current_version": "1.0.0",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 302.9,
+  "acceleration_pct": -67.8,
+  "dl_delta": 152,
+  "dl_wow": 0.6,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 6,
+  "installs_wow": 0.5,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 21401,
+      "stars": 42,
+      "installs_all_time": 1015,
+      "installs_current": 997
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 21576,
+      "stars": 42,
+      "installs_all_time": 1027,
+      "installs_current": 1008
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 21927,
+      "stars": 42,
+      "installs_all_time": 1041,
+      "installs_current": 1021
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 22182,
+      "stars": 42,
+      "installs_all_time": 1055,
+      "installs_current": 1035
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 22454,
+      "stars": 42,
+      "installs_all_time": 1067,
+      "installs_current": 1045
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 22849,
+      "stars": 42,
+      "installs_all_time": 1089,
+      "installs_current": 1067
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 23512,
+      "stars": 43,
+      "installs_all_time": 1111,
+      "installs_current": 1088
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 23549,
+      "stars": 43,
+      "installs_all_time": 1117,
+      "installs_current": 1094
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 23648,
+      "stars": 43,
+      "installs_all_time": 1119,
+      "installs_current": 1096
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 24021,
+      "stars": 43,
+      "installs_all_time": 1133,
+      "installs_current": 1110
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 24688,
+      "stars": 43,
+      "installs_all_time": 1151,
+      "installs_current": 1128
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 24688,
+      "stars": 43,
+      "installs_all_time": 1151,
+      "installs_current": 1128
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 24840,
+      "stars": 43,
+      "installs_all_time": 1157,
+      "installs_current": 1132
+    }
+  ],
+  "version_releases": []
+}

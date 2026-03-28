@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd7azbj921cxvnvb8f90j8hbzn7ykdxr",
+  "slug": "obsidian",
+  "display_name": "Obsidian",
+  "summary": "Work with Obsidian vaults (plain Markdown notes) and automate via obsidian-cli.",
+  "owner_handle": "steipete",
+  "owner_image": "https://avatars.githubusercontent.com/u/58493?v=4",
+  "created_at": "2026-01-04T16:49:22.143000",
+  "days_old": 82,
+  "stat_downloads": 67223,
+  "stat_stars": 276,
+  "tags": {
+    "latest": "k971vje0zv6fg15kv9z4jy3s8x7yj61t"
+  },
+  "badges": null,
+  "stat_installs": 2096,
+  "stat_comments": 9,
+  "current_version": "1.0.0",
+  "is_highlighted": false,
+  "is_suspicious": false,
+  "velocity": 819.8,
+  "acceleration_pct": -71.0,
+  "dl_delta": 441,
+  "dl_wow": 0.7,
+  "star_delta": 1,
+  "star_wow": 0.4,
+  "installs_delta": 12,
+  "installs_wow": 0.6,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 56038,
+      "stars": 225,
+      "installs_all_time": 1745,
+      "installs_current": 1702
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 56817,
+      "stars": 228,
+      "installs_all_time": 1771,
+      "installs_current": 1727
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 58254,
+      "stars": 233,
+      "installs_all_time": 1814,
+      "installs_current": 1768
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 59257,
+      "stars": 243,
+      "installs_all_time": 1858,
+      "installs_current": 1809
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 60264,
+      "stars": 248,
+      "installs_all_time": 1884,
+      "installs_current": 1833
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 61338,
+      "stars": 253,
+      "installs_all_time": 1929,
+      "installs_current": 1876
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 63372,
+      "stars": 260,
+      "installs_all_time": 1993,
+      "installs_current": 1937
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 63541,
+      "stars": 262,
+      "installs_all_time": 1998,
+      "installs_current": 1942
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 63829,
+      "stars": 263,
+      "installs_all_time": 2003,
+      "installs_current": 1947
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 65063,
+      "stars": 269,
+      "installs_all_time": 2033,
+      "installs_current": 1976
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 66782,
+      "stars": 275,
+      "installs_all_time": 2084,
+      "installs_current": 2023
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 66782,
+      "stars": 275,
+      "installs_all_time": 2084,
+      "installs_current": 2023
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 67223,
+      "stars": 276,
+      "installs_all_time": 2096,
+      "installs_current": 2033
+    }
+  ],
+  "version_releases": []
+}

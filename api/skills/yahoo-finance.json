@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd76x5n881tf1qprwgrpj5hym57ys7fj",
+  "slug": "yahoo-finance",
+  "display_name": "Yahoo Finance",
+  "summary": "Get stock prices, quotes, fundamentals, earnings, options, dividends, and analyst ratings using Yahoo Finance. Uses yfinance library - no API key required.",
+  "owner_handle": "ajanraj",
+  "owner_image": "https://avatars.githubusercontent.com/u/55903526?v=4",
+  "created_at": "2026-01-07T20:31:08.261000",
+  "days_old": 79,
+  "stat_downloads": 15896,
+  "stat_stars": 38,
+  "tags": {
+    "latest": "k97cjmzj7czqcdb5t3jrj7gdsn7ysw83"
+  },
+  "badges": null,
+  "stat_installs": 162,
+  "stat_comments": 3,
+  "current_version": "1.0.0",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 201.2,
+  "acceleration_pct": -81.0,
+  "dl_delta": 29,
+  "dl_wow": 0.2,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 0,
+  "installs_wow": 0.0,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 14825,
+      "stars": 37,
+      "installs_all_time": 135,
+      "installs_current": 130
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 14901,
+      "stars": 37,
+      "installs_all_time": 136,
+      "installs_current": 131
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 15025,
+      "stars": 37,
+      "installs_all_time": 137,
+      "installs_current": 131
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 15150,
+      "stars": 37,
+      "installs_all_time": 141,
+      "installs_current": 135
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 15239,
+      "stars": 37,
+      "installs_all_time": 144,
+      "installs_current": 137
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 15322,
+      "stars": 37,
+      "installs_all_time": 148,
+      "installs_current": 141
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 15500,
+      "stars": 38,
+      "installs_all_time": 150,
+      "installs_current": 143
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 15522,
+      "stars": 38,
+      "installs_all_time": 152,
+      "installs_current": 145
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 15553,
+      "stars": 38,
+      "installs_all_time": 152,
+      "installs_current": 145
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 15675,
+      "stars": 38,
+      "installs_all_time": 156,
+      "installs_current": 149
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 15867,
+      "stars": 38,
+      "installs_all_time": 162,
+      "installs_current": 154
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 15867,
+      "stars": 38,
+      "installs_all_time": 162,
+      "installs_current": 154
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 15896,
+      "stars": 38,
+      "installs_all_time": 162,
+      "installs_current": 154
+    }
+  ],
+  "version_releases": []
+}

@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd7camkgtkx4breysxm9y2zqm57ykwz4",
+  "slug": "spotify-player",
+  "display_name": "Spotify Player",
+  "summary": "Terminal Spotify playback/search via spogo (preferred) or spotify_player.",
+  "owner_handle": "steipete",
+  "owner_image": "https://avatars.githubusercontent.com/u/58493?v=4",
+  "created_at": "2026-01-04T16:49:42.402000",
+  "days_old": 82,
+  "stat_downloads": 18829,
+  "stat_stars": 40,
+  "tags": {
+    "latest": "k970vhz6rs61acd7h1sx0r0ja17yjsj1"
+  },
+  "badges": null,
+  "stat_installs": 1033,
+  "stat_comments": 3,
+  "current_version": "1.0.0",
+  "is_highlighted": false,
+  "is_suspicious": false,
+  "velocity": 229.6,
+  "acceleration_pct": -77.2,
+  "dl_delta": 83,
+  "dl_wow": 0.4,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 6,
+  "installs_wow": 0.6,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 16616,
+      "stars": 36,
+      "installs_all_time": 908,
+      "installs_current": 895
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 16770,
+      "stars": 36,
+      "installs_all_time": 916,
+      "installs_current": 903
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 17035,
+      "stars": 37,
+      "installs_all_time": 934,
+      "installs_current": 921
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 17262,
+      "stars": 37,
+      "installs_all_time": 948,
+      "installs_current": 935
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 17479,
+      "stars": 37,
+      "installs_all_time": 959,
+      "installs_current": 944
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 17682,
+      "stars": 38,
+      "installs_all_time": 975,
+      "installs_current": 960
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 18035,
+      "stars": 38,
+      "installs_all_time": 992,
+      "installs_current": 977
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 18071,
+      "stars": 38,
+      "installs_all_time": 998,
+      "installs_current": 982
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 18150,
+      "stars": 38,
+      "installs_all_time": 1000,
+      "installs_current": 984
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 18435,
+      "stars": 39,
+      "installs_all_time": 1013,
+      "installs_current": 997
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 18746,
+      "stars": 40,
+      "installs_all_time": 1027,
+      "installs_current": 1011
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 18746,
+      "stars": 40,
+      "installs_all_time": 1027,
+      "installs_current": 1011
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 18829,
+      "stars": 40,
+      "installs_all_time": 1033,
+      "installs_current": 1016
+    }
+  ],
+  "version_releases": []
+}

@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd7bn15qv9amd11qpabjafbwdn80hyhr",
+  "slug": "pipedrive-api",
+  "display_name": "Pipedrive",
+  "summary": "Pipedrive API integration with managed OAuth. Manage deals, persons, organizations, activities, and pipelines. Use this skill when users want to interact with Pipedrive CRM. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
+  "owner_handle": "byungkyu",
+  "owner_image": "https://avatars.githubusercontent.com/u/16563684?v=4",
+  "created_at": "2026-02-04T08:22:48.979000",
+  "days_old": 51,
+  "stat_downloads": 15157,
+  "stat_stars": 6,
+  "tags": {
+    "latest": "k976100mhynjzj83d7g76behvd80w12s"
+  },
+  "badges": null,
+  "stat_installs": 10,
+  "stat_comments": 3,
+  "current_version": "1.0.3",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 297.2,
+  "acceleration_pct": -73.3,
+  "dl_delta": 4,
+  "dl_wow": 0.0,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 0,
+  "installs_wow": 0.0,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 15028,
+      "stars": 6,
+      "installs_all_time": 7,
+      "installs_current": 6
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 15038,
+      "stars": 6,
+      "installs_all_time": 7,
+      "installs_current": 6
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 15063,
+      "stars": 6,
+      "installs_all_time": 7,
+      "installs_current": 6
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 15081,
+      "stars": 6,
+      "installs_all_time": 8,
+      "installs_current": 7
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 15083,
+      "stars": 6,
+      "installs_all_time": 8,
+      "installs_current": 6
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 15086,
+      "stars": 6,
+      "installs_all_time": 9,
+      "installs_current": 7
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 15111,
+      "stars": 6,
+      "installs_all_time": 9,
+      "installs_current": 7
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 15114,
+      "stars": 6,
+      "installs_all_time": 9,
+      "installs_current": 7
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 15116,
+      "stars": 6,
+      "installs_all_time": 9,
+      "installs_current": 7
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 15129,
+      "stars": 6,
+      "installs_all_time": 9,
+      "installs_current": 7
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 15153,
+      "stars": 6,
+      "installs_all_time": 10,
+      "installs_current": 8
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 15153,
+      "stars": 6,
+      "installs_all_time": 10,
+      "installs_current": 8
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 15157,
+      "stars": 6,
+      "installs_all_time": 10,
+      "installs_current": 8
+    }
+  ],
+  "version_releases": []
+}

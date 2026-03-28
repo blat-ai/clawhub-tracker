@@ -1,0 +1,127 @@
+{
+  "skill_id": "kd72b3vvy8sds772vd81r6hk4d831kep",
+  "slug": "ima-skills",
+  "display_name": "ima skills",
+  "summary": "\u7edf\u4e00\u7684 IMA OpenAPI \u6280\u80fd\uff0c\u652f\u6301\u7b14\u8bb0\u7ba1\u7406\u548c\u77e5\u8bc6\u5e93\u64cd\u4f5c\u3002 \u5f53\u7528\u6237\u63d0\u5230\u77e5\u8bc6\u5e93\u3001\u8d44\u6599\u5e93\u3001\u7b14\u8bb0\u3001\u5907\u5fd8\u5f55\u3001\u8bb0\u4e8b\uff0c\u6216\u8005\u60f3\u8981\u4e0a\u4f20\u6587\u4ef6\u3001\u6dfb\u52a0\u7f51\u9875\u5230\u77e5\u8bc6\u5e93\u3001 \u641c\u7d22\u77e5\u8bc6\u5e93\u5185\u5bb9\u3001\u641c\u7d22/\u6d4f\u89c8/\u521b\u5efa/\u7f16\u8f91\u7b14\u8bb0\u65f6\uff0c\u4f7f\u7528\u6b64 skill\u3002 \u5373\u4f7f\u7528\u6237\u6ca1\u6709\u660e\u786e\u8bf4\"\u77e5\u8bc6\u5e93\"\u6216\"\u7b14\u8bb0\"\uff0c\u53ea\u8981\u610f\u56fe\u6d89\u53ca\u6587\u4ef6\u4e0a\u4f20\u5230\u77e5\u8bc6\u5e93\u3001\u7f51\u9875\u6536\u85cf\u3001 \u77e5\u8bc6\u641c\u7d22\u3001\u4e2a\u4eba...",
+  "owner_handle": "iampennyli",
+  "owner_image": "https://avatars.githubusercontent.com/u/14218414?v=4",
+  "created_at": "2026-03-16T12:55:38.363000",
+  "days_old": 11,
+  "stat_downloads": 10090,
+  "stat_stars": 25,
+  "tags": {
+    "latest": "k9795ey3qkfc9mvw6xb2tmvqn983gpsc"
+  },
+  "badges": null,
+  "stat_installs": 19,
+  "stat_comments": 0,
+  "current_version": "1.1.2",
+  "is_highlighted": false,
+  "is_suspicious": false,
+  "velocity": 917.3,
+  "acceleration_pct": -85.4,
+  "dl_delta": 62,
+  "dl_wow": 0.6,
+  "star_delta": 1,
+  "star_wow": 4.2,
+  "installs_delta": 0,
+  "installs_wow": 0.0,
+  "history": [
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 5549,
+      "stars": 14,
+      "installs_all_time": 3,
+      "installs_current": 3
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 7641,
+      "stars": 18,
+      "installs_all_time": 5,
+      "installs_current": 5
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 7989,
+      "stars": 23,
+      "installs_all_time": 6,
+      "installs_current": 6
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 8269,
+      "stars": 23,
+      "installs_all_time": 8,
+      "installs_current": 8
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 8536,
+      "stars": 23,
+      "installs_all_time": 9,
+      "installs_current": 9
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 9114,
+      "stars": 23,
+      "installs_all_time": 15,
+      "installs_current": 15
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 9152,
+      "stars": 24,
+      "installs_all_time": 15,
+      "installs_current": 15
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 9191,
+      "stars": 24,
+      "installs_all_time": 17,
+      "installs_current": 17
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 9577,
+      "stars": 24,
+      "installs_all_time": 18,
+      "installs_current": 18
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 10028,
+      "stars": 24,
+      "installs_all_time": 19,
+      "installs_current": 18
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 10028,
+      "stars": 24,
+      "installs_all_time": 19,
+      "installs_current": 18
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 10090,
+      "stars": 25,
+      "installs_all_time": 19,
+      "installs_current": 18
+    }
+  ],
+  "version_releases": [
+    {
+      "version_number": "1.0.4",
+      "run_date": "2026-03-20T03:00:00.833403",
+      "changelog": "ima-note 1.0.4\n\n- \u521d\u59cb\u53d1\u5e03\uff0c\u652f\u6301 IMA \u4e2a\u4eba\u7b14\u8bb0\u670d\u52a1 API\u3002\n- \u5b9e\u73b0\u641c\u7d22\u3001\u6d4f\u89c8\u3001\u67e5\u770b\u3001\u521b\u5efa\u3001\u548c\u8ffd\u52a0\u7528\u6237\u4e2a\u4eba\u7b14\u8bb0\u7684\u80fd\u529b\u3002\n- \u8865\u5145\u591a\u79cd\u8c03\u7528\u63a5\u53e3\u53c2\u6570\u8bf4\u660e\u4e0e\u4f7f\u7528\u5de5\u4f5c\u6d41\uff0c\u4ee5\u53ca\u5206\u7ea7\u6743\u9650\u548c\u54cd\u5e94\u5b57\u6bb5\u8bf4\u660e\u3002\n- \u65b0\u589e\u8be6\u7ec6 UTF-8 \u7f16\u7801\u517c\u5bb9\u548c\u8de8\u5e73\u53f0\u8f6c\u7801\u64cd\u4f5c\u6307\u5f15\u3002\n- \u660e\u78ba\u63a5\u53e3\u9519\u8bef\u7801\u548c\u5e38\u89c1\u95ee\u9898\u5904\u7406\u5efa\u8bae\u3002"
+    },
+    {
+      "version_number": "1.1.2",
+      "run_date": "2026-03-24T14:13:35.104417",
+      "changelog": "**ima-skills v1.1.2 changelog**\n\nSkill upgraded to support both notes and knowledge-base with enhanced modularity and credential security.\n\n- Modularized into `notes` and `knowledge-base` subskills; unified under `ima-skill`.\n- Detailed credential setup: now supports both environment variables and config files.\n- Added clear module routing/decision table for intent disambiguation.\n- Strict UTF-8 encoding requirements for notes-writing operations; critical handling for PowerShell 5.1 encoding issues.\n- Enhanced security notice: credentials are only sent to ima.qq.com and never logged or sent elsewhere.\n- Added extensive module docs in `knowledge-base/` and `notes/`, with code samples for preflight, uploads, and more."
+    }
+  ]
+}

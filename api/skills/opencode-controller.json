@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd73xa4xp9f6w3q776ba2rwf1980376b",
+  "slug": "opencode-controller",
+  "display_name": "Opencode-controller",
+  "summary": "Control and operate Opencode via slash commands. Use this skill to manage sessions, select models, switch agents (plan/build), and coordinate coding through Opencode.",
+  "owner_handle": "karatla",
+  "owner_image": "https://avatars.githubusercontent.com/u/55880954?v=4",
+  "created_at": "2026-01-28T20:57:33.391000",
+  "days_old": 58,
+  "stat_downloads": 15206,
+  "stat_stars": 64,
+  "tags": {
+    "latest": "k97d36mm7y6zvt34xgrp94tq4h803q69"
+  },
+  "badges": null,
+  "stat_installs": 161,
+  "stat_comments": 0,
+  "current_version": "1.0.0",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 262.2,
+  "acceleration_pct": -75.9,
+  "dl_delta": 34,
+  "dl_wow": 0.2,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 0,
+  "installs_wow": 0.0,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 14111,
+      "stars": 61,
+      "installs_all_time": 133,
+      "installs_current": 123
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 14180,
+      "stars": 61,
+      "installs_all_time": 134,
+      "installs_current": 124
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 14325,
+      "stars": 61,
+      "installs_all_time": 137,
+      "installs_current": 127
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 14454,
+      "stars": 61,
+      "installs_all_time": 139,
+      "installs_current": 129
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 14562,
+      "stars": 62,
+      "installs_all_time": 141,
+      "installs_current": 130
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 14666,
+      "stars": 63,
+      "installs_all_time": 147,
+      "installs_current": 136
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 14857,
+      "stars": 64,
+      "installs_all_time": 153,
+      "installs_current": 142
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 14870,
+      "stars": 64,
+      "installs_all_time": 154,
+      "installs_current": 143
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 14889,
+      "stars": 64,
+      "installs_all_time": 154,
+      "installs_current": 143
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 15011,
+      "stars": 64,
+      "installs_all_time": 156,
+      "installs_current": 145
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 15172,
+      "stars": 64,
+      "installs_all_time": 161,
+      "installs_current": 150
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 15172,
+      "stars": 64,
+      "installs_all_time": 161,
+      "installs_current": 150
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 15206,
+      "stars": 64,
+      "installs_all_time": 161,
+      "installs_current": 150
+    }
+  ],
+  "version_releases": []
+}

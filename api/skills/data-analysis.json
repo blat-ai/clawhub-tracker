@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd7fmktf6esbvatt2pfvn4es6x8115vr",
+  "slug": "data-analysis",
+  "display_name": "Data Analysis",
+  "summary": "Data analysis and visualization. Query databases, generate reports, automate spreadsheets, and turn raw data into clear, actionable insights. Use when (1) yo...",
+  "owner_handle": "ivangdavila",
+  "owner_image": "https://avatars.githubusercontent.com/u/81719670?v=4",
+  "created_at": "2026-02-12T14:10:27.744000",
+  "days_old": 43,
+  "stat_downloads": 18440,
+  "stat_stars": 58,
+  "tags": {
+    "latest": "k978epq2kkmk6ahsr8g3fhz4w582qspx"
+  },
+  "badges": null,
+  "stat_installs": 243,
+  "stat_comments": 0,
+  "current_version": "1.0.2",
+  "is_highlighted": false,
+  "is_suspicious": false,
+  "velocity": 428.8,
+  "acceleration_pct": -71.1,
+  "dl_delta": 243,
+  "dl_wow": 1.3,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 0,
+  "installs_wow": 0.0,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 12107,
+      "stars": 36,
+      "installs_all_time": 166,
+      "installs_current": 158
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 12511,
+      "stars": 39,
+      "installs_all_time": 172,
+      "installs_current": 164
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 13293,
+      "stars": 42,
+      "installs_all_time": 180,
+      "installs_current": 172
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 13860,
+      "stars": 44,
+      "installs_all_time": 186,
+      "installs_current": 178
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 14481,
+      "stars": 46,
+      "installs_all_time": 195,
+      "installs_current": 185
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 15071,
+      "stars": 49,
+      "installs_all_time": 206,
+      "installs_current": 196
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 16150,
+      "stars": 55,
+      "installs_all_time": 219,
+      "installs_current": 208
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 16243,
+      "stars": 55,
+      "installs_all_time": 220,
+      "installs_current": 209
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 16401,
+      "stars": 55,
+      "installs_all_time": 222,
+      "installs_current": 211
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 17085,
+      "stars": 57,
+      "installs_all_time": 227,
+      "installs_current": 216
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 18197,
+      "stars": 58,
+      "installs_all_time": 243,
+      "installs_current": 232
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 18197,
+      "stars": 58,
+      "installs_all_time": 243,
+      "installs_current": 232
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 18440,
+      "stars": 58,
+      "installs_all_time": 243,
+      "installs_current": 232
+    }
+  ],
+  "version_releases": []
+}

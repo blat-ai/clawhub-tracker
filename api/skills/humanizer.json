@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd7dx00dcjb4vzfecwakpcvkhx7zvfgn",
+  "slug": "humanizer",
+  "display_name": "Humanizer",
+  "summary": "Remove signs of AI-generated writing from text. Use when editing or reviewing\ntext to make it sound more natural and human-written. Based on Wikipedia's\ncomprehensive \"Signs of AI writing\" guide. Detects and fixes patterns including:\ninflated symbolism, promotional language, superficial -ing analyses, vague\nattributions, em dash overuse, rule of three, AI vocabulary words, negative\nparallelisms, and excessive conjunctive phrases.",
+  "owner_handle": "biostartechnology",
+  "owner_image": "https://avatars.githubusercontent.com/u/46933184?v=4",
+  "created_at": "2026-01-24T05:15:36.865000",
+  "days_old": 62,
+  "stat_downloads": 72875,
+  "stat_stars": 470,
+  "tags": {
+    "latest": "k978f3tddrje7dje9c86xw3f1s7zthkq"
+  },
+  "badges": null,
+  "stat_installs": 1067,
+  "stat_comments": 6,
+  "current_version": "1.0.0",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 1175.4,
+  "acceleration_pct": -71.7,
+  "dl_delta": 432,
+  "dl_wow": 0.6,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 10,
+  "installs_wow": 0.9,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 60793,
+      "stars": 423,
+      "installs_all_time": 807,
+      "installs_current": 785
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 61609,
+      "stars": 425,
+      "installs_all_time": 832,
+      "installs_current": 808
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 63245,
+      "stars": 429,
+      "installs_all_time": 866,
+      "installs_current": 840
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 64473,
+      "stars": 439,
+      "installs_all_time": 892,
+      "installs_current": 866
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 65530,
+      "stars": 442,
+      "installs_all_time": 910,
+      "installs_current": 880
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 66637,
+      "stars": 444,
+      "installs_all_time": 947,
+      "installs_current": 915
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 68849,
+      "stars": 456,
+      "installs_all_time": 994,
+      "installs_current": 959
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 69025,
+      "stars": 456,
+      "installs_all_time": 995,
+      "installs_current": 960
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 69285,
+      "stars": 456,
+      "installs_all_time": 999,
+      "installs_current": 964
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 70549,
+      "stars": 459,
+      "installs_all_time": 1026,
+      "installs_current": 989
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 72443,
+      "stars": 470,
+      "installs_all_time": 1057,
+      "installs_current": 1016
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 72443,
+      "stars": 470,
+      "installs_all_time": 1057,
+      "installs_current": 1016
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 72875,
+      "stars": 470,
+      "installs_all_time": 1067,
+      "installs_current": 1024
+    }
+  ],
+  "version_releases": []
+}

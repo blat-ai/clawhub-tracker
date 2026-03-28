@@ -1,0 +1,123 @@
+{
+  "skill_id": "kd7dnx178k9z484f8mhmdgs6ds7ykms0",
+  "slug": "notion",
+  "display_name": "Notion",
+  "summary": "Notion API for creating and managing pages, databases, and blocks.",
+  "owner_handle": "steipete",
+  "owner_image": "https://avatars.githubusercontent.com/u/58493?v=4",
+  "created_at": "2026-01-04T16:49:20.889000",
+  "days_old": 82,
+  "stat_downloads": 67481,
+  "stat_stars": 216,
+  "tags": {
+    "latest": "k97f11bk9neh14b8pxakg2t0wd7yjb90"
+  },
+  "badges": null,
+  "stat_installs": 2011,
+  "stat_comments": 3,
+  "current_version": "1.0.0",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 822.9,
+  "acceleration_pct": -70.0,
+  "dl_delta": 336,
+  "dl_wow": 0.5,
+  "star_delta": 2,
+  "star_wow": 0.9,
+  "installs_delta": 12,
+  "installs_wow": 0.6,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 58842,
+      "stars": 197,
+      "installs_all_time": 1702,
+      "installs_current": 1668
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 59439,
+      "stars": 197,
+      "installs_all_time": 1732,
+      "installs_current": 1698
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 60537,
+      "stars": 199,
+      "installs_all_time": 1780,
+      "installs_current": 1746
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 61398,
+      "stars": 202,
+      "installs_all_time": 1811,
+      "installs_current": 1777
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 62258,
+      "stars": 202,
+      "installs_all_time": 1843,
+      "installs_current": 1806
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 63164,
+      "stars": 203,
+      "installs_all_time": 1883,
+      "installs_current": 1844
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 64644,
+      "stars": 206,
+      "installs_all_time": 1930,
+      "installs_current": 1888
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 64755,
+      "stars": 206,
+      "installs_all_time": 1937,
+      "installs_current": 1894
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 64977,
+      "stars": 206,
+      "installs_all_time": 1939,
+      "installs_current": 1896
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 65875,
+      "stars": 210,
+      "installs_all_time": 1965,
+      "installs_current": 1922
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 67145,
+      "stars": 214,
+      "installs_all_time": 1999,
+      "installs_current": 1957
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 67145,
+      "stars": 214,
+      "installs_all_time": 1999,
+      "installs_current": 1957
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 67481,
+      "stars": 216,
+      "installs_all_time": 2011,
+      "installs_current": 1968
+    }
+  ],
+  "version_releases": []
+}

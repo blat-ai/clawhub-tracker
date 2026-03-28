@@ -1,0 +1,129 @@
+{
+  "skill_id": "kd70n0m510cg2af72qey2vcdfd81vrbc",
+  "slug": "post-job",
+  "display_name": "Post Job",
+  "summary": "Post free job ads to 20+ job boards such as LinkedIn, Indeed, Ziprecruiter etc. to receive applicant resumes via email.",
+  "owner_handle": "zhangdong",
+  "owner_image": "https://avatars.githubusercontent.com/u/1252748?v=4",
+  "created_at": "2026-02-25T02:59:16.304000",
+  "days_old": 31,
+  "stat_downloads": 13600,
+  "stat_stars": 7,
+  "tags": {
+    "latest": "k9770apzwdcv2279evc716e1ph8393x2"
+  },
+  "badges": null,
+  "stat_installs": 5,
+  "stat_comments": 0,
+  "current_version": "1.6.1",
+  "is_highlighted": false,
+  "is_suspicious": false,
+  "velocity": 438.7,
+  "acceleration_pct": -76.3,
+  "dl_delta": 14,
+  "dl_wow": 0.1,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 0,
+  "installs_wow": 0.0,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 13241,
+      "stars": 4,
+      "installs_all_time": 2,
+      "installs_current": 1
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 13248,
+      "stars": 4,
+      "installs_all_time": 2,
+      "installs_current": 1
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 13281,
+      "stars": 4,
+      "installs_all_time": 2,
+      "installs_current": 1
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 13334,
+      "stars": 5,
+      "installs_all_time": 3,
+      "installs_current": 2
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 13357,
+      "stars": 6,
+      "installs_all_time": 3,
+      "installs_current": 1
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 13388,
+      "stars": 6,
+      "installs_all_time": 4,
+      "installs_current": 2
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 13457,
+      "stars": 6,
+      "installs_all_time": 5,
+      "installs_current": 3
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 13464,
+      "stars": 6,
+      "installs_all_time": 5,
+      "installs_current": 3
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 13475,
+      "stars": 7,
+      "installs_all_time": 5,
+      "installs_current": 3
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 13523,
+      "stars": 7,
+      "installs_all_time": 5,
+      "installs_current": 3
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 13586,
+      "stars": 7,
+      "installs_all_time": 5,
+      "installs_current": 3
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 13586,
+      "stars": 7,
+      "installs_all_time": 5,
+      "installs_current": 3
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 13600,
+      "stars": 7,
+      "installs_all_time": 5,
+      "installs_current": 3
+    }
+  ],
+  "version_releases": [
+    {
+      "version_number": "1.6.1",
+      "run_date": "2026-03-21T03:00:00.776166",
+      "changelog": "Refactored location loading to separate module to avoid static analysis false positive"
+    }
+  ]
+}
