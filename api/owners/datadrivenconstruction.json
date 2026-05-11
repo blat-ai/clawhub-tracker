@@ -1,0 +1,796 @@
+{
+  "handle": "datadrivenconstruction",
+  "total_downloads": 77640,
+  "total_stars": 33,
+  "total_installs": 271,
+  "skill_count": 50,
+  "avg_dl_per_day": 16.7,
+  "highlighted_count": 0,
+  "suspicious_count": 2,
+  "clean_pct": 96.0,
+  "dl_delta": 3911,
+  "dl_wow": 5.3,
+  "dl_per_day": 3911.0,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "star_per_day": 0,
+  "installs_delta": 0,
+  "installs_wow": 0.0,
+  "installs_per_day": 0,
+  "owner_display_name": "datadrivenconstruction",
+  "owner_name": "datadrivenconstruction",
+  "owner_image": "https://avatars.githubusercontent.com/u/94158709?v=4",
+  "bio": "DataDrivenConstruction.io - empowering digital transformation in the construction industry.\r\nWe help teams automate data workflows, leverage open data standards",
+  "company": "datadrivenconstruction",
+  "location": "Karlsruhe",
+  "blog": "https://datadrivenconstruction.io/",
+  "public_repos": 38,
+  "followers": 378,
+  "following": 0,
+  "github_created_at": "2021-11-12T05:17:48",
+  "twitter_username": "datadrivenconst",
+  "skills": [
+    {
+      "slug": "data-model-designer",
+      "display_name": "Data Model Designer",
+      "stat_downloads": 4903,
+      "stat_stars": 0,
+      "created_at": "2026-02-07T14:45:02.119000",
+      "days_old": 93,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "data-anomaly-detector",
+      "display_name": "Data Anomaly Detector",
+      "stat_downloads": 4216,
+      "stat_stars": 1,
+      "created_at": "2026-02-07T14:45:15.502000",
+      "days_old": 93,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "pdf-to-structured",
+      "display_name": "Pdf To Structured",
+      "stat_downloads": 3924,
+      "stat_stars": 9,
+      "created_at": "2026-02-07T14:44:42.894000",
+      "days_old": 93,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "data-lineage-tracker",
+      "display_name": "Data Lineage Tracker",
+      "stat_downloads": 3605,
+      "stat_stars": 0,
+      "created_at": "2026-02-07T14:45:26.312000",
+      "days_old": 93,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "csv-handler",
+      "display_name": "Csv Handler",
+      "stat_downloads": 2448,
+      "stat_stars": 3,
+      "created_at": "2026-02-07T14:42:42.934000",
+      "days_old": 93,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "data-source-audit",
+      "display_name": "Data Source Audit",
+      "stat_downloads": 2061,
+      "stat_stars": 0,
+      "created_at": "2026-02-07T14:42:30.563000",
+      "days_old": 93,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "dwg-to-excel",
+      "display_name": "Dwg To Excel",
+      "stat_downloads": 2013,
+      "stat_stars": 3,
+      "created_at": "2026-02-07T14:33:51.225000",
+      "days_old": 93,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "open-construction-estimate",
+      "display_name": "Open Construction Estimate",
+      "stat_downloads": 1880,
+      "stat_stars": 2,
+      "created_at": "2026-02-07T14:59:44.699000",
+      "days_old": 93,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "image-to-data",
+      "display_name": "Image To Data",
+      "stat_downloads": 1853,
+      "stat_stars": 0,
+      "created_at": "2026-02-07T14:44:35.286000",
+      "days_old": 93,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "rag-construction",
+      "display_name": "Rag Construction",
+      "stat_downloads": 1785,
+      "stat_stars": 6,
+      "created_at": "2026-02-07T14:44:13.301000",
+      "days_old": 93,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "standards-compliance-checker",
+      "display_name": "Standards Compliance Checker",
+      "stat_downloads": 1767,
+      "stat_stars": 1,
+      "created_at": "2026-02-07T14:45:08.512000",
+      "days_old": 93,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "weather-api",
+      "display_name": "Weather Api",
+      "stat_downloads": 1764,
+      "stat_stars": 1,
+      "created_at": "2026-02-07T14:43:42.670000",
+      "days_old": 93,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "drawing-analyzer",
+      "display_name": "Drawing Analyzer",
+      "stat_downloads": 1726,
+      "stat_stars": 0,
+      "created_at": "2026-02-07T14:44:26.383000",
+      "days_old": 93,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "pandas-construction-analysis",
+      "display_name": "Pandas Construction Analysis",
+      "stat_downloads": 1724,
+      "stat_stars": 2,
+      "created_at": "2026-02-07T14:44:04.976000",
+      "days_old": 93,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "estimate-builder",
+      "display_name": "Estimate Builder",
+      "stat_downloads": 1715,
+      "stat_stars": 0,
+      "created_at": "2026-02-07T14:45:51.596000",
+      "days_old": 93,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "json-parser",
+      "display_name": "Json Parser",
+      "stat_downloads": 1660,
+      "stat_stars": 0,
+      "created_at": "2026-02-07T14:43:02.150000",
+      "days_old": 93,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "historical-data-manager",
+      "display_name": "Historical Data Manager",
+      "stat_downloads": 1607,
+      "stat_stars": 0,
+      "created_at": "2026-02-07T14:42:16.449000",
+      "days_old": 93,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "unit-price-database-manager",
+      "display_name": "Unit Price Database Manager",
+      "stat_downloads": 1558,
+      "stat_stars": 0,
+      "created_at": "2026-02-07T14:46:33.602000",
+      "days_old": 93,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "auto-estimate-generator",
+      "display_name": "Auto Estimate Generator",
+      "stat_downloads": 1490,
+      "stat_stars": 1,
+      "created_at": "2026-02-07T14:46:47.477000",
+      "days_old": 93,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ontology-mapper",
+      "display_name": "Ontology Mapper",
+      "stat_downloads": 1477,
+      "stat_stars": 0,
+      "created_at": "2026-02-07T14:43:22.127000",
+      "days_old": 93,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "cost-prediction",
+      "display_name": "Cost Prediction",
+      "stat_downloads": 1442,
+      "stat_stars": 0,
+      "created_at": "2026-02-07T14:50:37.999000",
+      "days_old": 93,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "specification-extractor",
+      "display_name": "Specification Extractor",
+      "stat_downloads": 1442,
+      "stat_stars": 0,
+      "created_at": "2026-02-07T14:44:54.331000",
+      "days_old": 93,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "bim-qto",
+      "display_name": "Bim Qto",
+      "stat_downloads": 1425,
+      "stat_stars": 0,
+      "created_at": "2026-02-07T14:46:54.885000",
+      "days_old": 93,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "data-evolution-analysis",
+      "display_name": "Data Evolution Analysis",
+      "stat_downloads": 1389,
+      "stat_stars": 1,
+      "created_at": "2026-02-07T14:42:09.027000",
+      "days_old": 93,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ifc-data-extraction",
+      "display_name": "Ifc Data Extraction",
+      "stat_downloads": 1388,
+      "stat_stars": 0,
+      "created_at": "2026-02-07T14:59:18.341000",
+      "days_old": 93,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "dgn-to-excel",
+      "display_name": "Dgn To Excel",
+      "stat_downloads": 1378,
+      "stat_stars": 0,
+      "created_at": "2026-02-07T14:33:44.029000",
+      "days_old": 93,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "historical-cost-analyzer",
+      "display_name": "Historical Cost Analyzer",
+      "stat_downloads": 1361,
+      "stat_stars": 0,
+      "created_at": "2026-02-07T14:46:07.118000",
+      "days_old": 93,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "data-quality-check",
+      "display_name": "Data Quality Check",
+      "stat_downloads": 1354,
+      "stat_stars": 0,
+      "created_at": "2026-02-07T14:45:32.210000",
+      "days_old": 93,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "cwicr-cost-calculator",
+      "display_name": "Cwicr Cost Calculator",
+      "stat_downloads": 1343,
+      "stat_stars": 0,
+      "created_at": "2026-02-07T14:35:58.385000",
+      "days_old": 93,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ifc-to-excel",
+      "display_name": "Ifc To Excel",
+      "stat_downloads": 1340,
+      "stat_stars": 0,
+      "created_at": "2026-02-07T14:34:13.578000",
+      "days_old": 93,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "price-api",
+      "display_name": "Price Api",
+      "stat_downloads": 1339,
+      "stat_stars": 0,
+      "created_at": "2026-02-07T14:43:35.822000",
+      "days_old": 93,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "validation-rules-builder",
+      "display_name": "Validation Rules Builder",
+      "stat_downloads": 1306,
+      "stat_stars": 0,
+      "created_at": "2026-02-07T14:45:39.354000",
+      "days_old": 93,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "erp-integration-analysis",
+      "display_name": "Erp Integration Analysis",
+      "stat_downloads": 1305,
+      "stat_stars": 2,
+      "created_at": "2026-02-07T14:42:36.681000",
+      "days_old": 93,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "rvt-to-excel",
+      "display_name": "Rvt To Excel",
+      "stat_downloads": 1302,
+      "stat_stars": 1,
+      "created_at": "2026-02-07T14:34:20.429000",
+      "days_old": 93,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "data-profiler",
+      "display_name": "Data Profiler",
+      "stat_downloads": 1261,
+      "stat_stars": 0,
+      "created_at": "2026-02-07T14:42:49.375000",
+      "days_old": 93,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "open-data-integrator",
+      "display_name": "Open Data Integrator",
+      "stat_downloads": 1250,
+      "stat_stars": 0,
+      "created_at": "2026-02-07T14:43:29.561000",
+      "days_old": 93,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "xml-reader",
+      "display_name": "Xml Reader",
+      "stat_downloads": 1219,
+      "stat_stars": 0,
+      "created_at": "2026-02-07T14:43:15.268000",
+      "days_old": 93,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "df-merger",
+      "display_name": "Df Merger",
+      "stat_downloads": 1174,
+      "stat_stars": 0,
+      "created_at": "2026-02-07T14:43:48.983000",
+      "days_old": 93,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "data-type-classifier",
+      "display_name": "Data Type Classifier",
+      "stat_downloads": 1153,
+      "stat_stars": 0,
+      "created_at": "2026-02-07T14:42:55.606000",
+      "days_old": 93,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "data-silo-detection",
+      "display_name": "Data Silo Detection",
+      "stat_downloads": 1101,
+      "stat_stars": 0,
+      "created_at": "2026-02-07T14:42:22.659000",
+      "days_old": 93,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "llm-data-automation",
+      "display_name": "Llm Data Automation",
+      "stat_downloads": 1054,
+      "stat_stars": 0,
+      "created_at": "2026-02-07T14:43:55.881000",
+      "days_old": 93,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "qto-report",
+      "display_name": "Qto Report",
+      "stat_downloads": 1042,
+      "stat_stars": 0,
+      "created_at": "2026-02-07T14:47:02.570000",
+      "days_old": 93,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "lifecycle-carbon-calculator",
+      "display_name": "Lifecycle Carbon Calculator",
+      "stat_downloads": 802,
+      "stat_stars": 0,
+      "created_at": "2026-02-07T14:47:38.568000",
+      "days_old": 93,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "cad-to-data",
+      "display_name": "Cad To Data",
+      "stat_downloads": 489,
+      "stat_stars": 0,
+      "created_at": "2026-02-07T14:44:19.808000",
+      "days_old": 93,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "batch-cad-converter",
+      "display_name": "Batch Cad Converter",
+      "stat_downloads": 478,
+      "stat_stars": 0,
+      "created_at": "2026-02-07T14:33:32.467000",
+      "days_old": 93,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "bim-cost-estimation-cwicr",
+      "display_name": "Bim Cost Estimation Cwicr",
+      "stat_downloads": 475,
+      "stat_stars": 0,
+      "created_at": "2026-02-07T14:34:46.541000",
+      "days_old": 93,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "cost-estimation-resource",
+      "display_name": "Cost Estimation Resource",
+      "stat_downloads": 472,
+      "stat_stars": 0,
+      "created_at": "2026-02-07T14:45:45.060000",
+      "days_old": 93,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "labor-rate",
+      "display_name": "Labor Rate",
+      "stat_downloads": 465,
+      "stat_stars": 0,
+      "created_at": "2026-02-07T14:46:21.003000",
+      "days_old": 93,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ifc-qto-extraction",
+      "display_name": "Ifc Qto Extraction",
+      "stat_downloads": 463,
+      "stat_stars": 0,
+      "created_at": "2026-02-07T14:33:07.229000",
+      "days_old": 93,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "rvt-to-ifc",
+      "display_name": "Rvt To Ifc",
+      "stat_downloads": 452,
+      "stat_stars": 0,
+      "created_at": "2026-02-07T14:34:26.400000",
+      "days_old": 93,
+      "is_highlighted": false,
+      "is_suspicious": true
+    }
+  ],
+  "trajectory": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 49498,
+      "stars": 23
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 49812,
+      "stars": 24
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 50614,
+      "stars": 25
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 51126,
+      "stars": 26
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 51626,
+      "stars": 26
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 52148,
+      "stars": 26
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 53253,
+      "stars": 27
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 53336,
+      "stars": 27
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 53529,
+      "stars": 27
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 54119,
+      "stars": 28
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 55060,
+      "stars": 28
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 55060,
+      "stars": 28
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 55216,
+      "stars": 28
+    },
+    {
+      "run_date": "2026-03-29T03:00:00.679954",
+      "downloads": 55605,
+      "stars": 28
+    },
+    {
+      "run_date": "2026-03-30T03:00:00.682509",
+      "downloads": 55973,
+      "stars": 28
+    },
+    {
+      "run_date": "2026-03-31T03:00:00.702238",
+      "downloads": 56481,
+      "stars": 28
+    },
+    {
+      "run_date": "2026-04-01T03:00:00.631568",
+      "downloads": 57056,
+      "stars": 28
+    },
+    {
+      "run_date": "2026-04-07T08:32:21.256392",
+      "downloads": 59995,
+      "stars": 28
+    },
+    {
+      "run_date": "2026-04-08T02:59:53.612026",
+      "downloads": 60318,
+      "stars": 28
+    },
+    {
+      "run_date": "2026-04-09T03:00:00.814082",
+      "downloads": 60898,
+      "stars": 29
+    },
+    {
+      "run_date": "2026-04-10T03:00:00.610465",
+      "downloads": 61496,
+      "stars": 29
+    },
+    {
+      "run_date": "2026-04-11T03:00:00.635800",
+      "downloads": 61945,
+      "stars": 29
+    },
+    {
+      "run_date": "2026-04-12T03:00:00.326052",
+      "downloads": 62233,
+      "stars": 29
+    },
+    {
+      "run_date": "2026-04-13T03:00:00.295537",
+      "downloads": 62652,
+      "stars": 29
+    },
+    {
+      "run_date": "2026-04-18T02:59:55.390364",
+      "downloads": 64859,
+      "stars": 30
+    },
+    {
+      "run_date": "2026-04-19T03:00:00.676118",
+      "downloads": 65207,
+      "stars": 30
+    },
+    {
+      "run_date": "2026-04-20T03:00:00.599318",
+      "downloads": 65475,
+      "stars": 30
+    },
+    {
+      "run_date": "2026-04-21T03:00:00.575737",
+      "downloads": 65828,
+      "stars": 30
+    },
+    {
+      "run_date": "2026-04-22T03:00:00.762090",
+      "downloads": 66210,
+      "stars": 30
+    },
+    {
+      "run_date": "2026-04-23T03:00:00.767159",
+      "downloads": 66493,
+      "stars": 30
+    },
+    {
+      "run_date": "2026-04-24T03:00:00.604086",
+      "downloads": 66797,
+      "stars": 30
+    },
+    {
+      "run_date": "2026-04-28T02:59:56.742214",
+      "downloads": 68020,
+      "stars": 30
+    },
+    {
+      "run_date": "2026-04-29T03:01:44.166793",
+      "downloads": 68400,
+      "stars": 30
+    },
+    {
+      "run_date": "2026-04-30T03:00:00.711115",
+      "downloads": 68798,
+      "stars": 30
+    },
+    {
+      "run_date": "2026-05-02T02:59:59.833385",
+      "downloads": 69512,
+      "stars": 32
+    },
+    {
+      "run_date": "2026-05-03T03:42:13.922530",
+      "downloads": 69746,
+      "stars": 32
+    },
+    {
+      "run_date": "2026-05-05T00:41:38.231465",
+      "downloads": 70730,
+      "stars": 32
+    },
+    {
+      "run_date": "2026-05-05T03:00:00.321955",
+      "downloads": 70766,
+      "stars": 32
+    },
+    {
+      "run_date": "2026-05-06T03:00:00.570710",
+      "downloads": 71302,
+      "stars": 32
+    },
+    {
+      "run_date": "2026-05-07T03:00:00.572063",
+      "downloads": 72144,
+      "stars": 32
+    },
+    {
+      "run_date": "2026-05-09T03:44:10.833903",
+      "downloads": 73134,
+      "stars": 33
+    },
+    {
+      "run_date": "2026-05-10T03:00:00.531823",
+      "downloads": 73729,
+      "stars": 33
+    },
+    {
+      "run_date": "2026-05-11T03:00:00.316612",
+      "downloads": 77640,
+      "stars": 33
+    }
+  ],
+  "download_trajectory": [
+    49498,
+    49812,
+    50614,
+    51126,
+    51626,
+    52148,
+    53253,
+    53336,
+    53529,
+    54119,
+    55060,
+    55060,
+    55216,
+    55605,
+    55973,
+    56481,
+    57056,
+    59995,
+    60318,
+    60898,
+    61496,
+    61945,
+    62233,
+    62652,
+    64859,
+    65207,
+    65475,
+    65828,
+    66210,
+    66493,
+    66797,
+    68020,
+    68400,
+    68798,
+    69512,
+    69746,
+    70730,
+    70766,
+    71302,
+    72144,
+    73134,
+    73729,
+    77640
+  ]
+}

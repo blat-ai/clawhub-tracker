@@ -1,0 +1,339 @@
+{
+  "skill_id": "kd78xd2xd4mm35mtmx8t4t88e980eqtd",
+  "slug": "fathom-api",
+  "display_name": "Fathom",
+  "summary": "Fathom API integration with managed OAuth. Access meeting recordings, transcripts, summaries, and manage webhooks. Use this skill when users want to retrieve...",
+  "owner_handle": "byungkyu",
+  "owner_image": "https://avatars.githubusercontent.com/u/16563684?v=4",
+  "created_at": "2026-02-03T11:15:24.195000",
+  "days_old": 96,
+  "stat_downloads": 16505,
+  "stat_stars": 12,
+  "tags": {
+    "latest": "k97062y0qdgv4df6v6nnwn9zp585twwe"
+  },
+  "badges": null,
+  "stat_installs": 6,
+  "stat_comments": 3,
+  "current_version": "1.0.6",
+  "is_highlighted": false,
+  "is_suspicious": false,
+  "velocity": 171.9,
+  "acceleration_pct": -24.6,
+  "dl_delta": 28,
+  "dl_wow": 0.2,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 0,
+  "installs_wow": 0.0,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 15556,
+      "stars": 12,
+      "installs_all_time": 4,
+      "installs_current": 4
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 15567,
+      "stars": 12,
+      "installs_all_time": 4,
+      "installs_current": 4
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 15593,
+      "stars": 12,
+      "installs_all_time": 4,
+      "installs_current": 4
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 15609,
+      "stars": 12,
+      "installs_all_time": 5,
+      "installs_current": 5
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 15612,
+      "stars": 12,
+      "installs_all_time": 5,
+      "installs_current": 4
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 15618,
+      "stars": 12,
+      "installs_all_time": 6,
+      "installs_current": 5
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 15646,
+      "stars": 12,
+      "installs_all_time": 6,
+      "installs_current": 5
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 15648,
+      "stars": 12,
+      "installs_all_time": 6,
+      "installs_current": 5
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 15651,
+      "stars": 12,
+      "installs_all_time": 6,
+      "installs_current": 5
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 15668,
+      "stars": 12,
+      "installs_all_time": 6,
+      "installs_current": 5
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 15694,
+      "stars": 12,
+      "installs_all_time": 6,
+      "installs_current": 5
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 15694,
+      "stars": 12,
+      "installs_all_time": 6,
+      "installs_current": 5
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 15698,
+      "stars": 12,
+      "installs_all_time": 6,
+      "installs_current": 5
+    },
+    {
+      "run_date": "2026-03-29T03:00:00.679954",
+      "downloads": 15707,
+      "stars": 12,
+      "installs_all_time": 6,
+      "installs_current": 5
+    },
+    {
+      "run_date": "2026-03-30T03:00:00.682509",
+      "downloads": 15719,
+      "stars": 12,
+      "installs_all_time": 6,
+      "installs_current": 5
+    },
+    {
+      "run_date": "2026-03-31T03:00:00.702238",
+      "downloads": 15739,
+      "stars": 12,
+      "installs_all_time": 6,
+      "installs_current": 5
+    },
+    {
+      "run_date": "2026-04-01T03:00:00.631568",
+      "downloads": 15751,
+      "stars": 12,
+      "installs_all_time": 6,
+      "installs_current": 5
+    },
+    {
+      "run_date": "2026-04-07T08:32:21.256392",
+      "downloads": 15822,
+      "stars": 12,
+      "installs_all_time": 6,
+      "installs_current": 5
+    },
+    {
+      "run_date": "2026-04-08T02:59:53.612026",
+      "downloads": 15829,
+      "stars": 12,
+      "installs_all_time": 6,
+      "installs_current": 5
+    },
+    {
+      "run_date": "2026-04-09T03:00:00.814082",
+      "downloads": 15851,
+      "stars": 12,
+      "installs_all_time": 6,
+      "installs_current": 5
+    },
+    {
+      "run_date": "2026-04-10T03:00:00.610465",
+      "downloads": 15870,
+      "stars": 12,
+      "installs_all_time": 6,
+      "installs_current": 5
+    },
+    {
+      "run_date": "2026-04-11T03:00:00.635800",
+      "downloads": 15883,
+      "stars": 12,
+      "installs_all_time": 6,
+      "installs_current": 5
+    },
+    {
+      "run_date": "2026-04-12T03:00:00.326052",
+      "downloads": 15887,
+      "stars": 12,
+      "installs_all_time": 6,
+      "installs_current": 5
+    },
+    {
+      "run_date": "2026-04-13T03:00:00.295537",
+      "downloads": 15891,
+      "stars": 12,
+      "installs_all_time": 6,
+      "installs_current": 5
+    },
+    {
+      "run_date": "2026-04-18T02:59:55.390364",
+      "downloads": 16002,
+      "stars": 12,
+      "installs_all_time": 6,
+      "installs_current": 5
+    },
+    {
+      "run_date": "2026-04-19T03:00:00.676118",
+      "downloads": 16013,
+      "stars": 12,
+      "installs_all_time": 6,
+      "installs_current": 5
+    },
+    {
+      "run_date": "2026-04-20T03:00:00.599318",
+      "downloads": 16023,
+      "stars": 12,
+      "installs_all_time": 6,
+      "installs_current": 5
+    },
+    {
+      "run_date": "2026-04-21T03:00:00.575737",
+      "downloads": 16040,
+      "stars": 12,
+      "installs_all_time": 6,
+      "installs_current": 5
+    },
+    {
+      "run_date": "2026-04-22T03:00:00.762090",
+      "downloads": 16056,
+      "stars": 12,
+      "installs_all_time": 6,
+      "installs_current": 5
+    },
+    {
+      "run_date": "2026-04-23T03:00:00.767159",
+      "downloads": 16068,
+      "stars": 12,
+      "installs_all_time": 6,
+      "installs_current": 5
+    },
+    {
+      "run_date": "2026-04-24T03:00:00.604086",
+      "downloads": 16082,
+      "stars": 12,
+      "installs_all_time": 6,
+      "installs_current": 5
+    },
+    {
+      "run_date": "2026-04-28T02:59:56.742214",
+      "downloads": 16158,
+      "stars": 12,
+      "installs_all_time": 6,
+      "installs_current": 5
+    },
+    {
+      "run_date": "2026-04-29T03:01:44.166793",
+      "downloads": 16174,
+      "stars": 12,
+      "installs_all_time": 6,
+      "installs_current": 5
+    },
+    {
+      "run_date": "2026-04-30T03:00:00.711115",
+      "downloads": 16194,
+      "stars": 12,
+      "installs_all_time": 6,
+      "installs_current": 5
+    },
+    {
+      "run_date": "2026-05-02T02:59:59.833385",
+      "downloads": 16257,
+      "stars": 12,
+      "installs_all_time": 6,
+      "installs_current": 5
+    },
+    {
+      "run_date": "2026-05-03T03:42:13.922530",
+      "downloads": 16278,
+      "stars": 12,
+      "installs_all_time": 6,
+      "installs_current": 5
+    },
+    {
+      "run_date": "2026-05-05T00:41:38.231465",
+      "downloads": 16331,
+      "stars": 12,
+      "installs_all_time": 6,
+      "installs_current": 5
+    },
+    {
+      "run_date": "2026-05-05T03:00:00.321955",
+      "downloads": 16332,
+      "stars": 12,
+      "installs_all_time": 6,
+      "installs_current": 5
+    },
+    {
+      "run_date": "2026-05-06T03:00:00.570710",
+      "downloads": 16363,
+      "stars": 12,
+      "installs_all_time": 6,
+      "installs_current": 5
+    },
+    {
+      "run_date": "2026-05-07T03:00:00.572063",
+      "downloads": 16401,
+      "stars": 12,
+      "installs_all_time": 6,
+      "installs_current": 5
+    },
+    {
+      "run_date": "2026-05-09T03:44:10.833903",
+      "downloads": 16453,
+      "stars": 12,
+      "installs_all_time": 6,
+      "installs_current": 5
+    },
+    {
+      "run_date": "2026-05-10T03:00:00.531823",
+      "downloads": 16477,
+      "stars": 12,
+      "installs_all_time": 6,
+      "installs_current": 5
+    },
+    {
+      "run_date": "2026-05-11T03:00:00.316612",
+      "downloads": 16505,
+      "stars": 12,
+      "installs_all_time": 6,
+      "installs_current": 5
+    }
+  ],
+  "version_releases": [
+    {
+      "version_number": "1.0.6",
+      "run_date": "2026-05-02T02:59:59.833385",
+      "changelog": "- Changed all endpoint base URLs from https://gateway.maton.ai/ and https://ctrl.maton.ai/ to https://api.maton.ai/\n- Updated Quick Start and all code samples to use the new https://api.maton.ai/ base URL.\n- Adjusted connection management instructions and endpoints to match the updated API domain.\n- Added a Security & Permissions section clarifying OAuth scopes and approval for write operations.\n- Removed extraneous file: LICENSE.txt."
+    }
+  ]
+}

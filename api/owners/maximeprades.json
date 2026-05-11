@@ -1,0 +1,306 @@
+{
+  "handle": "maximeprades",
+  "total_downloads": 83876,
+  "total_stars": 397,
+  "total_installs": 1419,
+  "skill_count": 1,
+  "avg_dl_per_day": 710.8,
+  "highlighted_count": 0,
+  "suspicious_count": 1,
+  "clean_pct": 0.0,
+  "dl_delta": 408,
+  "dl_wow": 0.5,
+  "dl_per_day": 408.0,
+  "star_delta": 2,
+  "star_wow": 0.5,
+  "star_per_day": 2.0,
+  "installs_delta": 0,
+  "installs_wow": 0.0,
+  "installs_per_day": 0,
+  "owner_display_name": "maximeprades",
+  "owner_name": "maximeprades",
+  "owner_image": "https://avatars.githubusercontent.com/u/509269?v=4",
+  "bio": "Product",
+  "company": null,
+  "location": "San Francisco",
+  "blog": null,
+  "public_repos": 2,
+  "followers": 23,
+  "following": 10,
+  "github_created_at": "2010-12-04T14:40:07",
+  "twitter_username": null,
+  "skills": [
+    {
+      "slug": "auto-updater",
+      "display_name": "Auto-Updater Skill",
+      "stat_downloads": 83876,
+      "stat_stars": 397,
+      "created_at": "2026-01-13T16:58:59.453000",
+      "days_old": 118,
+      "is_highlighted": false,
+      "is_suspicious": true
+    }
+  ],
+  "trajectory": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 49006,
+      "stars": 289
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 49663,
+      "stars": 291
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 50903,
+      "stars": 295
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 51879,
+      "stars": 300
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 52827,
+      "stars": 302
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 53826,
+      "stars": 306
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 55756,
+      "stars": 313
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 55906,
+      "stars": 316
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 56219,
+      "stars": 316
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 57382,
+      "stars": 321
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 59112,
+      "stars": 323
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 59112,
+      "stars": 323
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 59573,
+      "stars": 326
+    },
+    {
+      "run_date": "2026-03-29T03:00:00.679954",
+      "downloads": 60564,
+      "stars": 327
+    },
+    {
+      "run_date": "2026-03-30T03:00:00.682509",
+      "downloads": 61441,
+      "stars": 330
+    },
+    {
+      "run_date": "2026-03-31T03:00:00.702238",
+      "downloads": 62354,
+      "stars": 336
+    },
+    {
+      "run_date": "2026-04-01T03:00:00.631568",
+      "downloads": 63296,
+      "stars": 338
+    },
+    {
+      "run_date": "2026-04-07T08:32:21.256392",
+      "downloads": 67918,
+      "stars": 350
+    },
+    {
+      "run_date": "2026-04-08T02:59:53.612026",
+      "downloads": 68364,
+      "stars": 352
+    },
+    {
+      "run_date": "2026-04-09T03:00:00.814082",
+      "downloads": 69008,
+      "stars": 355
+    },
+    {
+      "run_date": "2026-04-10T03:00:00.610465",
+      "downloads": 69627,
+      "stars": 355
+    },
+    {
+      "run_date": "2026-04-11T03:00:00.635800",
+      "downloads": 70210,
+      "stars": 355
+    },
+    {
+      "run_date": "2026-04-12T03:00:00.326052",
+      "downloads": 70720,
+      "stars": 356
+    },
+    {
+      "run_date": "2026-04-13T03:00:00.295537",
+      "downloads": 71258,
+      "stars": 356
+    },
+    {
+      "run_date": "2026-04-18T02:59:55.390364",
+      "downloads": 73861,
+      "stars": 365
+    },
+    {
+      "run_date": "2026-04-19T03:00:00.676118",
+      "downloads": 74297,
+      "stars": 365
+    },
+    {
+      "run_date": "2026-04-20T03:00:00.599318",
+      "downloads": 74758,
+      "stars": 369
+    },
+    {
+      "run_date": "2026-04-21T03:00:00.575737",
+      "downloads": 75259,
+      "stars": 371
+    },
+    {
+      "run_date": "2026-04-22T03:00:00.762090",
+      "downloads": 75742,
+      "stars": 372
+    },
+    {
+      "run_date": "2026-04-23T03:00:00.767159",
+      "downloads": 76214,
+      "stars": 374
+    },
+    {
+      "run_date": "2026-04-24T03:00:00.604086",
+      "downloads": 76659,
+      "stars": 377
+    },
+    {
+      "run_date": "2026-04-28T02:59:56.742214",
+      "downloads": 78402,
+      "stars": 384
+    },
+    {
+      "run_date": "2026-04-29T03:01:44.166793",
+      "downloads": 78832,
+      "stars": 385
+    },
+    {
+      "run_date": "2026-04-30T03:00:00.711115",
+      "downloads": 79261,
+      "stars": 387
+    },
+    {
+      "run_date": "2026-05-02T02:59:59.833385",
+      "downloads": 79976,
+      "stars": 390
+    },
+    {
+      "run_date": "2026-05-03T03:42:13.922530",
+      "downloads": 80302,
+      "stars": 389
+    },
+    {
+      "run_date": "2026-05-05T00:41:38.231465",
+      "downloads": 81065,
+      "stars": 390
+    },
+    {
+      "run_date": "2026-05-05T03:00:00.321955",
+      "downloads": 81135,
+      "stars": 391
+    },
+    {
+      "run_date": "2026-05-06T03:00:00.570710",
+      "downloads": 81583,
+      "stars": 391
+    },
+    {
+      "run_date": "2026-05-07T03:00:00.572063",
+      "downloads": 82080,
+      "stars": 393
+    },
+    {
+      "run_date": "2026-05-09T03:44:10.833903",
+      "downloads": 82985,
+      "stars": 395
+    },
+    {
+      "run_date": "2026-05-10T03:00:00.531823",
+      "downloads": 83468,
+      "stars": 395
+    },
+    {
+      "run_date": "2026-05-11T03:00:00.316612",
+      "downloads": 83876,
+      "stars": 397
+    }
+  ],
+  "download_trajectory": [
+    49006,
+    49663,
+    50903,
+    51879,
+    52827,
+    53826,
+    55756,
+    55906,
+    56219,
+    57382,
+    59112,
+    59112,
+    59573,
+    60564,
+    61441,
+    62354,
+    63296,
+    67918,
+    68364,
+    69008,
+    69627,
+    70210,
+    70720,
+    71258,
+    73861,
+    74297,
+    74758,
+    75259,
+    75742,
+    76214,
+    76659,
+    78402,
+    78832,
+    79261,
+    79976,
+    80302,
+    81065,
+    81135,
+    81583,
+    82080,
+    82985,
+    83468,
+    83876
+  ]
+}

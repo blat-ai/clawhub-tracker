@@ -1,0 +1,204 @@
+{
+  "handle": "tokauthai",
+  "total_downloads": 167430,
+  "total_stars": 16,
+  "total_installs": 3,
+  "skill_count": 1,
+  "avg_dl_per_day": 4924.4,
+  "highlighted_count": 0,
+  "suspicious_count": 1,
+  "clean_pct": 0.0,
+  "dl_delta": 122,
+  "dl_wow": 0.1,
+  "dl_per_day": 122.0,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "star_per_day": 0,
+  "installs_delta": 0,
+  "installs_wow": 0.0,
+  "installs_per_day": 0,
+  "owner_display_name": "tokauthai",
+  "owner_name": null,
+  "owner_image": "https://avatars.githubusercontent.com/u/125343311?v=4",
+  "bio": null,
+  "company": null,
+  "location": null,
+  "blog": null,
+  "public_repos": 1,
+  "followers": 0,
+  "following": 1,
+  "github_created_at": "2023-02-14T06:42:28",
+  "twitter_username": null,
+  "skills": [
+    {
+      "slug": "skillscan",
+      "display_name": "SkillScan",
+      "stat_downloads": 167430,
+      "stat_stars": 16,
+      "created_at": "2026-04-07T02:21:48.402000",
+      "days_old": 34,
+      "is_highlighted": false,
+      "is_suspicious": true
+    }
+  ],
+  "trajectory": [
+    {
+      "run_date": "2026-04-07T08:32:21.256392",
+      "downloads": 18,
+      "stars": 3
+    },
+    {
+      "run_date": "2026-04-08T02:59:53.612026",
+      "downloads": 308,
+      "stars": 3
+    },
+    {
+      "run_date": "2026-04-09T03:00:00.814082",
+      "downloads": 2944,
+      "stars": 3
+    },
+    {
+      "run_date": "2026-04-10T03:00:00.610465",
+      "downloads": 8359,
+      "stars": 3
+    },
+    {
+      "run_date": "2026-04-11T03:00:00.635800",
+      "downloads": 17796,
+      "stars": 3
+    },
+    {
+      "run_date": "2026-04-12T03:00:00.326052",
+      "downloads": 20865,
+      "stars": 3
+    },
+    {
+      "run_date": "2026-04-13T03:00:00.295537",
+      "downloads": 24042,
+      "stars": 3
+    },
+    {
+      "run_date": "2026-04-18T02:59:55.390364",
+      "downloads": 60644,
+      "stars": 7
+    },
+    {
+      "run_date": "2026-04-19T03:00:00.676118",
+      "downloads": 72800,
+      "stars": 7
+    },
+    {
+      "run_date": "2026-04-20T03:00:00.599318",
+      "downloads": 75143,
+      "stars": 7
+    },
+    {
+      "run_date": "2026-04-21T03:00:00.575737",
+      "downloads": 75219,
+      "stars": 7
+    },
+    {
+      "run_date": "2026-04-22T03:00:00.762090",
+      "downloads": 81411,
+      "stars": 7
+    },
+    {
+      "run_date": "2026-04-23T03:00:00.767159",
+      "downloads": 90491,
+      "stars": 7
+    },
+    {
+      "run_date": "2026-04-24T03:00:00.604086",
+      "downloads": 92942,
+      "stars": 9
+    },
+    {
+      "run_date": "2026-04-28T02:59:56.742214",
+      "downloads": 127248,
+      "stars": 10
+    },
+    {
+      "run_date": "2026-04-29T03:01:44.166793",
+      "downloads": 128853,
+      "stars": 11
+    },
+    {
+      "run_date": "2026-04-30T03:00:00.711115",
+      "downloads": 139229,
+      "stars": 11
+    },
+    {
+      "run_date": "2026-05-02T02:59:59.833385",
+      "downloads": 166269,
+      "stars": 12
+    },
+    {
+      "run_date": "2026-05-03T03:42:13.922530",
+      "downloads": 166323,
+      "stars": 12
+    },
+    {
+      "run_date": "2026-05-05T00:41:38.231465",
+      "downloads": 166562,
+      "stars": 14
+    },
+    {
+      "run_date": "2026-05-05T03:00:00.321955",
+      "downloads": 166572,
+      "stars": 14
+    },
+    {
+      "run_date": "2026-05-06T03:00:00.570710",
+      "downloads": 166706,
+      "stars": 14
+    },
+    {
+      "run_date": "2026-05-07T03:00:00.572063",
+      "downloads": 166883,
+      "stars": 14
+    },
+    {
+      "run_date": "2026-05-09T03:44:10.833903",
+      "downloads": 167155,
+      "stars": 15
+    },
+    {
+      "run_date": "2026-05-10T03:00:00.531823",
+      "downloads": 167308,
+      "stars": 16
+    },
+    {
+      "run_date": "2026-05-11T03:00:00.316612",
+      "downloads": 167430,
+      "stars": 16
+    }
+  ],
+  "download_trajectory": [
+    18,
+    308,
+    2944,
+    8359,
+    17796,
+    20865,
+    24042,
+    60644,
+    72800,
+    75143,
+    75219,
+    81411,
+    90491,
+    92942,
+    127248,
+    128853,
+    139229,
+    166269,
+    166323,
+    166562,
+    166572,
+    166706,
+    166883,
+    167155,
+    167308,
+    167430
+  ]
+}

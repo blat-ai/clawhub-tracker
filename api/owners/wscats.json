@@ -1,0 +1,686 @@
+{
+  "handle": "wscats",
+  "total_downloads": 297801,
+  "total_stars": 142,
+  "total_installs": 68,
+  "skill_count": 39,
+  "avg_dl_per_day": 134.7,
+  "highlighted_count": 0,
+  "suspicious_count": 0,
+  "clean_pct": 100.0,
+  "dl_delta": 2597,
+  "dl_wow": 0.9,
+  "dl_per_day": 2597.0,
+  "star_delta": 3,
+  "star_wow": 2.2,
+  "star_per_day": 3.0,
+  "installs_delta": 1,
+  "installs_wow": 1.5,
+  "installs_per_day": 1.0,
+  "owner_display_name": "enoyao",
+  "owner_name": null,
+  "owner_image": "https://avatars.githubusercontent.com/u/17243165?v=4",
+  "bio": "Those very adventurous dreams, I will go crazy with you! \r\n",
+  "company": "@Tencent ",
+  "location": "ShenZhen, China",
+  "blog": null,
+  "public_repos": 105,
+  "followers": 2859,
+  "following": 13,
+  "github_created_at": "2016-02-15T03:55:41",
+  "twitter_username": null,
+  "skills": [
+    {
+      "slug": "bilibili-all-in-one",
+      "display_name": "Bilibili All In One",
+      "stat_downloads": 22773,
+      "stat_stars": 25,
+      "created_at": "2026-03-15T05:40:40.986000",
+      "days_old": 57,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "smart-weekly-report",
+      "display_name": "Report Generator",
+      "stat_downloads": 21113,
+      "stat_stars": 13,
+      "created_at": "2026-03-14T14:55:10.231000",
+      "days_old": 58,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "code-analysis-skills",
+      "display_name": "Code Analysis Skills",
+      "stat_downloads": 21052,
+      "stat_stars": 8,
+      "created_at": "2026-03-13T02:18:15.903000",
+      "days_old": 59,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "university-applications",
+      "display_name": "\u547d\u7406\u5927\u5e08",
+      "stat_downloads": 20954,
+      "stat_stars": 16,
+      "created_at": "2026-03-14T08:03:38.437000",
+      "days_old": 58,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "baidu-netdisk-skills",
+      "display_name": "\u767e\u5ea6\u7f51\u76d8",
+      "stat_downloads": 20756,
+      "stat_stars": 13,
+      "created_at": "2026-03-15T15:06:39.974000",
+      "days_old": 57,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "interview-simulator",
+      "display_name": "Interview Simulator",
+      "stat_downloads": 20718,
+      "stat_stars": 13,
+      "created_at": "2026-03-14T14:33:32.455000",
+      "days_old": 58,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "t-trading",
+      "display_name": "T Trading",
+      "stat_downloads": 20205,
+      "stat_stars": 5,
+      "created_at": "2026-03-14T12:55:19.508000",
+      "days_old": 58,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "resume-assistant",
+      "display_name": "Resume Assistant",
+      "stat_downloads": 20012,
+      "stat_stars": 11,
+      "created_at": "2026-03-14T02:14:19.402000",
+      "days_old": 58,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "qq-zone-photo",
+      "display_name": "Qq Zone Photo",
+      "stat_downloads": 19927,
+      "stat_stars": 3,
+      "created_at": "2026-03-15T00:50:55.461000",
+      "days_old": 57,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "weiyun-skills",
+      "display_name": "Weiyun Skills",
+      "stat_downloads": 19909,
+      "stat_stars": 3,
+      "created_at": "2026-03-15T15:05:50.203000",
+      "days_old": 57,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "who-is-actor",
+      "display_name": "Who Is Actor",
+      "stat_downloads": 19875,
+      "stat_stars": 5,
+      "created_at": "2026-03-13T14:49:09.451000",
+      "days_old": 59,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "juejin-skills",
+      "display_name": "Juejin",
+      "stat_downloads": 19812,
+      "stat_stars": 6,
+      "created_at": "2026-03-17T02:09:43.993000",
+      "days_old": 55,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "eno",
+      "display_name": "Eno Skills",
+      "stat_downloads": 19198,
+      "stat_stars": 4,
+      "created_at": "2026-03-14T15:55:35.419000",
+      "days_old": 58,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "javascript-skills",
+      "display_name": "JavaScript",
+      "stat_downloads": 6179,
+      "stat_stars": 5,
+      "created_at": "2026-03-18T01:04:16.200000",
+      "days_old": 54,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "poetry",
+      "display_name": "Poetry",
+      "stat_downloads": 5909,
+      "stat_stars": 0,
+      "created_at": "2026-03-18T01:26:48.703000",
+      "days_old": 54,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "xhs-cn",
+      "display_name": "\u5c0f\u7ea2\u4e66",
+      "stat_downloads": 5235,
+      "stat_stars": 4,
+      "created_at": "2026-03-19T15:50:26.119000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "typescript-skills",
+      "display_name": "TypeScript",
+      "stat_downloads": 4737,
+      "stat_stars": 4,
+      "created_at": "2026-03-18T21:14:45.515000",
+      "days_old": 54,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "tencent-docs-markdown",
+      "display_name": "\u817e\u8baf\u6587\u6863Markdown",
+      "stat_downloads": 4615,
+      "stat_stars": 3,
+      "created_at": "2026-03-24T15:25:04.027000",
+      "days_old": 48,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "2",
+      "display_name": "2",
+      "stat_downloads": 406,
+      "stat_stars": 0,
+      "created_at": "2026-03-18T21:25:45.675000",
+      "days_old": 54,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "b",
+      "display_name": "B",
+      "stat_downloads": 343,
+      "stat_stars": 0,
+      "created_at": "2026-03-18T21:24:35.774000",
+      "days_old": 54,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "xhs-mcp",
+      "display_name": "\u5c0f\u7ea2\u4e66",
+      "stat_downloads": 285,
+      "stat_stars": 1,
+      "created_at": "2026-04-04T06:07:10.139000",
+      "days_old": 37,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "520",
+      "display_name": "520",
+      "stat_downloads": 255,
+      "stat_stars": 0,
+      "created_at": "2026-03-18T21:27:17.184000",
+      "days_old": 54,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "kobe",
+      "display_name": "Kobe",
+      "stat_downloads": 248,
+      "stat_stars": 0,
+      "created_at": "2026-03-18T21:22:35.108000",
+      "days_old": 54,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "hku",
+      "display_name": "University Applications",
+      "stat_downloads": 231,
+      "stat_stars": 0,
+      "created_at": "2026-04-05T15:45:07.360000",
+      "days_old": 36,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "z",
+      "display_name": "z",
+      "stat_downloads": 226,
+      "stat_stars": 0,
+      "created_at": "2026-04-06T01:54:44.555000",
+      "days_old": 35,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "reky",
+      "display_name": "reky",
+      "stat_downloads": 224,
+      "stat_stars": 0,
+      "created_at": "2026-04-06T07:00:24.420000",
+      "days_old": 35,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "y",
+      "display_name": "yoga",
+      "stat_downloads": 217,
+      "stat_stars": 0,
+      "created_at": "2026-04-06T05:41:53.903000",
+      "days_old": 35,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "hk",
+      "display_name": "hk",
+      "stat_downloads": 216,
+      "stat_stars": 0,
+      "created_at": "2026-04-06T06:40:39.521000",
+      "days_old": 35,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "to",
+      "display_name": "to",
+      "stat_downloads": 210,
+      "stat_stars": 0,
+      "created_at": "2026-04-06T05:46:49.038000",
+      "days_old": 35,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "sjtu",
+      "display_name": "Sjtu",
+      "stat_downloads": 204,
+      "stat_stars": 0,
+      "created_at": "2026-04-05T15:52:07.059000",
+      "days_old": 36,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "cool",
+      "display_name": "cool",
+      "stat_downloads": 204,
+      "stat_stars": 0,
+      "created_at": "2026-04-06T05:40:43.387000",
+      "days_old": 35,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "fdu",
+      "display_name": "\u590d\u65e6",
+      "stat_downloads": 203,
+      "stat_stars": 0,
+      "created_at": "2026-04-06T12:45:26.349000",
+      "days_old": 35,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ok",
+      "display_name": "ok",
+      "stat_downloads": 202,
+      "stat_stars": 0,
+      "created_at": "2026-04-06T12:56:14.398000",
+      "days_old": 35,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "bye",
+      "display_name": "bye",
+      "stat_downloads": 201,
+      "stat_stars": 0,
+      "created_at": "2026-04-06T12:59:19.182000",
+      "days_old": 35,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "iu",
+      "display_name": "iu",
+      "stat_downloads": 197,
+      "stat_stars": 0,
+      "created_at": "2026-04-06T12:51:38.703000",
+      "days_old": 35,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "too",
+      "display_name": "too",
+      "stat_downloads": 195,
+      "stat_stars": 0,
+      "created_at": "2026-04-06T05:46:39.877000",
+      "days_old": 35,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "omg",
+      "display_name": "omg",
+      "stat_downloads": 187,
+      "stat_stars": 0,
+      "created_at": "2026-04-05T21:27:34.495000",
+      "days_old": 36,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "we",
+      "display_name": "we",
+      "stat_downloads": 187,
+      "stat_stars": 0,
+      "created_at": "2026-04-06T02:01:41.888000",
+      "days_old": 35,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "why",
+      "display_name": "why",
+      "stat_downloads": 181,
+      "stat_stars": 0,
+      "created_at": "2026-04-06T13:04:07.990000",
+      "days_old": 35,
+      "is_highlighted": false,
+      "is_suspicious": false
+    }
+  ],
+  "trajectory": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 7945,
+      "stars": 27
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 11725,
+      "stars": 29
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 18492,
+      "stars": 31
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 23079,
+      "stars": 31
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 28159,
+      "stars": 33
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 33227,
+      "stars": 35
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 41212,
+      "stars": 36
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 41927,
+      "stars": 37
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 44373,
+      "stars": 37
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 51589,
+      "stars": 38
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 63627,
+      "stars": 41
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 63627,
+      "stars": 41
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 66158,
+      "stars": 41
+    },
+    {
+      "run_date": "2026-03-29T03:00:00.679954",
+      "downloads": 70920,
+      "stars": 43
+    },
+    {
+      "run_date": "2026-03-30T03:00:00.682509",
+      "downloads": 75076,
+      "stars": 47
+    },
+    {
+      "run_date": "2026-03-31T03:00:00.702238",
+      "downloads": 80067,
+      "stars": 49
+    },
+    {
+      "run_date": "2026-04-01T03:00:00.631568",
+      "downloads": 86526,
+      "stars": 51
+    },
+    {
+      "run_date": "2026-04-07T08:32:21.256392",
+      "downloads": 127499,
+      "stars": 63
+    },
+    {
+      "run_date": "2026-04-08T02:59:53.612026",
+      "downloads": 132262,
+      "stars": 65
+    },
+    {
+      "run_date": "2026-04-09T03:00:00.814082",
+      "downloads": 139144,
+      "stars": 84
+    },
+    {
+      "run_date": "2026-04-10T03:00:00.610465",
+      "downloads": 145980,
+      "stars": 85
+    },
+    {
+      "run_date": "2026-04-11T03:00:00.635800",
+      "downloads": 152891,
+      "stars": 88
+    },
+    {
+      "run_date": "2026-04-12T03:00:00.326052",
+      "downloads": 158540,
+      "stars": 93
+    },
+    {
+      "run_date": "2026-04-13T03:00:00.295537",
+      "downloads": 163523,
+      "stars": 94
+    },
+    {
+      "run_date": "2026-04-18T02:59:55.390364",
+      "downloads": 188117,
+      "stars": 98
+    },
+    {
+      "run_date": "2026-04-19T03:00:00.676118",
+      "downloads": 192882,
+      "stars": 99
+    },
+    {
+      "run_date": "2026-04-20T03:00:00.599318",
+      "downloads": 197680,
+      "stars": 100
+    },
+    {
+      "run_date": "2026-04-21T03:00:00.575737",
+      "downloads": 202395,
+      "stars": 104
+    },
+    {
+      "run_date": "2026-04-22T03:00:00.762090",
+      "downloads": 207133,
+      "stars": 107
+    },
+    {
+      "run_date": "2026-04-23T03:00:00.767159",
+      "downloads": 212254,
+      "stars": 109
+    },
+    {
+      "run_date": "2026-04-24T03:00:00.604086",
+      "downloads": 217183,
+      "stars": 111
+    },
+    {
+      "run_date": "2026-04-28T02:59:56.742214",
+      "downloads": 236518,
+      "stars": 119
+    },
+    {
+      "run_date": "2026-04-29T03:01:44.166793",
+      "downloads": 241215,
+      "stars": 123
+    },
+    {
+      "run_date": "2026-04-30T03:00:00.711115",
+      "downloads": 246096,
+      "stars": 123
+    },
+    {
+      "run_date": "2026-05-02T02:59:59.833385",
+      "downloads": 255457,
+      "stars": 123
+    },
+    {
+      "run_date": "2026-05-03T03:42:13.922530",
+      "downloads": 260519,
+      "stars": 124
+    },
+    {
+      "run_date": "2026-05-05T00:41:38.231465",
+      "downloads": 269270,
+      "stars": 126
+    },
+    {
+      "run_date": "2026-05-05T03:00:00.321955",
+      "downloads": 270163,
+      "stars": 126
+    },
+    {
+      "run_date": "2026-05-06T03:00:00.570710",
+      "downloads": 275037,
+      "stars": 129
+    },
+    {
+      "run_date": "2026-05-07T03:00:00.572063",
+      "downloads": 280531,
+      "stars": 130
+    },
+    {
+      "run_date": "2026-05-09T03:44:10.833903",
+      "downloads": 290187,
+      "stars": 131
+    },
+    {
+      "run_date": "2026-05-10T03:00:00.531823",
+      "downloads": 295204,
+      "stars": 139
+    },
+    {
+      "run_date": "2026-05-11T03:00:00.316612",
+      "downloads": 297801,
+      "stars": 142
+    }
+  ],
+  "download_trajectory": [
+    7945,
+    11725,
+    18492,
+    23079,
+    28159,
+    33227,
+    41212,
+    41927,
+    44373,
+    51589,
+    63627,
+    63627,
+    66158,
+    70920,
+    75076,
+    80067,
+    86526,
+    127499,
+    132262,
+    139144,
+    145980,
+    152891,
+    158540,
+    163523,
+    188117,
+    192882,
+    197680,
+    202395,
+    207133,
+    212254,
+    217183,
+    236518,
+    241215,
+    246096,
+    255457,
+    260519,
+    269270,
+    270163,
+    275037,
+    280531,
+    290187,
+    295204,
+    297801
+  ]
+}

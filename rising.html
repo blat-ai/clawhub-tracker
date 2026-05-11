@@ -1,0 +1,947 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rising Skills — ClawHub Trends</title>
+    <link rel="icon" type="image/svg+xml" href="static/favicon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="static/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="static/favicon-16x16.png">
+    <link rel="apple-touch-icon" href="static/apple-touch-icon.png">
+    
+<meta name="description" content="Fastest growing ClawHub skills ranked by download gains between scrapes.">
+<link rel="canonical" href="https://clawhubtrends.com/rising.html">
+<meta property="og:title" content="Rising Skills — ClawHub Trends">
+<meta property="og:description" content="Fastest growing ClawHub skills ranked by download gains.">
+<meta property="og:url" content="https://clawhubtrends.com/rising.html">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="static/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6VXKK90H9Q"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-6VXKK90H9Q');
+    </script>
+    
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <a href="index.html" class="logo"><img src="static/favicon.svg" alt="" width="28" height="28" style="vertical-align:-5px;margin-right:6px">ClawHub Trends</a>
+            <a href="index.html" ><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;margin-right:4px"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>Dashboard</a>
+            <a href="rising.html" class="active"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;margin-right:4px"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>Rising</a>
+            <a href="leaderboard.html" ><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;margin-right:4px"><path d="M6 9H4.5a2.5 2.5 0 010-5C7 4 6 9 6 9zm12 0h1.5a2.5 2.5 0 000-5C17 4 18 9 18 9zm-1 1v3a6 6 0 01-6 6 6 6 0 01-6-6v-3"/><line x1="12" y1="19" x2="12" y2="22"/><line x1="8" y1="22" x2="16" y2="22"/></svg>Leaderboard</a>
+            <a href="owners.html" ><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;margin-right:4px"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>Owners</a>
+        </div>
+    </nav>
+
+    <main class="container">
+        
+<div class="page-header">
+    <h1>Rising Skills</h1>
+    <p class="subtitle">Skills with the biggest download gains between scrapes</p>
+</div>
+
+
+<div class="filters">
+    <button class="filter-btn active" onclick="sortBy('delta', this)">Absolute Delta</button>
+    <button class="filter-btn" onclick="sortBy('pct', this)">% Change</button>
+</div>
+
+<div class="table-wrap"><table id="rising-table" class="sortable">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Skill</th>
+            <th>Owner</th>
+            <th class="number">Delta</th>
+            <th class="number">% Change</th>
+            <th class="number">Downloads</th>
+            <th class="number">DL/day</th>
+            <th>Velocity</th>
+            <th class="number">Age</th>
+        </tr>
+    </thead>
+    <tbody>
+    
+        <tr data-delta="15933" data-pct="0">
+            <td class="row-rank">1</td>
+            <td>
+                <a href="skills/email-daily-summary.html">Automatically logs into email accounts (Gmail, Outlook, QQ Mail, etc.) and generates daily email summaries. Use when the user wants to get a summary of their emails, check important messages, or create daily email digests.</a>
+                
+                <span class="badge badge-suspicious" title="Suspicious">&#9888;</span>
+            </td>
+            <td><img src="https://avatars.githubusercontent.com/u/99306962?v=4" alt="" width="18" height="18" style="border-radius:50%;vertical-align:-3px;margin-right:4px;opacity:0.85">10e9928a</td>
+            <td class="number trend-up">+15,933</td>
+            <td class="number ">new</td>
+            <td class="number">15,933</td>
+            <td class="number">167.7</td>
+            <td><canvas class="velocity-chart" id="vc-0"></canvas></td>
+            <td class="number">95d</td>
+        </tr>
+    
+        <tr data-delta="14414" data-pct="0">
+            <td class="row-rank">2</td>
+            <td>
+                <a href="skills/clawsec.html">ClawSec</a>
+                
+                <span class="badge badge-suspicious" title="Suspicious">&#9888;</span>
+            </td>
+            <td><img src="https://avatars.githubusercontent.com/u/229765228?v=4" alt="" width="18" height="18" style="border-radius:50%;vertical-align:-3px;margin-right:4px;opacity:0.85">chrisochrisochriso-cmyk</td>
+            <td class="number trend-up">+14,414</td>
+            <td class="number ">new</td>
+            <td class="number">14,414</td>
+            <td class="number">178.0</td>
+            <td><canvas class="velocity-chart" id="vc-1"></canvas></td>
+            <td class="number">81d</td>
+        </tr>
+    
+        <tr data-delta="11629" data-pct="0">
+            <td class="row-rank">3</td>
+            <td>
+                <a href="skills/prompt-guard.html">Prompt Guard</a>
+                
+                
+            </td>
+            <td><img src="https://avatars.githubusercontent.com/u/2534327?v=4" alt="" width="18" height="18" style="border-radius:50%;vertical-align:-3px;margin-right:4px;opacity:0.85">seojoonkim</td>
+            <td class="number trend-up">+11,629</td>
+            <td class="number ">new</td>
+            <td class="number">11,629</td>
+            <td class="number">114.0</td>
+            <td><canvas class="velocity-chart" id="vc-2"></canvas></td>
+            <td class="number">102d</td>
+        </tr>
+    
+        <tr data-delta="8079" data-pct="0">
+            <td class="row-rank">4</td>
+            <td>
+                <a href="skills/safe-exec.html">Safe Exec</a>
+                
+                <span class="badge badge-suspicious" title="Suspicious">&#9888;</span>
+            </td>
+            <td><img src="https://avatars.githubusercontent.com/u/26369856?v=4" alt="" width="18" height="18" style="border-radius:50%;vertical-align:-3px;margin-right:4px;opacity:0.85">ottttto</td>
+            <td class="number trend-up">+8,079</td>
+            <td class="number ">new</td>
+            <td class="number">8,079</td>
+            <td class="number">81.6</td>
+            <td><canvas class="velocity-chart" id="vc-3"></canvas></td>
+            <td class="number">99d</td>
+        </tr>
+    
+        <tr data-delta="4792" data-pct="0">
+            <td class="row-rank">5</td>
+            <td>
+                <a href="skills/openclaw-self-healing.html">OpenClaw Self-Healing System</a>
+                
+                <span class="badge badge-suspicious" title="Suspicious">&#9888;</span>
+            </td>
+            <td><img src="https://avatars.githubusercontent.com/u/17075889?v=4" alt="" width="18" height="18" style="border-radius:50%;vertical-align:-3px;margin-right:4px;opacity:0.85">ramsbaby</td>
+            <td class="number trend-up">+4,792</td>
+            <td class="number ">new</td>
+            <td class="number">4,792</td>
+            <td class="number">51.0</td>
+            <td><canvas class="velocity-chart" id="vc-4"></canvas></td>
+            <td class="number">94d</td>
+        </tr>
+    
+        <tr data-delta="4489" data-pct="0">
+            <td class="row-rank">6</td>
+            <td>
+                <a href="skills/researchvault.html">ResearchVault</a>
+                
+                
+            </td>
+            <td><img src="https://avatars.githubusercontent.com/u/34273712?v=4" alt="" width="18" height="18" style="border-radius:50%;vertical-align:-3px;margin-right:4px;opacity:0.85">lraivisto</td>
+            <td class="number trend-up">+4,489</td>
+            <td class="number ">new</td>
+            <td class="number">4,489</td>
+            <td class="number">45.8</td>
+            <td><canvas class="velocity-chart" id="vc-5"></canvas></td>
+            <td class="number">98d</td>
+        </tr>
+    
+        <tr data-delta="3511" data-pct="0">
+            <td class="row-rank">7</td>
+            <td>
+                <a href="skills/telegram-offline-voice.html">Telegram Offline Voice</a>
+                
+                <span class="badge badge-suspicious" title="Suspicious">&#9888;</span>
+            </td>
+            <td><img src="https://avatars.githubusercontent.com/u/101993515?v=4" alt="" width="18" height="18" style="border-radius:50%;vertical-align:-3px;margin-right:4px;opacity:0.85">sanwecn</td>
+            <td class="number trend-up">+3,511</td>
+            <td class="number ">new</td>
+            <td class="number">3,511</td>
+            <td class="number">34.1</td>
+            <td><canvas class="velocity-chart" id="vc-6"></canvas></td>
+            <td class="number">103d</td>
+        </tr>
+    
+        <tr data-delta="3404" data-pct="0">
+            <td class="row-rank">8</td>
+            <td>
+                <a href="skills/skillvet.html">Skillvet</a>
+                
+                <span class="badge badge-suspicious" title="Suspicious">&#9888;</span>
+            </td>
+            <td><img src="https://avatars.githubusercontent.com/u/105373906?v=4" alt="" width="18" height="18" style="border-radius:50%;vertical-align:-3px;margin-right:4px;opacity:0.85">oakencore</td>
+            <td class="number trend-up">+3,404</td>
+            <td class="number ">new</td>
+            <td class="number">3,404</td>
+            <td class="number">34.0</td>
+            <td><canvas class="velocity-chart" id="vc-7"></canvas></td>
+            <td class="number">100d</td>
+        </tr>
+    
+        <tr data-delta="3071" data-pct="0">
+            <td class="row-rank">9</td>
+            <td>
+                <a href="skills/moltopia.html">Openclaw Skill</a>
+                
+                <span class="badge badge-suspicious" title="Suspicious">&#9888;</span>
+            </td>
+            <td><img src="https://avatars.githubusercontent.com/u/41450967?v=4" alt="" width="18" height="18" style="border-radius:50%;vertical-align:-3px;margin-right:4px;opacity:0.85">phineas1500</td>
+            <td class="number trend-up">+3,071</td>
+            <td class="number ">new</td>
+            <td class="number">3,071</td>
+            <td class="number">32.3</td>
+            <td><canvas class="velocity-chart" id="vc-8"></canvas></td>
+            <td class="number">95d</td>
+        </tr>
+    
+        <tr data-delta="2759" data-pct="0">
+            <td class="row-rank">10</td>
+            <td>
+                <a href="skills/memory-tools.html">Memory Tools</a>
+                
+                
+            </td>
+            <td><img src="https://avatars.githubusercontent.com/u/770459?v=4" alt="" width="18" height="18" style="border-radius:50%;vertical-align:-3px;margin-right:4px;opacity:0.85">gianni-dalerta</td>
+            <td class="number trend-up">+2,759</td>
+            <td class="number ">new</td>
+            <td class="number">2,759</td>
+            <td class="number">29.7</td>
+            <td><canvas class="velocity-chart" id="vc-9"></canvas></td>
+            <td class="number">93d</td>
+        </tr>
+    
+        <tr data-delta="2533" data-pct="0">
+            <td class="row-rank">11</td>
+            <td>
+                <a href="skills/office-quotes.html">office-quotes</a>
+                
+                
+            </td>
+            <td><img src="https://avatars.githubusercontent.com/u/5599352?v=4" alt="" width="18" height="18" style="border-radius:50%;vertical-align:-3px;margin-right:4px;opacity:0.85">gumadeiras</td>
+            <td class="number trend-up">+2,533</td>
+            <td class="number ">new</td>
+            <td class="number">2,533</td>
+            <td class="number">23.5</td>
+            <td><canvas class="velocity-chart" id="vc-10"></canvas></td>
+            <td class="number">108d</td>
+        </tr>
+    
+        <tr data-delta="2390" data-pct="0">
+            <td class="row-rank">12</td>
+            <td>
+                <a href="skills/zoho-email-integration.html">Zoho Email Integration</a>
+                
+                
+            </td>
+            <td><img src="https://avatars.githubusercontent.com/u/11260574?v=4" alt="" width="18" height="18" style="border-radius:50%;vertical-align:-3px;margin-right:4px;opacity:0.85">briansmith80</td>
+            <td class="number trend-up">+2,390</td>
+            <td class="number ">new</td>
+            <td class="number">2,390</td>
+            <td class="number">23.4</td>
+            <td><canvas class="velocity-chart" id="vc-11"></canvas></td>
+            <td class="number">102d</td>
+        </tr>
+    
+        <tr data-delta="2346" data-pct="1.4">
+            <td class="row-rank">13</td>
+            <td>
+                <a href="skills/polymarket-trade.html">Polymarket</a>
+                
+                
+            </td>
+            <td><img src="https://avatars.githubusercontent.com/u/256029209?v=4" alt="" width="18" height="18" style="border-radius:50%;vertical-align:-3px;margin-right:4px;opacity:0.85"><a href="owners/joelchance.html">joelchance</a></td>
+            <td class="number trend-up">+2,346</td>
+            <td class="number trend-up">+1.4%</td>
+            <td class="number">172,358</td>
+            <td class="number">2735.8</td>
+            <td><canvas class="velocity-chart" id="vc-12"></canvas></td>
+            <td class="number">63d</td>
+        </tr>
+    
+        <tr data-delta="1941" data-pct="0">
+            <td class="row-rank">14</td>
+            <td>
+                <a href="skills/agentchat.html">Agentchat Skill</a>
+                
+                
+            </td>
+            <td><img src="https://avatars.githubusercontent.com/u/27868292?v=4" alt="" width="18" height="18" style="border-radius:50%;vertical-align:-3px;margin-right:4px;opacity:0.85">tjamescouch</td>
+            <td class="number trend-up">+1,941</td>
+            <td class="number ">new</td>
+            <td class="number">1,941</td>
+            <td class="number">20.2</td>
+            <td><canvas class="velocity-chart" id="vc-13"></canvas></td>
+            <td class="number">96d</td>
+        </tr>
+    
+        <tr data-delta="1827" data-pct="0">
+            <td class="row-rank">15</td>
+            <td>
+                <a href="skills/clickup-skill.html">ClickUp Skill</a>
+                
+                
+            </td>
+            <td><img src="https://avatars.githubusercontent.com/u/42395324?v=4" alt="" width="18" height="18" style="border-radius:50%;vertical-align:-3px;margin-right:4px;opacity:0.85">d3layd</td>
+            <td class="number trend-up">+1,827</td>
+            <td class="number ">new</td>
+            <td class="number">1,827</td>
+            <td class="number">18.3</td>
+            <td><canvas class="velocity-chart" id="vc-14"></canvas></td>
+            <td class="number">100d</td>
+        </tr>
+    
+        <tr data-delta="1787" data-pct="0">
+            <td class="row-rank">16</td>
+            <td>
+                <a href="skills/weex-trading-skills.html">Weex</a>
+                
+                <span class="badge badge-suspicious" title="Suspicious">&#9888;</span>
+            </td>
+            <td><img src="https://avatars.githubusercontent.com/u/3508255?v=4" alt="" width="18" height="18" style="border-radius:50%;vertical-align:-3px;margin-right:4px;opacity:0.85">bowen31337</td>
+            <td class="number trend-up">+1,787</td>
+            <td class="number ">new</td>
+            <td class="number">1,787</td>
+            <td class="number">17.9</td>
+            <td><canvas class="velocity-chart" id="vc-15"></canvas></td>
+            <td class="number">100d</td>
+        </tr>
+    
+        <tr data-delta="1721" data-pct="0">
+            <td class="row-rank">17</td>
+            <td>
+                <a href="skills/agentyard.html">AgentYard — The world&#39;s first agent-only codebase. Register, get a GitHub token, and start building alongside other AI agents. Create branches, open PRs, review code, and ship to production at agentyard.dev. No humans required.</a>
+                
+                <span class="badge badge-suspicious" title="Suspicious">&#9888;</span>
+            </td>
+            <td><img src="https://avatars.githubusercontent.com/u/13073838?v=4" alt="" width="18" height="18" style="border-radius:50%;vertical-align:-3px;margin-right:4px;opacity:0.85">gregm711</td>
+            <td class="number trend-up">+1,721</td>
+            <td class="number ">new</td>
+            <td class="number">1,721</td>
+            <td class="number">17.7</td>
+            <td><canvas class="velocity-chart" id="vc-16"></canvas></td>
+            <td class="number">97d</td>
+        </tr>
+    
+        <tr data-delta="1709" data-pct="0">
+            <td class="row-rank">18</td>
+            <td>
+                <a href="skills/phoenix-shield.html">Phoenix Shield</a>
+                
+                <span class="badge badge-suspicious" title="Suspicious">&#9888;</span>
+            </td>
+            <td><img src="https://avatars.githubusercontent.com/u/35736420?v=4" alt="" width="18" height="18" style="border-radius:50%;vertical-align:-3px;margin-right:4px;opacity:0.85">mig6671</td>
+            <td class="number trend-up">+1,709</td>
+            <td class="number ">new</td>
+            <td class="number">1,709</td>
+            <td class="number">18.0</td>
+            <td><canvas class="velocity-chart" id="vc-17"></canvas></td>
+            <td class="number">95d</td>
+        </tr>
+    
+        <tr data-delta="1569" data-pct="0">
+            <td class="row-rank">19</td>
+            <td>
+                <a href="skills/openclaw-whisperer.html">Openclaw Whisperer</a>
+                
+                <span class="badge badge-suspicious" title="Suspicious">&#9888;</span>
+            </td>
+            <td><img src="https://avatars.githubusercontent.com/u/14149927?v=4" alt="" width="18" height="18" style="border-radius:50%;vertical-align:-3px;margin-right:4px;opacity:0.85">phenixstar</td>
+            <td class="number trend-up">+1,569</td>
+            <td class="number ">new</td>
+            <td class="number">1,569</td>
+            <td class="number">17.1</td>
+            <td><canvas class="velocity-chart" id="vc-18"></canvas></td>
+            <td class="number">92d</td>
+        </tr>
+    
+        <tr data-delta="1552" data-pct="0">
+            <td class="row-rank">20</td>
+            <td>
+                <a href="skills/aegis-security.html">Skill</a>
+                
+                
+            </td>
+            <td><img src="https://avatars.githubusercontent.com/u/5148967?v=4" alt="" width="18" height="18" style="border-radius:50%;vertical-align:-3px;margin-right:4px;opacity:0.85">swiftadviser</td>
+            <td class="number trend-up">+1,552</td>
+            <td class="number ">new</td>
+            <td class="number">1,552</td>
+            <td class="number">15.8</td>
+            <td><canvas class="velocity-chart" id="vc-19"></canvas></td>
+            <td class="number">98d</td>
+        </tr>
+    
+        <tr data-delta="1470" data-pct="0">
+            <td class="row-rank">21</td>
+            <td>
+                <a href="skills/moltspace.html">molt.space</a>
+                
+                
+            </td>
+            <td><img src="https://avatars.githubusercontent.com/u/45433487?v=4" alt="" width="18" height="18" style="border-radius:50%;vertical-align:-3px;margin-right:4px;opacity:0.85">crufro</td>
+            <td class="number trend-up">+1,470</td>
+            <td class="number ">new</td>
+            <td class="number">1,470</td>
+            <td class="number">14.7</td>
+            <td><canvas class="velocity-chart" id="vc-20"></canvas></td>
+            <td class="number">100d</td>
+        </tr>
+    
+        <tr data-delta="1365" data-pct="0">
+            <td class="row-rank">22</td>
+            <td>
+                <a href="skills/openclaw-skill-voice-ai-voices.html">Voice Ai Tts</a>
+                
+                
+            </td>
+            <td><img src="https://avatars.githubusercontent.com/u/42254038?v=4" alt="" width="18" height="18" style="border-radius:50%;vertical-align:-3px;margin-right:4px;opacity:0.85">gizmogremlin</td>
+            <td class="number trend-up">+1,365</td>
+            <td class="number ">new</td>
+            <td class="number">1,365</td>
+            <td class="number">13.7</td>
+            <td><canvas class="velocity-chart" id="vc-21"></canvas></td>
+            <td class="number">100d</td>
+        </tr>
+    
+        <tr data-delta="1362" data-pct="0">
+            <td class="row-rank">23</td>
+            <td>
+                <a href="skills/sparkbtcbot.html">Sparkbtcbot</a>
+                
+                <span class="badge badge-suspicious" title="Suspicious">&#9888;</span>
+            </td>
+            <td><img src="https://avatars.githubusercontent.com/u/83478409?v=4" alt="" width="18" height="18" style="border-radius:50%;vertical-align:-3px;margin-right:4px;opacity:0.85">echennells</td>
+            <td class="number trend-up">+1,362</td>
+            <td class="number ">new</td>
+            <td class="number">1,362</td>
+            <td class="number">14.0</td>
+            <td><canvas class="velocity-chart" id="vc-22"></canvas></td>
+            <td class="number">97d</td>
+        </tr>
+    
+        <tr data-delta="1315" data-pct="0">
+            <td class="row-rank">24</td>
+            <td>
+                <a href="skills/babylon.html">Babylon</a>
+                
+                
+            </td>
+            <td><img src="https://avatars.githubusercontent.com/u/16395496?v=4" alt="" width="18" height="18" style="border-radius:50%;vertical-align:-3px;margin-right:4px;opacity:0.85">odilitime</td>
+            <td class="number trend-up">+1,315</td>
+            <td class="number ">new</td>
+            <td class="number">1,315</td>
+            <td class="number">13.3</td>
+            <td><canvas class="velocity-chart" id="vc-23"></canvas></td>
+            <td class="number">99d</td>
+        </tr>
+    
+        <tr data-delta="1277" data-pct="8.4">
+            <td class="row-rank">25</td>
+            <td>
+                <a href="skills/golang-coding.html">code-score</a>
+                
+                <span class="badge badge-suspicious" title="Suspicious">&#9888;</span>
+            </td>
+            <td><img src="https://avatars.githubusercontent.com/u/32318545?v=4" alt="" width="18" height="18" style="border-radius:50%;vertical-align:-3px;margin-right:4px;opacity:0.85">knifean</td>
+            <td class="number trend-up">+1,277</td>
+            <td class="number trend-up">+8.4%</td>
+            <td class="number">16,433</td>
+            <td class="number">298.8</td>
+            <td><canvas class="velocity-chart" id="vc-24"></canvas></td>
+            <td class="number">55d</td>
+        </tr>
+    
+        <tr data-delta="1260" data-pct="0.3">
+            <td class="row-rank">26</td>
+            <td>
+                <a href="skills/self-improving-agent.html">Self-Improving Agent</a>
+                
+                
+            </td>
+            <td><img src="https://avatars.githubusercontent.com/u/177305814?v=4" alt="" width="18" height="18" style="border-radius:50%;vertical-align:-3px;margin-right:4px;opacity:0.85"><a href="owners/pskoett.html">pskoett</a></td>
+            <td class="number trend-up">+1,260</td>
+            <td class="number trend-up">+0.3%</td>
+            <td class="number">430,161</td>
+            <td class="number">3414.0</td>
+            <td><canvas class="velocity-chart" id="vc-25"></canvas></td>
+            <td class="number">126d</td>
+        </tr>
+    
+        <tr data-delta="1182" data-pct="0">
+            <td class="row-rank">27</td>
+            <td>
+                <a href="skills/siyuan-task-skill.html">siyuan-task-skill</a>
+                
+                <span class="badge badge-suspicious" title="Suspicious">&#9888;</span>
+            </td>
+            <td><img src="https://avatars.githubusercontent.com/u/8769138?v=4" alt="" width="18" height="18" style="border-radius:50%;vertical-align:-3px;margin-right:4px;opacity:0.85">zhhkheaven</td>
+            <td class="number trend-up">+1,182</td>
+            <td class="number ">new</td>
+            <td class="number">1,182</td>
+            <td class="number">13.1</td>
+            <td><canvas class="velocity-chart" id="vc-26"></canvas></td>
+            <td class="number">90d</td>
+        </tr>
+    
+        <tr data-delta="1125" data-pct="0">
+            <td class="row-rank">28</td>
+            <td>
+                <a href="skills/narrator.html">Narrator</a>
+                
+                
+            </td>
+            <td><img src="https://avatars.githubusercontent.com/u/31752869?v=4" alt="" width="18" height="18" style="border-radius:50%;vertical-align:-3px;margin-right:4px;opacity:0.85">buddyh</td>
+            <td class="number trend-up">+1,125</td>
+            <td class="number ">new</td>
+            <td class="number">1,125</td>
+            <td class="number">11.6</td>
+            <td><canvas class="velocity-chart" id="vc-27"></canvas></td>
+            <td class="number">97d</td>
+        </tr>
+    
+        <tr data-delta="1122" data-pct="0">
+            <td class="row-rank">29</td>
+            <td>
+                <a href="skills/openclaw-1ly-payments.html">OpenClaw 1ly Payments</a>
+                
+                
+            </td>
+            <td><img src="https://avatars.githubusercontent.com/u/257563368?v=4" alt="" width="18" height="18" style="border-radius:50%;vertical-align:-3px;margin-right:4px;opacity:0.85">1lystore</td>
+            <td class="number trend-up">+1,122</td>
+            <td class="number ">new</td>
+            <td class="number">1,122</td>
+            <td class="number">11.3</td>
+            <td><canvas class="velocity-chart" id="vc-28"></canvas></td>
+            <td class="number">99d</td>
+        </tr>
+    
+        <tr data-delta="1067" data-pct="0">
+            <td class="row-rank">30</td>
+            <td>
+                <a href="skills/agent-voice.html">Agent Voice – CLI Blogging for AI</a>
+                
+                
+            </td>
+            <td><img src="https://avatars.githubusercontent.com/u/120449575?v=4" alt="" width="18" height="18" style="border-radius:50%;vertical-align:-3px;margin-right:4px;opacity:0.85">nerdsnipe</td>
+            <td class="number trend-up">+1,067</td>
+            <td class="number ">new</td>
+            <td class="number">1,067</td>
+            <td class="number">10.9</td>
+            <td><canvas class="velocity-chart" id="vc-29"></canvas></td>
+            <td class="number">98d</td>
+        </tr>
+    
+        <tr data-delta="1038" data-pct="0">
+            <td class="row-rank">31</td>
+            <td>
+                <a href="skills/xiaomi-air-purifier.html">Xiaomi Air Purifier</a>
+                
+                
+            </td>
+            <td><img src="https://avatars.githubusercontent.com/u/3848643?v=4" alt="" width="18" height="18" style="border-radius:50%;vertical-align:-3px;margin-right:4px;opacity:0.85">radyakaze</td>
+            <td class="number trend-up">+1,038</td>
+            <td class="number ">new</td>
+            <td class="number">1,038</td>
+            <td class="number">11.0</td>
+            <td><canvas class="velocity-chart" id="vc-30"></canvas></td>
+            <td class="number">94d</td>
+        </tr>
+    
+        <tr data-delta="933" data-pct="0">
+            <td class="row-rank">32</td>
+            <td>
+                <a href="skills/webuntis.html">WebUntis</a>
+                
+                
+            </td>
+            <td><img src="https://avatars.githubusercontent.com/u/110921874?v=4" alt="" width="18" height="18" style="border-radius:50%;vertical-align:-3px;margin-right:4px;opacity:0.85">finnbusse</td>
+            <td class="number trend-up">+933</td>
+            <td class="number ">new</td>
+            <td class="number">933</td>
+            <td class="number">10.4</td>
+            <td><canvas class="velocity-chart" id="vc-31"></canvas></td>
+            <td class="number">90d</td>
+        </tr>
+    
+        <tr data-delta="887" data-pct="0">
+            <td class="row-rank">33</td>
+            <td>
+                <a href="skills/chaterimo-openclaw-skill.html">Chaterimo</a>
+                
+                
+            </td>
+            <td><img src="https://avatars.githubusercontent.com/u/43997740?v=4" alt="" width="18" height="18" style="border-radius:50%;vertical-align:-3px;margin-right:4px;opacity:0.85">caebixus</td>
+            <td class="number trend-up">+887</td>
+            <td class="number ">new</td>
+            <td class="number">887</td>
+            <td class="number">9.3</td>
+            <td><canvas class="velocity-chart" id="vc-32"></canvas></td>
+            <td class="number">95d</td>
+        </tr>
+    
+        <tr data-delta="884" data-pct="0">
+            <td class="row-rank">34</td>
+            <td>
+                <a href="skills/talent-powers.html">builder-data</a>
+                
+                
+            </td>
+            <td><img src="https://avatars.githubusercontent.com/u/102912458?v=4" alt="" width="18" height="18" style="border-radius:50%;vertical-align:-3px;margin-right:4px;opacity:0.85">juampihernandez</td>
+            <td class="number trend-up">+884</td>
+            <td class="number ">new</td>
+            <td class="number">884</td>
+            <td class="number">9.1</td>
+            <td><canvas class="velocity-chart" id="vc-33"></canvas></td>
+            <td class="number">97d</td>
+        </tr>
+    
+        <tr data-delta="874" data-pct="0.4">
+            <td class="row-rank">35</td>
+            <td>
+                <a href="skills/skill-vetter.html">Skill Vetter</a>
+                
+                
+            </td>
+            <td><img src="https://avatars.githubusercontent.com/u/257035288?v=4" alt="" width="18" height="18" style="border-radius:50%;vertical-align:-3px;margin-right:4px;opacity:0.85"><a href="owners/spclaudehome.html">spclaudehome</a></td>
+            <td class="number trend-up">+874</td>
+            <td class="number trend-up">+0.4%</td>
+            <td class="number">235,629</td>
+            <td class="number">2356.3</td>
+            <td><canvas class="velocity-chart" id="vc-34"></canvas></td>
+            <td class="number">100d</td>
+        </tr>
+    
+        <tr data-delta="849" data-pct="0">
+            <td class="row-rank">36</td>
+            <td>
+                <a href="skills/publish-skill-vettr.html">Skill Vettr</a>
+                
+                
+            </td>
+            <td><img src="https://avatars.githubusercontent.com/u/214915099?v=4" alt="" width="18" height="18" style="border-radius:50%;vertical-align:-3px;margin-right:4px;opacity:0.85">britrik</td>
+            <td class="number trend-up">+849</td>
+            <td class="number ">new</td>
+            <td class="number">849</td>
+            <td class="number">9.1</td>
+            <td><canvas class="velocity-chart" id="vc-35"></canvas></td>
+            <td class="number">93d</td>
+        </tr>
+    
+        <tr data-delta="792" data-pct="0">
+            <td class="row-rank">37</td>
+            <td>
+                <a href="skills/vdoob.html">Vdoob</a>
+                
+                
+            </td>
+            <td><img src="https://avatars.githubusercontent.com/u/1893427?v=4" alt="" width="18" height="18" style="border-radius:50%;vertical-align:-3px;margin-right:4px;opacity:0.85">silbosu</td>
+            <td class="number trend-up">+792</td>
+            <td class="number ">new</td>
+            <td class="number">792</td>
+            <td class="number">10.0</td>
+            <td><canvas class="velocity-chart" id="vc-36"></canvas></td>
+            <td class="number">79d</td>
+        </tr>
+    
+        <tr data-delta="781" data-pct="0">
+            <td class="row-rank">38</td>
+            <td>
+                <a href="skills/cross-model-review.html">Cross Model Review</a>
+                
+                
+            </td>
+            <td><img src="https://avatars.githubusercontent.com/u/261341086?v=4" alt="" width="18" height="18" style="border-radius:50%;vertical-align:-3px;margin-right:4px;opacity:0.85">don-gbot</td>
+            <td class="number trend-up">+781</td>
+            <td class="number ">new</td>
+            <td class="number">781</td>
+            <td class="number">9.9</td>
+            <td><canvas class="velocity-chart" id="vc-37"></canvas></td>
+            <td class="number">79d</td>
+        </tr>
+    
+        <tr data-delta="760" data-pct="0">
+            <td class="row-rank">39</td>
+            <td>
+                <a href="skills/passwordstore-broker.html">Passwordstore Broker</a>
+                
+                
+            </td>
+            <td><img src="https://avatars.githubusercontent.com/u/45857580?v=4" alt="" width="18" height="18" style="border-radius:50%;vertical-align:-3px;margin-right:4px;opacity:0.85">bieggerm</td>
+            <td class="number trend-up">+760</td>
+            <td class="number ">new</td>
+            <td class="number">760</td>
+            <td class="number">9.3</td>
+            <td><canvas class="velocity-chart" id="vc-38"></canvas></td>
+            <td class="number">82d</td>
+        </tr>
+    
+        <tr data-delta="691" data-pct="0">
+            <td class="row-rank">40</td>
+            <td>
+                <a href="skills/source-library.html">Source Library</a>
+                
+                <span class="badge badge-suspicious" title="Suspicious">&#9888;</span>
+            </td>
+            <td><img src="https://avatars.githubusercontent.com/u/261341086?v=4" alt="" width="18" height="18" style="border-radius:50%;vertical-align:-3px;margin-right:4px;opacity:0.85">don-gbot</td>
+            <td class="number trend-up">+691</td>
+            <td class="number ">new</td>
+            <td class="number">691</td>
+            <td class="number">8.7</td>
+            <td><canvas class="velocity-chart" id="vc-39"></canvas></td>
+            <td class="number">79d</td>
+        </tr>
+    
+        <tr data-delta="690" data-pct="0">
+            <td class="row-rank">41</td>
+            <td>
+                <a href="skills/ogment-agentic-cli.html">ogment-agentic-cli</a>
+                
+                
+            </td>
+            <td><img src="https://avatars.githubusercontent.com/u/9138105?v=4" alt="" width="18" height="18" style="border-radius:50%;vertical-align:-3px;margin-right:4px;opacity:0.85">asoviche</td>
+            <td class="number trend-up">+690</td>
+            <td class="number ">new</td>
+            <td class="number">690</td>
+            <td class="number">7.8</td>
+            <td><canvas class="velocity-chart" id="vc-40"></canvas></td>
+            <td class="number">89d</td>
+        </tr>
+    
+        <tr data-delta="687" data-pct="0">
+            <td class="row-rank">42</td>
+            <td>
+                <a href="skills/web-search-2.html">Web Search</a>
+                
+                
+            </td>
+            <td><img src="https://avatars.githubusercontent.com/u/1448702?v=4" alt="" width="18" height="18" style="border-radius:50%;vertical-align:-3px;margin-right:4px;opacity:0.85"><a href="owners/okaris.html">okaris</a></td>
+            <td class="number trend-up">+687</td>
+            <td class="number ">new</td>
+            <td class="number">687</td>
+            <td class="number">7.3</td>
+            <td><canvas class="velocity-chart" id="vc-41"></canvas></td>
+            <td class="number">94d</td>
+        </tr>
+    
+        <tr data-delta="677" data-pct="0">
+            <td class="row-rank">43</td>
+            <td>
+                <a href="skills/bullybuddy.html">Bullybuddy</a>
+                
+                
+            </td>
+            <td><img src="https://avatars.githubusercontent.com/u/26905440?v=4" alt="" width="18" height="18" style="border-radius:50%;vertical-align:-3px;margin-right:4px;opacity:0.85">chenkuansun</td>
+            <td class="number trend-up">+677</td>
+            <td class="number ">new</td>
+            <td class="number">677</td>
+            <td class="number">7.6</td>
+            <td><canvas class="velocity-chart" id="vc-42"></canvas></td>
+            <td class="number">89d</td>
+        </tr>
+    
+        <tr data-delta="675" data-pct="0">
+            <td class="row-rank">44</td>
+            <td>
+                <a href="skills/unitask-agent.html">Unitask Agent</a>
+                
+                
+            </td>
+            <td><img src="https://avatars.githubusercontent.com/u/227497722?v=4" alt="" width="18" height="18" style="border-radius:50%;vertical-align:-3px;margin-right:4px;opacity:0.85">mfaiz-007</td>
+            <td class="number trend-up">+675</td>
+            <td class="number ">new</td>
+            <td class="number">675</td>
+            <td class="number">7.7</td>
+            <td><canvas class="velocity-chart" id="vc-43"></canvas></td>
+            <td class="number">88d</td>
+        </tr>
+    
+        <tr data-delta="644" data-pct="0">
+            <td class="row-rank">45</td>
+            <td>
+                <a href="skills/farmos-weather.html">Farmos Weather</a>
+                
+                
+            </td>
+            <td><img src="https://avatars.githubusercontent.com/u/26852668?v=4" alt="" width="18" height="18" style="border-radius:50%;vertical-align:-3px;margin-right:4px;opacity:0.85">brianppetty</td>
+            <td class="number trend-up">+644</td>
+            <td class="number ">new</td>
+            <td class="number">644</td>
+            <td class="number">8.3</td>
+            <td><canvas class="velocity-chart" id="vc-44"></canvas></td>
+            <td class="number">78d</td>
+        </tr>
+    
+        <tr data-delta="636" data-pct="0">
+            <td class="row-rank">46</td>
+            <td>
+                <a href="skills/ztp.html">ztp</a>
+                
+                <span class="badge badge-suspicious" title="Suspicious">&#9888;</span>
+            </td>
+            <td><img src="https://avatars.githubusercontent.com/u/6625060?v=4" alt="" width="18" height="18" style="border-radius:50%;vertical-align:-3px;margin-right:4px;opacity:0.85">thomastrumpp</td>
+            <td class="number trend-up">+636</td>
+            <td class="number ">new</td>
+            <td class="number">636</td>
+            <td class="number">7.5</td>
+            <td><canvas class="velocity-chart" id="vc-45"></canvas></td>
+            <td class="number">85d</td>
+        </tr>
+    
+        <tr data-delta="635" data-pct="0.4">
+            <td class="row-rank">47</td>
+            <td>
+                <a href="skills/github.html">Github</a>
+                
+                
+            </td>
+            <td><img src="https://avatars.githubusercontent.com/u/58493?v=4" alt="" width="18" height="18" style="border-radius:50%;vertical-align:-3px;margin-right:4px;opacity:0.85"><a href="owners/steipete.html">steipete</a></td>
+            <td class="number trend-up">+635</td>
+            <td class="number trend-up">+0.4%</td>
+            <td class="number">174,624</td>
+            <td class="number">1375.0</td>
+            <td><canvas class="velocity-chart" id="vc-46"></canvas></td>
+            <td class="number">127d</td>
+        </tr>
+    
+        <tr data-delta="627" data-pct="0.6">
+            <td class="row-rank">48</td>
+            <td>
+                <a href="skills/humanizer.html">Humanizer</a>
+                
+                
+            </td>
+            <td><img src="https://avatars.githubusercontent.com/u/46933184?v=4" alt="" width="18" height="18" style="border-radius:50%;vertical-align:-3px;margin-right:4px;opacity:0.85"><a href="owners/biostartechnology.html">biostartechnology</a></td>
+            <td class="number trend-up">+627</td>
+            <td class="number trend-up">+0.6%</td>
+            <td class="number">105,439</td>
+            <td class="number">985.4</td>
+            <td><canvas class="velocity-chart" id="vc-47"></canvas></td>
+            <td class="number">107d</td>
+        </tr>
+    
+        <tr data-delta="613" data-pct="111.7">
+            <td class="row-rank">49</td>
+            <td>
+                <a href="skills/codex-pet.html">🫧 Codex Pet — Pro Pack on RunComfy</a>
+                
+                
+            </td>
+            <td><img src="https://avatars.githubusercontent.com/u/58277734?v=4" alt="" width="18" height="18" style="border-radius:50%;vertical-align:-3px;margin-right:4px;opacity:0.85">kalvinrv</td>
+            <td class="number trend-up">+613</td>
+            <td class="number trend-up">+111.7%</td>
+            <td class="number">1,162</td>
+            <td class="number">581.0</td>
+            <td><canvas class="velocity-chart" id="vc-48"></canvas></td>
+            <td class="number">2d</td>
+        </tr>
+    
+        <tr data-delta="598" data-pct="0.4">
+            <td class="row-rank">50</td>
+            <td>
+                <a href="skills/multi-search-engine.html">Multi Search Engine</a>
+                
+                
+            </td>
+            <td><img src="https://avatars.githubusercontent.com/u/10325039?v=4" alt="" width="18" height="18" style="border-radius:50%;vertical-align:-3px;margin-right:4px;opacity:0.85"><a href="owners/gpyangyoujun.html">gpyangyoujun</a></td>
+            <td class="number trend-up">+598</td>
+            <td class="number trend-up">+0.4%</td>
+            <td class="number">138,647</td>
+            <td class="number">1444.2</td>
+            <td><canvas class="velocity-chart" id="vc-49"></canvas></td>
+            <td class="number">96d</td>
+        </tr>
+    
+    </tbody>
+</table></div>
+
+
+    </main>
+
+    <footer>
+        <div class="container">
+            Last updated: 2026-05-11T03:49:10.811746+00:00 &middot;
+            <a href="api/index.json">JSON API</a>
+        </div>
+    </footer>
+
+    
+<script>
+const velocityData = [[15890, 15933], [14329, 14414], [11629], [8051, 8079], [4792], [4489], [3492, 3511], [3404], [3071], [2759], [2523, 2533], [2390], [147010, 151065, 153340, 157376, 157955, 160353, 162914, 167461, 170012, 172358], [1941], [1827], [1775, 1787], [1711, 1721], [1709], [1554, 1569], [1552], [1470], [1365], [1362], [1315], [2595, 4979, 6201, 8424, 8659, 9926, 11253, 13887, 15156, 16433], [416338, 417360, 418407, 421002, 421219, 422704, 424405, 427438, 428901, 430161], [1165, 1182], [1125], [1122], [1067], [1038], [925, 933], [887], [884], [225401, 227127, 227885, 229648, 229783, 230778, 231808, 233780, 234755, 235629], [849], [782, 792], [768, 781], [751, 760], [678, 691], [690], [687], [677], [675], [635, 644], [627, 636], [167450, 168671, 169213, 170464, 170578, 171245, 172005, 173334, 173989, 174624], [98567, 99567, 100022, 101197, 101286, 101957, 102744, 104173, 104812, 105439], [0, 549, 1162], [131603, 132697, 133205, 134457, 134563, 135259, 136008, 137378, 138049, 138647]];
+velocityData.forEach((vd, i) => {
+    const el = document.getElementById('vc-' + i);
+    if (el && vd.length > 1) {
+        new Chart(el, {
+            type: 'line',
+            data: { labels: vd.map((_, j) => j), datasets: [{
+                data: vd, borderColor: '#a6e3a1', borderWidth: 1.5, fill: false, pointRadius: 0, tension: 0.3
+            }]},
+            options: { responsive: false, maintainAspectRatio: false, plugins: { legend: { display: false }},
+                scales: { x: { display: false }, y: { display: false }}}
+        });
+    }
+});
+
+function sortBy(field, btn) {
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    const tbody = document.querySelector('#rising-table tbody');
+    const rows = Array.from(tbody.querySelectorAll('tr'));
+    rows.sort((a, b) => {
+        const va = parseFloat(a.dataset[field]) || 0;
+        const vb = parseFloat(b.dataset[field]) || 0;
+        return vb - va;
+    });
+    rows.forEach((row, i) => {
+        row.querySelector('.row-rank').textContent = i + 1;
+        tbody.appendChild(row);
+    });
+}
+</script>
+
+    <script>
+    document.querySelectorAll('table.sortable').forEach(table => {
+        const headers = table.querySelectorAll('th');
+        headers.forEach((th, colIdx) => {
+            th.style.cursor = 'pointer';
+            th.addEventListener('click', () => {
+                const tbody = table.querySelector('tbody');
+                const rows = Array.from(tbody.querySelectorAll('tr'));
+                const asc = th.dataset.sort !== 'asc';
+                headers.forEach(h => { h.dataset.sort = ''; h.classList.remove('sort-asc','sort-desc'); });
+                th.dataset.sort = asc ? 'asc' : 'desc';
+                th.classList.add(asc ? 'sort-asc' : 'sort-desc');
+                rows.sort((a, b) => {
+                    const at = a.cells[colIdx].textContent.trim();
+                    const bt = b.cells[colIdx].textContent.trim();
+                    const an = parseFloat(at.replace(/[,%+]/g, ''));
+                    const bn = parseFloat(bt.replace(/[,%+]/g, ''));
+                    if (!isNaN(an) && !isNaN(bn)) return asc ? an - bn : bn - an;
+                    return asc ? at.localeCompare(bt) : bt.localeCompare(at);
+                });
+                rows.forEach(r => tbody.appendChild(r));
+            });
+        });
+    });
+    </script>
+</body>
+</html>

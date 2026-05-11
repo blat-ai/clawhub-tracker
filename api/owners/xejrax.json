@@ -1,0 +1,496 @@
+{
+  "handle": "xejrax",
+  "total_downloads": 97423,
+  "total_stars": 72,
+  "total_installs": 793,
+  "skill_count": 20,
+  "avg_dl_per_day": 50.2,
+  "highlighted_count": 0,
+  "suspicious_count": 0,
+  "clean_pct": 100.0,
+  "dl_delta": 575,
+  "dl_wow": 0.6,
+  "dl_per_day": 575.0,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "star_per_day": 0,
+  "installs_delta": 1,
+  "installs_wow": 0.1,
+  "installs_per_day": 1.0,
+  "owner_display_name": "Xejrax",
+  "owner_name": null,
+  "owner_image": "https://avatars.githubusercontent.com/u/148405630?v=4",
+  "bio": null,
+  "company": null,
+  "location": null,
+  "blog": null,
+  "public_repos": 2,
+  "followers": 5,
+  "following": 8,
+  "github_created_at": "2023-10-19T01:15:59",
+  "twitter_username": null,
+  "skills": [
+    {
+      "slug": "pdf-extract",
+      "display_name": "Pdf Extract",
+      "stat_downloads": 15975,
+      "stat_stars": 17,
+      "created_at": "2026-02-03T16:21:13.109000",
+      "days_old": 97,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "file-search",
+      "display_name": "File Search",
+      "stat_downloads": 13869,
+      "stat_stars": 19,
+      "created_at": "2026-02-03T16:20:51.974000",
+      "days_old": 97,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "image-ocr",
+      "display_name": "Image Ocr",
+      "stat_downloads": 12198,
+      "stat_stars": 11,
+      "created_at": "2026-02-03T16:21:17.206000",
+      "days_old": 97,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "system-info",
+      "display_name": "System Info",
+      "stat_downloads": 9200,
+      "stat_stars": 8,
+      "created_at": "2026-02-03T16:21:33.070000",
+      "days_old": 97,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "git-helper",
+      "display_name": "Git Helper",
+      "stat_downloads": 5946,
+      "stat_stars": 1,
+      "created_at": "2026-02-03T16:21:25.117000",
+      "days_old": 97,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ssh-exec",
+      "display_name": "Ssh Exec",
+      "stat_downloads": 3973,
+      "stat_stars": 0,
+      "created_at": "2026-02-03T16:20:56.263000",
+      "days_old": 97,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "docker-ctl",
+      "display_name": "Docker Ctl",
+      "stat_downloads": 3853,
+      "stat_stars": 1,
+      "created_at": "2026-02-03T16:21:29.325000",
+      "days_old": 97,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "clipboard",
+      "display_name": "Clipboard",
+      "stat_downloads": 3702,
+      "stat_stars": 1,
+      "created_at": "2026-02-03T16:20:47.866000",
+      "days_old": 97,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "email-send",
+      "display_name": "Email Send",
+      "stat_downloads": 3613,
+      "stat_stars": 1,
+      "created_at": "2026-02-03T16:20:43.885000",
+      "days_old": 97,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "brainz-calendar",
+      "display_name": "Calendar",
+      "stat_downloads": 3360,
+      "stat_stars": 1,
+      "created_at": "2026-02-03T16:51:51.107000",
+      "days_old": 97,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ping-monitor",
+      "display_name": "Ping Monitor",
+      "stat_downloads": 3197,
+      "stat_stars": 1,
+      "created_at": "2026-02-03T16:21:04.725000",
+      "days_old": 97,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "log-tail",
+      "display_name": "Log Tail",
+      "stat_downloads": 2620,
+      "stat_stars": 1,
+      "created_at": "2026-02-03T16:21:37.062000",
+      "days_old": 97,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "media-player",
+      "display_name": "Media Player",
+      "stat_downloads": 2491,
+      "stat_stars": 3,
+      "created_at": "2026-02-03T16:21:21.140000",
+      "days_old": 97,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "geo-ip",
+      "display_name": "Geo Ip",
+      "stat_downloads": 2125,
+      "stat_stars": 1,
+      "created_at": "2026-02-03T16:21:55.136000",
+      "days_old": 97,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "dns-lookup",
+      "display_name": "Dns Lookup",
+      "stat_downloads": 2099,
+      "stat_stars": 1,
+      "created_at": "2026-02-03T16:21:00.293000",
+      "days_old": 97,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "brew-install",
+      "display_name": "Brew Install",
+      "stat_downloads": 2055,
+      "stat_stars": 1,
+      "created_at": "2026-02-03T16:21:46.448000",
+      "days_old": 97,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "brainz-tasks",
+      "display_name": "Tasks",
+      "stat_downloads": 1989,
+      "stat_stars": 1,
+      "created_at": "2026-02-03T16:51:55.880000",
+      "days_old": 97,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "wifi-qr",
+      "display_name": "Wifi Qr",
+      "stat_downloads": 1837,
+      "stat_stars": 1,
+      "created_at": "2026-02-03T16:21:41.544000",
+      "days_old": 97,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ping-beads",
+      "display_name": "Ping Beads",
+      "stat_downloads": 1710,
+      "stat_stars": 1,
+      "created_at": "2026-02-03T16:21:50.820000",
+      "days_old": 97,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "url-shorten",
+      "display_name": "Url Shorten",
+      "stat_downloads": 1611,
+      "stat_stars": 1,
+      "created_at": "2026-02-03T16:21:08.849000",
+      "days_old": 97,
+      "is_highlighted": false,
+      "is_suspicious": false
+    }
+  ],
+  "trajectory": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 67794,
+      "stars": 60
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 68387,
+      "stars": 60
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 69627,
+      "stars": 60
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 70476,
+      "stars": 63
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 71183,
+      "stars": 63
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 71853,
+      "stars": 63
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 73311,
+      "stars": 64
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 73403,
+      "stars": 64
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 73632,
+      "stars": 64
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 74393,
+      "stars": 64
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 75677,
+      "stars": 65
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 75677,
+      "stars": 65
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 75961,
+      "stars": 65
+    },
+    {
+      "run_date": "2026-03-29T03:00:00.679954",
+      "downloads": 76591,
+      "stars": 65
+    },
+    {
+      "run_date": "2026-03-30T03:00:00.682509",
+      "downloads": 77248,
+      "stars": 65
+    },
+    {
+      "run_date": "2026-03-31T03:00:00.702238",
+      "downloads": 77914,
+      "stars": 65
+    },
+    {
+      "run_date": "2026-04-01T03:00:00.631568",
+      "downloads": 78562,
+      "stars": 65
+    },
+    {
+      "run_date": "2026-04-07T08:32:21.256392",
+      "downloads": 82434,
+      "stars": 65
+    },
+    {
+      "run_date": "2026-04-08T02:59:53.612026",
+      "downloads": 82816,
+      "stars": 65
+    },
+    {
+      "run_date": "2026-04-09T03:00:00.814082",
+      "downloads": 83407,
+      "stars": 65
+    },
+    {
+      "run_date": "2026-04-10T03:00:00.610465",
+      "downloads": 84104,
+      "stars": 65
+    },
+    {
+      "run_date": "2026-04-11T03:00:00.635800",
+      "downloads": 84611,
+      "stars": 65
+    },
+    {
+      "run_date": "2026-04-12T03:00:00.326052",
+      "downloads": 85063,
+      "stars": 65
+    },
+    {
+      "run_date": "2026-04-13T03:00:00.295537",
+      "downloads": 85519,
+      "stars": 65
+    },
+    {
+      "run_date": "2026-04-18T02:59:55.390364",
+      "downloads": 88094,
+      "stars": 65
+    },
+    {
+      "run_date": "2026-04-19T03:00:00.676118",
+      "downloads": 88447,
+      "stars": 65
+    },
+    {
+      "run_date": "2026-04-20T03:00:00.599318",
+      "downloads": 88769,
+      "stars": 65
+    },
+    {
+      "run_date": "2026-04-21T03:00:00.575737",
+      "downloads": 89204,
+      "stars": 65
+    },
+    {
+      "run_date": "2026-04-22T03:00:00.762090",
+      "downloads": 89567,
+      "stars": 66
+    },
+    {
+      "run_date": "2026-04-23T03:00:00.767159",
+      "downloads": 89873,
+      "stars": 66
+    },
+    {
+      "run_date": "2026-04-24T03:00:00.604086",
+      "downloads": 90175,
+      "stars": 66
+    },
+    {
+      "run_date": "2026-04-28T02:59:56.742214",
+      "downloads": 91494,
+      "stars": 68
+    },
+    {
+      "run_date": "2026-04-29T03:01:44.166793",
+      "downloads": 91837,
+      "stars": 68
+    },
+    {
+      "run_date": "2026-04-30T03:00:00.711115",
+      "downloads": 92136,
+      "stars": 68
+    },
+    {
+      "run_date": "2026-05-02T02:59:59.833385",
+      "downloads": 92916,
+      "stars": 70
+    },
+    {
+      "run_date": "2026-05-03T03:42:13.922530",
+      "downloads": 93158,
+      "stars": 71
+    },
+    {
+      "run_date": "2026-05-05T00:41:38.231465",
+      "downloads": 94062,
+      "stars": 71
+    },
+    {
+      "run_date": "2026-05-05T03:00:00.321955",
+      "downloads": 94108,
+      "stars": 71
+    },
+    {
+      "run_date": "2026-05-06T03:00:00.570710",
+      "downloads": 94570,
+      "stars": 72
+    },
+    {
+      "run_date": "2026-05-07T03:00:00.572063",
+      "downloads": 95251,
+      "stars": 72
+    },
+    {
+      "run_date": "2026-05-09T03:44:10.833903",
+      "downloads": 96306,
+      "stars": 72
+    },
+    {
+      "run_date": "2026-05-10T03:00:00.531823",
+      "downloads": 96848,
+      "stars": 72
+    },
+    {
+      "run_date": "2026-05-11T03:00:00.316612",
+      "downloads": 97423,
+      "stars": 72
+    }
+  ],
+  "download_trajectory": [
+    67794,
+    68387,
+    69627,
+    70476,
+    71183,
+    71853,
+    73311,
+    73403,
+    73632,
+    74393,
+    75677,
+    75677,
+    75961,
+    76591,
+    77248,
+    77914,
+    78562,
+    82434,
+    82816,
+    83407,
+    84104,
+    84611,
+    85063,
+    85519,
+    88094,
+    88447,
+    88769,
+    89204,
+    89567,
+    89873,
+    90175,
+    91494,
+    91837,
+    92136,
+    92916,
+    93158,
+    94062,
+    94108,
+    94570,
+    95251,
+    96306,
+    96848,
+    97423
+  ]
+}

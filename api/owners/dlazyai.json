@@ -1,0 +1,838 @@
+{
+  "handle": "dlazyai",
+  "total_downloads": 73264,
+  "total_stars": 2,
+  "total_installs": 58,
+  "skill_count": 71,
+  "avg_dl_per_day": 58.7,
+  "highlighted_count": 0,
+  "suspicious_count": 1,
+  "clean_pct": 98.6,
+  "dl_delta": 1036,
+  "dl_wow": 1.4,
+  "dl_per_day": 1036.0,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "star_per_day": 0,
+  "installs_delta": 0,
+  "installs_wow": 0.0,
+  "installs_per_day": 0,
+  "owner_display_name": "dlazy",
+  "owner_name": null,
+  "owner_image": "https://avatars.githubusercontent.com/u/274158181?v=4",
+  "bio": null,
+  "company": null,
+  "location": null,
+  "blog": "https://dlazy.com",
+  "public_repos": 1,
+  "followers": 0,
+  "following": 0,
+  "github_created_at": "2026-04-07T02:33:33",
+  "twitter_username": null,
+  "skills": [
+    {
+      "slug": "dlazy-kling-v3",
+      "display_name": "Dlazy Kling V3",
+      "stat_downloads": 1320,
+      "stat_stars": 0,
+      "created_at": "2026-04-21T08:19:29.350000",
+      "days_old": 20,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "dlazy-generate",
+      "display_name": "Dlazy Generate",
+      "stat_downloads": 1314,
+      "stat_stars": 1,
+      "created_at": "2026-04-21T05:50:14.509000",
+      "days_old": 20,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "dlazy-imageseg",
+      "display_name": "Dlazy Imageseg",
+      "stat_downloads": 1308,
+      "stat_stars": 0,
+      "created_at": "2026-04-21T05:50:50.474000",
+      "days_old": 20,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "dlazy-kling-image-o1",
+      "display_name": "Dlazy Kling Image O1",
+      "stat_downloads": 1307,
+      "stat_stars": 0,
+      "created_at": "2026-04-21T08:19:15.565000",
+      "days_old": 20,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "dlazy-jimeng-i2v-first",
+      "display_name": "Dlazy Jimeng I2v First",
+      "stat_downloads": 1301,
+      "stat_stars": 0,
+      "created_at": "2026-04-21T07:15:00.699000",
+      "days_old": 20,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "dlazy-doubao-tts",
+      "display_name": "Dlazy Doubao Tts",
+      "stat_downloads": 1300,
+      "stat_stars": 0,
+      "created_at": "2026-04-21T03:06:41.042000",
+      "days_old": 20,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "dlazy-kling-audio-clone",
+      "display_name": "Dlazy Kling Audio Clone",
+      "stat_downloads": 1299,
+      "stat_stars": 0,
+      "created_at": "2026-04-21T08:19:03.293000",
+      "days_old": 20,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "dlazy-kling-v3-omni",
+      "display_name": "Dlazy Kling V3 Omni",
+      "stat_downloads": 1287,
+      "stat_stars": 0,
+      "created_at": "2026-04-21T08:19:40.665000",
+      "days_old": 20,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "dlazy-keling-tts",
+      "display_name": "Dlazy Keling Tts",
+      "stat_downloads": 1282,
+      "stat_stars": 0,
+      "created_at": "2026-04-21T08:18:51.571000",
+      "days_old": 20,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "dlazy-jimeng-t2i",
+      "display_name": "Dlazy Jimeng T2i",
+      "stat_downloads": 1280,
+      "stat_stars": 0,
+      "created_at": "2026-04-21T07:15:58.543000",
+      "days_old": 20,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "logo-branding-system",
+      "display_name": "Logo Branding System",
+      "stat_downloads": 1277,
+      "stat_stars": 0,
+      "created_at": "2026-04-23T08:01:56.340000",
+      "days_old": 18,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "dlazy-banana2",
+      "display_name": "Dlazy Banana2",
+      "stat_downloads": 1276,
+      "stat_stars": 0,
+      "created_at": "2026-04-21T03:06:29.980000",
+      "days_old": 20,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "dlazy-banana-pro",
+      "display_name": "Dlazy Banana Pro",
+      "stat_downloads": 1274,
+      "stat_stars": 0,
+      "created_at": "2026-04-21T03:06:19.137000",
+      "days_old": 20,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "dlazy-jimeng-i2v-first-tail",
+      "display_name": "Dlazy Jimeng I2v First Tail",
+      "stat_downloads": 1269,
+      "stat_stars": 0,
+      "created_at": "2026-04-21T07:15:12.091000",
+      "days_old": 20,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "dlazy-jimeng-dream-actor",
+      "display_name": "Dlazy Jimeng Dream Actor",
+      "stat_downloads": 1268,
+      "stat_stars": 0,
+      "created_at": "2026-04-21T05:51:01.260000",
+      "days_old": 20,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "dlazy-audio-generate",
+      "display_name": "Dlazy Audio Generate",
+      "stat_downloads": 1266,
+      "stat_stars": 1,
+      "created_at": "2026-04-21T03:06:08.248000",
+      "days_old": 20,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "dlazy-keling-sfx",
+      "display_name": "Dlazy Keling Sfx",
+      "stat_downloads": 1266,
+      "stat_stars": 0,
+      "created_at": "2026-04-21T07:16:10.545000",
+      "days_old": 20,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "dlazy-pixverse-c1",
+      "display_name": "Dlazy Pixverse C1",
+      "stat_downloads": 1259,
+      "stat_stars": 0,
+      "created_at": "2026-04-22T05:24:11.805000",
+      "days_old": 19,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "dlazy-viduq2-t2i",
+      "display_name": "Dlazy Viduq2 T2i",
+      "stat_downloads": 1259,
+      "stat_stars": 0,
+      "created_at": "2026-04-22T08:41:46.922000",
+      "days_old": 19,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "dlazy-grok-4-2",
+      "display_name": "Dlazy Grok 4.2",
+      "stat_downloads": 1256,
+      "stat_stars": 0,
+      "created_at": "2026-04-21T05:50:25.949000",
+      "days_old": 20,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "dlazy-seedance-2-0",
+      "display_name": "Dlazy Seedance 2.0",
+      "stat_downloads": 1256,
+      "stat_stars": 0,
+      "created_at": "2026-04-22T06:27:16.741000",
+      "days_old": 19,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "image-storyboard",
+      "display_name": "Image Storyboard",
+      "stat_downloads": 1253,
+      "stat_stars": 0,
+      "created_at": "2026-04-23T08:01:43.895000",
+      "days_old": 18,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "image-marketing-brochure",
+      "display_name": "Image Marketing Brochure",
+      "stat_downloads": 1252,
+      "stat_stars": 0,
+      "created_at": "2026-04-23T05:44:25.848000",
+      "days_old": 18,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "image-amazon-product-image-suite",
+      "display_name": "Image Amazon Product Image Suite",
+      "stat_downloads": 1252,
+      "stat_stars": 0,
+      "created_at": "2026-04-23T05:44:14.443000",
+      "days_old": 18,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "dlazy-image-generate",
+      "display_name": "Dlazy Image Generate",
+      "stat_downloads": 1250,
+      "stat_stars": 0,
+      "created_at": "2026-04-21T05:50:37.271000",
+      "days_old": 20,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "dlazy-merge",
+      "display_name": "Dlazy Merge",
+      "stat_downloads": 1249,
+      "stat_stars": 0,
+      "created_at": "2026-04-22T05:23:50.046000",
+      "days_old": 19,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "dlazy-recraft-v3",
+      "display_name": "Dlazy Recraft V3",
+      "stat_downloads": 1249,
+      "stat_stars": 0,
+      "created_at": "2026-04-22T05:24:23.111000",
+      "days_old": 19,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "dlazy-video-generate",
+      "display_name": "Dlazy Video Generate",
+      "stat_downloads": 1245,
+      "stat_stars": 0,
+      "created_at": "2026-04-22T07:33:55.816000",
+      "days_old": 19,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "dlazy-video-scenes",
+      "display_name": "Dlazy Video Scenes",
+      "stat_downloads": 1244,
+      "stat_stars": 0,
+      "created_at": "2026-04-22T08:41:07.790000",
+      "days_old": 19,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "dlazy-vidu-audio-clone",
+      "display_name": "Dlazy Vidu Audio Clone",
+      "stat_downloads": 1243,
+      "stat_stars": 0,
+      "created_at": "2026-04-22T08:41:22.064000",
+      "days_old": 19,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "dlazy-recraft-v3-svg",
+      "display_name": "Dlazy Recraft V3 Svg",
+      "stat_downloads": 1243,
+      "stat_stars": 0,
+      "created_at": "2026-04-22T05:24:34.452000",
+      "days_old": 19,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "text-spoken-script",
+      "display_name": "Text Spoken Script",
+      "stat_downloads": 1242,
+      "stat_stars": 0,
+      "created_at": "2026-04-23T08:02:23.015000",
+      "days_old": 18,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "image-social-media",
+      "display_name": "Image Social Media",
+      "stat_downloads": 1241,
+      "stat_stars": 0,
+      "created_at": "2026-04-23T08:01:31.951000",
+      "days_old": 18,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "dlazy-superres",
+      "display_name": "Dlazy Superres",
+      "stat_downloads": 1239,
+      "stat_stars": 0,
+      "created_at": "2026-04-22T07:33:18.635000",
+      "days_old": 19,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "dlazy-seedance-2-0-fast",
+      "display_name": "Dlazy Seedance 2.0 Fast",
+      "stat_downloads": 1237,
+      "stat_stars": 0,
+      "created_at": "2026-04-22T06:27:29.677000",
+      "days_old": 19,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "dlazy-seedance-1-5-pro",
+      "display_name": "Dlazy Seedance 1.5 Pro",
+      "stat_downloads": 1237,
+      "stat_stars": 0,
+      "created_at": "2026-04-22T06:27:05.130000",
+      "days_old": 19,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "dlazy-seedream-5-0-lite",
+      "display_name": "Dlazy Seedream 5.0 Lite",
+      "stat_downloads": 1236,
+      "stat_stars": 0,
+      "created_at": "2026-04-22T06:27:51.611000",
+      "days_old": 19,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "dlazy-gemini-2-5-tts",
+      "display_name": "Dlazy Gemini 2.5 Tts",
+      "stat_downloads": 1236,
+      "stat_stars": 0,
+      "created_at": "2026-04-21T03:06:52.225000",
+      "days_old": 20,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "image-social-carousel",
+      "display_name": "Image Social Carousel",
+      "stat_downloads": 1232,
+      "stat_stars": 0,
+      "created_at": "2026-04-23T05:44:37.466000",
+      "days_old": 18,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "text-storyboard-script",
+      "display_name": "Text Storyboard Script",
+      "stat_downloads": 1231,
+      "stat_stars": 0,
+      "created_at": "2026-04-24T01:51:43.969000",
+      "days_old": 17,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "dlazy-viduq2-i2v",
+      "display_name": "Dlazy Viduq2 I2v",
+      "stat_downloads": 1224,
+      "stat_stars": 0,
+      "created_at": "2026-04-22T08:41:35.489000",
+      "days_old": 19,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "dlazy-suno-music",
+      "display_name": "Dlazy Suno Music",
+      "stat_downloads": 1220,
+      "stat_stars": 0,
+      "created_at": "2026-04-22T07:33:05.722000",
+      "days_old": 19,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "dlazy-seedream-4-5",
+      "display_name": "Dlazy Seedream 4.5",
+      "stat_downloads": 1213,
+      "stat_stars": 0,
+      "created_at": "2026-04-22T06:27:40.715000",
+      "days_old": 19,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "dlazy-mj-imagine",
+      "display_name": "Dlazy Mj Imagine",
+      "stat_downloads": 1211,
+      "stat_stars": 0,
+      "created_at": "2026-04-22T05:24:00.936000",
+      "days_old": 19,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "dlazy-jimeng-omnihuman-1-5",
+      "display_name": "Dlazy Jimeng Omnihuman 1.5",
+      "stat_downloads": 1206,
+      "stat_stars": 0,
+      "created_at": "2026-04-21T07:15:46.273000",
+      "days_old": 20,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "dlazy-veo-3-1-fast",
+      "display_name": "Dlazy Veo 3.1 Fast",
+      "stat_downloads": 1206,
+      "stat_stars": 0,
+      "created_at": "2026-04-22T07:33:44.612000",
+      "days_old": 19,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "video-storyboard-generate",
+      "display_name": "Video Storyboard Generate",
+      "stat_downloads": 1197,
+      "stat_stars": 0,
+      "created_at": "2026-04-24T01:51:55.864000",
+      "days_old": 17,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "dlazy-wan2-6-r2v-flash",
+      "display_name": "Dlazy Wan2.6 R2v Flash",
+      "stat_downloads": 1197,
+      "stat_stars": 0,
+      "created_at": "2026-04-23T05:43:51.591000",
+      "days_old": 18,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "dlazy-veo-3-1",
+      "display_name": "Dlazy Veo 3.1",
+      "stat_downloads": 1196,
+      "stat_stars": 0,
+      "created_at": "2026-04-22T07:33:30.282000",
+      "days_old": 19,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "dlazy-wan2-7",
+      "display_name": "Dlazy Wan2.7",
+      "stat_downloads": 1182,
+      "stat_stars": 0,
+      "created_at": "2026-04-23T05:44:02.607000",
+      "days_old": 18,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "dlazy-wan2-6-r2v",
+      "display_name": "Dlazy Wan2.6 R2v",
+      "stat_downloads": 1180,
+      "stat_stars": 0,
+      "created_at": "2026-04-22T08:42:00.207000",
+      "days_old": 19,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "dlazy-gpt-image-2",
+      "display_name": "Dlazy Gpt Image 2",
+      "stat_downloads": 865,
+      "stat_stars": 0,
+      "created_at": "2026-04-24T03:21:26.075000",
+      "days_old": 17,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "dlazy-video-replicate",
+      "display_name": "Dlazy Video Replicate",
+      "stat_downloads": 859,
+      "stat_stars": 0,
+      "created_at": "2026-04-24T03:33:58.261000",
+      "days_old": 17,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "dlazy-image-replicate",
+      "display_name": "Dlazy Image Replicate",
+      "stat_downloads": 855,
+      "stat_stars": 0,
+      "created_at": "2026-04-24T03:22:06.017000",
+      "days_old": 17,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "searchonlineassets",
+      "display_name": "SearchOnlineAssets",
+      "stat_downloads": 852,
+      "stat_stars": 0,
+      "created_at": "2026-04-23T08:02:08.070000",
+      "days_old": 18,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "webtoon-adapter",
+      "display_name": "Webtoon Adapter",
+      "stat_downloads": 836,
+      "stat_stars": 0,
+      "created_at": "2026-04-24T03:37:31.756000",
+      "days_old": 17,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "dlazy-one-click-generation",
+      "display_name": "Dlazy One Click Generation",
+      "stat_downloads": 479,
+      "stat_stars": 0,
+      "created_at": "2026-04-29T02:35:00.782000",
+      "days_old": 12,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "dlazy-recraft-v4-vector",
+      "display_name": "Dlazy Recraft V4 Vector",
+      "stat_downloads": 457,
+      "stat_stars": 0,
+      "created_at": "2026-05-02T11:31:15.620000",
+      "days_old": 9,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "idea2video",
+      "display_name": "Idea2video",
+      "stat_downloads": 455,
+      "stat_stars": 0,
+      "created_at": "2026-05-02T11:33:01.112000",
+      "days_old": 9,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "dlazy-script",
+      "display_name": "Dlazy Script",
+      "stat_downloads": 447,
+      "stat_stars": 0,
+      "created_at": "2026-05-02T11:31:27.718000",
+      "days_old": 9,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "dlazy-plan",
+      "display_name": "Dlazy Plan",
+      "stat_downloads": 442,
+      "stat_stars": 0,
+      "created_at": "2026-05-01T07:51:35.062000",
+      "days_old": 10,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "dlazy-recraft-v4-pro",
+      "display_name": "Dlazy Recraft V4 Pro",
+      "stat_downloads": 441,
+      "stat_stars": 0,
+      "created_at": "2026-05-01T07:52:13.931000",
+      "days_old": 10,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "dlazy-recraft-v4",
+      "display_name": "Dlazy Recraft V4",
+      "stat_downloads": 436,
+      "stat_stars": 0,
+      "created_at": "2026-05-01T07:52:04.188000",
+      "days_old": 10,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "dlazy-execute",
+      "display_name": "Dlazy Execute",
+      "stat_downloads": 432,
+      "stat_stars": 0,
+      "created_at": "2026-05-01T07:47:35.620000",
+      "days_old": 10,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "dlazy-recraft-v4-pro-vector",
+      "display_name": "Dlazy Recraft V4 Pro Vector",
+      "stat_downloads": 428,
+      "stat_stars": 0,
+      "created_at": "2026-05-01T07:52:24.053000",
+      "days_old": 10,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "search-online-assets",
+      "display_name": "Search Online Assets",
+      "stat_downloads": 426,
+      "stat_stars": 0,
+      "created_at": "2026-05-02T11:33:24.332000",
+      "days_old": 9,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "dlazy-happyhorse1-0",
+      "display_name": "Dlazy Happyhorse1 0",
+      "stat_downloads": 341,
+      "stat_stars": 0,
+      "created_at": "2026-05-02T11:30:08.942000",
+      "days_old": 9,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "dlazy-happyhorse-1-0",
+      "display_name": "Dlazy Happyhorse 1.0",
+      "stat_downloads": 170,
+      "stat_stars": 0,
+      "created_at": "2026-05-06T14:04:53.798000",
+      "days_old": 5,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "dlazy-claude-opus-4-7",
+      "display_name": "Dlazy Claude Opus 4.7",
+      "stat_downloads": 93,
+      "stat_stars": 0,
+      "created_at": "2026-05-06T14:03:08.210000",
+      "days_old": 5,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "dlazy-gpt-5-5",
+      "display_name": "Dlazy Gpt 5.5",
+      "stat_downloads": 93,
+      "stat_stars": 0,
+      "created_at": "2026-05-06T14:04:20.920000",
+      "days_old": 5,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "dlazy-gemini-3-1",
+      "display_name": "Dlazy Gemini 3.1",
+      "stat_downloads": 90,
+      "stat_stars": 0,
+      "created_at": "2026-05-06T14:03:56.872000",
+      "days_old": 5,
+      "is_highlighted": false,
+      "is_suspicious": false
+    }
+  ],
+  "trajectory": [
+    {
+      "run_date": "2026-04-22T03:00:00.762090",
+      "downloads": 687,
+      "stars": 1
+    },
+    {
+      "run_date": "2026-04-23T03:00:00.767159",
+      "downloads": 1613,
+      "stars": 2
+    },
+    {
+      "run_date": "2026-04-24T03:00:00.604086",
+      "downloads": 3881,
+      "stars": 2
+    },
+    {
+      "run_date": "2026-04-28T02:59:56.742214",
+      "downloads": 25371,
+      "stars": 2
+    },
+    {
+      "run_date": "2026-04-29T03:01:44.166793",
+      "downloads": 31003,
+      "stars": 2
+    },
+    {
+      "run_date": "2026-04-30T03:00:00.711115",
+      "downloads": 36441,
+      "stars": 2
+    },
+    {
+      "run_date": "2026-05-02T02:59:59.833385",
+      "downloads": 44783,
+      "stars": 2
+    },
+    {
+      "run_date": "2026-05-03T03:42:13.922530",
+      "downloads": 45405,
+      "stars": 2
+    },
+    {
+      "run_date": "2026-05-05T00:41:38.231465",
+      "downloads": 50903,
+      "stars": 2
+    },
+    {
+      "run_date": "2026-05-05T03:00:00.321955",
+      "downloads": 52148,
+      "stars": 2
+    },
+    {
+      "run_date": "2026-05-06T03:00:00.570710",
+      "downloads": 58664,
+      "stars": 2
+    },
+    {
+      "run_date": "2026-05-07T03:00:00.572063",
+      "downloads": 67585,
+      "stars": 2
+    },
+    {
+      "run_date": "2026-05-09T03:44:10.833903",
+      "downloads": 71390,
+      "stars": 2
+    },
+    {
+      "run_date": "2026-05-10T03:00:00.531823",
+      "downloads": 72228,
+      "stars": 2
+    },
+    {
+      "run_date": "2026-05-11T03:00:00.316612",
+      "downloads": 73264,
+      "stars": 2
+    }
+  ],
+  "download_trajectory": [
+    687,
+    1613,
+    3881,
+    25371,
+    31003,
+    36441,
+    44783,
+    45405,
+    50903,
+    52148,
+    58664,
+    67585,
+    71390,
+    72228,
+    73264
+  ]
+}

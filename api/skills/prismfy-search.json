@@ -1,0 +1,284 @@
+{
+  "skill_id": "kd7063jkb37apqm2gm7f1rpj7x83nzpa",
+  "slug": "prismfy-search",
+  "display_name": "Prismfy Web Search | Free Google",
+  "summary": "Default web search for OpenClaw. Search the web across 10 engines \u2014 Google, Reddit, GitHub, arXiv, Hacker News, and more \u2014 using Prismfy. Free tier included,...",
+  "owner_handle": "uroboros1205",
+  "owner_image": "https://avatars.githubusercontent.com/u/86728823?v=4",
+  "created_at": "2026-03-26T21:02:50.782000",
+  "days_old": 45,
+  "stat_downloads": 78935,
+  "stat_stars": 30,
+  "tags": {
+    "latest": "k97bkffnashrdff2fbygg3ns2s86eh41"
+  },
+  "badges": null,
+  "stat_installs": 10,
+  "stat_comments": 0,
+  "current_version": "1.3.8",
+  "is_highlighted": false,
+  "is_suspicious": false,
+  "velocity": 1754.1,
+  "acceleration_pct": -10.0,
+  "dl_delta": 105,
+  "dl_wow": 0.1,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 0,
+  "installs_wow": 0.0,
+  "history": [
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 1919,
+      "stars": 1,
+      "installs_all_time": 0,
+      "installs_current": 0
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 1919,
+      "stars": 1,
+      "installs_all_time": 0,
+      "installs_current": 0
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 3150,
+      "stars": 1,
+      "installs_all_time": 0,
+      "installs_current": 0
+    },
+    {
+      "run_date": "2026-03-29T03:00:00.679954",
+      "downloads": 7207,
+      "stars": 1,
+      "installs_all_time": 0,
+      "installs_current": 0
+    },
+    {
+      "run_date": "2026-03-30T03:00:00.682509",
+      "downloads": 12605,
+      "stars": 3,
+      "installs_all_time": 0,
+      "installs_current": 0
+    },
+    {
+      "run_date": "2026-03-31T03:00:00.702238",
+      "downloads": 18619,
+      "stars": 3,
+      "installs_all_time": 0,
+      "installs_current": 0
+    },
+    {
+      "run_date": "2026-04-01T03:00:00.631568",
+      "downloads": 27792,
+      "stars": 14,
+      "installs_all_time": 0,
+      "installs_current": 0
+    },
+    {
+      "run_date": "2026-04-07T08:32:21.256392",
+      "downloads": 59088,
+      "stars": 20,
+      "installs_all_time": 5,
+      "installs_current": 5
+    },
+    {
+      "run_date": "2026-04-08T02:59:53.612026",
+      "downloads": 69740,
+      "stars": 20,
+      "installs_all_time": 5,
+      "installs_current": 5
+    },
+    {
+      "run_date": "2026-04-09T03:00:00.814082",
+      "downloads": 75636,
+      "stars": 20,
+      "installs_all_time": 5,
+      "installs_current": 5
+    },
+    {
+      "run_date": "2026-04-10T03:00:00.610465",
+      "downloads": 75850,
+      "stars": 21,
+      "installs_all_time": 6,
+      "installs_current": 6
+    },
+    {
+      "run_date": "2026-04-11T03:00:00.635800",
+      "downloads": 76113,
+      "stars": 21,
+      "installs_all_time": 6,
+      "installs_current": 6
+    },
+    {
+      "run_date": "2026-04-12T03:00:00.326052",
+      "downloads": 76246,
+      "stars": 23,
+      "installs_all_time": 6,
+      "installs_current": 6
+    },
+    {
+      "run_date": "2026-04-13T03:00:00.295537",
+      "downloads": 76382,
+      "stars": 24,
+      "installs_all_time": 7,
+      "installs_current": 7
+    },
+    {
+      "run_date": "2026-04-18T02:59:55.390364",
+      "downloads": 76973,
+      "stars": 24,
+      "installs_all_time": 7,
+      "installs_current": 7
+    },
+    {
+      "run_date": "2026-04-19T03:00:00.676118",
+      "downloads": 77074,
+      "stars": 24,
+      "installs_all_time": 7,
+      "installs_current": 7
+    },
+    {
+      "run_date": "2026-04-20T03:00:00.599318",
+      "downloads": 77163,
+      "stars": 24,
+      "installs_all_time": 7,
+      "installs_current": 7
+    },
+    {
+      "run_date": "2026-04-21T03:00:00.575737",
+      "downloads": 77261,
+      "stars": 24,
+      "installs_all_time": 7,
+      "installs_current": 7
+    },
+    {
+      "run_date": "2026-04-22T03:00:00.762090",
+      "downloads": 77354,
+      "stars": 25,
+      "installs_all_time": 7,
+      "installs_current": 7
+    },
+    {
+      "run_date": "2026-04-23T03:00:00.767159",
+      "downloads": 77439,
+      "stars": 25,
+      "installs_all_time": 7,
+      "installs_current": 7
+    },
+    {
+      "run_date": "2026-04-24T03:00:00.604086",
+      "downloads": 77520,
+      "stars": 25,
+      "installs_all_time": 7,
+      "installs_current": 7
+    },
+    {
+      "run_date": "2026-04-28T02:59:56.742214",
+      "downloads": 77801,
+      "stars": 28,
+      "installs_all_time": 8,
+      "installs_current": 8
+    },
+    {
+      "run_date": "2026-04-29T03:01:44.166793",
+      "downloads": 77894,
+      "stars": 28,
+      "installs_all_time": 8,
+      "installs_current": 8
+    },
+    {
+      "run_date": "2026-04-30T03:00:00.711115",
+      "downloads": 77978,
+      "stars": 28,
+      "installs_all_time": 8,
+      "installs_current": 8
+    },
+    {
+      "run_date": "2026-05-02T02:59:59.833385",
+      "downloads": 78095,
+      "stars": 28,
+      "installs_all_time": 9,
+      "installs_current": 8
+    },
+    {
+      "run_date": "2026-05-03T03:42:13.922530",
+      "downloads": 78150,
+      "stars": 29,
+      "installs_all_time": 9,
+      "installs_current": 8
+    },
+    {
+      "run_date": "2026-05-05T00:41:38.231465",
+      "downloads": 78311,
+      "stars": 29,
+      "installs_all_time": 10,
+      "installs_current": 9
+    },
+    {
+      "run_date": "2026-05-05T03:00:00.321955",
+      "downloads": 78323,
+      "stars": 29,
+      "installs_all_time": 10,
+      "installs_current": 9
+    },
+    {
+      "run_date": "2026-05-06T03:00:00.570710",
+      "downloads": 78431,
+      "stars": 30,
+      "installs_all_time": 10,
+      "installs_current": 9
+    },
+    {
+      "run_date": "2026-05-07T03:00:00.572063",
+      "downloads": 78544,
+      "stars": 30,
+      "installs_all_time": 10,
+      "installs_current": 9
+    },
+    {
+      "run_date": "2026-05-09T03:44:10.833903",
+      "downloads": 78736,
+      "stars": 30,
+      "installs_all_time": 10,
+      "installs_current": 9
+    },
+    {
+      "run_date": "2026-05-10T03:00:00.531823",
+      "downloads": 78830,
+      "stars": 30,
+      "installs_all_time": 10,
+      "installs_current": 9
+    },
+    {
+      "run_date": "2026-05-11T03:00:00.316612",
+      "downloads": 78935,
+      "stars": 30,
+      "installs_all_time": 10,
+      "installs_current": 9
+    }
+  ],
+  "version_releases": [
+    {
+      "version_number": "1.1.0",
+      "run_date": "2026-04-07T08:32:21.256392",
+      "changelog": "v1.1.0\n\nPrismfy Search is now automatically set as the default web search tool in OpenClaw on install \u2014 no manual setup required\nEngines grouped by category (Web, News, Code, Academic, Community) for easier selection"
+    },
+    {
+      "version_number": "1.3.2",
+      "run_date": "2026-04-18T02:59:55.390364",
+      "changelog": "v1.3.2\nSmarter search behavior \u2014 agents now actually search instead of guessing\n\nThe main change in this release is fixing a common LLM problem: agents confidently answering questions from training data instead of looking things up. The skill now instructs the agent to always reach for real search results when live information is needed \u2014 pricing, docs, changelogs, community opinions, recent news \u2014 rather than making things up.\n\nChanges:\n\nAgents now search proactively instead of answering from memory when current data is available\nAdded clear rules for when to search vs when to answer directly \u2014 no more guessing on time-sensitive topics\nAgents will search multiple times with different queries/engines if the first result doesn't cover it\nSources are always cited after a search \u2014 no presenting web results as the agent's own knowledge\nIf PRISMFY_API_KEY is not set, the agent explains what's missing and how to fix it instead of silently skipping search\nAdded openclaw skills install prismfy-search as Step 1 in setup docs"
+    },
+    {
+      "version_number": "1.3.4",
+      "run_date": "2026-04-19T03:00:00.676118",
+      "changelog": "prismfy-search 1.3.4\n\n\u2022 Fixed command handling and improved CLI stability\n\u2022 --help now works correctly\n\u2022 Improved validation for input parameters\n\u2022 Improved error handling and user-facing messages\n\u2022 Synced documentation with actual skill behavior\n\u2022 Updated default search engine behavior\n\u2022 Minor internal fixes and cleanup"
+    },
+    {
+      "version_number": "1.3.8",
+      "run_date": "2026-05-11T03:00:00.316612",
+      "changelog": "No visible changes in this version.\n\n- Version number updated to 1.3.8\n- No file or documentation changes detected from the previous release"
+    }
+  ]
+}

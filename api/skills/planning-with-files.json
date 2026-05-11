@@ -1,0 +1,387 @@
+{
+  "skill_id": "kd71rzyg12t6d9xykydh438md57zzzrx",
+  "slug": "planning-with-files",
+  "display_name": "Planning with files",
+  "summary": "Implements Manus-style file-based planning to organize and track progress on complex tasks. Creates task_plan.md, findings.md, and progress.md. Use when aske...",
+  "owner_handle": "othmanadi",
+  "owner_image": "https://avatars.githubusercontent.com/u/78882424?v=4",
+  "created_at": "2026-01-26T01:08:33.406000",
+  "days_old": 105,
+  "stat_downloads": 19474,
+  "stat_stars": 46,
+  "tags": {
+    "agent": "k97axkze7k084r7wta2cnf8rr5800cs1",
+    "agent-skills": "k97axkze7k084r7wta2cnf8rr5800cs1",
+    "agents": "k97axkze7k084r7wta2cnf8rr5800cs1",
+    "antigravity": "k97axkze7k084r7wta2cnf8rr5800cs1",
+    "c   lawd": "k97axkze7k084r7wta2cnf8rr5800cs1",
+    "claude": "k97axkze7k084r7wta2cnf8rr5800cs1",
+    "claude-code": "k97bhbkz1rxvacxk7m92mb55118391ze",
+    "claude-skills": "k97axkze7k084r7wta2cnf8rr5800cs1",
+    "clawdbot": "k97axkze7k084r7wta2cnf8rr5800cs1",
+    "clawdbot-skill": "k97axkze7k084r7wta2cnf8rr5800cs1",
+    "clawdhub": "k97axkze7k084r7wta2cnf8rr5800cs1",
+    "context-engineering": "k97bhbkz1rxvacxk7m92mb55118391ze",
+    "cursor": "k97bhbkz1rxvacxk7m92mb55118391ze",
+    "factory-ai": "k97axkze7k084r7wta2cnf8rr5800cs1",
+    "gemini": "k97bhbkz1rxvacxk7m92mb55118391ze",
+    "hooks": "k97bhbkz1rxvacxk7m92mb55118391ze",
+    "kilo-code": "k97bhbkz1rxvacxk7m92mb55118391ze",
+    "kilocode": "k97axkze7k084r7wta2cnf8rr5800cs1",
+    "latest": "k970dsh0vsebv30emnskgxnar985ws8y",
+    "manus": "k97bhbkz1rxvacxk7m92mb55118391ze",
+    "manus-ai": "k97axkze7k084r7wta2cnf8rr5800cs1",
+    "markdown": "k97bhbkz1rxvacxk7m92mb55118391ze",
+    "multi-ide": "k97bhbkz1rxvacxk7m92mb55118391ze",
+    "persistent-memory": "k97bhbkz1rxvacxk7m92mb55118391ze",
+    "planning": "k97bhbkz1rxvacxk7m92mb55118391ze",
+    "productivity": "k97bhbkz1rxvacxk7m92mb55118391ze",
+    "project-management": "k97bhbkz1rxvacxk7m92mb55118391ze",
+    "prompt-engineering": "k97axkze7k084r7wta2cnf8rr5800cs1",
+    "reverse-engineering": "k97axkze7k084r7wta2cnf8rr5800cs1",
+    "skill": "k97bhbkz1rxvacxk7m92mb55118391ze",
+    "task-planning": "k97bhbkz1rxvacxk7m92mb55118391ze",
+    "workflow": "k97bhbkz1rxvacxk7m92mb55118391ze",
+    "zod": "k97axkze7k084r7wta2cnf8rr5800cs1",
+    "zod-validation": "k97axkze7k084r7wta2cnf8rr5800cs1"
+  },
+  "badges": null,
+  "stat_installs": 175,
+  "stat_comments": 0,
+  "current_version": "2.36.1",
+  "is_highlighted": false,
+  "is_suspicious": false,
+  "velocity": 185.5,
+  "acceleration_pct": -14.6,
+  "dl_delta": 130,
+  "dl_wow": 0.7,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 0,
+  "installs_wow": 0.0,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 8745,
+      "stars": 22,
+      "installs_all_time": 77,
+      "installs_current": 74
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 8872,
+      "stars": 22,
+      "installs_all_time": 79,
+      "installs_current": 76
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 9090,
+      "stars": 22,
+      "installs_all_time": 81,
+      "installs_current": 77
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 9251,
+      "stars": 21,
+      "installs_all_time": 86,
+      "installs_current": 81
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 9551,
+      "stars": 22,
+      "installs_all_time": 95,
+      "installs_current": 88
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 9851,
+      "stars": 22,
+      "installs_all_time": 97,
+      "installs_current": 91
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 10336,
+      "stars": 26,
+      "installs_all_time": 108,
+      "installs_current": 101
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 10379,
+      "stars": 27,
+      "installs_all_time": 110,
+      "installs_current": 103
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 10451,
+      "stars": 27,
+      "installs_all_time": 111,
+      "installs_current": 105
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 10761,
+      "stars": 28,
+      "installs_all_time": 112,
+      "installs_current": 105
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 11245,
+      "stars": 31,
+      "installs_all_time": 116,
+      "installs_current": 109
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 11245,
+      "stars": 31,
+      "installs_all_time": 116,
+      "installs_current": 109
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 11360,
+      "stars": 31,
+      "installs_all_time": 117,
+      "installs_current": 110
+    },
+    {
+      "run_date": "2026-03-29T03:00:00.679954",
+      "downloads": 11634,
+      "stars": 31,
+      "installs_all_time": 119,
+      "installs_current": 111
+    },
+    {
+      "run_date": "2026-03-30T03:00:00.682509",
+      "downloads": 11869,
+      "stars": 31,
+      "installs_all_time": 120,
+      "installs_current": 112
+    },
+    {
+      "run_date": "2026-03-31T03:00:00.702238",
+      "downloads": 12183,
+      "stars": 32,
+      "installs_all_time": 124,
+      "installs_current": 116
+    },
+    {
+      "run_date": "2026-04-01T03:00:00.631568",
+      "downloads": 12534,
+      "stars": 32,
+      "installs_all_time": 127,
+      "installs_current": 119
+    },
+    {
+      "run_date": "2026-04-07T08:32:21.256392",
+      "downloads": 14334,
+      "stars": 34,
+      "installs_all_time": 141,
+      "installs_current": 134
+    },
+    {
+      "run_date": "2026-04-08T02:59:53.612026",
+      "downloads": 14523,
+      "stars": 35,
+      "installs_all_time": 144,
+      "installs_current": 137
+    },
+    {
+      "run_date": "2026-04-09T03:00:00.814082",
+      "downloads": 14769,
+      "stars": 35,
+      "installs_all_time": 151,
+      "installs_current": 144
+    },
+    {
+      "run_date": "2026-04-10T03:00:00.610465",
+      "downloads": 14985,
+      "stars": 36,
+      "installs_all_time": 154,
+      "installs_current": 147
+    },
+    {
+      "run_date": "2026-04-11T03:00:00.635800",
+      "downloads": 15210,
+      "stars": 37,
+      "installs_all_time": 155,
+      "installs_current": 148
+    },
+    {
+      "run_date": "2026-04-12T03:00:00.326052",
+      "downloads": 15415,
+      "stars": 39,
+      "installs_all_time": 157,
+      "installs_current": 150
+    },
+    {
+      "run_date": "2026-04-13T03:00:00.295537",
+      "downloads": 15603,
+      "stars": 39,
+      "installs_all_time": 157,
+      "installs_current": 150
+    },
+    {
+      "run_date": "2026-04-18T02:59:55.390364",
+      "downloads": 16442,
+      "stars": 43,
+      "installs_all_time": 161,
+      "installs_current": 154
+    },
+    {
+      "run_date": "2026-04-19T03:00:00.676118",
+      "downloads": 16571,
+      "stars": 43,
+      "installs_all_time": 162,
+      "installs_current": 155
+    },
+    {
+      "run_date": "2026-04-20T03:00:00.599318",
+      "downloads": 16682,
+      "stars": 43,
+      "installs_all_time": 162,
+      "installs_current": 155
+    },
+    {
+      "run_date": "2026-04-21T03:00:00.575737",
+      "downloads": 16796,
+      "stars": 43,
+      "installs_all_time": 163,
+      "installs_current": 156
+    },
+    {
+      "run_date": "2026-04-22T03:00:00.762090",
+      "downloads": 16935,
+      "stars": 43,
+      "installs_all_time": 163,
+      "installs_current": 156
+    },
+    {
+      "run_date": "2026-04-23T03:00:00.767159",
+      "downloads": 17077,
+      "stars": 43,
+      "installs_all_time": 163,
+      "installs_current": 156
+    },
+    {
+      "run_date": "2026-04-24T03:00:00.604086",
+      "downloads": 17211,
+      "stars": 43,
+      "installs_all_time": 164,
+      "installs_current": 157
+    },
+    {
+      "run_date": "2026-04-28T02:59:56.742214",
+      "downloads": 17724,
+      "stars": 44,
+      "installs_all_time": 168,
+      "installs_current": 161
+    },
+    {
+      "run_date": "2026-04-29T03:01:44.166793",
+      "downloads": 17836,
+      "stars": 44,
+      "installs_all_time": 169,
+      "installs_current": 162
+    },
+    {
+      "run_date": "2026-04-30T03:00:00.711115",
+      "downloads": 17959,
+      "stars": 44,
+      "installs_all_time": 170,
+      "installs_current": 162
+    },
+    {
+      "run_date": "2026-05-02T02:59:59.833385",
+      "downloads": 18218,
+      "stars": 45,
+      "installs_all_time": 171,
+      "installs_current": 163
+    },
+    {
+      "run_date": "2026-05-03T03:42:13.922530",
+      "downloads": 18312,
+      "stars": 45,
+      "installs_all_time": 171,
+      "installs_current": 163
+    },
+    {
+      "run_date": "2026-05-05T00:41:38.231465",
+      "downloads": 18561,
+      "stars": 45,
+      "installs_all_time": 174,
+      "installs_current": 165
+    },
+    {
+      "run_date": "2026-05-05T03:00:00.321955",
+      "downloads": 18580,
+      "stars": 45,
+      "installs_all_time": 174,
+      "installs_current": 165
+    },
+    {
+      "run_date": "2026-05-06T03:00:00.570710",
+      "downloads": 18717,
+      "stars": 45,
+      "installs_all_time": 175,
+      "installs_current": 166
+    },
+    {
+      "run_date": "2026-05-07T03:00:00.572063",
+      "downloads": 18901,
+      "stars": 45,
+      "installs_all_time": 175,
+      "installs_current": 166
+    },
+    {
+      "run_date": "2026-05-09T03:44:10.833903",
+      "downloads": 19200,
+      "stars": 46,
+      "installs_all_time": 175,
+      "installs_current": 166
+    },
+    {
+      "run_date": "2026-05-10T03:00:00.531823",
+      "downloads": 19344,
+      "stars": 46,
+      "installs_all_time": 175,
+      "installs_current": 166
+    },
+    {
+      "run_date": "2026-05-11T03:00:00.316612",
+      "downloads": 19474,
+      "stars": 46,
+      "installs_all_time": 175,
+      "installs_current": 166
+    }
+  ],
+  "version_releases": [
+    {
+      "version_number": "2.26.1",
+      "run_date": "2026-03-21T03:00:00.776166",
+      "changelog": "planning-with-files 2.22.1\n\n- Added Windows PowerShell scripts: scripts/check-complete.ps1 and scripts/init-session.ps1 for Windows compatibility.\n- Improved cross-platform support for session initialization and completion checks.\n- No changes to planning workflow or core features."
+    },
+    {
+      "version_number": "2.34.0",
+      "run_date": "2026-04-18T02:59:55.390364",
+      "changelog": "planning-with-files v2.34.0\n\nCodex users \u2014 this one's for you.\n\nThe lifecycle hooks that @Leon-Algo built in v2.31.0 were accidentally wiped during the v2.32.0 release cycle. All five are back: SessionStart runs session catchup and injects your active plan; UserPromptSubmit re-injects on every message so the agent never forgets where it left off; PreToolUse re-reads task_plan.md before touching your codebase; PostToolUse reminds the agent to log what it just did; Stop blocks when phases are still open and re-prompts to keep going. Codex now has full hook parity with Claude Code, Cursor, and Copilot.\n\nsession-catchup.py is also updated with the complete Codex rewrite \u2014 structured patch_apply_end event detection, session size filtering, and current-thread preference via CODEX_THREAD_ID.\n\nEverything else in this release is cleanup. Two shell scripts that should have been executable weren't \u2014 fixed, with a regression test so it never happens again. Four contributors who shipped real work never got credited \u2014 they're in CONTRIBUTORS.md now. A duplicate metadata key was lurking in several SKILL.md variants \u2014 gone. The Tessl CI workflow is in, which means every future SKILL.md PR gets automatically scored and reviewed.\n\n154 of you are using this. Thank you for staying with it."
+    },
+    {
+      "version_number": "2.35.0",
+      "run_date": "2026-04-22T03:00:00.762090",
+      "changelog": "**Changelog for planning-with-files v2.35.0**\n\n- Improved platform compatibility for the Stop hook by updating script location logic and fallback.\n- Minor fixes to allowed-tools formatting.\n- No code changes; all planning methodology and core behavior remain unchanged."
+    },
+    {
+      "version_number": "2.36.1",
+      "run_date": "2026-05-02T02:59:59.833385",
+      "changelog": "**No significant user-facing changes.**  \n- Updated the `Stop` hook to use a less restrictive PowerShell execution policy (`RemoteSigned` instead of `Bypass`).\n- Bumped version to 2.36.1.\n- No behavior or documentation changes affecting general use."
+    }
+  ]
+}

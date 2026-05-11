@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slack — ClawHub Trends</title>
+    <link rel="icon" type="image/svg+xml" href="../static/favicon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="../static/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../static/favicon-16x16.png">
+    <link rel="apple-touch-icon" href="../static/apple-touch-icon.png">
+    
+
+<meta name="description" content="Use when you need to control Slack from Clawdbot via the slack tool, including reacting to messages or pinning/unpinning items in Slack channels or DMs.">
+<link rel="canonical" href="https://clawhubtrends.com/skills/slack.html">
+<meta property="og:title" content="Slack — ClawHub Trends">
+<meta property="og:description" content="Use when you need to control Slack from Clawdbot via the slack tool, including reacting to messages or pinning/unpinning items in Slack channels or DMs.">
+<meta property="og:url" content="https://clawhubtrends.com/skills/slack.html">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://avatars.githubusercontent.com/u/58493?v=4">
+<meta name="twitter:card" content="summary">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../static/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6VXKK90H9Q"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-6VXKK90H9Q');
+    </script>
+    
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <a href="../index.html" class="logo"><img src="../static/favicon.svg" alt="" width="28" height="28" style="vertical-align:-5px;margin-right:6px">ClawHub Trends</a>
+            <a href="../index.html" ><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;margin-right:4px"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>Dashboard</a>
+            <a href="../rising.html" ><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;margin-right:4px"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>Rising</a>
+            <a href="../leaderboard.html" ><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;margin-right:4px"><path d="M6 9H4.5a2.5 2.5 0 010-5C7 4 6 9 6 9zm12 0h1.5a2.5 2.5 0 000-5C17 4 18 9 18 9zm-1 1v3a6 6 0 01-6 6 6 6 0 01-6-6v-3"/><line x1="12" y1="19" x2="12" y2="22"/><line x1="8" y1="22" x2="16" y2="22"/></svg>Leaderboard</a>
+            <a href="../owners.html" ><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;margin-right:4px"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>Owners</a>
+        </div>
+    </nav>
+
+    <main class="container">
+        
+<div class="detail-header">
+    <h1>
+        Slack
+        <a href="https://clawhub.ai/steipete/slack" target="_blank" rel="noopener" title="View on ClawHub"><img src="https://clawhub.ai/clawd-logo.png" alt="ClawHub" width="20" height="20" style="vertical-align:-3px;border-radius:3px;opacity:0.6;margin-left:6px"></a>
+        <span class="badge badge-highlighted" title="Highlighted">&#9733;</span>
+        
+    </h1>
+    <p class="meta">by <img src="https://avatars.githubusercontent.com/u/58493?v=4" alt="" width="18" height="18" style="border-radius:50%;vertical-align:-3px;margin-right:4px;opacity:0.85"><a href="../owners/steipete.html">steipete</a></p>
+    <p class="summary">Use when you need to control Slack from Clawdbot via the slack tool, including reacting to messages or pinning/unpinning items in Slack channels or DMs.</p>
+    
+    <div class="tag-list">
+        <span class="tag">latest</span>
+    </div>
+    
+</div>
+
+
+
+<div class="stat-grid">
+    <div class="stat-item">
+        <div class="label">Downloads</div>
+        <div class="value">42,838</div>
+        
+
+<div class="change up">
+    +179 (+0.4%)
+</div>
+
+
+    </div>
+    <div class="stat-item">
+        <div class="label">Stars</div>
+        <div class="value">140</div>
+        
+
+<div class="change up">
+    +1 (+0.7%)
+</div>
+
+
+    </div>
+    <div class="stat-item">
+        <div class="label">DL/day</div>
+        <div class="value">340.0</div>
+    </div>
+    <div class="stat-item">
+        <div class="label">Installs</div>
+        <div class="value">1,400</div>
+        
+
+
+    </div>
+    <div class="stat-item">
+        <div class="label">Versions</div>
+        <div class="value">1</div>
+    </div>
+    
+    <div class="stat-item">
+        <div class="label">Age</div>
+        <div class="value">126d</div>
+    </div>
+    
+    
+    <div class="stat-item">
+        <div class="label">Acceleration</div>
+        <div class="value trend-down">-4.1%</div>
+    </div>
+    
+</div>
+
+
+<div class="chart-container">
+    <h3>Growth Trajectory</h3>
+    <canvas id="growthChart" height="140"></canvas>
+</div>
+
+
+
+
+    </main>
+
+    <footer>
+        <div class="container">
+            Last updated:  &middot;
+            <a href="../api/index.json">JSON API</a>
+        </div>
+    </footer>
+
+    
+
+<script>
+const history = [{"downloads": 28986, "installs_all_time": 1047, "installs_current": 1024, "run_date": "2026-03-18T09:34:08.772710", "stars": 95}, {"downloads": 29295, "installs_all_time": 1062, "installs_current": 1039, "run_date": "2026-03-19T03:00:00.875517", "stars": 95}, {"downloads": 29869, "installs_all_time": 1087, "installs_current": 1064, "run_date": "2026-03-20T03:00:00.833403", "stars": 98}, {"downloads": 30320, "installs_all_time": 1107, "installs_current": 1084, "run_date": "2026-03-21T03:00:00.776166", "stars": 99}, {"downloads": 30762, "installs_all_time": 1122, "installs_current": 1098, "run_date": "2026-03-22T03:00:00.645113", "stars": 100}, {"downloads": 31172, "installs_all_time": 1144, "installs_current": 1119, "run_date": "2026-03-23T03:00:00.753584", "stars": 102}, {"downloads": 31896, "installs_all_time": 1171, "installs_current": 1147, "run_date": "2026-03-24T14:13:35.104417", "stars": 104}, {"downloads": 31968, "installs_all_time": 1177, "installs_current": 1152, "run_date": "2026-03-24T16:57:13.814672", "stars": 105}, {"downloads": 32099, "installs_all_time": 1181, "installs_current": 1156, "run_date": "2026-03-25T03:00:00.456013", "stars": 105}, {"downloads": 32606, "installs_all_time": 1194, "installs_current": 1169, "run_date": "2026-03-26T03:00:00.708668", "stars": 108}, {"downloads": 33252, "installs_all_time": 1209, "installs_current": 1183, "run_date": "2026-03-27T14:10:05.719067", "stars": 109}, {"downloads": 33252, "installs_all_time": 1209, "installs_current": 1183, "run_date": "2026-03-27T17:40:37.408934", "stars": 109}, {"downloads": 33430, "installs_all_time": 1214, "installs_current": 1187, "run_date": "2026-03-28T03:00:00.365056", "stars": 109}, {"downloads": 33751, "installs_all_time": 1224, "installs_current": 1195, "run_date": "2026-03-29T03:00:00.679954", "stars": 109}, {"downloads": 34060, "installs_all_time": 1239, "installs_current": 1210, "run_date": "2026-03-30T03:00:00.682509", "stars": 109}, {"downloads": 34417, "installs_all_time": 1248, "installs_current": 1219, "run_date": "2026-03-31T03:00:00.702238", "stars": 110}, {"downloads": 34772, "installs_all_time": 1263, "installs_current": 1232, "run_date": "2026-04-01T03:00:00.631568", "stars": 112}, {"downloads": 36783, "installs_all_time": 1307, "installs_current": 1274, "run_date": "2026-04-07T08:32:21.256392", "stars": 113}, {"downloads": 36975, "installs_all_time": 1310, "installs_current": 1277, "run_date": "2026-04-08T02:59:53.612026", "stars": 113}, {"downloads": 37254, "installs_all_time": 1318, "installs_current": 1285, "run_date": "2026-04-09T03:00:00.814082", "stars": 113}, {"downloads": 37540, "installs_all_time": 1325, "installs_current": 1292, "run_date": "2026-04-10T03:00:00.610465", "stars": 113}, {"downloads": 37782, "installs_all_time": 1326, "installs_current": 1293, "run_date": "2026-04-11T03:00:00.635800", "stars": 114}, {"downloads": 37986, "installs_all_time": 1332, "installs_current": 1299, "run_date": "2026-04-12T03:00:00.326052", "stars": 114}, {"downloads": 38182, "installs_all_time": 1336, "installs_current": 1303, "run_date": "2026-04-13T03:00:00.295537", "stars": 115}, {"downloads": 39176, "installs_all_time": 1349, "installs_current": 1314, "run_date": "2026-04-18T02:59:55.390364", "stars": 117}, {"downloads": 39344, "installs_all_time": 1350, "installs_current": 1315, "run_date": "2026-04-19T03:00:00.676118", "stars": 117}, {"downloads": 39515, "installs_all_time": 1354, "installs_current": 1319, "run_date": "2026-04-20T03:00:00.599318", "stars": 118}, {"downloads": 39694, "installs_all_time": 1357, "installs_current": 1322, "run_date": "2026-04-21T03:00:00.575737", "stars": 118}, {"downloads": 39857, "installs_all_time": 1360, "installs_current": 1325, "run_date": "2026-04-22T03:00:00.762090", "stars": 119}, {"downloads": 40032, "installs_all_time": 1362, "installs_current": 1327, "run_date": "2026-04-23T03:00:00.767159", "stars": 120}, {"downloads": 40193, "installs_all_time": 1366, "installs_current": 1331, "run_date": "2026-04-24T03:00:00.604086", "stars": 122}, {"downloads": 40779, "installs_all_time": 1375, "installs_current": 1340, "run_date": "2026-04-28T02:59:56.742214", "stars": 126}, {"downloads": 40921, "installs_all_time": 1378, "installs_current": 1343, "run_date": "2026-04-29T03:01:44.166793", "stars": 126}, {"downloads": 41055, "installs_all_time": 1382, "installs_current": 1346, "run_date": "2026-04-30T03:00:00.711115", "stars": 126}, {"downloads": 41276, "installs_all_time": 1387, "installs_current": 1351, "run_date": "2026-05-02T02:59:59.833385", "stars": 128}, {"downloads": 41380, "installs_all_time": 1389, "installs_current": 1352, "run_date": "2026-05-03T03:42:13.922530", "stars": 130}, {"downloads": 41713, "installs_all_time": 1391, "installs_current": 1354, "run_date": "2026-05-05T00:41:38.231465", "stars": 133}, {"downloads": 41739, "installs_all_time": 1391, "installs_current": 1354, "run_date": "2026-05-05T03:00:00.321955", "stars": 135}, {"downloads": 41893, "installs_all_time": 1391, "installs_current": 1353, "run_date": "2026-05-06T03:00:00.570710", "stars": 135}, {"downloads": 42108, "installs_all_time": 1394, "installs_current": 1356, "run_date": "2026-05-07T03:00:00.572063", "stars": 135}, {"downloads": 42484, "installs_all_time": 1399, "installs_current": 1361, "run_date": "2026-05-09T03:44:10.833903", "stars": 138}, {"downloads": 42659, "installs_all_time": 1400, "installs_current": 1362, "run_date": "2026-05-10T03:00:00.531823", "stars": 139}, {"downloads": 42838, "installs_all_time": 1400, "installs_current": 1362, "run_date": "2026-05-11T03:00:00.316612", "stars": 140}];
+const labels = history.map(h => h.run_date ? h.run_date.substring(0, 10) : '');
+const dlData = history.map(h => h.downloads);
+const starData = history.map(h => h.stars);
+
+const ctx = document.getElementById('growthChart').getContext('2d');
+
+const dlGrad = ctx.createLinearGradient(0, 0, 0, 350);
+dlGrad.addColorStop(0, 'rgba(137, 180, 250, 0.25)');
+dlGrad.addColorStop(1, 'rgba(137, 180, 250, 0.02)');
+
+const starGrad = ctx.createLinearGradient(0, 0, 0, 350);
+starGrad.addColorStop(0, 'rgba(249, 226, 175, 0.20)');
+starGrad.addColorStop(1, 'rgba(249, 226, 175, 0.02)');
+
+new Chart(ctx, {
+    type: 'line',
+    data: {
+        labels,
+        datasets: [
+            {
+                label: 'Downloads',
+                data: dlData,
+                borderColor: '#89b4fa',
+                backgroundColor: dlGrad,
+                borderWidth: 2.5,
+                fill: true,
+                tension: 0.4,
+                pointRadius: 4,
+                pointBackgroundColor: '#89b4fa',
+                pointBorderColor: '#1e1e2e',
+                pointBorderWidth: 2,
+                pointHoverRadius: 6,
+                yAxisID: 'y'
+            },
+            {
+                label: 'Stars',
+                data: starData,
+                borderColor: '#f9e2af',
+                backgroundColor: starGrad,
+                borderWidth: 2.5,
+                fill: true,
+                tension: 0.4,
+                pointRadius: 4,
+                pointBackgroundColor: '#f9e2af',
+                pointBorderColor: '#1e1e2e',
+                pointBorderWidth: 2,
+                pointHoverRadius: 6,
+                yAxisID: 'y1'
+            }
+        ]
+    },
+    options: {
+        responsive: true,
+        interaction: { mode: 'index', intersect: false },
+        plugins: {
+            legend: {
+                labels: { color: '#a6adc8', usePointStyle: true, pointStyle: 'circle', padding: 16, font: { size: 13 } }
+            },
+            tooltip: {
+                backgroundColor: '#313244',
+                titleColor: '#cdd6f4',
+                bodyColor: '#a6adc8',
+                borderColor: '#45475a',
+                borderWidth: 1,
+                cornerRadius: 8,
+                padding: 10,
+                displayColors: true,
+                usePointStyle: true
+            }
+        },
+        scales: {
+            x: {
+                ticks: { color: '#585b70', maxRotation: 45, font: { size: 13 } },
+                grid: { color: 'rgba(49, 50, 68, 0.5)', lineWidth: 0.5 }
+            },
+            y: {
+                position: 'left',
+                ticks: { color: '#89b4fa', font: { size: 13 } },
+                grid: { color: 'rgba(49, 50, 68, 0.5)', lineWidth: 0.5 },
+                title: { display: true, text: 'Downloads', color: '#89b4fa', font: { size: 14 } }
+            },
+            y1: {
+                position: 'right',
+                ticks: { color: '#f9e2af', font: { size: 13 } },
+                grid: { drawOnChartArea: false },
+                title: { display: true, text: 'Stars', color: '#f9e2af', font: { size: 14 } }
+            }
+        }
+    }
+});
+</script>
+
+
+    <script>
+    document.querySelectorAll('table.sortable').forEach(table => {
+        const headers = table.querySelectorAll('th');
+        headers.forEach((th, colIdx) => {
+            th.style.cursor = 'pointer';
+            th.addEventListener('click', () => {
+                const tbody = table.querySelector('tbody');
+                const rows = Array.from(tbody.querySelectorAll('tr'));
+                const asc = th.dataset.sort !== 'asc';
+                headers.forEach(h => { h.dataset.sort = ''; h.classList.remove('sort-asc','sort-desc'); });
+                th.dataset.sort = asc ? 'asc' : 'desc';
+                th.classList.add(asc ? 'sort-asc' : 'sort-desc');
+                rows.sort((a, b) => {
+                    const at = a.cells[colIdx].textContent.trim();
+                    const bt = b.cells[colIdx].textContent.trim();
+                    const an = parseFloat(at.replace(/[,%+]/g, ''));
+                    const bn = parseFloat(bt.replace(/[,%+]/g, ''));
+                    if (!isNaN(an) && !isNaN(bn)) return asc ? an - bn : bn - an;
+                    return asc ? at.localeCompare(bt) : bt.localeCompare(at);
+                });
+                rows.forEach(r => tbody.appendChild(r));
+            });
+        });
+    });
+    </script>
+</body>
+</html>

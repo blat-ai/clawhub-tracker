@@ -1,0 +1,339 @@
+{
+  "skill_id": "kd73adgpgb1dbn4evkm4v16nvh80q1ge",
+  "slug": "ai-ppt-generator",
+  "display_name": "Baidu Wenku AIPPT",
+  "summary": "Generate PPT with Baidu Wenku AI. Smart template selection based on content.",
+  "owner_handle": "ide-rea",
+  "owner_image": "https://avatars.githubusercontent.com/u/30512600?v=4",
+  "created_at": "2026-02-07T17:07:38.130000",
+  "days_old": 92,
+  "stat_downloads": 27687,
+  "stat_stars": 55,
+  "tags": {
+    "latest": "k97dr78j7yhgn5z31we9r54mkd841wz0"
+  },
+  "badges": null,
+  "stat_installs": 248,
+  "stat_comments": 3,
+  "current_version": "1.1.5",
+  "is_highlighted": false,
+  "is_suspicious": false,
+  "velocity": 300.9,
+  "acceleration_pct": -11.2,
+  "dl_delta": 110,
+  "dl_wow": 0.4,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 0,
+  "installs_wow": 0.0,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 18106,
+      "stars": 32,
+      "installs_all_time": 139,
+      "installs_current": 129
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 18426,
+      "stars": 33,
+      "installs_all_time": 142,
+      "installs_current": 131
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 19106,
+      "stars": 39,
+      "installs_all_time": 148,
+      "installs_current": 135
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 19596,
+      "stars": 39,
+      "installs_all_time": 150,
+      "installs_current": 137
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 20001,
+      "stars": 39,
+      "installs_all_time": 153,
+      "installs_current": 139
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 20401,
+      "stars": 40,
+      "installs_all_time": 160,
+      "installs_current": 145
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 21239,
+      "stars": 42,
+      "installs_all_time": 167,
+      "installs_current": 151
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 21283,
+      "stars": 42,
+      "installs_all_time": 168,
+      "installs_current": 152
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 21337,
+      "stars": 42,
+      "installs_all_time": 169,
+      "installs_current": 153
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 21725,
+      "stars": 46,
+      "installs_all_time": 178,
+      "installs_current": 161
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 22231,
+      "stars": 48,
+      "installs_all_time": 186,
+      "installs_current": 170
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 22231,
+      "stars": 48,
+      "installs_all_time": 186,
+      "installs_current": 170
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 22314,
+      "stars": 48,
+      "installs_all_time": 186,
+      "installs_current": 170
+    },
+    {
+      "run_date": "2026-03-29T03:00:00.679954",
+      "downloads": 22552,
+      "stars": 48,
+      "installs_all_time": 187,
+      "installs_current": 169
+    },
+    {
+      "run_date": "2026-03-30T03:00:00.682509",
+      "downloads": 22781,
+      "stars": 50,
+      "installs_all_time": 188,
+      "installs_current": 170
+    },
+    {
+      "run_date": "2026-03-31T03:00:00.702238",
+      "downloads": 23008,
+      "stars": 50,
+      "installs_all_time": 191,
+      "installs_current": 173
+    },
+    {
+      "run_date": "2026-04-01T03:00:00.631568",
+      "downloads": 23248,
+      "stars": 50,
+      "installs_all_time": 194,
+      "installs_current": 176
+    },
+    {
+      "run_date": "2026-04-07T08:32:21.256392",
+      "downloads": 24099,
+      "stars": 52,
+      "installs_all_time": 211,
+      "installs_current": 191
+    },
+    {
+      "run_date": "2026-04-08T02:59:53.612026",
+      "downloads": 24150,
+      "stars": 52,
+      "installs_all_time": 212,
+      "installs_current": 192
+    },
+    {
+      "run_date": "2026-04-09T03:00:00.814082",
+      "downloads": 24273,
+      "stars": 52,
+      "installs_all_time": 216,
+      "installs_current": 195
+    },
+    {
+      "run_date": "2026-04-10T03:00:00.610465",
+      "downloads": 24401,
+      "stars": 52,
+      "installs_all_time": 222,
+      "installs_current": 200
+    },
+    {
+      "run_date": "2026-04-11T03:00:00.635800",
+      "downloads": 24542,
+      "stars": 52,
+      "installs_all_time": 224,
+      "installs_current": 202
+    },
+    {
+      "run_date": "2026-04-12T03:00:00.326052",
+      "downloads": 24645,
+      "stars": 53,
+      "installs_all_time": 227,
+      "installs_current": 204
+    },
+    {
+      "run_date": "2026-04-13T03:00:00.295537",
+      "downloads": 24747,
+      "stars": 53,
+      "installs_all_time": 232,
+      "installs_current": 208
+    },
+    {
+      "run_date": "2026-04-18T02:59:55.390364",
+      "downloads": 25277,
+      "stars": 53,
+      "installs_all_time": 240,
+      "installs_current": 216
+    },
+    {
+      "run_date": "2026-04-19T03:00:00.676118",
+      "downloads": 25373,
+      "stars": 54,
+      "installs_all_time": 241,
+      "installs_current": 216
+    },
+    {
+      "run_date": "2026-04-20T03:00:00.599318",
+      "downloads": 25450,
+      "stars": 54,
+      "installs_all_time": 241,
+      "installs_current": 216
+    },
+    {
+      "run_date": "2026-04-21T03:00:00.575737",
+      "downloads": 25560,
+      "stars": 54,
+      "installs_all_time": 241,
+      "installs_current": 216
+    },
+    {
+      "run_date": "2026-04-22T03:00:00.762090",
+      "downloads": 25649,
+      "stars": 54,
+      "installs_all_time": 241,
+      "installs_current": 216
+    },
+    {
+      "run_date": "2026-04-23T03:00:00.767159",
+      "downloads": 25747,
+      "stars": 54,
+      "installs_all_time": 240,
+      "installs_current": 216
+    },
+    {
+      "run_date": "2026-04-24T03:00:00.604086",
+      "downloads": 25855,
+      "stars": 54,
+      "installs_all_time": 240,
+      "installs_current": 216
+    },
+    {
+      "run_date": "2026-04-28T02:59:56.742214",
+      "downloads": 26251,
+      "stars": 54,
+      "installs_all_time": 242,
+      "installs_current": 218
+    },
+    {
+      "run_date": "2026-04-29T03:01:44.166793",
+      "downloads": 26351,
+      "stars": 54,
+      "installs_all_time": 243,
+      "installs_current": 219
+    },
+    {
+      "run_date": "2026-04-30T03:00:00.711115",
+      "downloads": 26450,
+      "stars": 54,
+      "installs_all_time": 243,
+      "installs_current": 219
+    },
+    {
+      "run_date": "2026-05-02T02:59:59.833385",
+      "downloads": 26607,
+      "stars": 54,
+      "installs_all_time": 245,
+      "installs_current": 221
+    },
+    {
+      "run_date": "2026-05-03T03:42:13.922530",
+      "downloads": 26678,
+      "stars": 54,
+      "installs_all_time": 245,
+      "installs_current": 221
+    },
+    {
+      "run_date": "2026-05-05T00:41:38.231465",
+      "downloads": 26887,
+      "stars": 54,
+      "installs_all_time": 246,
+      "installs_current": 222
+    },
+    {
+      "run_date": "2026-05-05T03:00:00.321955",
+      "downloads": 26908,
+      "stars": 54,
+      "installs_all_time": 246,
+      "installs_current": 222
+    },
+    {
+      "run_date": "2026-05-06T03:00:00.570710",
+      "downloads": 27032,
+      "stars": 54,
+      "installs_all_time": 246,
+      "installs_current": 222
+    },
+    {
+      "run_date": "2026-05-07T03:00:00.572063",
+      "downloads": 27175,
+      "stars": 54,
+      "installs_all_time": 247,
+      "installs_current": 223
+    },
+    {
+      "run_date": "2026-05-09T03:44:10.833903",
+      "downloads": 27450,
+      "stars": 54,
+      "installs_all_time": 248,
+      "installs_current": 224
+    },
+    {
+      "run_date": "2026-05-10T03:00:00.531823",
+      "downloads": 27577,
+      "stars": 55,
+      "installs_all_time": 248,
+      "installs_current": 224
+    },
+    {
+      "run_date": "2026-05-11T03:00:00.316612",
+      "downloads": 27687,
+      "stars": 55,
+      "installs_all_time": 248,
+      "installs_current": 224
+    }
+  ],
+  "version_releases": [
+    {
+      "version_number": "1.1.5",
+      "run_date": "2026-04-07T08:32:21.256392",
+      "changelog": "- Skill name updated from \"ai-ppt-generator\" to \"Baidu Wenku AIPPT\"\n- Description clarified to reference \"Baidu Wenku AI\" instead of just \"Baidu AI\"\n- No changes to scripts, features, or core functionality\n- No file changes detected in this version"
+    }
+  ]
+}

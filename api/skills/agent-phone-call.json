@@ -1,0 +1,220 @@
+{
+  "skill_id": "kd78ygg9e7naza71af30txfzs1842jf1",
+  "slug": "agent-phone-call",
+  "display_name": "Agent Phone Call",
+  "summary": "Agent Phone Call gives every AI agent a phone number and the ability to get things done over the phone \u2014 finding contacts, making calls, and completing tasks...",
+  "owner_handle": "mrsz",
+  "owner_image": "https://avatars.githubusercontent.com/u/13742821?v=4",
+  "created_at": "2026-04-02T03:05:49.884000",
+  "days_old": 39,
+  "stat_downloads": 72476,
+  "stat_stars": 8,
+  "tags": {
+    "latest": "k973yjwrpjrqbbz77ec4masjjn84ya0w"
+  },
+  "badges": null,
+  "stat_installs": 0,
+  "stat_comments": 0,
+  "current_version": "1.0.5",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 1858.4,
+  "acceleration_pct": -22.4,
+  "dl_delta": 45,
+  "dl_wow": 0.1,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 0,
+  "installs_wow": null,
+  "history": [
+    {
+      "run_date": "2026-04-07T08:32:21.256392",
+      "downloads": 2532,
+      "stars": 1,
+      "installs_all_time": 0,
+      "installs_current": 0
+    },
+    {
+      "run_date": "2026-04-08T02:59:53.612026",
+      "downloads": 2535,
+      "stars": 1,
+      "installs_all_time": 0,
+      "installs_current": 0
+    },
+    {
+      "run_date": "2026-04-09T03:00:00.814082",
+      "downloads": 2543,
+      "stars": 2,
+      "installs_all_time": 0,
+      "installs_current": 0
+    },
+    {
+      "run_date": "2026-04-10T03:00:00.610465",
+      "downloads": 20670,
+      "stars": 2,
+      "installs_all_time": 0,
+      "installs_current": 0
+    },
+    {
+      "run_date": "2026-04-11T03:00:00.635800",
+      "downloads": 23020,
+      "stars": 2,
+      "installs_all_time": 0,
+      "installs_current": 0
+    },
+    {
+      "run_date": "2026-04-12T03:00:00.326052",
+      "downloads": 23031,
+      "stars": 2,
+      "installs_all_time": 0,
+      "installs_current": 0
+    },
+    {
+      "run_date": "2026-04-13T03:00:00.295537",
+      "downloads": 23047,
+      "stars": 2,
+      "installs_all_time": 0,
+      "installs_current": 0
+    },
+    {
+      "run_date": "2026-04-18T02:59:55.390364",
+      "downloads": 62820,
+      "stars": 2,
+      "installs_all_time": 0,
+      "installs_current": 0
+    },
+    {
+      "run_date": "2026-04-19T03:00:00.676118",
+      "downloads": 71729,
+      "stars": 2,
+      "installs_all_time": 0,
+      "installs_current": 0
+    },
+    {
+      "run_date": "2026-04-20T03:00:00.599318",
+      "downloads": 71750,
+      "stars": 3,
+      "installs_all_time": 0,
+      "installs_current": 0
+    },
+    {
+      "run_date": "2026-04-21T03:00:00.575737",
+      "downloads": 71782,
+      "stars": 3,
+      "installs_all_time": 0,
+      "installs_current": 0
+    },
+    {
+      "run_date": "2026-04-22T03:00:00.762090",
+      "downloads": 71810,
+      "stars": 3,
+      "installs_all_time": 0,
+      "installs_current": 0
+    },
+    {
+      "run_date": "2026-04-23T03:00:00.767159",
+      "downloads": 71843,
+      "stars": 3,
+      "installs_all_time": 0,
+      "installs_current": 0
+    },
+    {
+      "run_date": "2026-04-24T03:00:00.604086",
+      "downloads": 71867,
+      "stars": 6,
+      "installs_all_time": 0,
+      "installs_current": 0
+    },
+    {
+      "run_date": "2026-04-28T02:59:56.742214",
+      "downloads": 71959,
+      "stars": 6,
+      "installs_all_time": 0,
+      "installs_current": 0
+    },
+    {
+      "run_date": "2026-04-29T03:01:44.166793",
+      "downloads": 71990,
+      "stars": 6,
+      "installs_all_time": 0,
+      "installs_current": 0
+    },
+    {
+      "run_date": "2026-04-30T03:00:00.711115",
+      "downloads": 72012,
+      "stars": 6,
+      "installs_all_time": 0,
+      "installs_current": 0
+    },
+    {
+      "run_date": "2026-05-02T02:59:59.833385",
+      "downloads": 72058,
+      "stars": 6,
+      "installs_all_time": 0,
+      "installs_current": 0
+    },
+    {
+      "run_date": "2026-05-03T03:42:13.922530",
+      "downloads": 72078,
+      "stars": 7,
+      "installs_all_time": 0,
+      "installs_current": 0
+    },
+    {
+      "run_date": "2026-05-05T00:41:38.231465",
+      "downloads": 72170,
+      "stars": 7,
+      "installs_all_time": 0,
+      "installs_current": 0
+    },
+    {
+      "run_date": "2026-05-05T03:00:00.321955",
+      "downloads": 72173,
+      "stars": 7,
+      "installs_all_time": 0,
+      "installs_current": 0
+    },
+    {
+      "run_date": "2026-05-06T03:00:00.570710",
+      "downloads": 72221,
+      "stars": 7,
+      "installs_all_time": 0,
+      "installs_current": 0
+    },
+    {
+      "run_date": "2026-05-07T03:00:00.572063",
+      "downloads": 72289,
+      "stars": 7,
+      "installs_all_time": 0,
+      "installs_current": 0
+    },
+    {
+      "run_date": "2026-05-09T03:44:10.833903",
+      "downloads": 72386,
+      "stars": 8,
+      "installs_all_time": 0,
+      "installs_current": 0
+    },
+    {
+      "run_date": "2026-05-10T03:00:00.531823",
+      "downloads": 72431,
+      "stars": 8,
+      "installs_all_time": 0,
+      "installs_current": 0
+    },
+    {
+      "run_date": "2026-05-11T03:00:00.316612",
+      "downloads": 72476,
+      "stars": 8,
+      "installs_all_time": 0,
+      "installs_current": 0
+    }
+  ],
+  "version_releases": [
+    {
+      "version_number": "1.0.5",
+      "run_date": "2026-04-18T02:59:55.390364",
+      "changelog": "No changes detected in this version.\n\n- No file or documentation changes were made.\n- Version remains at 1.0.0."
+    }
+  ]
+}

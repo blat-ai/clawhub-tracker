@@ -1,0 +1,316 @@
+{
+  "handle": "biostartechnology",
+  "total_downloads": 118319,
+  "total_stars": 637,
+  "total_installs": 1505,
+  "skill_count": 2,
+  "avg_dl_per_day": 552.9,
+  "highlighted_count": 0,
+  "suspicious_count": 1,
+  "clean_pct": 50.0,
+  "dl_delta": 686,
+  "dl_wow": 0.6,
+  "dl_per_day": 686.0,
+  "star_delta": 4,
+  "star_wow": 0.6,
+  "star_per_day": 4.0,
+  "installs_delta": 0,
+  "installs_wow": 0.0,
+  "installs_per_day": 0,
+  "owner_display_name": "B*T",
+  "owner_name": "biostartechnology",
+  "owner_image": "https://avatars.githubusercontent.com/u/46933184?v=4",
+  "bio": null,
+  "company": null,
+  "location": null,
+  "blog": null,
+  "public_repos": 0,
+  "followers": 0,
+  "following": 0,
+  "github_created_at": "2019-01-22T16:00:36",
+  "twitter_username": null,
+  "skills": [
+    {
+      "slug": "humanizer",
+      "display_name": "Humanizer",
+      "stat_downloads": 105439,
+      "stat_stars": 601,
+      "created_at": "2026-01-24T05:15:36.865000",
+      "days_old": 107,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "linkedin",
+      "display_name": "LinkedIn",
+      "stat_downloads": 12880,
+      "stat_stars": 36,
+      "created_at": "2026-01-24T05:15:29.796000",
+      "days_old": 107,
+      "is_highlighted": false,
+      "is_suspicious": true
+    }
+  ],
+  "trajectory": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 70754,
+      "stars": 455
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 71655,
+      "stars": 457
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 73407,
+      "stars": 461
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 74742,
+      "stars": 471
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 75909,
+      "stars": 474
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 77130,
+      "stars": 476
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 79552,
+      "stars": 489
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 79739,
+      "stars": 489
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 80046,
+      "stars": 489
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 81442,
+      "stars": 492
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 83506,
+      "stars": 504
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 83506,
+      "stars": 504
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 83986,
+      "stars": 504
+    },
+    {
+      "run_date": "2026-03-29T03:00:00.679954",
+      "downloads": 85140,
+      "stars": 507
+    },
+    {
+      "run_date": "2026-03-30T03:00:00.682509",
+      "downloads": 86237,
+      "stars": 508
+    },
+    {
+      "run_date": "2026-03-31T03:00:00.702238",
+      "downloads": 87489,
+      "stars": 515
+    },
+    {
+      "run_date": "2026-04-01T03:00:00.631568",
+      "downloads": 88770,
+      "stars": 520
+    },
+    {
+      "run_date": "2026-04-07T08:32:21.256392",
+      "downloads": 95224,
+      "stars": 550
+    },
+    {
+      "run_date": "2026-04-08T02:59:53.612026",
+      "downloads": 95815,
+      "stars": 552
+    },
+    {
+      "run_date": "2026-04-09T03:00:00.814082",
+      "downloads": 96814,
+      "stars": 556
+    },
+    {
+      "run_date": "2026-04-10T03:00:00.610465",
+      "downloads": 97798,
+      "stars": 558
+    },
+    {
+      "run_date": "2026-04-11T03:00:00.635800",
+      "downloads": 98639,
+      "stars": 560
+    },
+    {
+      "run_date": "2026-04-12T03:00:00.326052",
+      "downloads": 99378,
+      "stars": 560
+    },
+    {
+      "run_date": "2026-04-13T03:00:00.295537",
+      "downloads": 100107,
+      "stars": 560
+    },
+    {
+      "run_date": "2026-04-18T02:59:55.390364",
+      "downloads": 103721,
+      "stars": 578
+    },
+    {
+      "run_date": "2026-04-19T03:00:00.676118",
+      "downloads": 104298,
+      "stars": 578
+    },
+    {
+      "run_date": "2026-04-20T03:00:00.599318",
+      "downloads": 104929,
+      "stars": 579
+    },
+    {
+      "run_date": "2026-04-21T03:00:00.575737",
+      "downloads": 105598,
+      "stars": 586
+    },
+    {
+      "run_date": "2026-04-22T03:00:00.762090",
+      "downloads": 106297,
+      "stars": 589
+    },
+    {
+      "run_date": "2026-04-23T03:00:00.767159",
+      "downloads": 106965,
+      "stars": 594
+    },
+    {
+      "run_date": "2026-04-24T03:00:00.604086",
+      "downloads": 107542,
+      "stars": 598
+    },
+    {
+      "run_date": "2026-04-28T02:59:56.742214",
+      "downloads": 109658,
+      "stars": 602
+    },
+    {
+      "run_date": "2026-04-29T03:01:44.166793",
+      "downloads": 110300,
+      "stars": 603
+    },
+    {
+      "run_date": "2026-04-30T03:00:00.711115",
+      "downloads": 110914,
+      "stars": 604
+    },
+    {
+      "run_date": "2026-05-02T02:59:59.833385",
+      "downloads": 111980,
+      "stars": 611
+    },
+    {
+      "run_date": "2026-05-03T03:42:13.922530",
+      "downloads": 112474,
+      "stars": 613
+    },
+    {
+      "run_date": "2026-05-05T00:41:38.231465",
+      "downloads": 113745,
+      "stars": 618
+    },
+    {
+      "run_date": "2026-05-05T03:00:00.321955",
+      "downloads": 113837,
+      "stars": 620
+    },
+    {
+      "run_date": "2026-05-06T03:00:00.570710",
+      "downloads": 114562,
+      "stars": 622
+    },
+    {
+      "run_date": "2026-05-07T03:00:00.572063",
+      "downloads": 115410,
+      "stars": 626
+    },
+    {
+      "run_date": "2026-05-09T03:44:10.833903",
+      "downloads": 116940,
+      "stars": 631
+    },
+    {
+      "run_date": "2026-05-10T03:00:00.531823",
+      "downloads": 117633,
+      "stars": 633
+    },
+    {
+      "run_date": "2026-05-11T03:00:00.316612",
+      "downloads": 118319,
+      "stars": 637
+    }
+  ],
+  "download_trajectory": [
+    70754,
+    71655,
+    73407,
+    74742,
+    75909,
+    77130,
+    79552,
+    79739,
+    80046,
+    81442,
+    83506,
+    83506,
+    83986,
+    85140,
+    86237,
+    87489,
+    88770,
+    95224,
+    95815,
+    96814,
+    97798,
+    98639,
+    99378,
+    100107,
+    103721,
+    104298,
+    104929,
+    105598,
+    106297,
+    106965,
+    107542,
+    109658,
+    110300,
+    110914,
+    111980,
+    112474,
+    113745,
+    113837,
+    114562,
+    115410,
+    116940,
+    117633,
+    118319
+  ]
+}

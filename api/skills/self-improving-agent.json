@@ -1,0 +1,341 @@
+{
+  "skill_id": "kd71q6bf0e8vcgdcxfdd3qyd817ynzhk",
+  "slug": "self-improving-agent",
+  "display_name": "Self-Improving Agent",
+  "summary": "Captures learnings, errors, and corrections to enable continuous improvement. Use when: (1) A command or operation fails unexpectedly, (2) User corrects Clau...",
+  "owner_handle": "pskoett",
+  "owner_image": "https://avatars.githubusercontent.com/u/177305814?v=4",
+  "created_at": "2026-01-05T17:03:18.365000",
+  "days_old": 125,
+  "stat_downloads": 430161,
+  "stat_stars": 3540,
+  "tags": {
+    "latest": "k97cs17rev4fbbwsh40dwf9jah85x0ws"
+  },
+  "badges": null,
+  "stat_installs": 6541,
+  "stat_comments": 53,
+  "current_version": "3.0.21",
+  "is_highlighted": false,
+  "is_suspicious": false,
+  "velocity": 3441.3,
+  "acceleration_pct": -14.5,
+  "dl_delta": 1260,
+  "dl_wow": 0.3,
+  "star_delta": 11,
+  "star_wow": 0.3,
+  "installs_delta": 4,
+  "installs_wow": 0.1,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 250357,
+      "stars": 2295,
+      "installs_all_time": 4051,
+      "installs_current": 3888
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 255172,
+      "stars": 2344,
+      "installs_all_time": 4160,
+      "installs_current": 4001
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 265630,
+      "stars": 2426,
+      "installs_all_time": 4351,
+      "installs_current": 4189
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 273365,
+      "stars": 2493,
+      "installs_all_time": 4495,
+      "installs_current": 4327
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 280381,
+      "stars": 2535,
+      "installs_all_time": 4622,
+      "installs_current": 4446
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 287001,
+      "stars": 2584,
+      "installs_all_time": 4748,
+      "installs_current": 4571
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 295819,
+      "stars": 2652,
+      "installs_all_time": 4929,
+      "installs_current": 4704
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 297187,
+      "stars": 2662,
+      "installs_all_time": 4944,
+      "installs_current": 4719
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 305143,
+      "stars": 2710,
+      "installs_all_time": 5061,
+      "installs_current": 4841
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 314094,
+      "stars": 2763,
+      "installs_all_time": 5209,
+      "installs_current": 4954
+    },
+    {
+      "run_date": "2026-03-29T03:00:00.679954",
+      "downloads": 318458,
+      "stars": 2794,
+      "installs_all_time": 5283,
+      "installs_current": 5024
+    },
+    {
+      "run_date": "2026-03-30T03:00:00.682509",
+      "downloads": 324057,
+      "stars": 2824,
+      "installs_all_time": 5360,
+      "installs_current": 5102
+    },
+    {
+      "run_date": "2026-03-31T03:00:00.702238",
+      "downloads": 330485,
+      "stars": 2855,
+      "installs_all_time": 5455,
+      "installs_current": 5198
+    },
+    {
+      "run_date": "2026-04-07T08:32:21.256392",
+      "downloads": 358904,
+      "stars": 3016,
+      "installs_all_time": 5815,
+      "installs_current": 5522
+    },
+    {
+      "run_date": "2026-04-08T02:59:53.612026",
+      "downloads": 361766,
+      "stars": 3031,
+      "installs_all_time": 5846,
+      "installs_current": 5557
+    },
+    {
+      "run_date": "2026-04-09T03:00:00.814082",
+      "downloads": 366163,
+      "stars": 3069,
+      "installs_all_time": 5907,
+      "installs_current": 5612
+    },
+    {
+      "run_date": "2026-04-10T03:00:00.610465",
+      "downloads": 370515,
+      "stars": 3096,
+      "installs_all_time": 5967,
+      "installs_current": 5670
+    },
+    {
+      "run_date": "2026-04-11T03:00:00.635800",
+      "downloads": 374327,
+      "stars": 3107,
+      "installs_all_time": 6006,
+      "installs_current": 5709
+    },
+    {
+      "run_date": "2026-04-12T03:00:00.326052",
+      "downloads": 377333,
+      "stars": 3125,
+      "installs_all_time": 6043,
+      "installs_current": 5747
+    },
+    {
+      "run_date": "2026-04-13T03:00:00.295537",
+      "downloads": 380335,
+      "stars": 3137,
+      "installs_all_time": 6081,
+      "installs_current": 5780
+    },
+    {
+      "run_date": "2026-04-18T02:59:55.390364",
+      "downloads": 395575,
+      "stars": 3226,
+      "installs_all_time": 6242,
+      "installs_current": 5937
+    },
+    {
+      "run_date": "2026-04-19T03:00:00.676118",
+      "downloads": 397881,
+      "stars": 3237,
+      "installs_all_time": 6269,
+      "installs_current": 5966
+    },
+    {
+      "run_date": "2026-04-20T03:00:00.599318",
+      "downloads": 400116,
+      "stars": 3258,
+      "installs_all_time": 6288,
+      "installs_current": 5985
+    },
+    {
+      "run_date": "2026-04-21T03:00:00.575737",
+      "downloads": 402553,
+      "stars": 3277,
+      "installs_all_time": 6311,
+      "installs_current": 6008
+    },
+    {
+      "run_date": "2026-04-22T03:00:00.762090",
+      "downloads": 404955,
+      "stars": 3296,
+      "installs_all_time": 6327,
+      "installs_current": 6023
+    },
+    {
+      "run_date": "2026-04-23T03:00:00.767159",
+      "downloads": 407224,
+      "stars": 3319,
+      "installs_all_time": 6359,
+      "installs_current": 6054
+    },
+    {
+      "run_date": "2026-04-24T03:00:00.604086",
+      "downloads": 409445,
+      "stars": 3340,
+      "installs_all_time": 6377,
+      "installs_current": 6070
+    },
+    {
+      "run_date": "2026-04-28T02:59:56.742214",
+      "downloads": 413556,
+      "stars": 3375,
+      "installs_all_time": 6419,
+      "installs_current": 6094
+    },
+    {
+      "run_date": "2026-04-29T03:01:44.166793",
+      "downloads": 415114,
+      "stars": 3392,
+      "installs_all_time": 6432,
+      "installs_current": 6106
+    },
+    {
+      "run_date": "2026-04-30T03:00:00.711115",
+      "downloads": 416338,
+      "stars": 3396,
+      "installs_all_time": 6441,
+      "installs_current": 6114
+    },
+    {
+      "run_date": "2026-05-02T02:59:59.833385",
+      "downloads": 417360,
+      "stars": 3413,
+      "installs_all_time": 6459,
+      "installs_current": 6120
+    },
+    {
+      "run_date": "2026-05-03T03:42:13.922530",
+      "downloads": 418407,
+      "stars": 3434,
+      "installs_all_time": 6465,
+      "installs_current": 6126
+    },
+    {
+      "run_date": "2026-05-05T00:41:38.231465",
+      "downloads": 421002,
+      "stars": 3457,
+      "installs_all_time": 6480,
+      "installs_current": 6144
+    },
+    {
+      "run_date": "2026-05-05T03:00:00.321955",
+      "downloads": 421219,
+      "stars": 3460,
+      "installs_all_time": 6480,
+      "installs_current": 6144
+    },
+    {
+      "run_date": "2026-05-06T03:00:00.570710",
+      "downloads": 422704,
+      "stars": 3477,
+      "installs_all_time": 6493,
+      "installs_current": 6158
+    },
+    {
+      "run_date": "2026-05-07T03:00:00.572063",
+      "downloads": 424405,
+      "stars": 3494,
+      "installs_all_time": 6501,
+      "installs_current": 6165
+    },
+    {
+      "run_date": "2026-05-09T03:44:10.833903",
+      "downloads": 427438,
+      "stars": 3519,
+      "installs_all_time": 6527,
+      "installs_current": 6191
+    },
+    {
+      "run_date": "2026-05-10T03:00:00.531823",
+      "downloads": 428901,
+      "stars": 3529,
+      "installs_all_time": 6537,
+      "installs_current": 6201
+    },
+    {
+      "run_date": "2026-05-11T03:00:00.316612",
+      "downloads": 430161,
+      "stars": 3540,
+      "installs_all_time": 6541,
+      "installs_current": 6206
+    }
+  ],
+  "version_releases": [
+    {
+      "version_number": "3.0.6",
+      "run_date": "2026-03-24T16:57:13.814672",
+      "changelog": "no changes re-upload after clawhub update"
+    },
+    {
+      "version_number": "3.0.8",
+      "run_date": "2026-03-28T03:00:00.365056",
+      "changelog": "No code or documentation changes detected in this release.\n\n- Version update with no modifications to files or SKILL.md.\n- No user-facing changes or new features."
+    },
+    {
+      "version_number": "3.0.10",
+      "run_date": "2026-03-29T03:00:00.679954",
+      "changelog": "Self-improving-agent v3.0.10 introduces first-use initialization and improved privacy protections.\n\n- Added automatic setup guidance and shell commands to ensure `.learnings/` files exist before logging.\n- Removed default logging of full transcripts, secrets, or sensitive data; added explicit privacy and redaction warnings.\n- Migrated learning log templates and setup steps into SKILL.md, eliminating separate `.learnings/*.md` assets.\n- Clarified guidance for trusted use of inter-session learning sharing.\n- No breaking changes to main usage or logging formats."
+    },
+    {
+      "version_number": "3.0.13",
+      "run_date": "2026-04-07T08:32:21.256392",
+      "changelog": "re-upload no changes"
+    },
+    {
+      "version_number": "3.0.16",
+      "run_date": "2026-04-18T02:59:55.390364",
+      "changelog": "No code or documentation changes detected in this release.\n\n- Version bump only; no functional changes.\n- All files remain unchanged from the previous version."
+    },
+    {
+      "version_number": "3.0.18",
+      "run_date": "2026-04-28T02:59:56.742214",
+      "changelog": "no changes added re-upload"
+    },
+    {
+      "version_number": "3.0.21",
+      "run_date": "2026-05-02T02:59:59.833385",
+      "changelog": "re-upload"
+    }
+  ]
+}

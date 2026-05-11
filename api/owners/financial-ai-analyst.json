@@ -1,0 +1,436 @@
+{
+  "handle": "financial-ai-analyst",
+  "total_downloads": 112470,
+  "total_stars": 309,
+  "total_installs": 201,
+  "skill_count": 14,
+  "avg_dl_per_day": 157.1,
+  "highlighted_count": 0,
+  "suspicious_count": 1,
+  "clean_pct": 92.9,
+  "dl_delta": 635,
+  "dl_wow": 0.6,
+  "dl_per_day": 635.0,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "star_per_day": 0,
+  "installs_delta": 5,
+  "installs_wow": 2.6,
+  "installs_per_day": 5.0,
+  "owner_display_name": "Financial AI Analyst",
+  "owner_name": null,
+  "owner_image": "https://avatars.githubusercontent.com/u/41098207?v=4",
+  "bio": null,
+  "company": null,
+  "location": null,
+  "blog": null,
+  "public_repos": 1,
+  "followers": 0,
+  "following": 0,
+  "github_created_at": "2018-07-11T03:37:12",
+  "twitter_username": null,
+  "skills": [
+    {
+      "slug": "mx-stocks-screener",
+      "display_name": "Intelligent Stocks Screener",
+      "stat_downloads": 22714,
+      "stat_stars": 97,
+      "created_at": "2026-03-13T08:12:47.370000",
+      "days_old": 59,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "mx-finance-data",
+      "display_name": "All-Market Financial Data Hub",
+      "stat_downloads": 19795,
+      "stat_stars": 69,
+      "created_at": "2026-03-13T09:10:19.827000",
+      "days_old": 59,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "mx-finance-search",
+      "display_name": "Financial Search Engine",
+      "stat_downloads": 15728,
+      "stat_stars": 59,
+      "created_at": "2026-03-13T09:14:35.866000",
+      "days_old": 59,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "mx-macro-data",
+      "display_name": "Global Macro Database Assistant",
+      "stat_downloads": 14085,
+      "stat_stars": 66,
+      "created_at": "2026-03-13T09:39:49.546000",
+      "days_old": 59,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "industry-research-report",
+      "display_name": "Industry Research Agent",
+      "stat_downloads": 8132,
+      "stat_stars": 3,
+      "created_at": "2026-03-27T10:25:18.603000",
+      "days_old": 45,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "initiation-of-coverage-or-deep-dive",
+      "display_name": "Initiation of Coverage Agent",
+      "stat_downloads": 8058,
+      "stat_stars": 2,
+      "created_at": "2026-03-27T10:28:12.711000",
+      "days_old": 45,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "stock-earnings-review",
+      "display_name": "Earnings Review Agent",
+      "stat_downloads": 7873,
+      "stat_stars": 6,
+      "created_at": "2026-03-27T10:29:18.555000",
+      "days_old": 45,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "industry-stock-tracker",
+      "display_name": "Stock/Industry Tracker",
+      "stat_downloads": 7849,
+      "stat_stars": 3,
+      "created_at": "2026-03-27T10:26:07.874000",
+      "days_old": 45,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "mx-financial-assistant",
+      "display_name": "mx-financial-assistant",
+      "stat_downloads": 4699,
+      "stat_stars": 4,
+      "created_at": "2026-04-01T11:59:06.424000",
+      "days_old": 40,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "topic-research-report",
+      "display_name": "topic-research-report",
+      "stat_downloads": 730,
+      "stat_stars": 0,
+      "created_at": "2026-04-17T11:19:56.241000",
+      "days_old": 24,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "stock-market-hotspot-discovery",
+      "display_name": "stock-market-hotspot-discovery",
+      "stat_downloads": 725,
+      "stat_stars": 0,
+      "created_at": "2026-04-17T11:19:52.134000",
+      "days_old": 24,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "stock-diagnosis",
+      "display_name": "stock-diagnosis",
+      "stat_downloads": 704,
+      "stat_stars": 0,
+      "created_at": "2026-04-17T11:19:28.071000",
+      "days_old": 24,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "fund-diagnosis",
+      "display_name": "fund-diagnosis",
+      "stat_downloads": 702,
+      "stat_stars": 0,
+      "created_at": "2026-04-17T11:18:27.865000",
+      "days_old": 24,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "comparable-company-analysis",
+      "display_name": "comparable-company-analysis",
+      "stat_downloads": 676,
+      "stat_stars": 0,
+      "created_at": "2026-04-17T11:18:24.501000",
+      "days_old": 24,
+      "is_highlighted": false,
+      "is_suspicious": false
+    }
+  ],
+  "trajectory": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 20253,
+      "stars": 192
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 23014,
+      "stars": 193
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 27284,
+      "stars": 198
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 31239,
+      "stars": 207
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 31820,
+      "stars": 208
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 32428,
+      "stars": 209
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 34103,
+      "stars": 220
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 34213,
+      "stars": 221
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 34346,
+      "stars": 221
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 35320,
+      "stars": 226
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 36890,
+      "stars": 231
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 36890,
+      "stars": 231
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 37122,
+      "stars": 231
+    },
+    {
+      "run_date": "2026-03-29T03:00:00.679954",
+      "downloads": 37812,
+      "stars": 233
+    },
+    {
+      "run_date": "2026-03-30T03:00:00.682509",
+      "downloads": 38500,
+      "stars": 234
+    },
+    {
+      "run_date": "2026-03-31T03:00:00.702238",
+      "downloads": 39179,
+      "stars": 236
+    },
+    {
+      "run_date": "2026-04-01T03:00:00.631568",
+      "downloads": 46401,
+      "stars": 244
+    },
+    {
+      "run_date": "2026-04-07T08:32:21.256392",
+      "downloads": 89646,
+      "stars": 274
+    },
+    {
+      "run_date": "2026-04-08T02:59:53.612026",
+      "downloads": 90150,
+      "stars": 274
+    },
+    {
+      "run_date": "2026-04-09T03:00:00.814082",
+      "downloads": 91164,
+      "stars": 275
+    },
+    {
+      "run_date": "2026-04-10T03:00:00.610465",
+      "downloads": 91977,
+      "stars": 277
+    },
+    {
+      "run_date": "2026-04-11T03:00:00.635800",
+      "downloads": 92909,
+      "stars": 277
+    },
+    {
+      "run_date": "2026-04-12T03:00:00.326052",
+      "downloads": 93622,
+      "stars": 277
+    },
+    {
+      "run_date": "2026-04-13T03:00:00.295537",
+      "downloads": 94473,
+      "stars": 278
+    },
+    {
+      "run_date": "2026-04-18T02:59:55.390364",
+      "downloads": 98772,
+      "stars": 290
+    },
+    {
+      "run_date": "2026-04-19T03:00:00.676118",
+      "downloads": 99409,
+      "stars": 290
+    },
+    {
+      "run_date": "2026-04-20T03:00:00.599318",
+      "downloads": 99980,
+      "stars": 291
+    },
+    {
+      "run_date": "2026-04-21T03:00:00.575737",
+      "downloads": 100559,
+      "stars": 291
+    },
+    {
+      "run_date": "2026-04-22T03:00:00.762090",
+      "downloads": 101341,
+      "stars": 296
+    },
+    {
+      "run_date": "2026-04-23T03:00:00.767159",
+      "downloads": 102048,
+      "stars": 296
+    },
+    {
+      "run_date": "2026-04-24T03:00:00.604086",
+      "downloads": 102720,
+      "stars": 296
+    },
+    {
+      "run_date": "2026-04-28T02:59:56.742214",
+      "downloads": 104706,
+      "stars": 305
+    },
+    {
+      "run_date": "2026-04-29T03:01:44.166793",
+      "downloads": 105321,
+      "stars": 306
+    },
+    {
+      "run_date": "2026-04-30T03:00:00.711115",
+      "downloads": 105916,
+      "stars": 306
+    },
+    {
+      "run_date": "2026-05-02T02:59:59.833385",
+      "downloads": 106738,
+      "stars": 308
+    },
+    {
+      "run_date": "2026-05-03T03:42:13.922530",
+      "downloads": 107004,
+      "stars": 308
+    },
+    {
+      "run_date": "2026-05-05T00:41:38.231465",
+      "downloads": 108131,
+      "stars": 308
+    },
+    {
+      "run_date": "2026-05-05T03:00:00.321955",
+      "downloads": 108158,
+      "stars": 308
+    },
+    {
+      "run_date": "2026-05-06T03:00:00.570710",
+      "downloads": 108661,
+      "stars": 308
+    },
+    {
+      "run_date": "2026-05-07T03:00:00.572063",
+      "downloads": 109436,
+      "stars": 308
+    },
+    {
+      "run_date": "2026-05-09T03:44:10.833903",
+      "downloads": 111052,
+      "stars": 308
+    },
+    {
+      "run_date": "2026-05-10T03:00:00.531823",
+      "downloads": 111835,
+      "stars": 309
+    },
+    {
+      "run_date": "2026-05-11T03:00:00.316612",
+      "downloads": 112470,
+      "stars": 309
+    }
+  ],
+  "download_trajectory": [
+    20253,
+    23014,
+    27284,
+    31239,
+    31820,
+    32428,
+    34103,
+    34213,
+    34346,
+    35320,
+    36890,
+    36890,
+    37122,
+    37812,
+    38500,
+    39179,
+    46401,
+    89646,
+    90150,
+    91164,
+    91977,
+    92909,
+    93622,
+    94473,
+    98772,
+    99409,
+    99980,
+    100559,
+    101341,
+    102048,
+    102720,
+    104706,
+    105321,
+    105916,
+    106738,
+    107004,
+    108131,
+    108158,
+    108661,
+    109436,
+    111052,
+    111835,
+    112470
+  ]
+}

@@ -1,0 +1,886 @@
+{
+  "handle": "steipete",
+  "total_downloads": 1962341,
+  "total_stars": 5809,
+  "total_installs": 64968,
+  "skill_count": 59,
+  "avg_dl_per_day": 264.8,
+  "highlighted_count": 2,
+  "suspicious_count": 0,
+  "clean_pct": 100.0,
+  "dl_delta": 7840,
+  "dl_wow": 0.4,
+  "dl_per_day": 7840.0,
+  "star_delta": 42,
+  "star_wow": 0.7,
+  "star_per_day": 42.0,
+  "installs_delta": 19,
+  "installs_wow": 0.0,
+  "installs_per_day": 19.0,
+  "owner_display_name": "Peter Steinberger",
+  "owner_name": "steipete",
+  "owner_image": "https://avatars.githubusercontent.com/u/58493?v=4",
+  "bio": "Came back from retirement to mess with AI. Clawdfather @OpenClaw\r\n\r\nPreviously: Founder of @PSPDFKit.",
+  "company": "Full-Time Open-Sourcerer",
+  "location": "Vienna & London",
+  "blog": "http://steipete.me",
+  "public_repos": 166,
+  "followers": 49515,
+  "following": 109,
+  "github_created_at": "2009-02-27T08:34:22",
+  "twitter_username": "steipete",
+  "skills": [
+    {
+      "slug": "github",
+      "display_name": "Github",
+      "stat_downloads": 174624,
+      "stat_stars": 585,
+      "created_at": "2026-01-04T16:49:04.344000",
+      "days_old": 127,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "gog",
+      "display_name": "Gog",
+      "stat_downloads": 171553,
+      "stat_stars": 885,
+      "created_at": "2026-01-04T16:49:06.060000",
+      "days_old": 127,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "weather",
+      "display_name": "Weather",
+      "stat_downloads": 148348,
+      "stat_stars": 391,
+      "created_at": "2026-01-04T16:49:54.459000",
+      "days_old": 127,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "nano-pdf",
+      "display_name": "Nano Pdf",
+      "stat_downloads": 102189,
+      "stat_stars": 245,
+      "created_at": "2026-01-04T16:49:19.433000",
+      "days_old": 127,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "nano-banana-pro",
+      "display_name": "Nano Banana Pro",
+      "stat_downloads": 95115,
+      "stat_stars": 381,
+      "created_at": "2026-01-04T16:49:18.090000",
+      "days_old": 127,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "obsidian",
+      "display_name": "Obsidian",
+      "stat_downloads": 92458,
+      "stat_stars": 381,
+      "created_at": "2026-01-04T16:49:22.143000",
+      "days_old": 127,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "notion",
+      "display_name": "Notion",
+      "stat_downloads": 84423,
+      "stat_stars": 246,
+      "created_at": "2026-01-04T16:49:20.889000",
+      "days_old": 127,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "sonoscli",
+      "display_name": "Sonoscli",
+      "stat_downloads": 81251,
+      "stat_stars": 53,
+      "created_at": "2026-01-04T16:49:41.030000",
+      "days_old": 127,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "openai-whisper",
+      "display_name": "Openai Whisper",
+      "stat_downloads": 77380,
+      "stat_stars": 303,
+      "created_at": "2026-01-04T16:49:25.755000",
+      "days_old": 127,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "mcporter",
+      "display_name": "Mcporter",
+      "stat_downloads": 61930,
+      "stat_stars": 187,
+      "created_at": "2026-01-04T16:49:15.897000",
+      "days_old": 127,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "brave-search",
+      "display_name": "Brave Search",
+      "stat_downloads": 54922,
+      "stat_stars": 184,
+      "created_at": "2026-01-04T16:48:24.976000",
+      "days_old": 127,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "video-frames",
+      "display_name": "Video Frames",
+      "stat_downloads": 47716,
+      "stat_stars": 119,
+      "created_at": "2026-01-04T16:49:51.700000",
+      "days_old": 127,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "slack",
+      "display_name": "Slack",
+      "stat_downloads": 42838,
+      "stat_stars": 140,
+      "created_at": "2026-01-04T16:49:38.002000",
+      "days_old": 127,
+      "is_highlighted": true,
+      "is_suspicious": false
+    },
+    {
+      "slug": "blogwatcher",
+      "display_name": "Blogwatcher",
+      "stat_downloads": 38890,
+      "stat_stars": 68,
+      "created_at": "2026-01-04T16:48:19.849000",
+      "days_old": 127,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "markdown-converter",
+      "display_name": "Markdown Converter",
+      "stat_downloads": 38764,
+      "stat_stars": 172,
+      "created_at": "2026-01-05T22:26:05.151000",
+      "days_old": 126,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "trello",
+      "display_name": "Trello",
+      "stat_downloads": 37415,
+      "stat_stars": 144,
+      "created_at": "2026-01-04T16:49:49.426000",
+      "days_old": 127,
+      "is_highlighted": true,
+      "is_suspicious": false
+    },
+    {
+      "slug": "model-usage",
+      "display_name": "Model Usage",
+      "stat_downloads": 35140,
+      "stat_stars": 110,
+      "created_at": "2026-01-06T02:47:19.455000",
+      "days_old": 125,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "clawdhub",
+      "display_name": "Clawdhub",
+      "stat_downloads": 33995,
+      "stat_stars": 239,
+      "created_at": "2026-01-04T16:48:28.330000",
+      "days_old": 127,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "discord",
+      "display_name": "Discord",
+      "stat_downloads": 33928,
+      "stat_stars": 73,
+      "created_at": "2026-01-04T16:48:31.074000",
+      "days_old": 127,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "apple-notes",
+      "display_name": "Apple Notes",
+      "stat_downloads": 33356,
+      "stat_stars": 51,
+      "created_at": "2026-01-04T16:48:14.031000",
+      "days_old": 127,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "gemini",
+      "display_name": "Gemini",
+      "stat_downloads": 31537,
+      "stat_stars": 53,
+      "created_at": "2026-01-04T16:48:36.392000",
+      "days_old": 127,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "qmd",
+      "display_name": "Qmd",
+      "stat_downloads": 30300,
+      "stat_stars": 103,
+      "created_at": "2026-01-04T16:49:34.981000",
+      "days_old": 127,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "1password",
+      "display_name": "1password",
+      "stat_downloads": 27933,
+      "stat_stars": 48,
+      "created_at": "2026-01-06T02:47:07.516000",
+      "days_old": 125,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "peekaboo",
+      "display_name": "Peekaboo",
+      "stat_downloads": 26676,
+      "stat_stars": 78,
+      "created_at": "2026-01-04T16:49:33.660000",
+      "days_old": 127,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "apple-reminders",
+      "display_name": "Apple Reminders",
+      "stat_downloads": 26399,
+      "stat_stars": 53,
+      "created_at": "2026-01-04T16:48:16.326000",
+      "days_old": 127,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "tmux",
+      "display_name": "Tmux",
+      "stat_downloads": 26082,
+      "stat_stars": 42,
+      "created_at": "2026-01-04T16:49:47.948000",
+      "days_old": 127,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "sag",
+      "display_name": "Sag",
+      "stat_downloads": 24895,
+      "stat_stars": 25,
+      "created_at": "2026-01-04T16:49:36.535000",
+      "days_old": 127,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "spotify-player",
+      "display_name": "Spotify Player",
+      "stat_downloads": 24069,
+      "stat_stars": 49,
+      "created_at": "2026-01-04T16:49:42.402000",
+      "days_old": 127,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "openai-whisper-api",
+      "display_name": "Openai Whisper Api",
+      "stat_downloads": 23732,
+      "stat_stars": 50,
+      "created_at": "2026-01-04T16:49:28.103000",
+      "days_old": 127,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "openai-image-gen",
+      "display_name": "Openai Image Gen",
+      "stat_downloads": 22757,
+      "stat_stars": 35,
+      "created_at": "2026-01-04T16:49:24.210000",
+      "days_old": 127,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "goplaces",
+      "display_name": "Goplaces",
+      "stat_downloads": 20670,
+      "stat_stars": 30,
+      "created_at": "2026-01-04T16:49:07.454000",
+      "days_old": 127,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "gifgrep",
+      "display_name": "Gifgrep",
+      "stat_downloads": 16959,
+      "stat_stars": 7,
+      "created_at": "2026-01-04T00:57:06.016000",
+      "days_old": 127,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "camsnap",
+      "display_name": "Camsnap",
+      "stat_downloads": 16361,
+      "stat_stars": 13,
+      "created_at": "2026-01-04T16:48:26.244000",
+      "days_old": 127,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "oracle",
+      "display_name": "Oracle",
+      "stat_downloads": 15848,
+      "stat_stars": 15,
+      "created_at": "2026-01-04T16:49:30.678000",
+      "days_old": 127,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "imsg",
+      "display_name": "Imsg",
+      "stat_downloads": 14879,
+      "stat_stars": 23,
+      "created_at": "2026-01-04T16:49:08.833000",
+      "days_old": 127,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "things-mac",
+      "display_name": "Things Mac",
+      "stat_downloads": 14262,
+      "stat_stars": 16,
+      "created_at": "2026-01-04T16:49:44.979000",
+      "days_old": 127,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "video-transcript-downloader",
+      "display_name": "Video Transcript Downloader",
+      "stat_downloads": 11842,
+      "stat_stars": 81,
+      "created_at": "2026-01-05T22:27:09.078000",
+      "days_old": 126,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "openhue",
+      "display_name": "Openhue",
+      "stat_downloads": 11530,
+      "stat_stars": 10,
+      "created_at": "2026-01-04T16:49:29.355000",
+      "days_old": 127,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "bear-notes",
+      "display_name": "Bear Notes",
+      "stat_downloads": 10935,
+      "stat_stars": 4,
+      "created_at": "2026-01-04T16:48:18.356000",
+      "days_old": 127,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "songsee",
+      "display_name": "Songsee",
+      "stat_downloads": 10920,
+      "stat_stars": 8,
+      "created_at": "2026-01-04T16:49:39.576000",
+      "days_old": 127,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "blucli",
+      "display_name": "Blucli",
+      "stat_downloads": 10661,
+      "stat_stars": 2,
+      "created_at": "2026-01-04T16:48:21.512000",
+      "days_old": 127,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "eightctl",
+      "display_name": "Eightctl",
+      "stat_downloads": 9856,
+      "stat_stars": 8,
+      "created_at": "2026-01-04T16:48:32.885000",
+      "days_old": 127,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ordercli",
+      "display_name": "Ordercli",
+      "stat_downloads": 9730,
+      "stat_stars": 4,
+      "created_at": "2026-01-04T16:49:32.216000",
+      "days_old": 127,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "local-places",
+      "display_name": "Local Places",
+      "stat_downloads": 7726,
+      "stat_stars": 25,
+      "created_at": "2026-01-04T16:49:14.524000",
+      "days_old": 127,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "food-order",
+      "display_name": "Food Order",
+      "stat_downloads": 5076,
+      "stat_stars": 8,
+      "created_at": "2026-01-04T16:48:35.134000",
+      "days_old": 127,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "swiftui-liquid-glass",
+      "display_name": "Swiftui Liquid Glass",
+      "stat_downloads": 3481,
+      "stat_stars": 15,
+      "created_at": "2026-01-05T22:26:58.261000",
+      "days_old": 126,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "domain-dns-ops",
+      "display_name": "Domain Dns Ops",
+      "stat_downloads": 3465,
+      "stat_stars": 12,
+      "created_at": "2026-01-05T22:25:58.097000",
+      "days_old": 126,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "swiftui-performance-audit",
+      "display_name": "Swiftui Performance Audit",
+      "stat_downloads": 3138,
+      "stat_stars": 5,
+      "created_at": "2026-01-05T22:27:02.583000",
+      "days_old": 126,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "swift-concurrency-expert",
+      "display_name": "Swift Concurrency Expert",
+      "stat_downloads": 3097,
+      "stat_stars": 5,
+      "created_at": "2026-01-05T22:26:56.079000",
+      "days_old": 126,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "create-cli",
+      "display_name": "Create Cli",
+      "stat_downloads": 3046,
+      "stat_stars": 11,
+      "created_at": "2026-01-05T22:25:55.821000",
+      "days_old": 126,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "swiftui-view-refactor",
+      "display_name": "Swiftui View Refactor",
+      "stat_downloads": 2976,
+      "stat_stars": 6,
+      "created_at": "2026-01-05T22:27:04.904000",
+      "days_old": 126,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "instruments-profiling",
+      "display_name": "Instruments Profiling",
+      "stat_downloads": 2451,
+      "stat_stars": 3,
+      "created_at": "2026-01-05T22:26:02.669000",
+      "days_old": 126,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "native-app-performance",
+      "display_name": "Native App Performance",
+      "stat_downloads": 2321,
+      "stat_stars": 5,
+      "created_at": "2026-01-05T22:26:31.861000",
+      "days_old": 126,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "codex-owner-move-debug-1778257045",
+      "display_name": "Codex Owner Move Debug",
+      "stat_downloads": 87,
+      "stat_stars": 0,
+      "created_at": "2026-05-08T16:17:28.787000",
+      "days_old": 3,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "codex-owner-move-debug-1778256957",
+      "display_name": "Codex Owner Move Debug",
+      "stat_downloads": 86,
+      "stat_stars": 0,
+      "created_at": "2026-05-08T16:16:00.618000",
+      "days_old": 3,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "codex-owner-move-debug-1778257077",
+      "display_name": "Codex Owner Move Debug",
+      "stat_downloads": 85,
+      "stat_stars": 0,
+      "created_at": "2026-05-08T16:18:00.681000",
+      "days_old": 3,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "codex-owner-move-1778256696",
+      "display_name": "Codex Owner Move E2E",
+      "stat_downloads": 82,
+      "stat_stars": 0,
+      "created_at": "2026-05-08T16:11:39.285000",
+      "days_old": 3,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "codex-owner-move-1778256762",
+      "display_name": "Codex Owner Move E2E",
+      "stat_downloads": 79,
+      "stat_stars": 0,
+      "created_at": "2026-05-08T16:12:45.824000",
+      "days_old": 3,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "codex-owner-move-1778256848",
+      "display_name": "Codex Owner Move E2E",
+      "stat_downloads": 77,
+      "stat_stars": 0,
+      "created_at": "2026-05-08T16:14:20.828000",
+      "days_old": 3,
+      "is_highlighted": false,
+      "is_suspicious": false
+    }
+  ],
+  "trajectory": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 1499824,
+      "stars": 4920
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 1515770,
+      "stars": 4957
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 1545725,
+      "stars": 5053
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 1569236,
+      "stars": 5126
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 1591550,
+      "stars": 5187
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 1613940,
+      "stars": 5246
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 1655877,
+      "stars": 5375
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 1659189,
+      "stars": 5388
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 1665345,
+      "stars": 5398
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 1690935,
+      "stars": 5474
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 1727661,
+      "stars": 5575
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 1727661,
+      "stars": 5575
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 1736467,
+      "stars": 5603
+    },
+    {
+      "run_date": "2026-03-29T03:00:00.679954",
+      "downloads": 1755047,
+      "stars": 5639
+    },
+    {
+      "run_date": "2026-03-30T03:00:00.682509",
+      "downloads": 1772425,
+      "stars": 5668
+    },
+    {
+      "run_date": "2026-03-31T03:00:00.702238",
+      "downloads": 1791655,
+      "stars": 5699
+    },
+    {
+      "run_date": "2026-04-01T03:00:00.631568",
+      "downloads": 1810482,
+      "stars": 5746
+    },
+    {
+      "run_date": "2026-04-07T08:32:21.256392",
+      "downloads": 1671690,
+      "stars": 5072
+    },
+    {
+      "run_date": "2026-04-08T02:59:53.612026",
+      "downloads": 1680021,
+      "stars": 5079
+    },
+    {
+      "run_date": "2026-04-09T03:00:00.814082",
+      "downloads": 1692702,
+      "stars": 5109
+    },
+    {
+      "run_date": "2026-04-10T03:00:00.610465",
+      "downloads": 1705043,
+      "stars": 5126
+    },
+    {
+      "run_date": "2026-04-11T03:00:00.635800",
+      "downloads": 1716798,
+      "stars": 5163
+    },
+    {
+      "run_date": "2026-04-12T03:00:00.326052",
+      "downloads": 1726473,
+      "stars": 5176
+    },
+    {
+      "run_date": "2026-04-13T03:00:00.295537",
+      "downloads": 1736680,
+      "stars": 5187
+    },
+    {
+      "run_date": "2026-04-18T02:59:55.390364",
+      "downloads": 1784947,
+      "stars": 5311
+    },
+    {
+      "run_date": "2026-04-19T03:00:00.676118",
+      "downloads": 1793157,
+      "stars": 5316
+    },
+    {
+      "run_date": "2026-04-20T03:00:00.599318",
+      "downloads": 1801263,
+      "stars": 5336
+    },
+    {
+      "run_date": "2026-04-21T03:00:00.575737",
+      "downloads": 1809536,
+      "stars": 5347
+    },
+    {
+      "run_date": "2026-04-22T03:00:00.762090",
+      "downloads": 1817494,
+      "stars": 5367
+    },
+    {
+      "run_date": "2026-04-23T03:00:00.767159",
+      "downloads": 1825214,
+      "stars": 5395
+    },
+    {
+      "run_date": "2026-04-24T03:00:00.604086",
+      "downloads": 1832631,
+      "stars": 5428
+    },
+    {
+      "run_date": "2026-04-28T02:59:56.742214",
+      "downloads": 1861484,
+      "stars": 5502
+    },
+    {
+      "run_date": "2026-04-29T03:01:44.166793",
+      "downloads": 1868495,
+      "stars": 5522
+    },
+    {
+      "run_date": "2026-04-30T03:00:00.711115",
+      "downloads": 1875299,
+      "stars": 5538
+    },
+    {
+      "run_date": "2026-05-02T02:59:59.833385",
+      "downloads": 1888314,
+      "stars": 5578
+    },
+    {
+      "run_date": "2026-05-03T03:42:13.922530",
+      "downloads": 1893886,
+      "stars": 5597
+    },
+    {
+      "run_date": "2026-05-05T00:41:38.231465",
+      "downloads": 1908864,
+      "stars": 5624
+    },
+    {
+      "run_date": "2026-05-05T03:00:00.321955",
+      "downloads": 1910170,
+      "stars": 5642
+    },
+    {
+      "run_date": "2026-05-06T03:00:00.570710",
+      "downloads": 1918465,
+      "stars": 5676
+    },
+    {
+      "run_date": "2026-05-07T03:00:00.572063",
+      "downloads": 1928382,
+      "stars": 5699
+    },
+    {
+      "run_date": "2026-05-09T03:44:10.833903",
+      "downloads": 1946302,
+      "stars": 5751
+    },
+    {
+      "run_date": "2026-05-10T03:00:00.531823",
+      "downloads": 1954501,
+      "stars": 5767
+    },
+    {
+      "run_date": "2026-05-11T03:00:00.316612",
+      "downloads": 1962341,
+      "stars": 5809
+    }
+  ],
+  "download_trajectory": [
+    1499824,
+    1515770,
+    1545725,
+    1569236,
+    1591550,
+    1613940,
+    1655877,
+    1659189,
+    1665345,
+    1690935,
+    1727661,
+    1727661,
+    1736467,
+    1755047,
+    1772425,
+    1791655,
+    1810482,
+    1671690,
+    1680021,
+    1692702,
+    1705043,
+    1716798,
+    1726473,
+    1736680,
+    1784947,
+    1793157,
+    1801263,
+    1809536,
+    1817494,
+    1825214,
+    1832631,
+    1861484,
+    1868495,
+    1875299,
+    1888314,
+    1893886,
+    1908864,
+    1910170,
+    1918465,
+    1928382,
+    1946302,
+    1954501,
+    1962341
+  ]
+}

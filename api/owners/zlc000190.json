@@ -1,0 +1,506 @@
+{
+  "handle": "zlc000190",
+  "total_downloads": 67941,
+  "total_stars": 92,
+  "total_installs": 1367,
+  "skill_count": 21,
+  "avg_dl_per_day": 39.6,
+  "highlighted_count": 0,
+  "suspicious_count": 1,
+  "clean_pct": 95.2,
+  "dl_delta": 847,
+  "dl_wow": 1.3,
+  "dl_per_day": 847.0,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "star_per_day": 0,
+  "installs_delta": 0,
+  "installs_wow": 0.0,
+  "installs_per_day": 0,
+  "owner_display_name": "zlc000190",
+  "owner_name": "zlc000190",
+  "owner_image": "https://avatars.githubusercontent.com/u/8969941?v=4",
+  "bio": null,
+  "company": null,
+  "location": null,
+  "blog": null,
+  "public_repos": 46,
+  "followers": 4,
+  "following": 28,
+  "github_created_at": "2014-09-30T09:19:31",
+  "twitter_username": null,
+  "skills": [
+    {
+      "slug": "using-superpowers",
+      "display_name": "Using Superpowers",
+      "stat_downloads": 27292,
+      "stat_stars": 56,
+      "created_at": "2026-02-10T02:52:23.217000",
+      "days_old": 90,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "subagent-driven-development",
+      "display_name": "Subagent Driven Development",
+      "stat_downloads": 9443,
+      "stat_stars": 7,
+      "created_at": "2026-02-10T02:52:01.766000",
+      "days_old": 90,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "brainstorming",
+      "display_name": "Brainstorming",
+      "stat_downloads": 9222,
+      "stat_stars": 11,
+      "created_at": "2026-02-10T02:51:33.078000",
+      "days_old": 90,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "writing-plans",
+      "display_name": "Writing Plans",
+      "stat_downloads": 7567,
+      "stat_stars": 5,
+      "created_at": "2026-02-10T02:52:33.645000",
+      "days_old": 90,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "requesting-code-review",
+      "display_name": "Requesting Code Review",
+      "stat_downloads": 3151,
+      "stat_stars": 4,
+      "created_at": "2026-02-10T02:51:56.262000",
+      "days_old": 90,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "verification-before-completion",
+      "display_name": "Verification Before Completion",
+      "stat_downloads": 2598,
+      "stat_stars": 3,
+      "created_at": "2026-02-10T02:52:28.106000",
+      "days_old": 90,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "writing-skills",
+      "display_name": "Writing Skills",
+      "stat_downloads": 2133,
+      "stat_stars": 4,
+      "created_at": "2026-02-10T02:52:39.709000",
+      "days_old": 90,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "dispatching-parallel-agents",
+      "display_name": "Dispatching Parallel Agents",
+      "stat_downloads": 1738,
+      "stat_stars": 2,
+      "created_at": "2026-02-10T02:51:37.597000",
+      "days_old": 90,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "using-git-worktrees",
+      "display_name": "Using Git Worktrees",
+      "stat_downloads": 1632,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T02:52:18.383000",
+      "days_old": 90,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "finishing-a-development-branch",
+      "display_name": "Finishing a Development Branch",
+      "stat_downloads": 1449,
+      "stat_stars": 0,
+      "created_at": "2026-02-10T02:51:46.652000",
+      "days_old": 90,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "llc-registered-agent-guide",
+      "display_name": "LLC Registered Agent Guide",
+      "stat_downloads": 165,
+      "stat_stars": 0,
+      "created_at": "2026-04-23T10:34:46.923000",
+      "days_old": 18,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "llc-formation-timeline-guide",
+      "display_name": "LLC Formation Timeline Guide",
+      "stat_downloads": 164,
+      "stat_stars": 0,
+      "created_at": "2026-04-23T12:57:27.245000",
+      "days_old": 18,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "llc-cost-calculator-guide",
+      "display_name": "LLC Cost Calculator Guide",
+      "stat_downloads": 164,
+      "stat_stars": 0,
+      "created_at": "2026-04-23T10:34:47.288000",
+      "days_old": 18,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "best-state-to-form-llc-guide",
+      "display_name": "Best State To Form An LLC Guide",
+      "stat_downloads": 161,
+      "stat_stars": 0,
+      "created_at": "2026-04-23T12:57:28.007000",
+      "days_old": 18,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "llc-name-rules-guide",
+      "display_name": "LLC Name Rules Guide",
+      "stat_downloads": 159,
+      "stat_stars": 0,
+      "created_at": "2026-04-23T12:57:27.675000",
+      "days_old": 18,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "wyoming-llc-formation",
+      "display_name": "Wyoming LLC Formation",
+      "stat_downloads": 156,
+      "stat_stars": 0,
+      "created_at": "2026-04-23T10:15:35.657000",
+      "days_old": 18,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "california-llc-formation",
+      "display_name": "California LLC Formation",
+      "stat_downloads": 154,
+      "stat_stars": 0,
+      "created_at": "2026-04-23T10:16:15.343000",
+      "days_old": 18,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "llc-name-generator",
+      "display_name": "LLC Name Generator",
+      "stat_downloads": 150,
+      "stat_stars": 0,
+      "created_at": "2026-04-23T10:16:15.736000",
+      "days_old": 18,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "nevada-llc-formation",
+      "display_name": "Nevada LLC Formation",
+      "stat_downloads": 150,
+      "stat_stars": 0,
+      "created_at": "2026-04-23T10:15:56.169000",
+      "days_old": 18,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "delaware-llc-formation",
+      "display_name": "Delaware LLC Formation",
+      "stat_downloads": 147,
+      "stat_stars": 0,
+      "created_at": "2026-04-23T10:15:55.793000",
+      "days_old": 18,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "texas-llc-formation",
+      "display_name": "Texas LLC Formation",
+      "stat_downloads": 146,
+      "stat_stars": 0,
+      "created_at": "2026-04-23T10:15:56.655000",
+      "days_old": 18,
+      "is_highlighted": false,
+      "is_suspicious": false
+    }
+  ],
+  "trajectory": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 30857,
+      "stars": 41
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 31433,
+      "stars": 42
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 32492,
+      "stars": 45
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 33331,
+      "stars": 48
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 34052,
+      "stars": 53
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 34831,
+      "stars": 54
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 36335,
+      "stars": 57
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 36439,
+      "stars": 57
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 36605,
+      "stars": 57
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 37426,
+      "stars": 59
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 38830,
+      "stars": 63
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 38830,
+      "stars": 63
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 39159,
+      "stars": 64
+    },
+    {
+      "run_date": "2026-03-29T03:00:00.679954",
+      "downloads": 39776,
+      "stars": 67
+    },
+    {
+      "run_date": "2026-03-30T03:00:00.682509",
+      "downloads": 40371,
+      "stars": 70
+    },
+    {
+      "run_date": "2026-03-31T03:00:00.702238",
+      "downloads": 41071,
+      "stars": 70
+    },
+    {
+      "run_date": "2026-04-01T03:00:00.631568",
+      "downloads": 41736,
+      "stars": 71
+    },
+    {
+      "run_date": "2026-04-07T08:32:21.256392",
+      "downloads": 45901,
+      "stars": 74
+    },
+    {
+      "run_date": "2026-04-08T02:59:53.612026",
+      "downloads": 46337,
+      "stars": 75
+    },
+    {
+      "run_date": "2026-04-09T03:00:00.814082",
+      "downloads": 47045,
+      "stars": 76
+    },
+    {
+      "run_date": "2026-04-10T03:00:00.610465",
+      "downloads": 47788,
+      "stars": 76
+    },
+    {
+      "run_date": "2026-04-11T03:00:00.635800",
+      "downloads": 48540,
+      "stars": 76
+    },
+    {
+      "run_date": "2026-04-12T03:00:00.326052",
+      "downloads": 49095,
+      "stars": 76
+    },
+    {
+      "run_date": "2026-04-13T03:00:00.295537",
+      "downloads": 49732,
+      "stars": 76
+    },
+    {
+      "run_date": "2026-04-18T02:59:55.390364",
+      "downloads": 52956,
+      "stars": 78
+    },
+    {
+      "run_date": "2026-04-19T03:00:00.676118",
+      "downloads": 53471,
+      "stars": 78
+    },
+    {
+      "run_date": "2026-04-20T03:00:00.599318",
+      "downloads": 54023,
+      "stars": 77
+    },
+    {
+      "run_date": "2026-04-21T03:00:00.575737",
+      "downloads": 54588,
+      "stars": 77
+    },
+    {
+      "run_date": "2026-04-22T03:00:00.762090",
+      "downloads": 55148,
+      "stars": 78
+    },
+    {
+      "run_date": "2026-04-23T03:00:00.767159",
+      "downloads": 55629,
+      "stars": 79
+    },
+    {
+      "run_date": "2026-04-24T03:00:00.604086",
+      "downloads": 56468,
+      "stars": 80
+    },
+    {
+      "run_date": "2026-04-28T02:59:56.742214",
+      "downloads": 59061,
+      "stars": 83
+    },
+    {
+      "run_date": "2026-04-29T03:01:44.166793",
+      "downloads": 59687,
+      "stars": 84
+    },
+    {
+      "run_date": "2026-04-30T03:00:00.711115",
+      "downloads": 60205,
+      "stars": 84
+    },
+    {
+      "run_date": "2026-05-02T02:59:59.833385",
+      "downloads": 61301,
+      "stars": 87
+    },
+    {
+      "run_date": "2026-05-03T03:42:13.922530",
+      "downloads": 61786,
+      "stars": 87
+    },
+    {
+      "run_date": "2026-05-05T00:41:38.231465",
+      "downloads": 63076,
+      "stars": 87
+    },
+    {
+      "run_date": "2026-05-05T03:00:00.321955",
+      "downloads": 63177,
+      "stars": 88
+    },
+    {
+      "run_date": "2026-05-06T03:00:00.570710",
+      "downloads": 63873,
+      "stars": 89
+    },
+    {
+      "run_date": "2026-05-07T03:00:00.572063",
+      "downloads": 64753,
+      "stars": 89
+    },
+    {
+      "run_date": "2026-05-09T03:44:10.833903",
+      "downloads": 66228,
+      "stars": 91
+    },
+    {
+      "run_date": "2026-05-10T03:00:00.531823",
+      "downloads": 67094,
+      "stars": 92
+    },
+    {
+      "run_date": "2026-05-11T03:00:00.316612",
+      "downloads": 67941,
+      "stars": 92
+    }
+  ],
+  "download_trajectory": [
+    30857,
+    31433,
+    32492,
+    33331,
+    34052,
+    34831,
+    36335,
+    36439,
+    36605,
+    37426,
+    38830,
+    38830,
+    39159,
+    39776,
+    40371,
+    41071,
+    41736,
+    45901,
+    46337,
+    47045,
+    47788,
+    48540,
+    49095,
+    49732,
+    52956,
+    53471,
+    54023,
+    54588,
+    55148,
+    55629,
+    56468,
+    59061,
+    59687,
+    60205,
+    61301,
+    61786,
+    63076,
+    63177,
+    63873,
+    64753,
+    66228,
+    67094,
+    67941
+  ]
+}

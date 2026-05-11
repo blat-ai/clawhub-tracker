@@ -1,0 +1,344 @@
+{
+  "skill_id": "kd76rsw6bvkrj99jfvvc4yje0d82zswa",
+  "slug": "bilibili-all-in-one",
+  "display_name": "Bilibili All In One",
+  "summary": "A comprehensive Bilibili toolkit that integrates hot trending monitoring, video downloading, video watching/playback, subtitle downloading, and video publish...",
+  "owner_handle": "wscats",
+  "owner_image": "https://avatars.githubusercontent.com/u/17243165?v=4",
+  "created_at": "2026-03-15T05:40:40.986000",
+  "days_old": 56,
+  "stat_downloads": 22773,
+  "stat_stars": 25,
+  "tags": {
+    "latest": "k97ekvag2b45107vnhn15j19k185y4v7"
+  },
+  "badges": null,
+  "stat_installs": 17,
+  "stat_comments": 1,
+  "current_version": "1.0.24",
+  "is_highlighted": false,
+  "is_suspicious": false,
+  "velocity": 406.7,
+  "acceleration_pct": -31.1,
+  "dl_delta": 179,
+  "dl_wow": 0.8,
+  "star_delta": 1,
+  "star_wow": 4.2,
+  "installs_delta": 0,
+  "installs_wow": 0.0,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 649,
+      "stars": 2,
+      "installs_all_time": 0,
+      "installs_current": 0
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 938,
+      "stars": 2,
+      "installs_all_time": 0,
+      "installs_current": 0
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 1452,
+      "stars": 2,
+      "installs_all_time": 0,
+      "installs_current": 0
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 1821,
+      "stars": 2,
+      "installs_all_time": 0,
+      "installs_current": 0
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 2242,
+      "stars": 2,
+      "installs_all_time": 0,
+      "installs_current": 0
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 2663,
+      "stars": 2,
+      "installs_all_time": 1,
+      "installs_current": 1
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 3342,
+      "stars": 2,
+      "installs_all_time": 1,
+      "installs_current": 1
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 3408,
+      "stars": 2,
+      "installs_all_time": 1,
+      "installs_current": 1
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 3600,
+      "stars": 2,
+      "installs_all_time": 1,
+      "installs_current": 1
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 4196,
+      "stars": 3,
+      "installs_all_time": 1,
+      "installs_current": 1
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 5178,
+      "stars": 4,
+      "installs_all_time": 2,
+      "installs_current": 2
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 5178,
+      "stars": 4,
+      "installs_all_time": 2,
+      "installs_current": 2
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 5383,
+      "stars": 4,
+      "installs_all_time": 2,
+      "installs_current": 2
+    },
+    {
+      "run_date": "2026-03-29T03:00:00.679954",
+      "downloads": 5808,
+      "stars": 6,
+      "installs_all_time": 2,
+      "installs_current": 2
+    },
+    {
+      "run_date": "2026-03-30T03:00:00.682509",
+      "downloads": 6175,
+      "stars": 7,
+      "installs_all_time": 2,
+      "installs_current": 2
+    },
+    {
+      "run_date": "2026-03-31T03:00:00.702238",
+      "downloads": 6601,
+      "stars": 7,
+      "installs_all_time": 4,
+      "installs_current": 4
+    },
+    {
+      "run_date": "2026-04-01T03:00:00.631568",
+      "downloads": 7051,
+      "stars": 8,
+      "installs_all_time": 4,
+      "installs_current": 4
+    },
+    {
+      "run_date": "2026-04-07T08:32:21.256392",
+      "downloads": 9864,
+      "stars": 9,
+      "installs_all_time": 10,
+      "installs_current": 10
+    },
+    {
+      "run_date": "2026-04-08T02:59:53.612026",
+      "downloads": 10174,
+      "stars": 9,
+      "installs_all_time": 10,
+      "installs_current": 10
+    },
+    {
+      "run_date": "2026-04-09T03:00:00.814082",
+      "downloads": 10607,
+      "stars": 11,
+      "installs_all_time": 10,
+      "installs_current": 10
+    },
+    {
+      "run_date": "2026-04-10T03:00:00.610465",
+      "downloads": 11062,
+      "stars": 11,
+      "installs_all_time": 11,
+      "installs_current": 11
+    },
+    {
+      "run_date": "2026-04-11T03:00:00.635800",
+      "downloads": 11517,
+      "stars": 12,
+      "installs_all_time": 11,
+      "installs_current": 11
+    },
+    {
+      "run_date": "2026-04-12T03:00:00.326052",
+      "downloads": 11901,
+      "stars": 13,
+      "installs_all_time": 12,
+      "installs_current": 12
+    },
+    {
+      "run_date": "2026-04-13T03:00:00.295537",
+      "downloads": 12289,
+      "stars": 13,
+      "installs_all_time": 13,
+      "installs_current": 13
+    },
+    {
+      "run_date": "2026-04-18T02:59:55.390364",
+      "downloads": 14244,
+      "stars": 15,
+      "installs_all_time": 13,
+      "installs_current": 13
+    },
+    {
+      "run_date": "2026-04-19T03:00:00.676118",
+      "downloads": 14634,
+      "stars": 15,
+      "installs_all_time": 13,
+      "installs_current": 13
+    },
+    {
+      "run_date": "2026-04-20T03:00:00.599318",
+      "downloads": 15009,
+      "stars": 16,
+      "installs_all_time": 13,
+      "installs_current": 13
+    },
+    {
+      "run_date": "2026-04-21T03:00:00.575737",
+      "downloads": 15382,
+      "stars": 17,
+      "installs_all_time": 14,
+      "installs_current": 14
+    },
+    {
+      "run_date": "2026-04-22T03:00:00.762090",
+      "downloads": 15761,
+      "stars": 18,
+      "installs_all_time": 14,
+      "installs_current": 14
+    },
+    {
+      "run_date": "2026-04-23T03:00:00.767159",
+      "downloads": 16150,
+      "stars": 18,
+      "installs_all_time": 14,
+      "installs_current": 14
+    },
+    {
+      "run_date": "2026-04-24T03:00:00.604086",
+      "downloads": 16548,
+      "stars": 19,
+      "installs_all_time": 15,
+      "installs_current": 15
+    },
+    {
+      "run_date": "2026-04-28T02:59:56.742214",
+      "downloads": 18061,
+      "stars": 20,
+      "installs_all_time": 15,
+      "installs_current": 15
+    },
+    {
+      "run_date": "2026-04-29T03:01:44.166793",
+      "downloads": 18424,
+      "stars": 21,
+      "installs_all_time": 15,
+      "installs_current": 15
+    },
+    {
+      "run_date": "2026-04-30T03:00:00.711115",
+      "downloads": 18799,
+      "stars": 21,
+      "installs_all_time": 15,
+      "installs_current": 15
+    },
+    {
+      "run_date": "2026-05-02T02:59:59.833385",
+      "downloads": 19510,
+      "stars": 21,
+      "installs_all_time": 15,
+      "installs_current": 15
+    },
+    {
+      "run_date": "2026-05-03T03:42:13.922530",
+      "downloads": 19903,
+      "stars": 22,
+      "installs_all_time": 16,
+      "installs_current": 16
+    },
+    {
+      "run_date": "2026-05-05T00:41:38.231465",
+      "downloads": 20599,
+      "stars": 22,
+      "installs_all_time": 16,
+      "installs_current": 16
+    },
+    {
+      "run_date": "2026-05-05T03:00:00.321955",
+      "downloads": 20671,
+      "stars": 22,
+      "installs_all_time": 16,
+      "installs_current": 16
+    },
+    {
+      "run_date": "2026-05-06T03:00:00.570710",
+      "downloads": 21053,
+      "stars": 22,
+      "installs_all_time": 16,
+      "installs_current": 16
+    },
+    {
+      "run_date": "2026-05-07T03:00:00.572063",
+      "downloads": 21478,
+      "stars": 23,
+      "installs_all_time": 16,
+      "installs_current": 16
+    },
+    {
+      "run_date": "2026-05-09T03:44:10.833903",
+      "downloads": 22217,
+      "stars": 24,
+      "installs_all_time": 17,
+      "installs_current": 17
+    },
+    {
+      "run_date": "2026-05-10T03:00:00.531823",
+      "downloads": 22594,
+      "stars": 24,
+      "installs_all_time": 17,
+      "installs_current": 17
+    },
+    {
+      "run_date": "2026-05-11T03:00:00.316612",
+      "downloads": 22773,
+      "stars": 25,
+      "installs_all_time": 17,
+      "installs_current": 17
+    }
+  ],
+  "version_releases": [
+    {
+      "version_number": "1.0.21",
+      "run_date": "2026-04-07T08:32:21.256392",
+      "changelog": "- Added support for an optional BILIBILI_PERSIST environment variable to enable persistent credential storage across sessions.\n- Updated documentation to describe new automatic credential persistence, loading, and explicit deletion methods.\n- By default, credentials remain in-memory and are not saved unless persistence is enabled.\n- security and privacy section revised to clarify credential storage options and best practices."
+    },
+    {
+      "version_number": "1.0.24",
+      "run_date": "2026-05-03T03:42:13.922530",
+      "changelog": "Version 1.0.24\n\n- Improved video/audio downloader logic in `src/downloader.py` for greater robustness and precision.\n- Refactored and enhanced utility functions in `src/utils.py` to improve maintainability and efficiency.\n- Updated `skill.json` with corresponding version and metadata adjustments."
+    }
+  ]
+}

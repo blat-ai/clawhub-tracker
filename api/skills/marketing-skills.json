@@ -1,0 +1,338 @@
+{
+  "skill_id": "kd73w2fx6hmzkqg304mxq0evj57znqz0",
+  "slug": "marketing-skills",
+  "display_name": "Marketing Skills",
+  "summary": "Access 23 marketing modules offering checklists, frameworks, and ready-to-use deliverables for CRO, SEO, copywriting, analytics, launches, ads, and social me...",
+  "owner_handle": "jchopard69",
+  "owner_image": "https://avatars.githubusercontent.com/u/252077042?v=4",
+  "created_at": "2026-01-21T13:50:03.855000",
+  "days_old": 109,
+  "stat_downloads": 16138,
+  "stat_stars": 108,
+  "tags": {
+    "analytics": "k97eavb14hqg028r4g8ef2mqk97zmvnb",
+    "copywriting": "k97eavb14hqg028r4g8ef2mqk97zmvnb",
+    "cro": "k97eavb14hqg028r4g8ef2mqk97zmvnb",
+    "latest": "k97eavb14hqg028r4g8ef2mqk97zmvnb",
+    "marketing": "k97eavb14hqg028r4g8ef2mqk97zmvnb",
+    "seo": "k97eavb14hqg028r4g8ef2mqk97zmvnb"
+  },
+  "badges": null,
+  "stat_installs": 119,
+  "stat_comments": 0,
+  "current_version": "0.1.2",
+  "is_highlighted": false,
+  "is_suspicious": false,
+  "velocity": 148.1,
+  "acceleration_pct": -26.9,
+  "dl_delta": 64,
+  "dl_wow": 0.4,
+  "star_delta": 1,
+  "star_wow": 0.9,
+  "installs_delta": 0,
+  "installs_wow": 0.0,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 12415,
+      "stars": 89,
+      "installs_all_time": 87,
+      "installs_current": 84
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 12466,
+      "stars": 89,
+      "installs_all_time": 90,
+      "installs_current": 87
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 12592,
+      "stars": 89,
+      "installs_all_time": 92,
+      "installs_current": 89
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 12686,
+      "stars": 89,
+      "installs_all_time": 92,
+      "installs_current": 89
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 12759,
+      "stars": 91,
+      "installs_all_time": 93,
+      "installs_current": 90
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 12864,
+      "stars": 92,
+      "installs_all_time": 97,
+      "installs_current": 94
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 13042,
+      "stars": 93,
+      "installs_all_time": 98,
+      "installs_current": 95
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 13063,
+      "stars": 93,
+      "installs_all_time": 98,
+      "installs_current": 95
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 13089,
+      "stars": 93,
+      "installs_all_time": 98,
+      "installs_current": 95
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 13203,
+      "stars": 93,
+      "installs_all_time": 99,
+      "installs_current": 96
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 13347,
+      "stars": 93,
+      "installs_all_time": 100,
+      "installs_current": 97
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 13347,
+      "stars": 93,
+      "installs_all_time": 100,
+      "installs_current": 97
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 13376,
+      "stars": 93,
+      "installs_all_time": 102,
+      "installs_current": 99
+    },
+    {
+      "run_date": "2026-03-29T03:00:00.679954",
+      "downloads": 13438,
+      "stars": 94,
+      "installs_all_time": 102,
+      "installs_current": 99
+    },
+    {
+      "run_date": "2026-03-30T03:00:00.682509",
+      "downloads": 13517,
+      "stars": 94,
+      "installs_all_time": 102,
+      "installs_current": 99
+    },
+    {
+      "run_date": "2026-03-31T03:00:00.702238",
+      "downloads": 13598,
+      "stars": 94,
+      "installs_all_time": 104,
+      "installs_current": 101
+    },
+    {
+      "run_date": "2026-04-01T03:00:00.631568",
+      "downloads": 13690,
+      "stars": 95,
+      "installs_all_time": 108,
+      "installs_current": 105
+    },
+    {
+      "run_date": "2026-04-07T08:32:21.256392",
+      "downloads": 14147,
+      "stars": 97,
+      "installs_all_time": 110,
+      "installs_current": 107
+    },
+    {
+      "run_date": "2026-04-08T02:59:53.612026",
+      "downloads": 14190,
+      "stars": 97,
+      "installs_all_time": 110,
+      "installs_current": 107
+    },
+    {
+      "run_date": "2026-04-09T03:00:00.814082",
+      "downloads": 14262,
+      "stars": 97,
+      "installs_all_time": 111,
+      "installs_current": 108
+    },
+    {
+      "run_date": "2026-04-10T03:00:00.610465",
+      "downloads": 14338,
+      "stars": 97,
+      "installs_all_time": 112,
+      "installs_current": 109
+    },
+    {
+      "run_date": "2026-04-11T03:00:00.635800",
+      "downloads": 14403,
+      "stars": 97,
+      "installs_all_time": 112,
+      "installs_current": 109
+    },
+    {
+      "run_date": "2026-04-12T03:00:00.326052",
+      "downloads": 14457,
+      "stars": 97,
+      "installs_all_time": 112,
+      "installs_current": 109
+    },
+    {
+      "run_date": "2026-04-13T03:00:00.295537",
+      "downloads": 14512,
+      "stars": 97,
+      "installs_all_time": 112,
+      "installs_current": 109
+    },
+    {
+      "run_date": "2026-04-18T02:59:55.390364",
+      "downloads": 14838,
+      "stars": 99,
+      "installs_all_time": 115,
+      "installs_current": 112
+    },
+    {
+      "run_date": "2026-04-19T03:00:00.676118",
+      "downloads": 14872,
+      "stars": 99,
+      "installs_all_time": 115,
+      "installs_current": 112
+    },
+    {
+      "run_date": "2026-04-20T03:00:00.599318",
+      "downloads": 14909,
+      "stars": 99,
+      "installs_all_time": 115,
+      "installs_current": 112
+    },
+    {
+      "run_date": "2026-04-21T03:00:00.575737",
+      "downloads": 14956,
+      "stars": 99,
+      "installs_all_time": 115,
+      "installs_current": 112
+    },
+    {
+      "run_date": "2026-04-22T03:00:00.762090",
+      "downloads": 14994,
+      "stars": 100,
+      "installs_all_time": 116,
+      "installs_current": 113
+    },
+    {
+      "run_date": "2026-04-23T03:00:00.767159",
+      "downloads": 15032,
+      "stars": 100,
+      "installs_all_time": 116,
+      "installs_current": 113
+    },
+    {
+      "run_date": "2026-04-24T03:00:00.604086",
+      "downloads": 15081,
+      "stars": 100,
+      "installs_all_time": 117,
+      "installs_current": 114
+    },
+    {
+      "run_date": "2026-04-28T02:59:56.742214",
+      "downloads": 15245,
+      "stars": 103,
+      "installs_all_time": 118,
+      "installs_current": 115
+    },
+    {
+      "run_date": "2026-04-29T03:01:44.166793",
+      "downloads": 15271,
+      "stars": 103,
+      "installs_all_time": 118,
+      "installs_current": 115
+    },
+    {
+      "run_date": "2026-04-30T03:00:00.711115",
+      "downloads": 15336,
+      "stars": 105,
+      "installs_all_time": 118,
+      "installs_current": 114
+    },
+    {
+      "run_date": "2026-05-02T02:59:59.833385",
+      "downloads": 15430,
+      "stars": 105,
+      "installs_all_time": 118,
+      "installs_current": 114
+    },
+    {
+      "run_date": "2026-05-03T03:42:13.922530",
+      "downloads": 15480,
+      "stars": 105,
+      "installs_all_time": 118,
+      "installs_current": 114
+    },
+    {
+      "run_date": "2026-05-05T00:41:38.231465",
+      "downloads": 15602,
+      "stars": 105,
+      "installs_all_time": 118,
+      "installs_current": 114
+    },
+    {
+      "run_date": "2026-05-05T03:00:00.321955",
+      "downloads": 15614,
+      "stars": 105,
+      "installs_all_time": 118,
+      "installs_current": 114
+    },
+    {
+      "run_date": "2026-05-06T03:00:00.570710",
+      "downloads": 15699,
+      "stars": 106,
+      "installs_all_time": 118,
+      "installs_current": 114
+    },
+    {
+      "run_date": "2026-05-07T03:00:00.572063",
+      "downloads": 15800,
+      "stars": 107,
+      "installs_all_time": 118,
+      "installs_current": 114
+    },
+    {
+      "run_date": "2026-05-09T03:44:10.833903",
+      "downloads": 16002,
+      "stars": 107,
+      "installs_all_time": 119,
+      "installs_current": 115
+    },
+    {
+      "run_date": "2026-05-10T03:00:00.531823",
+      "downloads": 16074,
+      "stars": 107,
+      "installs_all_time": 119,
+      "installs_current": 115
+    },
+    {
+      "run_date": "2026-05-11T03:00:00.316612",
+      "downloads": 16138,
+      "stars": 108,
+      "installs_all_time": 119,
+      "installs_current": 115
+    }
+  ],
+  "version_releases": []
+}

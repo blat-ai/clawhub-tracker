@@ -1,0 +1,53 @@
+{
+  "skill_id": "kd743btqsx31dc7xywvk9g9sbn86cxz0",
+  "slug": "codex-pet",
+  "display_name": "\ud83e\udee7 Codex Pet \u2014 Pro Pack on RunComfy",
+  "summary": "Codex Pet generator on RunComfy. Build a Codex-compatible Codex Pet spritesheet.webp + pet.json from a single reference image, drop it into `${CODEX_HOME:-$H...",
+  "owner_handle": "kalvinrv",
+  "owner_image": "https://avatars.githubusercontent.com/u/58277734?v=4",
+  "created_at": "2026-05-09T03:18:31.480000",
+  "days_old": 2,
+  "stat_downloads": 1162,
+  "stat_stars": 1,
+  "tags": {
+    "latest": "k979k3rzm36p2pgx98sp0m075s86d326"
+  },
+  "badges": null,
+  "stat_installs": 0,
+  "stat_comments": 0,
+  "current_version": "0.1.0",
+  "is_highlighted": false,
+  "is_suspicious": false,
+  "velocity": 581.0,
+  "acceleration_pct": null,
+  "dl_delta": 613,
+  "dl_wow": 111.7,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 0,
+  "installs_wow": null,
+  "history": [
+    {
+      "run_date": "2026-05-09T03:44:10.833903",
+      "downloads": 0,
+      "stars": 0,
+      "installs_all_time": 0,
+      "installs_current": 0
+    },
+    {
+      "run_date": "2026-05-10T03:00:00.531823",
+      "downloads": 549,
+      "stars": 1,
+      "installs_all_time": 0,
+      "installs_current": 0
+    },
+    {
+      "run_date": "2026-05-11T03:00:00.316612",
+      "downloads": 1162,
+      "stars": 1,
+      "installs_all_time": 0,
+      "installs_current": 0
+    }
+  ],
+  "version_releases": []
+}

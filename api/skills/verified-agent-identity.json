@@ -1,0 +1,340 @@
+{
+  "skill_id": "kd7b97kjjk0bw82adpzs89xgsx81hxrv",
+  "slug": "verified-agent-identity",
+  "display_name": "Verified Agent Identity",
+  "summary": "Billions decentralized identity for agents. Link agents to human identities using Billions ERC-8004 and Attestation Registries. Verify and generate authentic...",
+  "owner_handle": "obrezhniev",
+  "owner_image": "https://avatars.githubusercontent.com/u/6230831?v=4",
+  "created_at": "2026-02-20T15:49:43.716000",
+  "days_old": 79,
+  "stat_downloads": 16728,
+  "stat_stars": 58,
+  "tags": {
+    "latest": "k97f32kkb3neg5pmjnfb7v41g9866cnz"
+  },
+  "badges": null,
+  "stat_installs": 71,
+  "stat_comments": 0,
+  "current_version": "1.12.13",
+  "is_highlighted": false,
+  "is_suspicious": false,
+  "velocity": 211.7,
+  "acceleration_pct": -45.8,
+  "dl_delta": 71,
+  "dl_wow": 0.4,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 0,
+  "installs_wow": 0.0,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 7675,
+      "stars": 16,
+      "installs_all_time": 12,
+      "installs_current": 12
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 8409,
+      "stars": 19,
+      "installs_all_time": 12,
+      "installs_current": 12
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 8978,
+      "stars": 19,
+      "installs_all_time": 12,
+      "installs_current": 12
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 9412,
+      "stars": 20,
+      "installs_all_time": 14,
+      "installs_current": 14
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 9783,
+      "stars": 20,
+      "installs_all_time": 14,
+      "installs_current": 14
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 10284,
+      "stars": 20,
+      "installs_all_time": 14,
+      "installs_current": 14
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 10326,
+      "stars": 20,
+      "installs_all_time": 14,
+      "installs_current": 14
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 10411,
+      "stars": 20,
+      "installs_all_time": 14,
+      "installs_current": 14
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 10657,
+      "stars": 20,
+      "installs_all_time": 15,
+      "installs_current": 14
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 11009,
+      "stars": 20,
+      "installs_all_time": 15,
+      "installs_current": 14
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 11009,
+      "stars": 20,
+      "installs_all_time": 15,
+      "installs_current": 14
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 11100,
+      "stars": 20,
+      "installs_all_time": 15,
+      "installs_current": 14
+    },
+    {
+      "run_date": "2026-03-29T03:00:00.679954",
+      "downloads": 11265,
+      "stars": 20,
+      "installs_all_time": 15,
+      "installs_current": 14
+    },
+    {
+      "run_date": "2026-03-30T03:00:00.682509",
+      "downloads": 11431,
+      "stars": 20,
+      "installs_all_time": 15,
+      "installs_current": 14
+    },
+    {
+      "run_date": "2026-03-31T03:00:00.702238",
+      "downloads": 11566,
+      "stars": 20,
+      "installs_all_time": 15,
+      "installs_current": 14
+    },
+    {
+      "run_date": "2026-04-01T03:00:00.631568",
+      "downloads": 11671,
+      "stars": 20,
+      "installs_all_time": 16,
+      "installs_current": 15
+    },
+    {
+      "run_date": "2026-04-07T08:32:21.256392",
+      "downloads": 12021,
+      "stars": 21,
+      "installs_all_time": 16,
+      "installs_current": 15
+    },
+    {
+      "run_date": "2026-04-08T02:59:53.612026",
+      "downloads": 12052,
+      "stars": 21,
+      "installs_all_time": 16,
+      "installs_current": 15
+    },
+    {
+      "run_date": "2026-04-09T03:00:00.814082",
+      "downloads": 12102,
+      "stars": 21,
+      "installs_all_time": 16,
+      "installs_current": 15
+    },
+    {
+      "run_date": "2026-04-10T03:00:00.610465",
+      "downloads": 12156,
+      "stars": 22,
+      "installs_all_time": 16,
+      "installs_current": 15
+    },
+    {
+      "run_date": "2026-04-11T03:00:00.635800",
+      "downloads": 12243,
+      "stars": 23,
+      "installs_all_time": 16,
+      "installs_current": 15
+    },
+    {
+      "run_date": "2026-04-12T03:00:00.326052",
+      "downloads": 12280,
+      "stars": 24,
+      "installs_all_time": 17,
+      "installs_current": 16
+    },
+    {
+      "run_date": "2026-04-13T03:00:00.295537",
+      "downloads": 12313,
+      "stars": 24,
+      "installs_all_time": 17,
+      "installs_current": 16
+    },
+    {
+      "run_date": "2026-04-18T02:59:55.390364",
+      "downloads": 12574,
+      "stars": 26,
+      "installs_all_time": 17,
+      "installs_current": 16
+    },
+    {
+      "run_date": "2026-04-19T03:00:00.676118",
+      "downloads": 12616,
+      "stars": 26,
+      "installs_all_time": 17,
+      "installs_current": 16
+    },
+    {
+      "run_date": "2026-04-20T03:00:00.599318",
+      "downloads": 12652,
+      "stars": 26,
+      "installs_all_time": 17,
+      "installs_current": 16
+    },
+    {
+      "run_date": "2026-04-21T03:00:00.575737",
+      "downloads": 12783,
+      "stars": 26,
+      "installs_all_time": 17,
+      "installs_current": 16
+    },
+    {
+      "run_date": "2026-04-22T03:00:00.762090",
+      "downloads": 12885,
+      "stars": 27,
+      "installs_all_time": 17,
+      "installs_current": 16
+    },
+    {
+      "run_date": "2026-04-23T03:00:00.767159",
+      "downloads": 12947,
+      "stars": 27,
+      "installs_all_time": 17,
+      "installs_current": 16
+    },
+    {
+      "run_date": "2026-04-24T03:00:00.604086",
+      "downloads": 13034,
+      "stars": 27,
+      "installs_all_time": 17,
+      "installs_current": 16
+    },
+    {
+      "run_date": "2026-04-28T02:59:56.742214",
+      "downloads": 13338,
+      "stars": 27,
+      "installs_all_time": 18,
+      "installs_current": 17
+    },
+    {
+      "run_date": "2026-04-29T03:01:44.166793",
+      "downloads": 13816,
+      "stars": 28,
+      "installs_all_time": 23,
+      "installs_current": 22
+    },
+    {
+      "run_date": "2026-04-30T03:00:00.711115",
+      "downloads": 14556,
+      "stars": 33,
+      "installs_all_time": 33,
+      "installs_current": 31
+    },
+    {
+      "run_date": "2026-05-02T02:59:59.833385",
+      "downloads": 15600,
+      "stars": 42,
+      "installs_all_time": 62,
+      "installs_current": 57
+    },
+    {
+      "run_date": "2026-05-05T00:41:38.231465",
+      "downloads": 16184,
+      "stars": 54,
+      "installs_all_time": 71,
+      "installs_current": 65
+    },
+    {
+      "run_date": "2026-05-05T03:00:00.321955",
+      "downloads": 16205,
+      "stars": 54,
+      "installs_all_time": 71,
+      "installs_current": 65
+    },
+    {
+      "run_date": "2026-05-06T03:00:00.570710",
+      "downloads": 16320,
+      "stars": 54,
+      "installs_all_time": 71,
+      "installs_current": 65
+    },
+    {
+      "run_date": "2026-05-07T03:00:00.572063",
+      "downloads": 16469,
+      "stars": 54,
+      "installs_all_time": 71,
+      "installs_current": 65
+    },
+    {
+      "run_date": "2026-05-09T03:44:10.833903",
+      "downloads": 16585,
+      "stars": 55,
+      "installs_all_time": 71,
+      "installs_current": 65
+    },
+    {
+      "run_date": "2026-05-10T03:00:00.531823",
+      "downloads": 16657,
+      "stars": 58,
+      "installs_all_time": 71,
+      "installs_current": 65
+    },
+    {
+      "run_date": "2026-05-11T03:00:00.316612",
+      "downloads": 16728,
+      "stars": 58,
+      "installs_all_time": 71,
+      "installs_current": 65
+    }
+  ],
+  "version_releases": [
+    {
+      "version_number": "1.0.4",
+      "run_date": "2026-03-20T03:00:00.833403",
+      "changelog": "**Billions decentralized identity for agents: this version introduces robust agent-to-owner identity linking and verification using Billions ERC-8004 and attestation registries.**\n\n- Enables agents to create, manage, and link decentralized identities to a human owner via Billions Network.\n- Provides CLI scripts for identity lifecycle: creation, listing, signing/verifying challenges, and linking to human DIDs.\n- All sensitive data is securely stored in `$HOME/.openclaw/billions`; optional encryption via env variable.\n- Strict guardrails prohibit manual cryptographic operations or unauthorized key handling.\n- Follows iden3 self-sovereign identity protocol for decentralized authentication and attestation."
+    },
+    {
+      "version_number": "1.2.7",
+      "run_date": "2026-05-02T02:59:59.833385",
+      "changelog": "verified-agent-identity v1.2.7\n\n- Expanded documentation with detailed usage instructions, example flows, and security guidelines in SKILL.md.\n- Clarified strict restrictions and guardrails for handling keys and identities, emphasizing security best practices.\n- Listed all supported script commands with their usage, arguments, and outputs.\n- Specified data storage locations and the critical importance of data protection.\n- Included usage examples for typical identity linking and verification scenarios."
+    },
+    {
+      "version_number": "1.2.8",
+      "run_date": "2026-05-05T00:41:38.231465",
+      "changelog": "- Added comprehensive usage instructions for all scripts involved in managing decentralized agent identities via Billions Network.\n- Documented detailed workflow examples for linking agent and owner identities, and for verifying identity challenges.\n- Explicitly outlined critical security requirements and guardrails for identity management and key handling.\n- Explained directory structure for sensitive identity data and described files stored within.\n- Clarified scope of the skill: enabling decentralized identity creation, linking, and verification for AI agents."
+    },
+    {
+      "version_number": "1.12.13",
+      "run_date": "2026-05-07T03:00:00.572063",
+      "changelog": "## 1.12.13 Changelog\n\n- Documentation update only: README.md and SKILL.md files edited.\n- No changes to code or features.\n- Clarifies usage instructions, example flows, and guardrails for identity management.\n- No impact on existing functionality."
+    }
+  ]
+}

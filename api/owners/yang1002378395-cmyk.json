@@ -1,0 +1,1936 @@
+{
+  "handle": "yang1002378395-cmyk",
+  "total_downloads": 89449,
+  "total_stars": 19,
+  "total_installs": 335,
+  "skill_count": 164,
+  "avg_dl_per_day": 9.9,
+  "highlighted_count": 0,
+  "suspicious_count": 19,
+  "clean_pct": 88.4,
+  "dl_delta": 2172,
+  "dl_wow": 2.5,
+  "dl_per_day": 2172.0,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "star_per_day": 0,
+  "installs_delta": 2,
+  "installs_wow": 0.6,
+  "installs_per_day": 2.0,
+  "owner_display_name": "yang1002378395-cmyk",
+  "owner_name": "yang1002378395-cmyk",
+  "owner_image": "https://avatars.githubusercontent.com/u/261632147?v=4",
+  "bio": null,
+  "company": null,
+  "location": null,
+  "blog": null,
+  "public_repos": 34,
+  "followers": 1,
+  "following": 0,
+  "github_created_at": "2026-02-14T15:48:29",
+  "twitter_username": null,
+  "skills": [
+    {
+      "slug": "data-analyst-cn",
+      "display_name": "Data Analyst Cn",
+      "stat_downloads": 3714,
+      "stat_stars": 4,
+      "created_at": "2026-03-13T23:12:39.723000",
+      "days_old": 59,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "content-creator-cn",
+      "display_name": "Content Creator Cn",
+      "stat_downloads": 2840,
+      "stat_stars": 1,
+      "created_at": "2026-03-13T17:30:36.038000",
+      "days_old": 59,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ai-automation-consulting",
+      "display_name": "Ai Automation Consulting",
+      "stat_downloads": 2703,
+      "stat_stars": 2,
+      "created_at": "2026-03-14T18:47:00.132000",
+      "days_old": 58,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "wechat-automation",
+      "display_name": "Wechat Automation",
+      "stat_downloads": 2159,
+      "stat_stars": 1,
+      "created_at": "2026-03-14T18:47:37.646000",
+      "days_old": 58,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "openclaw-automation-recipes",
+      "display_name": "Openclaw Automation Recipes",
+      "stat_downloads": 1880,
+      "stat_stars": 1,
+      "created_at": "2026-03-14T21:31:50.082000",
+      "days_old": 58,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "openclaw-wechat-mp-guide",
+      "display_name": "Openclaw Wechat Mp Guide",
+      "stat_downloads": 1467,
+      "stat_stars": 2,
+      "created_at": "2026-03-14T11:11:33.100000",
+      "days_old": 58,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "quick-translation",
+      "display_name": "\u5feb\u901f\u7ffb\u8bd1",
+      "stat_downloads": 1462,
+      "stat_stars": 1,
+      "created_at": "2026-03-11T13:55:30.722000",
+      "days_old": 61,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "openclaw-troubleshoot-cn",
+      "display_name": "Openclaw Troubleshoot Cn",
+      "stat_downloads": 1453,
+      "stat_stars": 0,
+      "created_at": "2026-03-14T10:57:37.647000",
+      "days_old": 58,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "openclaw-telegram-setup",
+      "display_name": "Openclaw Telegram Setup",
+      "stat_downloads": 1408,
+      "stat_stars": 0,
+      "created_at": "2026-03-20T23:57:51.930000",
+      "days_old": 52,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "content-analytics",
+      "display_name": "Content Analytics",
+      "stat_downloads": 1269,
+      "stat_stars": 0,
+      "created_at": "2026-03-11T10:40:15.521000",
+      "days_old": 61,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ai-competitor-analyzer",
+      "display_name": "Ai Competitor Analyzer",
+      "stat_downloads": 1219,
+      "stat_stars": 0,
+      "created_at": "2026-03-15T00:58:03.934000",
+      "days_old": 57,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "openclaw-free-models",
+      "display_name": "Openclaw Free Models",
+      "stat_downloads": 1194,
+      "stat_stars": 0,
+      "created_at": "2026-03-14T11:59:27.915000",
+      "days_old": 58,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ai-agent-builder",
+      "display_name": "Ai Agent Builder",
+      "stat_downloads": 1172,
+      "stat_stars": 0,
+      "created_at": "2026-03-15T16:58:45.031000",
+      "days_old": 57,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "firecrawl-scrape-cn",
+      "display_name": "Firecrawl Scrape Cn",
+      "stat_downloads": 1160,
+      "stat_stars": 0,
+      "created_at": "2026-03-24T03:39:37.498000",
+      "days_old": 48,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ai-code-assistant",
+      "display_name": "Ai Code Assistant",
+      "stat_downloads": 1142,
+      "stat_stars": 0,
+      "created_at": "2026-03-15T00:58:52.209000",
+      "days_old": 57,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ai-employee-cn",
+      "display_name": "Ai Employee Cn",
+      "stat_downloads": 1116,
+      "stat_stars": 0,
+      "created_at": "2026-03-15T16:53:17.733000",
+      "days_old": 57,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "git-workflow-cn",
+      "display_name": "Git Workflow Cn",
+      "stat_downloads": 1052,
+      "stat_stars": 2,
+      "created_at": "2026-03-13T23:12:03.363000",
+      "days_old": 59,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "workflow-automation-cn",
+      "display_name": "Workflow Automation Cn",
+      "stat_downloads": 1018,
+      "stat_stars": 0,
+      "created_at": "2026-03-13T17:30:41.611000",
+      "days_old": 59,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "openclaw-error-fix",
+      "display_name": "Openclaw Error Fix",
+      "stat_downloads": 1016,
+      "stat_stars": 0,
+      "created_at": "2026-03-14T11:59:48.418000",
+      "days_old": 58,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ai-image-generator",
+      "display_name": "Ai Image Generator",
+      "stat_downloads": 881,
+      "stat_stars": 0,
+      "created_at": "2026-03-15T16:53:55.978000",
+      "days_old": 57,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "mini-crm",
+      "display_name": "Mini Crm",
+      "stat_downloads": 872,
+      "stat_stars": 0,
+      "created_at": "2026-03-11T10:39:06.878000",
+      "days_old": 61,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ai-intelligent-agent-platform",
+      "display_name": "Ai Intelligent Agent Platform",
+      "stat_downloads": 854,
+      "stat_stars": 0,
+      "created_at": "2026-03-16T01:03:46.935000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "api-debugger-cn",
+      "display_name": "Api Debugger Cn",
+      "stat_downloads": 822,
+      "stat_stars": 0,
+      "created_at": "2026-03-15T18:39:45.312000",
+      "days_old": 57,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "clawmart-price-monitor",
+      "display_name": "price-monitor",
+      "stat_downloads": 820,
+      "stat_stars": 0,
+      "created_at": "2026-03-11T07:56:13.656000",
+      "days_old": 61,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "git-commit-helper",
+      "display_name": "Git Commit Helper",
+      "stat_downloads": 765,
+      "stat_stars": 0,
+      "created_at": "2026-03-11T13:55:38.626000",
+      "days_old": 61,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ai-intelligent-image-generation",
+      "display_name": "Ai Intelligent Image Generation",
+      "stat_downloads": 764,
+      "stat_stars": 0,
+      "created_at": "2026-03-17T19:04:31.147000",
+      "days_old": 55,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ai-cost-calculator",
+      "display_name": "Ai Cost Calculator",
+      "stat_downloads": 728,
+      "stat_stars": 0,
+      "created_at": "2026-03-13T17:30:10.529000",
+      "days_old": 59,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "audio-tool",
+      "display_name": "Audio Tool",
+      "stat_downloads": 718,
+      "stat_stars": 0,
+      "created_at": "2026-03-15T18:40:13.423000",
+      "days_old": 57,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ad-manager",
+      "display_name": "Ad Manager",
+      "stat_downloads": 710,
+      "stat_stars": 0,
+      "created_at": "2026-03-13T17:30:24.198000",
+      "days_old": 59,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ai-intelligent-knowledge-base",
+      "display_name": "Ai Intelligent Knowledge Base",
+      "stat_downloads": 708,
+      "stat_stars": 0,
+      "created_at": "2026-03-19T04:23:50.687000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ai-marketing-automation",
+      "display_name": "AI Marketing Automation",
+      "stat_downloads": 690,
+      "stat_stars": 0,
+      "created_at": "2026-03-18T16:48:04.605000",
+      "days_old": 54,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "deepseek-api-guide",
+      "display_name": "Deepseek Api Guide",
+      "stat_downloads": 684,
+      "stat_stars": 0,
+      "created_at": "2026-03-14T12:18:21.903000",
+      "days_old": 58,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "dingtalk-connector-guide",
+      "display_name": "Dingtalk Connector Guide",
+      "stat_downloads": 682,
+      "stat_stars": 0,
+      "created_at": "2026-03-14T10:58:19.351000",
+      "days_old": 58,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "ai-content-rewriter",
+      "display_name": "Ai Content Rewriter",
+      "stat_downloads": 675,
+      "stat_stars": 0,
+      "created_at": "2026-03-15T00:58:51.943000",
+      "days_old": 57,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ab-test-analyzer",
+      "display_name": "Ab Test Analyzer",
+      "stat_downloads": 663,
+      "stat_stars": 0,
+      "created_at": "2026-03-14T21:43:53.482000",
+      "days_old": 58,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ai-intelligent-chatbot-builder",
+      "display_name": "Ai Intelligent Chatbot Builder",
+      "stat_downloads": 662,
+      "stat_stars": 0,
+      "created_at": "2026-03-15T21:41:03.706000",
+      "days_old": 57,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "wechat-bot-starter",
+      "display_name": "Wechat Bot Starter",
+      "stat_downloads": 642,
+      "stat_stars": 1,
+      "created_at": "2026-03-13T23:13:10.222000",
+      "days_old": 59,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ai-intelligent-ad-optimization",
+      "display_name": "Ai Intelligent Ad Optimization",
+      "stat_downloads": 638,
+      "stat_stars": 0,
+      "created_at": "2026-03-16T01:03:21.560000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "openclaw-business-guide",
+      "display_name": "Openclaw Business Guide",
+      "stat_downloads": 636,
+      "stat_stars": 0,
+      "created_at": "2026-03-14T12:18:22.152000",
+      "days_old": 58,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "agentic-workflow-automation-v2",
+      "display_name": "Agentic Workflow Automation",
+      "stat_downloads": 620,
+      "stat_stars": 0,
+      "created_at": "2026-03-30T09:56:42.835000",
+      "days_old": 42,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ai-intelligent-3d-model-generation",
+      "display_name": "Ai Intelligent 3d Model Generation",
+      "stat_downloads": 602,
+      "stat_stars": 0,
+      "created_at": "2026-03-16T01:03:11.450000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ai-data-visualization",
+      "display_name": "Ai Data Visualization",
+      "stat_downloads": 594,
+      "stat_stars": 0,
+      "created_at": "2026-03-15T00:59:06.206000",
+      "days_old": 57,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "cli-toolkit-cn",
+      "display_name": "Cli Toolkit Cn",
+      "stat_downloads": 579,
+      "stat_stars": 0,
+      "created_at": "2026-03-13T23:12:09.883000",
+      "days_old": 59,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "openclaw-cost-optimization",
+      "display_name": "Openclaw Cost Optimization",
+      "stat_downloads": 569,
+      "stat_stars": 0,
+      "created_at": "2026-03-14T11:12:18.183000",
+      "days_old": 58,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ai-intelligent-email-automation",
+      "display_name": "Ai Intelligent Email Automation",
+      "stat_downloads": 554,
+      "stat_stars": 0,
+      "created_at": "2026-03-19T04:24:04.246000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ai-side-hustle-agent",
+      "display_name": "AI\u526f\u4e1a\u987e\u95ee",
+      "stat_downloads": 545,
+      "stat_stars": 0,
+      "created_at": "2026-03-11T13:52:30.034000",
+      "days_old": 61,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ai-intelligent-ai-model-marketplace",
+      "display_name": "Ai Intelligent Ai Model Marketplace",
+      "stat_downloads": 540,
+      "stat_stars": 0,
+      "created_at": "2026-03-16T02:50:12.539000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "openclaw-workflow-automation",
+      "display_name": "Openclaw Workflow Automation",
+      "stat_downloads": 535,
+      "stat_stars": 0,
+      "created_at": "2026-03-24T01:34:40.274000",
+      "days_old": 48,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ad-campaign-optimizer",
+      "display_name": "Ad Campaign Optimizer",
+      "stat_downloads": 533,
+      "stat_stars": 0,
+      "created_at": "2026-03-14T21:44:01.155000",
+      "days_old": 58,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "mcp-builder-cn",
+      "display_name": "Mcp Builder",
+      "stat_downloads": 530,
+      "stat_stars": 0,
+      "created_at": "2026-03-24T02:39:59.011000",
+      "days_old": 48,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "clawmart-openclaw-setup",
+      "display_name": "OpenClaw \u5b89\u88c5\u670d\u52a1",
+      "stat_downloads": 528,
+      "stat_stars": 0,
+      "created_at": "2026-03-11T07:55:12.244000",
+      "days_old": 61,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ai-customer-service-automation",
+      "display_name": "AI Customer Service Automation",
+      "stat_downloads": 527,
+      "stat_stars": 0,
+      "created_at": "2026-03-18T16:47:50.044000",
+      "days_old": 54,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ai-copywriting-generator",
+      "display_name": "AI Copywriting Generator",
+      "stat_downloads": 522,
+      "stat_stars": 0,
+      "created_at": "2026-03-17T10:53:20.357000",
+      "days_old": 55,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "wechat-mini-program-builder",
+      "display_name": "WeChat Mini Program Builder",
+      "stat_downloads": 521,
+      "stat_stars": 1,
+      "created_at": "2026-03-17T10:47:37.795000",
+      "days_old": 55,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ai-cost-optimizer",
+      "display_name": "Ai Cost Optimizer",
+      "stat_downloads": 517,
+      "stat_stars": 0,
+      "created_at": "2026-03-15T16:53:48.143000",
+      "days_old": 57,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ai-intelligent-behavior-analysis",
+      "display_name": "Ai Intelligent Behavior Analysis",
+      "stat_downloads": 504,
+      "stat_stars": 0,
+      "created_at": "2026-03-18T20:19:03.230000",
+      "days_old": 54,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ai-intelligent-api-management",
+      "display_name": "Ai Intelligent Api Management",
+      "stat_downloads": 500,
+      "stat_stars": 1,
+      "created_at": "2026-03-18T01:31:34.812000",
+      "days_old": 54,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "side-hustle-agent",
+      "display_name": "AI \u526f\u4e1a\u987e\u95ee",
+      "stat_downloads": 499,
+      "stat_stars": 0,
+      "created_at": "2026-03-11T07:46:17.954000",
+      "days_old": 61,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "openclaw-installer-cn",
+      "display_name": "Openclaw Installer Cn",
+      "stat_downloads": 497,
+      "stat_stars": 0,
+      "created_at": "2026-03-13T23:12:43.646000",
+      "days_old": 59,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "ai-intelligent-live-chat",
+      "display_name": "Ai Intelligent Live Chat",
+      "stat_downloads": 496,
+      "stat_stars": 0,
+      "created_at": "2026-03-19T04:24:03.534000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "openclaw-quick-start",
+      "display_name": "Openclaw Quick Start",
+      "stat_downloads": 493,
+      "stat_stars": 0,
+      "created_at": "2026-03-14T10:38:58.846000",
+      "days_old": 58,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "ai-intelligent-backup-automation",
+      "display_name": "Ai Intelligent Backup Automation",
+      "stat_downloads": 490,
+      "stat_stars": 0,
+      "created_at": "2026-03-18T20:19:02.989000",
+      "days_old": 54,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "juejin-auto-publisher",
+      "display_name": "\u6398\u91d1\u81ea\u52a8\u53d1\u5e03",
+      "stat_downloads": 484,
+      "stat_stars": 0,
+      "created_at": "2026-03-11T07:52:09.193000",
+      "days_old": 61,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "ai-intelligent-audit-system",
+      "display_name": "Ai Intelligent Audit System",
+      "stat_downloads": 482,
+      "stat_stars": 0,
+      "created_at": "2026-03-18T20:19:01.988000",
+      "days_old": 54,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ai-intelligent-knowledge-qa",
+      "display_name": "Ai Intelligent Knowledge Qa",
+      "stat_downloads": 480,
+      "stat_stars": 0,
+      "created_at": "2026-03-17T19:05:23.274000",
+      "days_old": 55,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "openclaw-setup-service",
+      "display_name": "OpenClaw\u5b89\u88c5\u670d\u52a1",
+      "stat_downloads": 468,
+      "stat_stars": 0,
+      "created_at": "2026-03-11T13:54:26.207000",
+      "days_old": 61,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ai-freelancing-guide",
+      "display_name": "Ai Freelancing Guide",
+      "stat_downloads": 464,
+      "stat_stars": 0,
+      "created_at": "2026-03-15T16:53:52.199000",
+      "days_old": 57,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ai-brand-naming",
+      "display_name": "Ai Brand Naming",
+      "stat_downloads": 464,
+      "stat_stars": 0,
+      "created_at": "2026-03-15T00:58:16.484000",
+      "days_old": 57,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ai-intelligent-asset-management",
+      "display_name": "Ai Intelligent Asset Management",
+      "stat_downloads": 461,
+      "stat_stars": 0,
+      "created_at": "2026-03-18T01:32:07.082000",
+      "days_old": 54,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "bug-bounty",
+      "display_name": "Bug Bounty",
+      "stat_downloads": 460,
+      "stat_stars": 0,
+      "created_at": "2026-03-15T18:40:20.695000",
+      "days_old": 57,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "ai-intelligent-alerting-system",
+      "display_name": "Ai Intelligent Alerting System",
+      "stat_downloads": 457,
+      "stat_stars": 0,
+      "created_at": "2026-03-15T21:41:08.072000",
+      "days_old": 57,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ai-intelligent-audit-logging",
+      "display_name": "Ai Intelligent Audit Logging",
+      "stat_downloads": 455,
+      "stat_stars": 0,
+      "created_at": "2026-03-18T20:19:03.657000",
+      "days_old": 54,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "clawmart-customer-insights",
+      "display_name": "ClawMart Customer Insights",
+      "stat_downloads": 445,
+      "stat_stars": 0,
+      "created_at": "2026-03-11T10:42:22.431000",
+      "days_old": 61,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ai-intelligent-expense-reimbursement",
+      "display_name": "Ai Intelligent Expense Reimbursement",
+      "stat_downloads": 443,
+      "stat_stars": 0,
+      "created_at": "2026-03-19T04:24:28.150000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "content-monetizer",
+      "display_name": "Content Monetizer",
+      "stat_downloads": 440,
+      "stat_stars": 0,
+      "created_at": "2026-03-13T17:30:31.368000",
+      "days_old": 59,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ai-intelligent-access-control",
+      "display_name": "Ai Intelligent Access Control",
+      "stat_downloads": 439,
+      "stat_stars": 0,
+      "created_at": "2026-03-16T01:03:16.624000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "openclaw-free-search",
+      "display_name": "Openclaw Free Search",
+      "stat_downloads": 433,
+      "stat_stars": 0,
+      "created_at": "2026-03-19T12:59:50.277000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ai-intelligent-report-generator",
+      "display_name": "Ai Intelligent Report Generator",
+      "stat_downloads": 421,
+      "stat_stars": 0,
+      "created_at": "2026-03-15T21:41:12.679000",
+      "days_old": 57,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "enterprise-ai-assistant-bundle",
+      "display_name": "Enterprise AI Assistant Bundle",
+      "stat_downloads": 417,
+      "stat_stars": 0,
+      "created_at": "2026-03-17T10:25:48.426000",
+      "days_old": 55,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "openclaw-feishu-setup",
+      "display_name": "Openclaw Feishu Setup",
+      "stat_downloads": 414,
+      "stat_stars": 0,
+      "created_at": "2026-03-21T00:03:14.105000",
+      "days_old": 51,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ai-intelligent-expense-management",
+      "display_name": "Ai Intelligent Expense Management",
+      "stat_downloads": 412,
+      "stat_stars": 0,
+      "created_at": "2026-03-18T00:03:13.942000",
+      "days_old": 54,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ai-intelligent-attendance-management",
+      "display_name": "Ai Intelligent Attendance Management",
+      "stat_downloads": 410,
+      "stat_stars": 0,
+      "created_at": "2026-03-18T01:32:12.108000",
+      "days_old": 54,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ai-intelligent-contract-review",
+      "display_name": "Ai Intelligent Contract Review",
+      "stat_downloads": 408,
+      "stat_stars": 1,
+      "created_at": "2026-03-18T00:03:14.727000",
+      "days_old": 54,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "content-monetization-cn",
+      "display_name": "Content Monetization Cn",
+      "stat_downloads": 404,
+      "stat_stars": 0,
+      "created_at": "2026-03-24T04:01:07.993000",
+      "days_old": 48,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ai-intelligent-after-sales-service",
+      "display_name": "Ai Intelligent After Sales Service",
+      "stat_downloads": 404,
+      "stat_stars": 0,
+      "created_at": "2026-03-16T01:03:27.425000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ai-intelligent-employee-survey",
+      "display_name": "Ai Intelligent Employee Survey",
+      "stat_downloads": 395,
+      "stat_stars": 0,
+      "created_at": "2026-03-18T00:09:03.218000",
+      "days_old": 54,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "openclaw-cn-installer",
+      "display_name": "Openclaw Cn Installer",
+      "stat_downloads": 391,
+      "stat_stars": 0,
+      "created_at": "2026-03-19T20:40:22.491000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ai-intelligent-ar-vr-platform",
+      "display_name": "Ai Intelligent Ar Vr Platform",
+      "stat_downloads": 391,
+      "stat_stars": 0,
+      "created_at": "2026-03-18T01:31:56.126000",
+      "days_old": 54,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "clawmart-auto-invoice",
+      "display_name": "ClawMart Auto Invoice",
+      "stat_downloads": 391,
+      "stat_stars": 0,
+      "created_at": "2026-03-11T10:42:13.684000",
+      "days_old": 61,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "wecom-quickstart-cn",
+      "display_name": "\u4f01\u4e1a\u5fae\u4fe1\u5feb\u901f\u96c6\u6210\u914d\u7f6e",
+      "stat_downloads": 388,
+      "stat_stars": 0,
+      "created_at": "2026-03-20T22:11:42.511000",
+      "days_old": 52,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "reading-list",
+      "display_name": "\u9605\u8bfb\u6e05\u5355",
+      "stat_downloads": 387,
+      "stat_stars": 0,
+      "created_at": "2026-03-11T13:55:44.612000",
+      "days_old": 61,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ai-intelligent-asset-lifecycle",
+      "display_name": "Ai Intelligent Asset Lifecycle",
+      "stat_downloads": 386,
+      "stat_stars": 0,
+      "created_at": "2026-03-18T01:32:02.076000",
+      "days_old": 54,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "clawmart-quick-proposal",
+      "display_name": "quick-proposal",
+      "stat_downloads": 380,
+      "stat_stars": 0,
+      "created_at": "2026-03-11T07:56:27.585000",
+      "days_old": 61,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "openclaw-chatbot-builder",
+      "display_name": "OpenClaw \u804a\u5929\u673a\u5668\u4eba\u6784\u5efa\u5668",
+      "stat_downloads": 378,
+      "stat_stars": 0,
+      "created_at": "2026-03-15T17:59:22.482000",
+      "days_old": 57,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ai-intelligent-agriculture-monitoring",
+      "display_name": "Ai Intelligent Agriculture Monitoring",
+      "stat_downloads": 377,
+      "stat_stars": 0,
+      "created_at": "2026-03-16T02:50:08.202000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ai-intelligent-budget-management",
+      "display_name": "Ai Intelligent Budget Management",
+      "stat_downloads": 376,
+      "stat_stars": 0,
+      "created_at": "2026-03-18T00:02:41.290000",
+      "days_old": 54,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ai-enterprise-knowledge-base",
+      "display_name": "AI Enterprise Knowledge Base",
+      "stat_downloads": 374,
+      "stat_stars": 0,
+      "created_at": "2026-03-18T16:48:04.971000",
+      "days_old": 54,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ai-intelligent-content-generation",
+      "display_name": "Ai Intelligent Content Generation",
+      "stat_downloads": 371,
+      "stat_stars": 0,
+      "created_at": "2026-03-17T19:04:59.799000",
+      "days_old": 55,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ai-intelligent-blockchain-platform",
+      "display_name": "Ai Intelligent Blockchain Platform",
+      "stat_downloads": 366,
+      "stat_stars": 0,
+      "created_at": "2026-03-18T20:19:02.747000",
+      "days_old": 54,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "dingtalk-quickstart-cn",
+      "display_name": "\u9489\u9489\u5feb\u901f\u96c6\u6210\u914d\u7f6e",
+      "stat_downloads": 363,
+      "stat_stars": 0,
+      "created_at": "2026-03-20T22:10:44.991000",
+      "days_old": 52,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "quick-proposal",
+      "display_name": "Quick Proposal",
+      "stat_downloads": 362,
+      "stat_stars": 0,
+      "created_at": "2026-03-11T10:39:54.623000",
+      "days_old": 61,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ai-data-catalog",
+      "display_name": "Ai Intelligent Data Catalog",
+      "stat_downloads": 361,
+      "stat_stars": 0,
+      "created_at": "2026-03-29T12:59:30.704000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "smart-report-generator",
+      "display_name": "Smart Report Generator",
+      "stat_downloads": 361,
+      "stat_stars": 0,
+      "created_at": "2026-03-17T10:29:26.148000",
+      "days_old": 55,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ai-intelligent-helpdesk",
+      "display_name": "AI IT Helpdesk",
+      "stat_downloads": 350,
+      "stat_stars": 0,
+      "created_at": "2026-03-18T16:48:21.559000",
+      "days_old": 54,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "feishu-quickstart-cn",
+      "display_name": "\u98de\u4e66\u5feb\u901f\u96c6\u6210\u914d\u7f6e",
+      "stat_downloads": 348,
+      "stat_stars": 0,
+      "created_at": "2026-03-20T22:09:34.027000",
+      "days_old": 52,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "deepseek-quick-config",
+      "display_name": "Deepseek Quick Config",
+      "stat_downloads": 347,
+      "stat_stars": 0,
+      "created_at": "2026-03-20T23:57:18.613000",
+      "days_old": 52,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "openclaw-quickstart-cn",
+      "display_name": "Openclaw Quickstart Cn",
+      "stat_downloads": 346,
+      "stat_stars": 0,
+      "created_at": "2026-03-20T21:56:10.979000",
+      "days_old": 52,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "openclaw-money-course",
+      "display_name": "Openclaw Money Course",
+      "stat_downloads": 346,
+      "stat_stars": 0,
+      "created_at": "2026-03-14T11:51:08.123000",
+      "days_old": 58,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "zh-social-publisher",
+      "display_name": "Social Publisher",
+      "stat_downloads": 341,
+      "stat_stars": 0,
+      "created_at": "2026-03-20T02:21:27.110000",
+      "days_old": 52,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ai-resume-screener",
+      "display_name": "AI Resume Screener",
+      "stat_downloads": 338,
+      "stat_stars": 0,
+      "created_at": "2026-03-18T16:48:04.332000",
+      "days_old": 54,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ai-customer-service-scripts",
+      "display_name": "AI Customer Service Scripts Generator",
+      "stat_downloads": 338,
+      "stat_stars": 0,
+      "created_at": "2026-03-17T10:27:09.546000",
+      "days_old": 55,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ai-intelligent-employee-onboarding",
+      "display_name": "Ai Intelligent Employee Onboarding",
+      "stat_downloads": 335,
+      "stat_stars": 0,
+      "created_at": "2026-03-19T04:24:27.773000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "openclaw-task-reminder",
+      "display_name": "Openclaw Task Reminder",
+      "stat_downloads": 332,
+      "stat_stars": 1,
+      "created_at": "2026-03-19T13:03:32.492000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ai-api-manager",
+      "display_name": "Ai Intelligent Api Management",
+      "stat_downloads": 317,
+      "stat_stars": 0,
+      "created_at": "2026-03-29T11:43:23.427000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "ai-intelligent-customer-segmentation",
+      "display_name": "Ai Intelligent Customer Segmentation",
+      "stat_downloads": 314,
+      "stat_stars": 0,
+      "created_at": "2026-03-17T19:05:13.166000",
+      "days_old": 55,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ai-model-comparison",
+      "display_name": "Ai Model Comparison",
+      "stat_downloads": 310,
+      "stat_stars": 0,
+      "created_at": "2026-03-15T18:39:37.579000",
+      "days_old": 57,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ai-intelligent-demand-forecasting",
+      "display_name": "Ai Intelligent Demand Forecasting",
+      "stat_downloads": 301,
+      "stat_stars": 0,
+      "created_at": "2026-03-17T19:05:17.307000",
+      "days_old": 55,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ai-livestream-assist",
+      "display_name": "Ai Intelligent Live Streaming Assistant",
+      "stat_downloads": 296,
+      "stat_stars": 0,
+      "created_at": "2026-03-29T10:02:30.247000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "yang-openclaw-health",
+      "display_name": "Yang Openclaw Health",
+      "stat_downloads": 289,
+      "stat_stars": 0,
+      "created_at": "2026-03-19T12:38:49.873000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ai-data-governance",
+      "display_name": "Ai Intelligent Data Governance",
+      "stat_downloads": 282,
+      "stat_stars": 0,
+      "created_at": "2026-03-29T12:59:29.689000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ai-intelligent-feedback-collection",
+      "display_name": "Ai Intelligent Feedback Collection",
+      "stat_downloads": 282,
+      "stat_stars": 0,
+      "created_at": "2026-03-18T00:09:03.737000",
+      "days_old": 54,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "openclaw-discord-setup",
+      "display_name": "Openclaw Discord Setup",
+      "stat_downloads": 278,
+      "stat_stars": 0,
+      "created_at": "2026-03-21T00:02:19.598000",
+      "days_old": 51,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "openclaw-memorize",
+      "display_name": "Openclaw Memorize",
+      "stat_downloads": 268,
+      "stat_stars": 0,
+      "created_at": "2026-03-19T13:05:06.220000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "chinese-content-generator",
+      "display_name": "Chinese Content Generator",
+      "stat_downloads": 266,
+      "stat_stars": 0,
+      "created_at": "2026-03-24T04:40:31.879000",
+      "days_old": 48,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "api-quick-tester",
+      "display_name": "Api Quick Tester",
+      "stat_downloads": 265,
+      "stat_stars": 0,
+      "created_at": "2026-03-24T04:40:49.671000",
+      "days_old": 48,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "openclaw-ai-cost-calc",
+      "display_name": "Openclaw Ai Cost Calc",
+      "stat_downloads": 265,
+      "stat_stars": 0,
+      "created_at": "2026-03-19T13:02:02.553000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ai-pricing-calculator",
+      "display_name": "AI \u4ef7\u683c\u8ba1\u7b97\u5668",
+      "stat_downloads": 259,
+      "stat_stars": 0,
+      "created_at": "2026-03-19T20:54:14.531000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "openclaw-cost-calculator",
+      "display_name": "OpenClaw \u6210\u672c\u8ba1\u7b97\u5668",
+      "stat_downloads": 256,
+      "stat_stars": 0,
+      "created_at": "2026-03-20T22:13:10.124000",
+      "days_old": 52,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "pricing-calculator-cn",
+      "display_name": "Pricing Calculator Cn",
+      "stat_downloads": 252,
+      "stat_stars": 0,
+      "created_at": "2026-03-24T04:01:39.156000",
+      "days_old": 48,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "react-best-practices-cn",
+      "display_name": "React Best Practices Cn",
+      "stat_downloads": 247,
+      "stat_stars": 0,
+      "created_at": "2026-03-24T03:40:17.884000",
+      "days_old": 48,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ai-face-recognition",
+      "display_name": "Ai Intelligent Face Recognition",
+      "stat_downloads": 246,
+      "stat_stars": 0,
+      "created_at": "2026-03-29T09:01:52.153000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ai-3d-model-maker",
+      "display_name": "Ai Intelligent 3d Model Generation",
+      "stat_downloads": 244,
+      "stat_stars": 0,
+      "created_at": "2026-03-29T09:02:05.649000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "openclaw-client-onboarding",
+      "display_name": "Openclaw Client Onboarding",
+      "stat_downloads": 240,
+      "stat_stars": 0,
+      "created_at": "2026-03-20T23:53:48.784000",
+      "days_old": 52,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ai-knowledge-qa",
+      "display_name": "Ai Intelligent Knowledge Qa",
+      "stat_downloads": 239,
+      "stat_stars": 0,
+      "created_at": "2026-03-29T09:02:36.111000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ai-3d-model-gen",
+      "display_name": "Ai Intelligent 3d Model Generation",
+      "stat_downloads": 235,
+      "stat_stars": 0,
+      "created_at": "2026-03-29T11:43:08.218000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "ai-ad-optimizer",
+      "display_name": "Ai Intelligent Ad Optimization",
+      "stat_downloads": 235,
+      "stat_stars": 0,
+      "created_at": "2026-03-29T09:01:24.389000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "wechat-quick-setup",
+      "display_name": "Wechat Quick Setup",
+      "stat_downloads": 232,
+      "stat_stars": 0,
+      "created_at": "2026-03-24T04:40:47.620000",
+      "days_old": 48,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ai-fraud-detect",
+      "display_name": "Ai Intelligent Fraud Detection",
+      "stat_downloads": 227,
+      "stat_stars": 0,
+      "created_at": "2026-03-29T10:02:44.683000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "github-ops-v2",
+      "display_name": "Github Ops",
+      "stat_downloads": 218,
+      "stat_stars": 0,
+      "created_at": "2026-03-30T09:56:56.524000",
+      "days_old": 42,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "openclaw-automation-guide",
+      "display_name": "Openclaw Automation Guide",
+      "stat_downloads": 216,
+      "stat_stars": 0,
+      "created_at": "2026-03-28T04:26:09.890000",
+      "days_old": 44,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "code-review-service",
+      "display_name": "Code Review Service",
+      "stat_downloads": 215,
+      "stat_stars": 0,
+      "created_at": "2026-03-28T04:39:29.204000",
+      "days_old": 44,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ai-freelance-helper",
+      "display_name": "Ai Freelance Helper",
+      "stat_downloads": 214,
+      "stat_stars": 0,
+      "created_at": "2026-03-27T20:55:29.278000",
+      "days_old": 45,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ai-blockchain-platform",
+      "display_name": "Ai Intelligent Blockchain Platform",
+      "stat_downloads": 211,
+      "stat_stars": 0,
+      "created_at": "2026-03-29T11:43:24.746000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ai-content-gen",
+      "display_name": "Ai Intelligent Content Generation",
+      "stat_downloads": 211,
+      "stat_stars": 0,
+      "created_at": "2026-03-29T09:01:51.369000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ai-ar-vr-platform",
+      "display_name": "Ai Intelligent Ar Vr Platform",
+      "stat_downloads": 208,
+      "stat_stars": 0,
+      "created_at": "2026-03-29T11:43:23.964000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "openclaw-api-reference",
+      "display_name": "Openclaw Api Reference",
+      "stat_downloads": 208,
+      "stat_stars": 0,
+      "created_at": "2026-03-28T04:26:09.605000",
+      "days_old": 44,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ai-call-center",
+      "display_name": "Ai Intelligent Call Center",
+      "stat_downloads": 206,
+      "stat_stars": 0,
+      "created_at": "2026-03-29T11:43:39.871000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ai-project-pricing-cn",
+      "display_name": "Ai Project Pricing Cn",
+      "stat_downloads": 206,
+      "stat_stars": 0,
+      "created_at": "2026-03-25T04:36:08.947000",
+      "days_old": 47,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "claude-api-cn",
+      "display_name": "Claude Api Cn",
+      "stat_downloads": 206,
+      "stat_stars": 0,
+      "created_at": "2026-03-24T03:40:01.316000",
+      "days_old": 48,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "ai-defect-detection",
+      "display_name": "Ai Intelligent Defect Detection",
+      "stat_downloads": 205,
+      "stat_stars": 0,
+      "created_at": "2026-03-29T12:59:29.989000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ai-cv-platform",
+      "display_name": "Ai Intelligent Cv Platform",
+      "stat_downloads": 198,
+      "stat_stars": 0,
+      "created_at": "2026-03-29T10:02:43.880000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "agent-quick-start",
+      "display_name": "Agent Quick Start",
+      "stat_downloads": 198,
+      "stat_stars": 0,
+      "created_at": "2026-03-28T04:26:38.695000",
+      "days_old": 44,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "skill-creator-cn",
+      "display_name": "Skill Creator",
+      "stat_downloads": 197,
+      "stat_stars": 0,
+      "created_at": "2026-03-24T02:39:11.764000",
+      "days_old": 48,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ai-cost-calculator-cn",
+      "display_name": "Ai Cost Calculator",
+      "stat_downloads": 196,
+      "stat_stars": 0,
+      "created_at": "2026-03-28T05:42:09.607000",
+      "days_old": 44,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "feishu-openclaw-integration",
+      "display_name": "Feishu Openclaw Integration",
+      "stat_downloads": 192,
+      "stat_stars": 0,
+      "created_at": "2026-03-28T04:25:55.134000",
+      "days_old": 44,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ai-cost-optimizer-cn",
+      "display_name": "Ai Cost Optimizer",
+      "stat_downloads": 190,
+      "stat_stars": 0,
+      "created_at": "2026-03-25T18:44:00.866000",
+      "days_old": 47,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "webapp-testing-cn",
+      "display_name": "Webapp Testing",
+      "stat_downloads": 185,
+      "stat_stars": 0,
+      "created_at": "2026-03-24T02:40:00.186000",
+      "days_old": 48,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "ai-customer-segment",
+      "display_name": "Ai Intelligent Customer Segmentation",
+      "stat_downloads": 184,
+      "stat_stars": 0,
+      "created_at": "2026-03-29T10:02:44.168000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "openclaw-cn-installer-v2",
+      "display_name": "Openclaw Installer",
+      "stat_downloads": 181,
+      "stat_stars": 0,
+      "created_at": "2026-03-29T05:28:24.025000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "ai-demand-forecast",
+      "display_name": "Ai Intelligent Demand Forecasting",
+      "stat_downloads": 180,
+      "stat_stars": 0,
+      "created_at": "2026-03-29T10:02:45.290000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ai-churn-prediction",
+      "display_name": "Ai Intelligent Churn Prediction",
+      "stat_downloads": 170,
+      "stat_stars": 0,
+      "created_at": "2026-03-29T12:59:32.011000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ai-cost-calculator-v2",
+      "display_name": "Ai Cost Calculator",
+      "stat_downloads": 167,
+      "stat_stars": 0,
+      "created_at": "2026-03-30T09:55:53.990000",
+      "days_old": 42,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "docx-processor-cn",
+      "display_name": "Docx",
+      "stat_downloads": 155,
+      "stat_stars": 0,
+      "created_at": "2026-03-24T02:39:34.554000",
+      "days_old": 48,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "pdf-processor-cn",
+      "display_name": "Pdf",
+      "stat_downloads": 150,
+      "stat_stars": 0,
+      "created_at": "2026-03-24T02:39:32.231000",
+      "days_old": 48,
+      "is_highlighted": false,
+      "is_suspicious": false
+    }
+  ],
+  "trajectory": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 10752,
+      "stars": 2
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 11621,
+      "stars": 2
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 13843,
+      "stars": 2
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 15255,
+      "stars": 2
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 16667,
+      "stars": 2
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 18164,
+      "stars": 2
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 21294,
+      "stars": 2
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 21543,
+      "stars": 2
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 22074,
+      "stars": 2
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 23362,
+      "stars": 2
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 26122,
+      "stars": 4
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 26122,
+      "stars": 4
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 26648,
+      "stars": 4
+    },
+    {
+      "run_date": "2026-03-29T03:00:00.679954",
+      "downloads": 27925,
+      "stars": 5
+    },
+    {
+      "run_date": "2026-03-30T03:00:00.682509",
+      "downloads": 29213,
+      "stars": 6
+    },
+    {
+      "run_date": "2026-03-31T03:00:00.702238",
+      "downloads": 30583,
+      "stars": 5
+    },
+    {
+      "run_date": "2026-04-01T03:00:00.631568",
+      "downloads": 32491,
+      "stars": 5
+    },
+    {
+      "run_date": "2026-04-07T08:32:21.256392",
+      "downloads": 40043,
+      "stars": 6
+    },
+    {
+      "run_date": "2026-04-08T02:59:53.612026",
+      "downloads": 41003,
+      "stars": 6
+    },
+    {
+      "run_date": "2026-04-09T03:00:00.814082",
+      "downloads": 42602,
+      "stars": 7
+    },
+    {
+      "run_date": "2026-04-10T03:00:00.610465",
+      "downloads": 44274,
+      "stars": 7
+    },
+    {
+      "run_date": "2026-04-11T03:00:00.635800",
+      "downloads": 46126,
+      "stars": 7
+    },
+    {
+      "run_date": "2026-04-12T03:00:00.326052",
+      "downloads": 47177,
+      "stars": 7
+    },
+    {
+      "run_date": "2026-04-13T03:00:00.295537",
+      "downloads": 48219,
+      "stars": 7
+    },
+    {
+      "run_date": "2026-04-18T02:59:55.390364",
+      "downloads": 54319,
+      "stars": 10
+    },
+    {
+      "run_date": "2026-04-19T03:00:00.676118",
+      "downloads": 55780,
+      "stars": 10
+    },
+    {
+      "run_date": "2026-04-20T03:00:00.599318",
+      "downloads": 56936,
+      "stars": 10
+    },
+    {
+      "run_date": "2026-04-21T03:00:00.575737",
+      "downloads": 57960,
+      "stars": 12
+    },
+    {
+      "run_date": "2026-04-22T03:00:00.762090",
+      "downloads": 59134,
+      "stars": 13
+    },
+    {
+      "run_date": "2026-04-23T03:00:00.767159",
+      "downloads": 60439,
+      "stars": 13
+    },
+    {
+      "run_date": "2026-04-24T03:00:00.604086",
+      "downloads": 61751,
+      "stars": 13
+    },
+    {
+      "run_date": "2026-04-28T02:59:56.742214",
+      "downloads": 66361,
+      "stars": 16
+    },
+    {
+      "run_date": "2026-04-29T03:01:44.166793",
+      "downloads": 68159,
+      "stars": 17
+    },
+    {
+      "run_date": "2026-04-30T03:00:00.711115",
+      "downloads": 69659,
+      "stars": 17
+    },
+    {
+      "run_date": "2026-05-02T02:59:59.833385",
+      "downloads": 72055,
+      "stars": 17
+    },
+    {
+      "run_date": "2026-05-03T03:42:13.922530",
+      "downloads": 73025,
+      "stars": 17
+    },
+    {
+      "run_date": "2026-05-05T00:41:38.231465",
+      "downloads": 76080,
+      "stars": 18
+    },
+    {
+      "run_date": "2026-05-05T03:00:00.321955",
+      "downloads": 76249,
+      "stars": 18
+    },
+    {
+      "run_date": "2026-05-06T03:00:00.570710",
+      "downloads": 77863,
+      "stars": 18
+    },
+    {
+      "run_date": "2026-05-07T03:00:00.572063",
+      "downloads": 81241,
+      "stars": 18
+    },
+    {
+      "run_date": "2026-05-09T03:44:10.833903",
+      "downloads": 84964,
+      "stars": 18
+    },
+    {
+      "run_date": "2026-05-10T03:00:00.531823",
+      "downloads": 87277,
+      "stars": 19
+    },
+    {
+      "run_date": "2026-05-11T03:00:00.316612",
+      "downloads": 89449,
+      "stars": 19
+    }
+  ],
+  "download_trajectory": [
+    10752,
+    11621,
+    13843,
+    15255,
+    16667,
+    18164,
+    21294,
+    21543,
+    22074,
+    23362,
+    26122,
+    26122,
+    26648,
+    27925,
+    29213,
+    30583,
+    32491,
+    40043,
+    41003,
+    42602,
+    44274,
+    46126,
+    47177,
+    48219,
+    54319,
+    55780,
+    56936,
+    57960,
+    59134,
+    60439,
+    61751,
+    66361,
+    68159,
+    69659,
+    72055,
+    73025,
+    76080,
+    76249,
+    77863,
+    81241,
+    84964,
+    87277,
+    89449
+  ]
+}

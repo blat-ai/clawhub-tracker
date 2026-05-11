@@ -1,0 +1,876 @@
+{
+  "handle": "guohongbin-git",
+  "total_downloads": 122291,
+  "total_stars": 226,
+  "total_installs": 1014,
+  "skill_count": 58,
+  "avg_dl_per_day": 25.8,
+  "highlighted_count": 0,
+  "suspicious_count": 11,
+  "clean_pct": 81.0,
+  "dl_delta": 1470,
+  "dl_wow": 1.2,
+  "dl_per_day": 1470.0,
+  "star_delta": 5,
+  "star_wow": 2.3,
+  "star_per_day": 5.0,
+  "installs_delta": 10,
+  "installs_wow": 1.0,
+  "installs_per_day": 10.0,
+  "owner_display_name": "Guohongbin",
+  "owner_name": "guohongbin-git",
+  "owner_image": "https://avatars.githubusercontent.com/u/202475309?v=4",
+  "bio": null,
+  "company": null,
+  "location": null,
+  "blog": null,
+  "public_repos": 49,
+  "followers": 2,
+  "following": 5,
+  "github_created_at": "2025-03-09T03:52:34",
+  "twitter_username": null,
+  "skills": [
+    {
+      "slug": "skill-finder-cn",
+      "display_name": "Skill Finder Cn",
+      "stat_downloads": 35576,
+      "stat_stars": 122,
+      "created_at": "2026-02-17T10:16:29.748000",
+      "days_old": 83,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "wechat-mp-cn",
+      "display_name": "WeChat MP CN",
+      "stat_downloads": 11860,
+      "stat_stars": 45,
+      "created_at": "2026-02-19T07:09:44.899000",
+      "days_old": 81,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "market-analysis-cn",
+      "display_name": "Market Analysis CN | \u5e02\u573a\u5206\u6790\u670d\u52a1",
+      "stat_downloads": 10737,
+      "stat_stars": 21,
+      "created_at": "2026-02-17T14:53:51.884000",
+      "days_old": 83,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "xiaohongshu-cn",
+      "display_name": "Xiaohongshu CN",
+      "stat_downloads": 7122,
+      "stat_stars": 9,
+      "created_at": "2026-02-19T02:11:10.090000",
+      "days_old": 81,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "docx-cn",
+      "display_name": "Docx Cn",
+      "stat_downloads": 6280,
+      "stat_stars": 1,
+      "created_at": "2026-02-17T09:39:55.206000",
+      "days_old": 83,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "xlsx-cn",
+      "display_name": "Xlsx Cn",
+      "stat_downloads": 6234,
+      "stat_stars": 2,
+      "created_at": "2026-02-17T09:40:07.018000",
+      "days_old": 83,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "github-trending-cn",
+      "display_name": "Github Trending Cn",
+      "stat_downloads": 6057,
+      "stat_stars": 5,
+      "created_at": "2026-02-21T10:17:11.200000",
+      "days_old": 79,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "quant-trading-cn",
+      "display_name": "Quant Trading CN",
+      "stat_downloads": 5069,
+      "stat_stars": 1,
+      "created_at": "2026-02-19T02:57:28.515000",
+      "days_old": 81,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "baidu-hot-cn",
+      "display_name": "Baidu Hot Cn",
+      "stat_downloads": 3347,
+      "stat_stars": 2,
+      "created_at": "2026-02-21T10:11:40.357000",
+      "days_old": 79,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "zhihu-hot-cn",
+      "display_name": "Zhihu Hot CN",
+      "stat_downloads": 2554,
+      "stat_stars": 2,
+      "created_at": "2026-02-19T02:09:15.581000",
+      "days_old": 81,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "pdf-cn",
+      "display_name": "Pdf Cn",
+      "stat_downloads": 1938,
+      "stat_stars": 0,
+      "created_at": "2026-02-17T09:40:00.525000",
+      "days_old": 83,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "dingtalk-feishu-cn",
+      "display_name": "dingtalk-feishu-cn",
+      "stat_downloads": 1844,
+      "stat_stars": 6,
+      "created_at": "2026-02-19T07:10:34.910000",
+      "days_old": 81,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "git-secrets-scanner",
+      "display_name": "Git Secrets Scanner",
+      "stat_downloads": 1692,
+      "stat_stars": 0,
+      "created_at": "2026-02-19T03:47:27.977000",
+      "days_old": 81,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "travel-cn",
+      "display_name": "Travel CN",
+      "stat_downloads": 1645,
+      "stat_stars": 1,
+      "created_at": "2026-02-19T11:57:54.717000",
+      "days_old": 81,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "taobao-hot-cn",
+      "display_name": "Taobao Hot Cn",
+      "stat_downloads": 1459,
+      "stat_stars": 3,
+      "created_at": "2026-02-18T01:27:48.314000",
+      "days_old": 82,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "resume-generator-cn",
+      "display_name": "resume-generator-cn",
+      "stat_downloads": 1340,
+      "stat_stars": 0,
+      "created_at": "2026-02-19T07:11:09.205000",
+      "days_old": 81,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "binance-pro-cn",
+      "display_name": "Binance Pro Cn",
+      "stat_downloads": 1287,
+      "stat_stars": 0,
+      "created_at": "2026-02-17T12:17:58.377000",
+      "days_old": 83,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "crypto-arb-cn",
+      "display_name": "Crypto Arbitrage CN | \u52a0\u5bc6\u8d27\u5e01\u5957\u5229\u76d1\u63a7",
+      "stat_downloads": 1133,
+      "stat_stars": 0,
+      "created_at": "2026-02-17T05:27:07.845000",
+      "days_old": 83,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "agent-services-cn",
+      "display_name": "Agent Services Cn",
+      "stat_downloads": 1064,
+      "stat_stars": 1,
+      "created_at": "2026-02-18T01:48:15.585000",
+      "days_old": 82,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "douyin-creator-cn",
+      "display_name": "Douyin Creator Cn",
+      "stat_downloads": 1040,
+      "stat_stars": 1,
+      "created_at": "2026-02-18T01:17:26.190000",
+      "days_old": 82,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "tianyancha-cn",
+      "display_name": "tianyancha-cn",
+      "stat_downloads": 1040,
+      "stat_stars": 2,
+      "created_at": "2026-02-19T07:10:42.708000",
+      "days_old": 81,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "memory-sync-enhanced",
+      "display_name": "Memory Sync Enhanced",
+      "stat_downloads": 915,
+      "stat_stars": 1,
+      "created_at": "2026-02-19T10:52:07.101000",
+      "days_old": 81,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "memory-sync-cn",
+      "display_name": "Memory Sync CN",
+      "stat_downloads": 860,
+      "stat_stars": 0,
+      "created_at": "2026-02-19T01:47:11.082000",
+      "days_old": 81,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "lead-research-assistant-cn",
+      "display_name": "Lead Research Assistant Cn",
+      "stat_downloads": 849,
+      "stat_stars": 1,
+      "created_at": "2026-02-17T06:16:22.338000",
+      "days_old": 83,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "agent-sleep",
+      "display_name": "Agent Sleep",
+      "stat_downloads": 829,
+      "stat_stars": 0,
+      "created_at": "2026-02-18T11:10:23.115000",
+      "days_old": 82,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "solana-funding-arb-cn",
+      "display_name": "Solana Funding Arb Cn",
+      "stat_downloads": 785,
+      "stat_stars": 0,
+      "created_at": "2026-02-17T12:17:57.182000",
+      "days_old": 83,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "v2ex-hot-cn",
+      "display_name": "V2ex Hot Cn",
+      "stat_downloads": 777,
+      "stat_stars": 0,
+      "created_at": "2026-02-21T12:13:48.847000",
+      "days_old": 79,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "cross-chain-arbitrage-cn",
+      "display_name": "Cross-Chain Arbitrage CN | \u8de8\u94fe\u5957\u5229",
+      "stat_downloads": 769,
+      "stat_stars": 0,
+      "created_at": "2026-02-17T12:17:39.058000",
+      "days_old": 83,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "mlops-industrialization-cn",
+      "display_name": "MLOps Industrialization",
+      "stat_downloads": 760,
+      "stat_stars": 0,
+      "created_at": "2026-02-18T15:18:02.617000",
+      "days_old": 82,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "mlops-prototyping-cn",
+      "display_name": "MLOps Prototyping CN",
+      "stat_downloads": 748,
+      "stat_stars": 0,
+      "created_at": "2026-02-19T01:47:29.973000",
+      "days_old": 81,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "mlops-automation-cn",
+      "display_name": "MLOps Automation",
+      "stat_downloads": 748,
+      "stat_stars": 0,
+      "created_at": "2026-02-18T15:18:12.174000",
+      "days_old": 82,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "polymarket-arbitrage-cn",
+      "display_name": "Polymarket Arbitrage Cn",
+      "stat_downloads": 737,
+      "stat_stars": 0,
+      "created_at": "2026-02-20T03:04:15.684000",
+      "days_old": 80,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "finetune-service-cn",
+      "display_name": "Fine-tune Service CN | \u6a21\u578b\u5fae\u8c03\u670d\u52a1",
+      "stat_downloads": 662,
+      "stat_stars": 0,
+      "created_at": "2026-02-17T12:17:35.468000",
+      "days_old": 83,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "changelog-generator-cn",
+      "display_name": "Changelog Generator Cn",
+      "stat_downloads": 616,
+      "stat_stars": 0,
+      "created_at": "2026-02-20T16:30:22.600000",
+      "days_old": 80,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "content-research-writer-cn",
+      "display_name": "Content Research Writer Cn",
+      "stat_downloads": 616,
+      "stat_stars": 0,
+      "created_at": "2026-02-17T06:17:32.868000",
+      "days_old": 83,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "mlops-validation-cn",
+      "display_name": "MLOps Validation CN",
+      "stat_downloads": 589,
+      "stat_stars": 0,
+      "created_at": "2026-02-19T01:47:33.898000",
+      "days_old": 81,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "agent-nurture",
+      "display_name": "Agent Nurture Framework (OpenClaw Edition)",
+      "stat_downloads": 188,
+      "stat_stars": 0,
+      "created_at": "2026-04-06T02:28:51.222000",
+      "days_old": 35,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "file-organizer-cn",
+      "display_name": "File Organizer Cn",
+      "stat_downloads": 111,
+      "stat_stars": 0,
+      "created_at": "2026-02-17T09:40:10.301000",
+      "days_old": 83,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "weibo-hot-cn",
+      "display_name": "Weibo Hot Cn",
+      "stat_downloads": 24,
+      "stat_stars": 0,
+      "created_at": "2026-02-21T08:09:15.028000",
+      "days_old": 79,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "36kr-hot-cn",
+      "display_name": "36kr Hot Cn",
+      "stat_downloads": 23,
+      "stat_stars": 0,
+      "created_at": "2026-02-21T12:17:22.623000",
+      "days_old": 79,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "bilibili-creator-cn",
+      "display_name": "Bilibili Creator Cn",
+      "stat_downloads": 22,
+      "stat_stars": 0,
+      "created_at": "2026-02-18T01:34:34.392000",
+      "days_old": 82,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "mlops-collaboration-cn",
+      "display_name": "MLOps Collaboration",
+      "stat_downloads": 22,
+      "stat_stars": 0,
+      "created_at": "2026-02-18T15:18:17.367000",
+      "days_old": 82,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "mlops-observability-cn",
+      "display_name": "MLOps Observability",
+      "stat_downloads": 22,
+      "stat_stars": 0,
+      "created_at": "2026-02-18T15:18:21.815000",
+      "days_old": 82,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "product-hunt-cn",
+      "display_name": "Product Hunt Cn",
+      "stat_downloads": 22,
+      "stat_stars": 0,
+      "created_at": "2026-02-21T12:13:39.754000",
+      "days_old": 79,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ml-evolution-agent",
+      "display_name": "ML Evolution Agent",
+      "stat_downloads": 21,
+      "stat_stars": 0,
+      "created_at": "2026-02-17T06:00:32.615000",
+      "days_old": 83,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "toutiao-hot-news-cn",
+      "display_name": "Toutiao Hot News CN | \u4eca\u65e5\u5934\u6761\u70ed\u699c",
+      "stat_downloads": 21,
+      "stat_stars": 0,
+      "created_at": "2026-02-17T07:43:32.177000",
+      "days_old": 83,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "mlops-initialization-cn",
+      "display_name": "MLOps Project Initialization",
+      "stat_downloads": 21,
+      "stat_stars": 0,
+      "created_at": "2026-02-18T15:17:30.593000",
+      "days_old": 82,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "mbti-agent",
+      "display_name": "MBTI Agent \u4eba\u683c\u6d4b\u8bc4",
+      "stat_downloads": 21,
+      "stat_stars": 0,
+      "created_at": "2026-02-20T06:04:31.796000",
+      "days_old": 80,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "remotion-cn",
+      "display_name": "Remotion Cn",
+      "stat_downloads": 21,
+      "stat_stars": 0,
+      "created_at": "2026-02-20T23:26:14.474000",
+      "days_old": 80,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "jike-hot-cn",
+      "display_name": "Jike Hot Cn",
+      "stat_downloads": 21,
+      "stat_stars": 0,
+      "created_at": "2026-02-21T12:17:17.395000",
+      "days_old": 79,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ithome-hot-cn",
+      "display_name": "Ithome Hot Cn",
+      "stat_downloads": 21,
+      "stat_stars": 0,
+      "created_at": "2026-02-21T12:17:27.834000",
+      "days_old": 79,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "worldquant-miner-cn",
+      "display_name": "worldquant-miner-cn",
+      "stat_downloads": 20,
+      "stat_stars": 0,
+      "created_at": "2026-02-19T07:11:22.768000",
+      "days_old": 81,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "douban-hot-cn",
+      "display_name": "Douban Hot Cn",
+      "stat_downloads": 19,
+      "stat_stars": 0,
+      "created_at": "2026-02-21T10:11:44.878000",
+      "days_old": 79,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "hackernews-cn",
+      "display_name": "Hackernews Cn",
+      "stat_downloads": 19,
+      "stat_stars": 0,
+      "created_at": "2026-02-21T10:17:15.526000",
+      "days_old": 79,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "xueqiu-hot-cn",
+      "display_name": "Xueqiu Hot Cn",
+      "stat_downloads": 19,
+      "stat_stars": 0,
+      "created_at": "2026-02-21T13:17:18.774000",
+      "days_old": 79,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "sspai-hot-cn",
+      "display_name": "Sspai Hot Cn",
+      "stat_downloads": 19,
+      "stat_stars": 0,
+      "created_at": "2026-02-21T13:23:13.764000",
+      "days_old": 79,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "hot-aggregator-cn",
+      "display_name": "Hot Aggregator Cn",
+      "stat_downloads": 18,
+      "stat_stars": 0,
+      "created_at": "2026-02-21T13:23:18.511000",
+      "days_old": 79,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "hot-alert-cn",
+      "display_name": "Hot Alert Cn",
+      "stat_downloads": 18,
+      "stat_stars": 0,
+      "created_at": "2026-02-21T13:23:23.425000",
+      "days_old": 79,
+      "is_highlighted": false,
+      "is_suspicious": false
+    }
+  ],
+  "trajectory": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 52665,
+      "stars": 87
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 53604,
+      "stars": 89
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 55594,
+      "stars": 94
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 56935,
+      "stars": 95
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 58585,
+      "stars": 97
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 60531,
+      "stars": 104
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 64490,
+      "stars": 113
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 64835,
+      "stars": 114
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 65302,
+      "stars": 115
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 67644,
+      "stars": 123
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 71251,
+      "stars": 133
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 71251,
+      "stars": 133
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 72019,
+      "stars": 135
+    },
+    {
+      "run_date": "2026-03-29T03:00:00.679954",
+      "downloads": 73843,
+      "stars": 137
+    },
+    {
+      "run_date": "2026-03-30T03:00:00.682509",
+      "downloads": 75566,
+      "stars": 140
+    },
+    {
+      "run_date": "2026-03-31T03:00:00.702238",
+      "downloads": 77439,
+      "stars": 145
+    },
+    {
+      "run_date": "2026-04-01T03:00:00.631568",
+      "downloads": 79430,
+      "stars": 151
+    },
+    {
+      "run_date": "2026-04-07T08:32:21.256392",
+      "downloads": 89210,
+      "stars": 173
+    },
+    {
+      "run_date": "2026-04-08T02:59:53.612026",
+      "downloads": 90136,
+      "stars": 177
+    },
+    {
+      "run_date": "2026-04-09T03:00:00.814082",
+      "downloads": 91599,
+      "stars": 180
+    },
+    {
+      "run_date": "2026-04-10T03:00:00.610465",
+      "downloads": 93102,
+      "stars": 181
+    },
+    {
+      "run_date": "2026-04-11T03:00:00.635800",
+      "downloads": 94537,
+      "stars": 181
+    },
+    {
+      "run_date": "2026-04-12T03:00:00.326052",
+      "downloads": 95629,
+      "stars": 182
+    },
+    {
+      "run_date": "2026-04-13T03:00:00.295537",
+      "downloads": 96733,
+      "stars": 184
+    },
+    {
+      "run_date": "2026-04-18T02:59:55.390364",
+      "downloads": 102569,
+      "stars": 194
+    },
+    {
+      "run_date": "2026-04-19T03:00:00.676118",
+      "downloads": 103578,
+      "stars": 195
+    },
+    {
+      "run_date": "2026-04-20T03:00:00.599318",
+      "downloads": 104400,
+      "stars": 198
+    },
+    {
+      "run_date": "2026-04-21T03:00:00.575737",
+      "downloads": 105315,
+      "stars": 198
+    },
+    {
+      "run_date": "2026-04-22T03:00:00.762090",
+      "downloads": 106196,
+      "stars": 201
+    },
+    {
+      "run_date": "2026-04-23T03:00:00.767159",
+      "downloads": 106998,
+      "stars": 204
+    },
+    {
+      "run_date": "2026-04-24T03:00:00.604086",
+      "downloads": 107805,
+      "stars": 206
+    },
+    {
+      "run_date": "2026-04-28T02:59:56.742214",
+      "downloads": 111075,
+      "stars": 210
+    },
+    {
+      "run_date": "2026-04-29T03:01:44.166793",
+      "downloads": 111943,
+      "stars": 211
+    },
+    {
+      "run_date": "2026-04-30T03:00:00.711115",
+      "downloads": 112673,
+      "stars": 213
+    },
+    {
+      "run_date": "2026-05-02T02:59:59.833385",
+      "downloads": 113822,
+      "stars": 213
+    },
+    {
+      "run_date": "2026-05-03T03:42:13.922530",
+      "downloads": 114257,
+      "stars": 213
+    },
+    {
+      "run_date": "2026-05-05T00:41:38.231465",
+      "downloads": 115720,
+      "stars": 214
+    },
+    {
+      "run_date": "2026-05-05T03:00:00.321955",
+      "downloads": 115804,
+      "stars": 214
+    },
+    {
+      "run_date": "2026-05-06T03:00:00.570710",
+      "downloads": 116710,
+      "stars": 215
+    },
+    {
+      "run_date": "2026-05-07T03:00:00.572063",
+      "downloads": 117998,
+      "stars": 215
+    },
+    {
+      "run_date": "2026-05-09T03:44:10.833903",
+      "downloads": 119851,
+      "stars": 217
+    },
+    {
+      "run_date": "2026-05-10T03:00:00.531823",
+      "downloads": 120821,
+      "stars": 221
+    },
+    {
+      "run_date": "2026-05-11T03:00:00.316612",
+      "downloads": 122291,
+      "stars": 226
+    }
+  ],
+  "download_trajectory": [
+    52665,
+    53604,
+    55594,
+    56935,
+    58585,
+    60531,
+    64490,
+    64835,
+    65302,
+    67644,
+    71251,
+    71251,
+    72019,
+    73843,
+    75566,
+    77439,
+    79430,
+    89210,
+    90136,
+    91599,
+    93102,
+    94537,
+    95629,
+    96733,
+    102569,
+    103578,
+    104400,
+    105315,
+    106196,
+    106998,
+    107805,
+    111075,
+    111943,
+    112673,
+    113822,
+    114257,
+    115720,
+    115804,
+    116710,
+    117998,
+    119851,
+    120821,
+    122291
+  ]
+}

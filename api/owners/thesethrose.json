@@ -1,0 +1,476 @@
+{
+  "handle": "thesethrose",
+  "total_downloads": 98431,
+  "total_stars": 277,
+  "total_installs": 653,
+  "skill_count": 18,
+  "avg_dl_per_day": 48.2,
+  "highlighted_count": 0,
+  "suspicious_count": 2,
+  "clean_pct": 88.9,
+  "dl_delta": 550,
+  "dl_wow": 0.6,
+  "dl_per_day": 550.0,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "star_per_day": 0,
+  "installs_delta": 0,
+  "installs_wow": 0.0,
+  "installs_per_day": 0,
+  "owner_display_name": "Seth Rose",
+  "owner_name": null,
+  "owner_image": "https://avatars.githubusercontent.com/u/10383809?v=4",
+  "bio": null,
+  "company": "@Inferno-Assets-LLC",
+  "location": "Dallas, TX",
+  "blog": "sethrose.dev",
+  "public_repos": 70,
+  "followers": 78,
+  "following": 49,
+  "github_created_at": "2015-01-03T20:26:00",
+  "twitter_username": "TheSethRose",
+  "skills": [
+    {
+      "slug": "marketing-mode",
+      "display_name": "Marketing Mode",
+      "stat_downloads": 22512,
+      "stat_stars": 147,
+      "created_at": "2026-01-21T17:29:18.544000",
+      "days_old": 110,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "vercel",
+      "display_name": "Vercel Platform",
+      "stat_downloads": 10523,
+      "stat_stars": 23,
+      "created_at": "2026-01-14T04:25:48.098000",
+      "days_old": 117,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "clawdbot-security-check",
+      "display_name": "Clawdbot Security Check",
+      "stat_downloads": 8490,
+      "stat_stars": 33,
+      "created_at": "2026-01-26T21:35:45.220000",
+      "days_old": 105,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "context7",
+      "display_name": "Context7 MCP",
+      "stat_downloads": 8366,
+      "stat_stars": 16,
+      "created_at": "2026-01-14T03:55:31.439000",
+      "days_old": 117,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "skills-search",
+      "display_name": "Skills.sh Search",
+      "stat_downloads": 7125,
+      "stat_stars": 19,
+      "created_at": "2026-01-21T04:34:15.379000",
+      "days_old": 110,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "weather-pollen",
+      "display_name": "Weather Pollen",
+      "stat_downloads": 5003,
+      "stat_stars": 2,
+      "created_at": "2026-01-14T03:55:41.636000",
+      "days_old": 117,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "homebrew",
+      "display_name": "Homebrew Package Manager",
+      "stat_downloads": 4083,
+      "stat_stars": 1,
+      "created_at": "2026-01-14T04:00:52.568000",
+      "days_old": 117,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "minimax-usage",
+      "display_name": "Minimax Usage",
+      "stat_downloads": 4008,
+      "stat_stars": 1,
+      "created_at": "2026-01-17T19:38:38.974000",
+      "days_old": 114,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "reddit-search",
+      "display_name": "Reddit Search",
+      "stat_downloads": 3549,
+      "stat_stars": 4,
+      "created_at": "2026-01-18T21:06:34.817000",
+      "days_old": 113,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "apple-docs",
+      "display_name": "Apple Docs",
+      "stat_downloads": 3387,
+      "stat_stars": 3,
+      "created_at": "2026-01-17T20:13:36.436000",
+      "days_old": 114,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "notebook",
+      "display_name": "Notebook",
+      "stat_downloads": 3210,
+      "stat_stars": 8,
+      "created_at": "2026-01-11T09:10:40.164000",
+      "days_old": 120,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "therapy-mode",
+      "display_name": "Therapy Mode",
+      "stat_downloads": 3099,
+      "stat_stars": 11,
+      "created_at": "2026-01-19T05:21:12.942000",
+      "days_old": 112,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "pi-admin",
+      "display_name": "Pi Admin",
+      "stat_downloads": 3061,
+      "stat_stars": 5,
+      "created_at": "2026-01-14T03:47:32.803000",
+      "days_old": 117,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "servicenow-docs",
+      "display_name": "Servicenow Docs",
+      "stat_downloads": 2662,
+      "stat_stars": 0,
+      "created_at": "2026-01-14T16:04:03.870000",
+      "days_old": 117,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "npm-search",
+      "display_name": "NPM Search",
+      "stat_downloads": 2407,
+      "stat_stars": 0,
+      "created_at": "2026-01-14T03:55:36.121000",
+      "days_old": 117,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "catfact",
+      "display_name": "Cat Fact",
+      "stat_downloads": 2360,
+      "stat_stars": 1,
+      "created_at": "2026-01-10T10:35:27.688000",
+      "days_old": 121,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "kraken",
+      "display_name": "Kraken",
+      "stat_downloads": 2321,
+      "stat_stars": 2,
+      "created_at": "2026-01-10T08:50:36.294000",
+      "days_old": 121,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "servicenow-agent",
+      "display_name": "ServiceNow Agent",
+      "stat_downloads": 2265,
+      "stat_stars": 1,
+      "created_at": "2026-01-15T21:13:22.008000",
+      "days_old": 116,
+      "is_highlighted": false,
+      "is_suspicious": false
+    }
+  ],
+  "trajectory": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 220752,
+      "stars": 872
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 223049,
+      "stars": 884
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 227860,
+      "stars": 905
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 231519,
+      "stars": 922
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 234694,
+      "stars": 931
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 237823,
+      "stars": 945
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 244344,
+      "stars": 985
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 244832,
+      "stars": 987
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 245515,
+      "stars": 988
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 249020,
+      "stars": 1005
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 81265,
+      "stars": 250
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 81265,
+      "stars": 250
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 81473,
+      "stars": 250
+    },
+    {
+      "run_date": "2026-03-29T03:00:00.679954",
+      "downloads": 81932,
+      "stars": 252
+    },
+    {
+      "run_date": "2026-03-30T03:00:00.682509",
+      "downloads": 82407,
+      "stars": 252
+    },
+    {
+      "run_date": "2026-03-31T03:00:00.702238",
+      "downloads": 82974,
+      "stars": 254
+    },
+    {
+      "run_date": "2026-04-01T03:00:00.631568",
+      "downloads": 83547,
+      "stars": 254
+    },
+    {
+      "run_date": "2026-04-07T08:32:21.256392",
+      "downloads": 86464,
+      "stars": 258
+    },
+    {
+      "run_date": "2026-04-08T02:59:53.612026",
+      "downloads": 86736,
+      "stars": 258
+    },
+    {
+      "run_date": "2026-04-09T03:00:00.814082",
+      "downloads": 87196,
+      "stars": 258
+    },
+    {
+      "run_date": "2026-04-10T03:00:00.610465",
+      "downloads": 87646,
+      "stars": 258
+    },
+    {
+      "run_date": "2026-04-11T03:00:00.635800",
+      "downloads": 88036,
+      "stars": 259
+    },
+    {
+      "run_date": "2026-04-12T03:00:00.326052",
+      "downloads": 88316,
+      "stars": 261
+    },
+    {
+      "run_date": "2026-04-13T03:00:00.295537",
+      "downloads": 88630,
+      "stars": 262
+    },
+    {
+      "run_date": "2026-04-18T02:59:55.390364",
+      "downloads": 90427,
+      "stars": 263
+    },
+    {
+      "run_date": "2026-04-19T03:00:00.676118",
+      "downloads": 90679,
+      "stars": 263
+    },
+    {
+      "run_date": "2026-04-20T03:00:00.599318",
+      "downloads": 90944,
+      "stars": 265
+    },
+    {
+      "run_date": "2026-04-21T03:00:00.575737",
+      "downloads": 91320,
+      "stars": 265
+    },
+    {
+      "run_date": "2026-04-22T03:00:00.762090",
+      "downloads": 91651,
+      "stars": 267
+    },
+    {
+      "run_date": "2026-04-23T03:00:00.767159",
+      "downloads": 91919,
+      "stars": 268
+    },
+    {
+      "run_date": "2026-04-24T03:00:00.604086",
+      "downloads": 92215,
+      "stars": 269
+    },
+    {
+      "run_date": "2026-04-28T02:59:56.742214",
+      "downloads": 93303,
+      "stars": 273
+    },
+    {
+      "run_date": "2026-04-29T03:01:44.166793",
+      "downloads": 93564,
+      "stars": 273
+    },
+    {
+      "run_date": "2026-04-30T03:00:00.711115",
+      "downloads": 93832,
+      "stars": 273
+    },
+    {
+      "run_date": "2026-05-02T02:59:59.833385",
+      "downloads": 94458,
+      "stars": 273
+    },
+    {
+      "run_date": "2026-05-03T03:42:13.922530",
+      "downloads": 94660,
+      "stars": 274
+    },
+    {
+      "run_date": "2026-05-05T00:41:38.231465",
+      "downloads": 95503,
+      "stars": 274
+    },
+    {
+      "run_date": "2026-05-05T03:00:00.321955",
+      "downloads": 95556,
+      "stars": 274
+    },
+    {
+      "run_date": "2026-05-06T03:00:00.570710",
+      "downloads": 96002,
+      "stars": 276
+    },
+    {
+      "run_date": "2026-05-07T03:00:00.572063",
+      "downloads": 96576,
+      "stars": 277
+    },
+    {
+      "run_date": "2026-05-09T03:44:10.833903",
+      "downloads": 97418,
+      "stars": 277
+    },
+    {
+      "run_date": "2026-05-10T03:00:00.531823",
+      "downloads": 97881,
+      "stars": 277
+    },
+    {
+      "run_date": "2026-05-11T03:00:00.316612",
+      "downloads": 98431,
+      "stars": 277
+    }
+  ],
+  "download_trajectory": [
+    220752,
+    223049,
+    227860,
+    231519,
+    234694,
+    237823,
+    244344,
+    244832,
+    245515,
+    249020,
+    81265,
+    81265,
+    81473,
+    81932,
+    82407,
+    82974,
+    83547,
+    86464,
+    86736,
+    87196,
+    87646,
+    88036,
+    88316,
+    88630,
+    90427,
+    90679,
+    90944,
+    91320,
+    91651,
+    91919,
+    92215,
+    93303,
+    93564,
+    93832,
+    94458,
+    94660,
+    95503,
+    95556,
+    96002,
+    96576,
+    97418,
+    97881,
+    98431
+  ]
+}

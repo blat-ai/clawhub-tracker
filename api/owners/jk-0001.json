@@ -1,0 +1,746 @@
+{
+  "handle": "jk-0001",
+  "total_downloads": 154525,
+  "total_stars": 385,
+  "total_installs": 1709,
+  "skill_count": 45,
+  "avg_dl_per_day": 38.2,
+  "highlighted_count": 0,
+  "suspicious_count": 0,
+  "clean_pct": 100.0,
+  "dl_delta": 1299,
+  "dl_wow": 0.8,
+  "dl_per_day": 1299.0,
+  "star_delta": 1,
+  "star_wow": 0.3,
+  "star_per_day": 1.0,
+  "installs_delta": 38,
+  "installs_wow": 2.3,
+  "installs_per_day": 38.0,
+  "owner_display_name": "Jatin Khatri",
+  "owner_name": null,
+  "owner_image": "https://avatars.githubusercontent.com/u/103896999?v=4",
+  "bio": "Full stack developer who's into Numbers, Engineering, Research, Data & Science (NERDS).",
+  "company": null,
+  "location": null,
+  "blog": null,
+  "public_repos": 27,
+  "followers": 2,
+  "following": 2,
+  "github_created_at": "2022-04-17T17:09:40",
+  "twitter_username": null,
+  "skills": [
+    {
+      "slug": "automation-workflows",
+      "display_name": "Automation Workflows",
+      "stat_downloads": 73666,
+      "stat_stars": 283,
+      "created_at": "2026-02-06T01:33:02.349000",
+      "days_old": 94,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "copywriting",
+      "display_name": "Copywriting",
+      "stat_downloads": 19624,
+      "stat_stars": 36,
+      "created_at": "2026-02-06T01:37:17.629000",
+      "days_old": 94,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "content-strategy",
+      "display_name": "Content Strategy",
+      "stat_downloads": 8377,
+      "stat_stars": 12,
+      "created_at": "2026-02-06T01:36:44.646000",
+      "days_old": 94,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "business-model-canvas",
+      "display_name": "Business Model Canvas",
+      "stat_downloads": 4694,
+      "stat_stars": 5,
+      "created_at": "2026-02-06T01:35:50.447000",
+      "days_old": 94,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "competitive-analysis",
+      "display_name": "Competitive Analysis",
+      "stat_downloads": 4297,
+      "stat_stars": 12,
+      "created_at": "2026-02-06T01:36:26.237000",
+      "days_old": 94,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "business-plan",
+      "display_name": "Business Plan",
+      "stat_downloads": 3546,
+      "stat_stars": 9,
+      "created_at": "2026-02-06T01:36:03.669000",
+      "days_old": 94,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "project-management-2",
+      "display_name": "Project Management",
+      "stat_downloads": 3341,
+      "stat_stars": 1,
+      "created_at": "2026-02-24T15:44:14.264000",
+      "days_old": 76,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "social-media-marketing",
+      "display_name": "Social Media Marketing",
+      "stat_downloads": 3178,
+      "stat_stars": 4,
+      "created_at": "2026-03-02T05:51:19.115000",
+      "days_old": 70,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "brand-identity",
+      "display_name": "Brand Identity",
+      "stat_downloads": 2796,
+      "stat_stars": 3,
+      "created_at": "2026-02-06T01:34:41.774000",
+      "days_old": 94,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "bookkeeping-basics",
+      "display_name": "Bookkeeping Basics",
+      "stat_downloads": 2706,
+      "stat_stars": 1,
+      "created_at": "2026-02-06T01:34:12.115000",
+      "days_old": 94,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "time-management-2",
+      "display_name": "Time Management",
+      "stat_downloads": 2361,
+      "stat_stars": 3,
+      "created_at": "2026-03-02T05:50:42.984000",
+      "days_old": 70,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "closing-deals",
+      "display_name": "Closing Deals",
+      "stat_downloads": 2160,
+      "stat_stars": 2,
+      "created_at": "2026-02-06T01:36:15.014000",
+      "days_old": 94,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "tax-planning",
+      "display_name": "Tax Planning",
+      "stat_downloads": 2001,
+      "stat_stars": 1,
+      "created_at": "2026-02-05T07:13:28.955000",
+      "days_old": 95,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "spreadsheet-automation",
+      "display_name": "Spreadsheet Automation",
+      "stat_downloads": 1687,
+      "stat_stars": 0,
+      "created_at": "2026-03-06T06:44:59.282000",
+      "days_old": 66,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "financial-planning",
+      "display_name": "Financial Planning",
+      "stat_downloads": 1370,
+      "stat_stars": 2,
+      "created_at": "2026-02-13T20:53:10.439000",
+      "days_old": 87,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "go-to-market",
+      "display_name": "Go To Market",
+      "stat_downloads": 1341,
+      "stat_stars": 2,
+      "created_at": "2026-02-16T21:27:42.675000",
+      "days_old": 84,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "customer-feedback",
+      "display_name": "Customer Feedback",
+      "stat_downloads": 1174,
+      "stat_stars": 0,
+      "created_at": "2026-02-13T20:51:25.977000",
+      "days_old": 87,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "email-marketing-2",
+      "display_name": "Email Marketing",
+      "stat_downloads": 1141,
+      "stat_stars": 0,
+      "created_at": "2026-02-13T20:52:54.401000",
+      "days_old": 87,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "customer-retention",
+      "display_name": "Customer Retention",
+      "stat_downloads": 1033,
+      "stat_stars": 0,
+      "created_at": "2026-02-13T20:52:29.483000",
+      "days_old": 87,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "goal-setting-okrs",
+      "display_name": "Goal Setting Okrs",
+      "stat_downloads": 957,
+      "stat_stars": 0,
+      "created_at": "2026-02-16T21:27:59.825000",
+      "days_old": 84,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "outreach-and-prospecting",
+      "display_name": "Outreach And Prospecting",
+      "stat_downloads": 943,
+      "stat_stars": 0,
+      "created_at": "2026-02-18T06:21:23.629000",
+      "days_old": 82,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "mvp-planning",
+      "display_name": "Mvp Planning",
+      "stat_downloads": 942,
+      "stat_stars": 2,
+      "created_at": "2026-02-18T06:20:13.888000",
+      "days_old": 82,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "product-roadmap",
+      "display_name": "Product Roadmap",
+      "stat_downloads": 931,
+      "stat_stars": 2,
+      "created_at": "2026-02-20T18:54:10.226000",
+      "days_old": 80,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "sales-funnel-design",
+      "display_name": "Sales Funnel Design",
+      "stat_downloads": 926,
+      "stat_stars": 0,
+      "created_at": "2026-02-24T15:45:06.717000",
+      "days_old": 76,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "product-launch",
+      "display_name": "Product Launch",
+      "stat_downloads": 890,
+      "stat_stars": 2,
+      "created_at": "2026-02-20T18:53:52.917000",
+      "days_old": 80,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "customer-onboarding-2",
+      "display_name": "Customer Onboarding",
+      "stat_downloads": 885,
+      "stat_stars": 0,
+      "created_at": "2026-02-13T20:52:01.730000",
+      "days_old": 87,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "revenue-model-design",
+      "display_name": "Revenue Model Design",
+      "stat_downloads": 869,
+      "stat_stars": 0,
+      "created_at": "2026-02-24T15:44:47.656000",
+      "days_old": 76,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "niche-selection",
+      "display_name": "Niche Selection",
+      "stat_downloads": 808,
+      "stat_stars": 0,
+      "created_at": "2026-02-18T06:21:10.155000",
+      "days_old": 82,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "naming-and-domains",
+      "display_name": "Naming And Domains",
+      "stat_downloads": 770,
+      "stat_stars": 0,
+      "created_at": "2026-02-18T06:20:34.270000",
+      "days_old": 82,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "negotiation-2",
+      "display_name": "Negotiation",
+      "stat_downloads": 673,
+      "stat_stars": 0,
+      "created_at": "2026-02-18T06:20:53.604000",
+      "days_old": 82,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "seo-strategy",
+      "display_name": "Seo Strategy",
+      "stat_downloads": 614,
+      "stat_stars": 0,
+      "created_at": "2026-03-02T05:51:31.111000",
+      "days_old": 70,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "scaling-strategy",
+      "display_name": "Scaling Strategy",
+      "stat_downloads": 602,
+      "stat_stars": 0,
+      "created_at": "2026-02-24T15:45:23.049000",
+      "days_old": 76,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "unit-economics",
+      "display_name": "Unit Economics",
+      "stat_downloads": 506,
+      "stat_stars": 1,
+      "created_at": "2026-03-02T05:50:23.497000",
+      "days_old": 70,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "mental-health-psychoeducation",
+      "display_name": "Mental Health Psychoeducation",
+      "stat_downloads": 471,
+      "stat_stars": 0,
+      "created_at": "2026-03-06T06:46:16.808000",
+      "days_old": 66,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "proposal-writing-2",
+      "display_name": "Proposal Writing",
+      "stat_downloads": 471,
+      "stat_stars": 1,
+      "created_at": "2026-02-24T15:44:30.731000",
+      "days_old": 76,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "grant-writing-framework",
+      "display_name": "Grant Writing Framework",
+      "stat_downloads": 455,
+      "stat_stars": 0,
+      "created_at": "2026-03-06T06:46:38.841000",
+      "days_old": 66,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "sop-generator",
+      "display_name": "Sop Generator",
+      "stat_downloads": 429,
+      "stat_stars": 1,
+      "created_at": "2026-03-06T06:45:18.289000",
+      "days_old": 66,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "support-systems",
+      "display_name": "Support Systems",
+      "stat_downloads": 403,
+      "stat_stars": 0,
+      "created_at": "2026-03-02T05:51:06.420000",
+      "days_old": 70,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "reclaim-your-brain",
+      "display_name": "Reclaim Your Brain",
+      "stat_downloads": 352,
+      "stat_stars": 0,
+      "created_at": "2026-03-06T06:45:44.634000",
+      "days_old": 66,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "pricing-strategy",
+      "display_name": "Pricing Strategy",
+      "stat_downloads": 26,
+      "stat_stars": 0,
+      "created_at": "2026-02-20T18:53:38.159000",
+      "days_old": 80,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "positioning-strategy",
+      "display_name": "Positioning Strategy",
+      "stat_downloads": 23,
+      "stat_stars": 0,
+      "created_at": "2026-02-20T18:53:21.312000",
+      "days_old": 80,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "paid-advertising",
+      "display_name": "Paid Advertising",
+      "stat_downloads": 22,
+      "stat_stars": 0,
+      "created_at": "2026-02-20T18:53:05.264000",
+      "days_old": 80,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "legal-essentials",
+      "display_name": "Legal Essentials",
+      "stat_downloads": 22,
+      "stat_stars": 0,
+      "created_at": "2026-02-16T21:28:28.516000",
+      "days_old": 84,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "market-research-2",
+      "display_name": "Market Research",
+      "stat_downloads": 22,
+      "stat_stars": 0,
+      "created_at": "2026-02-16T21:28:45.675000",
+      "days_old": 84,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "idea-validation",
+      "display_name": "Idea Validation",
+      "stat_downloads": 20,
+      "stat_stars": 0,
+      "created_at": "2026-02-16T21:28:15.195000",
+      "days_old": 84,
+      "is_highlighted": false,
+      "is_suspicious": false
+    }
+  ],
+  "trajectory": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 86294,
+      "stars": 258
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 87509,
+      "stars": 260
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 89980,
+      "stars": 268
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 91734,
+      "stars": 269
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 93440,
+      "stars": 275
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 95389,
+      "stars": 280
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 98979,
+      "stars": 287
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 99291,
+      "stars": 288
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 99860,
+      "stars": 288
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 101822,
+      "stars": 291
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 104956,
+      "stars": 298
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 104956,
+      "stars": 298
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 105663,
+      "stars": 300
+    },
+    {
+      "run_date": "2026-03-29T03:00:00.679954",
+      "downloads": 107189,
+      "stars": 300
+    },
+    {
+      "run_date": "2026-03-30T03:00:00.682509",
+      "downloads": 108711,
+      "stars": 301
+    },
+    {
+      "run_date": "2026-03-31T03:00:00.702238",
+      "downloads": 110268,
+      "stars": 304
+    },
+    {
+      "run_date": "2026-04-01T03:00:00.631568",
+      "downloads": 111850,
+      "stars": 307
+    },
+    {
+      "run_date": "2026-04-07T08:32:21.256392",
+      "downloads": 120450,
+      "stars": 332
+    },
+    {
+      "run_date": "2026-04-08T02:59:53.612026",
+      "downloads": 121330,
+      "stars": 334
+    },
+    {
+      "run_date": "2026-04-09T03:00:00.814082",
+      "downloads": 122620,
+      "stars": 335
+    },
+    {
+      "run_date": "2026-04-10T03:00:00.610465",
+      "downloads": 123962,
+      "stars": 337
+    },
+    {
+      "run_date": "2026-04-11T03:00:00.635800",
+      "downloads": 125139,
+      "stars": 337
+    },
+    {
+      "run_date": "2026-04-12T03:00:00.326052",
+      "downloads": 126101,
+      "stars": 338
+    },
+    {
+      "run_date": "2026-04-13T03:00:00.295537",
+      "downloads": 127164,
+      "stars": 339
+    },
+    {
+      "run_date": "2026-04-18T02:59:55.390364",
+      "downloads": 132531,
+      "stars": 348
+    },
+    {
+      "run_date": "2026-04-19T03:00:00.676118",
+      "downloads": 133515,
+      "stars": 348
+    },
+    {
+      "run_date": "2026-04-20T03:00:00.599318",
+      "downloads": 134403,
+      "stars": 350
+    },
+    {
+      "run_date": "2026-04-21T03:00:00.575737",
+      "downloads": 135307,
+      "stars": 350
+    },
+    {
+      "run_date": "2026-04-22T03:00:00.762090",
+      "downloads": 136253,
+      "stars": 351
+    },
+    {
+      "run_date": "2026-04-23T03:00:00.767159",
+      "downloads": 137052,
+      "stars": 353
+    },
+    {
+      "run_date": "2026-04-24T03:00:00.604086",
+      "downloads": 137929,
+      "stars": 356
+    },
+    {
+      "run_date": "2026-04-28T02:59:56.742214",
+      "downloads": 141485,
+      "stars": 363
+    },
+    {
+      "run_date": "2026-04-29T03:01:44.166793",
+      "downloads": 142310,
+      "stars": 364
+    },
+    {
+      "run_date": "2026-04-30T03:00:00.711115",
+      "downloads": 143093,
+      "stars": 365
+    },
+    {
+      "run_date": "2026-05-02T02:59:59.833385",
+      "downloads": 144809,
+      "stars": 368
+    },
+    {
+      "run_date": "2026-05-03T03:42:13.922530",
+      "downloads": 145534,
+      "stars": 372
+    },
+    {
+      "run_date": "2026-05-05T00:41:38.231465",
+      "downloads": 147395,
+      "stars": 373
+    },
+    {
+      "run_date": "2026-05-05T03:00:00.321955",
+      "downloads": 147539,
+      "stars": 373
+    },
+    {
+      "run_date": "2026-05-06T03:00:00.570710",
+      "downloads": 148566,
+      "stars": 376
+    },
+    {
+      "run_date": "2026-05-07T03:00:00.572063",
+      "downloads": 150045,
+      "stars": 377
+    },
+    {
+      "run_date": "2026-05-09T03:44:10.833903",
+      "downloads": 152185,
+      "stars": 381
+    },
+    {
+      "run_date": "2026-05-10T03:00:00.531823",
+      "downloads": 153226,
+      "stars": 384
+    },
+    {
+      "run_date": "2026-05-11T03:00:00.316612",
+      "downloads": 154525,
+      "stars": 385
+    }
+  ],
+  "download_trajectory": [
+    86294,
+    87509,
+    89980,
+    91734,
+    93440,
+    95389,
+    98979,
+    99291,
+    99860,
+    101822,
+    104956,
+    104956,
+    105663,
+    107189,
+    108711,
+    110268,
+    111850,
+    120450,
+    121330,
+    122620,
+    123962,
+    125139,
+    126101,
+    127164,
+    132531,
+    133515,
+    134403,
+    135307,
+    136253,
+    137052,
+    137929,
+    141485,
+    142310,
+    143093,
+    144809,
+    145534,
+    147395,
+    147539,
+    148566,
+    150045,
+    152185,
+    153226,
+    154525
+  ]
+}

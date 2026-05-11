@@ -1,0 +1,640 @@
+{
+  "total_skills": 66210,
+  "total_downloads": 45507496,
+  "total_stars": 61143,
+  "total_owners": 20621,
+  "weekly_growth": [
+    {
+      "week_start": "2026-02-23T00:00:00",
+      "new_count": 3226,
+      "wow_pct": 10.8,
+      "is_forecast": false,
+      "forecast_count": null,
+      "cumulative": 13349
+    },
+    {
+      "week_start": "2026-03-02T00:00:00",
+      "new_count": 4363,
+      "wow_pct": 35.2,
+      "is_forecast": false,
+      "forecast_count": null,
+      "cumulative": 17712
+    },
+    {
+      "week_start": "2026-03-09T00:00:00",
+      "new_count": 6322,
+      "wow_pct": 44.9,
+      "is_forecast": false,
+      "forecast_count": null,
+      "cumulative": 24034
+    },
+    {
+      "week_start": "2026-03-16T00:00:00",
+      "new_count": 8105,
+      "wow_pct": 28.2,
+      "is_forecast": false,
+      "forecast_count": null,
+      "cumulative": 32139
+    },
+    {
+      "week_start": "2026-03-23T00:00:00",
+      "new_count": 7214,
+      "wow_pct": -11.0,
+      "is_forecast": false,
+      "forecast_count": null,
+      "cumulative": 39353
+    },
+    {
+      "week_start": "2026-03-30T00:00:00",
+      "new_count": 6305,
+      "wow_pct": -12.6,
+      "is_forecast": false,
+      "forecast_count": null,
+      "cumulative": 45658
+    },
+    {
+      "week_start": "2026-04-06T00:00:00",
+      "new_count": 5301,
+      "wow_pct": -15.9,
+      "is_forecast": false,
+      "forecast_count": null,
+      "cumulative": 50959
+    },
+    {
+      "week_start": "2026-04-13T00:00:00",
+      "new_count": 5122,
+      "wow_pct": -3.4,
+      "is_forecast": false,
+      "forecast_count": null,
+      "cumulative": 56081
+    },
+    {
+      "week_start": "2026-04-20T00:00:00",
+      "new_count": 4243,
+      "wow_pct": -17.2,
+      "is_forecast": false,
+      "forecast_count": null,
+      "cumulative": 60324
+    },
+    {
+      "week_start": "2026-04-27T00:00:00",
+      "new_count": 3411,
+      "wow_pct": -19.6,
+      "is_forecast": false,
+      "forecast_count": null,
+      "cumulative": 63735
+    },
+    {
+      "week_start": "2026-05-04T00:00:00",
+      "new_count": 2443,
+      "wow_pct": -28.4,
+      "is_forecast": false,
+      "forecast_count": null,
+      "cumulative": 66178
+    },
+    {
+      "week_start": "2026-05-11T00:00:00",
+      "new_count": 32,
+      "wow_pct": -90.8,
+      "is_forecast": true,
+      "forecast_count": 224,
+      "cumulative": 66210
+    }
+  ],
+  "weekly_downloads": [
+    {
+      "week_start": "2026-03-16T00:00:00",
+      "new_count": 1352414,
+      "wow_pct": null,
+      "is_forecast": false,
+      "forecast_count": null
+    },
+    {
+      "week_start": "2026-03-23T00:00:00",
+      "new_count": 2802344,
+      "wow_pct": 107.2,
+      "is_forecast": false,
+      "forecast_count": null
+    },
+    {
+      "week_start": "2026-03-30T00:00:00",
+      "new_count": 669524,
+      "wow_pct": -76.1,
+      "is_forecast": false,
+      "forecast_count": null
+    },
+    {
+      "week_start": "2026-04-06T00:00:00",
+      "new_count": 1967904,
+      "wow_pct": 193.9,
+      "is_forecast": false,
+      "forecast_count": null
+    },
+    {
+      "week_start": "2026-04-13T00:00:00",
+      "new_count": 2334884,
+      "wow_pct": 18.6,
+      "is_forecast": false,
+      "forecast_count": null
+    },
+    {
+      "week_start": "2026-04-20T00:00:00",
+      "new_count": 1569281,
+      "wow_pct": -32.8,
+      "is_forecast": false,
+      "forecast_count": null
+    },
+    {
+      "week_start": "2026-04-27T00:00:00",
+      "new_count": 1998266,
+      "wow_pct": 27.3,
+      "is_forecast": false,
+      "forecast_count": null
+    },
+    {
+      "week_start": "2026-05-04T00:00:00",
+      "new_count": 4104460,
+      "wow_pct": 105.4,
+      "is_forecast": false,
+      "forecast_count": null
+    }
+  ],
+  "weekly_owners": [
+    {
+      "week_start": "2026-02-23T00:00:00",
+      "new_count": 1495,
+      "wow_pct": 12.5,
+      "is_forecast": false,
+      "forecast_count": null
+    },
+    {
+      "week_start": "2026-03-02T00:00:00",
+      "new_count": 1765,
+      "wow_pct": 18.1,
+      "is_forecast": false,
+      "forecast_count": null
+    },
+    {
+      "week_start": "2026-03-09T00:00:00",
+      "new_count": 2561,
+      "wow_pct": 45.1,
+      "is_forecast": false,
+      "forecast_count": null
+    },
+    {
+      "week_start": "2026-03-16T00:00:00",
+      "new_count": 2751,
+      "wow_pct": 7.4,
+      "is_forecast": false,
+      "forecast_count": null
+    },
+    {
+      "week_start": "2026-03-23T00:00:00",
+      "new_count": 2291,
+      "wow_pct": -16.7,
+      "is_forecast": false,
+      "forecast_count": null
+    },
+    {
+      "week_start": "2026-03-30T00:00:00",
+      "new_count": 1663,
+      "wow_pct": -27.4,
+      "is_forecast": false,
+      "forecast_count": null
+    },
+    {
+      "week_start": "2026-04-06T00:00:00",
+      "new_count": 1158,
+      "wow_pct": -30.4,
+      "is_forecast": false,
+      "forecast_count": null
+    },
+    {
+      "week_start": "2026-04-13T00:00:00",
+      "new_count": 897,
+      "wow_pct": -22.5,
+      "is_forecast": false,
+      "forecast_count": null
+    },
+    {
+      "week_start": "2026-04-20T00:00:00",
+      "new_count": 520,
+      "wow_pct": -42.0,
+      "is_forecast": false,
+      "forecast_count": null
+    },
+    {
+      "week_start": "2026-04-27T00:00:00",
+      "new_count": 468,
+      "wow_pct": -10.0,
+      "is_forecast": false,
+      "forecast_count": null
+    },
+    {
+      "week_start": "2026-05-04T00:00:00",
+      "new_count": 394,
+      "wow_pct": -15.8,
+      "is_forecast": false,
+      "forecast_count": null
+    },
+    {
+      "week_start": "2026-05-11T00:00:00",
+      "new_count": 9,
+      "wow_pct": -84.0,
+      "is_forecast": true,
+      "forecast_count": 63
+    }
+  ],
+  "download_sparkline": [
+    21361721,
+    21538421,
+    22220037,
+    22623756,
+    22714135,
+    23085289,
+    23637874,
+    24005367,
+    24135041,
+    24573659,
+    24967262,
+    24967718,
+    25464869,
+    25887633,
+    26281172,
+    26709217,
+    26950696,
+    29524591,
+    29829632,
+    30315162,
+    30793418,
+    31304943,
+    31492495,
+    31810353,
+    33772553,
+    34145237,
+    34466373,
+    34774571,
+    35181795,
+    35674072,
+    36035654,
+    37545356,
+    38078337,
+    38544524,
+    39207602,
+    39543622,
+    40705141,
+    40774314,
+    41364326,
+    42669575,
+    44055436,
+    44809601,
+    45507496
+  ],
+  "download_percentiles": [
+    {
+      "run_date": "2026-03-18",
+      "skill_count": 27443,
+      "p50": 219.0,
+      "p90": 1675.0,
+      "p95": 2410.0,
+      "p99": 7316.0
+    },
+    {
+      "run_date": "2026-03-19",
+      "skill_count": 28279,
+      "p50": 214.0,
+      "p90": 1654.0,
+      "p95": 2394.0,
+      "p99": 7229.0
+    },
+    {
+      "run_date": "2026-03-20",
+      "skill_count": 29700,
+      "p50": 212.0,
+      "p90": 1629.0,
+      "p95": 2371.0,
+      "p99": 7179.0
+    },
+    {
+      "run_date": "2026-03-21",
+      "skill_count": 31016,
+      "p50": 205.0,
+      "p90": 1611.0,
+      "p95": 2328.0,
+      "p99": 7001.0
+    },
+    {
+      "run_date": "2026-03-22",
+      "skill_count": 32106,
+      "p50": 199.0,
+      "p90": 1593.0,
+      "p95": 2290.0,
+      "p99": 6875.0
+    },
+    {
+      "run_date": "2026-03-23",
+      "skill_count": 33191,
+      "p50": 194.0,
+      "p90": 1571.0,
+      "p95": 2273.0,
+      "p99": 6731.0
+    },
+    {
+      "run_date": "2026-03-24",
+      "skill_count": 34596,
+      "p50": 197.0,
+      "p90": 1550.0,
+      "p95": 2254.0,
+      "p99": 6610.0
+    },
+    {
+      "run_date": "2026-03-24",
+      "skill_count": 34802,
+      "p50": 196.0,
+      "p90": 1546.0,
+      "p95": 2251.0,
+      "p99": 6571.0
+    },
+    {
+      "run_date": "2026-03-25",
+      "skill_count": 35201,
+      "p50": 196.0,
+      "p90": 1537.0,
+      "p95": 2246.0,
+      "p99": 6547.0
+    },
+    {
+      "run_date": "2026-03-26",
+      "skill_count": 36461,
+      "p50": 192.0,
+      "p90": 1503.0,
+      "p95": 2215.0,
+      "p99": 6488.0
+    },
+    {
+      "run_date": "2026-03-27",
+      "skill_count": 38243,
+      "p50": 192.0,
+      "p90": 1472.0,
+      "p95": 2189.0,
+      "p99": 6476.0
+    },
+    {
+      "run_date": "2026-03-27",
+      "skill_count": 38374,
+      "p50": 191.0,
+      "p90": 1470.0,
+      "p95": 2186.0,
+      "p99": 6463.0
+    },
+    {
+      "run_date": "2026-03-28",
+      "skill_count": 38578,
+      "p50": 191.0,
+      "p90": 1471.0,
+      "p95": 2187.0,
+      "p99": 6450.0
+    },
+    {
+      "run_date": "2026-03-29",
+      "skill_count": 39542,
+      "p50": 190.0,
+      "p90": 1453.0,
+      "p95": 2168.0,
+      "p99": 6429.0
+    },
+    {
+      "run_date": "2026-03-30",
+      "skill_count": 40447,
+      "p50": 187.0,
+      "p90": 1438.0,
+      "p95": 2158.0,
+      "p99": 6407.0
+    },
+    {
+      "run_date": "2026-03-31",
+      "skill_count": 41243,
+      "p50": 188.0,
+      "p90": 1424.0,
+      "p95": 2153.0,
+      "p99": 6414.0
+    },
+    {
+      "run_date": "2026-04-01",
+      "skill_count": 42316,
+      "p50": 189.0,
+      "p90": 1401.0,
+      "p95": 2131.0,
+      "p99": 6395.0
+    },
+    {
+      "run_date": "2026-04-07",
+      "skill_count": 47922,
+      "p50": 176.0,
+      "p90": 1308.0,
+      "p95": 2071.0,
+      "p99": 6225.0
+    },
+    {
+      "run_date": "2026-04-08",
+      "skill_count": 48095,
+      "p50": 179.0,
+      "p90": 1312.0,
+      "p95": 2076.0,
+      "p99": 6259.0
+    },
+    {
+      "run_date": "2026-04-09",
+      "skill_count": 49082,
+      "p50": 177.0,
+      "p90": 1298.0,
+      "p95": 2064.0,
+      "p99": 6259.0
+    },
+    {
+      "run_date": "2026-04-10",
+      "skill_count": 49721,
+      "p50": 178.0,
+      "p90": 1293.0,
+      "p95": 2064.0,
+      "p99": 6278.0
+    },
+    {
+      "run_date": "2026-04-11",
+      "skill_count": 50489,
+      "p50": 180.0,
+      "p90": 1285.0,
+      "p95": 2058.0,
+      "p99": 6279.0
+    },
+    {
+      "run_date": "2026-04-12",
+      "skill_count": 51279,
+      "p50": 178.0,
+      "p90": 1272.0,
+      "p95": 2050.0,
+      "p99": 6235.0
+    },
+    {
+      "run_date": "2026-04-13",
+      "skill_count": 51940,
+      "p50": 175.0,
+      "p90": 1263.0,
+      "p95": 2050.0,
+      "p99": 6183.0
+    },
+    {
+      "run_date": "2026-04-18",
+      "skill_count": 55738,
+      "p50": 167.0,
+      "p90": 1225.0,
+      "p95": 2028.0,
+      "p99": 6102.0
+    },
+    {
+      "run_date": "2026-04-19",
+      "skill_count": 56295,
+      "p50": 169.0,
+      "p90": 1221.0,
+      "p95": 2027.0,
+      "p99": 6070.0
+    },
+    {
+      "run_date": "2026-04-20",
+      "skill_count": 56888,
+      "p50": 169.0,
+      "p90": 1213.0,
+      "p95": 2024.0,
+      "p99": 5940.0
+    },
+    {
+      "run_date": "2026-04-21",
+      "skill_count": 57132,
+      "p50": 171.0,
+      "p90": 1216.0,
+      "p95": 2028.0,
+      "p99": 5966.0
+    },
+    {
+      "run_date": "2026-04-22",
+      "skill_count": 57947,
+      "p50": 171.0,
+      "p90": 1203.0,
+      "p95": 2022.0,
+      "p99": 5956.0
+    },
+    {
+      "run_date": "2026-04-23",
+      "skill_count": 58516,
+      "p50": 174.0,
+      "p90": 1196.0,
+      "p95": 2019.0,
+      "p99": 5913.0
+    },
+    {
+      "run_date": "2026-04-24",
+      "skill_count": 58747,
+      "p50": 177.0,
+      "p90": 1199.0,
+      "p95": 2025.0,
+      "p99": 5922.0
+    },
+    {
+      "run_date": "2026-04-28",
+      "skill_count": 60759,
+      "p50": 185.0,
+      "p90": 1189.0,
+      "p95": 2021.0,
+      "p99": 5871.0
+    },
+    {
+      "run_date": "2026-04-29",
+      "skill_count": 61150,
+      "p50": 190.0,
+      "p90": 1192.0,
+      "p95": 2026.0,
+      "p99": 5899.0
+    },
+    {
+      "run_date": "2026-04-30",
+      "skill_count": 61657,
+      "p50": 193.0,
+      "p90": 1190.0,
+      "p95": 2028.0,
+      "p99": 5893.0
+    },
+    {
+      "run_date": "2026-05-02",
+      "skill_count": 62626,
+      "p50": 201.0,
+      "p90": 1174.0,
+      "p95": 2015.0,
+      "p99": 5804.0
+    },
+    {
+      "run_date": "2026-05-03",
+      "skill_count": 62950,
+      "p50": 205.0,
+      "p90": 1172.0,
+      "p95": 2015.0,
+      "p99": 5809.0
+    },
+    {
+      "run_date": "2026-05-05",
+      "skill_count": 63596,
+      "p50": 218.0,
+      "p90": 1184.0,
+      "p95": 2032.0,
+      "p99": 5854.0
+    },
+    {
+      "run_date": "2026-05-05",
+      "skill_count": 63656,
+      "p50": 218.0,
+      "p90": 1184.0,
+      "p95": 2032.0,
+      "p99": 5853.0
+    },
+    {
+      "run_date": "2026-05-06",
+      "skill_count": 63967,
+      "p50": 224.0,
+      "p90": 1190.0,
+      "p95": 2042.0,
+      "p99": 5874.0
+    },
+    {
+      "run_date": "2026-05-07",
+      "skill_count": 64419,
+      "p50": 241.0,
+      "p90": 1204.0,
+      "p95": 2054.0,
+      "p99": 5885.0
+    },
+    {
+      "run_date": "2026-05-09",
+      "skill_count": 65182,
+      "p50": 253.0,
+      "p90": 1221.0,
+      "p95": 2073.0,
+      "p99": 5894.0
+    },
+    {
+      "run_date": "2026-05-10",
+      "skill_count": 65504,
+      "p50": 259.0,
+      "p90": 1229.0,
+      "p95": 2084.0,
+      "p99": 5910.0
+    },
+    {
+      "run_date": "2026-05-11",
+      "skill_count": 66210,
+      "p50": 266.0,
+      "p90": 1221.0,
+      "p95": 2077.0,
+      "p99": 5872.0
+    }
+  ],
+  "generated_at": "2026-05-11T03:49:10.593559+00:00"
+}

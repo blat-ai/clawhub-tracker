@@ -1,0 +1,347 @@
+{
+  "skill_id": "kd7ca5p9c45ff1p0fsbpv5j3cs80j3ty",
+  "slug": "free-ride",
+  "display_name": "Free Ride - Unlimited free AI",
+  "summary": "Manages free AI models from OpenRouter for OpenClaw. Automatically ranks models by quality, configures fallbacks for rate-limit handling, and updates opencla...",
+  "owner_handle": "shaivpidadi",
+  "owner_image": "https://avatars.githubusercontent.com/u/26166520?v=4",
+  "created_at": "2026-02-05T17:42:17.350000",
+  "days_old": 94,
+  "stat_downloads": 61809,
+  "stat_stars": 437,
+  "tags": {
+    "latest": "k972mxyst33y5wc094rrs7as1h8661w0"
+  },
+  "badges": null,
+  "stat_installs": 476,
+  "stat_comments": 25,
+  "current_version": "1.0.11",
+  "is_highlighted": false,
+  "is_suspicious": false,
+  "velocity": 657.5,
+  "acceleration_pct": -2.6,
+  "dl_delta": 233,
+  "dl_wow": 0.4,
+  "star_delta": 1,
+  "star_wow": 0.2,
+  "installs_delta": 0,
+  "installs_wow": 0.0,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 39335,
+      "stars": 291,
+      "installs_all_time": 285,
+      "installs_current": 277
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 40060,
+      "stars": 292,
+      "installs_all_time": 291,
+      "installs_current": 282
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 41475,
+      "stars": 305,
+      "installs_all_time": 310,
+      "installs_current": 299
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 42648,
+      "stars": 317,
+      "installs_all_time": 325,
+      "installs_current": 313
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 43695,
+      "stars": 321,
+      "installs_all_time": 338,
+      "installs_current": 325
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 44726,
+      "stars": 330,
+      "installs_all_time": 350,
+      "installs_current": 336
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 46554,
+      "stars": 344,
+      "installs_all_time": 373,
+      "installs_current": 358
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 46752,
+      "stars": 344,
+      "installs_all_time": 374,
+      "installs_current": 359
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 47045,
+      "stars": 347,
+      "installs_all_time": 376,
+      "installs_current": 361
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 47576,
+      "stars": 349,
+      "installs_all_time": 379,
+      "installs_current": 348
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 47576,
+      "stars": 349,
+      "installs_all_time": 379,
+      "installs_current": 348
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 47771,
+      "stars": 349,
+      "installs_all_time": 379,
+      "installs_current": 348
+    },
+    {
+      "run_date": "2026-03-29T03:00:00.679954",
+      "downloads": 48168,
+      "stars": 350,
+      "installs_all_time": 383,
+      "installs_current": 354
+    },
+    {
+      "run_date": "2026-03-30T03:00:00.682509",
+      "downloads": 48575,
+      "stars": 353,
+      "installs_all_time": 387,
+      "installs_current": 360
+    },
+    {
+      "run_date": "2026-03-31T03:00:00.702238",
+      "downloads": 49010,
+      "stars": 356,
+      "installs_all_time": 397,
+      "installs_current": 370
+    },
+    {
+      "run_date": "2026-04-01T03:00:00.631568",
+      "downloads": 49433,
+      "stars": 359,
+      "installs_all_time": 403,
+      "installs_current": 375
+    },
+    {
+      "run_date": "2026-04-07T08:32:21.256392",
+      "downloads": 53211,
+      "stars": 383,
+      "installs_all_time": 431,
+      "installs_current": 402
+    },
+    {
+      "run_date": "2026-04-08T02:59:53.612026",
+      "downloads": 53655,
+      "stars": 390,
+      "installs_all_time": 433,
+      "installs_current": 404
+    },
+    {
+      "run_date": "2026-04-09T03:00:00.814082",
+      "downloads": 54277,
+      "stars": 392,
+      "installs_all_time": 437,
+      "installs_current": 408
+    },
+    {
+      "run_date": "2026-04-10T03:00:00.610465",
+      "downloads": 54876,
+      "stars": 396,
+      "installs_all_time": 441,
+      "installs_current": 412
+    },
+    {
+      "run_date": "2026-04-11T03:00:00.635800",
+      "downloads": 55417,
+      "stars": 400,
+      "installs_all_time": 441,
+      "installs_current": 412
+    },
+    {
+      "run_date": "2026-04-12T03:00:00.326052",
+      "downloads": 55803,
+      "stars": 401,
+      "installs_all_time": 445,
+      "installs_current": 416
+    },
+    {
+      "run_date": "2026-04-13T03:00:00.295537",
+      "downloads": 56182,
+      "stars": 403,
+      "installs_all_time": 447,
+      "installs_current": 418
+    },
+    {
+      "run_date": "2026-04-18T02:59:55.390364",
+      "downloads": 57435,
+      "stars": 413,
+      "installs_all_time": 452,
+      "installs_current": 421
+    },
+    {
+      "run_date": "2026-04-19T03:00:00.676118",
+      "downloads": 57628,
+      "stars": 413,
+      "installs_all_time": 453,
+      "installs_current": 421
+    },
+    {
+      "run_date": "2026-04-20T03:00:00.599318",
+      "downloads": 57793,
+      "stars": 414,
+      "installs_all_time": 454,
+      "installs_current": 422
+    },
+    {
+      "run_date": "2026-04-21T03:00:00.575737",
+      "downloads": 57973,
+      "stars": 415,
+      "installs_all_time": 455,
+      "installs_current": 423
+    },
+    {
+      "run_date": "2026-04-22T03:00:00.762090",
+      "downloads": 58140,
+      "stars": 417,
+      "installs_all_time": 455,
+      "installs_current": 424
+    },
+    {
+      "run_date": "2026-04-23T03:00:00.767159",
+      "downloads": 58295,
+      "stars": 418,
+      "installs_all_time": 456,
+      "installs_current": 425
+    },
+    {
+      "run_date": "2026-04-24T03:00:00.604086",
+      "downloads": 58442,
+      "stars": 420,
+      "installs_all_time": 459,
+      "installs_current": 428
+    },
+    {
+      "run_date": "2026-04-28T02:59:56.742214",
+      "downloads": 59156,
+      "stars": 425,
+      "installs_all_time": 464,
+      "installs_current": 432
+    },
+    {
+      "run_date": "2026-04-29T03:01:44.166793",
+      "downloads": 59344,
+      "stars": 425,
+      "installs_all_time": 466,
+      "installs_current": 434
+    },
+    {
+      "run_date": "2026-04-30T03:00:00.711115",
+      "downloads": 59504,
+      "stars": 425,
+      "installs_all_time": 469,
+      "installs_current": 436
+    },
+    {
+      "run_date": "2026-05-02T02:59:59.833385",
+      "downloads": 59790,
+      "stars": 427,
+      "installs_all_time": 470,
+      "installs_current": 437
+    },
+    {
+      "run_date": "2026-05-03T03:42:13.922530",
+      "downloads": 59917,
+      "stars": 428,
+      "installs_all_time": 471,
+      "installs_current": 438
+    },
+    {
+      "run_date": "2026-05-05T00:41:38.231465",
+      "downloads": 60252,
+      "stars": 429,
+      "installs_all_time": 473,
+      "installs_current": 440
+    },
+    {
+      "run_date": "2026-05-05T03:00:00.321955",
+      "downloads": 60284,
+      "stars": 430,
+      "installs_all_time": 473,
+      "installs_current": 440
+    },
+    {
+      "run_date": "2026-05-06T03:00:00.570710",
+      "downloads": 60505,
+      "stars": 431,
+      "installs_all_time": 474,
+      "installs_current": 441
+    },
+    {
+      "run_date": "2026-05-07T03:00:00.572063",
+      "downloads": 60787,
+      "stars": 432,
+      "installs_all_time": 474,
+      "installs_current": 441
+    },
+    {
+      "run_date": "2026-05-09T03:44:10.833903",
+      "downloads": 61319,
+      "stars": 435,
+      "installs_all_time": 475,
+      "installs_current": 442
+    },
+    {
+      "run_date": "2026-05-10T03:00:00.531823",
+      "downloads": 61576,
+      "stars": 436,
+      "installs_all_time": 476,
+      "installs_current": 443
+    },
+    {
+      "run_date": "2026-05-11T03:00:00.316612",
+      "downloads": 61809,
+      "stars": 437,
+      "installs_all_time": 476,
+      "installs_current": 443
+    }
+  ],
+  "version_releases": [
+    {
+      "version_number": "1.0.7",
+      "run_date": "2026-03-27T14:10:05.719067",
+      "changelog": "- Adds detailed SKILL.md documentation for the freeride skill.\n- Clearly explains prerequisites, primary workflow, command reference, config changes, optional watcher, and troubleshooting steps.\n- No code changes or functionality updates detailed."
+    },
+    {
+      "version_number": "1.0.8",
+      "run_date": "2026-04-07T08:32:21.256392",
+      "changelog": "- Added formal SKILL metadata section with required environment variable (OPENROUTER_API_KEY), network permissions (openrouter.ai), install instructions, and files written by the skill.\n- No changes to functionality or commands; documentation and configuration remain the same.\n- Clarified and documented file writes to openclaw-related JSON files for transparency and stronger integration."
+    },
+    {
+      "version_number": "1.0.9",
+      "run_date": "2026-04-18T02:59:55.390364",
+      "changelog": "- Automatically configures OpenClaw to use free AI models from OpenRouter, ranking by quality and setting up fallback models to handle rate limits.\n- Updates only specific keys in `~/.openclaw/openclaw.json` to preserve the user's existing configuration.\n- Provides a detailed command reference, including model switching, fallback configuration, and cache refresh.\n- Introduces a watcher utility for automatic fallback rotation.\n- Includes setup, troubleshooting guidance, and clear prerequisites for seamless integration."
+    },
+    {
+      "version_number": "1.0.11",
+      "run_date": "2026-05-07T03:00:00.572063",
+      "changelog": "- Added .gitignore file to manage untracked files in the repository.\n- Documentation improvements in SKILL.md: clarified the daemon usage in the Watcher section, added the freeride rotate command description, and expanded instructions for unattended setups.\n- No changes to user-facing commands or logic."
+    }
+  ]
+}

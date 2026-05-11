@@ -1,0 +1,101 @@
+{
+  "skill_id": "kd73qcfpxy5hea9mykx6wxdbfs85wr90",
+  "slug": "gilbot-wealth-engine",
+  "display_name": "GilBot Wealth Engine",
+  "summary": "Provides financial analysis and personalized investment strategies to help users optimize wealth growth and management.",
+  "owner_handle": "maiahman",
+  "owner_image": "https://avatars.githubusercontent.com/u/131632663?v=4",
+  "created_at": "2026-05-01T02:23:35.002000",
+  "days_old": 10,
+  "stat_downloads": 8344,
+  "stat_stars": 0,
+  "tags": {
+    "ai": "k975a0gqbrtq0bdg9953wnq3z585xt53",
+    "alpha": "k975a0gqbrtq0bdg9953wnq3z585xt53",
+    "crypto": "k975a0gqbrtq0bdg9953wnq3z585xt53",
+    "latest": "k975a0gqbrtq0bdg9953wnq3z585xt53",
+    "memecoin": "k975a0gqbrtq0bdg9953wnq3z585xt53",
+    "signals": "k975a0gqbrtq0bdg9953wnq3z585xt53",
+    "trading": "k975a0gqbrtq0bdg9953wnq3z585xt53"
+  },
+  "badges": null,
+  "stat_installs": 0,
+  "stat_comments": 0,
+  "current_version": "1.0.0",
+  "is_highlighted": false,
+  "is_suspicious": true,
+  "velocity": 834.4,
+  "acceleration_pct": -98.8,
+  "dl_delta": 21,
+  "dl_wow": 0.3,
+  "star_delta": 0,
+  "star_wow": null,
+  "installs_delta": 0,
+  "installs_wow": null,
+  "history": [
+    {
+      "run_date": "2026-05-02T02:59:59.833385",
+      "downloads": 809,
+      "stars": 0,
+      "installs_all_time": 0,
+      "installs_current": 0
+    },
+    {
+      "run_date": "2026-05-03T03:42:13.922530",
+      "downloads": 2011,
+      "stars": 0,
+      "installs_all_time": 0,
+      "installs_current": 0
+    },
+    {
+      "run_date": "2026-05-05T00:41:38.231465",
+      "downloads": 4188,
+      "stars": 0,
+      "installs_all_time": 0,
+      "installs_current": 0
+    },
+    {
+      "run_date": "2026-05-05T03:00:00.321955",
+      "downloads": 4419,
+      "stars": 0,
+      "installs_all_time": 0,
+      "installs_current": 0
+    },
+    {
+      "run_date": "2026-05-06T03:00:00.570710",
+      "downloads": 5670,
+      "stars": 0,
+      "installs_all_time": 0,
+      "installs_current": 0
+    },
+    {
+      "run_date": "2026-05-07T03:00:00.572063",
+      "downloads": 6959,
+      "stars": 0,
+      "installs_all_time": 0,
+      "installs_current": 0
+    },
+    {
+      "run_date": "2026-05-09T03:44:10.833903",
+      "downloads": 8314,
+      "stars": 0,
+      "installs_all_time": 0,
+      "installs_current": 0
+    },
+    {
+      "run_date": "2026-05-10T03:00:00.531823",
+      "downloads": 8323,
+      "stars": 0,
+      "installs_all_time": 0,
+      "installs_current": 0
+    },
+    {
+      "run_date": "2026-05-11T03:00:00.316612",
+      "downloads": 8344,
+      "stars": 0,
+      "installs_all_time": 0,
+      "installs_current": 0
+    }
+  ],
+  "version_releases": []
+}

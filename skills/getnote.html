@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get笔记 — ClawHub Trends</title>
+    <link rel="icon" type="image/svg+xml" href="../static/favicon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="../static/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../static/favicon-16x16.png">
+    <link rel="apple-touch-icon" href="../static/apple-touch-icon.png">
+    
+
+<meta name="description" content="Get笔记 - 保存、搜索、管理个人笔记和知识库。 **当以下情况时使用此 Skill**： (1) 用户要保存内容到笔记：发链接、发图片、说「记一下」「存到笔记」「保存」「收藏」 (2) 用户要搜索或查看笔记：「搜一下」「找找笔记」「最近存了什么」「看看原文」 (3) 用户要管理知识库或标签：「加到知识库」「建...">
+<link rel="canonical" href="https://clawhubtrends.com/skills/getnote.html">
+<meta property="og:title" content="Get笔记 — ClawHub Trends">
+<meta property="og:description" content="Get笔记 - 保存、搜索、管理个人笔记和知识库。 **当以下情况时使用此 Skill**： (1) 用户要保存内容到笔记：发链接、发图片、说「记一下」「存到笔记」「保存」「收藏」 (2) 用户要搜索或查看笔记：「搜一下」「找找笔记」「最近存了什么」「看看原文」 (3) 用户要管理知识库或标签：「加到知识库」「建...">
+<meta property="og:url" content="https://clawhubtrends.com/skills/getnote.html">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://avatars.githubusercontent.com/u/3115061?v=4">
+<meta name="twitter:card" content="summary">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../static/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6VXKK90H9Q"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-6VXKK90H9Q');
+    </script>
+    
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <a href="../index.html" class="logo"><img src="../static/favicon.svg" alt="" width="28" height="28" style="vertical-align:-5px;margin-right:6px">ClawHub Trends</a>
+            <a href="../index.html" ><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;margin-right:4px"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>Dashboard</a>
+            <a href="../rising.html" ><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;margin-right:4px"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>Rising</a>
+            <a href="../leaderboard.html" ><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;margin-right:4px"><path d="M6 9H4.5a2.5 2.5 0 010-5C7 4 6 9 6 9zm12 0h1.5a2.5 2.5 0 000-5C17 4 18 9 18 9zm-1 1v3a6 6 0 01-6 6 6 6 0 01-6-6v-3"/><line x1="12" y1="19" x2="12" y2="22"/><line x1="8" y1="22" x2="16" y2="22"/></svg>Leaderboard</a>
+            <a href="../owners.html" ><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;margin-right:4px"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>Owners</a>
+        </div>
+    </nav>
+
+    <main class="container">
+        
+<div class="detail-header">
+    <h1>
+        Get笔记
+        <a href="https://clawhub.ai/iswalle/getnote" target="_blank" rel="noopener" title="View on ClawHub"><img src="https://clawhub.ai/clawd-logo.png" alt="ClawHub" width="20" height="20" style="vertical-align:-3px;border-radius:3px;opacity:0.6;margin-left:6px"></a>
+        
+        
+    </h1>
+    <p class="meta">by <img src="https://avatars.githubusercontent.com/u/3115061?v=4" alt="" width="18" height="18" style="border-radius:50%;vertical-align:-3px;margin-right:4px;opacity:0.85"><a href="../owners/iswalle.html">iswalle</a></p>
+    <p class="summary">Get笔记 - 保存、搜索、管理个人笔记和知识库。 **当以下情况时使用此 Skill**： (1) 用户要保存内容到笔记：发链接、发图片、说「记一下」「存到笔记」「保存」「收藏」 (2) 用户要搜索或查看笔记：「搜一下」「找找笔记」「最近存了什么」「看看原文」 (3) 用户要管理知识库或标签：「加到知识库」「建...</p>
+    
+    <div class="tag-list">
+        <span class="tag">latest</span>
+    </div>
+    
+</div>
+
+
+
+<div class="stat-grid">
+    <div class="stat-item">
+        <div class="label">Downloads</div>
+        <div class="value">19,620</div>
+        
+
+<div class="change up">
+    +224 (+1.2%)
+</div>
+
+
+    </div>
+    <div class="stat-item">
+        <div class="label">Stars</div>
+        <div class="value">57</div>
+        
+
+
+    </div>
+    <div class="stat-item">
+        <div class="label">DL/day</div>
+        <div class="value">301.8</div>
+    </div>
+    <div class="stat-item">
+        <div class="label">Installs</div>
+        <div class="value">62</div>
+        
+
+
+    </div>
+    <div class="stat-item">
+        <div class="label">Versions</div>
+        <div class="value">13</div>
+    </div>
+    
+    <div class="stat-item">
+        <div class="label">Age</div>
+        <div class="value">65d</div>
+    </div>
+    
+    
+    <div class="stat-item">
+        <div class="label">Acceleration</div>
+        <div class="value trend-down">-9.7%</div>
+    </div>
+    
+</div>
+
+
+<div class="chart-container">
+    <h3>Growth Trajectory</h3>
+    <canvas id="growthChart" height="140"></canvas>
+</div>
+
+
+
+<h3>Version Releases</h3>
+<div class="table-wrap"><table class="sortable">
+    <thead><tr><th>Version</th><th>Date</th><th>Changelog</th></tr></thead>
+    <tbody>
+    
+        <tr>
+            <td>1.8.3</td>
+            <td>2026-05-07</td>
+            <td>新增反幻觉边界、失败重试策略、执行流程概览</td>
+        </tr>
+    
+        <tr>
+            <td>1.8.2</td>
+            <td>2026-04-29</td>
+            <td>- Updated documentation for knowledge base, list, and tag management in reference files.
+- No breaking changes to API or behavior; changes are documentation-only.
+- Ensured all routes, field names, and usage guidelines are current in the markdown files.</td>
+        </tr>
+    
+        <tr>
+            <td>1.8.1</td>
+            <td>2026-04-28</td>
+            <td>- 优化了自然语言路由中“biji.com/note/{note_id}”内链的处理，默认返回笔记内链，只有在用户明确要求时才生成分享链接
+- 提升指令/自然语言路由描述的准确性和细节，消除歧义
+- 文档补充和润色，无功能性变更</td>
+        </tr>
+    
+        <tr>
+            <td>1.8.0</td>
+            <td>2026-04-24</td>
+            <td>- 优化自然语言路由：根据链接类型（如 biji.com/note/share_note/*、d.biji.com/* 和内部链接）细化处理逻辑，支持同步/异步返回对应 ID，内部链接直接进入详情页。
+- 明确正文引用其他笔记的内链要求和路径。
+- 路由表新增区分“同步返回 note_id”和“异步返回 task_id”场景。
+- 其他说明和细节说明同步增强，提升自然语言指令识别准确性。</td>
+        </tr>
+    
+        <tr>
+            <td>1.7.0</td>
+            <td>2026-04-18</td>
+            <td>getnote v1.7.0
+
+- Updated documentation for knowledge base (references/knowledge.md) and note list functionality (references/list.md).
+- Minor changes to package.json and internal references docs for improved accuracy and clarity.
+- No API or functional changes; documentation and metadata only.</td>
+        </tr>
+    
+        <tr>
+            <td>1.6.0</td>
+            <td>2026-04-12</td>
+            <td>- Updated references/list.md with additional details or changes.
+- Updated package.json, likely to revise version or dependencies.
+- No breaking changes; existing functionality remains the same.</td>
+        </tr>
+    
+        <tr>
+            <td>1.5.8</td>
+            <td>2026-04-10</td>
+            <td>- Added an explicit &#34;API 路由表&#34; section in SKILL.md, listing all available API endpoints with methods and paths.
+- No changes to core functionality—this version adds documentation to clarify endpoint usage.
+- Added _meta.json metadata file.
+- Updated package.json (details not shown).</td>
+        </tr>
+    
+        <tr>
+            <td>1.3.3</td>
+            <td>2026-04-07</td>
+            <td>getnote v1.3.3
+
+- Updated references/knowledge.md.  
+- No functional or breaking changes to core logic.</td>
+        </tr>
+    
+        <tr>
+            <td>1.5.7</td>
+            <td>2026-03-27</td>
+            <td>- 提示用户通过 `/note config` 命令完成配置，不再自动发起 OAuth 授权流程。
+- `/note config` 指令说明更新为“配置 API Key 和 Client ID”。
+- 认证流程相关说明文字优化，移除了自动授权描述。
+- 其他文档内容未变。</td>
+        </tr>
+    
+        <tr>
+            <td>1.5.2</td>
+            <td>2026-03-24</td>
+            <td>安装后自动触发 OAuth 授权</td>
+        </tr>
+    
+        <tr>
+            <td>1.5.1</td>
+            <td>2026-03-21</td>
+            <td>Some details optimized</td>
+        </tr>
+    
+        <tr>
+            <td>1.5.0</td>
+            <td>2026-03-20</td>
+            <td>笔记详情支持原图、OAuth 增加确认码</td>
+        </tr>
+    
+    </tbody>
+</table></div>
+
+
+    </main>
+
+    <footer>
+        <div class="container">
+            Last updated:  &middot;
+            <a href="../api/index.json">JSON API</a>
+        </div>
+    </footer>
+
+    
+
+<script>
+const history = [{"downloads": 4940, "installs_all_time": 17, "installs_current": 16, "run_date": "2026-03-18T09:34:08.772710", "stars": 28}, {"downloads": 5142, "installs_all_time": 19, "installs_current": 18, "run_date": "2026-03-19T03:00:00.875517", "stars": 28}, {"downloads": 5558, "installs_all_time": 22, "installs_current": 21, "run_date": "2026-03-20T03:00:00.833403", "stars": 29}, {"downloads": 5865, "installs_all_time": 23, "installs_current": 22, "run_date": "2026-03-21T03:00:00.776166", "stars": 30}, {"downloads": 6173, "installs_all_time": 26, "installs_current": 25, "run_date": "2026-03-22T03:00:00.645113", "stars": 33}, {"downloads": 6494, "installs_all_time": 32, "installs_current": 31, "run_date": "2026-03-23T03:00:00.753584", "stars": 35}, {"downloads": 7078, "installs_all_time": 36, "installs_current": 35, "run_date": "2026-03-24T14:13:35.104417", "stars": 36}, {"downloads": 7115, "installs_all_time": 36, "installs_current": 35, "run_date": "2026-03-24T16:57:13.814672", "stars": 37}, {"downloads": 7179, "installs_all_time": 36, "installs_current": 35, "run_date": "2026-03-25T03:00:00.456013", "stars": 38}, {"downloads": 7510, "installs_all_time": 37, "installs_current": 36, "run_date": "2026-03-26T03:00:00.708668", "stars": 39}, {"downloads": 8101, "installs_all_time": 37, "installs_current": 36, "run_date": "2026-03-27T14:10:05.719067", "stars": 39}, {"downloads": 8101, "installs_all_time": 37, "installs_current": 36, "run_date": "2026-03-27T17:40:37.408934", "stars": 39}, {"downloads": 8228, "installs_all_time": 36, "installs_current": 36, "run_date": "2026-03-28T03:00:00.365056", "stars": 40}, {"downloads": 8603, "installs_all_time": 37, "installs_current": 37, "run_date": "2026-03-29T03:00:00.679954", "stars": 41}, {"downloads": 8974, "installs_all_time": 37, "installs_current": 37, "run_date": "2026-03-30T03:00:00.682509", "stars": 41}, {"downloads": 9350, "installs_all_time": 38, "installs_current": 38, "run_date": "2026-03-31T03:00:00.702238", "stars": 41}, {"downloads": 9718, "installs_all_time": 39, "installs_current": 39, "run_date": "2026-04-01T03:00:00.631568", "stars": 41}, {"downloads": 11689, "installs_all_time": 47, "installs_current": 47, "run_date": "2026-04-07T08:32:21.256392", "stars": 43}, {"downloads": 11946, "installs_all_time": 48, "installs_current": 48, "run_date": "2026-04-08T02:59:53.612026", "stars": 44}, {"downloads": 12346, "installs_all_time": 49, "installs_current": 49, "run_date": "2026-04-09T03:00:00.814082", "stars": 45}, {"downloads": 12754, "installs_all_time": 49, "installs_current": 49, "run_date": "2026-04-10T03:00:00.610465", "stars": 46}, {"downloads": 13095, "installs_all_time": 50, "installs_current": 50, "run_date": "2026-04-11T03:00:00.635800", "stars": 46}, {"downloads": 13397, "installs_all_time": 52, "installs_current": 52, "run_date": "2026-04-12T03:00:00.326052", "stars": 47}, {"downloads": 13693, "installs_all_time": 52, "installs_current": 52, "run_date": "2026-04-13T03:00:00.295537", "stars": 47}, {"downloads": 15204, "installs_all_time": 53, "installs_current": 53, "run_date": "2026-04-18T02:59:55.390364", "stars": 48}, {"downloads": 15433, "installs_all_time": 53, "installs_current": 53, "run_date": "2026-04-19T03:00:00.676118", "stars": 48}, {"downloads": 15648, "installs_all_time": 54, "installs_current": 54, "run_date": "2026-04-20T03:00:00.599318", "stars": 49}, {"downloads": 15873, "installs_all_time": 55, "installs_current": 55, "run_date": "2026-04-21T03:00:00.575737", "stars": 49}, {"downloads": 16092, "installs_all_time": 55, "installs_current": 55, "run_date": "2026-04-22T03:00:00.762090", "stars": 49}, {"downloads": 16312, "installs_all_time": 55, "installs_current": 55, "run_date": "2026-04-23T03:00:00.767159", "stars": 49}, {"downloads": 16539, "installs_all_time": 55, "installs_current": 55, "run_date": "2026-04-24T03:00:00.604086", "stars": 50}, {"downloads": 17326, "installs_all_time": 58, "installs_current": 56, "run_date": "2026-04-28T02:59:56.742214", "stars": 52}, {"downloads": 17523, "installs_all_time": 59, "installs_current": 57, "run_date": "2026-04-29T03:01:44.166793", "stars": 52}, {"downloads": 17656, "installs_all_time": 60, "installs_current": 58, "run_date": "2026-04-30T03:00:00.711115", "stars": 52}, {"downloads": 17857, "installs_all_time": 60, "installs_current": 58, "run_date": "2026-05-02T02:59:59.833385", "stars": 53}, {"downloads": 17942, "installs_all_time": 60, "installs_current": 58, "run_date": "2026-05-03T03:42:13.922530", "stars": 55}, {"downloads": 18270, "installs_all_time": 61, "installs_current": 59, "run_date": "2026-05-05T00:41:38.231465", "stars": 56}, {"downloads": 18291, "installs_all_time": 61, "installs_current": 59, "run_date": "2026-05-05T03:00:00.321955", "stars": 56}, {"downloads": 18498, "installs_all_time": 61, "installs_current": 59, "run_date": "2026-05-06T03:00:00.570710", "stars": 57}, {"downloads": 18778, "installs_all_time": 62, "installs_current": 60, "run_date": "2026-05-07T03:00:00.572063", "stars": 57}, {"downloads": 19180, "installs_all_time": 62, "installs_current": 60, "run_date": "2026-05-09T03:44:10.833903", "stars": 57}, {"downloads": 19396, "installs_all_time": 62, "installs_current": 60, "run_date": "2026-05-10T03:00:00.531823", "stars": 57}, {"downloads": 19620, "installs_all_time": 62, "installs_current": 60, "run_date": "2026-05-11T03:00:00.316612", "stars": 57}];
+const labels = history.map(h => h.run_date ? h.run_date.substring(0, 10) : '');
+const dlData = history.map(h => h.downloads);
+const starData = history.map(h => h.stars);
+
+const ctx = document.getElementById('growthChart').getContext('2d');
+
+const dlGrad = ctx.createLinearGradient(0, 0, 0, 350);
+dlGrad.addColorStop(0, 'rgba(137, 180, 250, 0.25)');
+dlGrad.addColorStop(1, 'rgba(137, 180, 250, 0.02)');
+
+const starGrad = ctx.createLinearGradient(0, 0, 0, 350);
+starGrad.addColorStop(0, 'rgba(249, 226, 175, 0.20)');
+starGrad.addColorStop(1, 'rgba(249, 226, 175, 0.02)');
+
+new Chart(ctx, {
+    type: 'line',
+    data: {
+        labels,
+        datasets: [
+            {
+                label: 'Downloads',
+                data: dlData,
+                borderColor: '#89b4fa',
+                backgroundColor: dlGrad,
+                borderWidth: 2.5,
+                fill: true,
+                tension: 0.4,
+                pointRadius: 4,
+                pointBackgroundColor: '#89b4fa',
+                pointBorderColor: '#1e1e2e',
+                pointBorderWidth: 2,
+                pointHoverRadius: 6,
+                yAxisID: 'y'
+            },
+            {
+                label: 'Stars',
+                data: starData,
+                borderColor: '#f9e2af',
+                backgroundColor: starGrad,
+                borderWidth: 2.5,
+                fill: true,
+                tension: 0.4,
+                pointRadius: 4,
+                pointBackgroundColor: '#f9e2af',
+                pointBorderColor: '#1e1e2e',
+                pointBorderWidth: 2,
+                pointHoverRadius: 6,
+                yAxisID: 'y1'
+            }
+        ]
+    },
+    options: {
+        responsive: true,
+        interaction: { mode: 'index', intersect: false },
+        plugins: {
+            legend: {
+                labels: { color: '#a6adc8', usePointStyle: true, pointStyle: 'circle', padding: 16, font: { size: 13 } }
+            },
+            tooltip: {
+                backgroundColor: '#313244',
+                titleColor: '#cdd6f4',
+                bodyColor: '#a6adc8',
+                borderColor: '#45475a',
+                borderWidth: 1,
+                cornerRadius: 8,
+                padding: 10,
+                displayColors: true,
+                usePointStyle: true
+            }
+        },
+        scales: {
+            x: {
+                ticks: { color: '#585b70', maxRotation: 45, font: { size: 13 } },
+                grid: { color: 'rgba(49, 50, 68, 0.5)', lineWidth: 0.5 }
+            },
+            y: {
+                position: 'left',
+                ticks: { color: '#89b4fa', font: { size: 13 } },
+                grid: { color: 'rgba(49, 50, 68, 0.5)', lineWidth: 0.5 },
+                title: { display: true, text: 'Downloads', color: '#89b4fa', font: { size: 14 } }
+            },
+            y1: {
+                position: 'right',
+                ticks: { color: '#f9e2af', font: { size: 13 } },
+                grid: { drawOnChartArea: false },
+                title: { display: true, text: 'Stars', color: '#f9e2af', font: { size: 14 } }
+            }
+        }
+    }
+});
+</script>
+
+
+    <script>
+    document.querySelectorAll('table.sortable').forEach(table => {
+        const headers = table.querySelectorAll('th');
+        headers.forEach((th, colIdx) => {
+            th.style.cursor = 'pointer';
+            th.addEventListener('click', () => {
+                const tbody = table.querySelector('tbody');
+                const rows = Array.from(tbody.querySelectorAll('tr'));
+                const asc = th.dataset.sort !== 'asc';
+                headers.forEach(h => { h.dataset.sort = ''; h.classList.remove('sort-asc','sort-desc'); });
+                th.dataset.sort = asc ? 'asc' : 'desc';
+                th.classList.add(asc ? 'sort-asc' : 'sort-desc');
+                rows.sort((a, b) => {
+                    const at = a.cells[colIdx].textContent.trim();
+                    const bt = b.cells[colIdx].textContent.trim();
+                    const an = parseFloat(at.replace(/[,%+]/g, ''));
+                    const bn = parseFloat(bt.replace(/[,%+]/g, ''));
+                    if (!isNaN(an) && !isNaN(bn)) return asc ? an - bn : bn - an;
+                    return asc ? at.localeCompare(bt) : bt.localeCompare(at);
+                });
+                rows.forEach(r => tbody.appendChild(r));
+            });
+        });
+    });
+    </script>
+</body>
+</html>

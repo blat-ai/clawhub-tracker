@@ -1,0 +1,389 @@
+{
+  "skill_id": "kd7ans4j6fwb8zwr0qyct403n580bqh3",
+  "slug": "api-gateway",
+  "display_name": "API Gateway",
+  "summary": "Connect to external services through Maton-managed API routes. Use this skill only after the user names the target app, account, and task. Start with read/li...",
+  "owner_handle": "byungkyu",
+  "owner_image": "https://avatars.githubusercontent.com/u/16563684?v=4",
+  "created_at": "2026-02-01T08:37:47.126000",
+  "days_old": 98,
+  "stat_downloads": 76180,
+  "stat_stars": 375,
+  "tags": {
+    "latest": "k9793kww22pbh34exwefpr5yp5869yr6"
+  },
+  "badges": null,
+  "stat_installs": 576,
+  "stat_comments": 2,
+  "current_version": "1.0.116",
+  "is_highlighted": false,
+  "is_suspicious": false,
+  "velocity": 777.3,
+  "acceleration_pct": -25.0,
+  "dl_delta": 262,
+  "dl_wow": 0.3,
+  "star_delta": 1,
+  "star_wow": 0.3,
+  "installs_delta": 0,
+  "installs_wow": 0.0,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 47755,
+      "stars": 239,
+      "installs_all_time": 318,
+      "installs_current": 306
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 48363,
+      "stars": 241,
+      "installs_all_time": 328,
+      "installs_current": 315
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 49534,
+      "stars": 245,
+      "installs_all_time": 346,
+      "installs_current": 332
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 50471,
+      "stars": 250,
+      "installs_all_time": 359,
+      "installs_current": 344
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 51370,
+      "stars": 256,
+      "installs_all_time": 371,
+      "installs_current": 355
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 52177,
+      "stars": 260,
+      "installs_all_time": 382,
+      "installs_current": 364
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 53651,
+      "stars": 267,
+      "installs_all_time": 406,
+      "installs_current": 386
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 53769,
+      "stars": 267,
+      "installs_all_time": 407,
+      "installs_current": 387
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 53992,
+      "stars": 269,
+      "installs_all_time": 412,
+      "installs_current": 391
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 54964,
+      "stars": 274,
+      "installs_all_time": 424,
+      "installs_current": 402
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 56304,
+      "stars": 278,
+      "installs_all_time": 437,
+      "installs_current": 415
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 56304,
+      "stars": 278,
+      "installs_all_time": 437,
+      "installs_current": 415
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 56633,
+      "stars": 279,
+      "installs_all_time": 440,
+      "installs_current": 415
+    },
+    {
+      "run_date": "2026-03-29T03:00:00.679954",
+      "downloads": 57393,
+      "stars": 283,
+      "installs_all_time": 445,
+      "installs_current": 420
+    },
+    {
+      "run_date": "2026-03-30T03:00:00.682509",
+      "downloads": 58169,
+      "stars": 288,
+      "installs_all_time": 448,
+      "installs_current": 422
+    },
+    {
+      "run_date": "2026-03-31T03:00:00.702238",
+      "downloads": 59005,
+      "stars": 290,
+      "installs_all_time": 455,
+      "installs_current": 428
+    },
+    {
+      "run_date": "2026-04-01T03:00:00.631568",
+      "downloads": 59839,
+      "stars": 291,
+      "installs_all_time": 462,
+      "installs_current": 434
+    },
+    {
+      "run_date": "2026-04-07T08:32:21.256392",
+      "downloads": 63902,
+      "stars": 320,
+      "installs_all_time": 494,
+      "installs_current": 464
+    },
+    {
+      "run_date": "2026-04-08T02:59:53.612026",
+      "downloads": 64304,
+      "stars": 321,
+      "installs_all_time": 496,
+      "installs_current": 466
+    },
+    {
+      "run_date": "2026-04-09T03:00:00.814082",
+      "downloads": 64888,
+      "stars": 324,
+      "installs_all_time": 499,
+      "installs_current": 469
+    },
+    {
+      "run_date": "2026-04-10T03:00:00.610465",
+      "downloads": 65460,
+      "stars": 327,
+      "installs_all_time": 509,
+      "installs_current": 479
+    },
+    {
+      "run_date": "2026-04-11T03:00:00.635800",
+      "downloads": 66040,
+      "stars": 329,
+      "installs_all_time": 513,
+      "installs_current": 483
+    },
+    {
+      "run_date": "2026-04-12T03:00:00.326052",
+      "downloads": 66460,
+      "stars": 334,
+      "installs_all_time": 519,
+      "installs_current": 489
+    },
+    {
+      "run_date": "2026-04-13T03:00:00.295537",
+      "downloads": 66885,
+      "stars": 335,
+      "installs_all_time": 524,
+      "installs_current": 493
+    },
+    {
+      "run_date": "2026-04-18T02:59:55.390364",
+      "downloads": 69325,
+      "stars": 344,
+      "installs_all_time": 535,
+      "installs_current": 503
+    },
+    {
+      "run_date": "2026-04-19T03:00:00.676118",
+      "downloads": 69646,
+      "stars": 348,
+      "installs_all_time": 536,
+      "installs_current": 503
+    },
+    {
+      "run_date": "2026-04-20T03:00:00.599318",
+      "downloads": 69901,
+      "stars": 350,
+      "installs_all_time": 538,
+      "installs_current": 504
+    },
+    {
+      "run_date": "2026-04-21T03:00:00.575737",
+      "downloads": 70208,
+      "stars": 351,
+      "installs_all_time": 542,
+      "installs_current": 508
+    },
+    {
+      "run_date": "2026-04-22T03:00:00.762090",
+      "downloads": 70512,
+      "stars": 353,
+      "installs_all_time": 543,
+      "installs_current": 509
+    },
+    {
+      "run_date": "2026-04-23T03:00:00.767159",
+      "downloads": 70787,
+      "stars": 354,
+      "installs_all_time": 544,
+      "installs_current": 510
+    },
+    {
+      "run_date": "2026-04-24T03:00:00.604086",
+      "downloads": 71081,
+      "stars": 357,
+      "installs_all_time": 547,
+      "installs_current": 513
+    },
+    {
+      "run_date": "2026-04-28T02:59:56.742214",
+      "downloads": 72183,
+      "stars": 367,
+      "installs_all_time": 559,
+      "installs_current": 525
+    },
+    {
+      "run_date": "2026-04-29T03:01:44.166793",
+      "downloads": 72547,
+      "stars": 368,
+      "installs_all_time": 562,
+      "installs_current": 528
+    },
+    {
+      "run_date": "2026-04-30T03:00:00.711115",
+      "downloads": 72841,
+      "stars": 369,
+      "installs_all_time": 564,
+      "installs_current": 530
+    },
+    {
+      "run_date": "2026-05-02T02:59:59.833385",
+      "downloads": 73428,
+      "stars": 370,
+      "installs_all_time": 565,
+      "installs_current": 531
+    },
+    {
+      "run_date": "2026-05-03T03:42:13.922530",
+      "downloads": 73645,
+      "stars": 370,
+      "installs_all_time": 566,
+      "installs_current": 532
+    },
+    {
+      "run_date": "2026-05-05T00:41:38.231465",
+      "downloads": 74190,
+      "stars": 370,
+      "installs_all_time": 569,
+      "installs_current": 535
+    },
+    {
+      "run_date": "2026-05-05T03:00:00.321955",
+      "downloads": 74259,
+      "stars": 371,
+      "installs_all_time": 569,
+      "installs_current": 535
+    },
+    {
+      "run_date": "2026-05-06T03:00:00.570710",
+      "downloads": 74596,
+      "stars": 373,
+      "installs_all_time": 571,
+      "installs_current": 537
+    },
+    {
+      "run_date": "2026-05-07T03:00:00.572063",
+      "downloads": 74974,
+      "stars": 373,
+      "installs_all_time": 571,
+      "installs_current": 537
+    },
+    {
+      "run_date": "2026-05-09T03:44:10.833903",
+      "downloads": 75644,
+      "stars": 373,
+      "installs_all_time": 575,
+      "installs_current": 541
+    },
+    {
+      "run_date": "2026-05-10T03:00:00.531823",
+      "downloads": 75918,
+      "stars": 374,
+      "installs_all_time": 576,
+      "installs_current": 542
+    },
+    {
+      "run_date": "2026-05-11T03:00:00.316612",
+      "downloads": 76180,
+      "stars": 375,
+      "installs_all_time": 576,
+      "installs_current": 542
+    }
+  ],
+  "version_releases": [
+    {
+      "version_number": "1.0.70",
+      "run_date": "2026-03-22T03:00:00.645113",
+      "changelog": "## api-gateway v1.0.70\n\n- Added a new documentation file at references/twenty/README.md.\n- No changes to code or core functionality in this release."
+    },
+    {
+      "version_number": "1.0.71",
+      "run_date": "2026-03-25T03:00:00.456013",
+      "changelog": "- No changes detected in this version.  \n- Version number updated to 1.0.71; content and functionality remain the same."
+    },
+    {
+      "version_number": "1.0.73",
+      "run_date": "2026-03-30T03:00:00.682509",
+      "changelog": "- Added Supabase reference documentation at references/supabase/README.md.\n- No changes to API behavior or user functionality."
+    },
+    {
+      "version_number": "1.0.74",
+      "run_date": "2026-04-01T03:00:00.631568",
+      "changelog": "- Added new reference documentation: references/memelord/README.md\n- No changes to existing code or APIs; change is documentation-only."
+    },
+    {
+      "version_number": "1.0.76",
+      "run_date": "2026-04-07T08:32:21.256392",
+      "changelog": "- Added documentation file: references/front/README.md.\n- Included \"Front\" (`api2.frontapp.com`) as a supported service in the list."
+    },
+    {
+      "version_number": "1.0.78",
+      "run_date": "2026-04-08T02:59:53.612026",
+      "changelog": "No file changes detected in this version.\n\n- No updates or code changes were made for version 1.0.78.\n- Functionality, documentation, and integrations remain unchanged."
+    },
+    {
+      "version_number": "1.0.80",
+      "run_date": "2026-04-10T03:00:00.610465",
+      "changelog": "- Added documentation file: references/zoom/README.md\n- No changes to core functionality or APIs."
+    },
+    {
+      "version_number": "1.0.84",
+      "run_date": "2026-04-18T02:59:55.390364",
+      "changelog": "No user-facing or internal changes detected in this release.\n\n- Version bump only. No file changes were made."
+    },
+    {
+      "version_number": "1.0.85",
+      "run_date": "2026-04-29T03:01:44.166793",
+      "changelog": "- No file changes detected in this release.\n- No updates to functionality or documentation.\n- Version metadata remains unchanged."
+    },
+    {
+      "version_number": "1.0.112",
+      "run_date": "2026-05-02T02:59:59.833385",
+      "changelog": "- Updated route usage instructions: Section on base URL and path construction is simplified and clarified.\n- Emphasized use of app-specific reference and read/list calls before making any changes.\n- Minor change in the description field, stressing to always consult the app-specific reference before changes.\n- No functional or interface changes; documentation is now clearer and more concise."
+    },
+    {
+      "version_number": "1.0.116",
+      "run_date": "2026-05-09T03:44:10.833903",
+      "changelog": "- Stricter user consent protocols for non-GET (write, modify, or delete) API calls; require explicit user approval with all request details before proceeding.\n- Updated instructions: Never infer approval for non-GET requests from the original user request\u2014always prompt for confirmation first.\n- New connection creation now explicitly requires user approval specifying the service; do not create connections without user direction.\n- Scope selection guidance tightened: during OAuth, choose only scopes necessary for the current task.\n- Reminders to immediately remove connections after their use if no longer needed."
+    }
+  ]
+}

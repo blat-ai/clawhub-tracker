@@ -1,0 +1,310 @@
+{
+  "handle": "fly0pants",
+  "total_downloads": 136466,
+  "total_stars": 434,
+  "total_installs": 427,
+  "skill_count": 2,
+  "avg_dl_per_day": 1173.3,
+  "highlighted_count": 0,
+  "suspicious_count": 2,
+  "clean_pct": 0.0,
+  "dl_delta": 100,
+  "dl_wow": 0.1,
+  "dl_per_day": 100.0,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "star_per_day": 0,
+  "installs_delta": 0,
+  "installs_wow": 0.0,
+  "installs_per_day": 0,
+  "owner_display_name": "fly0pants",
+  "owner_name": "fly0pants",
+  "owner_image": "https://avatars.githubusercontent.com/u/110800087?v=4",
+  "bio": null,
+  "company": null,
+  "location": null,
+  "blog": null,
+  "public_repos": 24,
+  "followers": 0,
+  "following": 0,
+  "github_created_at": "2022-08-08T03:24:26",
+  "twitter_username": null,
+  "skills": [
+    {
+      "slug": "admapix",
+      "display_name": "AdMapix",
+      "stat_downloads": 127818,
+      "stat_stars": 276,
+      "created_at": "2026-03-13T07:11:54.380000",
+      "days_old": 59,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "ecomseer",
+      "display_name": "EcomSeer",
+      "stat_downloads": 8648,
+      "stat_stars": 158,
+      "created_at": "2026-03-24T08:53:11.342000",
+      "days_old": 48,
+      "is_highlighted": false,
+      "is_suspicious": true
+    }
+  ],
+  "trajectory": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 63733,
+      "stars": 116
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 64383,
+      "stars": 159
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 64756,
+      "stars": 161
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 65076,
+      "stars": 164
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 65381,
+      "stars": 164
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 83485,
+      "stars": 343
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 83551,
+      "stars": 343
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 83645,
+      "stars": 345
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 84007,
+      "stars": 360
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 84604,
+      "stars": 365
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 84604,
+      "stars": 365
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 84754,
+      "stars": 366
+    },
+    {
+      "run_date": "2026-03-29T03:00:00.679954",
+      "downloads": 85090,
+      "stars": 367
+    },
+    {
+      "run_date": "2026-03-30T03:00:00.682509",
+      "downloads": 85376,
+      "stars": 367
+    },
+    {
+      "run_date": "2026-03-31T03:00:00.702238",
+      "downloads": 85713,
+      "stars": 368
+    },
+    {
+      "run_date": "2026-04-01T03:00:00.631568",
+      "downloads": 86080,
+      "stars": 369
+    },
+    {
+      "run_date": "2026-04-07T08:32:21.256392",
+      "downloads": 87641,
+      "stars": 376
+    },
+    {
+      "run_date": "2026-04-08T02:59:53.612026",
+      "downloads": 87766,
+      "stars": 376
+    },
+    {
+      "run_date": "2026-04-09T03:00:00.814082",
+      "downloads": 87964,
+      "stars": 379
+    },
+    {
+      "run_date": "2026-04-10T03:00:00.610465",
+      "downloads": 88157,
+      "stars": 379
+    },
+    {
+      "run_date": "2026-04-11T03:00:00.635800",
+      "downloads": 88380,
+      "stars": 379
+    },
+    {
+      "run_date": "2026-04-12T03:00:00.326052",
+      "downloads": 88515,
+      "stars": 379
+    },
+    {
+      "run_date": "2026-04-13T03:00:00.295537",
+      "downloads": 88651,
+      "stars": 379
+    },
+    {
+      "run_date": "2026-04-18T02:59:55.390364",
+      "downloads": 89315,
+      "stars": 398
+    },
+    {
+      "run_date": "2026-04-19T03:00:00.676118",
+      "downloads": 89405,
+      "stars": 398
+    },
+    {
+      "run_date": "2026-04-20T03:00:00.599318",
+      "downloads": 89500,
+      "stars": 400
+    },
+    {
+      "run_date": "2026-04-21T03:00:00.575737",
+      "downloads": 89578,
+      "stars": 401
+    },
+    {
+      "run_date": "2026-04-22T03:00:00.762090",
+      "downloads": 99700,
+      "stars": 400
+    },
+    {
+      "run_date": "2026-04-23T03:00:00.767159",
+      "downloads": 109776,
+      "stars": 403
+    },
+    {
+      "run_date": "2026-04-24T03:00:00.604086",
+      "downloads": 114907,
+      "stars": 434
+    },
+    {
+      "run_date": "2026-04-28T02:59:56.742214",
+      "downloads": 135132,
+      "stars": 434
+    },
+    {
+      "run_date": "2026-04-29T03:01:44.166793",
+      "downloads": 135244,
+      "stars": 432
+    },
+    {
+      "run_date": "2026-04-30T03:00:00.711115",
+      "downloads": 135358,
+      "stars": 434
+    },
+    {
+      "run_date": "2026-05-02T02:59:59.833385",
+      "downloads": 135496,
+      "stars": 434
+    },
+    {
+      "run_date": "2026-05-03T03:42:13.922530",
+      "downloads": 135547,
+      "stars": 434
+    },
+    {
+      "run_date": "2026-05-05T00:41:38.231465",
+      "downloads": 135719,
+      "stars": 432
+    },
+    {
+      "run_date": "2026-05-05T03:00:00.321955",
+      "downloads": 135729,
+      "stars": 432
+    },
+    {
+      "run_date": "2026-05-06T03:00:00.570710",
+      "downloads": 135858,
+      "stars": 432
+    },
+    {
+      "run_date": "2026-05-07T03:00:00.572063",
+      "downloads": 136008,
+      "stars": 433
+    },
+    {
+      "run_date": "2026-05-09T03:44:10.833903",
+      "downloads": 136235,
+      "stars": 434
+    },
+    {
+      "run_date": "2026-05-10T03:00:00.531823",
+      "downloads": 136366,
+      "stars": 434
+    },
+    {
+      "run_date": "2026-05-11T03:00:00.316612",
+      "downloads": 136466,
+      "stars": 434
+    }
+  ],
+  "download_trajectory": [
+    63733,
+    64383,
+    64756,
+    65076,
+    65381,
+    83485,
+    83551,
+    83645,
+    84007,
+    84604,
+    84604,
+    84754,
+    85090,
+    85376,
+    85713,
+    86080,
+    87641,
+    87766,
+    87964,
+    88157,
+    88380,
+    88515,
+    88651,
+    89315,
+    89405,
+    89500,
+    89578,
+    99700,
+    109776,
+    114907,
+    135132,
+    135244,
+    135358,
+    135496,
+    135547,
+    135719,
+    135729,
+    135858,
+    136008,
+    136235,
+    136366,
+    136466
+  ]
+}

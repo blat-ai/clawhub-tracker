@@ -1,0 +1,406 @@
+{
+  "handle": "arnarsson",
+  "total_downloads": 93479,
+  "total_stars": 96,
+  "total_installs": 819,
+  "skill_count": 11,
+  "avg_dl_per_day": 83.3,
+  "highlighted_count": 0,
+  "suspicious_count": 2,
+  "clean_pct": 81.8,
+  "dl_delta": 362,
+  "dl_wow": 0.4,
+  "dl_per_day": 362.0,
+  "star_delta": 2,
+  "star_wow": 2.1,
+  "star_per_day": 2.0,
+  "installs_delta": 3,
+  "installs_wow": 0.4,
+  "installs_per_day": 3.0,
+  "owner_display_name": "Arnarsson",
+  "owner_name": null,
+  "owner_image": "https://avatars.githubusercontent.com/u/96142966?v=4",
+  "bio": "\u201cI Connect Dots\"",
+  "company": "Seven",
+  "location": "Copenhagen",
+  "blog": null,
+  "public_repos": 105,
+  "followers": 1,
+  "following": 18,
+  "github_created_at": "2021-12-14T18:55:09",
+  "twitter_username": null,
+  "skills": [
+    {
+      "slug": "docker-essentials",
+      "display_name": "Docker Essentials",
+      "stat_downloads": 30163,
+      "stat_stars": 33,
+      "created_at": "2026-01-29T13:07:20.015000",
+      "days_old": 102,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "git-essentials",
+      "display_name": "Git Essentials",
+      "stat_downloads": 27774,
+      "stat_stars": 33,
+      "created_at": "2026-01-29T13:07:25.864000",
+      "days_old": 102,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ssh-essentials",
+      "display_name": "Ssh Essentials",
+      "stat_downloads": 10699,
+      "stat_stars": 17,
+      "created_at": "2026-01-29T13:07:43.680000",
+      "days_old": 102,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "curl-http",
+      "display_name": "Curl Http",
+      "stat_downloads": 5816,
+      "stat_stars": 6,
+      "created_at": "2026-01-29T13:07:33.458000",
+      "days_old": 102,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "fd-find",
+      "display_name": "Fd Find",
+      "stat_downloads": 3556,
+      "stat_stars": 1,
+      "created_at": "2026-01-29T13:07:06.097000",
+      "days_old": 102,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "bat-cat",
+      "display_name": "Bat Cat",
+      "stat_downloads": 3268,
+      "stat_stars": 2,
+      "created_at": "2026-01-29T13:07:14.002000",
+      "days_old": 102,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "jq-json-processor",
+      "display_name": "Jq Json Processor",
+      "stat_downloads": 2984,
+      "stat_stars": 1,
+      "created_at": "2026-01-29T13:06:50.402000",
+      "days_old": 102,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ripgrep",
+      "display_name": "Ripgrep",
+      "stat_downloads": 2892,
+      "stat_stars": 1,
+      "created_at": "2026-01-29T13:06:58.910000",
+      "days_old": 102,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "fzf-fuzzy-finder",
+      "display_name": "Fzf Fuzzy Finder",
+      "stat_downloads": 2578,
+      "stat_stars": 1,
+      "created_at": "2026-01-29T13:07:51.613000",
+      "days_old": 102,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "eureka-feedback",
+      "display_name": "Eureka Feedback",
+      "stat_downloads": 1898,
+      "stat_stars": 1,
+      "created_at": "2026-01-29T13:01:53.020000",
+      "days_old": 102,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "linear-webhook",
+      "display_name": "Linear Webhook",
+      "stat_downloads": 1851,
+      "stat_stars": 0,
+      "created_at": "2026-01-29T13:02:01.565000",
+      "days_old": 102,
+      "is_highlighted": false,
+      "is_suspicious": true
+    }
+  ],
+  "trajectory": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 64218,
+      "stars": 68
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 64757,
+      "stars": 69
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 65828,
+      "stars": 71
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 66635,
+      "stars": 71
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 67380,
+      "stars": 73
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 68144,
+      "stars": 74
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 69487,
+      "stars": 75
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 69567,
+      "stars": 76
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 69821,
+      "stars": 76
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 70635,
+      "stars": 76
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 71856,
+      "stars": 82
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 71856,
+      "stars": 82
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 72144,
+      "stars": 82
+    },
+    {
+      "run_date": "2026-03-29T03:00:00.679954",
+      "downloads": 72779,
+      "stars": 83
+    },
+    {
+      "run_date": "2026-03-30T03:00:00.682509",
+      "downloads": 73460,
+      "stars": 83
+    },
+    {
+      "run_date": "2026-03-31T03:00:00.702238",
+      "downloads": 74116,
+      "stars": 83
+    },
+    {
+      "run_date": "2026-04-01T03:00:00.631568",
+      "downloads": 74854,
+      "stars": 83
+    },
+    {
+      "run_date": "2026-04-07T08:32:21.256392",
+      "downloads": 79069,
+      "stars": 84
+    },
+    {
+      "run_date": "2026-04-08T02:59:53.612026",
+      "downloads": 79487,
+      "stars": 84
+    },
+    {
+      "run_date": "2026-04-09T03:00:00.814082",
+      "downloads": 80176,
+      "stars": 84
+    },
+    {
+      "run_date": "2026-04-10T03:00:00.610465",
+      "downloads": 80864,
+      "stars": 85
+    },
+    {
+      "run_date": "2026-04-11T03:00:00.635800",
+      "downloads": 81513,
+      "stars": 85
+    },
+    {
+      "run_date": "2026-04-12T03:00:00.326052",
+      "downloads": 82014,
+      "stars": 85
+    },
+    {
+      "run_date": "2026-04-13T03:00:00.295537",
+      "downloads": 82585,
+      "stars": 85
+    },
+    {
+      "run_date": "2026-04-18T02:59:55.390364",
+      "downloads": 85295,
+      "stars": 86
+    },
+    {
+      "run_date": "2026-04-19T03:00:00.676118",
+      "downloads": 85669,
+      "stars": 86
+    },
+    {
+      "run_date": "2026-04-20T03:00:00.599318",
+      "downloads": 86092,
+      "stars": 86
+    },
+    {
+      "run_date": "2026-04-21T03:00:00.575737",
+      "downloads": 86555,
+      "stars": 87
+    },
+    {
+      "run_date": "2026-04-22T03:00:00.762090",
+      "downloads": 86965,
+      "stars": 87
+    },
+    {
+      "run_date": "2026-04-23T03:00:00.767159",
+      "downloads": 87323,
+      "stars": 87
+    },
+    {
+      "run_date": "2026-04-24T03:00:00.604086",
+      "downloads": 87714,
+      "stars": 87
+    },
+    {
+      "run_date": "2026-04-28T02:59:56.742214",
+      "downloads": 89313,
+      "stars": 89
+    },
+    {
+      "run_date": "2026-04-29T03:01:44.166793",
+      "downloads": 89577,
+      "stars": 89
+    },
+    {
+      "run_date": "2026-04-30T03:00:00.711115",
+      "downloads": 89818,
+      "stars": 89
+    },
+    {
+      "run_date": "2026-05-02T02:59:59.833385",
+      "downloads": 90377,
+      "stars": 89
+    },
+    {
+      "run_date": "2026-05-03T03:42:13.922530",
+      "downloads": 90582,
+      "stars": 90
+    },
+    {
+      "run_date": "2026-05-05T00:41:38.231465",
+      "downloads": 91170,
+      "stars": 90
+    },
+    {
+      "run_date": "2026-05-05T03:00:00.321955",
+      "downloads": 91210,
+      "stars": 90
+    },
+    {
+      "run_date": "2026-05-06T03:00:00.570710",
+      "downloads": 91515,
+      "stars": 92
+    },
+    {
+      "run_date": "2026-05-07T03:00:00.572063",
+      "downloads": 91974,
+      "stars": 92
+    },
+    {
+      "run_date": "2026-05-09T03:44:10.833903",
+      "downloads": 92746,
+      "stars": 93
+    },
+    {
+      "run_date": "2026-05-10T03:00:00.531823",
+      "downloads": 93117,
+      "stars": 94
+    },
+    {
+      "run_date": "2026-05-11T03:00:00.316612",
+      "downloads": 93479,
+      "stars": 96
+    }
+  ],
+  "download_trajectory": [
+    64218,
+    64757,
+    65828,
+    66635,
+    67380,
+    68144,
+    69487,
+    69567,
+    69821,
+    70635,
+    71856,
+    71856,
+    72144,
+    72779,
+    73460,
+    74116,
+    74854,
+    79069,
+    79487,
+    80176,
+    80864,
+    81513,
+    82014,
+    82585,
+    85295,
+    85669,
+    86092,
+    86555,
+    86965,
+    87323,
+    87714,
+    89313,
+    89577,
+    89818,
+    90377,
+    90582,
+    91170,
+    91210,
+    91515,
+    91974,
+    92746,
+    93117,
+    93479
+  ]
+}

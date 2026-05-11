@@ -1,0 +1,344 @@
+{
+  "skill_id": "kd757mptgmaj3scrcz1hcsnaed82yrpf",
+  "slug": "baidu-netdisk-skills",
+  "display_name": "\u767e\u5ea6\u7f51\u76d8",
+  "summary": "\u767e\u5ea6\u7f51\u76d8\u6587\u4ef6\u7ba1\u7406\u3002\u652f\u6301\u4e0a\u4f20\u3001\u4e0b\u8f7d\u3001\u8f6c\u5b58\u3001\u5206\u4eab\u3001\u641c\u7d22\u3001\u79fb\u52a8\u3001\u590d\u5236\u3001\u91cd\u547d\u540d\u3001\u521b\u5efa\u6587\u4ef6\u5939\u3002\u5f53\u7528\u6237\u63d0\u53ca\"\u767e\u5ea6\u7f51\u76d8\"\"\u767e\u5ea6\u4e91\"\"\u767e\u5ea6\u4e91\u76d8\"\"bdpan\"\"\u7f51\u76d8\"\"\u4e91\u76d8\"\"baidu netdisk\"\"baidu pan\"\"baidu cloud\"\u5e76\u6d89\u53ca\u6587\u4ef6\u64cd\u4f5c\u65f6\u89e6\u53d1\u3002",
+  "owner_handle": "wscats",
+  "owner_image": "https://avatars.githubusercontent.com/u/17243165?v=4",
+  "created_at": "2026-03-15T15:06:39.974000",
+  "days_old": 56,
+  "stat_downloads": 20756,
+  "stat_stars": 13,
+  "tags": {
+    "latest": "k97f385h62m51q1detrhdxn8c985yhxb"
+  },
+  "badges": null,
+  "stat_installs": 2,
+  "stat_comments": 0,
+  "current_version": "1.1.1",
+  "is_highlighted": false,
+  "is_suspicious": false,
+  "velocity": 370.6,
+  "acceleration_pct": -30.8,
+  "dl_delta": 159,
+  "dl_wow": 0.8,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 0,
+  "installs_wow": 0.0,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 550,
+      "stars": 2,
+      "installs_all_time": 0,
+      "installs_current": 0
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 825,
+      "stars": 2,
+      "installs_all_time": 0,
+      "installs_current": 0
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 1332,
+      "stars": 2,
+      "installs_all_time": 0,
+      "installs_current": 0
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 1668,
+      "stars": 2,
+      "installs_all_time": 0,
+      "installs_current": 0
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 2043,
+      "stars": 2,
+      "installs_all_time": 0,
+      "installs_current": 0
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 2430,
+      "stars": 2,
+      "installs_all_time": 0,
+      "installs_current": 0
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 3027,
+      "stars": 2,
+      "installs_all_time": 0,
+      "installs_current": 0
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 3082,
+      "stars": 2,
+      "installs_all_time": 0,
+      "installs_current": 0
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 3266,
+      "stars": 2,
+      "installs_all_time": 0,
+      "installs_current": 0
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 3799,
+      "stars": 2,
+      "installs_all_time": 0,
+      "installs_current": 0
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 4706,
+      "stars": 2,
+      "installs_all_time": 0,
+      "installs_current": 0
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 4706,
+      "stars": 2,
+      "installs_all_time": 0,
+      "installs_current": 0
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 4893,
+      "stars": 2,
+      "installs_all_time": 0,
+      "installs_current": 0
+    },
+    {
+      "run_date": "2026-03-29T03:00:00.679954",
+      "downloads": 5252,
+      "stars": 2,
+      "installs_all_time": 0,
+      "installs_current": 0
+    },
+    {
+      "run_date": "2026-03-30T03:00:00.682509",
+      "downloads": 5555,
+      "stars": 2,
+      "installs_all_time": 0,
+      "installs_current": 0
+    },
+    {
+      "run_date": "2026-03-31T03:00:00.702238",
+      "downloads": 5919,
+      "stars": 2,
+      "installs_all_time": 0,
+      "installs_current": 0
+    },
+    {
+      "run_date": "2026-04-01T03:00:00.631568",
+      "downloads": 6302,
+      "stars": 2,
+      "installs_all_time": 0,
+      "installs_current": 0
+    },
+    {
+      "run_date": "2026-04-07T08:32:21.256392",
+      "downloads": 8772,
+      "stars": 5,
+      "installs_all_time": 0,
+      "installs_current": 0
+    },
+    {
+      "run_date": "2026-04-08T02:59:53.612026",
+      "downloads": 9045,
+      "stars": 5,
+      "installs_all_time": 0,
+      "installs_current": 0
+    },
+    {
+      "run_date": "2026-04-09T03:00:00.814082",
+      "downloads": 9444,
+      "stars": 6,
+      "installs_all_time": 0,
+      "installs_current": 0
+    },
+    {
+      "run_date": "2026-04-10T03:00:00.610465",
+      "downloads": 9828,
+      "stars": 6,
+      "installs_all_time": 0,
+      "installs_current": 0
+    },
+    {
+      "run_date": "2026-04-11T03:00:00.635800",
+      "downloads": 10211,
+      "stars": 6,
+      "installs_all_time": 0,
+      "installs_current": 0
+    },
+    {
+      "run_date": "2026-04-12T03:00:00.326052",
+      "downloads": 10572,
+      "stars": 6,
+      "installs_all_time": 1,
+      "installs_current": 1
+    },
+    {
+      "run_date": "2026-04-13T03:00:00.295537",
+      "downloads": 10932,
+      "stars": 6,
+      "installs_all_time": 1,
+      "installs_current": 1
+    },
+    {
+      "run_date": "2026-04-18T02:59:55.390364",
+      "downloads": 12729,
+      "stars": 6,
+      "installs_all_time": 1,
+      "installs_current": 1
+    },
+    {
+      "run_date": "2026-04-19T03:00:00.676118",
+      "downloads": 13089,
+      "stars": 6,
+      "installs_all_time": 1,
+      "installs_current": 1
+    },
+    {
+      "run_date": "2026-04-20T03:00:00.599318",
+      "downloads": 13444,
+      "stars": 6,
+      "installs_all_time": 1,
+      "installs_current": 1
+    },
+    {
+      "run_date": "2026-04-21T03:00:00.575737",
+      "downloads": 13807,
+      "stars": 7,
+      "installs_all_time": 1,
+      "installs_current": 1
+    },
+    {
+      "run_date": "2026-04-22T03:00:00.762090",
+      "downloads": 14152,
+      "stars": 7,
+      "installs_all_time": 1,
+      "installs_current": 1
+    },
+    {
+      "run_date": "2026-04-23T03:00:00.767159",
+      "downloads": 14526,
+      "stars": 8,
+      "installs_all_time": 1,
+      "installs_current": 1
+    },
+    {
+      "run_date": "2026-04-24T03:00:00.604086",
+      "downloads": 14897,
+      "stars": 9,
+      "installs_all_time": 1,
+      "installs_current": 1
+    },
+    {
+      "run_date": "2026-04-28T02:59:56.742214",
+      "downloads": 16350,
+      "stars": 11,
+      "installs_all_time": 1,
+      "installs_current": 1
+    },
+    {
+      "run_date": "2026-04-29T03:01:44.166793",
+      "downloads": 16696,
+      "stars": 12,
+      "installs_all_time": 2,
+      "installs_current": 2
+    },
+    {
+      "run_date": "2026-04-30T03:00:00.711115",
+      "downloads": 17064,
+      "stars": 12,
+      "installs_all_time": 2,
+      "installs_current": 2
+    },
+    {
+      "run_date": "2026-05-02T02:59:59.833385",
+      "downloads": 17761,
+      "stars": 12,
+      "installs_all_time": 2,
+      "installs_current": 2
+    },
+    {
+      "run_date": "2026-05-03T03:42:13.922530",
+      "downloads": 18136,
+      "stars": 12,
+      "installs_all_time": 2,
+      "installs_current": 2
+    },
+    {
+      "run_date": "2026-05-05T00:41:38.231465",
+      "downloads": 18764,
+      "stars": 12,
+      "installs_all_time": 2,
+      "installs_current": 2
+    },
+    {
+      "run_date": "2026-05-05T03:00:00.321955",
+      "downloads": 18831,
+      "stars": 12,
+      "installs_all_time": 2,
+      "installs_current": 2
+    },
+    {
+      "run_date": "2026-05-06T03:00:00.570710",
+      "downloads": 19184,
+      "stars": 12,
+      "installs_all_time": 2,
+      "installs_current": 2
+    },
+    {
+      "run_date": "2026-05-07T03:00:00.572063",
+      "downloads": 19571,
+      "stars": 12,
+      "installs_all_time": 2,
+      "installs_current": 2
+    },
+    {
+      "run_date": "2026-05-09T03:44:10.833903",
+      "downloads": 20244,
+      "stars": 12,
+      "installs_all_time": 2,
+      "installs_current": 2
+    },
+    {
+      "run_date": "2026-05-10T03:00:00.531823",
+      "downloads": 20597,
+      "stars": 13,
+      "installs_all_time": 2,
+      "installs_current": 2
+    },
+    {
+      "run_date": "2026-05-11T03:00:00.316612",
+      "downloads": 20756,
+      "stars": 13,
+      "installs_all_time": 2,
+      "installs_current": 2
+    }
+  ],
+  "version_releases": [
+    {
+      "version_number": "1.0.1",
+      "run_date": "2026-04-07T08:32:21.256392",
+      "changelog": "- Skill\u540d\u79f0\u7531\u201cbdpan-storage\u201d\u66f4\u540d\u4e3a\u201cbaidu-netdisk-skills\u201d\u3002\n- \u6587\u4ef6\u5939\u3001\u811a\u672c\u3001\u5143\u6570\u636e\u7684\u547d\u540d\u4e0e\u63cf\u8ff0\u5df2\u7edf\u4e00\uff0c\u4e0e\u65b0 Skill \u540d\u79f0\u4fdd\u6301\u4e00\u81f4\u3002\n- \u76f8\u5173\u6587\u6863\uff08\u5982 SKILL.md\u3001examples.md\uff09\u8fdb\u884c\u4e86\u66f4\u65b0\u4ee5\u53cd\u6620\u65b0\u540d\u79f0\u3002\n- \u529f\u80fd\u4e0e\u6838\u5fc3\u64cd\u4f5c\u903b\u8f91\u672a\u53d8\u5316\uff0c\u4ec5\u4e3a\u547d\u540d\u6807\u51c6\u5316\u548c\u6587\u6863\u7ec6\u8282\u8c03\u6574\u3002"
+    },
+    {
+      "version_number": "1.1.1",
+      "run_date": "2026-05-03T03:42:13.922530",
+      "changelog": "\u4fee\u590dClawScan\u5b89\u5168\u5ba1\u67e5: 1) update.sh\u4e0b\u8f7d\u767d\u540d\u5355\u6536\u7d27\u4e3aissuecdn.baidupcs.com 2) update.sh\u76f4\u63a5\u963b\u65adAgent\u73af\u5883\u81ea\u66f4\u65b0 3) SKILL.md\u65b0\u589e\u80fd\u529b\u4e0e\u98ce\u9669\u62ab\u9732\u7ae0\u8282"
+    }
+  ]
+}

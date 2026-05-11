@@ -1,0 +1,394 @@
+{
+  "skill_id": "kd756aps6zb87e7kgx4rryftbs82c7bb",
+  "slug": "getnote",
+  "display_name": "Get\u7b14\u8bb0",
+  "summary": "Get\u7b14\u8bb0 - \u4fdd\u5b58\u3001\u641c\u7d22\u3001\u7ba1\u7406\u4e2a\u4eba\u7b14\u8bb0\u548c\u77e5\u8bc6\u5e93\u3002 **\u5f53\u4ee5\u4e0b\u60c5\u51b5\u65f6\u4f7f\u7528\u6b64 Skill**\uff1a (1) \u7528\u6237\u8981\u4fdd\u5b58\u5185\u5bb9\u5230\u7b14\u8bb0\uff1a\u53d1\u94fe\u63a5\u3001\u53d1\u56fe\u7247\u3001\u8bf4\u300c\u8bb0\u4e00\u4e0b\u300d\u300c\u5b58\u5230\u7b14\u8bb0\u300d\u300c\u4fdd\u5b58\u300d\u300c\u6536\u85cf\u300d (2) \u7528\u6237\u8981\u641c\u7d22\u6216\u67e5\u770b\u7b14\u8bb0\uff1a\u300c\u641c\u4e00\u4e0b\u300d\u300c\u627e\u627e\u7b14\u8bb0\u300d\u300c\u6700\u8fd1\u5b58\u4e86\u4ec0\u4e48\u300d\u300c\u770b\u770b\u539f\u6587\u300d (3) \u7528\u6237\u8981\u7ba1\u7406\u77e5\u8bc6\u5e93\u6216\u6807\u7b7e\uff1a\u300c\u52a0\u5230\u77e5\u8bc6\u5e93\u300d\u300c\u5efa...",
+  "owner_handle": "iswalle",
+  "owner_image": "https://avatars.githubusercontent.com/u/3115061?v=4",
+  "created_at": "2026-03-06T12:57:58.999000",
+  "days_old": 65,
+  "stat_downloads": 19620,
+  "stat_stars": 57,
+  "tags": {
+    "latest": "k9736pxtsktq6r85x8tn89c83h867eay"
+  },
+  "badges": null,
+  "stat_installs": 62,
+  "stat_comments": 0,
+  "current_version": "1.8.3",
+  "is_highlighted": false,
+  "is_suspicious": false,
+  "velocity": 301.8,
+  "acceleration_pct": -9.7,
+  "dl_delta": 224,
+  "dl_wow": 1.2,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 0,
+  "installs_wow": 0.0,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 4940,
+      "stars": 28,
+      "installs_all_time": 17,
+      "installs_current": 16
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 5142,
+      "stars": 28,
+      "installs_all_time": 19,
+      "installs_current": 18
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 5558,
+      "stars": 29,
+      "installs_all_time": 22,
+      "installs_current": 21
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 5865,
+      "stars": 30,
+      "installs_all_time": 23,
+      "installs_current": 22
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 6173,
+      "stars": 33,
+      "installs_all_time": 26,
+      "installs_current": 25
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 6494,
+      "stars": 35,
+      "installs_all_time": 32,
+      "installs_current": 31
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 7078,
+      "stars": 36,
+      "installs_all_time": 36,
+      "installs_current": 35
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 7115,
+      "stars": 37,
+      "installs_all_time": 36,
+      "installs_current": 35
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 7179,
+      "stars": 38,
+      "installs_all_time": 36,
+      "installs_current": 35
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 7510,
+      "stars": 39,
+      "installs_all_time": 37,
+      "installs_current": 36
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 8101,
+      "stars": 39,
+      "installs_all_time": 37,
+      "installs_current": 36
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 8101,
+      "stars": 39,
+      "installs_all_time": 37,
+      "installs_current": 36
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 8228,
+      "stars": 40,
+      "installs_all_time": 36,
+      "installs_current": 36
+    },
+    {
+      "run_date": "2026-03-29T03:00:00.679954",
+      "downloads": 8603,
+      "stars": 41,
+      "installs_all_time": 37,
+      "installs_current": 37
+    },
+    {
+      "run_date": "2026-03-30T03:00:00.682509",
+      "downloads": 8974,
+      "stars": 41,
+      "installs_all_time": 37,
+      "installs_current": 37
+    },
+    {
+      "run_date": "2026-03-31T03:00:00.702238",
+      "downloads": 9350,
+      "stars": 41,
+      "installs_all_time": 38,
+      "installs_current": 38
+    },
+    {
+      "run_date": "2026-04-01T03:00:00.631568",
+      "downloads": 9718,
+      "stars": 41,
+      "installs_all_time": 39,
+      "installs_current": 39
+    },
+    {
+      "run_date": "2026-04-07T08:32:21.256392",
+      "downloads": 11689,
+      "stars": 43,
+      "installs_all_time": 47,
+      "installs_current": 47
+    },
+    {
+      "run_date": "2026-04-08T02:59:53.612026",
+      "downloads": 11946,
+      "stars": 44,
+      "installs_all_time": 48,
+      "installs_current": 48
+    },
+    {
+      "run_date": "2026-04-09T03:00:00.814082",
+      "downloads": 12346,
+      "stars": 45,
+      "installs_all_time": 49,
+      "installs_current": 49
+    },
+    {
+      "run_date": "2026-04-10T03:00:00.610465",
+      "downloads": 12754,
+      "stars": 46,
+      "installs_all_time": 49,
+      "installs_current": 49
+    },
+    {
+      "run_date": "2026-04-11T03:00:00.635800",
+      "downloads": 13095,
+      "stars": 46,
+      "installs_all_time": 50,
+      "installs_current": 50
+    },
+    {
+      "run_date": "2026-04-12T03:00:00.326052",
+      "downloads": 13397,
+      "stars": 47,
+      "installs_all_time": 52,
+      "installs_current": 52
+    },
+    {
+      "run_date": "2026-04-13T03:00:00.295537",
+      "downloads": 13693,
+      "stars": 47,
+      "installs_all_time": 52,
+      "installs_current": 52
+    },
+    {
+      "run_date": "2026-04-18T02:59:55.390364",
+      "downloads": 15204,
+      "stars": 48,
+      "installs_all_time": 53,
+      "installs_current": 53
+    },
+    {
+      "run_date": "2026-04-19T03:00:00.676118",
+      "downloads": 15433,
+      "stars": 48,
+      "installs_all_time": 53,
+      "installs_current": 53
+    },
+    {
+      "run_date": "2026-04-20T03:00:00.599318",
+      "downloads": 15648,
+      "stars": 49,
+      "installs_all_time": 54,
+      "installs_current": 54
+    },
+    {
+      "run_date": "2026-04-21T03:00:00.575737",
+      "downloads": 15873,
+      "stars": 49,
+      "installs_all_time": 55,
+      "installs_current": 55
+    },
+    {
+      "run_date": "2026-04-22T03:00:00.762090",
+      "downloads": 16092,
+      "stars": 49,
+      "installs_all_time": 55,
+      "installs_current": 55
+    },
+    {
+      "run_date": "2026-04-23T03:00:00.767159",
+      "downloads": 16312,
+      "stars": 49,
+      "installs_all_time": 55,
+      "installs_current": 55
+    },
+    {
+      "run_date": "2026-04-24T03:00:00.604086",
+      "downloads": 16539,
+      "stars": 50,
+      "installs_all_time": 55,
+      "installs_current": 55
+    },
+    {
+      "run_date": "2026-04-28T02:59:56.742214",
+      "downloads": 17326,
+      "stars": 52,
+      "installs_all_time": 58,
+      "installs_current": 56
+    },
+    {
+      "run_date": "2026-04-29T03:01:44.166793",
+      "downloads": 17523,
+      "stars": 52,
+      "installs_all_time": 59,
+      "installs_current": 57
+    },
+    {
+      "run_date": "2026-04-30T03:00:00.711115",
+      "downloads": 17656,
+      "stars": 52,
+      "installs_all_time": 60,
+      "installs_current": 58
+    },
+    {
+      "run_date": "2026-05-02T02:59:59.833385",
+      "downloads": 17857,
+      "stars": 53,
+      "installs_all_time": 60,
+      "installs_current": 58
+    },
+    {
+      "run_date": "2026-05-03T03:42:13.922530",
+      "downloads": 17942,
+      "stars": 55,
+      "installs_all_time": 60,
+      "installs_current": 58
+    },
+    {
+      "run_date": "2026-05-05T00:41:38.231465",
+      "downloads": 18270,
+      "stars": 56,
+      "installs_all_time": 61,
+      "installs_current": 59
+    },
+    {
+      "run_date": "2026-05-05T03:00:00.321955",
+      "downloads": 18291,
+      "stars": 56,
+      "installs_all_time": 61,
+      "installs_current": 59
+    },
+    {
+      "run_date": "2026-05-06T03:00:00.570710",
+      "downloads": 18498,
+      "stars": 57,
+      "installs_all_time": 61,
+      "installs_current": 59
+    },
+    {
+      "run_date": "2026-05-07T03:00:00.572063",
+      "downloads": 18778,
+      "stars": 57,
+      "installs_all_time": 62,
+      "installs_current": 60
+    },
+    {
+      "run_date": "2026-05-09T03:44:10.833903",
+      "downloads": 19180,
+      "stars": 57,
+      "installs_all_time": 62,
+      "installs_current": 60
+    },
+    {
+      "run_date": "2026-05-10T03:00:00.531823",
+      "downloads": 19396,
+      "stars": 57,
+      "installs_all_time": 62,
+      "installs_current": 60
+    },
+    {
+      "run_date": "2026-05-11T03:00:00.316612",
+      "downloads": 19620,
+      "stars": 57,
+      "installs_all_time": 62,
+      "installs_current": 60
+    }
+  ],
+  "version_releases": [
+    {
+      "version_number": "1.5.0",
+      "run_date": "2026-03-20T03:00:00.833403",
+      "changelog": "\u7b14\u8bb0\u8be6\u60c5\u652f\u6301\u539f\u56fe\u3001OAuth \u589e\u52a0\u786e\u8ba4\u7801"
+    },
+    {
+      "version_number": "1.5.1",
+      "run_date": "2026-03-21T03:00:00.776166",
+      "changelog": "Some details optimized"
+    },
+    {
+      "version_number": "1.5.2",
+      "run_date": "2026-03-24T14:13:35.104417",
+      "changelog": "\u5b89\u88c5\u540e\u81ea\u52a8\u89e6\u53d1 OAuth \u6388\u6743"
+    },
+    {
+      "version_number": "1.5.7",
+      "run_date": "2026-03-27T14:10:05.719067",
+      "changelog": "- \u63d0\u793a\u7528\u6237\u901a\u8fc7 `/note config` \u547d\u4ee4\u5b8c\u6210\u914d\u7f6e\uff0c\u4e0d\u518d\u81ea\u52a8\u53d1\u8d77 OAuth \u6388\u6743\u6d41\u7a0b\u3002\n- `/note config` \u6307\u4ee4\u8bf4\u660e\u66f4\u65b0\u4e3a\u201c\u914d\u7f6e API Key \u548c Client ID\u201d\u3002\n- \u8ba4\u8bc1\u6d41\u7a0b\u76f8\u5173\u8bf4\u660e\u6587\u5b57\u4f18\u5316\uff0c\u79fb\u9664\u4e86\u81ea\u52a8\u6388\u6743\u63cf\u8ff0\u3002\n- \u5176\u4ed6\u6587\u6863\u5185\u5bb9\u672a\u53d8\u3002"
+    },
+    {
+      "version_number": "1.3.3",
+      "run_date": "2026-04-07T08:32:21.256392",
+      "changelog": "getnote v1.3.3\n\n- Updated references/knowledge.md.  \n- No functional or breaking changes to core logic."
+    },
+    {
+      "version_number": "1.5.8",
+      "run_date": "2026-04-10T03:00:00.610465",
+      "changelog": "- Added an explicit \"API \u8def\u7531\u8868\" section in SKILL.md, listing all available API endpoints with methods and paths.\n- No changes to core functionality\u2014this version adds documentation to clarify endpoint usage.\n- Added _meta.json metadata file.\n- Updated package.json (details not shown)."
+    },
+    {
+      "version_number": "1.6.0",
+      "run_date": "2026-04-12T03:00:00.326052",
+      "changelog": "- Updated references/list.md with additional details or changes.\n- Updated package.json, likely to revise version or dependencies.\n- No breaking changes; existing functionality remains the same."
+    },
+    {
+      "version_number": "1.7.0",
+      "run_date": "2026-04-18T02:59:55.390364",
+      "changelog": "getnote v1.7.0\n\n- Updated documentation for knowledge base (references/knowledge.md) and note list functionality (references/list.md).\n- Minor changes to package.json and internal references docs for improved accuracy and clarity.\n- No API or functional changes; documentation and metadata only."
+    },
+    {
+      "version_number": "1.8.0",
+      "run_date": "2026-04-24T03:00:00.604086",
+      "changelog": "- \u4f18\u5316\u81ea\u7136\u8bed\u8a00\u8def\u7531\uff1a\u6839\u636e\u94fe\u63a5\u7c7b\u578b\uff08\u5982 biji.com/note/share_note/*\u3001d.biji.com/* \u548c\u5185\u90e8\u94fe\u63a5\uff09\u7ec6\u5316\u5904\u7406\u903b\u8f91\uff0c\u652f\u6301\u540c\u6b65/\u5f02\u6b65\u8fd4\u56de\u5bf9\u5e94 ID\uff0c\u5185\u90e8\u94fe\u63a5\u76f4\u63a5\u8fdb\u5165\u8be6\u60c5\u9875\u3002\n- \u660e\u786e\u6b63\u6587\u5f15\u7528\u5176\u4ed6\u7b14\u8bb0\u7684\u5185\u94fe\u8981\u6c42\u548c\u8def\u5f84\u3002\n- \u8def\u7531\u8868\u65b0\u589e\u533a\u5206\u201c\u540c\u6b65\u8fd4\u56de note_id\u201d\u548c\u201c\u5f02\u6b65\u8fd4\u56de task_id\u201d\u573a\u666f\u3002\n- \u5176\u4ed6\u8bf4\u660e\u548c\u7ec6\u8282\u8bf4\u660e\u540c\u6b65\u589e\u5f3a\uff0c\u63d0\u5347\u81ea\u7136\u8bed\u8a00\u6307\u4ee4\u8bc6\u522b\u51c6\u786e\u6027\u3002"
+    },
+    {
+      "version_number": "1.8.1",
+      "run_date": "2026-04-28T02:59:56.742214",
+      "changelog": "- \u4f18\u5316\u4e86\u81ea\u7136\u8bed\u8a00\u8def\u7531\u4e2d\u201cbiji.com/note/{note_id}\u201d\u5185\u94fe\u7684\u5904\u7406\uff0c\u9ed8\u8ba4\u8fd4\u56de\u7b14\u8bb0\u5185\u94fe\uff0c\u53ea\u6709\u5728\u7528\u6237\u660e\u786e\u8981\u6c42\u65f6\u624d\u751f\u6210\u5206\u4eab\u94fe\u63a5\n- \u63d0\u5347\u6307\u4ee4/\u81ea\u7136\u8bed\u8a00\u8def\u7531\u63cf\u8ff0\u7684\u51c6\u786e\u6027\u548c\u7ec6\u8282\uff0c\u6d88\u9664\u6b67\u4e49\n- \u6587\u6863\u8865\u5145\u548c\u6da6\u8272\uff0c\u65e0\u529f\u80fd\u6027\u53d8\u66f4"
+    },
+    {
+      "version_number": "1.8.2",
+      "run_date": "2026-04-29T03:01:44.166793",
+      "changelog": "- Updated documentation for knowledge base, list, and tag management in reference files.\n- No breaking changes to API or behavior; changes are documentation-only.\n- Ensured all routes, field names, and usage guidelines are current in the markdown files."
+    },
+    {
+      "version_number": "1.8.3",
+      "run_date": "2026-05-07T03:00:00.572063",
+      "changelog": "\u65b0\u589e\u53cd\u5e7b\u89c9\u8fb9\u754c\u3001\u5931\u8d25\u91cd\u8bd5\u7b56\u7565\u3001\u6267\u884c\u6d41\u7a0b\u6982\u89c8"
+    }
+  ]
+}

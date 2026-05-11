@@ -1,0 +1,686 @@
+{
+  "handle": "nitishgargiitd",
+  "total_downloads": 119516,
+  "total_stars": 194,
+  "total_installs": 571,
+  "skill_count": 39,
+  "avg_dl_per_day": 33.5,
+  "highlighted_count": 0,
+  "suspicious_count": 2,
+  "clean_pct": 94.9,
+  "dl_delta": 797,
+  "dl_wow": 0.7,
+  "dl_per_day": 797.0,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "star_per_day": 0,
+  "installs_delta": 0,
+  "installs_wow": 0.0,
+  "installs_per_day": 0,
+  "owner_display_name": "CellCog",
+  "owner_name": "nitishgargiitd",
+  "owner_image": "https://avatars.githubusercontent.com/u/14193431?v=4",
+  "bio": "Founder & CEO, CellCog AI",
+  "company": null,
+  "location": null,
+  "blog": null,
+  "public_repos": 46,
+  "followers": 3,
+  "following": 0,
+  "github_created_at": "2015-09-09T05:49:58",
+  "twitter_username": null,
+  "skills": [
+    {
+      "slug": "cellcog",
+      "display_name": "Cellcog",
+      "stat_downloads": 13329,
+      "stat_stars": 8,
+      "created_at": "2026-02-03T07:36:30.626000",
+      "days_old": 97,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "image-cog",
+      "display_name": "Image Cog",
+      "stat_downloads": 13083,
+      "stat_stars": 10,
+      "created_at": "2026-02-04T03:40:04.659000",
+      "days_old": 96,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "video-cog",
+      "display_name": "Video Cog",
+      "stat_downloads": 7121,
+      "stat_stars": 24,
+      "created_at": "2026-02-04T03:41:34.040000",
+      "days_old": 96,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "story-cog",
+      "display_name": "Story Cog",
+      "stat_downloads": 6087,
+      "stat_stars": 17,
+      "created_at": "2026-02-06T20:11:10.748000",
+      "days_old": 94,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "research-cog",
+      "display_name": "Research Cog",
+      "stat_downloads": 5513,
+      "stat_stars": 7,
+      "created_at": "2026-02-04T03:38:21.494000",
+      "days_old": 96,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "audio-cog",
+      "display_name": "Audio Cog",
+      "stat_downloads": 5347,
+      "stat_stars": 4,
+      "created_at": "2026-02-04T03:39:04.265000",
+      "days_old": 96,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "slides-cog",
+      "display_name": "Slides Cog",
+      "stat_downloads": 4952,
+      "stat_stars": 7,
+      "created_at": "2026-02-04T03:41:09.051000",
+      "days_old": 96,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "spreadsheets-cog",
+      "display_name": "Spreadsheets Cog",
+      "stat_downloads": 4282,
+      "stat_stars": 6,
+      "created_at": "2026-02-04T03:40:43.809000",
+      "days_old": 96,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "music-cog",
+      "display_name": "Music Cog",
+      "stat_downloads": 3924,
+      "stat_stars": 4,
+      "created_at": "2026-02-06T23:18:36.506000",
+      "days_old": 94,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "learn-cog",
+      "display_name": "Learn Cog",
+      "stat_downloads": 3703,
+      "stat_stars": 7,
+      "created_at": "2026-02-06T20:09:05.614000",
+      "days_old": 94,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "insta-cog",
+      "display_name": "Insta Cog",
+      "stat_downloads": 3679,
+      "stat_stars": 20,
+      "created_at": "2026-02-06T20:08:38.938000",
+      "days_old": 94,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "dash-cog",
+      "display_name": "Dash Cog",
+      "stat_downloads": 3615,
+      "stat_stars": 5,
+      "created_at": "2026-02-04T03:39:36.505000",
+      "days_old": 96,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "docs-cog",
+      "display_name": "Docs Cog",
+      "stat_downloads": 3421,
+      "stat_stars": 6,
+      "created_at": "2026-02-06T20:07:23.732000",
+      "days_old": 94,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "brand-cog",
+      "display_name": "Brand Cog",
+      "stat_downloads": 3291,
+      "stat_stars": 2,
+      "created_at": "2026-02-06T20:03:01.826000",
+      "days_old": 94,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "game-cog",
+      "display_name": "Game Cog",
+      "stat_downloads": 3077,
+      "stat_stars": 4,
+      "created_at": "2026-02-06T20:08:15.674000",
+      "days_old": 94,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "think-cog",
+      "display_name": "Think Cog",
+      "stat_downloads": 3053,
+      "stat_stars": 7,
+      "created_at": "2026-02-06T20:12:08.629000",
+      "days_old": 94,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "fin-cog",
+      "display_name": "Fin Cog",
+      "stat_downloads": 2880,
+      "stat_stars": 5,
+      "created_at": "2026-02-08T00:43:31.985000",
+      "days_old": 92,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "crypto-cog",
+      "display_name": "Crypto Cog",
+      "stat_downloads": 2587,
+      "stat_stars": 8,
+      "created_at": "2026-02-08T00:42:40.489000",
+      "days_old": 92,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "comi-cog",
+      "display_name": "Comi Cog",
+      "stat_downloads": 2510,
+      "stat_stars": 3,
+      "created_at": "2026-02-06T20:04:07.393000",
+      "days_old": 94,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "data-cog",
+      "display_name": "Data Cog",
+      "stat_downloads": 2406,
+      "stat_stars": 4,
+      "created_at": "2026-02-08T00:43:08.712000",
+      "days_old": 92,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "meme-cog",
+      "display_name": "Meme Cog",
+      "stat_downloads": 2392,
+      "stat_stars": 6,
+      "created_at": "2026-02-06T20:09:26.194000",
+      "days_old": 94,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "cine-cog",
+      "display_name": "Cine Cog",
+      "stat_downloads": 2357,
+      "stat_stars": 2,
+      "created_at": "2026-02-06T23:15:08.899000",
+      "days_old": 94,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "tube-cog",
+      "display_name": "Tube Cog",
+      "stat_downloads": 2352,
+      "stat_stars": 11,
+      "created_at": "2026-02-06T20:12:57.130000",
+      "days_old": 94,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "proto-cog",
+      "display_name": "Proto Cog",
+      "stat_downloads": 2159,
+      "stat_stars": 5,
+      "created_at": "2026-02-08T00:43:53.954000",
+      "days_old": 92,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "pod-cog",
+      "display_name": "Pod Cog",
+      "stat_downloads": 2022,
+      "stat_stars": 2,
+      "created_at": "2026-02-06T20:10:06.225000",
+      "days_old": 94,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "3d-cog",
+      "display_name": "3d Cog",
+      "stat_downloads": 1996,
+      "stat_stars": 3,
+      "created_at": "2026-02-14T10:12:38.903000",
+      "days_old": 86,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "legal-cog",
+      "display_name": "Legal Cog",
+      "stat_downloads": 1530,
+      "stat_stars": 2,
+      "created_at": "2026-02-17T23:00:50.953000",
+      "days_old": 83,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "travel-cog",
+      "display_name": "Travel Cog",
+      "stat_downloads": 1116,
+      "stat_stars": 1,
+      "created_at": "2026-02-18T00:02:47.492000",
+      "days_old": 82,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "seedance-cog",
+      "display_name": "Seedance Cog",
+      "stat_downloads": 1060,
+      "stat_stars": 2,
+      "created_at": "2026-02-17T23:07:15.298000",
+      "days_old": 83,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "news-cog",
+      "display_name": "News Cog",
+      "stat_downloads": 985,
+      "stat_stars": 1,
+      "created_at": "2026-02-17T23:02:24.997000",
+      "days_old": 83,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "resume-cog",
+      "display_name": "Resume Cog",
+      "stat_downloads": 928,
+      "stat_stars": 1,
+      "created_at": "2026-02-17T23:04:51.169000",
+      "days_old": 83,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "banana-cog",
+      "display_name": "Banana Cog",
+      "stat_downloads": 569,
+      "stat_stars": 0,
+      "created_at": "2026-02-21T18:00:27.828000",
+      "days_old": 79,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "code-cog",
+      "display_name": "Code Cog",
+      "stat_downloads": 377,
+      "stat_stars": 0,
+      "created_at": "2026-03-31T20:12:18.600000",
+      "days_old": 41,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "project-cog",
+      "display_name": "Project Cog",
+      "stat_downloads": 357,
+      "stat_stars": 0,
+      "created_at": "2026-03-26T06:47:20.527000",
+      "days_old": 46,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "cowork-cog",
+      "display_name": "Cowork Cog",
+      "stat_downloads": 333,
+      "stat_stars": 0,
+      "created_at": "2026-04-02T03:33:34.776000",
+      "days_old": 39,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "diagram-cog",
+      "display_name": "Diagram Cog",
+      "stat_downloads": 327,
+      "stat_stars": 0,
+      "created_at": "2026-04-06T05:07:07.596000",
+      "days_old": 35,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "sticker-cog",
+      "display_name": "Sticker Cog",
+      "stat_downloads": 305,
+      "stat_stars": 0,
+      "created_at": "2026-04-06T05:08:04.727000",
+      "days_old": 35,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "gif-cog",
+      "display_name": "Gif Cog",
+      "stat_downloads": 301,
+      "stat_stars": 0,
+      "created_at": "2026-04-06T05:07:19.311000",
+      "days_old": 35,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "avatar-cog",
+      "display_name": "Avatar Cog",
+      "stat_downloads": 190,
+      "stat_stars": 0,
+      "created_at": "2026-04-15T02:33:11.522000",
+      "days_old": 26,
+      "is_highlighted": false,
+      "is_suspicious": false
+    }
+  ],
+  "trajectory": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 74394,
+      "stars": 188
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 74862,
+      "stars": 188
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 76135,
+      "stars": 190
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 77026,
+      "stars": 190
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 77785,
+      "stars": 195
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 78700,
+      "stars": 165
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 80516,
+      "stars": 167
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 80664,
+      "stars": 167
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 80954,
+      "stars": 168
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 82030,
+      "stars": 169
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 84288,
+      "stars": 169
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 84288,
+      "stars": 169
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 84781,
+      "stars": 169
+    },
+    {
+      "run_date": "2026-03-29T03:00:00.679954",
+      "downloads": 85928,
+      "stars": 171
+    },
+    {
+      "run_date": "2026-03-30T03:00:00.682509",
+      "downloads": 86952,
+      "stars": 172
+    },
+    {
+      "run_date": "2026-03-31T03:00:00.702238",
+      "downloads": 88075,
+      "stars": 173
+    },
+    {
+      "run_date": "2026-04-01T03:00:00.631568",
+      "downloads": 89345,
+      "stars": 175
+    },
+    {
+      "run_date": "2026-04-07T08:32:21.256392",
+      "downloads": 96988,
+      "stars": 187
+    },
+    {
+      "run_date": "2026-04-08T02:59:53.612026",
+      "downloads": 97742,
+      "stars": 187
+    },
+    {
+      "run_date": "2026-04-09T03:00:00.814082",
+      "downloads": 99069,
+      "stars": 187
+    },
+    {
+      "run_date": "2026-04-10T03:00:00.610465",
+      "downloads": 100094,
+      "stars": 187
+    },
+    {
+      "run_date": "2026-04-11T03:00:00.635800",
+      "downloads": 101104,
+      "stars": 188
+    },
+    {
+      "run_date": "2026-04-12T03:00:00.326052",
+      "downloads": 101787,
+      "stars": 192
+    },
+    {
+      "run_date": "2026-04-13T03:00:00.295537",
+      "downloads": 102671,
+      "stars": 192
+    },
+    {
+      "run_date": "2026-04-18T02:59:55.390364",
+      "downloads": 106928,
+      "stars": 193
+    },
+    {
+      "run_date": "2026-04-19T03:00:00.676118",
+      "downloads": 107366,
+      "stars": 193
+    },
+    {
+      "run_date": "2026-04-20T03:00:00.599318",
+      "downloads": 107702,
+      "stars": 193
+    },
+    {
+      "run_date": "2026-04-21T03:00:00.575737",
+      "downloads": 108236,
+      "stars": 193
+    },
+    {
+      "run_date": "2026-04-22T03:00:00.762090",
+      "downloads": 108682,
+      "stars": 193
+    },
+    {
+      "run_date": "2026-04-23T03:00:00.767159",
+      "downloads": 109081,
+      "stars": 193
+    },
+    {
+      "run_date": "2026-04-24T03:00:00.604086",
+      "downloads": 109935,
+      "stars": 193
+    },
+    {
+      "run_date": "2026-04-28T02:59:56.742214",
+      "downloads": 111722,
+      "stars": 193
+    },
+    {
+      "run_date": "2026-04-29T03:01:44.166793",
+      "downloads": 112225,
+      "stars": 193
+    },
+    {
+      "run_date": "2026-04-30T03:00:00.711115",
+      "downloads": 112756,
+      "stars": 193
+    },
+    {
+      "run_date": "2026-05-02T02:59:59.833385",
+      "downloads": 113680,
+      "stars": 193
+    },
+    {
+      "run_date": "2026-05-03T03:42:13.922530",
+      "downloads": 113994,
+      "stars": 193
+    },
+    {
+      "run_date": "2026-05-05T00:41:38.231465",
+      "downloads": 115399,
+      "stars": 194
+    },
+    {
+      "run_date": "2026-05-05T03:00:00.321955",
+      "downloads": 115457,
+      "stars": 194
+    },
+    {
+      "run_date": "2026-05-06T03:00:00.570710",
+      "downloads": 115958,
+      "stars": 194
+    },
+    {
+      "run_date": "2026-05-07T03:00:00.572063",
+      "downloads": 116833,
+      "stars": 194
+    },
+    {
+      "run_date": "2026-05-09T03:44:10.833903",
+      "downloads": 118193,
+      "stars": 194
+    },
+    {
+      "run_date": "2026-05-10T03:00:00.531823",
+      "downloads": 118719,
+      "stars": 194
+    },
+    {
+      "run_date": "2026-05-11T03:00:00.316612",
+      "downloads": 119516,
+      "stars": 194
+    }
+  ],
+  "download_trajectory": [
+    74394,
+    74862,
+    76135,
+    77026,
+    77785,
+    78700,
+    80516,
+    80664,
+    80954,
+    82030,
+    84288,
+    84288,
+    84781,
+    85928,
+    86952,
+    88075,
+    89345,
+    96988,
+    97742,
+    99069,
+    100094,
+    101104,
+    101787,
+    102671,
+    106928,
+    107366,
+    107702,
+    108236,
+    108682,
+    109081,
+    109935,
+    111722,
+    112225,
+    112756,
+    113680,
+    113994,
+    115399,
+    115457,
+    115958,
+    116833,
+    118193,
+    118719,
+    119516
+  ]
+}

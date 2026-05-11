@@ -1,0 +1,349 @@
+{
+  "skill_id": "kd70a16gdqzdfzj2t7p028xw2d80cjkc",
+  "slug": "salesforce-api",
+  "display_name": "Salesforce",
+  "summary": "Salesforce CRM API integration with managed OAuth. Install only if you need Salesforce CRM administration. Connect with the narrowest Salesforce permissions...",
+  "owner_handle": "byungkyu",
+  "owner_image": "https://avatars.githubusercontent.com/u/16563684?v=4",
+  "created_at": "2026-02-02T09:16:54.266000",
+  "days_old": 97,
+  "stat_downloads": 17922,
+  "stat_stars": 8,
+  "tags": {
+    "latest": "k972mer3xzf8kg10v2b8gg4tas868r07"
+  },
+  "badges": null,
+  "stat_installs": 9,
+  "stat_comments": 3,
+  "current_version": "1.0.7",
+  "is_highlighted": false,
+  "is_suspicious": false,
+  "velocity": 184.8,
+  "acceleration_pct": -16.5,
+  "dl_delta": 32,
+  "dl_wow": 0.2,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 0,
+  "installs_wow": 0.0,
+  "history": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 16789,
+      "stars": 7,
+      "installs_all_time": 5,
+      "installs_current": 4
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 16803,
+      "stars": 7,
+      "installs_all_time": 5,
+      "installs_current": 4
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 16835,
+      "stars": 7,
+      "installs_all_time": 6,
+      "installs_current": 5
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 16849,
+      "stars": 7,
+      "installs_all_time": 7,
+      "installs_current": 6
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 16854,
+      "stars": 7,
+      "installs_all_time": 7,
+      "installs_current": 5
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 16867,
+      "stars": 7,
+      "installs_all_time": 8,
+      "installs_current": 6
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 16906,
+      "stars": 7,
+      "installs_all_time": 8,
+      "installs_current": 6
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 16908,
+      "stars": 7,
+      "installs_all_time": 8,
+      "installs_current": 6
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 16910,
+      "stars": 7,
+      "installs_all_time": 8,
+      "installs_current": 6
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 16924,
+      "stars": 8,
+      "installs_all_time": 8,
+      "installs_current": 6
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 16956,
+      "stars": 8,
+      "installs_all_time": 9,
+      "installs_current": 7
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 16956,
+      "stars": 8,
+      "installs_all_time": 9,
+      "installs_current": 7
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 16960,
+      "stars": 8,
+      "installs_all_time": 9,
+      "installs_current": 7
+    },
+    {
+      "run_date": "2026-03-29T03:00:00.679954",
+      "downloads": 16969,
+      "stars": 8,
+      "installs_all_time": 9,
+      "installs_current": 7
+    },
+    {
+      "run_date": "2026-03-30T03:00:00.682509",
+      "downloads": 16980,
+      "stars": 8,
+      "installs_all_time": 9,
+      "installs_current": 7
+    },
+    {
+      "run_date": "2026-03-31T03:00:00.702238",
+      "downloads": 17006,
+      "stars": 8,
+      "installs_all_time": 9,
+      "installs_current": 7
+    },
+    {
+      "run_date": "2026-04-01T03:00:00.631568",
+      "downloads": 17018,
+      "stars": 8,
+      "installs_all_time": 9,
+      "installs_current": 7
+    },
+    {
+      "run_date": "2026-04-07T08:32:21.256392",
+      "downloads": 17106,
+      "stars": 8,
+      "installs_all_time": 9,
+      "installs_current": 7
+    },
+    {
+      "run_date": "2026-04-08T02:59:53.612026",
+      "downloads": 17112,
+      "stars": 8,
+      "installs_all_time": 9,
+      "installs_current": 7
+    },
+    {
+      "run_date": "2026-04-09T03:00:00.814082",
+      "downloads": 17140,
+      "stars": 8,
+      "installs_all_time": 9,
+      "installs_current": 7
+    },
+    {
+      "run_date": "2026-04-10T03:00:00.610465",
+      "downloads": 17158,
+      "stars": 8,
+      "installs_all_time": 9,
+      "installs_current": 7
+    },
+    {
+      "run_date": "2026-04-11T03:00:00.635800",
+      "downloads": 17175,
+      "stars": 8,
+      "installs_all_time": 9,
+      "installs_current": 7
+    },
+    {
+      "run_date": "2026-04-12T03:00:00.326052",
+      "downloads": 17191,
+      "stars": 8,
+      "installs_all_time": 9,
+      "installs_current": 7
+    },
+    {
+      "run_date": "2026-04-13T03:00:00.295537",
+      "downloads": 17197,
+      "stars": 8,
+      "installs_all_time": 9,
+      "installs_current": 7
+    },
+    {
+      "run_date": "2026-04-18T02:59:55.390364",
+      "downloads": 17297,
+      "stars": 8,
+      "installs_all_time": 9,
+      "installs_current": 7
+    },
+    {
+      "run_date": "2026-04-19T03:00:00.676118",
+      "downloads": 17307,
+      "stars": 8,
+      "installs_all_time": 9,
+      "installs_current": 7
+    },
+    {
+      "run_date": "2026-04-20T03:00:00.599318",
+      "downloads": 17320,
+      "stars": 8,
+      "installs_all_time": 9,
+      "installs_current": 7
+    },
+    {
+      "run_date": "2026-04-21T03:00:00.575737",
+      "downloads": 17339,
+      "stars": 8,
+      "installs_all_time": 9,
+      "installs_current": 7
+    },
+    {
+      "run_date": "2026-04-22T03:00:00.762090",
+      "downloads": 17357,
+      "stars": 8,
+      "installs_all_time": 9,
+      "installs_current": 7
+    },
+    {
+      "run_date": "2026-04-23T03:00:00.767159",
+      "downloads": 17370,
+      "stars": 8,
+      "installs_all_time": 9,
+      "installs_current": 7
+    },
+    {
+      "run_date": "2026-04-24T03:00:00.604086",
+      "downloads": 17387,
+      "stars": 8,
+      "installs_all_time": 9,
+      "installs_current": 7
+    },
+    {
+      "run_date": "2026-04-28T02:59:56.742214",
+      "downloads": 17446,
+      "stars": 8,
+      "installs_all_time": 9,
+      "installs_current": 7
+    },
+    {
+      "run_date": "2026-04-29T03:01:44.166793",
+      "downloads": 17462,
+      "stars": 8,
+      "installs_all_time": 9,
+      "installs_current": 7
+    },
+    {
+      "run_date": "2026-04-30T03:00:00.711115",
+      "downloads": 17478,
+      "stars": 8,
+      "installs_all_time": 9,
+      "installs_current": 7
+    },
+    {
+      "run_date": "2026-05-02T02:59:59.833385",
+      "downloads": 17540,
+      "stars": 8,
+      "installs_all_time": 9,
+      "installs_current": 7
+    },
+    {
+      "run_date": "2026-05-03T03:42:13.922530",
+      "downloads": 17577,
+      "stars": 8,
+      "installs_all_time": 9,
+      "installs_current": 7
+    },
+    {
+      "run_date": "2026-05-05T00:41:38.231465",
+      "downloads": 17664,
+      "stars": 8,
+      "installs_all_time": 9,
+      "installs_current": 7
+    },
+    {
+      "run_date": "2026-05-05T03:00:00.321955",
+      "downloads": 17667,
+      "stars": 8,
+      "installs_all_time": 9,
+      "installs_current": 7
+    },
+    {
+      "run_date": "2026-05-06T03:00:00.570710",
+      "downloads": 17701,
+      "stars": 8,
+      "installs_all_time": 9,
+      "installs_current": 7
+    },
+    {
+      "run_date": "2026-05-07T03:00:00.572063",
+      "downloads": 17752,
+      "stars": 8,
+      "installs_all_time": 9,
+      "installs_current": 7
+    },
+    {
+      "run_date": "2026-05-09T03:44:10.833903",
+      "downloads": 17851,
+      "stars": 8,
+      "installs_all_time": 9,
+      "installs_current": 7
+    },
+    {
+      "run_date": "2026-05-10T03:00:00.531823",
+      "downloads": 17890,
+      "stars": 8,
+      "installs_all_time": 9,
+      "installs_current": 7
+    },
+    {
+      "run_date": "2026-05-11T03:00:00.316612",
+      "downloads": 17922,
+      "stars": 8,
+      "installs_all_time": 9,
+      "installs_current": 7
+    }
+  ],
+  "version_releases": [
+    {
+      "version_number": "1.0.5",
+      "run_date": "2026-05-02T02:59:59.833385",
+      "changelog": "- Updated all Maton API endpoints from gateway.maton.ai and ctrl.maton.ai to api.maton.ai for consistency.\n- Clarified instructions for specifying a Salesforce connection via the Maton-Connection header, emphasizing its use when multiple connections exist.\n- Added a new \"Security & Permissions\" section requiring explicit user approval before any write operations (create, update, delete).\n- Removed LICENSE.txt file."
+    },
+    {
+      "version_number": "1.0.6",
+      "run_date": "2026-05-03T03:42:13.922530",
+      "changelog": "- Added strong security guidance: treat the API key as secret, rotate if exposed, and revoke unused Salesforce connections promptly.\n- Updated description and usage to emphasize least-privilege OAuth, sandbox use for risky actions, and always verifying connection ID before requests.\n- Clarified that only supported/documented endpoint paths should be used.\n- Instructions now require explicit user confirmation with details before any write or batch operation; added steps to confirm record and intended impact.\n- Emphasized defaulting to read-only actions and increased caution on all composite/batch operations."
+    },
+    {
+      "version_number": "1.0.7",
+      "run_date": "2026-05-09T03:44:10.833903",
+      "changelog": "- Adds CLI and Homebrew installation instructions for Maton CLI, expanding usage options.\n- Updates API examples and references from Salesforce API version v59.0 to v63.0.\n- Documents direct CLI commands for common actions (SOQL queries, connections) alongside Python and HTTP examples.\n- Clarifies connection management and explicit connection selection, now with CLI examples.\n- Improves authentication instructions by including CLI login/interactive login commands.\n- No functional/API changes to the underlying integration; documentation update only."
+    }
+  ]
+}

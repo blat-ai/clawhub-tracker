@@ -1,0 +1,2236 @@
+{
+  "handle": "xueyetianya",
+  "total_downloads": 95678,
+  "total_stars": 13,
+  "total_installs": 491,
+  "skill_count": 194,
+  "avg_dl_per_day": 8.8,
+  "highlighted_count": 0,
+  "suspicious_count": 16,
+  "clean_pct": 91.8,
+  "dl_delta": 2500,
+  "dl_wow": 2.7,
+  "dl_per_day": 2500.0,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "star_per_day": 0,
+  "installs_delta": 1,
+  "installs_wow": 0.2,
+  "installs_per_day": 1.0,
+  "owner_display_name": "bytesagain4",
+  "owner_name": "xueyetianya",
+  "owner_image": "https://avatars.githubusercontent.com/u/218210530?v=4",
+  "bio": null,
+  "company": null,
+  "location": null,
+  "blog": null,
+  "public_repos": 0,
+  "followers": 0,
+  "following": 0,
+  "github_created_at": "2025-06-27T07:30:27",
+  "twitter_username": null,
+  "skills": [
+    {
+      "slug": "shell",
+      "display_name": "Shell",
+      "stat_downloads": 4783,
+      "stat_stars": 1,
+      "created_at": "2026-03-21T14:19:29.968000",
+      "days_old": 51,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "task-planner",
+      "display_name": "Task Planner",
+      "stat_downloads": 3637,
+      "stat_stars": 2,
+      "created_at": "2026-03-11T01:18:21.291000",
+      "days_old": 61,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "vision",
+      "display_name": "Vision",
+      "stat_downloads": 3573,
+      "stat_stars": 1,
+      "created_at": "2026-03-15T02:57:51.210000",
+      "days_old": 57,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "code-generator",
+      "display_name": "Code Generator",
+      "stat_downloads": 3173,
+      "stat_stars": 2,
+      "created_at": "2026-03-11T01:17:43.267000",
+      "days_old": 61,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "excel-formula",
+      "display_name": "Excel Formula",
+      "stat_downloads": 2871,
+      "stat_stars": 1,
+      "created_at": "2026-03-11T00:04:54.046000",
+      "days_old": 61,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "translator-pro",
+      "display_name": "Translator Pro",
+      "stat_downloads": 1848,
+      "stat_stars": 0,
+      "created_at": "2026-03-11T00:04:20.457000",
+      "days_old": 61,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "data-visualizer",
+      "display_name": "Data Visualizer",
+      "stat_downloads": 1295,
+      "stat_stars": 0,
+      "created_at": "2026-03-11T02:18:04.195000",
+      "days_old": 61,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "doc-summarize-pro",
+      "display_name": "Doc Summarize Pro",
+      "stat_downloads": 1187,
+      "stat_stars": 0,
+      "created_at": "2026-03-11T01:17:25.624000",
+      "days_old": 61,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "link-checker",
+      "display_name": "Link Checker",
+      "stat_downloads": 1116,
+      "stat_stars": 0,
+      "created_at": "2026-03-12T06:18:16.964000",
+      "days_old": 60,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "math-solver",
+      "display_name": "Math Solver",
+      "stat_downloads": 1114,
+      "stat_stars": 0,
+      "created_at": "2026-03-11T00:04:48.007000",
+      "days_old": 61,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "nginx-config",
+      "display_name": "Nginx Config",
+      "stat_downloads": 865,
+      "stat_stars": 0,
+      "created_at": "2026-03-11T05:17:33.239000",
+      "days_old": 61,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "tax-calculator-cn",
+      "display_name": "Tax Calculator Cn",
+      "stat_downloads": 826,
+      "stat_stars": 1,
+      "created_at": "2026-03-12T09:18:39.714000",
+      "days_old": 60,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "shopify-toolkit",
+      "display_name": "Shopify Toolkit",
+      "stat_downloads": 815,
+      "stat_stars": 0,
+      "created_at": "2026-03-12T01:56:49.134000",
+      "days_old": 60,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "shipping-calc",
+      "display_name": "Shipping Calc",
+      "stat_downloads": 813,
+      "stat_stars": 0,
+      "created_at": "2026-03-12T08:17:20.887000",
+      "days_old": 60,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "stripe-manager",
+      "display_name": "Stripe Manager",
+      "stat_downloads": 796,
+      "stat_stars": 0,
+      "created_at": "2026-03-12T01:56:59.681000",
+      "days_old": 60,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "option-calculator",
+      "display_name": "Option Calculator",
+      "stat_downloads": 774,
+      "stat_stars": 1,
+      "created_at": "2026-03-11T07:18:27.748000",
+      "days_old": 61,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "grammar-check",
+      "display_name": "Grammar Check",
+      "stat_downloads": 720,
+      "stat_stars": 1,
+      "created_at": "2026-03-11T00:04:41.871000",
+      "days_old": 61,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "core",
+      "display_name": "Core",
+      "stat_downloads": 706,
+      "stat_stars": 0,
+      "created_at": "2026-03-14T01:13:45.356000",
+      "days_old": 58,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "zip",
+      "display_name": "Zip",
+      "stat_downloads": 705,
+      "stat_stars": 0,
+      "created_at": "2026-03-16T02:57:14.470000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "slack-automator",
+      "display_name": "Slack Automator",
+      "stat_downloads": 694,
+      "stat_stars": 0,
+      "created_at": "2026-03-12T00:40:30.712000",
+      "days_old": 60,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "cover-letter",
+      "display_name": "Cover Letter",
+      "stat_downloads": 687,
+      "stat_stars": 0,
+      "created_at": "2026-03-11T04:18:03.501000",
+      "days_old": 61,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "crypto-defi",
+      "display_name": "Crypto Defi",
+      "stat_downloads": 684,
+      "stat_stars": 0,
+      "created_at": "2026-03-11T07:18:37.137000",
+      "days_old": 61,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "lint",
+      "display_name": "Lint",
+      "stat_downloads": 672,
+      "stat_stars": 0,
+      "created_at": "2026-03-15T03:53:30.654000",
+      "days_old": 57,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "deploy-helper",
+      "display_name": "Deploy Helper",
+      "stat_downloads": 644,
+      "stat_stars": 1,
+      "created_at": "2026-03-11T03:17:39.571000",
+      "days_old": 61,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "agent-ops-framework",
+      "display_name": "Agent Ops Framework",
+      "stat_downloads": 643,
+      "stat_stars": 0,
+      "created_at": "2026-03-12T06:19:03.970000",
+      "days_old": 60,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "agent-toolkit",
+      "display_name": "Agent Toolkit",
+      "stat_downloads": 643,
+      "stat_stars": 0,
+      "created_at": "2026-03-11T01:18:39.467000",
+      "days_old": 61,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "nlp",
+      "display_name": "Nlp",
+      "stat_downloads": 639,
+      "stat_stars": 0,
+      "created_at": "2026-03-15T02:57:37.271000",
+      "days_old": 57,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "court-prep",
+      "display_name": "Court Prep",
+      "stat_downloads": 629,
+      "stat_stars": 0,
+      "created_at": "2026-03-12T10:17:35.747000",
+      "days_old": 60,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "trend",
+      "display_name": "Trend",
+      "stat_downloads": 601,
+      "stat_stars": 0,
+      "created_at": "2026-03-15T03:57:45.356000",
+      "days_old": 57,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "hashtag",
+      "display_name": "Hashtag",
+      "stat_downloads": 599,
+      "stat_stars": 0,
+      "created_at": "2026-03-15T03:57:30.584000",
+      "days_old": 57,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "gpt",
+      "display_name": "Gpt",
+      "stat_downloads": 595,
+      "stat_stars": 0,
+      "created_at": "2026-03-15T02:57:23.006000",
+      "days_old": 57,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "press-release",
+      "display_name": "Press Release",
+      "stat_downloads": 593,
+      "stat_stars": 0,
+      "created_at": "2026-03-12T11:18:13.146000",
+      "days_old": 60,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "awesome-cheatsheets",
+      "display_name": "Awesome Cheatsheets",
+      "stat_downloads": 578,
+      "stat_stars": 0,
+      "created_at": "2026-03-13T23:17:34.036000",
+      "days_old": 59,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "gdpr-checker",
+      "display_name": "Gdpr Checker",
+      "stat_downloads": 577,
+      "stat_stars": 0,
+      "created_at": "2026-03-12T11:17:37.572000",
+      "days_old": 60,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "translator-pro-test",
+      "display_name": "Translator Pro Test",
+      "stat_downloads": 577,
+      "stat_stars": 0,
+      "created_at": "2026-03-11T00:03:54.943000",
+      "days_old": 61,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "changelog",
+      "display_name": "Changelog",
+      "stat_downloads": 574,
+      "stat_stars": 0,
+      "created_at": "2026-03-15T03:54:22.041000",
+      "days_old": 57,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "readme-template",
+      "display_name": "Readme Template",
+      "stat_downloads": 573,
+      "stat_stars": 0,
+      "created_at": "2026-03-11T04:17:30.797000",
+      "days_old": 61,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "base64",
+      "display_name": "Base64",
+      "stat_downloads": 572,
+      "stat_stars": 0,
+      "created_at": "2026-03-18T13:34:01.568000",
+      "days_old": 54,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "resignation-letter",
+      "display_name": "Resignation Letter",
+      "stat_downloads": 562,
+      "stat_stars": 0,
+      "created_at": "2026-03-12T12:17:31.401000",
+      "days_old": 60,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "return-policy",
+      "display_name": "Return Policy",
+      "stat_downloads": 560,
+      "stat_stars": 0,
+      "created_at": "2026-03-12T08:18:09.216000",
+      "days_old": 60,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "whois-checker",
+      "display_name": "Whois Checker",
+      "stat_downloads": 554,
+      "stat_stars": 0,
+      "created_at": "2026-03-12T06:18:54.861000",
+      "days_old": 60,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "review-responder",
+      "display_name": "Review Responder",
+      "stat_downloads": 553,
+      "stat_stars": 0,
+      "created_at": "2026-03-12T08:17:34.458000",
+      "days_old": 60,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "clip-history",
+      "display_name": "Clip History",
+      "stat_downloads": 551,
+      "stat_stars": 0,
+      "created_at": "2026-03-13T15:57:59.400000",
+      "days_old": 59,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "icp-filing",
+      "display_name": "Icp Filing",
+      "stat_downloads": 548,
+      "stat_stars": 0,
+      "created_at": "2026-03-12T11:17:30.594000",
+      "days_old": 60,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "manager",
+      "display_name": "Manager",
+      "stat_downloads": 539,
+      "stat_stars": 0,
+      "created_at": "2026-03-16T06:01:22.209000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "podcast-notes",
+      "display_name": "Podcast Notes",
+      "stat_downloads": 539,
+      "stat_stars": 0,
+      "created_at": "2026-03-11T06:18:05.730000",
+      "days_old": 61,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "bash-themes",
+      "display_name": "Bash Themes",
+      "stat_downloads": 535,
+      "stat_stars": 0,
+      "created_at": "2026-03-14T01:11:56.273000",
+      "days_old": 58,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "newsletter-writer",
+      "display_name": "Newsletter Writer",
+      "stat_downloads": 534,
+      "stat_stars": 0,
+      "created_at": "2026-03-11T05:18:00.266000",
+      "days_old": 61,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ssl-checker",
+      "display_name": "Ssl Checker",
+      "stat_downloads": 532,
+      "stat_stars": 0,
+      "created_at": "2026-03-12T06:18:41.408000",
+      "days_old": 60,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "tweet-generator",
+      "display_name": "Tweet Generator",
+      "stat_downloads": 530,
+      "stat_stars": 0,
+      "created_at": "2026-03-11T06:17:36.007000",
+      "days_old": 61,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "browser-devtools",
+      "display_name": "Browser Devtools",
+      "stat_downloads": 529,
+      "stat_stars": 0,
+      "created_at": "2026-03-14T01:12:23.197000",
+      "days_old": 58,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "helm",
+      "display_name": "Helm",
+      "stat_downloads": 528,
+      "stat_stars": 0,
+      "created_at": "2026-03-16T06:01:48.714000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "video-toolbox",
+      "display_name": "Video Toolbox",
+      "stat_downloads": 526,
+      "stat_stars": 0,
+      "created_at": "2026-03-12T01:56:12.014000",
+      "days_old": 60,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "swagger-generator",
+      "display_name": "Swagger Generator",
+      "stat_downloads": 518,
+      "stat_stars": 0,
+      "created_at": "2026-03-12T06:17:24.245000",
+      "days_old": 60,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "agent-learner",
+      "display_name": "Agent Learner",
+      "stat_downloads": 517,
+      "stat_stars": 0,
+      "created_at": "2026-03-11T01:18:48.618000",
+      "days_old": 61,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "discord-toolkit",
+      "display_name": "Discord Toolkit",
+      "stat_downloads": 515,
+      "stat_stars": 0,
+      "created_at": "2026-03-12T01:56:32.873000",
+      "days_old": 60,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "valuation",
+      "display_name": "Valuation",
+      "stat_downloads": 509,
+      "stat_stars": 0,
+      "created_at": "2026-03-16T05:52:21.468000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "notion-powertools",
+      "display_name": "Notion Powertools",
+      "stat_downloads": 498,
+      "stat_stars": 0,
+      "created_at": "2026-03-12T01:56:22.432000",
+      "days_old": 60,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "emojilist",
+      "display_name": "Emojilist",
+      "stat_downloads": 494,
+      "stat_stars": 0,
+      "created_at": "2026-03-15T01:54:31.768000",
+      "days_old": 57,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "tailwind",
+      "display_name": "Tailwind",
+      "stat_downloads": 493,
+      "stat_stars": 0,
+      "created_at": "2026-03-22T14:17:17.172000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "validator",
+      "display_name": "Validator",
+      "stat_downloads": 486,
+      "stat_stars": 0,
+      "created_at": "2026-03-16T05:55:08.338000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "apicheck",
+      "display_name": "Apicheck",
+      "stat_downloads": 486,
+      "stat_stars": 0,
+      "created_at": "2026-03-13T23:17:24.344000",
+      "days_old": 59,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "commit-helper",
+      "display_name": "Commit Helper",
+      "stat_downloads": 485,
+      "stat_stars": 0,
+      "created_at": "2026-03-13T15:58:22.719000",
+      "days_old": 59,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "cronjob",
+      "display_name": "Cronjob",
+      "stat_downloads": 481,
+      "stat_stars": 0,
+      "created_at": "2026-03-14T23:25:47.950000",
+      "days_old": 58,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "unitconv",
+      "display_name": "Unitconv",
+      "stat_downloads": 478,
+      "stat_stars": 0,
+      "created_at": "2026-03-14T23:25:24.292000",
+      "days_old": 58,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "bat",
+      "display_name": "Bat",
+      "stat_downloads": 464,
+      "stat_stars": 0,
+      "created_at": "2026-03-13T23:17:41.247000",
+      "days_old": 59,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "syscheck",
+      "display_name": "Syscheck",
+      "stat_downloads": 461,
+      "stat_stars": 0,
+      "created_at": "2026-03-15T01:54:10.527000",
+      "days_old": 57,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "adversarial-robustness-toolbox",
+      "display_name": "Adversarial Robustness Toolbox",
+      "stat_downloads": 459,
+      "stat_stars": 0,
+      "created_at": "2026-03-13T23:17:18.321000",
+      "days_old": 59,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "cloud-sdk",
+      "display_name": "Cloud Sdk",
+      "stat_downloads": 458,
+      "stat_stars": 0,
+      "created_at": "2026-03-14T01:12:49.192000",
+      "days_old": 58,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "awesome-pentest",
+      "display_name": "Awesome Pentest",
+      "stat_downloads": 453,
+      "stat_stars": 0,
+      "created_at": "2026-03-19T14:51:44.281000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "campaign",
+      "display_name": "Campaign",
+      "stat_downloads": 449,
+      "stat_stars": 0,
+      "created_at": "2026-03-15T03:57:59.895000",
+      "days_old": 57,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "fontpick",
+      "display_name": "Fontpick",
+      "stat_downloads": 446,
+      "stat_stars": 0,
+      "created_at": "2026-03-14T23:24:31.376000",
+      "days_old": 58,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "vector",
+      "display_name": "Vector",
+      "stat_downloads": 445,
+      "stat_stars": 0,
+      "created_at": "2026-03-19T01:18:28.630000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "dnscheck",
+      "display_name": "Dnscheck",
+      "stat_downloads": 438,
+      "stat_stars": 0,
+      "created_at": "2026-03-15T01:52:58.839000",
+      "days_old": 57,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "fakerjs",
+      "display_name": "Fakerjs",
+      "stat_downloads": 437,
+      "stat_stars": 0,
+      "created_at": "2026-03-14T23:24:58.705000",
+      "days_old": 58,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "capistrano",
+      "display_name": "Capistrano",
+      "stat_downloads": 437,
+      "stat_stars": 0,
+      "created_at": "2026-03-13T23:17:51.758000",
+      "days_old": 59,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "leads",
+      "display_name": "Leads",
+      "stat_downloads": 434,
+      "stat_stars": 0,
+      "created_at": "2026-03-15T02:54:06.877000",
+      "days_old": 57,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "communityhub",
+      "display_name": "Communityhub",
+      "stat_downloads": 434,
+      "stat_stars": 0,
+      "created_at": "2026-03-14T01:13:15.701000",
+      "days_old": 58,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "codepal",
+      "display_name": "Codepal",
+      "stat_downloads": 431,
+      "stat_stars": 0,
+      "created_at": "2026-03-14T23:22:59.916000",
+      "days_old": 58,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "devops-bash-tools",
+      "display_name": "Devops Bash Tools",
+      "stat_downloads": 428,
+      "stat_stars": 0,
+      "created_at": "2026-03-19T23:18:52.849000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "orders",
+      "display_name": "Orders",
+      "stat_downloads": 420,
+      "stat_stars": 0,
+      "created_at": "2026-03-15T02:53:24.156000",
+      "days_old": 57,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "maintenance",
+      "display_name": "Maintenance",
+      "stat_downloads": 408,
+      "stat_stars": 0,
+      "created_at": "2026-03-16T07:04:58.404000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "climate",
+      "display_name": "Climate",
+      "stat_downloads": 405,
+      "stat_stars": 0,
+      "created_at": "2026-03-16T02:56:45.926000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "mood-tracker",
+      "display_name": "Mood Tracker",
+      "stat_downloads": 404,
+      "stat_stars": 0,
+      "created_at": "2026-03-13T16:04:16.873000",
+      "days_old": 59,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "regexpal",
+      "display_name": "Regexpal",
+      "stat_downloads": 396,
+      "stat_stars": 0,
+      "created_at": "2026-03-15T01:53:44.071000",
+      "days_old": 57,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "docker-analyzer",
+      "display_name": "Docker Analyzer",
+      "stat_downloads": 391,
+      "stat_stars": 0,
+      "created_at": "2026-03-13T16:01:15.071000",
+      "days_old": 59,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "timezone",
+      "display_name": "Timezone",
+      "stat_downloads": 388,
+      "stat_stars": 0,
+      "created_at": "2026-03-18T00:50:39.488000",
+      "days_old": 54,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "headless-browser",
+      "display_name": "Headless Browser",
+      "stat_downloads": 382,
+      "stat_stars": 0,
+      "created_at": "2026-03-20T01:18:31.663000",
+      "days_old": 52,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "gradient",
+      "display_name": "Gradient",
+      "stat_downloads": 366,
+      "stat_stars": 0,
+      "created_at": "2026-03-18T13:31:50.630000",
+      "days_old": 54,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "options",
+      "display_name": "Options",
+      "stat_downloads": 366,
+      "stat_stars": 0,
+      "created_at": "2026-03-18T00:50:02.752000",
+      "days_old": 54,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "deadline",
+      "display_name": "Deadline",
+      "stat_downloads": 366,
+      "stat_stars": 0,
+      "created_at": "2026-03-16T07:06:25.746000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "bundle",
+      "display_name": "Bundle",
+      "stat_downloads": 363,
+      "stat_stars": 0,
+      "created_at": "2026-03-19T14:56:35.457000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "cache",
+      "display_name": "Cache",
+      "stat_downloads": 363,
+      "stat_stars": 0,
+      "created_at": "2026-03-18T13:31:24.946000",
+      "days_old": 54,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "count",
+      "display_name": "Count",
+      "stat_downloads": 353,
+      "stat_stars": 0,
+      "created_at": "2026-03-16T02:57:44.237000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "web-module-runner",
+      "display_name": "Web Module Runner",
+      "stat_downloads": 346,
+      "stat_stars": 0,
+      "created_at": "2026-03-20T05:19:27.042000",
+      "days_old": 52,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "bingo",
+      "display_name": "Bingo",
+      "stat_downloads": 345,
+      "stat_stars": 0,
+      "created_at": "2026-03-16T05:52:50.878000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "agv",
+      "display_name": "Agv",
+      "stat_downloads": 343,
+      "stat_stars": 0,
+      "created_at": "2026-03-20T19:19:26.122000",
+      "days_old": 52,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "license",
+      "display_name": "License",
+      "stat_downloads": 334,
+      "stat_stars": 0,
+      "created_at": "2026-03-18T04:28:36.959000",
+      "days_old": 54,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "leaderboard",
+      "display_name": "Leaderboard",
+      "stat_downloads": 333,
+      "stat_stars": 0,
+      "created_at": "2026-03-16T07:02:15.845000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "compound",
+      "display_name": "Compound",
+      "stat_downloads": 331,
+      "stat_stars": 0,
+      "created_at": "2026-03-18T22:34:19.615000",
+      "days_old": 54,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ping",
+      "display_name": "Ping",
+      "stat_downloads": 326,
+      "stat_stars": 0,
+      "created_at": "2026-03-19T01:17:25.334000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "symptom",
+      "display_name": "Symptom",
+      "stat_downloads": 324,
+      "stat_stars": 0,
+      "created_at": "2026-03-16T07:03:15.017000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "pantry",
+      "display_name": "Pantry",
+      "stat_downloads": 318,
+      "stat_stars": 0,
+      "created_at": "2026-03-16T07:04:03.475000",
+      "days_old": 56,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "sandbox",
+      "display_name": "Sandbox",
+      "stat_downloads": 315,
+      "stat_stars": 0,
+      "created_at": "2026-03-23T22:18:40.817000",
+      "days_old": 49,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "engine",
+      "display_name": "Engine",
+      "stat_downloads": 313,
+      "stat_stars": 0,
+      "created_at": "2026-03-21T13:18:34.988000",
+      "days_old": 51,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "valve",
+      "display_name": "Valve",
+      "stat_downloads": 313,
+      "stat_stars": 0,
+      "created_at": "2026-03-20T12:18:10.290000",
+      "days_old": 52,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "candlestick",
+      "display_name": "Candlestick",
+      "stat_downloads": 309,
+      "stat_stars": 0,
+      "created_at": "2026-03-22T14:17:46.325000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "beer",
+      "display_name": "Beer",
+      "stat_downloads": 309,
+      "stat_stars": 0,
+      "created_at": "2026-03-17T21:27:24.681000",
+      "days_old": 55,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "genai-toolkit",
+      "display_name": "Genai Toolkit",
+      "stat_downloads": 305,
+      "stat_stars": 0,
+      "created_at": "2026-03-19T23:19:20.700000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "debug-assistant",
+      "display_name": "debug-assistant",
+      "stat_downloads": 304,
+      "stat_stars": 0,
+      "created_at": "2026-03-29T01:13:19.347000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "filewatch",
+      "display_name": "Filewatch",
+      "stat_downloads": 304,
+      "stat_stars": 0,
+      "created_at": "2026-03-18T04:28:56.061000",
+      "days_old": 54,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "md-convert",
+      "display_name": "Md Convert",
+      "stat_downloads": 300,
+      "stat_stars": 0,
+      "created_at": "2026-03-18T13:33:39.338000",
+      "days_old": 54,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "github-readme-maker",
+      "display_name": "Github Readme Maker",
+      "stat_downloads": 300,
+      "stat_stars": 0,
+      "created_at": "2026-03-13T16:02:46.367000",
+      "days_old": 59,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "dev-environment",
+      "display_name": "Dev Environment",
+      "stat_downloads": 299,
+      "stat_stars": 0,
+      "created_at": "2026-03-19T11:19:11.502000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "load-tester",
+      "display_name": "Load Tester",
+      "stat_downloads": 298,
+      "stat_stars": 0,
+      "created_at": "2026-03-19T11:20:01.273000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "poem",
+      "display_name": "Poem",
+      "stat_downloads": 296,
+      "stat_stars": 0,
+      "created_at": "2026-03-18T00:40:26.631000",
+      "days_old": 54,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "nft",
+      "display_name": "Nft",
+      "stat_downloads": 293,
+      "stat_stars": 0,
+      "created_at": "2026-03-23T20:17:19.412000",
+      "days_old": 49,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "trace",
+      "display_name": "Trace",
+      "stat_downloads": 293,
+      "stat_stars": 0,
+      "created_at": "2026-03-19T05:17:23.107000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "slideshow-generator",
+      "display_name": "Slideshow Generator",
+      "stat_downloads": 291,
+      "stat_stars": 0,
+      "created_at": "2026-03-19T05:19:12.619000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "microservice-gen",
+      "display_name": "Microservice Gen",
+      "stat_downloads": 290,
+      "stat_stars": 0,
+      "created_at": "2026-03-20T01:18:59.542000",
+      "days_old": 52,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "schema",
+      "display_name": "Schema",
+      "stat_downloads": 288,
+      "stat_stars": 0,
+      "created_at": "2026-03-19T01:17:59.080000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "gpio",
+      "display_name": "Gpio",
+      "stat_downloads": 287,
+      "stat_stars": 0,
+      "created_at": "2026-03-18T04:28:14.946000",
+      "days_old": 54,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "mailcheck",
+      "display_name": "Mailcheck",
+      "stat_downloads": 285,
+      "stat_stars": 0,
+      "created_at": "2026-03-18T04:29:15.405000",
+      "days_old": 54,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "cam",
+      "display_name": "Cam",
+      "stat_downloads": 282,
+      "stat_stars": 0,
+      "created_at": "2026-03-20T12:17:49.424000",
+      "days_old": 52,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "ascii-mindmap",
+      "display_name": "ascii-mindmap",
+      "stat_downloads": 281,
+      "stat_stars": 0,
+      "created_at": "2026-03-29T01:13:28.254000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "scada",
+      "display_name": "Scada",
+      "stat_downloads": 281,
+      "stat_stars": 0,
+      "created_at": "2026-03-20T12:17:23.456000",
+      "days_old": 52,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "deployer",
+      "display_name": "Deployer",
+      "stat_downloads": 281,
+      "stat_stars": 0,
+      "created_at": "2026-03-19T05:18:46.453000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "pid",
+      "display_name": "Pid",
+      "stat_downloads": 279,
+      "stat_stars": 0,
+      "created_at": "2026-03-20T19:18:57.646000",
+      "days_old": 52,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "graphql-client",
+      "display_name": "Graphql Client",
+      "stat_downloads": 279,
+      "stat_stars": 0,
+      "created_at": "2026-03-19T11:19:38.970000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "kaizen",
+      "display_name": "Kaizen",
+      "stat_downloads": 274,
+      "stat_stars": 0,
+      "created_at": "2026-03-21T11:17:49.871000",
+      "days_old": 51,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "piston",
+      "display_name": "Piston",
+      "stat_downloads": 272,
+      "stat_stars": 0,
+      "created_at": "2026-03-20T12:18:31.547000",
+      "days_old": 52,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "responsive-tester",
+      "display_name": "Responsive Tester",
+      "stat_downloads": 271,
+      "stat_stars": 0,
+      "created_at": "2026-03-20T01:19:32.161000",
+      "days_old": 52,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "lockout",
+      "display_name": "Lockout",
+      "stat_downloads": 268,
+      "stat_stars": 0,
+      "created_at": "2026-03-20T19:17:25.654000",
+      "days_old": 52,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "jit",
+      "display_name": "Jit",
+      "stat_downloads": 267,
+      "stat_stars": 0,
+      "created_at": "2026-03-21T12:17:20.431000",
+      "days_old": 51,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "typescript-backend-toolkit",
+      "display_name": "Typescript Backend Toolkit",
+      "stat_downloads": 267,
+      "stat_stars": 0,
+      "created_at": "2026-03-20T05:19:43.924000",
+      "days_old": 52,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "data-labeler",
+      "display_name": "Data Labeler",
+      "stat_downloads": 267,
+      "stat_stars": 0,
+      "created_at": "2026-03-19T11:18:44.008000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "slot",
+      "display_name": "Slot",
+      "stat_downloads": 266,
+      "stat_stars": 0,
+      "created_at": "2026-03-21T20:17:50.492000",
+      "days_old": 51,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "sox",
+      "display_name": "Sox",
+      "stat_downloads": 266,
+      "stat_stars": 1,
+      "created_at": "2026-03-21T14:19:52.656000",
+      "days_old": 51,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "mlfinlab",
+      "display_name": "Mlfinlab",
+      "stat_downloads": 265,
+      "stat_stars": 0,
+      "created_at": "2026-03-19T05:18:19.836000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "dedupe",
+      "display_name": "Dedupe",
+      "stat_downloads": 263,
+      "stat_stars": 0,
+      "created_at": "2026-03-21T13:18:17.601000",
+      "days_old": 51,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "mining",
+      "display_name": "Mining",
+      "stat_downloads": 262,
+      "stat_stars": 0,
+      "created_at": "2026-03-21T20:17:20.073000",
+      "days_old": 51,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "subpoena",
+      "display_name": "Subpoena",
+      "stat_downloads": 261,
+      "stat_stars": 0,
+      "created_at": "2026-03-21T14:20:13.759000",
+      "days_old": 51,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "markpad",
+      "display_name": "Markpad",
+      "stat_downloads": 260,
+      "stat_stars": 0,
+      "created_at": "2026-03-18T13:33:17.798000",
+      "days_old": 54,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "zsh-themes",
+      "display_name": "Zsh Themes",
+      "stat_downloads": 259,
+      "stat_stars": 0,
+      "created_at": "2026-03-19T11:18:22.420000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "plant",
+      "display_name": "Plant",
+      "stat_downloads": 258,
+      "stat_stars": 0,
+      "created_at": "2026-03-17T22:33:29.020000",
+      "days_old": 55,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "cex",
+      "display_name": "Cex",
+      "stat_downloads": 256,
+      "stat_stars": 0,
+      "created_at": "2026-03-21T20:18:21.021000",
+      "days_old": 51,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "sysinfo-fetch",
+      "display_name": "Sysinfo Fetch",
+      "stat_downloads": 256,
+      "stat_stars": 0,
+      "created_at": "2026-03-20T05:18:49.567000",
+      "days_old": 52,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "web-check",
+      "display_name": "Web Check",
+      "stat_downloads": 256,
+      "stat_stars": 0,
+      "created_at": "2026-03-19T14:21:08.242000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "keyvault",
+      "display_name": "Keyvault",
+      "stat_downloads": 255,
+      "stat_stars": 0,
+      "created_at": "2026-03-18T11:02:08.377000",
+      "days_old": 54,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "amortize",
+      "display_name": "Amortize",
+      "stat_downloads": 253,
+      "stat_stars": 0,
+      "created_at": "2026-03-19T14:54:11.651000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "sketch-board",
+      "display_name": "Sketch Board",
+      "stat_downloads": 251,
+      "stat_stars": 0,
+      "created_at": "2026-03-19T14:20:13.074000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "tidyup",
+      "display_name": "Tidyup",
+      "stat_downloads": 251,
+      "stat_stars": 0,
+      "created_at": "2026-03-18T11:02:32.604000",
+      "days_old": 54,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "tooltip",
+      "display_name": "Tooltip",
+      "stat_downloads": 250,
+      "stat_stars": 0,
+      "created_at": "2026-03-21T12:18:18.260000",
+      "days_old": 51,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "traceroute-visual",
+      "display_name": "Traceroute Visual",
+      "stat_downloads": 250,
+      "stat_stars": 0,
+      "created_at": "2026-03-20T05:19:10.764000",
+      "days_old": 52,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "eula",
+      "display_name": "Eula",
+      "stat_downloads": 249,
+      "stat_stars": 0,
+      "created_at": "2026-03-21T13:18:45.292000",
+      "days_old": 51,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "fixture",
+      "display_name": "Fixture",
+      "stat_downloads": 248,
+      "stat_stars": 0,
+      "created_at": "2026-03-18T22:37:06.562000",
+      "days_old": 54,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "clipbox",
+      "display_name": "Clipbox",
+      "stat_downloads": 248,
+      "stat_stars": 0,
+      "created_at": "2026-03-18T11:02:53.653000",
+      "days_old": 54,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "server-dashboard",
+      "display_name": "Server Dashboard",
+      "stat_downloads": 246,
+      "stat_stars": 0,
+      "created_at": "2026-03-20T05:18:22.961000",
+      "days_old": 52,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "phosphate",
+      "display_name": "Phosphate",
+      "stat_downloads": 245,
+      "stat_stars": 0,
+      "created_at": "2026-03-21T14:19:09.085000",
+      "days_old": 51,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "lunardate",
+      "display_name": "Lunardate",
+      "stat_downloads": 244,
+      "stat_stars": 0,
+      "created_at": "2026-03-19T05:17:53.858000",
+      "days_old": 53,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "beta",
+      "display_name": "Beta",
+      "stat_downloads": 242,
+      "stat_stars": 0,
+      "created_at": "2026-03-21T12:18:45.152000",
+      "days_old": 51,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "contactor",
+      "display_name": "Contactor",
+      "stat_downloads": 241,
+      "stat_stars": 0,
+      "created_at": "2026-03-20T19:18:29.761000",
+      "days_old": 52,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "tidyfiles",
+      "display_name": "Tidyfiles",
+      "stat_downloads": 240,
+      "stat_stars": 0,
+      "created_at": "2026-03-18T11:03:36.050000",
+      "days_old": 54,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "compost",
+      "display_name": "Compost",
+      "stat_downloads": 239,
+      "stat_stars": 0,
+      "created_at": "2026-03-21T12:19:36.164000",
+      "days_old": 51,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "osha",
+      "display_name": "Osha",
+      "stat_downloads": 239,
+      "stat_stars": 0,
+      "created_at": "2026-03-21T11:17:18.915000",
+      "days_old": 51,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "andon",
+      "display_name": "Andon",
+      "stat_downloads": 237,
+      "stat_stars": 0,
+      "created_at": "2026-03-20T19:18:00.935000",
+      "days_old": 52,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "mes",
+      "display_name": "Mes",
+      "stat_downloads": 235,
+      "stat_stars": 0,
+      "created_at": "2026-03-20T12:18:53.882000",
+      "days_old": 52,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "lifegoals",
+      "display_name": "Lifegoals",
+      "stat_downloads": 233,
+      "stat_stars": 0,
+      "created_at": "2026-03-18T11:03:14.741000",
+      "days_old": 54,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "bytesagain-charts",
+      "display_name": "Bytesagain Charts",
+      "stat_downloads": 232,
+      "stat_stars": 1,
+      "created_at": "2026-03-27T17:41:27.735000",
+      "days_old": 45,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "scroll",
+      "display_name": "Scroll",
+      "stat_downloads": 231,
+      "stat_stars": 0,
+      "created_at": "2026-03-22T15:18:10.828000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "orc",
+      "display_name": "Orc",
+      "stat_downloads": 228,
+      "stat_stars": 0,
+      "created_at": "2026-03-24T07:17:44.934000",
+      "days_old": 48,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "vyper",
+      "display_name": "Vyper",
+      "stat_downloads": 228,
+      "stat_stars": 0,
+      "created_at": "2026-03-22T14:19:06.900000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "timeblock",
+      "display_name": "Timeblock",
+      "stat_downloads": 228,
+      "stat_stars": 0,
+      "created_at": "2026-03-18T04:29:37.261000",
+      "days_old": 54,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "hydrate",
+      "display_name": "Hydrate",
+      "stat_downloads": 227,
+      "stat_stars": 0,
+      "created_at": "2026-03-21T12:19:10.791000",
+      "days_old": 51,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "germination",
+      "display_name": "Germination",
+      "stat_downloads": 226,
+      "stat_stars": 0,
+      "created_at": "2026-03-21T14:18:43.719000",
+      "days_old": 51,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "renko",
+      "display_name": "Renko",
+      "stat_downloads": 225,
+      "stat_stars": 0,
+      "created_at": "2026-03-22T14:18:15.873000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "aide",
+      "display_name": "Aide",
+      "stat_downloads": 224,
+      "stat_stars": 0,
+      "created_at": "2026-03-24T07:17:03.333000",
+      "days_old": 48,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "obv",
+      "display_name": "Obv",
+      "stat_downloads": 223,
+      "stat_stars": 0,
+      "created_at": "2026-03-22T14:18:40.710000",
+      "days_old": 50,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "flashloan",
+      "display_name": "Flashloan",
+      "stat_downloads": 220,
+      "stat_stars": 0,
+      "created_at": "2026-03-21T20:19:10.149000",
+      "days_old": 51,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "csp",
+      "display_name": "Csp",
+      "stat_downloads": 217,
+      "stat_stars": 0,
+      "created_at": "2026-03-23T22:17:20.742000",
+      "days_old": 49,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "journald",
+      "display_name": "Journald",
+      "stat_downloads": 214,
+      "stat_stars": 0,
+      "created_at": "2026-03-23T22:18:13.476000",
+      "days_old": 49,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "delta",
+      "display_name": "Delta",
+      "stat_downloads": 214,
+      "stat_stars": 0,
+      "created_at": "2026-03-23T20:18:35.365000",
+      "days_old": 49,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "irr",
+      "display_name": "Irr",
+      "stat_downloads": 213,
+      "stat_stars": 0,
+      "created_at": "2026-03-23T20:19:26.109000",
+      "days_old": 49,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "rugpull",
+      "display_name": "Rugpull",
+      "stat_downloads": 213,
+      "stat_stars": 0,
+      "created_at": "2026-03-21T20:19:32.354000",
+      "days_old": 51,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "apparmor",
+      "display_name": "Apparmor",
+      "stat_downloads": 212,
+      "stat_stars": 0,
+      "created_at": "2026-03-23T22:19:05.875000",
+      "days_old": 49,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "bytesagain-coffee",
+      "display_name": "Bytesagain Coffee",
+      "stat_downloads": 210,
+      "stat_stars": 0,
+      "created_at": "2026-03-27T17:43:42.805000",
+      "days_old": 45,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "black-scholes",
+      "display_name": "Black Scholes",
+      "stat_downloads": 210,
+      "stat_stars": 0,
+      "created_at": "2026-03-23T20:19:00.880000",
+      "days_old": 49,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "strace",
+      "display_name": "Strace",
+      "stat_downloads": 209,
+      "stat_stars": 0,
+      "created_at": "2026-03-23T22:17:47.141000",
+      "days_old": 49,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "coldwallet",
+      "display_name": "Coldwallet",
+      "stat_downloads": 209,
+      "stat_stars": 0,
+      "created_at": "2026-03-23T20:17:43.775000",
+      "days_old": 49,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "learn-planner",
+      "display_name": "learn-planner",
+      "stat_downloads": 205,
+      "stat_stars": 0,
+      "created_at": "2026-03-29T01:13:32.567000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "bytesagain-crypto",
+      "display_name": "Bytesagain Crypto",
+      "stat_downloads": 196,
+      "stat_stars": 0,
+      "created_at": "2026-03-27T17:46:13.328000",
+      "days_old": 45,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "proj-builder",
+      "display_name": "proj-builder",
+      "stat_downloads": 194,
+      "stat_stars": 0,
+      "created_at": "2026-03-29T01:13:23.879000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": false
+    },
+    {
+      "slug": "redis-tools",
+      "display_name": "redis-tools",
+      "stat_downloads": 190,
+      "stat_stars": 0,
+      "created_at": "2026-03-29T01:13:36.966000",
+      "days_old": 43,
+      "is_highlighted": false,
+      "is_suspicious": true
+    },
+    {
+      "slug": "seo-scout-pro",
+      "display_name": "Seo Scout Pro",
+      "stat_downloads": 179,
+      "stat_stars": 0,
+      "created_at": "2026-03-24T01:44:26.640000",
+      "days_old": 48,
+      "is_highlighted": false,
+      "is_suspicious": true
+    }
+  ],
+  "trajectory": [
+    {
+      "run_date": "2026-03-18T09:34:08.772710",
+      "downloads": 16996,
+      "stars": 2
+    },
+    {
+      "run_date": "2026-03-19T03:00:00.875517",
+      "downloads": 17904,
+      "stars": 2
+    },
+    {
+      "run_date": "2026-03-20T03:00:00.833403",
+      "downloads": 20688,
+      "stars": 3
+    },
+    {
+      "run_date": "2026-03-21T03:00:00.776166",
+      "downloads": 22484,
+      "stars": 3
+    },
+    {
+      "run_date": "2026-03-22T03:00:00.645113",
+      "downloads": 23943,
+      "stars": 3
+    },
+    {
+      "run_date": "2026-03-23T03:00:00.753584",
+      "downloads": 25582,
+      "stars": 5
+    },
+    {
+      "run_date": "2026-03-24T14:13:35.104417",
+      "downloads": 30263,
+      "stars": 5
+    },
+    {
+      "run_date": "2026-03-24T16:57:13.814672",
+      "downloads": 30485,
+      "stars": 5
+    },
+    {
+      "run_date": "2026-03-25T03:00:00.456013",
+      "downloads": 30961,
+      "stars": 5
+    },
+    {
+      "run_date": "2026-03-26T03:00:00.708668",
+      "downloads": 32411,
+      "stars": 6
+    },
+    {
+      "run_date": "2026-03-27T14:10:05.719067",
+      "downloads": 35802,
+      "stars": 6
+    },
+    {
+      "run_date": "2026-03-27T17:40:37.408934",
+      "downloads": 35802,
+      "stars": 6
+    },
+    {
+      "run_date": "2026-03-28T03:00:00.365056",
+      "downloads": 36489,
+      "stars": 7
+    },
+    {
+      "run_date": "2026-03-29T03:00:00.679954",
+      "downloads": 37960,
+      "stars": 7
+    },
+    {
+      "run_date": "2026-03-30T03:00:00.682509",
+      "downloads": 39167,
+      "stars": 7
+    },
+    {
+      "run_date": "2026-03-31T03:00:00.702238",
+      "downloads": 40365,
+      "stars": 7
+    },
+    {
+      "run_date": "2026-04-01T03:00:00.631568",
+      "downloads": 42271,
+      "stars": 8
+    },
+    {
+      "run_date": "2026-04-07T08:32:21.256392",
+      "downloads": 49309,
+      "stars": 11
+    },
+    {
+      "run_date": "2026-04-08T02:59:53.612026",
+      "downloads": 50442,
+      "stars": 11
+    },
+    {
+      "run_date": "2026-04-09T03:00:00.814082",
+      "downloads": 51595,
+      "stars": 11
+    },
+    {
+      "run_date": "2026-04-10T03:00:00.610465",
+      "downloads": 52892,
+      "stars": 11
+    },
+    {
+      "run_date": "2026-04-11T03:00:00.635800",
+      "downloads": 54535,
+      "stars": 11
+    },
+    {
+      "run_date": "2026-04-12T03:00:00.326052",
+      "downloads": 55428,
+      "stars": 11
+    },
+    {
+      "run_date": "2026-04-13T03:00:00.295537",
+      "downloads": 56367,
+      "stars": 11
+    },
+    {
+      "run_date": "2026-04-18T02:59:55.390364",
+      "downloads": 61308,
+      "stars": 11
+    },
+    {
+      "run_date": "2026-04-19T03:00:00.676118",
+      "downloads": 62495,
+      "stars": 11
+    },
+    {
+      "run_date": "2026-04-20T03:00:00.599318",
+      "downloads": 63381,
+      "stars": 11
+    },
+    {
+      "run_date": "2026-04-21T03:00:00.575737",
+      "downloads": 64227,
+      "stars": 11
+    },
+    {
+      "run_date": "2026-04-22T03:00:00.762090",
+      "downloads": 65194,
+      "stars": 11
+    },
+    {
+      "run_date": "2026-04-23T03:00:00.767159",
+      "downloads": 66133,
+      "stars": 11
+    },
+    {
+      "run_date": "2026-04-24T03:00:00.604086",
+      "downloads": 66964,
+      "stars": 11
+    },
+    {
+      "run_date": "2026-04-28T02:59:56.742214",
+      "downloads": 70964,
+      "stars": 11
+    },
+    {
+      "run_date": "2026-04-29T03:01:44.166793",
+      "downloads": 72145,
+      "stars": 11
+    },
+    {
+      "run_date": "2026-04-30T03:00:00.711115",
+      "downloads": 73384,
+      "stars": 11
+    },
+    {
+      "run_date": "2026-05-02T02:59:59.833385",
+      "downloads": 75867,
+      "stars": 12
+    },
+    {
+      "run_date": "2026-05-03T03:42:13.922530",
+      "downloads": 77032,
+      "stars": 12
+    },
+    {
+      "run_date": "2026-05-05T00:41:38.231465",
+      "downloads": 80594,
+      "stars": 12
+    },
+    {
+      "run_date": "2026-05-05T03:00:00.321955",
+      "downloads": 80796,
+      "stars": 12
+    },
+    {
+      "run_date": "2026-05-06T03:00:00.570710",
+      "downloads": 83236,
+      "stars": 12
+    },
+    {
+      "run_date": "2026-05-07T03:00:00.572063",
+      "downloads": 86979,
+      "stars": 12
+    },
+    {
+      "run_date": "2026-05-09T03:44:10.833903",
+      "downloads": 90999,
+      "stars": 12
+    },
+    {
+      "run_date": "2026-05-10T03:00:00.531823",
+      "downloads": 93178,
+      "stars": 13
+    },
+    {
+      "run_date": "2026-05-11T03:00:00.316612",
+      "downloads": 95678,
+      "stars": 13
+    }
+  ],
+  "download_trajectory": [
+    16996,
+    17904,
+    20688,
+    22484,
+    23943,
+    25582,
+    30263,
+    30485,
+    30961,
+    32411,
+    35802,
+    35802,
+    36489,
+    37960,
+    39167,
+    40365,
+    42271,
+    49309,
+    50442,
+    51595,
+    52892,
+    54535,
+    55428,
+    56367,
+    61308,
+    62495,
+    63381,
+    64227,
+    65194,
+    66133,
+    66964,
+    70964,
+    72145,
+    73384,
+    75867,
+    77032,
+    80594,
+    80796,
+    83236,
+    86979,
+    90999,
+    93178,
+    95678
+  ]
+}

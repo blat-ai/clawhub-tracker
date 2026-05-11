@@ -1,0 +1,241 @@
+{
+  "skill_id": "kd7ac9tw3bkj2b7h2wpr3r4v0n83w91s",
+  "slug": "pollyreach",
+  "display_name": "PollyReach",
+  "summary": "PollyReach gives every AI agent a phone number and the ability to get things done over the phone \u2014 finding contacts, making calls, and completing tasks. Just...",
+  "owner_handle": "pollyreach",
+  "owner_image": "https://avatars.githubusercontent.com/u/268168328?v=4",
+  "created_at": "2026-03-30T01:04:21.757000",
+  "days_old": 42,
+  "stat_downloads": 97117,
+  "stat_stars": 42,
+  "tags": {
+    "latest": "k978yctjgem72y8h0d4sfgw7en83wmq9"
+  },
+  "badges": null,
+  "stat_installs": 6,
+  "stat_comments": 0,
+  "current_version": "1.0.3",
+  "is_highlighted": false,
+  "is_suspicious": false,
+  "velocity": 2312.3,
+  "acceleration_pct": -18.7,
+  "dl_delta": 72,
+  "dl_wow": 0.1,
+  "star_delta": 0,
+  "star_wow": 0.0,
+  "installs_delta": 0,
+  "installs_wow": 0.0,
+  "history": [
+    {
+      "run_date": "2026-03-30T03:00:00.682509",
+      "downloads": 0,
+      "stars": 0,
+      "installs_all_time": 0,
+      "installs_current": 0
+    },
+    {
+      "run_date": "2026-03-31T03:00:00.702238",
+      "downloads": 45,
+      "stars": 3,
+      "installs_all_time": 0,
+      "installs_current": 0
+    },
+    {
+      "run_date": "2026-04-01T03:00:00.631568",
+      "downloads": 377,
+      "stars": 3,
+      "installs_all_time": 0,
+      "installs_current": 0
+    },
+    {
+      "run_date": "2026-04-07T08:32:21.256392",
+      "downloads": 5074,
+      "stars": 4,
+      "installs_all_time": 1,
+      "installs_current": 1
+    },
+    {
+      "run_date": "2026-04-08T02:59:53.612026",
+      "downloads": 5086,
+      "stars": 4,
+      "installs_all_time": 1,
+      "installs_current": 1
+    },
+    {
+      "run_date": "2026-04-09T03:00:00.814082",
+      "downloads": 7073,
+      "stars": 4,
+      "installs_all_time": 1,
+      "installs_current": 1
+    },
+    {
+      "run_date": "2026-04-10T03:00:00.610465",
+      "downloads": 7086,
+      "stars": 4,
+      "installs_all_time": 2,
+      "installs_current": 2
+    },
+    {
+      "run_date": "2026-04-11T03:00:00.635800",
+      "downloads": 19680,
+      "stars": 5,
+      "installs_all_time": 2,
+      "installs_current": 2
+    },
+    {
+      "run_date": "2026-04-12T03:00:00.326052",
+      "downloads": 57208,
+      "stars": 5,
+      "installs_all_time": 2,
+      "installs_current": 2
+    },
+    {
+      "run_date": "2026-04-13T03:00:00.295537",
+      "downloads": 71028,
+      "stars": 5,
+      "installs_all_time": 2,
+      "installs_current": 2
+    },
+    {
+      "run_date": "2026-04-18T02:59:55.390364",
+      "downloads": 94541,
+      "stars": 23,
+      "installs_all_time": 2,
+      "installs_current": 2
+    },
+    {
+      "run_date": "2026-04-19T03:00:00.676118",
+      "downloads": 95477,
+      "stars": 25,
+      "installs_all_time": 2,
+      "installs_current": 2
+    },
+    {
+      "run_date": "2026-04-20T03:00:00.599318",
+      "downloads": 95572,
+      "stars": 26,
+      "installs_all_time": 2,
+      "installs_current": 2
+    },
+    {
+      "run_date": "2026-04-21T03:00:00.575737",
+      "downloads": 95670,
+      "stars": 27,
+      "installs_all_time": 2,
+      "installs_current": 2
+    },
+    {
+      "run_date": "2026-04-22T03:00:00.762090",
+      "downloads": 95773,
+      "stars": 29,
+      "installs_all_time": 2,
+      "installs_current": 2
+    },
+    {
+      "run_date": "2026-04-23T03:00:00.767159",
+      "downloads": 95858,
+      "stars": 32,
+      "installs_all_time": 2,
+      "installs_current": 2
+    },
+    {
+      "run_date": "2026-04-24T03:00:00.604086",
+      "downloads": 95924,
+      "stars": 32,
+      "installs_all_time": 2,
+      "installs_current": 2
+    },
+    {
+      "run_date": "2026-04-28T02:59:56.742214",
+      "downloads": 96170,
+      "stars": 36,
+      "installs_all_time": 3,
+      "installs_current": 3
+    },
+    {
+      "run_date": "2026-04-29T03:01:44.166793",
+      "downloads": 96244,
+      "stars": 37,
+      "installs_all_time": 3,
+      "installs_current": 3
+    },
+    {
+      "run_date": "2026-04-30T03:00:00.711115",
+      "downloads": 96302,
+      "stars": 37,
+      "installs_all_time": 3,
+      "installs_current": 3
+    },
+    {
+      "run_date": "2026-05-02T02:59:59.833385",
+      "downloads": 96406,
+      "stars": 37,
+      "installs_all_time": 5,
+      "installs_current": 4
+    },
+    {
+      "run_date": "2026-05-03T03:42:13.922530",
+      "downloads": 96443,
+      "stars": 37,
+      "installs_all_time": 5,
+      "installs_current": 4
+    },
+    {
+      "run_date": "2026-05-05T00:41:38.231465",
+      "downloads": 96586,
+      "stars": 37,
+      "installs_all_time": 5,
+      "installs_current": 4
+    },
+    {
+      "run_date": "2026-05-05T03:00:00.321955",
+      "downloads": 96593,
+      "stars": 38,
+      "installs_all_time": 5,
+      "installs_current": 4
+    },
+    {
+      "run_date": "2026-05-06T03:00:00.570710",
+      "downloads": 96683,
+      "stars": 38,
+      "installs_all_time": 5,
+      "installs_current": 4
+    },
+    {
+      "run_date": "2026-05-07T03:00:00.572063",
+      "downloads": 96775,
+      "stars": 39,
+      "installs_all_time": 5,
+      "installs_current": 4
+    },
+    {
+      "run_date": "2026-05-09T03:44:10.833903",
+      "downloads": 96969,
+      "stars": 42,
+      "installs_all_time": 6,
+      "installs_current": 5
+    },
+    {
+      "run_date": "2026-05-10T03:00:00.531823",
+      "downloads": 97045,
+      "stars": 42,
+      "installs_all_time": 6,
+      "installs_current": 5
+    },
+    {
+      "run_date": "2026-05-11T03:00:00.316612",
+      "downloads": 97117,
+      "stars": 42,
+      "installs_all_time": 6,
+      "installs_current": 5
+    }
+  ],
+  "version_releases": [
+    {
+      "version_number": "1.0.3",
+      "run_date": "2026-03-31T03:00:00.702238",
+      "changelog": "- Added explicit permissions for network access to PollyReach API endpoints.\n- Granted read/write file access to the PollyReach credentials file (`~/.config/PollyReach/key.json`).\n- Declared required dependencies (`curl`, `jq`, `bc`) and provided installation instructions for `jq`.\n- Documented available scripts and their purposes, including for outbound calls, activation, balance checking, inbound calls, and prompt updates."
+    }
+  ]
+}
